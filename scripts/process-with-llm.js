@@ -400,8 +400,9 @@ async function processArticlesWithAI() {
     // Generate summary
     const summary = await generateSummary(article.title, article.metaDescription, article.source, useAI);
     
-    // Apply confidence threshold filter - reject articles below 60%
-    if (result.confidence < 0.60) {
+      // Apply confidence threshold filter - reject articles below threshold (configurable via PROCESS_CONFIDENCE_THRESHOLD env var)
+const confidenceThreshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
+  if (result.confidence < confidenceThreshold) {
       console.log(`❌ Rejected low confidence (${(result.confidence * 100).toFixed(1)}%): ${article.title.substring(0, 60)}...`);
       rejectedLowConfidence++;
       continue; // Skip this article
@@ -458,7 +459,8 @@ async function processArticlesWithAI() {
   console.log(`📊 Total articles: ${allProcessedArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
   console.log(`🎯 New categories found:`, Object.keys(categoryStats).join(', ') || 'none');
   if (rejectedLowConfidence > 0) {
-    console.log(`🚫 Rejected ${rejectedLowConfidence} articles with confidence < 60%`);
+    const threshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
+    console.log(`🚫 Rejected ${rejectedLowConfidence} articles with confidence < ${(threshold * 100).toFixed(0)}%`);
   }
   console.log(`💾 Saved to: ${latestPath}`);
   console.log(`📅 Historical backup: ${datePath}`);

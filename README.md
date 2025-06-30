@@ -1,6 +1,14 @@
-# 🤖 AI News Daily
+<div align="center">
 
-A free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs.
+![AI News Daily Logo](logo.svg)
+
+</div>
+
+---
+
+## ✨ About
+
+**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs.
 
 ## ✨ Features
 
@@ -97,6 +105,29 @@ ai-news-daily/
 ```
 
 ## 🔧 Configuration
+
+### Environment Variables
+
+You can customize the AI processing behavior using environment variables:
+
+```bash
+# AI Confidence Threshold (0.0 - 1.0)
+# Articles below this confidence score will be filtered out
+# Lower values = more articles but potentially lower quality
+# Higher values = fewer articles but higher quality
+# Default: 0.30 (30%)
+export CONFIDENCE_THRESHOLD=0.30
+
+# For local development
+CONFIDENCE_THRESHOLD=0.20 npm run crawl  # Get more articles
+CONFIDENCE_THRESHOLD=0.40 npm run crawl  # Get fewer, higher-quality articles
+```
+
+**In GitHub Actions**: Edit `.github/workflows/daily-crawl.yml` and update:
+```yaml
+env:
+  CONFIDENCE_THRESHOLD: '0.30'  # Adjust as needed
+```
 
 ### Adding RSS Sources
 

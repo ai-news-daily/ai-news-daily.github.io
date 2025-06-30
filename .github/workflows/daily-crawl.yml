@@ -142,8 +142,8 @@ jobs:
           git config --local user.email "ai-news-bot@users.noreply.github.com"
           git config --local user.name "AI News Bot"
           
-          # Stash any uncommitted changes before pulling
-          git stash push -m "Auto-stash before pull" || echo "Nothing to stash"
+          # Stash any uncommitted changes (including untracked files) before pulling
+          git stash push -u -m "Auto-stash before pull" || echo "Nothing to stash"
           
           # Pull latest changes first to avoid conflicts
           git pull origin main --rebase || {
@@ -253,3 +253,4 @@ env:
   ORT_LOG_LEVEL: '3'  # Suppress ONNX runtime warnings
   ONNX_DISABLE_WARNINGS: '1'
   ONNXRUNTIME_LOG_LEVEL: '3' 
+  CONFIDENCE_THRESHOLD: '0.30'  # AI confidence threshold for article filtering 

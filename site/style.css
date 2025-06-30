@@ -1259,4 +1259,32 @@ h1, h2, h3, h4, h5, h6 {
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+}
+
+/* Footer Styles */
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 1.5rem;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.site-footer p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    margin-top: 2rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  .site-footer p {
+    font-size: 0.8125rem;
+  }
 } 

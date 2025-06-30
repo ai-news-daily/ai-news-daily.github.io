@@ -42,32 +42,52 @@ async function isAIRelevantAI(title, description = '') {
   try {
     const text = `${title} ${description}`.substring(0, 500); // Limit for performance
     
-    // Define AI-related and non-AI categories for classification
-    const categories = [
-      'artificial intelligence and machine learning',
-      'computer science and programming', 
-      'mathematics and pure science',
-      'sports and entertainment',
-      'politics and current events'
+    // STAGE 1: Binary AI Relevance Check (more focused, less confusing categories)
+    const binaryCategories = [
+      'AI and machine learning related content',
+      'Non-AI technical content', 
+      'General news and entertainment'
     ];
     
-    const result = await aiClassifier(text, categories);
+    const binaryResult = await aiClassifier(text, binaryCategories);
+    const isAIRelated = binaryResult.scores[0] > Math.max(binaryResult.scores[1], binaryResult.scores[2]);
+    const aiConfidence = binaryResult.scores[0];
     
-    // Check if AI/CS categories score higher than non-AI categories
-    const aiScore = result.scores[0] + result.scores[1]; // AI + CS
-    const nonAiScore = result.scores[2] + result.scores[3] + result.scores[4]; // Math + Sports + Politics
+    // STAGE 2: If AI-related, get specific AI category for better insights
+    let specificCategory = 'artificial intelligence and machine learning';
+    let specificConfidence = aiConfidence;
     
-    const isAIRelated = aiScore > nonAiScore && result.scores[0] > 0.3; // AI category should be reasonably confident
+    if (isAIRelated) {
+      const aiSpecificCategories = [
+        'LLM and language models',
+        'Computer vision and image AI',
+        'AI tools and developer platforms',
+        'AI research and papers',
+        'AI business and industry news'
+      ];
+      
+      const specificResult = await aiClassifier(text, aiSpecificCategories);
+      specificCategory = specificResult.labels[0];
+      specificConfidence = Math.max(specificConfidence, specificResult.scores[0]);
+    }
     
-    // Apply 60% confidence threshold for quality filtering
-    const meetsQualityThreshold = result.scores[0] >= 0.60;
+    // Apply CATEGORIZATION_CONFIDENCE_THRESHOLD for quality filtering (default 25%)
+    const confidenceThreshold = parseFloat(process.env.CATEGORIZATION_CONFIDENCE_THRESHOLD || '0.25');
+    const meetsQualityThreshold = aiConfidence >= confidenceThreshold;
+    
+    // Debug logging for better understanding
+    if (isAIRelated && !meetsQualityThreshold) {
+      console.log(`🚫 Quality filtered: "${title.substring(0, 50)}..." (AI confidence: ${(aiConfidence * 100).toFixed(1)}% < ${(confidenceThreshold * 100).toFixed(0)}%)`);
+    } else if (!isAIRelated && aiConfidence > 0.2) {
+      console.log(`❌ AI filtered out: "${title}" (AI confidence: ${aiConfidence.toFixed(2)}, determined as: ${binaryResult.labels[0]})`);
+    }
     
     return {
       isRelevant: isAIRelated,
-      confidence: result.scores[0],
-      topCategory: result.labels[0],
-      aiScore,
-      nonAiScore,
+      confidence: aiConfidence,
+      topCategory: specificCategory,
+      aiScore: aiConfidence,
+      nonAiScore: binaryResult.scores[1] + binaryResult.scores[2],
       meetsQualityThreshold
     };
   } catch (error) {
@@ -249,10 +269,11 @@ async function crawlAllSources() {
   console.log(`📰 Found ${uniqueArticles.length} unique AI articles`);
   console.log(`🧠 AI filtering: ${aiFilterReady ? 'ENABLED' : 'Fallback to keywords'}`);
   if (aiFilterReady && crawlStats.qualityFiltered > 0) {
-    console.log(`🚫 Quality filtered during crawl: ${crawlStats.qualityFiltered} articles (< 60% confidence)`);
+    const threshold = parseFloat(process.env.CRAWL_CONFIDENCE_THRESHOLD || '0.30');
+    console.log(`🚫 Quality filtered during crawl: ${crawlStats.qualityFiltered} articles (< ${(threshold * 100).toFixed(0)}% confidence)`);
   }
   if (aiFilterReady && crawlStats.aiFiltered > 0) {
-    console.log(`🤖 AI relevance filtered: ${crawlStats.aiFiltered} articles`);
+    console.log(`❌ AI relevance filtered: ${crawlStats.aiFiltered} articles`);
   }
   console.log(`📊 Crawl stats: ${crawlStats.totalProcessed} processed → ${uniqueArticles.length} kept`);
   
@@ -321,15 +342,16 @@ async function crawlFeed(source, useAIFilter = false, stats = null) {
         const aiResult = await isAIRelevantAI(title, description);
         
         if (aiResult) {
-          // Apply 60% confidence threshold for quality filtering
+          // Apply confidence threshold for quality filtering
           isRelevant = aiResult.isRelevant && aiResult.meetsQualityThreshold;
           
           // Log AI decisions for debugging and track stats
           if (aiResult.isRelevant && !aiResult.meetsQualityThreshold) {
-            console.log(`🚫 Quality filtered: "${title.substring(0, 50)}..." (confidence: ${(aiResult.confidence * 100).toFixed(1)}% < 60%)`);
+            const threshold = parseFloat(process.env.CRAWL_CONFIDENCE_THRESHOLD || '0.30');
+            console.log(`🚫 Quality filtered: "${title.substring(0, 50)}..." (confidence: ${(aiResult.confidence * 100).toFixed(1)}% < ${(threshold * 100).toFixed(0)}%)`);
             if (stats) stats.qualityFiltered++;
           } else if (!aiResult.isRelevant && aiResult.confidence > 0.2) {
-            console.log(`🤖 AI filtered out: "${title}" (confidence: ${aiResult.confidence.toFixed(2)}, category: ${aiResult.topCategory})`);
+            console.log(`❌ AI filtered out: "${title}" (confidence: ${aiResult.confidence.toFixed(2)}, category: ${aiResult.topCategory})`);
             if (stats) stats.aiFiltered++;
           }
         } else {
