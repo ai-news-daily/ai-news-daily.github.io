@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45  # Allow time for model downloads
     
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     permissions:
       contents: write  # Allow pushing changes
       pages: write     # Allow GitHub Pages deployment
@@ -51,9 +55,11 @@ jobs:
             import('@xenova/transformers').then(async ({pipeline, env}) => {
               env.cacheDir = './.cache';
               console.log('Loading classifier...');
-              await pipeline('zero-shot-classification', 'Xenova/bart-large-mnli');
-              console.log('Loading language detector...');
-              await pipeline('text-classification', 'Xenova/xlm-roberta-base-language-detection');
+              await pipeline('zero-shot-classification', 'Xenova/distilbert-base-uncased-mnli');
+              console.log('Loading summarizer...');
+              await pipeline('summarization', 'Xenova/distilbart-cnn-6-6');
+              console.log('Loading NER...');
+              await pipeline('ner', 'Xenova/bert-base-NER');
               console.log('Models ready!');
             }).catch(console.error);
           " || echo "Model download timeout - will download during processing"
@@ -158,10 +164,14 @@ jobs:
           
           git push
           
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./site
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
           
       - name: Report status
         run: |
@@ -217,12 +227,7 @@ jobs:
             echo "❌ Site health check failed (HTTP $STATUS)"
             exit 1
           fi
-          
-      - name: Notify on failure
-        if: failure()
-        run: |
-          echo "❌ Workflow failed! Check the logs."
-          # Here you could add notifications (email, Slack, etc.)
+
           
 # Environment variables for the workflow
 env:

@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "crawl": "node scripts/crawl.js",
-    "categorize": "node scripts/process-with-llm.js",
+    "categorize": "node scripts/process-clean.js",
     "build": "node scripts/build-site.js",
     "dev": ".venv/bin/python -m http.server 8000 --directory site",
-    "test": "node scripts/crawl.js && node scripts/process-with-llm.js && node scripts/build-site.js"
+    "test": "node scripts/crawl.js && node scripts/process-clean.js && node scripts/build-site.js"
   },
   "keywords": ["ai", "news", "aggregator", "rss", "static-site"],
   "author": "AI News Daily",
