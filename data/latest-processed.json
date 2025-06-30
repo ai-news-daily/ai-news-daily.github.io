@@ -1,8 +1,68 @@
 {
-  "crawledAt": "2025-06-30T10:40:25.116Z",
+  "crawledAt": "2025-06-30T10:51:15.166Z",
   "totalSources": 41,
-  "totalArticles": 63,
+  "totalArticles": 83,
   "articles": [
+    {
+      "title": "Germany’s Hidden AI Advantage: The Language Factor Silicon Valley Missed",
+      "url": "https://www.reddit.com/r/artificial/comments/1lo4e0c/germanys_hidden_ai_advantage_the_language_factor/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T10:48:55.000Z",
+      "metaDescription": "I've been analyzing how linguistic substrate affects LLM performance across morphologically diverse languages and found some interesting patterns that challenge assumptions about training data languag",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.31739273376456484,
+      "crawledAt": "2025-06-30T10:51:10.208Z",
+      "id": "4pv9dr",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9996268153190613,
+          "index": 1,
+          "word": "Germany",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9301438331604004,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.979555606842041,
+          "index": 12,
+          "word": "Factor",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9908638000488281,
+          "index": 13,
+          "word": "Silicon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9899578094482422,
+          "index": 14,
+          "word": "Valley",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Germany’s Hidden AI Advantage: The Language Factor Silicon Valley Missed. The Language factor Silicon Valleymissed.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:51:26.720Z"
+    },
     {
       "title": "Which would be the best uncensored model to run on 4gb Vram laptop using LMStudio?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lo42x8/which_would_be_the_best_uncensored_model_to_run/",
@@ -2117,21 +2177,607 @@
       "summary": " M3PO: Massively Multi-Task Model-Based Policy Optimization. M3P: Massive Multi- Task Model-based Policy Optimisation.",
       "language": "en",
       "processed_at": "2025-06-30T10:43:40.042Z"
+    },
+    {
+      "title": "Multi-task parallelism for robust pre-training of graph foundation models on multi-source, multi-fidelity atomistic modeling data",
+      "url": "https://arxiv.org/abs/2506.21788",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21788v1 Announce Type: new \nAbstract: Graph foundation models using graph neural networks promise sustainable, efficient atomistic modeling. To tackle challenges of processing multi-source,",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.19811598078293585,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "503l1r",
+      "entities": [],
+      "summary": "Multi-task parallelism for robust pre-training of graph foundation models on multi-source, multi-fidelity atomistic modeling data.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:51:38.503Z"
+    },
+    {
+      "title": "Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning",
+      "url": "https://arxiv.org/abs/2506.21797",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21797v1 Announce Type: new \nAbstract: We develop a theoretical framework that explains how discrete symbolic structures can emerge naturally from continuous neural network training dynamics",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.26812583799126133,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "1xyd6c",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8850357532501221,
+          "index": 3,
+          "word": "##eur",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9838293790817261,
+          "index": 4,
+          "word": "##al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9610985517501831,
+          "index": 5,
+          "word": "Network",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:51:49.527Z"
+    },
+    {
+      "title": "The Cost of Avoiding Backpropagation",
+      "url": "https://arxiv.org/abs/2506.21833",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21833v1 Announce Type: new \nAbstract: Forward-mode automatic differentiation (FmAD) and zero-order (ZO) optimization have been proposed as memory-efficient alternatives to backpropagation (",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.22601249003590268,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "yzubz8",
+      "entities": [],
+      "summary": " The Cost of Avoiding Backpropagation is a guide to avoiding backpropagations.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:00.373Z"
+    },
+    {
+      "title": "Koopman operator-based discussion on partial observation in stochastic systems",
+      "url": "https://arxiv.org/abs/2506.21844",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21844v1 Announce Type: new \nAbstract: It is sometimes difficult to achieve a complete observation for a full set of observables, and partial observations are necessary. For deterministic sy",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.2895432925835011,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "6mtx2e",
+      "entities": [],
+      "summary": " Koopman operator-based discussion on partial observation in stochastic systems. Koopmen operator- based discussion onpartial observation in Stochastic system.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:11.489Z"
+    },
+    {
+      "title": "A Survey of Continual Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2506.21872",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21872v1 Announce Type: new \nAbstract: Reinforcement Learning (RL) is an important machine learning paradigm for solving sequential decision-making problems. Recent years have witnessed rema",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.24417887603578398,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "4o1nkq",
+      "entities": [],
+      "summary": " A Survey of Continual Reinforcement Learning. A Survey. A survey of Continually Reinforcement learning. A Survey Of Continual Learning. A survey. of Continuality Reinforcementlearning Learning.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:23.834Z"
+    },
+    {
+      "title": "Advancements and Challenges in Continual Reinforcement Learning: A Comprehensive Review",
+      "url": "https://arxiv.org/abs/2506.21899",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21899v1 Announce Type: new \nAbstract: The diversity of tasks and dynamic nature of reinforcement learning (RL) require RL agents to be able to learn sequentially and continuously, a learnin",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.19274978110976326,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "eakcfn",
+      "entities": [],
+      "summary": " A Comprehensive Review. Advancements and Challenges in Continual Reinforcement Learning: A Comprehensive review.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:33.187Z"
+    },
+    {
+      "title": "TOAST: Task-Oriented Adaptive Semantic Transmission over Dynamic Wireless Environments",
+      "url": "https://arxiv.org/abs/2506.21900",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21900v1 Announce Type: new \nAbstract: The evolution toward 6G networks demands a fundamental shift from bit-centric transmission to semantic-aware communication that emphasizes task-relevan",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2573400716937012,
+      "crawledAt": "2025-06-30T10:51:14.082Z",
+      "id": "bgc8hy",
+      "entities": [],
+      "summary": " TOAST: Task-Oriented Adaptive Adaptive Semantic Transmission over Dynamic Wireless Environments.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:41.796Z"
+    },
+    {
+      "title": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs",
+      "url": "https://arxiv.org/abs/2506.21656",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21656v1 Announce Type: new \nAbstract: Current Vision-Language Models (VLMs) struggle with fine-grained spatial reasoning, particularly when multi-step logic and precise spatial alignment ar",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.20155197865000105,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "5m0jzz",
+      "entities": [],
+      "summary": " Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:52:51.785Z"
+    },
+    {
+      "title": "TanDiT: Tangent-Plane Diffusion Transformer for High-Quality 360{\\deg} Panorama Generation",
+      "url": "https://arxiv.org/abs/2506.21681",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21681v1 Announce Type: new \nAbstract: Recent advances in image generation have led to remarkable improvements in synthesizing perspective images. However, these models still struggle with p",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2215460414523082,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "ouc0lr",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.801346480846405,
+          "index": 11,
+          "word": "Di",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9606375098228455,
+          "index": 17,
+          "word": "High",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8493658304214478,
+          "index": 19,
+          "word": "Quality",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9746206998825073,
+          "index": 20,
+          "word": "360",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " TanDiT: Tangent-Plane Diffusion Transformer Transformer for High-Quality 360°°.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:03.626Z"
+    },
+    {
+      "title": "FOCUS: Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering",
+      "url": "https://arxiv.org/abs/2506.21710",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21710v1 Announce Type: new \nAbstract: While Multimodal Large Language Models (MLLMs) offer strong perception and reasoning capabilities for image-text input, Visual Question Answering (VQA)",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.40810132107664543,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "em1cv",
+      "entities": [],
+      "summary": " Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:10.515Z"
+    },
+    {
+      "title": "CAST: Cross-Attentive Spatio-Temporal feature fusion for Deepfake detection",
+      "url": "https://arxiv.org/abs/2506.21711",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21711v1 Announce Type: new \nAbstract: Deepfakes have emerged as a significant threat to digital media authenticity, increasing the need for advanced detection techniques that can identify s",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.22660998603754748,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "qfbc88",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8440088033676147,
+          "index": 11,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9249910712242126,
+          "index": 19,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9745008945465088,
+          "index": 20,
+          "word": "##fa",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.969397246837616,
+          "index": 21,
+          "word": "##ke",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " CAST: Cross-Attentive Spatio-Temporal feature fusion for Deepfake detection.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:19.294Z"
+    },
+    {
+      "title": "Elucidating and Endowing the Diffusion Training Paradigm for General Image Restoration",
+      "url": "https://arxiv.org/abs/2506.21722",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21722v1 Announce Type: new \nAbstract: While diffusion models demonstrate strong generative capabilities in image restoration (IR) tasks, their complex architectures and iterative processes ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.19012734344708326,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "5kmgwy",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9036580324172974,
+          "index": 19,
+          "word": "Image",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Elucidating and Endowing the Diffusion Training Paradigm for General Image Restoration.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:29.119Z"
+    },
+    {
+      "title": "Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning",
+      "url": "https://arxiv.org/abs/2506.21724",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21724v1 Announce Type: new \nAbstract: Learning semantically meaningful representations from unstructured 3D point clouds remains a central challenge in computer vision, especially in the ab",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.1983448083099735,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "8l4etx",
+      "entities": [],
+      "summary": " Asymmetric Dual Dual Self-Distillation for 3D Self-Supervised Representation Learning. Asymmetrical Dual Self -Distillation. As asymmetric Dual Self Self- Distillation for threeD Self -Supervisedrepresentation Learning",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:43.576Z"
+    },
+    {
+      "title": "Exploring Image Generation via Mutually Exclusive Probability Spaces and Local Correlation Hypothesis",
+      "url": "https://arxiv.org/abs/2506.21731",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21731v1 Announce Type: new \nAbstract: We propose two theoretical frameworks, the Mutually Exclusive Probability Space (MESP) and the Local Correlation Hypothesis (LCH), to explore a potenti",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.1729922886328704,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "ogqh0a",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9245016574859619,
+          "index": 8,
+          "word": "Mutual",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Exploring Image Generation via Mutually Exclusive Probability Spaces and Local Correlation Hypothesis.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:53:53.029Z"
+    },
+    {
+      "title": "Equitable Federated Learning with NCA",
+      "url": "https://arxiv.org/abs/2506.21735",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21735v1 Announce Type: new \nAbstract: Federated Learning (FL) is enabling collaborative model training across institutions without sharing sensitive patient data. This approach is particula",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.1996296994987605,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "xzkvhw",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9674033522605896,
+          "index": 4,
+          "word": "Fed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9810882806777954,
+          "index": 5,
+          "word": "##erated",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9880626797676086,
+          "index": 6,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9946993589401245,
+          "index": 8,
+          "word": "NC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9920917749404907,
+          "index": 9,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Equitable Federated Learning with NCA. Equitable Federalated Learning. Equitably Federated learning with N CA.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:54:04.973Z"
+    },
+    {
+      "title": "ImplicitQA: Going beyond frames towards Implicit Video Reasoning",
+      "url": "https://arxiv.org/abs/2506.21742",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21742v1 Announce Type: new \nAbstract: Video QA has made significant strides by leveraging multimodal learning to align visual and textual modalities. However, current benchmarks overwhelmin",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.15901069577559027,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "t5dr2q",
+      "entities": [],
+      "summary": "implicitQA: Going beyond frames towards Implicit Video Reasoning. ImplicitQa: Going further frames towardsimplicit Videoreasoning.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:54:16.618Z"
+    },
+    {
+      "title": "Early Glaucoma Detection using Deep Learning with Multiple Datasets of Fundus Images",
+      "url": "https://arxiv.org/abs/2506.21770",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21770v1 Announce Type: new \nAbstract: Glaucoma is a leading cause of irreversible blindness, but early detection can significantly improve treatment outcomes. Traditional diagnostic methods",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.16662971045943856,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "i5g9vt",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8488379716873169,
+          "index": 4,
+          "word": "##com",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9762927889823914,
+          "index": 5,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.948529839515686,
+          "index": 6,
+          "word": "Det",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9288054704666138,
+          "index": 10,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9621232151985168,
+          "index": 11,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Early Glaucoma Detection using Deep Learning with Multiple Datasets of Fundus Images.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:54:25.855Z"
+    },
+    {
+      "title": "Comparing Learning Paradigms for Egocentric Video Summarization",
+      "url": "https://arxiv.org/abs/2506.21785",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21785v1 Announce Type: new \nAbstract: In this study, we investigate various computer vision paradigms - supervised learning, unsupervised learning, and prompt fine-tuning - by assessing the",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.24170778844307175,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "p548eh",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9946330189704895,
+          "index": 10,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8931006789207458,
+          "index": 12,
+          "word": "##centric",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Egocentric Video Summarization is a video Summarisation for Egocidental Video Summization. The video was created for EgOCentric VideoSummarization.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:54:37.584Z"
+    },
+    {
+      "title": "CAT-SG: A Large Dynamic Scene Graph Dataset for Fine-Grained Understanding of Cataract Surgery",
+      "url": "https://arxiv.org/abs/2506.21813",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-06-30T04:00:00.000Z",
+      "metaDescription": "arXiv:2506.21813v1 Announce Type: new \nAbstract: Understanding the intricate workflows of cataract surgery requires modeling complex interactions between surgical tools, anatomical structures, and pro",
+      "category": "research-paper",
+      "difficulty": 4,
+      "confidence": 0.18588584866432376,
+      "crawledAt": "2025-06-30T10:51:14.121Z",
+      "id": "tk3nmy",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9115311503410339,
+          "index": 26,
+          "word": "##ara",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8699957132339478,
+          "index": 27,
+          "word": "##ct",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " CAT-SG: A Large Dynamic Scene Graph Dataset for Fine-Grained Understanding of Cataract Surgery.",
+      "language": "en",
+      "processed_at": "2025-06-30T10:54:48.744Z"
     }
   ],
-  "processedAt": "2025-06-30T10:43:40.042Z",
+  "processedAt": "2025-06-30T10:54:48.744Z",
   "categories": [
+    "ai-agents",
     "model-release",
     "infrastructure",
     "creative-ai",
     "safety-ethics",
     "product-launch",
-    "ai-agents",
     "industry-news",
     "research-paper",
     "developer-tool"
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 20,
-  "existingArticlesKept": 43
+  "existingArticlesKept": 63
 }
