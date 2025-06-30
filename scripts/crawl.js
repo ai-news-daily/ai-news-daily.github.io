@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const parser = new RSSParser({
   timeout: 10000,
   headers: {
-    'User-Agent': 'AI-News-Daily/1.0 (https://github.com/mauliconsultingservices/ai-news-daily)'
+    'User-Agent': 'AI-News-Daily/1.0 (https://github.com/ai-news-daily/ai-news-daily.github.io)'
   }
 });
 

@@ -39,7 +39,7 @@ A free, open-source AI news aggregator that collects and categorizes articles fr
 
 ### 1. Fork & Clone
 ```bash
-git clone https://github.com/mauliconsultingservices/ai-news-daily.git
+git clone https://github.com/ai-news-daily/ai-news-daily.github.io.git
 cd ai-news-daily
 npm install
 ```
@@ -288,4 +288,4 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-**Built with ❤️ and AI** | [Live Demo](https://mauliconsultingservices.github.io/ai-news-daily) | [Issues](https://github.com/mauliconsultingservices/ai-news-daily/issues) | [Discussions](https://github.com/mauliconsultingservices/ai-news-daily/discussions) 
+**Built with ❤️ and AI** | [Live Demo](https://ai-news-daily.github.io) | [Issues](https://github.com/ai-news-daily/ai-news-daily.github.io/issues) | [Discussions](https://github.com/ai-news-daily/ai-news-daily.github.io/discussions) 

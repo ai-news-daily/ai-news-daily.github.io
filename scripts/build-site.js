@@ -122,7 +122,7 @@ function generateHTML(data) {
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2024 AI News Daily. Built with ❤️ and AI. <a href="https://github.com/mauliconsultingservices/ai-news-daily" target="_blank">Open Source</a></p>
+      <p>&copy; 2024 AI News Daily. Built with ❤️ and AI. <a href="https://github.com/ai-news-daily/ai-news-daily.github.io" target="_blank">Open Source</a></p>
       <p class="disclaimer">We aggregate links from public RSS feeds. All content belongs to original publishers.</p>
     </div>
   </footer>
