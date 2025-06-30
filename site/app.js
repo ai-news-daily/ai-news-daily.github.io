@@ -12,6 +12,7 @@ const loadMoreBtn = document.getElementById('loadMoreBtn');
 const showCount = document.getElementById('showCount');
 const totalCount = document.getElementById('totalCount');
 const themeToggle = document.getElementById('themeToggle');
+const dateSelect = document.getElementById('dateSelect');
 
 // Filters state
 const filters = {
@@ -36,20 +37,74 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-// Load article data
-async function loadData() {
+// Load article data for a specific date or latest
+async function loadData(selectedDate = null) {
   try {
-    const response = await fetch('data.json');
+    let dataUrl = 'data.json'; // Default to latest
+    
+    if (selectedDate) {
+      dataUrl = `data/${selectedDate}.json`;
+    }
+    
+    const response = await fetch(dataUrl);
     const data = await response.json();
     allArticles = data.articles;
     filteredArticles = [...allArticles];
     
-    console.log(`✅ Loaded ${allArticles.length} articles`);
+    console.log(`✅ Loaded ${allArticles.length} articles${selectedDate ? ` for ${selectedDate}` : ''}`);
     console.log('📊 Source categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.source_category] = true; return acc; }, {})));
     console.log('🤖 AI categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.category] = true; return acc; }, {})));
   } catch (error) {
-    console.error('❌ Failed to load data:', error);
+    console.error(`❌ Failed to load data${selectedDate ? ` for ${selectedDate}` : ''}:`, error);
+    
+    // If date-specific load fails, try latest
+    if (selectedDate) {
+      console.log('🔄 Falling back to latest data...');
+      await loadData(); // Recursive call without date
+      return;
+    }
+    
     throw error;
+  }
+}
+
+// Handle date selection change
+async function handleDateChange(event) {
+  const selectedDate = event.target.value;
+  
+  try {
+    // Show loading state
+    articlesGrid.innerHTML = '<div class="loading">Loading articles...</div>';
+    
+    // Load new data
+    await loadData(selectedDate || null);
+    
+    // Reset filters and pagination
+    currentPage = 0;
+    filters.search = '';
+    if (searchInput) searchInput.value = '';
+    
+    // Reset filter buttons to "all"
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.dataset.category === 'all' || btn.dataset.source === 'all' || btn.dataset.difficulty === 'all') {
+        btn.classList.add('active');
+      }
+    });
+    
+    filters.category = 'all';
+    filters.source = 'all';
+    filters.difficulty = 'all';
+    
+    // Update display
+    updateFilterCounts();
+    applyFilters();
+    updateDisplay();
+    
+    console.log(`✅ Switched to ${selectedDate || 'latest'} data`);
+  } catch (error) {
+    console.error('❌ Failed to change date:', error);
+    showError('Failed to load articles for selected date. Please try again.');
   }
 }
 
@@ -63,6 +118,11 @@ function setupEventListeners() {
   // Search
   searchInput.addEventListener('input', debounce(handleSearch, 300));
   clearSearchBtn.addEventListener('click', clearSearch);
+  
+  // Date selection
+  if (dateSelect) {
+    dateSelect.addEventListener('change', handleDateChange);
+  }
   
   // Theme toggle
   themeToggle.addEventListener('click', toggleTheme);
@@ -144,13 +204,14 @@ function applyFilters() {
     
     // Search filter
     if (filters.search) {
+      const entities = article.entities || {};
       const searchableText = [
         article.title,
         article.source,
         article.category || article.source_category,
-        ...(article.entities?.organizations || []),
-        ...(article.entities?.products || []),
-        ...(article.entities?.technologies || [])
+        ...(entities.organizations || []),
+        ...(entities.products || []),
+        ...(entities.technologies || [])
       ].join(' ').toLowerCase();
       
       if (!searchableText.includes(filters.search)) {
@@ -395,12 +456,12 @@ function createArticleElement(article) {
   const difficultyDots = '●'.repeat(difficulty) + '○'.repeat(10 - difficulty);
   const confidenceIcon = confidence > 0.8 ? '✓' : '?';
   
-  // Entity tags
-  const entities = article.entities || { organizations: [], products: [], technologies: [] };
+  // Entity tags - safely handle undefined arrays
+  const entities = article.entities || {};
   const entityTags = [
-    ...entities.organizations.map(org => `<span class="entity-tag org">${org}</span>`),
-    ...entities.products.map(product => `<span class="entity-tag product">${product}</span>`),
-    ...entities.technologies.slice(0, 3).map(tech => `<span class="entity-tag tech">${tech}</span>`)
+    ...(entities.organizations || []).map(org => `<span class="entity-tag org">${org}</span>`),
+    ...(entities.products || []).map(product => `<span class="entity-tag product">${product}</span>`),
+    ...(entities.technologies || []).slice(0, 3).map(tech => `<span class="entity-tag tech">${tech}</span>`)
   ].join('');
 
   articleDiv.innerHTML = `

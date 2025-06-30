@@ -163,6 +163,38 @@ body {
   gap: 1rem;
 }
 
+.date-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-label {
+  font-size: 1rem;
+}
+
+.date-select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.875rem;
+  min-width: 120px;
+}
+
+.date-select:hover {
+  background: var(--surface-hover);
+}
+
+.date-select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
 .theme-toggle {
   background: var(--surface);
   border: 1px solid var(--border);

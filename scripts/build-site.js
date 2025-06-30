@@ -132,24 +132,62 @@ function generateHTML(data) {
 </html>`;
 }
 
+// Get available dates from data directory
+async function getAvailableDates() {
+  const dataDir = path.join(__dirname, '../data');
+  const files = await fs.readdir(dataDir);
+  
+  // Find all processed files with date format YYYY-MM-DD-processed.json
+  const dateFiles = files
+    .filter(file => file.match(/^\d{4}-\d{2}-\d{2}-processed\.json$/))
+    .map(file => file.replace('-processed.json', ''))
+    .sort()
+    .reverse(); // Most recent first
+  
+  return dateFiles;
+}
+
+// Load data for a specific date
+async function loadDateData(date = null) {
+  const dataDir = path.join(__dirname, '../data');
+  
+  if (date) {
+    // Load specific date
+    const dateFile = path.join(dataDir, `${date}-processed.json`);
+    try {
+      return JSON.parse(await fs.readFile(dateFile, 'utf-8'));
+    } catch (error) {
+      console.log(`⚠️ No data found for ${date}, falling back to latest`);
+    }
+  }
+  
+  // Load latest
+  const processedPath = path.join(dataDir, 'latest-processed.json');
+  const rawPath = path.join(dataDir, 'latest-raw.json');
+  
+  try {
+    return JSON.parse(await fs.readFile(processedPath, 'utf-8'));
+  } catch (error) {
+    console.log('⚠️ AI-processed data not found, using raw data');
+    return JSON.parse(await fs.readFile(rawPath, 'utf-8'));
+  }
+}
+
 // Main build function
-async function buildSite() {
+async function buildSite(selectedDate = null) {
   console.log('🏗️ Building static site...');
   
   try {
     console.log('📖 Loading crawled data...');
     
-    // Load the latest processed data (with AI enhancements)
-    let articlesData;
-    const processedPath = path.join(__dirname, '../data/latest-processed.json');
-    const rawPath = path.join(__dirname, '../data/latest-raw.json');
+    // Get available dates and load data
+    const availableDates = await getAvailableDates();
+    const articlesData = await loadDateData(selectedDate);
     
-    try {
-      articlesData = JSON.parse(await fs.readFile(processedPath, 'utf-8'));
-      console.log('✅ Using AI-processed data');
-    } catch (error) {
-      console.log('⚠️ AI-processed data not found, using raw data');
-      articlesData = JSON.parse(await fs.readFile(rawPath, 'utf-8'));
+    if (selectedDate) {
+      console.log(`✅ Using data for ${selectedDate}`);
+    } else {
+      console.log('✅ Using latest AI-processed data');
     }
     
     const articles = articlesData.articles || [];
@@ -212,9 +250,26 @@ async function buildSite() {
       </div>
       
       <div class="header-controls">
+        <div class="date-selector">
+          <label for="dateSelect" class="date-label">📅</label>
+          <select id="dateSelect" class="date-select" title="Select date to view articles">
+            <option value="">Latest</option>
+            ${availableDates.map(date => 
+              `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>
+                ${new Date(date).toLocaleDateString('en-US', { 
+                  weekday: 'short', 
+                  month: 'short', 
+                  day: 'numeric' 
+                })}
+              </option>`
+            ).join('')}
+          </select>
+        </div>
+        
         <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">
           <span class="theme-icon">🌙</span>
         </button>
+        
         <div class="stats">
           <span id="showCount">${articles.length}</span> of <span id="totalCount">${articles.length}</span> articles
         </div>
@@ -288,11 +343,32 @@ async function buildSite() {
     await fs.mkdir(siteDir, { recursive: true });
     await fs.writeFile(path.join(siteDir, 'index.html'), html);
     
-    // Write the data.json for the frontend
+    // Write the main data.json for the frontend
     await fs.writeFile(
       path.join(siteDir, 'data.json'), 
       JSON.stringify(articlesData, null, 2)
     );
+    
+    // Write available dates list for frontend
+    await fs.writeFile(
+      path.join(siteDir, 'dates.json'), 
+      JSON.stringify({ availableDates }, null, 2)
+    );
+    
+    // Copy individual date files for client-side access
+    const dataDir = path.join(siteDir, 'data');
+    await fs.mkdir(dataDir, { recursive: true });
+    
+    for (const date of availableDates) {
+      const sourceFile = path.join(__dirname, `../data/${date}-processed.json`);
+      const targetFile = path.join(dataDir, `${date}.json`);
+      try {
+        const dateData = await fs.readFile(sourceFile, 'utf-8');
+        await fs.writeFile(targetFile, dateData);
+      } catch (error) {
+        console.log(`⚠️ Could not copy ${date} data file`);
+      }
+    }
     
     console.log('✅ Site built successfully!');
     console.log(`📊 Generated page with ${articles.length} articles`);

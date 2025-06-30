@@ -260,10 +260,6 @@ async function crawlAllSources() {
   await fs.mkdir(dataDir, { recursive: true });
   
   // Save raw crawled data
-  const today = new Date().toISOString().split('T')[0];
-  const filename = `${today}-raw.json`;
-  const filepath = path.join(dataDir, filename);
-  
   const output = {
     crawledAt: new Date().toISOString(),
     totalSources: sources.length,
@@ -271,14 +267,10 @@ async function crawlAllSources() {
     articles: uniqueArticles
   };
   
+  // Save only as latest-raw.json (no dated duplicates)
+  const filepath = path.join(dataDir, 'latest-raw.json');
   await fs.writeFile(filepath, JSON.stringify(output, null, 2));
-  console.log(`💾 Saved raw data to: ${filename}`);
-  
-  // Also save as latest.json for easy access
-  await fs.writeFile(
-    path.join(dataDir, 'latest-raw.json'), 
-    JSON.stringify(output, null, 2)
-  );
+  console.log(`💾 Saved raw data to: latest-raw.json`);
   
   return uniqueArticles;
 }

@@ -12,6 +12,47 @@ env.allowRemoteFiles = true;
 env.allowLocalFiles = true;
 env.cacheDir = path.join(__dirname, '../.cache');
 
+// Suppress ONNX runtime warnings - more aggressive approach
+process.env.ORT_LOG_LEVEL = '3'; // Only show errors
+process.env.ONNX_DISABLE_WARNINGS = '1';
+process.env.ONNXRUNTIME_LOG_LEVEL = '3'; // ERROR level only
+process.env.OMP_NUM_THREADS = '1'; // Reduce threading warnings
+process.env.ONNX_LOGGING_LEVEL = '3'; // ERROR level
+process.env.ONNXRUNTIME_LOG_SEVERITY_LEVEL = '3'; // ERROR level
+
+// Suppress Node.js warnings
+process.removeAllListeners('warning');
+process.on('warning', () => {}); // Suppress warnings
+
+// Suppress specific console warnings from ONNX runtime
+const originalConsoleWarn = console.warn;
+console.warn = function(...args) {
+  const message = args.join(' ');
+  // Skip ONNX runtime warnings about removing unused initializers
+  if (message.includes('CleanUnusedInitializersAndNodeArgs') || 
+      message.includes('Removing initializer') ||
+      message.includes('onnxruntime') ||
+      message.includes('should be removed from the model') ||
+      message.includes('[W:onnxruntime')) {
+    return;
+  }
+  originalConsoleWarn.apply(console, args);
+};
+
+// Also suppress stderr warnings from child processes
+const originalStderrWrite = process.stderr.write;
+process.stderr.write = function(chunk, encoding, fd) {
+  if (typeof chunk === 'string' && 
+      (chunk.includes('CleanUnusedInitializersAndNodeArgs') ||
+       chunk.includes('Removing initializer') ||
+       chunk.includes('onnxruntime') ||
+       chunk.includes('should be removed from the model') ||
+       chunk.includes('[W:onnxruntime'))) {
+    return;
+  }
+  return originalStderrWrite.call(process.stderr, chunk, encoding, fd);
+};
+
 // Categories for classification
 const categories = [
   'model-release',
@@ -185,24 +226,77 @@ async function generateSummary(title, useAI = false) {
 
 // Main processing function
 async function processArticlesWithAI() {
-  console.log('🤖 Starting AI processing...');
+  console.log('🤖 Starting article processing...');
   
   // Load raw articles
   const rawDataPath = path.join(__dirname, '../data/latest-raw.json');
   const rawData = JSON.parse(await fs.readFile(rawDataPath, 'utf-8'));
   
-  // Initialize AI models
+  // Load existing processed articles to avoid reprocessing
+  const processedDataPath = path.join(__dirname, '../data/latest-processed.json');
+  let existingProcessed = { articles: [] };
+  
+  try {
+    const existingData = await fs.readFile(processedDataPath, 'utf-8');
+    existingProcessed = JSON.parse(existingData);
+    console.log(`📋 Found ${existingProcessed.articles.length} already processed articles`);
+  } catch (error) {
+    console.log('📋 No existing processed data found, processing all articles');
+  }
+  
+  // Create set of already processed article IDs for quick lookup
+  const processedIds = new Set(existingProcessed.articles.map(a => a.id));
+  
+  // Filter out already processed articles
+  const articlesToProcess = rawData.articles.filter(article => !processedIds.has(article.id));
+  
+  // Apply configurable processing limit for testing (via env var)
+  const testLimit = process.env.PROCESSING_LIMIT ? parseInt(process.env.PROCESSING_LIMIT) : null;
+  const finalArticlesToProcess = testLimit ? articlesToProcess.slice(0, testLimit) : articlesToProcess;
+  
+  console.log(`📊 Found ${rawData.articles.length} total articles, ${articlesToProcess.length} new articles to process`);
+  if (testLimit && testLimit < articlesToProcess.length) {
+    console.log(`🧪 TESTING MODE: Processing only first ${testLimit} articles (set PROCESSING_LIMIT=${testLimit})`);
+  }
+  
+  if (finalArticlesToProcess.length === 0) {
+    console.log('✅ All articles already processed! Updating metadata...');
+    
+    // Update the processed file with latest metadata
+    const outputData = {
+      ...rawData,
+      articles: existingProcessed.articles,
+      processedAt: new Date().toISOString(),
+      processingMethod: 'cached',
+      totalArticles: existingProcessed.articles.length
+    };
+    
+    // Save to both latest and date-specific files
+    const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+    const latestPath = path.join(__dirname, '../data/latest-processed.json');
+    const datePath = path.join(__dirname, `../data/${today}-processed.json`);
+    
+    await fs.writeFile(latestPath, JSON.stringify(outputData, null, 2));
+    await fs.writeFile(datePath, JSON.stringify(outputData, null, 2));
+    
+    console.log(`💾 Updated: ${latestPath}`);
+    console.log(`📅 Historical backup: ${datePath}`);
+    console.log('🎉 Processing completed (no new articles)!');
+    return outputData;
+  }
+  
+  // Initialize AI models only if we have articles to process
   const useAI = await initializeModels();
   
-  console.log(`📊 Processing ${rawData.articles.length} articles with ${useAI ? 'AI' : 'rule-based'} analysis...`);
+  console.log(`🧠 Processing ${finalArticlesToProcess.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis...`);
   
-  const processedArticles = [];
+  const newlyProcessedArticles = [];
   const categoryStats = {};
   let duplicateCount = 0;
   
-  for (let i = 0; i < rawData.articles.length; i++) {
-    const article = rawData.articles[i];
-    console.log(`Processing ${i+1}/${rawData.articles.length}: ${article.title.substring(0, 50)}...`);
+  for (let i = 0; i < finalArticlesToProcess.length; i++) {
+    const article = finalArticlesToProcess[i];
+    console.log(`Processing ${i+1}/${finalArticlesToProcess.length}: ${article.title.substring(0, 50)}...`);
     
     let result;
     
@@ -257,29 +351,46 @@ async function processArticlesWithAI() {
       processed_at: new Date().toISOString()
     };
     
-    processedArticles.push(processedArticle);
+    newlyProcessedArticles.push(processedArticle);
     
     // Update stats
     categoryStats[result.category] = (categoryStats[result.category] || 0) + 1;
   }
   
+  // Merge newly processed articles with existing ones
+  const allProcessedArticles = [...existingProcessed.articles, ...newlyProcessedArticles];
+  
+  // Sort by publication date (newest first)
+  allProcessedArticles.sort((a, b) => new Date(b.pubDate || b.published_at) - new Date(a.pubDate || a.published_at));
+  
   // Save processed data
   const outputData = {
     ...rawData,
-    articles: processedArticles,
-    processed_at: new Date().toISOString(),
-    processing_method: useAI ? 'ai' : 'rule-based',
-    category_stats: categoryStats,
-    duplicates_found: duplicateCount
+    articles: allProcessedArticles,
+    processedAt: new Date().toISOString(),
+    totalArticles: allProcessedArticles.length,
+    categories: [...new Set(allProcessedArticles.map(a => a.category))],
+    processingMethod: useAI ? 'ai-powered' : 'rule-based',
+    newArticlesProcessed: newlyProcessedArticles.length,
+    existingArticlesKept: existingProcessed.articles.length
   };
   
-  const outputPath = path.join(__dirname, '../data/latest-processed.json');
-  await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2));
+  // Save to both latest and date-specific files
+  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+  const latestPath = path.join(__dirname, '../data/latest-processed.json');
+  const datePath = path.join(__dirname, `../data/${today}-processed.json`);
   
-  console.log(`✅ Successfully processed ${processedArticles.length} articles with ${useAI ? 'AI' : 'rule-based'} analysis`);
-  console.log(`📊 Categories found:`, Object.keys(categoryStats).join(', '));
-  console.log(`🔄 Duplicates found: ${duplicateCount}`);
-  console.log(`💾 Saved to: ${outputPath}`);
+  // Save latest file (for current site build)
+  await fs.writeFile(latestPath, JSON.stringify(outputData, null, 2));
+  
+  // Save date-specific file (for historical tracking)
+  await fs.writeFile(datePath, JSON.stringify(outputData, null, 2));
+  
+  console.log(`✅ Successfully processed ${newlyProcessedArticles.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis`);
+  console.log(`📊 Total articles: ${allProcessedArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
+  console.log(`🎯 New categories found:`, Object.keys(categoryStats).join(', ') || 'none');
+  console.log(`💾 Saved to: ${latestPath}`);
+  console.log(`📅 Historical backup: ${datePath}`);
   console.log('🎉 AI processing completed successfully!');
   
   return outputData;

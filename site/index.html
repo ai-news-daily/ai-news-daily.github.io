@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News Daily - Latest AI News from 50+ Sources</title>
-  <meta name="description" content="Latest AI news and updates from 136 articles. Updated 6/30/2025.">
+  <meta name="description" content="Latest AI news and updates from 22 articles. Updated 6/30/2025.">
   
   <!-- Open Graph -->
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
@@ -32,11 +32,24 @@
       </div>
       
       <div class="header-controls">
+        <div class="date-selector">
+          <label for="dateSelect" class="date-label">📅</label>
+          <select id="dateSelect" class="date-select" title="Select date to view articles">
+            <option value="">Latest</option>
+            <option value="2025-06-30" >
+                Mon, Jun 30
+              </option><option value="2025-06-29" >
+                Sun, Jun 29
+              </option>
+          </select>
+        </div>
+        
         <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">
           <span class="theme-icon">🌙</span>
         </button>
+        
         <div class="stats">
-          <span id="showCount">136</span> of <span id="totalCount">136</span> articles
+          <span id="showCount">22</span> of <span id="totalCount">22</span> articles
         </div>
       </div>
     </div>
@@ -49,8 +62,8 @@
       <div class="filter-group">
         <label class="filter-label">Categories</label>
         <div class="filter-buttons">
-          <button class="filter-btn active" data-category="all">All (136)</button>
-          <button class="filter-btn" data-category="industry-news">industry news (136)</button>
+          <button class="filter-btn active" data-category="all">All (22)</button>
+          <button class="filter-btn" data-category="creative-ai">creative ai (10)</button><button class="filter-btn" data-category="infrastructure">infrastructure (6)</button><button class="filter-btn" data-category="ai-agents">ai agents (2)</button><button class="filter-btn" data-category="industry-news">industry news (2)</button><button class="filter-btn" data-category="product-launch">product launch (1)</button><button class="filter-btn" data-category="safety-ethics">safety ethics (1)</button>
         </div>
       </div>
       
@@ -59,7 +72,7 @@
         <label class="filter-label">Source Types</label>
         <div class="filter-buttons">
           <button class="filter-btn active" data-source="all">All Sources</button>
-          <button class="filter-btn" data-source="community">community (58)</button><button class="filter-btn" data-source="news">news (36)</button><button class="filter-btn" data-source="tutorial">tutorial (22)</button><button class="filter-btn" data-source="company">company (7)</button><button class="filter-btn" data-source="tools">tools (5)</button><button class="filter-btn" data-source="research">research (5)</button><button class="filter-btn" data-source="safety">safety (3)</button>
+          <button class="filter-btn" data-source="reddit">reddit (22)</button>
         </div>
       </div>
       
@@ -68,9 +81,9 @@
         <label class="filter-label">Difficulty Level</label>
         <div class="filter-buttons">
           <button class="filter-btn active" data-difficulty="all">All Levels</button>
-          <button class="filter-btn" data-difficulty="easy">Easy (4)</button>
-          <button class="filter-btn" data-difficulty="medium">Medium (132)</button>
-          <button class="filter-btn" data-difficulty="hard">Hard (0)</button>
+          <button class="filter-btn" data-difficulty="easy">Easy (7)</button>
+          <button class="filter-btn" data-difficulty="medium">Medium (14)</button>
+          <button class="filter-btn" data-difficulty="hard">Hard (1)</button>
         </div>
       </div>
     </div>
@@ -82,11 +95,65 @@
       <!-- Articles Grid -->
       <div class="articles-grid" id="articlesGrid">
         
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
         <time class="pub-time">1h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lo1xma/current_state_of_code_tabautocomplete_models/" target="_blank" rel="noopener" title="Current State of Code Tab/Autocomplete Models???">
+          Current State of Code Tab/Autocomplete Models??? ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">1h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lo1oc6/i_tried_to_create_ui_for_llms_with_english_as_a/" target="_blank" rel="noopener" title="I tried to create UI for LLMs with English as a programming language">
+          I tried to create UI for LLMs with English as a programming language ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
+        <span class="source-name">r/singularity</span>
+        <time class="pub-time">2h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/singularity/comments/1lo1jg3/number_of_new_uk_entrylevel_jobs_has_dropped_32/" target="_blank" rel="noopener" title="Number of new UK entry-level jobs has dropped 32% since ChatGPT launch">
+          Number of new UK entry-level jobs has dropped 32% since ChatGPT launch ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
+        <span class="source-name">r/LocalLLaMA</span>
+        <time class="pub-time">2h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -96,15 +163,15 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">1h ago</time>
+        <time class="pub-time">2h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -114,15 +181,33 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
+        <span class="source-name">r/deeplearning</span>
+        <time class="pub-time">2h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/deeplearning/comments/1lo18nb/transfer_learning_vs_endtoend_training/" target="_blank" rel="noopener" title="Transfer learning v.s. end-to-end training">
+          Transfer learning v.s. end-to-end training ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">1h ago</time>
+        <time class="pub-time">2h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -132,11 +217,47 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
+        <span class="source-name">r/deeplearning</span>
+        <time class="pub-time">2h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/deeplearning/comments/1lo1251/is_amd_cpu_good_enough_for_deep_learning_in_2025/" target="_blank" rel="noopener" title="Is AMD CPU good enough for deep learning in 2025, or should I stick with Intel?">
+          Is AMD CPU good enough for deep learning in 2025, or should I stick with Intel? ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
+        <span class="source-name">r/deeplearning</span>
+        <time class="pub-time">2h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/deeplearning/comments/1lo0xui/looking_for_dataset/" target="_blank" rel="noopener" title="Looking for dataset">
+          Looking for dataset ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
@@ -150,15 +271,33 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">2h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lo0piv/my_o3_is_not_working_or_refreshing/" target="_blank" rel="noopener" title="My o3 is not working or refreshing">
+          My o3 is not working or refreshing ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">2h ago</time>
+        <time class="pub-time">3h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -168,15 +307,51 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
+        <span class="source-name">r/StableDiffusion</span>
+        <time class="pub-time">3h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/StableDiffusion/comments/1lo0e8w/how_to_wan21_vace_v2v_seamlessly_possibly/" target="_blank" rel="noopener" title="How to Wan2.1 VACE V2V seamlessly. Possibly.">
+          How to Wan2.1 VACE V2V seamlessly. Possibly. ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
+        <span class="source-name">r/MachineLearning</span>
+        <time class="pub-time">3h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/MachineLearning/comments/1lo06qh/d_proper_way_to_calculate_inference_time/" target="_blank" rel="noopener" title="Proper way to calculate inference time">
+          Proper way to calculate inference time ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">2h ago</time>
+        <time class="pub-time">3h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -186,15 +361,15 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
         <span class="source-name">r/artificial</span>
-        <time class="pub-time">2h ago</time>
+        <time class="pub-time">3h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -204,15 +379,69 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">3h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lnzz2e/openai_recalibrates_strategy/" target="_blank" rel="noopener" title="OpenAI recalibrates strategy">
+          OpenAI recalibrates strategy ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">4h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lnzo3q/how_to_improve_ai_agents_using_dspy/" target="_blank" rel="noopener" title="How to improve AI agent using DSPy">
+          How to improve AI agent using DSPy ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">4h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lnzlew/best_free_app_to_generate_subtitles_using/" target="_blank" rel="noopener" title="Best free app to generate subtitles using faster-whisper?">
+          Best free app to generate subtitles using faster-whisper? ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">3h ago</time>
+        <time class="pub-time">4h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -222,15 +451,33 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="community" data-source="community">
+    <article class="news-item" data-category="reddit" data-source="reddit">
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
+        <span class="source-name">r/OpenAI</span>
+        <time class="pub-time">4h ago</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="https://www.reddit.com/r/OpenAI/comments/1lnzg0d/anthropic_had_claude_run_an_actual_store_for_a/" target="_blank" rel="noopener" title="Anthropic Had Claude Run an Actual Store for a Month - Here's What Happened">
+          Anthropic Had Claude Run an Actual Store for a Month - Here's What Happened ↗
+        </a>
+      </h3>
+      
+      <div class="metadata">
+        <span class="category category-reddit">reddit</span>
+      </div>
+    </article>
+  
+    <article class="news-item" data-category="reddit" data-source="reddit">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">3h ago</time>
+        <time class="pub-time">4h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -240,2293 +487,7 @@
       </h3>
       
       <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">3h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnz6ai/chatgpt_generated_an_image_completely_different/" target="_blank" rel="noopener" title="ChatGPT generated an image COMPLETELY different from a very specific prompt">
-          ChatGPT generated an image COMPLETELY different from a very specific prompt ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">4h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnylpm/anyone_else_hate_ai_until_they_use_it_and_become/" target="_blank" rel="noopener" title="Anyone else hate AI until they use it and become interested?">
-          Anyone else hate AI until they use it and become interested? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">4h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/29/why-ai-will-eat-mckinseys-lunch-but-not-today/" target="_blank" rel="noopener" title="Why AI will eat McKinsey’s lunch — but not today">
-          Why AI will eat McKinsey’s lunch — but not today ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">4h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnxxkt/chatgpt_made_me_a_picture_of_what_jesus_could/" target="_blank" rel="noopener" title="ChatGPT made me a picture of what Jesus could have looked like">
-          ChatGPT made me a picture of what Jesus could have looked like ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=writesonic.com" alt="Writesonic" width="16" height="16">
-        <span class="source-name">Writesonic</span>
-        <time class="pub-time">4h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://writesonic.com/blog/api-vs-ui-results" target="_blank" rel="noopener" title="How API vs UI Results Differ for AI Search Engine Answers">
-          How API vs UI Results Differ for AI Search Engine Answers ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">5h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnxo8y/major_ai_platforms_will_eventually_have_ads/" target="_blank" rel="noopener" title="Major AI platforms will eventually have ads">
-          Major AI platforms will eventually have ads ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">5h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnwxxh/alright_i_cant_be_the_only_one_chatgpt_made_cry/" target="_blank" rel="noopener" title="Alright I can’t be the only one ChatGPT made cry, right?">
-          Alright I can’t be the only one ChatGPT made cry, right? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">6h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnwa8a/the_environmental_crisis_of_ai/" target="_blank" rel="noopener" title="the environmental crisis of AI">
-          the environmental crisis of AI ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">7h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/linear-layers-and-activation-functions-in-transformer-models/" target="_blank" rel="noopener" title="Linear Layers and Activation Functions in Transformer Models">
-          Linear Layers and Activation Functions in Transformer Models ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">7h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnv26m/after_5_years_of_struggle_chatgpt_solves_medical/" target="_blank" rel="noopener" title="After 5 years of struggle, ChatGPT solves medical mystery in seconds and sparks debate in Silicon Valley">
-          After 5 years of struggle, ChatGPT solves medical mystery in seconds and sparks debate in Silicon Valley ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">8h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnuir2/some_more_infohype_on_the_openais_opensource/" target="_blank" rel="noopener" title="Some more info/hype on the OpenAI's open-source model coming out next month">
-          Some more info/hype on the OpenAI's open-source model coming out next month ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">8h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnu4zl/baidu_releases_ernie_45_models_on_huggingface/" target="_blank" rel="noopener" title="Baidu releases ERNIE 4.5 models on huggingface">
-          Baidu releases ERNIE 4.5 models on huggingface ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">9h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lnt9za/p_code_for_finetuning_flux1dev_explained_step_by/" target="_blank" rel="noopener" title="Code for Fine-Tuning FLUX.1-dev Explained Step by Step With Comments">
-          Code for Fine-Tuning FLUX.1-dev Explained Step by Step With Comments ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">9h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnt1ll/huggingface_autotrain_llm_sft_help_with_dataset/" target="_blank" rel="noopener" title="Huggingface Autotrain LLM SFT -- help with dataset and column mapping">
-          Huggingface Autotrain LLM SFT -- help with dataset and column mapping ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">9h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lnsv8n/p_ai_learns_to_play_xmen_vs_street_fighter/" target="_blank" rel="noopener" title="AI Learns to Play X-Men vs Street Fighter | Reinforcement Learning with ...">
-          AI Learns to Play X-Men vs Street Fighter | Reinforcement Learning with ... ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">9h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnsax9/please_convince_me_not_to_get_a_gpu_i_dont_need/" target="_blank" rel="noopener" title="Please convince me not to get a GPU I don't need. Can any local LLM compare with cloud models?">
-          Please convince me not to get a GPU I don't need. Can any local LLM compare with cloud models? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">10h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnrw8v/letter_to_the_first_sentient_ai/" target="_blank" rel="noopener" title="Letter to the first sentient Ai.">
-          Letter to the first sentient Ai. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">10h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnrd1t/you_can_just_rl_a_model_to_beat_any_ai_detectors/" target="_blank" rel="noopener" title="You can just RL a model to beat any "AI detectors"">
-          You can just RL a model to beat any "AI detectors" ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">11h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnq3vc/oneminute_daily_ai_news_6292025/" target="_blank" rel="noopener" title="One-Minute Daily AI News 6/29/2025">
-          One-Minute Daily AI News 6/29/2025 ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">11h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnq1yg/i_asked_chatgpt_to_animate_a_still_image_of_my/" target="_blank" rel="noopener" title="I asked ChatGPT to animate a still image of my grandma, here is the result.">
-          I asked ChatGPT to animate a still image of my grandma, here is the result. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=writesonic.com" alt="Writesonic" width="16" height="16">
-        <span class="source-name">Writesonic</span>
-        <time class="pub-time">11h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://writesonic.com/blog/will-chatgpt-replace-google" target="_blank" rel="noopener" title="Will ChatGPT Replace Google? A Data-Driven Analysis">
-          Will ChatGPT Replace Google? A Data-Driven Analysis ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">11h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnpesi/openai_is_shutting_down_next_week_to_give/" target="_blank" rel="noopener" title="OpenAI Is shutting down next week to give employees a break. Staffers have been working 80-hour weeks.">
-          OpenAI Is shutting down next week to give employees a break. Staffers have been working 80-hour weeks. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">12h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lnoqmm/d_review_clearly_used_an_llm_should_i_report_it/" target="_blank" rel="noopener" title="Review clearly used an LLM, should I report it to AC?">
-          Review clearly used an LLM, should I report it to AC? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">12h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/29/openai-reportedly-recalibrating-compensation-in-response-to-meta-hires/" target="_blank" rel="noopener" title="OpenAI reportedly ‘recalibrating’ compensation in response to Meta hires">
-          OpenAI reportedly ‘recalibrating’ compensation in response to Meta hires ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">12h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnoalq/the_reason_meta_isnt_keen_on_hiring_researchers/" target="_blank" rel="noopener" title="The reason Meta isn't keen on hiring researchers from Anthropic "They are less of a culture fit at Meta"">
-          The reason Meta isn't keen on hiring researchers from Anthropic "They are less of a culture fit at Meta" ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=writesonic.com" alt="Writesonic" width="16" height="16">
-        <span class="source-name">Writesonic</span>
-        <time class="pub-time">12h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://writesonic.com/blog/rankscale-ai-review" target="_blank" rel="noopener" title="Rankscale.ai Review: Comparison With Writesonic GEO For AI Visibility">
-          Rankscale.ai Review: Comparison With Writesonic GEO For AI Visibility ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">12h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnoabk/archrouter_the_first_and_fastest_llm_router_model/" target="_blank" rel="noopener" title="Arch-Router: The first and fastest LLM router model that aligns to your usage preferences.">
-          Arch-Router: The first and fastest LLM router model that aligns to your usage preferences. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lnnts8/p_decentralized_training_and_inferencing_platform/" target="_blank" rel="noopener" title="decentralized training and inferencing platform">
-          decentralized training and inferencing platform ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnnqc4/were_creating_emotionally_intelligent_ai/" target="_blank" rel="noopener" title="We're creating Emotionally intelligent AI companions">
-          We're creating Emotionally intelligent AI companions ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lnnp8u/p_need_to_train_a_model_that_can_detect_which_2d/" target="_blank" rel="noopener" title="Need to train a model that can detect which 2D image a smartphone camera is looking at .">
-          Need to train a model that can detect which 2D image a smartphone camera is looking at . ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnncxs/openai_scrambling_to_stop_the_bleeding_of_talent/" target="_blank" rel="noopener" title="OpenAi scrambling to stop the bleeding of talent">
-          OpenAi scrambling to stop the bleeding of talent ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnmwfs/anthropics_ai_utterly_fails_at_running_a_business/" target="_blank" rel="noopener" title="Anthropic’s AI utterly fails at running a business — 'Claudius' hallucinates profusely as it struggles with vending drinks "It's like a business graduate with no common sense."">
-          Anthropic’s AI utterly fails at running a business — 'Claudius' hallucinates profusely as it struggles with vending drinks "It's like a business graduate with no common sense." ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/openai-meta-leadership-talent-rivalry/" target="_blank" rel="noopener" title="OpenAI Leadership Responds to Meta Offers: ‘Someone Has Broken Into Our Home’">
-          OpenAI Leadership Responds to Meta Offers: ‘Someone Has Broken Into Our Home’ ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">13h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnmp98/hunyuana13b_any_news_gguf_mlx/" target="_blank" rel="noopener" title="hunyuan-a13b: any news? GGUF? MLX?">
-          hunyuan-a13b: any news? GGUF? MLX? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">15h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnkqzg/what_did_you_name_your_chatgpt_and_what_does_it/" target="_blank" rel="noopener" title="What did you name your ChatGPT and what does it look like?">
-          What did you name your ChatGPT and what does it look like? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">15h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnjw6m/prompt_smells_just_like_code/" target="_blank" rel="noopener" title="Prompt Smells, Just Like Code">
-          Prompt Smells, Just Like Code ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">15h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lnjto6/gemini_cli_organizing_my_400_files_notes_in_a/" target="_blank" rel="noopener" title="Gemini CLI Organizing My 400 Files Notes In A Half Hour, Even Made Meaningful Connections Between Various Topics">
-          Gemini CLI Organizing My 400 Files Notes In A Half Hour, Even Made Meaningful Connections Between Various Topics ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">16h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lnin1x/ai_coding_agentswhat_am_i_doing_wrong/" target="_blank" rel="noopener" title="AI coding agents...what am I doing wrong?">
-          AI coding agents...what am I doing wrong? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">16h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lni3j5/seemingly_aigenerated_band_the_velvet_sundown/" target="_blank" rel="noopener" title="Seemingly AI-generated band The Velvet Sundown have over 400,000 monthly Spotify listeners">
-          Seemingly AI-generated band The Velvet Sundown have over 400,000 monthly Spotify listeners ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">16h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lni2bw/this_is_your_daily_reminder_that_gpt5_is_not_a/" target="_blank" rel="noopener" title="This is your daily reminder that GPT-5 is NOT a router its a unified single model confirmed by like 50 people at OpenAI">
-          This is your daily reminder that GPT-5 is NOT a router its a unified single model confirmed by like 50 people at OpenAI ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">17h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnhthq/i_guess_copilot_remembers_other_chats_i_guess/" target="_blank" rel="noopener" title="I guess copilot remembers other chats I guess?">
-          I guess copilot remembers other chats I guess? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">17h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnguks/ai_that_turns_any_public_repo_into_something_you/" target="_blank" rel="noopener" title="AI that turns any public repo into something you can just import and run in seconds">
-          AI that turns any public repo into something you can just import and run in seconds ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">18h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnge4e/need_help_finding_ai_tools_to_enhance_and_maybe/" target="_blank" rel="noopener" title="need help finding AI tools to enhance and maybe organize old newspaper articles">
-          need help finding AI tools to enhance and maybe organize old newspaper articles ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">18h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/" target="_blank" rel="noopener" title="After 147 failed ChatGPT prompts, I had a breakdown and accidentally discovered something">
-          After 147 failed ChatGPT prompts, I had a breakdown and accidentally discovered something ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">19h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1lne9e0/d_position_machine_learning_conferences_should/" target="_blank" rel="noopener" title="Position: Machine Learning Conferences Should Establish a “Refutations and Critiques” Track">
-          Position: Machine Learning Conferences Should Establish a “Refutations and Critiques” Track ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">20h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnd8t6/how_i_keep_up_with_ai_news_and_tools_and_why_you/" target="_blank" rel="noopener" title="How I Keep Up with AI News and Tools – and Why You Should Too">
-          How I Keep Up with AI News and Tools – and Why You Should Too ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">20h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1lnd6bm/restoring_a_70yearold_photo_with_chatgpt/" target="_blank" rel="noopener" title="Restoring a 70-year-old photo with ChatGPT">
-          Restoring a 70-year-old photo with ChatGPT ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">22h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/i-let-ai-agents-plan-my-vacation-and-it-wasnt-terrible/" target="_blank" rel="noopener" title="I Let AI Agents Plan My Vacation—and It Wasn't Terrible">
-          I Let AI Agents Plan My Vacation—and It Wasn't Terrible ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">23h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lnax9s/showcase_ai_coding_tool_happily_hallucinating/" target="_blank" rel="noopener" title="Showcase: AI coding tool happily hallucinating">
-          Showcase: AI coding tool happily hallucinating ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
-        <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/ChatGPT/comments/1ln9tvd/chatgpt_has_come_a_long_way_since_2023/" target="_blank" rel="noopener" title="ChatGPT has come a long way since 2023">
-          ChatGPT has come a long way since 2023 ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1ln7rll/i_made_a_writing_assistant_chrome_extension/" target="_blank" rel="noopener" title="I made a writing assistant Chrome extension. Completely free with Gemini Nano.">
-          I made a writing assistant Chrome extension. Completely free with Gemini Nano. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1ln7c28/r_archrouter_the_fastest_llm_routing_model/" target="_blank" rel="noopener" title="Arch-Router - The fastest LLM routing model designed to align to usage preferences">
-          Arch-Router - The fastest LLM routing model designed to align to usage preferences ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1ln76ra/the_fact_that_zuck_could_poach_almost_like_10/" target="_blank" rel="noopener" title="The fact that Zuck could poach almost like 10 important researchers from OpenAI in the last week and absolutely none from Anthropic tells you a lot about where this is going">
-          The fact that Zuck could poach almost like 10 important researchers from OpenAI in the last week and absolutely none from Anthropic tells you a lot about where this is going ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1ln4upi/do_you_think_ai_slop_is_going_to_drive_people/" target="_blank" rel="noopener" title="Do you think Ai Slop is going to drive people away from social media or pull them in?">
-          Do you think Ai Slop is going to drive people away from social media or pull them in? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
-        <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/MachineLearning/comments/1ln4omn/r_lstm_or_transformer_as_malware_packer/" target="_blank" rel="noopener" title="LSTM or Transformer as "malware packer"">
-          LSTM or Transformer as "malware packer" ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/28/authors-call-on-publishers-to-limit-their-use-of-ai/" target="_blank" rel="noopener" title="Authors call on publishers to limit their use of AI">
-          Authors call on publishers to limit their use of AI ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/four-openai-researchers-leave-meta/" target="_blank" rel="noopener" title="OpenAI Loses 4 Key Researchers to Meta">
-          OpenAI Loses 4 Key Researchers to Meta ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lmvfp2/can_ai_run_a_physical_shop_anthropics_claude/" target="_blank" rel="noopener" title="Can AI run a physical shop? Anthropic’s Claude tried and the results were gloriously, hilariously bad">
-          Can AI run a physical shop? Anthropic’s Claude tried and the results were gloriously, hilariously bad ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/28/meta-reportedly-hires-four-more-researchers-from-openai/" target="_blank" rel="noopener" title="Meta reportedly hires four more researchers from OpenAI">
-          Meta reportedly hires four more researchers from OpenAI ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/28/anthropics-claude-ai-became-a-terrible-business-owner-in-experiment-that-got-weird/" target="_blank" rel="noopener" title="Anthropic’s Claude AI became a terrible business owner in experiment that got ‘weird’">
-          Anthropic’s Claude AI became a terrible business owner in experiment that got ‘weird’ ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">1d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/generative-ai-backlash/" target="_blank" rel="noopener" title="The AI Backlash Keeps Growing Stronger">
-          The AI Backlash Keeps Growing Stronger ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="community" data-source="community">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lmgkil/grok_turned_on_elon_with_almost_no_prompting/" target="_blank" rel="noopener" title="Grok turned on Elon with almost no prompting. Uncanny is the only word I have">
-          Grok turned on Elon with almost no prompting. Uncanny is the only word I have ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-community">community</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="safety" data-source="safety">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=alignmentforum.org" alt="Alignment Forum" width="16" height="16">
-        <span class="source-name">Alignment Forum</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.alignmentforum.org/posts/vHDowQtsiy2xK38H4/axrp-episode-44-peter-salib-on-ai-rights-for-human-safety" target="_blank" rel="noopener" title="AXRP Episode 44 - Peter Salib on AI Rights for Human Safety">
-          AXRP Episode 44 - Peter Salib on AI Rights for Human Safety ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-safety">safety</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/layernorm-and-rms-norm-in-transformer-models/" target="_blank" rel="noopener" title="LayerNorm and RMS Norm in Transformer Models">
-          LayerNorm and RMS Norm in Transformer Models ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/congress-might-block-state-ai-laws-for-a-decade-heres-what-it-means/" target="_blank" rel="noopener" title="Congress might block state AI laws for a decade. Here’s what it means.">
-          Congress might block state AI laws for a decade. Here’s what it means. ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/as-job-losses-loom-anthropic-launches-program-to-track-ais-economic-fallout/" target="_blank" rel="noopener" title="As job losses loom, Anthropic launches program to track AI’s economic fallout">
-          As job losses loom, Anthropic launches program to track AI’s economic fallout ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/" target="_blank" rel="noopener" title="OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations">
-          OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/meta-is-offering-multimillion-dollar-pay-for-ai-researchers-but-not-100m-signing-bonuses/" target="_blank" rel="noopener" title="Meta is offering multimillion-dollar pay for AI researchers, but not $100M ‘signing bonuses’">
-          Meta is offering multimillion-dollar pay for AI researchers, but not $100M ‘signing bonuses’ ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/a-developers-guide-to-building-scalable-ai-workflows-vs-agents/" target="_blank" rel="noopener" title="A Developer’s Guide to Building Scalable AI: Workflows vs Agents">
-          A Developer’s Guide to Building Scalable AI: Workflows vs Agents ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/facebook-is-asking-to-use-meta-ai-on-photos-in-your-camera-roll-you-havent-yet-shared/" target="_blank" rel="noopener" title="Facebook is asking to use Meta AI on photos in your camera roll you haven’t yet shared">
-          Facebook is asking to use Meta AI on photos in your camera roll you haven’t yet shared ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/anthropic-tests-ai-running-a-real-business-with-bizarre-results/" target="_blank" rel="noopener" title="Anthropic tests AI running a real business with bizarre results">
-          Anthropic tests AI running a real business with bizarre results ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/podcast/big-tech-lands-an-early-win-in-legal-battles-against-publishers/" target="_blank" rel="noopener" title="Big Tech lands an early win in legal battles against publishers">
-          Big Tech lands an early win in legal battles against publishers ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/openai-hires-team-behind-ai-recommendation-startup-crossing-minds/" target="_blank" rel="noopener" title="OpenAI hires team behind AI recommendation startup Crossing Minds">
-          OpenAI hires team behind AI recommendation startup Crossing Minds ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">2d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/27/meta-in-talks-to-acquire-voice-cloning-startup-play-ai/" target="_blank" rel="noopener" title="Meta in talks to acquire voice-cloning startup Play AI">
-          Meta in talks to acquire voice-cloning startup Play AI ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/26/this-ai-powered-startup-studio-plans-to-launch-100000-companies-a-year-really/" target="_blank" rel="noopener" title="This AI-powered startup studio plans to launch 100,000 companies a year — really">
-          This AI-powered startup studio plans to launch 100,000 companies a year — really ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/26/why-a16z-vc-believes-that-cluely-the-cheat-on-everything-startup-is-the-new-blueprint-for-ai-startups/" target="_blank" rel="noopener" title="Why a16z VC believes that Cluely, the ‘cheat on everything’ startup, is the new blueprint for AI startups">
-          Why a16z VC believes that Cluely, the ‘cheat on everything’ startup, is the new blueprint for AI startups ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=arstechnica.com" alt="Ars Technica AI" width="16" height="16">
-        <span class="source-name">Ars Technica AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/" target="_blank" rel="noopener" title="Anthropic summons the spirit of Flash games for the AI age">
-          Anthropic summons the spirit of Flash games for the AI age ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/pipelining-ai-ml-training-workloads-with-cuda-streams/" target="_blank" rel="noopener" title="Pipelining AI/ML Training Workloads with CUDA Streams">
-          Pipelining AI/ML Training Workloads with CUDA Streams ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/hitchhikers-guide-to-rag-with-chatgpt-api-and-langchain/" target="_blank" rel="noopener" title="Hitchhiker’s Guide to RAG with ChatGPT API and LangChain">
-          Hitchhiker’s Guide to RAG with ChatGPT API and LangChain ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/26/in-just-3-months-coreweave-ceo-once-a-crypto-mining-bro-becomes-a-deca-billionaire/" target="_blank" rel="noopener" title="In just 3 months, CoreWeave CEO, once a crypto-mining bro, becomes a deca-billionaire">
-          In just 3 months, CoreWeave CEO, once a crypto-mining bro, becomes a deca-billionaire ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/26/google-photos-merges-classic-search-with-ai-to-speed-up-results/" target="_blank" rel="noopener" title="Google Photos merges classic search with AI to speed up results">
-          Google Photos merges classic search with AI to speed up results ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/" target="_blank" rel="noopener" title="Disney Just Threw a Punch in a Major AI Fight">
-          Disney Just Threw a Punch in a Major AI Fight ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/ai-agent-with-multi-session-memory/" target="_blank" rel="noopener" title="AI Agent with Multi-Session Memory">
-          AI Agent with Multi-Session Memory ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
-        <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/" target="_blank" rel="noopener" title="Meta hires key OpenAI researcher to work on AI reasoning models">
-          Meta hires key OpenAI researcher to work on AI reasoning models ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/nvidia-reclaims-title-of-most-valuable-company-on-ai-momentum/" target="_blank" rel="noopener" title="Nvidia reclaims title of most valuable company on AI momentum">
-          Nvidia reclaims title of most valuable company on AI momentum ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/how-to-unlock-the-power-of-multi-agent-apps/" target="_blank" rel="noopener" title="How to Unlock the Power of Multi-Agent Apps">
-          How to Unlock the Power of Multi-Agent Apps ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/7-ai-agent-frameworks-for-machine-learning-workflows-in-2025/" target="_blank" rel="noopener" title="7 AI Agent Frameworks for Machine Learning Workflows in 2025">
-          7 AI Agent Frameworks for Machine Learning Workflows in 2025 ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tools" data-source="tools">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=blog.google" alt="NotebookLM" width="16" height="16">
-        <span class="source-name">NotebookLM</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-gemini-ai-kit/" target="_blank" rel="noopener" title="The Google for Startups Gemini kit is here">
-          The Google for Startups Gemini kit is here ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tools">tools</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/major-ai-chatbots-parrot-ccp-propaganda/" target="_blank" rel="noopener" title="Major AI chatbots parrot CCP propaganda">
-          Major AI chatbots parrot CCP propaganda ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=openai.com" alt="OpenAI Blog" width="16" height="16">
-        <span class="source-name">OpenAI Blog</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://openai.com/index/retell-ai" target="_blank" rel="noopener" title="Customizable, no-code voice agent automation with GPT-4o">
-          Customizable, no-code voice agent automation with GPT-4o ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">3d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/couples-retreat-with-3-ai-chatbots-and-humans-who-love-them-replika-nomi-chatgpt/" target="_blank" rel="noopener" title="My Couples Retreat With 3 AI Chatbots and the Humans Who Love Them">
-          My Couples Retreat With 3 AI Chatbots and the Humans Who Love Them ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/a-gentle-introduction-to-attention-masking-in-transformer-models/" target="_blank" rel="noopener" title="A Gentle Introduction to Attention Masking in Transformer Models">
-          A Gentle Introduction to Attention Masking in Transformer Models ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/use-openai-whisper-for-automated-transcriptions/" target="_blank" rel="noopener" title="Use OpenAI Whisper for Automated Transcriptions">
-          Use OpenAI Whisper for Automated Transcriptions ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tools" data-source="tools">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=huggingface.co" alt="Hugging Face Blog" width="16" height="16">
-        <span class="source-name">Hugging Face Blog</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://huggingface.co/blog/gemma3n" target="_blank" rel="noopener" title="Gemma 3n fully available in the open-source ecosystem!">
-          Gemma 3n fully available in the open-source ecosystem! ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tools">tools</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/meta-scores-victory-ai-copyright-case/" target="_blank" rel="noopener" title="Meta Wins Blockbuster AI Copyright Case—but There’s a Catch">
-          Meta Wins Blockbuster AI Copyright Case—but There’s a Catch ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=arstechnica.com" alt="Ars Technica AI" width="16" height="16">
-        <span class="source-name">Ars Technica AI</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/" target="_blank" rel="noopener" title="Anthropic destroyed millions of print books to build its AI models">
-          Anthropic destroyed millions of print books to build its AI models ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/how-to-train-a-chatbot-using-rag-and-custom-data/" target="_blank" rel="noopener" title="How to Train a Chatbot Using RAG and Custom Data">
-          How to Train a Chatbot Using RAG and Custom Data ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/stop-chasing-efficiency-ai-the-real-value-is-in-opportunity-ai/" target="_blank" rel="noopener" title="Stop Chasing “Efficiency AI.” The Real Value Is in “Opportunity AI.”">
-          Stop Chasing “Efficiency AI.” The Real Value Is in “Opportunity AI.” ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/" target="_blank" rel="noopener" title="AI Agents Are Getting Better at Writing Code—and Hacking It as Well">
-          AI Agents Are Getting Better at Writing Code—and Hacking It as Well ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/no-fakes-act-ai-deepfakes-protection-internet-freedom-threat/" target="_blank" rel="noopener" title="NO FAKES Act: AI deepfakes protection or internet freedom threat?">
-          NO FAKES Act: AI deepfakes protection or internet freedom threat? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="research" data-source="research">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=deepmind.google" alt="DeepMind Blog" width="16" height="16">
-        <span class="source-name">DeepMind Blog</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/" target="_blank" rel="noopener" title="AlphaGenome: AI for better understanding the genome">
-          AlphaGenome: AI for better understanding the genome ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-research">research</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tools" data-source="tools">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=blog.google" alt="NotebookLM" width="16" height="16">
-        <span class="source-name">NotebookLM</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/" target="_blank" rel="noopener" title="Gemini CLI: your open-source AI agent">
-          Gemini CLI: your open-source AI agent ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tools">tools</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/10-essential-machine-learning-key-terms-explained/" target="_blank" rel="noopener" title="10 Essential Machine Learning Key Terms Explained">
-          10 Essential Machine Learning Key Terms Explained ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="research" data-source="research">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=technologyreview.com" alt="MIT Technology Review AI" width="16" height="16">
-        <span class="source-name">MIT Technology Review AI</span>
-        <time class="pub-time">4d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.technologyreview.com/2025/06/25/1119286/ai-hype-index-toys-agents-openai-yoshua-bengio/" target="_blank" rel="noopener" title="The AI Hype Index: AI-powered toys are coming">
-          The AI Hype Index: AI-powered toys are coming ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-research">research</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tools" data-source="tools">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=blog.langchain.com" alt="LangChain Blog" width="16" height="16">
-        <span class="source-name">LangChain Blog</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://blog.langchain.com/captide/" target="_blank" rel="noopener" title="How Captide agents running on LangGraph Platform compress investment research from days to seconds">
-          How Captide agents running on LangGraph Platform compress investment research from days to seconds ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tools">tools</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/agentic-ai-implementing-long-term-memory/" target="_blank" rel="noopener" title="Agentic AI: Implementing Long-Term Memory">
-          Agentic AI: Implementing Long-Term Memory ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/why-your-next-llm-might-not-have-a-tokenizer/" target="_blank" rel="noopener" title="Why Your Next LLM Might Not Have A Tokenizer">
-          Why Your Next LLM Might Not Have A Tokenizer ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="safety" data-source="safety">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=alignmentforum.org" alt="Alignment Forum" width="16" height="16">
-        <span class="source-name">Alignment Forum</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.alignmentforum.org/posts/HwuMFFnb6CaTwzhye/why-training-against-scheming-is-hard" target="_blank" rel="noopener" title="Why "training against scheming" is hard">
-          Why "training against scheming" is hard ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-safety">safety</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=arstechnica.com" alt="Ars Technica AI" width="16" height="16">
-        <span class="source-name">Ars Technica AI</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/" target="_blank" rel="noopener" title="The résumé is dying, and AI is holding the smoking gun">
-          The résumé is dying, and AI is holding the smoking gun ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/salesforce-agentforce-3-brings-visibility-ai-agents/" target="_blank" rel="noopener" title="Salesforce Agentforce 3 brings visibility to AI agents">
-          Salesforce Agentforce 3 brings visibility to AI agents ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/build-multi-agent-apps-with-openais-agent-sdk/" target="_blank" rel="noopener" title="Build Multi-Agent Apps with OpenAI’s Agent SDK">
-          Build Multi-Agent Apps with OpenAI’s Agent SDK ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
-        <span class="source-name">Wired AI</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.wired.com/story/anthropic-ai-copyright-fair-use-piracy-ruling/" target="_blank" rel="noopener" title="Anthropic Scores a Landmark AI Copyright Win—but Will Face Trial Over Piracy Claims">
-          Anthropic Scores a Landmark AI Copyright Win—but Will Face Trial Over Piracy Claims ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="research" data-source="research">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=deepmind.google" alt="DeepMind Blog" width="16" height="16">
-        <span class="source-name">DeepMind Blog</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/" target="_blank" rel="noopener" title="Gemini Robotics On-Device brings AI to local robotic devices">
-          Gemini Robotics On-Device brings AI to local robotic devices ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-research">research</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">5d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/combining-xgboost-and-embeddings-hybrid-semantic-boosted-trees/" target="_blank" rel="noopener" title="Combining XGBoost and Embeddings: Hybrid Semantic Boosted Trees?">
-          Combining XGBoost and Embeddings: Hybrid Semantic Boosted Trees? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="research" data-source="research">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=technologyreview.com" alt="MIT Technology Review AI" width="16" height="16">
-        <span class="source-name">MIT Technology Review AI</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.technologyreview.com/2025/06/24/1119187/fix-ai-evaluation-crisis/" target="_blank" rel="noopener" title="Can we fix AI’s evaluation crisis?">
-          Can we fix AI’s evaluation crisis? ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-research">research</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="news" data-source="news">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=artificialintelligence-news.com" alt="AI News" width="16" height="16">
-        <span class="source-name">AI News</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.artificialintelligence-news.com/news/huawei-harmonyos-6-ai-agents-beta/" target="_blank" rel="noopener" title="Huawei HarmonyOS 6 AI agents offer alternative to Android and iOS">
-          Huawei HarmonyOS 6 AI agents offer alternative to Android and iOS ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-news">news</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=writesonic.com" alt="Writesonic" width="16" height="16">
-        <span class="source-name">Writesonic</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://writesonic.com/blog/how-to-identify-prompts" target="_blank" rel="noopener" title="How to Identify Prompts to Track on AI Search Engines">
-          How to Identify Prompts to Track on AI Search Engines ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=openai.com" alt="OpenAI Blog" width="16" height="16">
-        <span class="source-name">OpenAI Blog</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://openai.com/index/unify" target="_blank" rel="noopener" title="Driving scalable growth with OpenAI o3, GPT-4.1, and CUA">
-          Driving scalable growth with OpenAI o3, GPT-4.1, and CUA ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/explained-simply-reinforcement-learning-from-human-feedback/" target="_blank" rel="noopener" title="Reinforcement Learning from Human Feedback, Explained Simply">
-          Reinforcement Learning from Human Feedback, Explained Simply ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/programming-not-prompting-a-hands-on-guide-to-dspy/" target="_blank" rel="noopener" title="Programming, Not Prompting: A Hands-On Guide to DSPy">
-          Programming, Not Prompting: A Hands-On Guide to DSPy ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/building-a-modern-dashboard-with-python-and-taipy/" target="_blank" rel="noopener" title="Building A Modern Dashboard with Python and Taipy">
-          Building A Modern Dashboard with Python and Taipy ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="company" data-source="company">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=writesonic.com" alt="Writesonic" width="16" height="16">
-        <span class="source-name">Writesonic</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://writesonic.com/blog/chatgpt-prompts-for-seo" target="_blank" rel="noopener" title="30+ ChatGPT Prompts for SEO: Tested by an SEO Expert">
-          30+ ChatGPT Prompts for SEO: Tested by an SEO Expert ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-company">company</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="safety" data-source="safety">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=alignmentforum.org" alt="Alignment Forum" width="16" height="16">
-        <span class="source-name">Alignment Forum</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.alignmentforum.org/posts/DCQ8GfzCqoBzgziew/comparing-risk-from-internally-deployed-ai-to-insider-and" target="_blank" rel="noopener" title="Comparing risk from internally-deployed AI to insider and outsider threats from humans">
-          Comparing risk from internally-deployed AI to insider and outsider threats from humans ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-safety">safety</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=towardsdatascience.com" alt="Towards Data Science" width="16" height="16">
-        <span class="source-name">Towards Data Science</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://towardsdatascience.com/building-ai-powered-low-code-workflows-with-n8n/" target="_blank" rel="noopener" title="Building AI-Powered Low-Code Workflows with n8n">
-          Building AI-Powered Low-Code Workflows with n8n ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tools" data-source="tools">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=blog.langchain.com" alt="LangChain Blog" width="16" height="16">
-        <span class="source-name">LangChain Blog</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://blog.langchain.com/the-rise-of-context-engineering/" target="_blank" rel="noopener" title="The rise of "context engineering"">
-          The rise of "context engineering" ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tools">tools</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="research" data-source="research">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=technologyreview.com" alt="MIT Technology Review AI" width="16" height="16">
-        <span class="source-name">MIT Technology Review AI</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.technologyreview.com/2025/06/23/1119190/chinese-changing-ai-benchmarks/" target="_blank" rel="noopener" title="A Chinese firm has just launched a constantly changing set of AI benchmarks">
-          A Chinese firm has just launched a constantly changing set of AI benchmarks ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-research">research</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="tutorial" data-source="tutorial">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=machinelearningmastery.com" alt="Machine Learning Mastery" width="16" height="16">
-        <span class="source-name">Machine Learning Mastery</span>
-        <time class="pub-time">6d ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://machinelearningmastery.com/converting-pandas-dataframes-to-pytorch-dataloaders-for-custom-deep-learning-model-training/" target="_blank" rel="noopener" title="Converting Pandas DataFrames to PyTorch DataLoaders for Custom Deep Learning Model Training">
-          Converting Pandas DataFrames to PyTorch DataLoaders for Custom Deep Learning Model Training ↗
-        </a>
-      </h3>
-      
-      <div class="metadata">
-        <span class="category category-tutorial">tutorial</span>
+        <span class="category category-reddit">reddit</span>
       </div>
     </article>
   
