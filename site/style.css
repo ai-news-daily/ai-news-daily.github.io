@@ -485,6 +485,7 @@ body::before {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
+  grid-auto-rows: 1fr;
 }
 
 /* Desktop sidebar layout */
@@ -526,6 +527,7 @@ body::before {
   /* Optimize grid for remaining space */
   .articles-grid {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-auto-rows: 1fr;
     max-width: 1200px;
   }
 }
@@ -541,6 +543,9 @@ body::before {
   overflow: hidden;
   backdrop-filter: blur(20px);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .news-item::before {
@@ -936,6 +941,7 @@ body::before {
   
   .articles-grid {
     grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
     gap: 1.5rem;
     margin: 1rem;
   }
