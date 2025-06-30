@@ -663,7 +663,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       // Track article views for analytics if needed
-      console.log('Article viewed:', entry.target.querySelector('.article-title a').textContent);
+      // console.log('Article viewed:', entry.target.querySelector('.article-title a').textContent);
     }
   });
 }, { threshold: 0.5 });

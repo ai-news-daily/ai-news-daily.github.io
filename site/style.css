@@ -321,6 +321,23 @@ body {
   display: none;
 }
 
+/* Global filter collapse/expand functionality for all screen sizes */
+.filter-group:not(.expanded) .filter-buttons {
+  display: none;
+}
+
+.filter-group:not(.expanded) .filter-toggle {
+  transform: rotate(-90deg);
+}
+
+.filter-group.expanded .filter-toggle {
+  transform: rotate(0deg);
+}
+
+.filter-group.expanded .filter-buttons {
+  display: flex;
+}
+
 /* Main content */
 .main {
   max-width: 1200px;
@@ -526,6 +543,46 @@ body {
   transform: none;
 }
 
+/* Desktop sidebar layout */
+@media (min-width: 969px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Create sidebar layout after header */
+  .filters {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    width: 280px;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+    backdrop-filter: none;
+    z-index: 98;
+  }
+  
+  .filters-content {
+    padding: 1.5rem;
+  }
+  
+  /* Adjust main content for sidebar */
+  .main {
+    margin-left: 280px;
+    max-width: none;
+    padding: 2rem 1rem 2rem 2rem;
+  }
+  
+  /* Optimize grid for remaining space */
+  .articles-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1200px;
+  }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .header-content {
@@ -572,8 +629,8 @@ body {
   /* Collapse filters on mobile by default */
   .filter-group {
     border-bottom: 1px solid var(--border);
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0.25rem;
   }
 
   .filter-group:last-child {
@@ -582,7 +639,7 @@ body {
   }
 
   .filter-group:not(.expanded) {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
   }
 
   .filter-group:not(.expanded) .filter-buttons {
@@ -597,13 +654,14 @@ body {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 0.5rem;
-    padding: 0.75rem;
-    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
   }
 
   .filter-header:hover {
     background: var(--surface-hover);
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.25rem 0;
   }
 }
 

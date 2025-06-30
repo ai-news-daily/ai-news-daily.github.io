@@ -276,70 +276,73 @@ async function buildSite(selectedDate = null) {
     </div>
   </header>
 
-  <!-- Filters -->
-  <div class="filters">
-    <div class="filters-content">
-      <!-- Category Filters -->
-      <div class="filter-group">
-        <button class="filter-header" data-target="categories">
-          <label class="filter-label">Categories</label>
-          <span class="filter-toggle">▼</span>
-        </button>
-        <div class="filter-buttons" id="categories">
-          <button class="filter-btn active" data-category="all">All (${articles.length})</button>
-          ${Object.entries(categoryStats)
-            .sort(([,a], [,b]) => b - a)
-            .map(([category, count]) => 
-              `<button class="filter-btn" data-category="${category}">${category.replace('-', ' ')} (${count})</button>`
-            ).join('')}
+  <!-- Page Layout Container -->
+  <div class="page-layout">
+    <!-- Filters -->
+    <div class="filters">
+      <div class="filters-content">
+        <!-- Category Filters -->
+        <div class="filter-group">
+          <button class="filter-header" data-target="categories">
+            <label class="filter-label">Categories</label>
+            <span class="filter-toggle">▼</span>
+          </button>
+          <div class="filter-buttons" id="categories">
+            <button class="filter-btn active" data-category="all">All (${articles.length})</button>
+            ${Object.entries(categoryStats)
+              .sort(([,a], [,b]) => b - a)
+              .map(([category, count]) => 
+                `<button class="filter-btn" data-category="${category}">${category.replace('-', ' ')} (${count})</button>`
+              ).join('')}
+          </div>
         </div>
-      </div>
-      
-      <!-- Source Type Filters -->
-      <div class="filter-group">
-        <button class="filter-header" data-target="source-types">
-          <label class="filter-label">Source Types</label>
-          <span class="filter-toggle">▼</span>
-        </button>
-        <div class="filter-buttons" id="source-types">
-          <button class="filter-btn active" data-source="all">All Sources</button>
-          ${Object.entries(sourceStats)
-            .sort(([,a], [,b]) => b - a)
-            .slice(0, 8)
-            .map(([source, count]) => 
-              `<button class="filter-btn" data-source="${source}">${source} (${count})</button>`
-            ).join('')}
+        
+        <!-- Source Type Filters -->
+        <div class="filter-group">
+          <button class="filter-header" data-target="source-types">
+            <label class="filter-label">Source Types</label>
+            <span class="filter-toggle">▼</span>
+          </button>
+          <div class="filter-buttons" id="source-types">
+            <button class="filter-btn active" data-source="all">All Sources</button>
+            ${Object.entries(sourceStats)
+              .sort(([,a], [,b]) => b - a)
+              .slice(0, 8)
+              .map(([source, count]) => 
+                `<button class="filter-btn" data-source="${source}">${source} (${count})</button>`
+              ).join('')}
+          </div>
         </div>
-      </div>
-      
-      <!-- Difficulty Filters -->
-      <div class="filter-group">
-        <button class="filter-header" data-target="difficulty-level">
-          <label class="filter-label">Difficulty Level</label>
-          <span class="filter-toggle">▼</span>
-        </button>
-        <div class="filter-buttons" id="difficulty-level">
-          <button class="filter-btn active" data-difficulty="all">All Levels</button>
-          <button class="filter-btn" data-difficulty="easy">Easy (${difficultyStats.easy})</button>
-          <button class="filter-btn" data-difficulty="medium">Medium (${difficultyStats.medium})</button>
-          <button class="filter-btn" data-difficulty="hard">Hard (${difficultyStats.hard})</button>
+        
+        <!-- Difficulty Filters -->
+        <div class="filter-group">
+          <button class="filter-header" data-target="difficulty-level">
+            <label class="filter-label">Difficulty Level</label>
+            <span class="filter-toggle">▼</span>
+          </button>
+          <div class="filter-buttons" id="difficulty-level">
+            <button class="filter-btn active" data-difficulty="all">All Levels</button>
+            <button class="filter-btn" data-difficulty="easy">Easy (${difficultyStats.easy})</button>
+            <button class="filter-btn" data-difficulty="medium">Medium (${difficultyStats.medium})</button>
+            <button class="filter-btn" data-difficulty="hard">Hard (${difficultyStats.hard})</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Main Content -->
-  <main class="main">
-    <div class="main-content">
-      <!-- Articles Grid -->
-      <div class="articles-grid" id="articlesGrid">
-        ${articles.map(article => generateArticleHTML(article)).join('')}
+    <!-- Main Content -->
+    <main class="main">
+      <div class="main-content">
+        <!-- Articles Grid -->
+        <div class="articles-grid" id="articlesGrid">
+          ${articles.map(article => generateArticleHTML(article)).join('')}
+        </div>
+        
+        <!-- Load More Button -->
+        <button id="loadMoreBtn" class="load-more">Load More Articles</button>
       </div>
-      
-      <!-- Load More Button -->
-      <button id="loadMoreBtn" class="load-more">Load More Articles</button>
-    </div>
-  </main>
+    </main>
+  </div>
 
   <!-- Scripts -->
   <script src="app.js"></script>

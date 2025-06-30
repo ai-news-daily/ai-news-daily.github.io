@@ -142,6 +142,14 @@ jobs:
           git config --local user.email "ai-news-bot@users.noreply.github.com"
           git config --local user.name "AI News Bot"
           
+          # Pull latest changes first to avoid conflicts
+          git pull origin main --rebase || {
+            echo "Failed to pull latest changes, trying merge..."
+            git pull origin main --no-rebase || {
+              echo "Pull failed, continuing with force push..."
+            }
+          }
+          
           # Add all changes including deletions
           git add data/ site/
           git add -u  # Stage deletions
@@ -162,7 +170,11 @@ jobs:
             exit 0
           }
           
-          git push
+          # Push changes with retry logic
+          git push || {
+            echo "Push failed, trying with --force-with-lease..."
+            git push --force-with-lease
+          }
           
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
