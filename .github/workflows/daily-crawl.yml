@@ -71,8 +71,10 @@ jobs:
           echo "Crawl completed"
           
       - name: Process with AI categorization
+        env:
+          PROCESSING_LIMIT: 20  # Process only 20 articles for faster builds
         run: |
-          echo "🧠 Processing articles with AI..."
+          echo "🧠 Processing articles with AI (limited to $PROCESSING_LIMIT articles)..."
           node scripts/process-with-llm.js
           echo "AI processing completed"
           
