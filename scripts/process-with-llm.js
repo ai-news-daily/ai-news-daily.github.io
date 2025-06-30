@@ -353,6 +353,7 @@ async function processArticlesWithAI() {
   const newlyProcessedArticles = [];
   const categoryStats = {};
   let duplicateCount = 0;
+  let rejectedLowConfidence = 0;
   
   for (let i = 0; i < finalArticlesToProcess.length; i++) {
     const article = finalArticlesToProcess[i];
@@ -398,6 +399,13 @@ async function processArticlesWithAI() {
     
     // Generate summary
     const summary = await generateSummary(article.title, article.metaDescription, article.source, useAI);
+    
+    // Apply confidence threshold filter - reject articles below 60%
+    if (result.confidence < 0.60) {
+      console.log(`❌ Rejected low confidence (${(result.confidence * 100).toFixed(1)}%): ${article.title.substring(0, 60)}...`);
+      rejectedLowConfidence++;
+      continue; // Skip this article
+    }
     
     // Create processed article
     const processedArticle = {
@@ -449,6 +457,9 @@ async function processArticlesWithAI() {
   console.log(`✅ Successfully processed ${newlyProcessedArticles.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis`);
   console.log(`📊 Total articles: ${allProcessedArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
   console.log(`🎯 New categories found:`, Object.keys(categoryStats).join(', ') || 'none');
+  if (rejectedLowConfidence > 0) {
+    console.log(`🚫 Rejected ${rejectedLowConfidence} articles with confidence < 60%`);
+  }
   console.log(`💾 Saved to: ${latestPath}`);
   console.log(`📅 Historical backup: ${datePath}`);
   console.log('🎉 AI processing completed successfully!');
