@@ -50,6 +50,16 @@
   --border-radius-lg: 12px;
 }
 
+/* Light mode variables */
+[data-theme="light"] {
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --surface-hover: #e2e8f0;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border: #e2e8f0;
+}
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -145,6 +155,33 @@ body {
 .clear-search:hover {
   color: var(--text-primary);
   background: var(--surface);
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background: var(--surface-hover);
+}
+
+.theme-icon {
+  font-size: 1rem;
 }
 
 .stats {

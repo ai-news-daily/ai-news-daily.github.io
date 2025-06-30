@@ -11,6 +11,7 @@ const clearSearchBtn = document.getElementById('clearSearch');
 const loadMoreBtn = document.getElementById('loadMoreBtn');
 const showCount = document.getElementById('showCount');
 const totalCount = document.getElementById('totalCount');
+const themeToggle = document.getElementById('themeToggle');
 
 // Filters state
 const filters = {
@@ -25,6 +26,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     await loadData();
     setupEventListeners();
+    initializeTheme();
+    updateFilterCounts(); // Initialize filter counts
     applyFilters();
     updateDisplay();
   } catch (error) {
@@ -41,9 +44,11 @@ async function loadData() {
     allArticles = data.articles;
     filteredArticles = [...allArticles];
     
-    console.log(`Loaded ${allArticles.length} articles`);
+    console.log(`✅ Loaded ${allArticles.length} articles`);
+    console.log('📊 Source categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.source_category] = true; return acc; }, {})));
+    console.log('🤖 AI categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.category] = true; return acc; }, {})));
   } catch (error) {
-    console.error('Failed to load data:', error);
+    console.error('❌ Failed to load data:', error);
     throw error;
   }
 }
@@ -58,6 +63,9 @@ function setupEventListeners() {
   // Search
   searchInput.addEventListener('input', debounce(handleSearch, 300));
   clearSearchBtn.addEventListener('click', clearSearch);
+  
+  // Theme toggle
+  themeToggle.addEventListener('click', toggleTheme);
   
   // Load more
   loadMoreBtn.addEventListener('click', loadMore);
@@ -110,10 +118,13 @@ function clearSearch() {
 // Apply all filters
 function applyFilters() {
   filteredArticles = allArticles.filter(article => {
-    // Category filter - handle both AI categories and source categories
+    // Category filter - prioritize source categories since filter buttons are based on them
     if (filters.category !== 'all') {
-      const articleCategory = article.category || article.source_category;
-      if (articleCategory !== filters.category) {
+      // Check source category first (what the filter buttons are based on)
+      const matchesSourceCategory = article.source_category === filters.category;
+      const matchesAICategory = article.category === filters.category;
+      
+      if (!matchesSourceCategory && !matchesAICategory) {
         return false;
       }
     }
@@ -150,7 +161,191 @@ function applyFilters() {
     return true;
   });
   
-  console.log(`Filtered to ${filteredArticles.length} articles`);
+  // Update filter button counts dynamically
+  updateFilterCounts();
+  
+  console.log(`✅ Filtered to ${filteredArticles.length} articles`);
+}
+
+// Update filter button counts dynamically
+function updateFilterCounts() {
+  // Update source type counts
+  document.querySelectorAll('[data-source]').forEach(btn => {
+    const sourceType = btn.dataset.source;
+    if (sourceType === 'all') {
+      // Show current filtered count for "All Sources" button
+      const currentCount = allArticles.filter(article => {
+        if (filters.category !== 'all') {
+          const matchesSourceCategory = article.source_category === filters.category;
+          const matchesAICategory = article.category === filters.category;
+          if (!matchesSourceCategory && !matchesAICategory) return false;
+        }
+        if (filters.difficulty !== 'all' && article.difficulty) {
+          const difficulty = article.difficulty;
+          if (filters.difficulty === 'easy' && difficulty > 3) return false;
+          if (filters.difficulty === 'medium' && (difficulty < 4 || difficulty > 7)) return false;
+          if (filters.difficulty === 'hard' && difficulty < 8) return false;
+        }
+        if (filters.search) {
+          const searchableText = [
+            article.title, article.source, article.category || article.source_category,
+            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+            ...(article.entities?.technologies || [])
+          ].join(' ').toLowerCase();
+          if (!searchableText.includes(filters.search)) return false;
+        }
+        return true;
+      }).length;
+      btn.textContent = `All Sources (${currentCount})`;
+      return;
+    }
+    
+    // Count articles that match current filters + this source type
+    const count = allArticles.filter(article => {
+      // Apply all current filters except source
+      if (filters.category !== 'all') {
+        const matchesSourceCategory = article.source_category === filters.category;
+        const matchesAICategory = article.category === filters.category;
+        if (!matchesSourceCategory && !matchesAICategory) return false;
+      }
+      
+      if (filters.difficulty !== 'all' && article.difficulty) {
+        const difficulty = article.difficulty;
+        if (filters.difficulty === 'easy' && difficulty > 3) return false;
+        if (filters.difficulty === 'medium' && (difficulty < 4 || difficulty > 7)) return false;
+        if (filters.difficulty === 'hard' && difficulty < 8) return false;
+      }
+      
+      if (filters.search) {
+        const searchableText = [
+          article.title, article.source, article.category || article.source_category,
+          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+          ...(article.entities?.technologies || [])
+        ].join(' ').toLowerCase();
+        if (!searchableText.includes(filters.search)) return false;
+      }
+      
+      // Apply this specific source filter
+      return article.source_category === sourceType;
+    }).length;
+    
+    btn.textContent = `${sourceType} (${count})`;
+  });
+  
+  // Update difficulty counts
+  document.querySelectorAll('[data-difficulty]').forEach(btn => {
+    const difficultyLevel = btn.dataset.difficulty;
+    if (difficultyLevel === 'all') {
+      // Show current filtered count for "All Levels" button
+      const currentCount = allArticles.filter(article => {
+        if (filters.category !== 'all') {
+          const matchesSourceCategory = article.source_category === filters.category;
+          const matchesAICategory = article.category === filters.category;
+          if (!matchesSourceCategory && !matchesAICategory) return false;
+        }
+        if (filters.source !== 'all' && article.source_category !== filters.source) return false;
+        if (filters.search) {
+          const searchableText = [
+            article.title, article.source, article.category || article.source_category,
+            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+            ...(article.entities?.technologies || [])
+          ].join(' ').toLowerCase();
+          if (!searchableText.includes(filters.search)) return false;
+        }
+        return true;
+      }).length;
+      btn.textContent = `All Levels (${currentCount})`;
+      return;
+    }
+    
+    const count = allArticles.filter(article => {
+      // Apply all current filters except difficulty
+      if (filters.category !== 'all') {
+        const matchesSourceCategory = article.source_category === filters.category;
+        const matchesAICategory = article.category === filters.category;
+        if (!matchesSourceCategory && !matchesAICategory) return false;
+      }
+      
+      if (filters.source !== 'all' && article.source_category !== filters.source) return false;
+      
+      if (filters.search) {
+        const searchableText = [
+          article.title, article.source, article.category || article.source_category,
+          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+          ...(article.entities?.technologies || [])
+        ].join(' ').toLowerCase();
+        if (!searchableText.includes(filters.search)) return false;
+      }
+      
+      // Apply this specific difficulty filter
+      if (!article.difficulty) return false;
+      const difficulty = article.difficulty;
+      if (difficultyLevel === 'easy' && difficulty > 3) return false;
+      if (difficultyLevel === 'medium' && (difficulty < 4 || difficulty > 7)) return false;
+      if (difficultyLevel === 'hard' && difficulty < 8) return false;
+      
+      return true;
+    }).length;
+    
+    const label = difficultyLevel.charAt(0).toUpperCase() + difficultyLevel.slice(1);
+    btn.textContent = `${label} (${count})`;
+  });
+  
+  // Update category counts  
+  document.querySelectorAll('[data-category]').forEach(btn => {
+    const categoryType = btn.dataset.category;
+    if (categoryType === 'all') {
+      // Show current filtered count for "All" button
+      const currentCount = allArticles.filter(article => {
+        if (filters.source !== 'all' && article.source_category !== filters.source) return false;
+        if (filters.difficulty !== 'all' && article.difficulty) {
+          const difficulty = article.difficulty;
+          if (filters.difficulty === 'easy' && difficulty > 3) return false;
+          if (filters.difficulty === 'medium' && (difficulty < 4 || difficulty > 7)) return false;
+          if (filters.difficulty === 'hard' && difficulty < 8) return false;
+        }
+        if (filters.search) {
+          const searchableText = [
+            article.title, article.source, article.category || article.source_category,
+            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+            ...(article.entities?.technologies || [])
+          ].join(' ').toLowerCase();
+          if (!searchableText.includes(filters.search)) return false;
+        }
+        return true;
+      }).length;
+      btn.textContent = `All (${currentCount})`;
+      return;
+    }
+    
+    const count = allArticles.filter(article => {
+      // Apply all current filters except category
+      if (filters.source !== 'all' && article.source_category !== filters.source) return false;
+      
+      if (filters.difficulty !== 'all' && article.difficulty) {
+        const difficulty = article.difficulty;
+        if (filters.difficulty === 'easy' && difficulty > 3) return false;
+        if (filters.difficulty === 'medium' && (difficulty < 4 || difficulty > 7)) return false;
+        if (filters.difficulty === 'hard' && difficulty < 8) return false;
+      }
+      
+      if (filters.search) {
+        const searchableText = [
+          article.title, article.source, article.category || article.source_category,
+          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+          ...(article.entities?.technologies || [])
+        ].join(' ').toLowerCase();
+        if (!searchableText.includes(filters.search)) return false;
+      }
+      
+      // Apply this specific category filter
+      const matchesSourceCategory = article.source_category === categoryType;
+      const matchesAICategory = article.category === categoryType;
+      return matchesSourceCategory || matchesAICategory;
+    }).length;
+    
+    btn.textContent = `${categoryType.replace('-', ' ')} (${count})`;
+  });
 }
 
 // Update display
@@ -186,8 +381,8 @@ function createArticleElement(article) {
   const articleDiv = document.createElement('article');
   articleDiv.className = 'news-item';
   
-  // Use AI category if available, otherwise use source category
-  const category = article.category || article.source_category;
+  // Use source category for display since that's what filters are based on
+  const category = article.source_category || article.category;
   const difficulty = article.difficulty || 5;
   const confidence = article.confidence || 0.5;
   
@@ -245,7 +440,7 @@ function showEmptyState() {
   `;
   
   showCount.textContent = '0';
-  totalCount.textContent = filteredArticles.length;
+  totalCount.textContent = allArticles.length;
   loadMoreBtn.style.display = 'none';
 }
 
@@ -304,6 +499,46 @@ function handleKeyboard(event) {
   if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
     event.preventDefault();
     searchInput.focus();
+  }
+  
+  // Ctrl/Cmd + / to toggle theme
+  if ((event.ctrlKey || event.metaKey) && event.key === '/') {
+    event.preventDefault();
+    toggleTheme();
+  }
+}
+
+// Theme management
+function initializeTheme() {
+  // Check for saved theme preference or default to dark
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+  
+  setTheme(theme);
+  
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      setTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+}
+
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  setTheme(newTheme);
+}
+
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+  
+  // Update theme toggle icon
+  const themeIcon = document.querySelector('.theme-icon');
+  if (themeIcon) {
+    themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
   }
 }
 

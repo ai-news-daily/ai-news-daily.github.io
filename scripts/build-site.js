@@ -70,7 +70,7 @@ function generateHTML(data) {
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
   <meta property="og:description" content="Curated AI news from 50+ sources">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourusername.github.io/ai-news-daily">
+  <meta property="og:url" content="https://ai-news-daily.github.io">
   
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
@@ -137,37 +137,170 @@ async function buildSite() {
   console.log('🏗️ Building static site...');
   
   try {
-    // Load raw data (skip AI processing for now)
-    const dataDir = path.join(__dirname, '../data');
-    const rawDataPath = path.join(dataDir, 'latest-raw.json');
-    
     console.log('📖 Loading crawled data...');
-    const rawData = JSON.parse(await fs.readFile(rawDataPath, 'utf-8'));
     
-    // Generate HTML
+    // Load the latest processed data (with AI enhancements)
+    let articlesData;
+    const processedPath = path.join(__dirname, '../data/latest-processed.json');
+    const rawPath = path.join(__dirname, '../data/latest-raw.json');
+    
+    try {
+      articlesData = JSON.parse(await fs.readFile(processedPath, 'utf-8'));
+      console.log('✅ Using AI-processed data');
+    } catch (error) {
+      console.log('⚠️ AI-processed data not found, using raw data');
+      articlesData = JSON.parse(await fs.readFile(rawPath, 'utf-8'));
+    }
+    
+    const articles = articlesData.articles || [];
+    const crawledAt = articlesData.crawledAt || new Date().toISOString();
+    
+    console.log(`📊 Found ${articles.length} articles`);
+    
+    // Get category statistics with AI categories
+    const categoryStats = {};
+    const sourceStats = {};
+    const difficultyStats = { easy: 0, medium: 0, hard: 0 };
+    
+    articles.forEach(article => {
+      const category = article.category || article.source_category || 'uncategorized';
+      const source = article.source_category || 'other';
+      const difficulty = article.difficulty || 5;
+      
+      categoryStats[category] = (categoryStats[category] || 0) + 1;
+      sourceStats[source] = (sourceStats[source] || 0) + 1;
+      
+      if (difficulty <= 3) difficultyStats.easy++;
+      else if (difficulty <= 7) difficultyStats.medium++;
+      else difficultyStats.hard++;
+    });
+    
     console.log('🎨 Generating HTML...');
-    const html = generateHTML(rawData);
     
-    // Ensure site directory exists
+    // Generate the full HTML
+    const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Daily - Latest AI News from 50+ Sources</title>
+  <meta name="description" content="Latest AI news and updates from ${articles.length} articles. Updated ${new Date(crawledAt).toLocaleDateString()}.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
+  <meta property="og:description" content="Curated AI news from 50+ sources">
+  <meta property="og:type" content="website">
+      <meta property="og:url" content="https://ai-news-daily.github.io">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        🤖 AI News Daily
+      </div>
+      
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search articles, sources, or topics...">
+        <button id="clearSearch" class="clear-search">Clear</button>
+      </div>
+      
+      <div class="header-controls">
+        <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <div class="stats">
+          <span id="showCount">${articles.length}</span> of <span id="totalCount">${articles.length}</span> articles
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filters -->
+  <div class="filters">
+    <div class="filters-content">
+      <!-- Category Filters -->
+      <div class="filter-group">
+        <label class="filter-label">Categories</label>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-category="all">All (${articles.length})</button>
+          ${Object.entries(categoryStats)
+            .sort(([,a], [,b]) => b - a)
+            .map(([category, count]) => 
+              `<button class="filter-btn" data-category="${category}">${category.replace('-', ' ')} (${count})</button>`
+            ).join('')}
+        </div>
+      </div>
+      
+      <!-- Source Type Filters -->
+      <div class="filter-group">
+        <label class="filter-label">Source Types</label>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-source="all">All Sources</button>
+          ${Object.entries(sourceStats)
+            .sort(([,a], [,b]) => b - a)
+            .slice(0, 8)
+            .map(([source, count]) => 
+              `<button class="filter-btn" data-source="${source}">${source} (${count})</button>`
+            ).join('')}
+        </div>
+      </div>
+      
+      <!-- Difficulty Filters -->
+      <div class="filter-group">
+        <label class="filter-label">Difficulty Level</label>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-difficulty="all">All Levels</button>
+          <button class="filter-btn" data-difficulty="easy">Easy (${difficultyStats.easy})</button>
+          <button class="filter-btn" data-difficulty="medium">Medium (${difficultyStats.medium})</button>
+          <button class="filter-btn" data-difficulty="hard">Hard (${difficultyStats.hard})</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="main-content">
+      <!-- Articles Grid -->
+      <div class="articles-grid" id="articlesGrid">
+        ${articles.map(article => generateArticleHTML(article)).join('')}
+      </div>
+      
+      <!-- Load More Button -->
+      <button id="loadMoreBtn" class="load-more">Load More Articles</button>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>`;
+
+    // Write the HTML file
     const siteDir = path.join(__dirname, '../site');
     await fs.mkdir(siteDir, { recursive: true });
-    
-    // Write HTML file
     await fs.writeFile(path.join(siteDir, 'index.html'), html);
     
-    // Copy data file for frontend JS
+    // Write the data.json for the frontend
     await fs.writeFile(
       path.join(siteDir, 'data.json'), 
-      JSON.stringify(rawData, null, 2)
+      JSON.stringify(articlesData, null, 2)
     );
     
-    console.log(`✅ Site built successfully!`);
-    console.log(`📊 Generated page with ${rawData.articles.length} articles`);
-    
-    return rawData;
+    console.log('✅ Site built successfully!');
+    console.log(`📊 Generated page with ${articles.length} articles`);
+    console.log(`📈 Categories: ${Object.keys(categoryStats).length}`);
+    console.log(`🔗 Sources: ${Object.keys(sourceStats).length}`);
     
   } catch (error) {
-    console.error('❌ Site build failed:', error);
+    console.error('❌ Build failed:', error);
     throw error;
   }
 }
@@ -175,13 +308,13 @@ async function buildSite() {
 // Run if called directly
 if (import.meta.url === `file://${process.argv[1]}`) {
   buildSite()
-    .then(data => {
-      console.log(`✅ Build complete! ${data.articles.length} articles published`);
+    .then(() => {
+      console.log('✅ Build complete! All features restored');
     })
-    .catch(error => {
+    .catch((error) => {
       console.error('❌ Build failed:', error);
       process.exit(1);
     });
 }
 
-export { buildSite }; 
+export default buildSite; 

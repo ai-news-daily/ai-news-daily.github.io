@@ -89,7 +89,7 @@ jobs:
           <?xml version="1.0" encoding="UTF-8"?>
           <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
-              <loc>https://yourusername.github.io/ai-news-daily/</loc>
+              <loc>https://ai-news-daily.github.io/</loc>
               <changefreq>daily</changefreq>
               <priority>1.0</priority>
               <lastmod>$(date -u +%Y-%m-%dT%H:%M:%S+00:00)</lastmod>
@@ -103,7 +103,7 @@ jobs:
           User-agent: *
           Allow: /
           
-          Sitemap: https://yourusername.github.io/ai-news-daily/sitemap.xml
+          Sitemap: https://ai-news-daily.github.io/sitemap.xml
           EOF
           
       - name: Optimize and validate
@@ -180,7 +180,7 @@ jobs:
           sleep 60  # Wait for deployment
           
           # Check if site is accessible
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://yourusername.github.io/ai-news-daily/" || echo "000")
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://ai-news-daily.github.io/" || echo "000")
           
           if [ "$STATUS" = "200" ]; then
             echo "✅ Site is healthy (HTTP $STATUS)"
