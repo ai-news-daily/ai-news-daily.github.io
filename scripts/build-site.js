@@ -281,8 +281,11 @@ async function buildSite(selectedDate = null) {
     <div class="filters-content">
       <!-- Category Filters -->
       <div class="filter-group">
-        <label class="filter-label">Categories</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="categories">
+          <label class="filter-label">Categories</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="categories">
           <button class="filter-btn active" data-category="all">All (${articles.length})</button>
           ${Object.entries(categoryStats)
             .sort(([,a], [,b]) => b - a)
@@ -294,8 +297,11 @@ async function buildSite(selectedDate = null) {
       
       <!-- Source Type Filters -->
       <div class="filter-group">
-        <label class="filter-label">Source Types</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="source-types">
+          <label class="filter-label">Source Types</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="source-types">
           <button class="filter-btn active" data-source="all">All Sources</button>
           ${Object.entries(sourceStats)
             .sort(([,a], [,b]) => b - a)
@@ -308,8 +314,11 @@ async function buildSite(selectedDate = null) {
       
       <!-- Difficulty Filters -->
       <div class="filter-group">
-        <label class="filter-label">Difficulty Level</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="difficulty-level">
+          <label class="filter-label">Difficulty Level</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="difficulty-level">
           <button class="filter-btn active" data-difficulty="all">All Levels</button>
           <button class="filter-btn" data-difficulty="easy">Easy (${difficultyStats.easy})</button>
           <button class="filter-btn" data-difficulty="medium">Medium (${difficultyStats.medium})</button>
