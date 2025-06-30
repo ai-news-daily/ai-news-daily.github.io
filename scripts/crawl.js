@@ -17,9 +17,21 @@ const parser = new RSSParser({
 async function loadSources() {
   const sourcesPath = path.join(__dirname, '../sources.json');
   const sourcesData = await fs.readFile(sourcesPath, 'utf-8');
-  const { sources, reddit_sources } = JSON.parse(sourcesData);
+  const { 
+    sources, 
+    reddit_sources, 
+    youtube_channels, 
+    newsletters, 
+    academic_sources 
+  } = JSON.parse(sourcesData);
   
-  return [...sources, ...reddit_sources];
+  return [
+    ...sources,
+    ...reddit_sources,
+    ...youtube_channels,
+    ...newsletters,
+    ...academic_sources
+  ];
 }
 
 // Extract domain from URL
@@ -43,17 +55,49 @@ function cleanTitle(title) {
 // Filter AI-relevant content
 function isAIRelevant(title, source) {
   const aiKeywords = [
+    // Core AI terms
     'ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning',
-    'neural network', 'llm', 'large language model', 'gpt', 'claude', 'gemini',
-    'transformer', 'bert', 'llama', 'chatbot', 'automation', 'robotics',
-    'computer vision', 'nlp', 'natural language', 'generative', 'diffusion',
-    'stable diffusion', 'midjourney', 'dall-e', 'openai', 'anthropic',
-    'hugging face', 'langchain', 'embeddings', 'vector', 'rag', 'fine-tuning',
-    'prompt', 'agent', 'autonomous', 'copilot', 'github copilot'
+    'neural network', 'neural net', 'deep neural', 'artificial neural',
+    
+    // LLMs and models
+    'llm', 'large language model', 'language model', 'foundation model',
+    'gpt', 'claude', 'gemini', 'llama', 'alpaca', 'vicuna', 'falcon',
+    'transformer', 'bert', 'roberta', 't5', 'bart', 'electra',
+    
+    // Companies and products
+    'openai', 'anthropic', 'google ai', 'deepmind', 'meta ai',
+    'hugging face', 'langchain', 'pinecone', 'weaviate', 'chroma',
+    'chatgpt', 'copilot', 'github copilot', 'cursor ai', 'replit ai',
+    'dall-e', 'midjourney', 'stable diffusion', 'runway', 'pika',
+    
+    // Techniques and concepts
+    'fine-tuning', 'fine tuning', 'prompt', 'prompting', 'prompt engineering',
+    'rag', 'retrieval augmented', 'embeddings', 'vector database',
+    'attention', 'self-attention', 'multi-head attention',
+    'backpropagation', 'gradient descent', 'optimization',
+    'reinforcement learning', 'rl', 'rlhf', 'constitutional ai',
+    
+    // Applications
+    'computer vision', 'cv', 'image recognition', 'object detection',
+    'nlp', 'natural language processing', 'natural language',
+    'speech recognition', 'text-to-speech', 'voice synthesis',
+    'generative', 'generation', 'synthesis', 'diffusion',
+    'chatbot', 'agent', 'autonomous', 'automation', 'robotics',
+    
+    // Technical terms
+    'pytorch', 'tensorflow', 'keras', 'transformers',
+    'dataset', 'training', 'inference', 'model', 'algorithm',
+    'benchmark', 'evaluation', 'metrics', 'loss function',
+    'overfitting', 'regularization', 'dropout', 'batch norm'
   ];
   
   // Always include content from AI-specific sources
-  const aiSources = ['openai', 'anthropic', 'huggingface', 'langchain', 'deepmind'];
+  const aiSources = [
+    'openai', 'anthropic', 'huggingface', 'hugging face', 'langchain', 
+    'deepmind', 'google ai', 'meta ai', 'nvidia', 'cohere',
+    'replicate', 'gradio', 'wandb', 'weights & biases'
+  ];
+  
   if (aiSources.some(s => source.toLowerCase().includes(s))) {
     return true;
   }
@@ -70,8 +114,12 @@ async function crawlFeed(source) {
     const feed = await parser.parseURL(source.url);
     const articles = [];
     
-    // Limit to last 20 items to avoid overwhelming
-    const items = feed.items.slice(0, 20);
+    // Different limits based on source type
+    const itemLimit = source.category === 'youtube' ? 10 : 
+                     source.category === 'research' ? 15 :
+                     source.category === 'community' ? 25 : 20;
+    
+    const items = feed.items.slice(0, itemLimit);
     
     for (const item of items) {
       const title = cleanTitle(item.title || '');
@@ -79,15 +127,32 @@ async function crawlFeed(source) {
       
       if (!title || !url) continue;
       
-      // Filter for AI relevance
-      if (!isAIRelevant(title, source.name)) {
-        continue;
-      }
+      // Filter for AI relevance (more lenient for YouTube and academic sources)
+      const isRelevant = source.category === 'youtube' || 
+                        source.category === 'research' ||
+                        source.category === 'newsletter' ||
+                        isAIRelevant(title, source.name);
       
-      // Skip very old articles (older than 7 days)
-      const pubDate = new Date(item.pubDate || item.isoDate);
-      const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
-      if (pubDate < weekAgo) continue;
+      if (!isRelevant) continue;
+      
+      // Different time windows based on source type
+      const daysBack = source.category === 'youtube' ? 14 :
+                      source.category === 'research' ? 30 :
+                      source.category === 'community' ? 3 : 7;
+      
+      const pubDate = new Date(item.pubDate || item.isoDate || item.published);
+      const cutoffDate = new Date(Date.now() - daysBack * 24 * 60 * 60 * 1000);
+      if (pubDate < cutoffDate) continue;
+      
+      // Extract description/summary
+      let description = '';
+      if (item.contentSnippet) {
+        description = item.contentSnippet.substring(0, 200);
+      } else if (item.content) {
+        description = item.content.replace(/<[^>]*>/g, '').substring(0, 200);
+      } else if (item.summary) {
+        description = item.summary.replace(/<[^>]*>/g, '').substring(0, 200);
+      }
       
       articles.push({
         title: title,
@@ -97,6 +162,7 @@ async function crawlFeed(source) {
         source_category: source.category,
         source_priority: source.priority,
         pubDate: pubDate.toISOString(),
+        metaDescription: description,
         
         // Will be filled by LLM processing
         category: null,

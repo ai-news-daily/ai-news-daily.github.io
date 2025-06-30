@@ -7,20 +7,8 @@
       "priority": "high"
     },
     {
-      "name": "Anthropic News",
-      "url": "https://www.anthropic.com/news/rss",
-      "category": "company",
-      "priority": "high"
-    },
-    {
       "name": "Google AI Blog",
-      "url": "https://ai.googleblog.com/feeds/posts/default",
-      "category": "company",
-      "priority": "high"
-    },
-    {
-      "name": "Meta AI",
-      "url": "https://ai.meta.com/blog/rss/",
+      "url": "https://blog.google/technology/ai/rss/",
       "category": "company",
       "priority": "high"
     },
@@ -31,6 +19,30 @@
       "priority": "high"
     },
     {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "category": "company",
+      "priority": "high"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "company",
+      "priority": "high"
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "category": "company",
+      "priority": "medium"
+    },
+    {
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.dev/feed/",
+      "category": "tools",
+      "priority": "high"
+    },
+    {
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "category": "news",
@@ -38,37 +50,37 @@
     },
     {
       "name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+      "url": "https://www.theverge.com/rss/ai/index.xml",
       "category": "news",
       "priority": "high"
     },
     {
-      "name": "VentureBeat AI",
-      "url": "https://venturebeat.com/ai/feed/",
-      "category": "news",
-      "priority": "high"
-    },
-    {
-      "name": "Ars Technica AI",
-      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
       "category": "news",
       "priority": "medium"
     },
     {
-      "name": "MIT Technology Review AI",
-      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-      "category": "research",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "news",
       "priority": "high"
     },
     {
       "name": "Wired AI",
       "url": "https://www.wired.com/feed/tag/ai/latest/rss",
       "category": "news",
+      "priority": "high"
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "news",
       "priority": "medium"
     },
     {
       "name": "AI News",
-      "url": "https://artificialintelligence-news.com/feed/",
+      "url": "https://www.artificialintelligence-news.com/feed/",
       "category": "news",
       "priority": "medium"
     },
@@ -76,276 +88,171 @@
       "name": "Towards Data Science",
       "url": "https://towardsdatascience.com/feed",
       "category": "tutorial",
-      "priority": "medium"
+      "priority": "high"
     },
     {
       "name": "Machine Learning Mastery",
       "url": "https://machinelearningmastery.com/feed/",
       "category": "tutorial",
-      "priority": "medium"
-    },
-    {
-      "name": "Papers With Code",
-      "url": "https://paperswithcode.com/latest/rss",
-      "category": "research",
       "priority": "high"
     },
     {
-      "name": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/feed.xml",
-      "category": "tools",
-      "priority": "high"
-    },
-    {
-      "name": "LangChain Blog",
-      "url": "https://blog.langchain.dev/rss/",
-      "category": "tools",
-      "priority": "high"
-    },
-    {
-      "name": "Pinecone Blog",
-      "url": "https://www.pinecone.io/blog/rss/",
-      "category": "tools",
-      "priority": "medium"
-    },
-    {
-      "name": "Weights & Biases",
-      "url": "https://wandb.ai/blog/rss.xml",
-      "category": "tools",
-      "priority": "medium"
-    },
-    {
-      "name": "DeepMind Blog",
-      "url": "https://deepmind.com/blog/rss.xml",
-      "category": "research",
-      "priority": "high"
-    },
-    {
-      "name": "OpenAI Research",
-      "url": "https://openai.com/research/rss.xml",
-      "category": "research",
-      "priority": "high"
-    },
-    {
-      "name": "AI Research",
-      "url": "https://ai.facebook.com/blog/rss/",
-      "category": "research",
-      "priority": "high"
-    },
-    {
-      "name": "NVIDIA AI",
-      "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
+      "name": "DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
       "category": "company",
       "priority": "high"
-    },
-    {
-      "name": "Stability AI",
-      "url": "https://stability.ai/blog/rss",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "Midjourney",
-      "url": "https://www.midjourney.com/blog/rss.xml",
-      "category": "creative",
-      "priority": "medium"
-    },
-    {
-      "name": "RunwayML",
-      "url": "https://runwayml.com/blog/rss/",
-      "category": "creative",
-      "priority": "medium"
-    },
-    {
-      "name": "AI Safety News",
-      "url": "https://www.aisafetynews.com/rss/",
-      "category": "safety",
-      "priority": "medium"
     },
     {
       "name": "Alignment Forum",
       "url": "https://www.alignmentforum.org/feed.xml",
       "category": "safety",
-      "priority": "medium"
-    },
-    {
-      "name": "LessWrong AI",
-      "url": "https://www.lesswrong.com/feed.xml?view=curated",
-      "category": "safety",
-      "priority": "medium"
-    },
-    {
-      "name": "AI Ethics",
-      "url": "https://aiethics.princeton.edu/feed/",
-      "category": "ethics",
-      "priority": "medium"
-    },
-    {
-      "name": "Partnership on AI",
-      "url": "https://www.partnershiponai.org/feed/",
-      "category": "ethics",
-      "priority": "medium"
-    },
-    {
-      "name": "Berkeley AI Research",
-      "url": "https://bair.berkeley.edu/blog/feed.xml",
-      "category": "research",
       "priority": "high"
     },
     {
-      "name": "Stanford AI Lab",
-      "url": "https://ai.stanford.edu/blog/rss.xml",
-      "category": "research",
+      "name": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "category": "cloud",
+      "priority": "medium"
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+      "category": "company", 
       "priority": "high"
     },
     {
-      "name": "CMU AI",
-      "url": "https://www.cs.cmu.edu/news/rss",
-      "category": "research",
+      "name": "Chip Huyen Blog",
+      "url": "https://huyenchip.com/feed.xml",
+      "category": "tutorial", 
       "priority": "medium"
-    },
+    }
+  ],
+  "youtube_channels": [
     {
-      "name": "Cohere AI",
-      "url": "https://cohere.ai/blog/rss.xml",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "Inflection AI",
-      "url": "https://inflection.ai/blog/rss",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "Character.AI",
-      "url": "https://blog.character.ai/rss/",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "Replicate Blog",
-      "url": "https://replicate.com/blog/rss.xml",
-      "category": "tools",
-      "priority": "medium"
-    },
-    {
-      "name": "Together AI",
-      "url": "https://www.together.ai/blog/rss",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "Anthropic Safety",
-      "url": "https://www.anthropic.com/research/rss",
-      "category": "safety",
+      "name": "Two Minute Papers",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+      "category": "youtube",
       "priority": "high"
     },
     {
-      "name": "GitHub Copilot",
-      "url": "https://github.blog/category/copilot/feed/",
-      "category": "tools",
+      "name": "Lex Fridman",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA",
+      "category": "youtube",
       "priority": "high"
     },
     {
-      "name": "Sourcegraph",
-      "url": "https://about.sourcegraph.com/blog/rss.xml",
-      "category": "tools",
+      "name": "3Blue1Brown",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+      "category": "youtube",
       "priority": "medium"
     },
     {
-      "name": "Cursor AI",
-      "url": "https://cursor.sh/blog/rss",
-      "category": "tools",
+      "name": "Machine Learning Street Talk",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
+      "category": "youtube",
       "priority": "medium"
     },
     {
-      "name": "Replit AI",
-      "url": "https://blog.replit.com/rss.xml",
-      "category": "tools",
-      "priority": "medium"
+      "name": "OpenAI",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
+      "category": "youtube",
+      "priority": "high"
     },
     {
-      "name": "NotebookLM",
-      "url": "https://blog.google/technology/ai/rss/",
-      "category": "tools",
-      "priority": "medium"
+      "name": "DeepMind",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "category": "youtube",
+      "priority": "high"
     },
     {
-      "name": "Perplexity AI",
-      "url": "https://blog.perplexity.ai/rss/",
-      "category": "company",
-      "priority": "medium"
-    },
-    {
-      "name": "You.com",
-      "url": "https://blog.you.com/rss/",
-      "category": "company",
-      "priority": "low"
-    },
-    {
-      "name": "Jasper AI",
-      "url": "https://www.jasper.ai/blog/rss",
-      "category": "company",
-      "priority": "low"
-    },
-    {
-      "name": "Copy.ai",
-      "url": "https://www.copy.ai/blog/rss",
-      "category": "company",
-      "priority": "low"
-    },
-    {
-      "name": "Writesonic",
-      "url": "https://writesonic.com/blog/feed/",
-      "category": "company",
-      "priority": "low"
-    },
-    {
-      "name": "AI Tools Club",
-      "url": "https://aitoolsclub.com/feed/",
-      "category": "tools",
-      "priority": "medium"
+      "name": "Google DeepMind",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "category": "youtube",
+      "priority": "high"
     }
   ],
   "reddit_sources": [
     {
       "name": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/hot/.rss",
-      "category": "community",
+      "url": "https://www.reddit.com/r/MachineLearning/.rss",
+      "category": "reddit",
       "priority": "high"
     },
     {
       "name": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/hot/.rss",
-      "category": "community",
+      "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+      "category": "reddit",
       "priority": "high"
     },
     {
       "name": "r/artificial",
-      "url": "https://www.reddit.com/r/artificial/hot/.rss",
-      "category": "community",
-      "priority": "medium"
+      "url": "https://www.reddit.com/r/artificial/.rss",
+      "category": "reddit",
+      "priority": "high"
     },
     {
       "name": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/hot/.rss",
-      "category": "community",
+      "url": "https://www.reddit.com/r/singularity/.rss",
+      "category": "reddit",
       "priority": "medium"
     },
     {
       "name": "r/ChatGPT",
-      "url": "https://www.reddit.com/r/ChatGPT/hot/.rss",
-      "category": "community",
+      "url": "https://www.reddit.com/r/ChatGPT/.rss",
+      "category": "reddit",
+      "priority": "medium"
+    },
+    {
+      "name": "r/OpenAI",
+      "url": "https://www.reddit.com/r/OpenAI/.rss",
+      "category": "reddit",
+      "priority": "high"
+    },
+    {
+      "name": "r/deeplearning",
+      "url": "https://www.reddit.com/r/deeplearning/.rss",
+      "category": "reddit",
+      "priority": "medium"
+    },
+    {
+      "name": "r/StableDiffusion",
+      "url": "https://www.reddit.com/r/StableDiffusion/.rss",
+      "category": "reddit",
       "priority": "medium"
     }
   ],
-  "github_trending": [
+  "newsletters": [
     {
-      "name": "GitHub Trending AI",
-      "url": "https://github.com/trending/python?since=daily",
-      "category": "code",
-      "priority": "medium",
-      "type": "github_trending"
+      "name": "Import AI",
+      "url": "https://jack-clark.net/feed/",
+      "category": "newsletter",
+      "priority": "high"
+    }
+  ],
+  "academic_sources": [
+    {
+      "name": "arXiv AI",
+      "url": "http://export.arxiv.org/rss/cs.AI",
+      "category": "research",
+      "priority": "high"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "http://export.arxiv.org/rss/cs.LG",
+      "category": "research",
+      "priority": "high"
+    },
+    {
+      "name": "arXiv Computer Vision",
+      "url": "http://export.arxiv.org/rss/cs.CV",
+      "category": "research",
+      "priority": "medium"
+    },
+    {
+      "name": "arXiv Computation and Language",
+      "url": "http://export.arxiv.org/rss/cs.CL",
+      "category": "research",
+      "priority": "medium"
     }
   ]
 } 
