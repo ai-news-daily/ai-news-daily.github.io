@@ -19,18 +19,24 @@ async function loadSources() {
   const sourcesData = await fs.readFile(sourcesPath, 'utf-8');
   const { 
     sources, 
+    medium_blogs,
     reddit_sources, 
     youtube_channels, 
     newsletters, 
-    academic_sources 
+    developer_blogs,
+    academic_sources,
+    getting_started
   } = JSON.parse(sourcesData);
   
   return [
     ...sources,
-    ...reddit_sources,
-    ...youtube_channels,
-    ...newsletters,
-    ...academic_sources
+    ...(medium_blogs || []),
+    ...(reddit_sources || []),
+    ...(youtube_channels || []),
+    ...(newsletters || []),
+    ...(developer_blogs || []),
+    ...(academic_sources || []),
+    ...(getting_started || [])
   ];
 }
 
@@ -117,7 +123,10 @@ async function crawlFeed(source) {
     // Different limits based on source type
     const itemLimit = source.category === 'youtube' ? 10 : 
                      source.category === 'research' ? 15 :
-                     source.category === 'community' ? 25 : 20;
+                     source.category === 'community' ? 25 :
+                     source.category === 'medium' ? 15 :
+                     source.category === 'developer' ? 12 :
+                     source.category === 'agentic' ? 20 : 20;
     
     const items = feed.items.slice(0, itemLimit);
     
@@ -127,10 +136,14 @@ async function crawlFeed(source) {
       
       if (!title || !url) continue;
       
-      // Filter for AI relevance (more lenient for YouTube and academic sources)
+      // Filter for AI relevance (more lenient for YouTube, academic, and specialized sources)
       const isRelevant = source.category === 'youtube' || 
                         source.category === 'research' ||
                         source.category === 'newsletter' ||
+                        source.category === 'medium' ||
+                        source.category === 'developer' ||
+                        source.category === 'agentic' ||
+                        source.category === 'tutorial' ||
                         isAIRelevant(title, source.name);
       
       if (!isRelevant) continue;
@@ -138,7 +151,11 @@ async function crawlFeed(source) {
       // Different time windows based on source type
       const daysBack = source.category === 'youtube' ? 14 :
                       source.category === 'research' ? 30 :
-                      source.category === 'community' ? 3 : 7;
+                      source.category === 'community' ? 3 :
+                      source.category === 'medium' ? 7 :
+                      source.category === 'developer' ? 14 :
+                      source.category === 'tutorial' ? 14 :
+                      source.category === 'agentic' ? 10 : 7;
       
       const pubDate = new Date(item.pubDate || item.isoDate || item.published);
       const cutoffDate = new Date(Date.now() - daysBack * 24 * 60 * 60 * 1000);
