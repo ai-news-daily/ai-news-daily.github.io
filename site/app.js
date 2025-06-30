@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
     setupEventListeners();
     initializeTheme();
+    updatePageMetadata(null); // Initialize page metadata for latest
     updateFilterCounts(); // Initialize filter counts
     applyFilters();
     updateDisplay();
@@ -96,6 +97,9 @@ async function handleDateChange(event) {
     filters.source = 'all';
     filters.difficulty = 'all';
     
+    // Update page metadata for selected date
+    updatePageMetadata(selectedDate);
+    
     // Update display
     updateFilterCounts();
     applyFilters();
@@ -105,6 +109,51 @@ async function handleDateChange(event) {
   } catch (error) {
     console.error('❌ Failed to change date:', error);
     showError('Failed to load articles for selected date. Please try again.');
+  }
+}
+
+// Update page metadata when switching dates
+function updatePageMetadata(selectedDate) {
+  const isLatest = !selectedDate;
+  const articleCount = allArticles.length;
+  const sourceCount = [...new Set(allArticles.map(a => a.source))].length;
+  
+  // Format date for display
+  let dateText = '';
+  let shortDateText = '';
+  if (selectedDate) {
+    const date = new Date(selectedDate);
+    dateText = date.toLocaleDateString('en-US', { 
+      weekday: 'short', 
+      year: 'numeric', 
+      month: 'short', 
+      day: 'numeric' 
+    });
+    shortDateText = date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric' 
+    });
+  }
+  
+  // Update meta description
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    const baseDesc = `AI news aggregator collecting ${articleCount} articles from ${sourceCount}+ sources.`;
+    const dateDesc = isLatest ? 'Updated today' : `Updated ${shortDateText}`;
+    metaDesc.setAttribute('content', `${baseDesc} ${dateDesc}.`);
+  }
+  
+  // Update page title
+  const title = isLatest 
+    ? 'AI News Daily - Latest AI News from 50+ Sources'
+    : `AI News Daily - AI News for ${dateText}`;
+  document.title = title;
+  
+  // Update logo subtitle
+  const logoSubtitle = document.querySelector('.logo-subtitle');
+  if (logoSubtitle) {
+    const subtitle = `Curated AI news from ${sourceCount}+ sources • ${isLatest ? 'Updated today' : `Updated ${shortDateText}`}`;
+    logoSubtitle.textContent = subtitle;
   }
 }
 

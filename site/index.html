@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News Daily - Latest AI News from 50+ Sources</title>
-  <meta name="description" content="AI news aggregator collecting 10 articles from 4+ sources. Updated 6/30/2025.">
+  <meta name="description" content="AI news aggregator collecting 5 articles from 3+ sources. Updated 6/30/2025.">
   
   <!-- Open Graph -->
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
-  <meta property="og:description" content="AI news aggregator from 4+ sources including Reddit, arXiv, tech blogs, and YouTube">
+  <meta property="og:description" content="AI news aggregator from 3+ sources including Reddit, arXiv, tech blogs, and YouTube">
   <meta property="og:type" content="website">
       <meta property="og:url" content="https://ai-news-daily.github.io">
   
@@ -56,7 +56,7 @@
           </div>
           <div class="logo-text">
             <div class="logo-title">AI News Daily</div>
-            <div class="logo-subtitle">Curated AI news from 4+ sources • Updated Jun 30</div>
+            <div class="logo-subtitle">Curated AI news from 3+ sources • Updated Jun 30</div>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
         </button>
         
         <div class="stats">
-          <span id="showCount">10</span> of <span id="totalCount">10</span> articles
+          <span id="showCount">5</span> of <span id="totalCount">5</span> articles
         </div>
       </div>
     </div>
@@ -99,8 +99,8 @@
             <span class="filter-toggle">▼</span>
           </button>
           <div class="filter-buttons" id="categories">
-            <button class="filter-btn active" data-category="all">All (10)</button>
-            <button class="filter-btn" data-category="creative-ai">creative ai (6)</button><button class="filter-btn" data-category="infrastructure">infrastructure (3)</button><button class="filter-btn" data-category="safety-ethics">safety ethics (1)</button>
+            <button class="filter-btn active" data-category="all">All (5)</button>
+            <button class="filter-btn" data-category="creative-ai">creative ai (3)</button><button class="filter-btn" data-category="developer-tool">developer tool (1)</button><button class="filter-btn" data-category="ai-agents">ai agents (1)</button>
           </div>
         </div>
         
@@ -112,7 +112,7 @@
           </button>
           <div class="filter-buttons" id="source-types">
             <button class="filter-btn active" data-source="all">All Sources</button>
-            <button class="filter-btn" data-source="reddit">reddit (5)</button><button class="filter-btn" data-source="medium">medium (2)</button><button class="filter-btn" data-source="tutorial">tutorial (2)</button><button class="filter-btn" data-source="news">news (1)</button>
+            <button class="filter-btn" data-source="reddit">reddit (3)</button><button class="filter-btn" data-source="company">company (1)</button><button class="filter-btn" data-source="news">news (1)</button>
           </div>
         </div>
         
@@ -124,8 +124,8 @@
           </button>
           <div class="filter-buttons" id="difficulty-level">
             <button class="filter-btn active" data-difficulty="all">All Levels</button>
-            <button class="filter-btn" data-difficulty="easy">Easy (1)</button>
-            <button class="filter-btn" data-difficulty="medium">Medium (9)</button>
+            <button class="filter-btn" data-difficulty="easy">Easy (0)</button>
+            <button class="filter-btn" data-difficulty="medium">Medium (5)</button>
             <button class="filter-btn" data-difficulty="hard">Hard (0)</button>
           </div>
         </div>
@@ -138,139 +138,55 @@
         <!-- Articles Grid -->
         <div class="articles-grid" id="articlesGrid">
           
-    <article class="news-item" data-category="creative-ai" data-source="reddit" data-difficulty="medium">
+    <article class="news-item" data-category="creative-ai" data-source="company" data-difficulty="medium">
       <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
-        <span class="source-name">r/artificial</span>
-        <time class="pub-time">48m ago</time>
+        <img src="https://www.google.com/s2/favicons?domain=blog.google" alt="Google AI Blog" width="16" height="16">
+        <span class="source-name">Google AI Blog</span>
+        <time class="pub-time">26m ago</time>
       </div>
       
       <h3 class="article-title">
-        <a href="https://www.reddit.com/r/artificial/comments/1lo5yui/bbc_rolls_out_ai_summaries_and_style_tool_in/" target="_blank" rel="noopener" title="BBC Rolls Out AI Summaries And Style Tool In Newsroom Test">
-          BBC Rolls Out AI Summaries And Style Tool In Newsroom Test ↗
+        <a href="https://blog.google/outreach-initiatives/education/expanded-access-to-google-vids-and-no-cost-ai-tools-in-classroom/" target="_blank" rel="noopener" title="Expanded access to Google Vids and no-cost AI tools in Classroom">
+          Expanded access to Google Vids and no-cost AI tools in Classroom ↗
         </a>
       </h3>
       
-      <p class="article-summary">Community discussion about AI developments and related topics.</p>
+      <p class="article-summary">Google's Gemini in Classroom is a new suite of no-cost AI tools that can be used to help educators.</p>
       
       
       <div class="entities">
-        <span class="entity-tag org">BBC</span>
         
+        <span class="entity-tag product">Google</span><span class="entity-tag product">V</span><span class="entity-tag product">##ids</span>
         
       </div>
       
       
       <div class="metadata">
         <span class="category category-creative-ai">creative-ai</span>
-        <span class="difficulty" title="Difficulty level: 4/10">★4</span>
-        <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="infrastructure" data-source="reddit" data-difficulty="medium">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">53m ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lo5vnf/what_is_the_current_best_local_coding_model_with/" target="_blank" rel="noopener" title="What is the current best local coding model with <= 4B parameters?">
-          What is the current best local coding model with <= 4B parameters? ↗
-        </a>
-      </h3>
-      
-      <p class="article-summary">I realize that none of these will be practical for now just looking for some to do experiments. Here is what i found so far: 4.02 B.</p>
-      
-      
-      
-      <div class="metadata">
-        <span class="category category-infrastructure">infrastructure</span>
-        <span class="difficulty" title="Difficulty level: 4/10">★4</span>
+        <span class="difficulty" title="Difficulty level: 5/10">★5</span>
         <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
       </div>
     </article>
   
     <article class="news-item" data-category="creative-ai" data-source="news" data-difficulty="medium">
       <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=technologyreview.com" alt="MIT Technology Review" width="16" height="16">
-        <span class="source-name">MIT Technology Review</span>
-        <time class="pub-time">53m ago</time>
+        <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
+        <span class="source-name">Wired AI</span>
+        <time class="pub-time">26m ago</time>
       </div>
       
       <h3 class="article-title">
-        <a href="https://www.technologyreview.com/2025/06/30/1119469/the-download-meet-rfk-jrs-right-hand-man-and-inside-openai/" target="_blank" rel="noopener" title="The Download: meet RFK Jr’s right-hand man, and inside OpenAI">
-          The Download: meet RFK Jr’s right-hand man, and inside OpenAI ↗
+        <a href="https://www.wired.com/story/microsoft-medical-superintelligence-diagnosis/" target="_blank" rel="noopener" title="Microsoft Says Its New AI System Diagnosed Patients 4 Times More Accurately Than Human Doctors">
+          Microsoft Says Its New AI System Diagnosed Patients 4 Times More Accurately Than Human Doctors ↗
         </a>
       </h3>
       
-      <p class="article-summary">Meet Jim O’Neill, the longevity enthusiast who is now RFK Jr. He is now a longevity enthusiast who's now RFk Jr.</p>
+      <p class="article-summary">The tech giant poached several top Google researchers to help build a powerful AI tool. The tool can help diagnose patients and potentially cut health care costs.</p>
       
       
       <div class="entities">
-        <span class="entity-tag org">Open</span><span class="entity-tag org">##A</span>
+        <span class="entity-tag org">Microsoft</span>
         
-        <span class="entity-tag tech">Jr</span>
-      </div>
-      
-      
-      <div class="metadata">
-        <span class="category category-creative-ai">creative-ai</span>
-        <span class="difficulty" title="Difficulty level: 5/10">★5</span>
-        <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="creative-ai" data-source="reddit" data-difficulty="medium">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
-        <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">54m ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/LocalLLaMA/comments/1lo5uz6/has_anyone_tried_running_2_amd_ryzen_ai_max_395/" target="_blank" rel="noopener" title="Has anyone tried running 2 AMD Ryzen™ AI Max+ 395 in parallel?">
-          Has anyone tried running 2 AMD Ryzen™ AI Max+ 395 in parallel? ↗
-        </a>
-      </h3>
-      
-      <p class="article-summary">AMD's AMD Ryzen™ AI Max+ 395 can run a parallel version of the current version of AMD's processor.</p>
-      
-      
-      <div class="entities">
-        
-        <span class="entity-tag product">AM</span><span class="entity-tag product">##D</span><span class="entity-tag product">AI</span><span class="entity-tag product">Max</span>
-        
-      </div>
-      
-      
-      <div class="metadata">
-        <span class="category category-creative-ai">creative-ai</span>
-        <span class="difficulty" title="Difficulty level: 5/10">★5</span>
-        <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="creative-ai" data-source="reddit" data-difficulty="medium">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
-        <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">58m ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/OpenAI/comments/1lo5s1d/gpt_4o_mini_keeps_creating_gods_and_all_i_want_to/" target="_blank" rel="noopener" title="GPT 4o mini keeps creating Gods and all I want to do is run a damn RPG session.">
-          GPT 4o mini keeps creating Gods and all I want to do is run a damn RPG session. ↗
-        </a>
-      </h3>
-      
-      <p class="article-summary">The sc. The sc, The Sc, and The Sc. The Sc,. The Sc. The Sc, The Sc and The. Sc.</p>
-      
-      
-      <div class="entities">
-        
-        <span class="entity-tag product">Gods</span><span class="entity-tag product">RPG</span>
         
       </div>
       
@@ -282,55 +198,55 @@
       </div>
     </article>
   
-    <article class="news-item" data-category="infrastructure" data-source="medium" data-difficulty="medium">
+    <article class="news-item" data-category="developer-tool" data-source="reddit" data-difficulty="medium">
       <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=pub.towardsai.net" alt="Towards AI" width="16" height="16">
-        <span class="source-name">Towards AI</span>
-        <time class="pub-time">1h ago</time>
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
+        <span class="source-name">r/StableDiffusion</span>
+        <time class="pub-time">32m ago</time>
       </div>
       
       <h3 class="article-title">
-        <a href="https://pub.towardsai.net/mcp-and-the-rise-of-agent-ready-infrastructure-a3c7991251ff?source=rss----98111c9905da---4" target="_blank" rel="noopener" title="MCP and the Rise of Agent-Ready Infrastructure">
-          MCP and the Rise of Agent-Ready Infrastructure ↗
+        <a href="https://www.reddit.com/r/StableDiffusion/comments/1lo6s2o/so_anyways_i_created_a_project_to_universally/" target="_blank" rel="noopener" title="...so anyways, i created a project to universally accelerate AI projects. First example on Wan2GP">
+          ...so anyways, i created a project to universally accelerate AI projects. First example on Wan2GP ↗
         </a>
       </h3>
       
-      <p class="article-summary">The USB Port for LLM Integrations. The USBPort for LLm Integrations. The USBport for LLL Integrations is a USB Port.</p>
+      <p class="article-summary">The project is a project to create a "crowded" platform for accelerators. The project has been dubbed the "k-lite codec pack"</p>
       
       
       <div class="entities">
         
-        <span class="entity-tag product">Agent</span><span class="entity-tag product">Ready</span><span class="entity-tag product">Infrastructure</span>
+        <span class="entity-tag product">AI</span><span class="entity-tag product">Wan</span><span class="entity-tag product">##2</span><span class="entity-tag product">##GP</span>
         
       </div>
       
       
       <div class="metadata">
-        <span class="category category-infrastructure">infrastructure</span>
+        <span class="category category-developer-tool">developer-tool</span>
         <span class="difficulty" title="Difficulty level: 5/10">★5</span>
         <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
       </div>
     </article>
   
-    <article class="news-item" data-category="creative-ai" data-source="tutorial" data-difficulty="medium">
+    <article class="news-item" data-category="creative-ai" data-source="reddit" data-difficulty="medium">
       <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=kdnuggets.com" alt="KDnuggets" width="16" height="16">
-        <span class="source-name">KDnuggets</span>
-        <time class="pub-time">1h ago</time>
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
+        <span class="source-name">r/ChatGPT</span>
+        <time class="pub-time">33m ago</time>
       </div>
       
       <h3 class="article-title">
-        <a href="https://www.kdnuggets.com/a-beginners-guide-to-mastering-gemini-google-sheets" target="_blank" rel="noopener" title="A Beginner’s Guide to Mastering Gemini + Google Sheets">
-          A Beginner’s Guide to Mastering Gemini + Google Sheets ↗
+        <a href="https://www.reddit.com/r/ChatGPT/comments/1lo6rcv/hey_chatgpt_where_can_i_watch_wimbledon_in_the/" target="_blank" rel="noopener" title=""Hey ChatGPT, where can i watch wimbledon in the Netherlands?"">
+          "Hey ChatGPT, where can i watch wimbledon in the Netherlands?" ↗
         </a>
       </h3>
       
-      <p class="article-summary">In this article, we'll go through the implementation of Gemini with Google Sheets. In this article we'll discuss the implementation.</p>
+      <p class="article-summary">Discussion about AI models and tools mentioned in the title.</p>
       
       
       <div class="entities">
         
-        <span class="entity-tag product">Gemini</span><span class="entity-tag product">She</span>
+        
         
       </div>
       
@@ -342,85 +258,31 @@
       </div>
     </article>
   
-    <article class="news-item" data-category="infrastructure" data-source="tutorial" data-difficulty="medium">
+    <article class="news-item" data-category="ai-agents" data-source="reddit" data-difficulty="medium">
       <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=realpython.com" alt="Real Python" width="16" height="16">
-        <span class="source-name">Real Python</span>
-        <time class="pub-time">1h ago</time>
+        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
+        <span class="source-name">r/MachineLearning</span>
+        <time class="pub-time">40m ago</time>
       </div>
       
       <h3 class="article-title">
-        <a href="https://realpython.com/quizzes/python-torchaudio/" target="_blank" rel="noopener" title="Quiz: Use TorchAudio to Prepare Audio Data for Deep Learning">
-          Quiz: Use TorchAudio to Prepare Audio Data for Deep Learning ↗
+        <a href="https://www.reddit.com/r/MachineLearning/comments/1lo6lrn/d_what_generative_ai_architecture_patterns_are/" target="_blank" rel="noopener" title="What Generative AI architecture patterns are currently missing??">
+          What Generative AI architecture patterns are currently missing?? ↗
         </a>
       </h3>
       
-      <p class="article-summary">In this quiz, you’ll test your understanding of audio fundamentals and how to use TorchAudio to prepare Audio Data for Deep Learning.</p>
+      <p class="article-summary">I've been working with Generative AI systems across startups and enterprise teams, and I keep seeing the same architectural gaps.</p>
       
       
       <div class="entities">
         
-        <span class="entity-tag product">Deep</span><span class="entity-tag product">Learning</span>
+        <span class="entity-tag product">Gene</span>
         
       </div>
       
       
       <div class="metadata">
-        <span class="category category-infrastructure">infrastructure</span>
-        <span class="difficulty" title="Difficulty level: 5/10">★5</span>
-        <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="creative-ai" data-source="medium" data-difficulty="easy">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=ai.plainenglish.io" alt="AI in Plain English" width="16" height="16">
-        <span class="source-name">AI in Plain English</span>
-        <time class="pub-time">1h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://ai.plainenglish.io/can-ai-save-us-from-ourselves-42a123e0c69e?source=rss----78d064101951---4" target="_blank" rel="noopener" title="Can AI Save Us From Ourselves?">
-          Can AI Save Us From Ourselves? ↗
-        </a>
-      </h3>
-      
-      <p class="article-summary">Community discussion about AI developments and related topics.</p>
-      
-      
-      
-      <div class="metadata">
-        <span class="category category-creative-ai">creative-ai</span>
-        <span class="difficulty" title="Difficulty level: 3/10">★3</span>
-        <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
-      </div>
-    </article>
-  
-    <article class="news-item" data-category="safety-ethics" data-source="reddit" data-difficulty="medium">
-      <div class="source-bar">
-        <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
-        <span class="source-name">r/singularity</span>
-        <time class="pub-time">1h ago</time>
-      </div>
-      
-      <h3 class="article-title">
-        <a href="https://www.reddit.com/r/singularity/comments/1lo553t/why_are_people_so_against_ai/" target="_blank" rel="noopener" title="Why are people so against AI ?">
-          Why are people so against AI ? ↗
-        </a>
-      </h3>
-      
-      <p class="article-summary">37k people disliking AI in disgust is not a good thing. Some people use it to promote their lazy ess and for other questionable things most peopl.</p>
-      
-      
-      <div class="entities">
-        
-        <span class="entity-tag product">AI</span>
-        
-      </div>
-      
-      
-      <div class="metadata">
-        <span class="category category-safety-ethics">safety-ethics</span>
+        <span class="category category-ai-agents">ai-agents</span>
         <span class="difficulty" title="Difficulty level: 4/10">★4</span>
         <span class="confidence" title="Lower confidence - manual review suggested">❓</span>
       </div>
