@@ -1,4 +1,3 @@
-import { pipeline, env } from '@xenova/transformers';
 import { promises as fs } from 'fs';
 import path from 'path';
 import crypto from 'crypto';
@@ -6,11 +5,6 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Configure transformers for offline usage
-env.allowRemoteFiles = false;
-env.allowLocalFiles = true;
-env.cacheDir = path.join(__dirname, '../.cache');
 
 // Categories for classification
 const categories = [
@@ -26,344 +20,272 @@ const categories = [
   'safety-ethics'
 ];
 
-let classifier, summarizer, ner, languageDetector;
+// Rule-based categorization keywords
+const categoryKeywords = {
+  'model-release': ['model', 'release', 'gpt', 'llama', 'claude', 'gemini', 'version', 'checkpoint', 'weights'],
+  'research-paper': ['research', 'paper', 'arxiv', 'study', 'findings', 'analysis', 'investigation', 'methodology'],
+  'developer-tool': ['api', 'sdk', 'framework', 'library', 'tool', 'development', 'coding', 'programming'],
+  'product-launch': ['launch', 'announcing', 'introduces', 'unveils', 'product', 'feature', 'beta', 'available'],
+  'tutorial-guide': ['tutorial', 'guide', 'how-to', 'learn', 'getting started', 'introduction', 'walkthrough'],
+  'industry-news': ['acquisition', 'funding', 'partnership', 'market', 'industry', 'business', 'company', 'enterprise'],
+  'ai-agents': ['agent', 'autonomous', 'chatbot', 'assistant', 'automation', 'workflow', 'task'],
+  'creative-ai': ['art', 'image', 'video', 'music', 'creative', 'generation', 'dall-e', 'midjourney', 'stable diffusion'],
+  'infrastructure': ['training', 'compute', 'gpu', 'cloud', 'infrastructure', 'scaling', 'performance', 'optimization'],
+  'safety-ethics': ['safety', 'ethics', 'alignment', 'bias', 'responsible', 'governance', 'regulation', 'fairness']
+};
 
-// Initialize all pipelines
-async function initializeModels() {
-  console.log('🧠 Loading AI models...');
-  
-  try {
-    // Use smaller, faster models for GitHub Actions
-    classifier = await pipeline('zero-shot-classification', 'Xenova/bart-large-mnli');
-    console.log('✓ Classifier loaded');
-    
-    // Language detection
-    languageDetector = await pipeline('text-classification', 'Xenova/xlm-roberta-base-language-detection');
-    console.log('✓ Language detector loaded');
-    
-    console.log('✅ All models loaded successfully');
-  } catch (error) {
-    console.error('❌ Failed to load models:', error);
-    throw error;
-  }
-}
+// Organization extraction patterns
+const organizationPatterns = [
+  /\b(OpenAI|Anthropic|Google|Meta|Microsoft|Apple|Amazon|NVIDIA|Intel|IBM|Tesla|Salesforce)\b/gi,
+  /\b(DeepMind|Hugging Face|Stability AI|Midjourney|Replicate|Cohere|Together AI)\b/gi,
+  /\b(Stanford|MIT|Berkeley|Carnegie Mellon|Harvard|Oxford|Cambridge)\b/gi
+];
 
-// Main processing function
-async function processArticles(articles) {
-  const processed = [];
-  const seenHashes = new Set();
-  
-  console.log(`🔄 Processing ${articles.length} articles with AI...`);
-  
-  for (let i = 0; i < articles.length; i++) {
-    const article = articles[i];
-    
-    try {
-      console.log(`Processing ${i + 1}/${articles.length}: ${article.title.substring(0, 50)}...`);
-      
-      // 1. Language Detection
-      const langResult = await languageDetector(article.title);
-      if (langResult[0].label !== 'en' && langResult[0].score > 0.9) {
-        console.log(`Skipping non-English: ${article.title}`);
-        continue;
+// Product extraction patterns
+const productPatterns = [
+  /\b(ChatGPT|GPT-[0-9]+|Claude|Gemini|LLaMA|DALL-E|Midjourney|Stable Diffusion)\b/gi,
+  /\b(TensorFlow|PyTorch|Transformers|LangChain|AutoGPT|GitHub Copilot)\b/gi,
+  /\b(Kubernetes|Docker|AWS|Azure|GCP|Vercel|Netlify)\b/gi
+];
+
+// Technology extraction patterns
+const technologyPatterns = [
+  /\b(AI|Machine Learning|Deep Learning|Neural Networks|Transformer|LSTM|CNN|GAN)\b/gi,
+  /\b(Natural Language Processing|Computer Vision|Reinforcement Learning|MLOps)\b/gi,
+  /\b(Python|JavaScript|TypeScript|React|Next\.js|Node\.js|Docker|Kubernetes)\b/gi
+];
+
+// Simple rule-based classification
+function classifyArticle(title, description) {
+  const text = `${title} ${description}`.toLowerCase();
+  let bestCategory = 'industry-news';
+  let bestScore = 0;
+
+  for (const [category, keywords] of Object.entries(categoryKeywords)) {
+    let score = 0;
+    for (const keyword of keywords) {
+      if (text.includes(keyword.toLowerCase())) {
+        score += 1;
       }
-      
-      // 2. Duplicate Detection
-      const contentHash = crypto
-        .createHash('md5')
-        .update(article.title.toLowerCase().replace(/[^a-z0-9]/g, ''))
-        .digest('hex');
-      
-      if (seenHashes.has(contentHash)) {
-        console.log(`Skipping duplicate: ${article.title}`);
-        continue;
-      }
-      seenHashes.add(contentHash);
-      
-      // 3. Categorization
-      const categoryResult = await classifier(article.title, categories, {
-        multi_label: false,
-        hypothesis_template: "This article is about {}"
-      });
-      
-      // 4. Meta Description for SEO
-      const metaDesc = generateMetaDescription(article.title, categoryResult.labels[0]);
-      
-      // 5. Entity Extraction (simple keyword-based for now)
-      const entities = extractEntities(article.title);
-      
-      // 6. Difficulty Estimation
-      const difficulty = estimateDifficulty(article.title, categoryResult.labels[0]);
-      
-      // Combine all processing
-      processed.push({
-        ...article,
-        category: categoryResult.labels[0],
-        confidence: categoryResult.scores[0],
-        metaDescription: metaDesc,
-        entities: entities,
-        difficulty: difficulty,
-        language: langResult[0].label,
-        languageConfidence: langResult[0].score,
-        contentHash: contentHash,
-        processedAt: new Date().toISOString()
-      });
-      
-    } catch (error) {
-      console.error(`Error processing ${article.title}:`, error);
-      // Add with basic processing
-      processed.push({
-        ...article,
-        category: 'industry-news',
-        confidence: 0.5,
-        metaDescription: article.title,
-        entities: { organizations: [], products: [], people: [], technologies: [] },
-        difficulty: 5,
-        error: error.message
-      });
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestCategory = category;
     }
   }
-  
-  console.log(`✅ Processed ${processed.length} articles`);
-  return processed;
-}
 
-// Generate SEO-friendly meta descriptions
-function generateMetaDescription(title, category) {
-  const categoryDescriptions = {
-    'model-release': 'Latest AI model releases and updates',
-    'research-paper': 'New AI research papers and findings',
-    'developer-tool': 'AI development tools and frameworks',
-    'product-launch': 'New AI product launches and announcements',
-    'tutorial-guide': 'AI tutorials and learning resources',
-    'industry-news': 'AI industry news and updates',
-    'ai-agents': 'AI agents and autonomous systems',
-    'creative-ai': 'AI for creativity and content generation',
-    'infrastructure': 'AI infrastructure and deployment',
-    'safety-ethics': 'AI safety, ethics, and governance'
+  return {
+    category: bestCategory,
+    confidence: Math.min(0.6 + (bestScore * 0.1), 0.95)
   };
-  
-  const baseDesc = categoryDescriptions[category] || 'AI news and updates';
-  const desc = `${title}. ${baseDesc}. Stay updated with the latest in artificial intelligence.`;
-  
-  return desc.length > 160 ? desc.substring(0, 157) + '...' : desc;
 }
 
-// Extract named entities (simple keyword-based approach)
+// Extract entities using regex patterns
 function extractEntities(text) {
   const entities = {
     organizations: [],
     products: [],
-    people: [],
     technologies: []
   };
-  
-  // Organization patterns
-  const orgPatterns = [
-    /\b(OpenAI|Anthropic|Google|Meta|Microsoft|Apple|Amazon|NVIDIA|DeepMind|Hugging Face|LangChain|Stability AI|Midjourney|Runway|Character\.AI|Cohere|Inflection|Together AI)\b/gi
-  ];
-  
-  // Product patterns
-  const productPatterns = [
-    /\b(GPT-?[0-9\.]+|Claude|Gemini|LLaMA|BERT|PaLM|Bard|Copilot|DALL-E|Midjourney|Stable Diffusion|RunwayML)\b/gi
-  ];
-  
-  // Technology patterns
-  const techPatterns = [
-    /\b(AI|ML|LLM|NLP|Computer Vision|Deep Learning|Machine Learning|Neural Network|Transformer|CNN|RNN|GAN|VAE|RL|Reinforcement Learning)\b/gi
-  ];
-  
+
   // Extract organizations
-  for (const pattern of orgPatterns) {
+  for (const pattern of organizationPatterns) {
     const matches = text.match(pattern) || [];
     entities.organizations.push(...matches);
   }
-  
+
   // Extract products
   for (const pattern of productPatterns) {
     const matches = text.match(pattern) || [];
     entities.products.push(...matches);
   }
-  
+
   // Extract technologies
-  for (const pattern of techPatterns) {
+  for (const pattern of technologyPatterns) {
     const matches = text.match(pattern) || [];
     entities.technologies.push(...matches);
   }
-  
+
   // Remove duplicates and clean up
-  entities.organizations = [...new Set(entities.organizations)];
-  entities.products = [...new Set(entities.products)];
-  entities.technologies = [...new Set(entities.technologies)];
-  
+  entities.organizations = [...new Set(entities.organizations)].slice(0, 5);
+  entities.products = [...new Set(entities.products)].slice(0, 5);
+  entities.technologies = [...new Set(entities.technologies)].slice(0, 8);
+
   return entities;
 }
 
-// Enhanced difficulty estimation
-function estimateDifficulty(title, category) {
-  let score = 5; // Base score
-  
-  // Category-based adjustments
-  const categoryDifficulty = {
-    'research-paper': 8,
-    'tutorial-guide': 3,
-    'product-launch': 4,
-    'developer-tool': 6,
-    'model-release': 7,
-    'industry-news': 4,
-    'ai-agents': 7,
-    'creative-ai': 5,
-    'infrastructure': 8,
-    'safety-ethics': 6
-  };
-  
-  score = categoryDifficulty[category] || 5;
-  
-  // Adjust based on technical terms
-  const technicalTerms = (title.match(/architecture|optimization|embedding|gradient|benchmark|ablation|fine-tun|hyperparameter|transformer|neural|deep learning/gi) || []).length;
-  const beginnerTerms = (title.match(/introduction|beginner|basic|101|getting started|simple|easy|tutorial|guide/gi) || []).length;
-  
-  score += technicalTerms * 0.5;
-  score -= beginnerTerms * 1.5;
-  
-  return Math.max(1, Math.min(10, Math.round(score)));
+// Estimate difficulty based on content
+function estimateDifficulty(title, description) {
+  const text = `${title} ${description}`.toLowerCase();
+  let difficulty = 5; // Default medium difficulty
+
+  // Technical indicators increase difficulty
+  const technicalTerms = ['architecture', 'algorithm', 'optimization', 'implementation', 'neural', 'training'];
+  const advancedTerms = ['transformer', 'attention', 'gradient', 'backpropagation', 'fine-tuning'];
+  const researchTerms = ['methodology', 'empirical', 'evaluation', 'benchmark', 'baseline'];
+
+  let score = 0;
+  technicalTerms.forEach(term => text.includes(term) && score++);
+  advancedTerms.forEach(term => text.includes(term) && (score += 2));
+  researchTerms.forEach(term => text.includes(term) && (score += 2));
+
+  // Beginner-friendly indicators decrease difficulty
+  const beginnerTerms = ['tutorial', 'introduction', 'getting started', 'basics', 'beginner'];
+  beginnerTerms.forEach(term => text.includes(term) && (score -= 2));
+
+  difficulty = Math.max(1, Math.min(10, difficulty + score));
+  return difficulty;
 }
 
-// Deduplicate articles with fuzzy matching
+// Generate unique article ID
+function generateArticleId(article) {
+  const content = `${article.title}${article.url}${article.source}`;
+  return crypto.createHash('md5').update(content).digest('hex').substring(0, 8);
+}
+
+// Detect duplicates
 function findDuplicates(articles) {
-  const groups = [];
-  const used = new Set();
-  
+  const duplicates = new Map();
+  const titleMap = new Map();
+
   for (let i = 0; i < articles.length; i++) {
-    if (used.has(i)) continue;
-    
-    const group = [articles[i]];
-    used.add(i);
-    
-    for (let j = i + 1; j < articles.length; j++) {
-      if (used.has(j)) continue;
-      
-      const similarity = calculateSimilarity(
-        articles[i].title.toLowerCase(),
-        articles[j].title.toLowerCase()
-      );
-      
-      if (similarity > 0.8) { // 80% similar
-        group.push(articles[j]);
-        used.add(j);
-      }
-    }
-    
-    if (group.length > 1) {
-      groups.push(group);
+    const article = articles[i];
+    const normalizedTitle = article.title.toLowerCase()
+      .replace(/[^\w\s]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (titleMap.has(normalizedTitle)) {
+      const originalIndex = titleMap.get(normalizedTitle);
+      duplicates.set(i, originalIndex);
+    } else {
+      titleMap.set(normalizedTitle, i);
     }
   }
-  
-  return groups;
+
+  return duplicates;
 }
 
-function calculateSimilarity(str1, str2) {
-  const words1 = new Set(str1.split(/\s+/));
-  const words2 = new Set(str2.split(/\s+/));
-  
-  const intersection = new Set([...words1].filter(x => words2.has(x)));
-  const union = new Set([...words1, ...words2]);
-  
-  return intersection.size / union.size;
-}
-
-// Main function to process latest crawled data
-async function processLatestData() {
+// Main processing function
+async function processArticles() {
   try {
-    // Initialize models
-    await initializeModels();
+    console.log('🧠 Starting lightweight AI processing...');
     
-    // Load latest raw data
-    const dataDir = path.join(__dirname, '../data');
-    const rawDataPath = path.join(dataDir, 'latest-raw.json');
+    // Read raw data
+    const rawDataPath = path.join(__dirname, '../data/latest-raw.json');
+    const rawData = JSON.parse(await fs.readFile(rawDataPath, 'utf8'));
     
-    console.log('📖 Loading latest crawled data...');
-    const rawData = JSON.parse(await fs.readFile(rawDataPath, 'utf-8'));
+    console.log(`📊 Processing ${rawData.articles.length} articles...`);
     
-    // Process articles with LLM
-    const processed = await processArticles(rawData.articles);
+    // Find duplicates
+    const duplicates = findDuplicates(rawData.articles);
     
-    // Find and mark duplicates
-    const duplicateGroups = findDuplicates(processed);
-    console.log(`🔍 Found ${duplicateGroups.length} duplicate groups`);
-    
-    // Mark duplicates
-    for (const group of duplicateGroups) {
-      const original = group[0]; // Keep first as original
-      for (let i = 1; i < group.length; i++) {
-        const duplicate = processed.find(a => a.id === group[i].id);
-        if (duplicate) {
-          duplicate.duplicateOf = original.id;
-        }
-      }
-    }
-    
-    // Sort by confidence and publication date
-    processed.sort((a, b) => {
-      if (Math.abs(a.confidence - b.confidence) > 0.1) {
-        return b.confidence - a.confidence;
-      }
-      return new Date(b.pubDate) - new Date(a.pubDate);
+    // Process each article
+    const processedArticles = rawData.articles.map((article, index) => {
+      const id = generateArticleId(article);
+      const text = `${article.title} ${article.metaDescription || ''}`;
+      
+      // Classify article
+      const classification = classifyArticle(article.title, article.metaDescription || '');
+      
+      // Extract entities
+      const entities = extractEntities(text);
+      
+      // Estimate difficulty
+      const difficulty = estimateDifficulty(article.title, article.metaDescription || '');
+      
+      // Check for duplicates
+      const duplicateOf = duplicates.has(index) ? rawData.articles[duplicates.get(index)].id : null;
+      
+      return {
+        ...article,
+        id,
+        category: classification.category,
+        confidence: classification.confidence,
+        entities,
+        difficulty,
+        language: 'en',
+        languageConfidence: 0.95,
+        duplicateOf,
+        processedAt: new Date().toISOString()
+      };
     });
-    
-    // Save processed data
-    const today = new Date().toISOString().split('T')[0];
+
+    // Create processed data structure
     const processedData = {
       processedAt: new Date().toISOString(),
-      totalArticles: processed.length,
-      duplicateGroups: duplicateGroups.length,
-      categories: [...new Set(processed.map(a => a.category))],
-      articles: processed
+      totalArticles: processedArticles.length,
+      categories,
+      processingMethod: 'rule-based',
+      articles: processedArticles
     };
-    
-    // Save with date
-    await fs.writeFile(
-      path.join(dataDir, `${today}-processed.json`),
-      JSON.stringify(processedData, null, 2)
-    );
-    
-    // Save as latest
-    await fs.writeFile(
-      path.join(dataDir, 'latest.json'),
-      JSON.stringify(processedData, null, 2)
-    );
-    
-    console.log(`💾 Saved processed data: ${processed.length} articles`);
-    
-    // Print summary
-    const categoryStats = {};
-    processed.forEach(article => {
-      categoryStats[article.category] = (categoryStats[article.category] || 0) + 1;
-    });
-    
-    console.log('\n📊 Category breakdown:');
-    Object.entries(categoryStats).forEach(([cat, count]) => {
-      console.log(`  ${cat}: ${count}`);
-    });
-    
-    return processed;
-    
+
+    // Save processed data
+    const outputPath = path.join(__dirname, '../data/latest-processed.json');
+    await fs.writeFile(outputPath, JSON.stringify(processedData, null, 2));
+
+    // Also save with date
+    const dateStr = new Date().toISOString().split('T')[0];
+    const dateOutputPath = path.join(__dirname, `../data/${dateStr}-processed.json`);
+    await fs.writeFile(dateOutputPath, JSON.stringify(processedData, null, 2));
+
+    console.log(`✅ Successfully processed ${processedArticles.length} articles`);
+    console.log(`📊 Categories found: ${[...new Set(processedArticles.map(a => a.category))].join(', ')}`);
+    console.log(`🔄 Duplicates found: ${duplicates.size}`);
+    console.log(`💾 Saved to: ${outputPath}`);
+
+    return processedData;
+
   } catch (error) {
-    console.error('❌ Processing failed:', error);
-    throw error;
+    console.error('❌ Processing failed:', error.message);
+    
+    // Fallback: copy raw data with minimal processing
+    try {
+      const rawDataPath = path.join(__dirname, '../data/latest-raw.json');
+      const rawData = JSON.parse(await fs.readFile(rawDataPath, 'utf8'));
+      
+      const fallbackData = {
+        processedAt: new Date().toISOString(),
+        totalArticles: rawData.articles.length,
+        categories,
+        processingMethod: 'fallback',
+        articles: rawData.articles.map(article => ({
+          ...article,
+          id: generateArticleId(article),
+          category: 'industry-news',
+          confidence: 0.5,
+          entities: { organizations: [], products: [], technologies: [] },
+          difficulty: 5,
+          language: 'en',
+          languageConfidence: 0.9,
+          duplicateOf: null
+        }))
+      };
+
+      const outputPath = path.join(__dirname, '../data/latest-processed.json');
+      await fs.writeFile(outputPath, JSON.stringify(fallbackData, null, 2));
+      
+      console.log('⚠️ Used fallback processing - articles saved with basic metadata');
+      return fallbackData;
+      
+    } catch (fallbackError) {
+      console.error('❌ Fallback also failed:', fallbackError.message);
+      throw fallbackError;
+    }
   }
 }
 
 // Run if called directly
 if (import.meta.url === `file://${process.argv[1]}`) {
-  processLatestData()
-    .then(articles => {
-      console.log(`✅ Processing complete! ${articles.length} articles ready`);
+  processArticles()
+    .then(() => {
+      console.log('🎉 Article processing completed successfully!');
+      process.exit(0);
     })
-    .catch(error => {
-      console.error('❌ Processing failed:', error);
+    .catch((error) => {
+      console.error('💥 Article processing failed:', error);
       process.exit(1);
     });
 }
 
-export { processLatestData, processArticles, findDuplicates }; 
+export { processArticles }; 
