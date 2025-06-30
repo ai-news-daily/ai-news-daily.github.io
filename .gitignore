@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# AI Models Cache
+.cache/
+*.cache
+models/
+
+# Data files (generated)
+data/*.json
+!data/.gitkeep
+
+# Site files (generated)
+site/index.html
+site/data.json
+site/sitemap.xml
+site/robots.txt
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Hugging Face cache
+.cache/huggingface/
+~/.cache/huggingface/
+
+# Testing
+.pytest_cache/
+__pycache__/
+
+# Local development
+serve/
+local-test/ 

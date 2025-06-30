@@ -1,0 +1,232 @@
+import RSSParser from 'rss-parser';
+import { promises as fs } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const parser = new RSSParser({
+  timeout: 10000,
+  headers: {
+    'User-Agent': 'AI-News-Daily/1.0 (https://github.com/mauliconsultingservices/ai-news-daily)'
+  }
+});
+
+// Load sources
+async function loadSources() {
+  const sourcesPath = path.join(__dirname, '../sources.json');
+  const sourcesData = await fs.readFile(sourcesPath, 'utf-8');
+  const { sources, reddit_sources } = JSON.parse(sourcesData);
+  
+  return [...sources, ...reddit_sources];
+}
+
+// Extract domain from URL
+function extractDomain(url) {
+  try {
+    return new URL(url).hostname.replace('www.', '');
+  } catch {
+    return 'unknown';
+  }
+}
+
+// Clean and normalize title
+function cleanTitle(title) {
+  return title
+    .replace(/\[.*?\]/g, '') // Remove [tags]
+    .replace(/\(.*?\)/g, '') // Remove (parentheses) 
+    .replace(/\s+/g, ' ')    // Normalize whitespace
+    .trim();
+}
+
+// Filter AI-relevant content
+function isAIRelevant(title, source) {
+  const aiKeywords = [
+    'ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning',
+    'neural network', 'llm', 'large language model', 'gpt', 'claude', 'gemini',
+    'transformer', 'bert', 'llama', 'chatbot', 'automation', 'robotics',
+    'computer vision', 'nlp', 'natural language', 'generative', 'diffusion',
+    'stable diffusion', 'midjourney', 'dall-e', 'openai', 'anthropic',
+    'hugging face', 'langchain', 'embeddings', 'vector', 'rag', 'fine-tuning',
+    'prompt', 'agent', 'autonomous', 'copilot', 'github copilot'
+  ];
+  
+  // Always include content from AI-specific sources
+  const aiSources = ['openai', 'anthropic', 'huggingface', 'langchain', 'deepmind'];
+  if (aiSources.some(s => source.toLowerCase().includes(s))) {
+    return true;
+  }
+  
+  const titleLower = title.toLowerCase();
+  return aiKeywords.some(keyword => titleLower.includes(keyword));
+}
+
+// Crawl a single RSS feed
+async function crawlFeed(source) {
+  try {
+    console.log(`Crawling: ${source.name}`);
+    
+    const feed = await parser.parseURL(source.url);
+    const articles = [];
+    
+    // Limit to last 20 items to avoid overwhelming
+    const items = feed.items.slice(0, 20);
+    
+    for (const item of items) {
+      const title = cleanTitle(item.title || '');
+      const url = item.link || item.guid;
+      
+      if (!title || !url) continue;
+      
+      // Filter for AI relevance
+      if (!isAIRelevant(title, source.name)) {
+        continue;
+      }
+      
+      // Skip very old articles (older than 7 days)
+      const pubDate = new Date(item.pubDate || item.isoDate);
+      const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+      if (pubDate < weekAgo) continue;
+      
+      articles.push({
+        title: title,
+        url: url,
+        source: source.name,
+        source_domain: extractDomain(url),
+        source_category: source.category,
+        source_priority: source.priority,
+        pubDate: pubDate.toISOString(),
+        
+        // Will be filled by LLM processing
+        category: null,
+        difficulty: null,
+        confidence: null,
+        
+        // Metadata
+        crawledAt: new Date().toISOString(),
+        id: generateId(title, url)
+      });
+    }
+    
+    console.log(`✓ ${source.name}: ${articles.length} AI articles found`);
+    return articles;
+    
+  } catch (error) {
+    console.error(`✗ Failed to crawl ${source.name}:`, error.message);
+    return [];
+  }
+}
+
+// Generate unique ID for article
+function generateId(title, url) {
+  const content = title + url;
+  let hash = 0;
+  for (let i = 0; i < content.length; i++) {
+    const char = content.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32-bit integer
+  }
+  return Math.abs(hash).toString(36);
+}
+
+// Remove duplicates based on similarity
+function removeDuplicates(articles) {
+  const unique = [];
+  const seen = new Set();
+  
+  for (const article of articles) {
+    // Create a normalized key for duplicate detection
+    const key = article.title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .slice(0, 8) // First 8 words
+      .join(' ');
+    
+    if (!seen.has(key)) {
+      seen.add(key);
+      unique.push(article);
+    }
+  }
+  
+  return unique;
+}
+
+// Main crawl function
+async function crawlAllSources() {
+  console.log('🤖 Starting AI news crawl...');
+  
+  const sources = await loadSources();
+  console.log(`Found ${sources.length} sources to crawl`);
+  
+  // Crawl all sources in parallel (but with some delay to be nice)
+  const allArticles = [];
+  const batchSize = 5; // Process 5 sources at a time
+  
+  for (let i = 0; i < sources.length; i += batchSize) {
+    const batch = sources.slice(i, i + batchSize);
+    const promises = batch.map(source => crawlFeed(source));
+    const results = await Promise.all(promises);
+    
+    for (const articles of results) {
+      allArticles.push(...articles);
+    }
+    
+    // Small delay between batches
+    if (i + batchSize < sources.length) {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+  }
+  
+  // Remove duplicates
+  const uniqueArticles = removeDuplicates(allArticles);
+  
+  // Sort by publication date (newest first)
+  uniqueArticles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  
+  console.log(`📰 Found ${uniqueArticles.length} unique AI articles`);
+  
+  // Ensure data directory exists
+  const dataDir = path.join(__dirname, '../data');
+  await fs.mkdir(dataDir, { recursive: true });
+  
+  // Save raw crawled data
+  const today = new Date().toISOString().split('T')[0];
+  const filename = `${today}-raw.json`;
+  const filepath = path.join(dataDir, filename);
+  
+  const output = {
+    crawledAt: new Date().toISOString(),
+    totalSources: sources.length,
+    totalArticles: uniqueArticles.length,
+    articles: uniqueArticles
+  };
+  
+  await fs.writeFile(filepath, JSON.stringify(output, null, 2));
+  console.log(`💾 Saved raw data to: ${filename}`);
+  
+  // Also save as latest.json for easy access
+  await fs.writeFile(
+    path.join(dataDir, 'latest-raw.json'), 
+    JSON.stringify(output, null, 2)
+  );
+  
+  return uniqueArticles;
+}
+
+// Run if called directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  crawlAllSources()
+    .then(articles => {
+      console.log(`✅ Crawl complete! Found ${articles.length} articles`);
+    })
+    .catch(error => {
+      console.error('❌ Crawl failed:', error);
+      process.exit(1);
+    });
+}
+
+export { crawlAllSources }; 
