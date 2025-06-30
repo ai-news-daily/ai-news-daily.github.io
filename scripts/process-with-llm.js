@@ -207,21 +207,81 @@ function calculateDifficulty(title, entities) {
 }
 
 // Generate summary
-async function generateSummary(title, useAI = false) {
-  if (!useAI || !summarizer) {
-    // Simple rule-based summary
-    return `AI news article: ${title.substring(0, 100)}...`;
+async function generateSummary(title, metaDescription, source, useAI = false) {
+  // Check if metaDescription is meaningful (not just Reddit boilerplate)
+  const isRedditBoilerplate = metaDescription && (
+    metaDescription.includes('submitted by') && metaDescription.includes('[link]') ||
+    metaDescription.trim().length < 30 ||
+    metaDescription.includes('https://preview.redd.it') ||
+    metaDescription.match(/^https?:\/\//)
+  );
+  
+  // Use meaningful metaDescription for summarization, skip Reddit boilerplate
+  const contentToSummarize = metaDescription && metaDescription.trim() && !isRedditBoilerplate && metaDescription.length > 50 
+    ? metaDescription.trim() 
+    : null;
+  
+  // For Reddit posts without meaningful content, create topic-based summary from title
+  if (!contentToSummarize && source && source.includes('reddit')) {
+    return createTopicBasedSummary(title);
+  }
+  
+  if (!useAI || !summarizer || !contentToSummarize) {
+    // Rule-based summary with meaningful content
+    if (contentToSummarize) {
+      const cleaned = contentToSummarize.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      return cleaned.length > 120 ? cleaned.substring(0, 120) + '...' : cleaned;
+    }
+    return createTopicBasedSummary(title);
   }
   
   try {
-    const summary = await summarizer(title, {
-      max_length: 50,
-      min_length: 20
+    const summary = await summarizer(contentToSummarize, {
+      max_length: 60,
+      min_length: 25
     });
     return summary[0].summary_text;
   } catch (error) {
-    return `AI news article: ${title.substring(0, 100)}...`;
+    // Fallback to rule-based summary on error
+    if (contentToSummarize) {
+      const cleaned = contentToSummarize.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      return cleaned.length > 120 ? cleaned.substring(0, 120) + '...' : cleaned;
+    }
+    return createTopicBasedSummary(title);
   }
+}
+
+// Create a topic-based summary from title for Reddit posts
+function createTopicBasedSummary(title) {
+  const titleLower = title.toLowerCase();
+  
+  // Model/Tool mentions
+  if (titleLower.match(/\b(gpt|chatgpt|claude|gemini|llama|mistral|ollama|lmstudio)\b/)) {
+    return `Discussion about AI models and tools mentioned in the title.`;
+  }
+  
+  // Technical questions
+  if (titleLower.match(/\b(how to|help|issue|error|problem|question|which|best|recommend)\b/)) {
+    return `Community discussion seeking help or recommendations on AI-related topics.`;
+  }
+  
+  // Model releases
+  if (titleLower.match(/\b(release|releasing|available|launched|new|update)\b/)) {
+    return `Announcement or discussion about new AI model releases and updates.`;
+  }
+  
+  // Creative/Image generation
+  if (titleLower.match(/\b(image|generate|create|art|stable diffusion|midjourney)\b/)) {
+    return `Discussion about AI-powered creative content generation and tools.`;
+  }
+  
+  // Research/Papers
+  if (titleLower.match(/\b(paper|research|study|arxiv|analysis)\b/)) {
+    return `Discussion of AI research findings and academic papers.`;
+  }
+  
+  // Default based on source
+  return `Community discussion about AI developments and related topics.`;
 }
 
 // Main processing function
@@ -337,7 +397,7 @@ async function processArticlesWithAI() {
     const difficulty = calculateDifficulty(article.title, entities);
     
     // Generate summary
-    const summary = await generateSummary(article.title, useAI);
+    const summary = await generateSummary(article.title, article.metaDescription, article.source, useAI);
     
     // Create processed article
     const processedArticle = {

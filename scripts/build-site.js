@@ -22,8 +22,20 @@ function timeAgo(dateString) {
 
 // Generate article HTML - simple version without AI processing for now
 function generateArticleHTML(article) {
+  const entities = article.entities || [];
+  const summary = article.summary || '';
+  const difficulty = article.difficulty || 5;
+  const confidence = article.confidence || 0;
+  const confidenceIcon = confidence > 0.8 ? '✅' : '❓';
+  const confidenceTitle = confidence > 0.8 ? 'High confidence AI categorization' : 'Lower confidence - manual review suggested';
+  
+  // Group entities by type
+  const orgEntities = entities.filter(e => e.entity.includes('ORG')).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  const productEntities = entities.filter(e => e.entity.includes('PRODUCT') || e.entity.includes('MISC')).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  const techEntities = entities.filter(e => e.entity.includes('TECH') || e.entity.includes('PER')).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  
   return `
-    <article class="news-item" data-category="${article.source_category}" data-source="${article.source_category}">
+    <article class="news-item" data-category="${article.category || article.source_category}" data-source="${article.source_category}" data-difficulty="${difficulty <= 3 ? 'easy' : difficulty <= 7 ? 'medium' : 'hard'}">
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=${article.source_domain}" alt="${article.source}" width="16" height="16">
         <span class="source-name">${article.source}</span>
@@ -36,8 +48,20 @@ function generateArticleHTML(article) {
         </a>
       </h3>
       
+      ${summary ? `<p class="article-summary">${summary.trim()}</p>` : ''}
+      
+      ${entities.length > 0 ? `
+      <div class="entities">
+        ${orgEntities.map(entity => `<span class="entity-tag org">${entity}</span>`).join('')}
+        ${productEntities.map(entity => `<span class="entity-tag product">${entity}</span>`).join('')}
+        ${techEntities.map(entity => `<span class="entity-tag tech">${entity}</span>`).join('')}
+      </div>
+      ` : ''}
+      
       <div class="metadata">
-        <span class="category category-${article.source_category}">${article.source_category}</span>
+        <span class="category category-${(article.category || article.source_category).replace(/[^a-z0-9]/gi, '-')}">${article.category || article.source_category}</span>
+        <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
+        <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
       </div>
     </article>
   `;
@@ -222,11 +246,11 @@ async function buildSite(selectedDate = null) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News Daily - Latest AI News from 50+ Sources</title>
-  <meta name="description" content="Latest AI news and updates from ${articles.length} articles. Updated ${new Date(crawledAt).toLocaleDateString()}.">
+  <meta name="description" content="AI news aggregator collecting ${articles.length} articles from ${Object.keys(sourceStats).length}+ sources. Updated ${new Date(crawledAt).toLocaleDateString()}.">
   
   <!-- Open Graph -->
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
-  <meta property="og:description" content="Curated AI news from 50+ sources">
+  <meta property="og:description" content="AI news aggregator from ${Object.keys(sourceStats).length}+ sources including Reddit, arXiv, tech blogs, and YouTube">
   <meta property="og:type" content="website">
       <meta property="og:url" content="https://ai-news-daily.github.io">
   
@@ -240,8 +264,43 @@ async function buildSite(selectedDate = null) {
   <!-- Header -->
   <header class="header">
     <div class="header-content">
-      <div class="logo">
-        🤖 AI News Daily
+      <div class="logo-section">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background with modern gradient -->
+              <rect width="32" height="32" rx="10" fill="url(#modernGradient)"/>
+              
+              <!-- Neural network nodes -->
+              <circle cx="8" cy="10" r="2" fill="#00D9FF" opacity="0.9"/>
+              <circle cx="16" cy="8" r="1.5" fill="#FFB800" opacity="0.8"/>
+              <circle cx="24" cy="11" r="1.5" fill="#00FFB8" opacity="0.8"/>
+              <circle cx="12" cy="18" r="1.5" fill="#FF6B9D" opacity="0.8"/>
+              <circle cx="20" cy="20" r="2" fill="#00D9FF" opacity="0.9"/>
+              <circle cx="24" cy="24" r="1.5" fill="#FFB800" opacity="0.8"/>
+              
+              <!-- Neural connections -->
+              <path d="M8 10L16 8M16 8L24 11M8 10L12 18M16 8L20 20M24 11L20 20M12 18L20 20M20 20L24 24" 
+                    stroke="rgba(255,255,255,0.4)" stroke-width="1" opacity="0.7"/>
+              
+              <!-- RSS/News waves -->
+              <path d="M6 24c0-4 2-8 6-8s6 4 6 8" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+              <path d="M6 26c0-2 1-4 3-4s3 2 3 4" stroke="white" stroke-width="1.5" fill="none" opacity="0.8"/>
+              <circle cx="6" cy="26" r="1" fill="white" opacity="0.9"/>
+              
+              <defs>
+                <linearGradient id="modernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <div class="logo-title">AI News Daily</div>
+            <div class="logo-subtitle">Curated AI news from ${Object.keys(sourceStats).length}+ sources • Updated ${new Date(crawledAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</div>
+          </div>
+        </div>
       </div>
       
       <div class="search-container">

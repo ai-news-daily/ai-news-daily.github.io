@@ -497,31 +497,40 @@ function createArticleElement(article) {
   const articleDiv = document.createElement('article');
   articleDiv.className = 'news-item';
   
-  // Use source category for display since that's what filters are based on
-  const category = article.source_category || article.category;
+  // Use AI category if available, fallback to source category
+  const category = article.category || article.source_category;
   const difficulty = article.difficulty || 5;
-  const confidence = article.confidence || 0.5;
+  const confidence = article.confidence || 0;
   
   articleDiv.dataset.category = category;
-  articleDiv.dataset.difficulty = difficulty;
+  articleDiv.dataset.difficulty = difficulty <= 3 ? 'easy' : difficulty <= 7 ? 'medium' : 'hard';
   articleDiv.dataset.source = article.source_category;
   
-  // AI-enhanced features
-  const duplicateBadge = article.duplicateOf ? '<span class="duplicate-badge">Duplicate</span>' : '';
-  const difficultyDots = '●'.repeat(difficulty) + '○'.repeat(10 - difficulty);
-  const confidenceIcon = confidence > 0.8 ? '✓' : '?';
+  // AI confidence and difficulty indicators
+  const confidenceIcon = confidence > 0.8 ? '✅' : '❓';
+  const confidenceTitle = confidence > 0.8 ? 'High confidence AI categorization' : 'Lower confidence - manual review suggested';
   
-  // Entity tags - safely handle undefined arrays
-  const entities = article.entities || {};
-  const entityTags = [
-    ...(entities.organizations || []).map(org => `<span class="entity-tag org">${org}</span>`),
-    ...(entities.products || []).map(product => `<span class="entity-tag product">${product}</span>`),
-    ...(entities.technologies || []).slice(0, 3).map(tech => `<span class="entity-tag tech">${tech}</span>`)
+  // Process entities safely
+  const entities = article.entities || [];
+  const orgEntities = entities.filter(e => e.entity && e.entity.includes('ORG')).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  const productEntities = entities.filter(e => e.entity && (e.entity.includes('PRODUCT') || e.entity.includes('MISC'))).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  const techEntities = entities.filter(e => e.entity && (e.entity.includes('TECH') || e.entity.includes('PER'))).map(e => e.word).filter((v, i, a) => a.indexOf(v) === i);
+  
+  // Build entity tags HTML
+  const entityTagsHTML = [
+    ...orgEntities.map(entity => `<span class="entity-tag org">${entity}</span>`),
+    ...productEntities.map(entity => `<span class="entity-tag product">${entity}</span>`),
+    ...techEntities.map(entity => `<span class="entity-tag tech">${entity}</span>`)
   ].join('');
-
+  
+  // AI summary
+  const summary = article.summary || '';
+  const summaryHTML = summary ? `<p class="article-summary">${summary.trim()}</p>` : '';
+  
+  // Entity section
+  const entitiesHTML = entityTagsHTML ? `<div class="entities">${entityTagsHTML}</div>` : '';
+  
   articleDiv.innerHTML = `
-    ${duplicateBadge}
-    
     <div class="source-bar">
       <img src="https://www.google.com/s2/favicons?domain=${article.source_domain}" alt="${article.source}" width="16" height="16">
       <span class="source-name">${article.source}</span>
@@ -529,17 +538,19 @@ function createArticleElement(article) {
     </div>
     
     <h3 class="article-title">
-      <a href="${article.url}" target="_blank" rel="noopener" title="${article.metaDescription || article.title}">
+      <a href="${article.url}" target="_blank" rel="noopener" title="${article.title}">
         ${article.title} ↗
       </a>
     </h3>
     
-    ${entityTags ? `<div class="entities">${entityTags}</div>` : ''}
+    ${summaryHTML}
+    
+    ${entitiesHTML}
     
     <div class="metadata">
-      <span class="category category-${category}">${category.replace('-', ' ')}</span>
-      ${article.difficulty ? `<span class="difficulty" title="Difficulty: ${difficulty}/10">${difficultyDots}</span>` : ''}
-      ${article.confidence ? `<span class="confidence" title="AI confidence: ${(confidence*100).toFixed(0)}%">${confidenceIcon}</span>` : ''}
+      <span class="category category-${category.replace(/[^a-z0-9]/gi, '-')}">${category}</span>
+      <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
+      <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
     </div>
   `;
   
