@@ -279,24 +279,18 @@ function clearSearch() {
   updateDisplay();
 }
 
-// Apply all filters
+// Apply filters and search
 function applyFilters() {
   filteredArticles = allArticles.filter(article => {
-    // Category filter - prioritize source categories since filter buttons are based on them
+    // Category filter
     if (filters.category !== 'all') {
-      // Check source category first (what the filter buttons are based on)
       const matchesSourceCategory = article.source_category === filters.category;
       const matchesAICategory = article.category === filters.category;
-      
-      if (!matchesSourceCategory && !matchesAICategory) {
-        return false;
-      }
+      if (!matchesSourceCategory && !matchesAICategory) return false;
     }
     
-    // Source filter
-    if (filters.source !== 'all' && article.source_category !== filters.source) {
-      return false;
-    }
+    // Source type filter
+    if (filters.source !== 'all' && article.source_category !== filters.source) return false;
     
     // Difficulty filter
     if (filters.difficulty !== 'all' && article.difficulty) {
@@ -308,28 +302,41 @@ function applyFilters() {
     
     // Search filter
     if (filters.search) {
-      const entities = article.entities || {};
       const searchableText = [
-        article.title,
-        article.source,
-        article.category || article.source_category,
-        ...(entities.organizations || []),
-        ...(entities.products || []),
-        ...(entities.technologies || [])
+        article.title, article.source, article.category || article.source_category,
+        ...(article.entities?.organizations || []), ...(article.entities?.products || []),
+        ...(article.entities?.technologies || [])
       ].join(' ').toLowerCase();
-      
-      if (!searchableText.includes(filters.search)) {
-        return false;
-      }
+      if (!searchableText.includes(filters.search)) return false;
     }
     
     return true;
   });
   
-  // Update filter button counts dynamically
-  updateFilterCounts();
+  // Sort articles: Green tick first, then Reddit last
+  filteredArticles.sort((a, b) => {
+    // 1. Prioritize high confidence (green tick) articles
+    const aHighConfidence = (a.confidence || 0) > 0.8;
+    const bHighConfidence = (b.confidence || 0) > 0.8;
+    
+    if (aHighConfidence && !bHighConfidence) return -1;
+    if (!aHighConfidence && bHighConfidence) return 1;
+    
+    // 2. Deprioritize Reddit (move to bottom)
+    const aIsReddit = a.source_category === 'reddit';
+    const bIsReddit = b.source_category === 'reddit';
+    
+    if (!aIsReddit && bIsReddit) return -1;
+    if (aIsReddit && !bIsReddit) return 1;
+    
+    // 3. Secondary sort by recency (newest first)
+    const aTime = new Date(a.pubDate || a.published_at).getTime();
+    const bTime = new Date(b.pubDate || b.published_at).getTime();
+    return bTime - aTime;
+  });
   
-  console.log(`✅ Filtered to ${filteredArticles.length} articles`);
+  // Reset pagination
+  currentPage = 0;
 }
 
 // Update filter button counts dynamically
