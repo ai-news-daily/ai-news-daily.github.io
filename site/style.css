@@ -64,6 +64,12 @@
   --gradient-border: linear-gradient(135deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.05) 100%);
 }
 
+[data-theme="light"] .header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -97,13 +103,14 @@ body::before {
 
 /* Enhanced Header */
 .header {
-  background: var(--surface-glass);
+  background: rgba(15, 15, 35, 0.95);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
   position: sticky;
   top: 0;
   z-index: 100;
   padding: 1rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .header-content {
