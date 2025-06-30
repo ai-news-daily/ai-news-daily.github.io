@@ -115,6 +115,11 @@ function setupEventListeners() {
     btn.addEventListener('click', handleFilterClick);
   });
   
+  // Filter section toggles
+  document.querySelectorAll('.filter-header').forEach(header => {
+    header.addEventListener('click', handleFilterToggle);
+  });
+  
   // Search
   searchInput.addEventListener('input', debounce(handleSearch, 300));
   clearSearchBtn.addEventListener('click', clearSearch);
@@ -132,6 +137,9 @@ function setupEventListeners() {
   
   // Keyboard shortcuts
   document.addEventListener('keydown', handleKeyboard);
+  
+  // Initialize mobile filter state
+  initializeMobileFilters();
 }
 
 // Handle filter button clicks
@@ -157,6 +165,53 @@ function handleFilterClick(event) {
   applyFilters();
   updateDisplay();
 }
+
+// Handle filter section toggle (mobile collapse/expand)
+function handleFilterToggle(event) {
+  const header = event.target.closest('.filter-header');
+  const filterGroup = header.parentElement;
+  
+  // Toggle expanded state
+  filterGroup.classList.toggle('expanded');
+  
+  // Update toggle icon
+  const toggle = header.querySelector('.filter-toggle');
+  if (filterGroup.classList.contains('expanded')) {
+    toggle.textContent = '▼';
+  } else {
+    toggle.textContent = '▶';
+  }
+}
+
+// Initialize mobile filter state (collapsed by default on mobile)
+function initializeMobileFilters() {
+  const isMobile = window.innerWidth <= 768;
+  
+  if (isMobile) {
+    // Collapse all filter groups on mobile
+    document.querySelectorAll('.filter-group').forEach(group => {
+      group.classList.remove('expanded');
+      const toggle = group.querySelector('.filter-toggle');
+      if (toggle) {
+        toggle.textContent = '▶';
+      }
+    });
+  } else {
+    // Expand all filter groups on desktop
+    document.querySelectorAll('.filter-group').forEach(group => {
+      group.classList.add('expanded');
+      const toggle = group.querySelector('.filter-toggle');
+      if (toggle) {
+        toggle.textContent = '▼';
+      }
+    });
+  }
+}
+
+// Handle window resize to reinitialize mobile state
+window.addEventListener('resize', debounce(() => {
+  initializeMobileFilters();
+}, 250));
 
 // Handle search input
 function handleSearch(event) {

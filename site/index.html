@@ -59,31 +59,40 @@
     <div class="filters-content">
       <!-- Category Filters -->
       <div class="filter-group">
-        <label class="filter-label">Categories</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="categories">
+          <label class="filter-label">Categories</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="categories">
           <button class="filter-btn active" data-category="all">All (83)</button>
           <button class="filter-btn" data-category="creative-ai">creative ai (34)</button><button class="filter-btn" data-category="infrastructure">infrastructure (24)</button><button class="filter-btn" data-category="safety-ethics">safety ethics (8)</button><button class="filter-btn" data-category="ai-agents">ai agents (5)</button><button class="filter-btn" data-category="model-release">model release (3)</button><button class="filter-btn" data-category="research-paper">research paper (3)</button><button class="filter-btn" data-category="developer-tool">developer tool (3)</button><button class="filter-btn" data-category="industry-news">industry news (2)</button><button class="filter-btn" data-category="product-launch">product launch (1)</button>
-      </div>
+        </div>
       </div>
       
       <!-- Source Type Filters -->
       <div class="filter-group">
-        <label class="filter-label">Source Types</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="sources">
+          <label class="filter-label">Source Types</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="sources">
           <button class="filter-btn active" data-source="all">All Sources</button>
           <button class="filter-btn" data-source="research">research (42)</button><button class="filter-btn" data-source="reddit">reddit (39)</button><button class="filter-btn" data-source="news">news (2)</button>
-      </div>
+        </div>
       </div>
       
       <!-- Difficulty Filters -->
       <div class="filter-group">
-        <label class="filter-label">Difficulty Level</label>
-        <div class="filter-buttons">
+        <button class="filter-header" data-target="difficulty">
+          <label class="filter-label">Difficulty Level</label>
+          <span class="filter-toggle">▼</span>
+        </button>
+        <div class="filter-buttons" id="difficulty">
           <button class="filter-btn active" data-difficulty="all">All Levels</button>
           <button class="filter-btn" data-difficulty="easy">Easy (24)</button>
           <button class="filter-btn" data-difficulty="medium">Medium (57)</button>
           <button class="filter-btn" data-difficulty="hard">Hard (2)</button>
-      </div>
+        </div>
       </div>
       </div>
       </div>

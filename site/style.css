@@ -280,6 +280,47 @@ body {
   border-color: var(--primary);
 }
 
+/* Collapsible filter headers */
+.filter-header {
+  width: 100%;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.filter-header:hover {
+  background: var(--surface-hover);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0 -0.5rem 0.5rem -0.5rem;
+}
+
+.filter-header .filter-label {
+  margin: 0;
+  pointer-events: none;
+}
+
+.filter-toggle {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  transition: transform 0.2s;
+  pointer-events: none;
+}
+
+.filter-group.collapsed .filter-toggle {
+  transform: rotate(-90deg);
+}
+
+.filter-group.collapsed .filter-buttons {
+  display: none;
+}
+
 /* Main content */
 .main {
   max-width: 1200px;
@@ -526,6 +567,43 @@ body {
   .filter-btn {
     padding: 0.375rem 0.75rem;
     font-size: 0.8125rem;
+  }
+
+  /* Collapse filters on mobile by default */
+  .filter-group {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .filter-group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .filter-group:not(.expanded) {
+    margin-bottom: 0.5rem;
+  }
+
+  .filter-group:not(.expanded) .filter-buttons {
+    display: none;
+  }
+
+  .filter-group:not(.expanded) .filter-toggle {
+    transform: rotate(-90deg);
+  }
+
+  .filter-header {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .filter-header:hover {
+    background: var(--surface-hover);
+    margin: 0 0 0.5rem 0;
   }
 }
 
