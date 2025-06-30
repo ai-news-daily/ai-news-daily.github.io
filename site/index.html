@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Daily - Free AI News Aggregator</title>
+  <meta name="description" content="Daily AI news aggregator with 50+ sources. Free, fast, and mobile-friendly. Stay updated with OpenAI, Anthropic, Google AI, research papers, and more.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai-news-daily.github.io/">
+  <meta property="og:title" content="AI News Daily - Free AI News Aggregator">
+  <meta property="og:description" content="Daily AI news aggregator with 50+ sources. Free, fast, and mobile-friendly. Stay updated with OpenAI, Anthropic, Google AI, research papers, and more.">
+  <meta property="og:image" content="https://ai-news-daily.github.io/og-image.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ai-news-daily.github.io/">
+  <meta property="twitter:title" content="AI News Daily - Free AI News Aggregator">
+  <meta property="twitter:description" content="Daily AI news aggregator with 50+ sources. Free, fast, and mobile-friendly. Stay updated with OpenAI, Anthropic, Google AI, research papers, and more.">
+  <meta property="twitter:image" content="https://ai-news-daily.github.io/og-image.png">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI News Daily",
+    "description": "Daily AI news aggregator with 50+ sources",
+    "url": "https://ai-news-daily.github.io/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://ai-news-daily.github.io/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1 class="logo">
+        🤖 AI News Daily
+      </h1>
+      
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Search articles... (Ctrl+K)"
+          autocomplete="off"
+        >
+        <button id="clearSearch" class="clear-search" title="Clear search">×</button>
+      </div>
+      
+      <div class="stats">
+        Showing <span id="showCount">0</span> of <span id="totalCount">0</span> articles
+      </div>
+    </div>
+  </header>
+
+  <nav class="filters">
+    <div class="filters-content">
+      <!-- AI Categories -->
+      <div class="filter-group">
+        <div class="filter-label">AI Categories</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="model-release">Model Release</button>
+          <button class="filter-btn" data-category="research-paper">Research Paper</button>
+          <button class="filter-btn" data-category="developer-tool">Developer Tool</button>
+          <button class="filter-btn" data-category="product-launch">Product Launch</button>
+          <button class="filter-btn" data-category="tutorial-guide">Tutorial Guide</button>
+          <button class="filter-btn" data-category="industry-news">Industry News</button>
+          <button class="filter-btn" data-category="ai-agents">AI Agents</button>
+          <button class="filter-btn" data-category="creative-ai">Creative AI</button>
+          <button class="filter-btn" data-category="infrastructure">Infrastructure</button>
+          <button class="filter-btn" data-category="safety-ethics">Safety & Ethics</button>
+        </div>
+      </div>
+
+      <!-- Source Categories -->
+      <div class="filter-group">
+        <div class="filter-label">Source Types</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-source="all">All Sources</button>
+          <button class="filter-btn" data-source="company">Company Blogs</button>
+          <button class="filter-btn" data-source="news">News Sites</button>
+          <button class="filter-btn" data-source="research">Research</button>
+          <button class="filter-btn" data-source="community">Community</button>
+          <button class="filter-btn" data-source="tools">Tools</button>
+        </div>
+      </div>
+
+      <!-- Difficulty Filter -->
+      <div class="filter-group">
+        <div class="filter-label">Difficulty Level</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-difficulty="all">All Levels</button>
+          <button class="filter-btn" data-difficulty="easy">Easy (1-3)</button>
+          <button class="filter-btn" data-difficulty="medium">Medium (4-7)</button>
+          <button class="filter-btn" data-difficulty="hard">Hard (8-10)</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div id="articlesGrid" class="articles-grid">
+      <!-- Articles will be loaded here -->
+    </div>
+    
+    <button id="loadMoreBtn" class="load-more" style="display: none;">
+      Load More Articles
+    </button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

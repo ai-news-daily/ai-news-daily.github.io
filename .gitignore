@@ -9,15 +9,14 @@ yarn-error.log*
 *.cache
 models/
 
-# Data files (generated)
-data/*.json
+# Data files (generated) - ignore dated files but allow latest
+data/20*-*.json
 !data/.gitkeep
 
-# Site files (generated)
-site/index.html
-site/data.json
+# Site files (generated) - track essential files for GitHub Pages
 site/sitemap.xml
 site/robots.txt
+# site/index.html and site/data.json are now tracked for deployment
 
 # Environment files
 .env
