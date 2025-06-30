@@ -75,7 +75,7 @@ jobs:
           PROCESSING_LIMIT: 20  # Process only 20 articles for faster builds
         run: |
           echo "🧠 Processing articles with AI (limited to $PROCESSING_LIMIT articles)..."
-          node scripts/process-with-llm.js
+          node scripts/process-clean.js
           echo "AI processing completed"
           
       - name: Build static site
@@ -115,7 +115,7 @@ jobs:
           node -e "
             const fs = require('fs');
             try {
-              JSON.parse(fs.readFileSync('data/latest.json'));
+              JSON.parse(fs.readFileSync('data/latest-processed.json'));
               console.log('✅ Data files valid');
             } catch(e) {
               console.error('❌ Invalid JSON:', e.message);
@@ -124,7 +124,7 @@ jobs:
           "
           
           # Check if we have articles
-          ARTICLE_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/latest.json')).articles.length)")
+          ARTICLE_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/latest-processed.json')).articles.length)")
           echo "📊 Found $ARTICLE_COUNT articles"
           
           if [ "$ARTICLE_COUNT" -lt 10 ]; then
@@ -135,13 +135,23 @@ jobs:
         run: |
           git config --local user.email "ai-news-bot@users.noreply.github.com"
           git config --local user.name "AI News Bot"
+          
+          # Add all changes including deletions
           git add data/ site/
+          git add -u  # Stage deletions
           
           # Create commit message with stats
-          ARTICLE_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/latest.json')).articles.length)")
+          ARTICLE_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/latest-processed.json')).articles.length)")
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
           
-          git commit -m "🤖 Update AI news - $ARTICLE_COUNT articles - $TIMESTAMP" || {
+          # Check what's being committed
+          git status --short
+          
+          git commit -m "🤖 Update AI news - $ARTICLE_COUNT articles - $TIMESTAMP
+
+          📊 Latest: $ARTICLE_COUNT articles processed
+          🗂️ Historical: 15-day rolling archive maintained
+          🚀 Deployed: $(date -u '+%Y-%m-%d %H:%M UTC')" || {
             echo "No changes to commit"
             exit 0
           }
@@ -158,17 +168,34 @@ jobs:
           echo "✅ Workflow completed successfully!"
           echo "📊 Statistics:"
           node -e "
-            const data = JSON.parse(require('fs').readFileSync('data/latest.json'));
+            const data = JSON.parse(require('fs').readFileSync('data/latest-processed.json'));
             console.log(\`Articles: \${data.articles.length}\`);
-            console.log(\`Categories: \${data.categories.length}\`);
-            console.log(\`Duplicates: \${data.duplicateGroups}\`);
+            const categoryStats = {};
+            data.articles.forEach(article => {
+              const category = article.category || article.source_category || 'uncategorized';
+              categoryStats[category] = (categoryStats[category] || 0) + 1;
+            });
+            console.log(\`Categories: \${Object.keys(categoryStats).length}\`);
+            console.log(\`AI Processing: \${data.processingMethod || 'completed'}\`);
           "
           
-      - name: Cleanup old data files
+      - name: Cleanup old data files (15-day rolling archive)
         run: |
-          # Keep only last 30 days of data files
-          find data/ -name "*.json" -type f -mtime +30 -delete || true
-          echo "🧹 Cleaned up old data files"
+          # Keep only last 15 days of date-specific data files
+          echo "🧹 Cleaning up data files older than 15 days..."
+          
+          # Find and list files to be deleted (for logging)
+          find data/ -name "20*-*-processed.json" -type f -mtime +15 | while read file; do
+            echo "Deleting old file: $file"
+          done
+          
+          # Delete old date-specific files (but keep latest-*.json files)
+          find data/ -name "20*-*-processed.json" -type f -mtime +15 -delete || true
+          
+          # Also clean up corresponding site data files
+          find site/data/ -name "20*-*.json" -type f -mtime +15 -delete 2>/dev/null || true
+          
+          echo "✅ Rolling cleanup completed (15-day archive maintained)"
           
   # Health check job
   health-check:
@@ -200,4 +227,6 @@ jobs:
 # Environment variables for the workflow
 env:
   NODE_OPTIONS: '--max-old-space-size=4096'  # Increase memory for AI models
-  FORCE_COLOR: 1  # Enable colors in terminal output 
+  ORT_LOG_LEVEL: '3'  # Suppress ONNX runtime warnings
+  ONNX_DISABLE_WARNINGS: '1'
+  ONNXRUNTIME_LOG_LEVEL: '3' 

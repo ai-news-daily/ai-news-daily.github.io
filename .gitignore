@@ -9,9 +9,10 @@ yarn-error.log*
 *.cache
 models/
 
-# Data files (generated) - ignore dated files but allow latest
-data/20*-*.json
+# Data files (generated) - track latest and recent (15 days rolling)
 !data/.gitkeep
+# Note: date-specific files (2025-06-30-processed.json) are now tracked
+# and cleaned up automatically by GitHub Actions after 15 days
 
 # Site files (generated) - track essential files for GitHub Pages
 site/sitemap.xml

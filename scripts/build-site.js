@@ -251,7 +251,6 @@ async function buildSite(selectedDate = null) {
       
       <div class="header-controls">
         <div class="date-selector">
-          <label for="dateSelect" class="date-label">📅</label>
           <select id="dateSelect" class="date-select" title="Select date to view articles">
             <option value="">Latest</option>
             ${availableDates.map(date => 
