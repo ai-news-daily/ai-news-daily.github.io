@@ -26,12 +26,22 @@ const filters = {
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     await loadData();
+    console.log('🔍 DEBUG: After loadData, allArticles.length =', allArticles.length);
+    
     setupEventListeners();
     initializeTheme();
-    updatePageMetadata(null); // Initialize page metadata for latest
-    updateFilterCounts(); // Initialize filter counts
+    updatePageMetadata(null);
+    
+    console.log('🔍 DEBUG: Initial filter state =', filters);
+    
+    updateFilterCounts();
+    console.log('🔍 DEBUG: After updateFilterCounts');
+    
     applyFilters();
+    console.log('🔍 DEBUG: After applyFilters, filteredArticles.length =', filteredArticles.length);
+    
     updateDisplay();
+    console.log('🔍 DEBUG: After updateDisplay');
   } catch (error) {
     console.error('Failed to initialize app:', error);
     showError('Failed to load articles. Please refresh the page.');
@@ -211,6 +221,7 @@ function handleFilterClick(event) {
   
   // Apply filters and reset pagination
   currentPage = 0;
+  updateFilterCounts();
   applyFilters();
   updateDisplay();
 }
@@ -266,6 +277,7 @@ window.addEventListener('resize', debounce(() => {
 function handleSearch(event) {
   filters.search = event.target.value.toLowerCase().trim();
   currentPage = 0;
+  updateFilterCounts();
   applyFilters();
   updateDisplay();
 }
@@ -275,6 +287,7 @@ function clearSearch() {
   searchInput.value = '';
   filters.search = '';
   currentPage = 0;
+  updateFilterCounts();
   applyFilters();
   updateDisplay();
 }
@@ -304,14 +317,17 @@ function applyFilters() {
     if (filters.search) {
       const searchableText = [
         article.title, article.source, article.category || article.source_category,
-        ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-        ...(article.entities?.technologies || [])
+        ...((article.entities && article.entities.organizations) || []), 
+        ...((article.entities && article.entities.products) || []),
+        ...((article.entities && article.entities.technologies) || [])
       ].join(' ').toLowerCase();
       if (!searchableText.includes(filters.search)) return false;
     }
     
     return true;
   });
+  
+
   
   // Sort articles: Green tick first, then Reddit last
   filteredArticles.sort((a, b) => {
@@ -341,6 +357,7 @@ function applyFilters() {
 
 // Update filter button counts dynamically
 function updateFilterCounts() {
+  
   // Update source type counts
   document.querySelectorAll('[data-source]').forEach(btn => {
     const sourceType = btn.dataset.source;
@@ -361,8 +378,8 @@ function updateFilterCounts() {
         if (filters.search) {
           const searchableText = [
             article.title, article.source, article.category || article.source_category,
-            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-            ...(article.entities?.technologies || [])
+            ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+            ...((article.entities && article.entities.technologies) || [])
           ].join(' ').toLowerCase();
           if (!searchableText.includes(filters.search)) return false;
         }
@@ -391,8 +408,8 @@ function updateFilterCounts() {
       if (filters.search) {
         const searchableText = [
           article.title, article.source, article.category || article.source_category,
-          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-          ...(article.entities?.technologies || [])
+          ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+          ...((article.entities && article.entities.technologies) || [])
         ].join(' ').toLowerCase();
         if (!searchableText.includes(filters.search)) return false;
       }
@@ -419,8 +436,8 @@ function updateFilterCounts() {
         if (filters.search) {
           const searchableText = [
             article.title, article.source, article.category || article.source_category,
-            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-            ...(article.entities?.technologies || [])
+            ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+            ...((article.entities && article.entities.technologies) || [])
           ].join(' ').toLowerCase();
           if (!searchableText.includes(filters.search)) return false;
         }
@@ -443,8 +460,8 @@ function updateFilterCounts() {
       if (filters.search) {
         const searchableText = [
           article.title, article.source, article.category || article.source_category,
-          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-          ...(article.entities?.technologies || [])
+          ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+          ...((article.entities && article.entities.technologies) || [])
         ].join(' ').toLowerCase();
         if (!searchableText.includes(filters.search)) return false;
       }
@@ -479,8 +496,8 @@ function updateFilterCounts() {
         if (filters.search) {
           const searchableText = [
             article.title, article.source, article.category || article.source_category,
-            ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-            ...(article.entities?.technologies || [])
+            ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+            ...((article.entities && article.entities.technologies) || [])
           ].join(' ').toLowerCase();
           if (!searchableText.includes(filters.search)) return false;
         }
@@ -504,8 +521,8 @@ function updateFilterCounts() {
       if (filters.search) {
         const searchableText = [
           article.title, article.source, article.category || article.source_category,
-          ...(article.entities?.organizations || []), ...(article.entities?.products || []),
-          ...(article.entities?.technologies || [])
+          ...((article.entities && article.entities.organizations) || []), ...((article.entities && article.entities.products) || []),
+          ...((article.entities && article.entities.technologies) || [])
         ].join(' ').toLowerCase();
         if (!searchableText.includes(filters.search)) return false;
       }
@@ -533,7 +550,7 @@ function updateDisplay() {
     return;
   }
   
-  articlesToShow.forEach(article => {
+  articlesToShow.forEach((article, index) => {
     const articleElement = createArticleElement(article);
     articlesGrid.appendChild(articleElement);
   });
@@ -550,6 +567,7 @@ function updateDisplay() {
 
 // Create article DOM element - full AI-enhanced version
 function createArticleElement(article) {
+  
   const articleDiv = document.createElement('article');
   articleDiv.className = 'news-item';
   
@@ -586,29 +604,47 @@ function createArticleElement(article) {
   // Entity section
   const entitiesHTML = entityTagsHTML ? `<div class="entities">${entityTagsHTML}</div>` : '';
   
-  articleDiv.innerHTML = `
-    <div class="source-bar">
-      <img src="https://www.google.com/s2/favicons?domain=${article.source_domain}" alt="${article.source}" width="16" height="16">
-      <span class="source-name">${article.source}</span>
-      <time class="pub-time">${timeAgo(article.pubDate)}</time>
-    </div>
+  try {
+    const finalHTML = `
+      <div class="source-bar">
+        <img src="https://www.google.com/s2/favicons?domain=${article.source_domain || 'example.com'}" alt="${article.source || 'Unknown'}" width="16" height="16">
+        <span class="source-name">${article.source || 'Unknown Source'}</span>
+        <time class="pub-time">${timeAgo(article.pubDate || article.published_at || new Date())}</time>
+      </div>
+      
+      <h3 class="article-title">
+        <a href="${article.url || '#'}" target="_blank" rel="noopener" title="${article.title || 'Untitled'}">
+          ${article.title || 'Untitled Article'} ↗
+        </a>
+      </h3>
+      
+      ${summaryHTML}
+      
+      ${entitiesHTML}
+      
+      <div class="metadata">
+        <span class="category category-${category.replace(/[^a-z0-9]/gi, '-')}">${category}</span>
+        <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
+        <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
+      </div>
+    `;
     
-    <h3 class="article-title">
-      <a href="${article.url}" target="_blank" rel="noopener" title="${article.title}">
-        ${article.title} ↗
-      </a>
-    </h3>
+    articleDiv.innerHTML = finalHTML;
     
-    ${summaryHTML}
+  } catch (error) {
+    console.error('🚨 ERROR creating article element:', error);
+    console.error('🚨 Article data:', article);
     
-    ${entitiesHTML}
-    
-    <div class="metadata">
-      <span class="category category-${category.replace(/[^a-z0-9]/gi, '-')}">${category}</span>
-      <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
-      <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
-    </div>
-  `;
+    // Fallback simple article
+    articleDiv.innerHTML = `
+      <div class="article-title">
+        <a href="${article.url || '#'}" target="_blank">
+          ${article.title || 'Untitled Article'}
+        </a>
+      </div>
+      <div class="article-summary">${article.summary || 'No summary available'}</div>
+    `;
+  }
   
   return articleDiv;
 }
