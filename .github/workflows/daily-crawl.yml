@@ -81,10 +81,10 @@ jobs:
           echo "Crawl completed"
           
       - name: Process with AI categorization
-        # env:
-          # PROCESSING_LIMIT: 20  # Process only 20 articles for faster builds
+        env:
+          PROCESSING_LIMIT: 200  # Process only 200 articles to avoid GitHub timeout
         run: |
-          echo "🧠 Processing articles with AI (no limits - full processing)..."
+          echo "🧠 Processing articles with AI (limited to 200 articles)..."
           node scripts/process-clean.js
           echo "AI processing completed"
           

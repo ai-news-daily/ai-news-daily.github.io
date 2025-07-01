@@ -79,6 +79,67 @@
   background: rgba(255, 255, 255, 0.95);
 }
 
+/* Fix light theme filter button text visibility */
+[data-theme="light"] .filter-btn {
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+}
+
+[data-theme="light"] .filter-btn:hover {
+  background: rgba(0, 0, 0, 0.15) !important;
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: 700 !important;
+}
+
+[data-theme="light"] .filter-btn.active {
+  background: var(--gradient-primary) !important;
+  color: white !important;
+  border-color: var(--primary) !important;
+  font-weight: 700 !important;
+}
+
+/* Override any btn-outline-light styling in light theme */
+[data-theme="light"] .btn-outline-light {
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .btn-outline-light:hover {
+  background: rgba(0, 0, 0, 0.15) !important;
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: 700 !important;
+}
+
+/* Fix light theme card text visibility */
+[data-theme="light"] .card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .card-header {
+  background: rgba(0, 0, 0, 0.08) !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .card-header h6 {
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+[data-theme="light"] .text-light {
+  color: #000000 !important;
+}
+
 [data-theme="light"] .mobile-filter-toggle {
   background: var(--gradient-primary);
 }
@@ -224,6 +285,17 @@ body::before {
   border: none !important;
   color: var(--text-primary) !important;
   padding: 0.75rem 0 !important;
+}
+
+/* Fix light theme accordion buttons */
+[data-theme="light"] .accordion-button {
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .accordion-button:not(.collapsed) {
+  color: #000000 !important;
+  font-weight: 700 !important;
 }
 
 .accordion-button:not(.collapsed) {
