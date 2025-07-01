@@ -6,6 +6,10 @@ on:
   workflow_dispatch:  # Manual trigger for testing
   push:
     branches: [main]  # Also run on pushes to main for testing
+    paths-ignore:
+      - 'data/**/*.json'
+      - 'site/data/**/*.json'
+      - 'site/data.json'
 
 jobs:
   crawl-and-build:
