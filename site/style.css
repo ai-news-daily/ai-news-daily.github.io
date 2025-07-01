@@ -677,6 +677,10 @@ body::before {
   backdrop-filter: blur(10px);
   position: relative;
   overflow: hidden;
+  min-width: 80px;
+  max-width: 180px;
+  text-align: center;
+  text-overflow: ellipsis;
 }
 
 .filter-btn::before {
@@ -1315,6 +1319,10 @@ body::before {
   cursor: pointer;
   transition: all 0.2s ease;
   white-space: nowrap;
+  min-width: 70px;
+  max-width: 160px;
+  text-align: center;
+  text-overflow: ellipsis;
 }
 
 .filter-buttons-mobile .filter-btn:hover {
@@ -1424,6 +1432,8 @@ body::before {
     padding: 0.5rem 0.875rem;
     font-size: 0.8125rem;
     border-radius: 12px;
+    min-width: 70px;
+    max-width: 160px;
   }
 
   /* Beautiful collapsed mobile filters */

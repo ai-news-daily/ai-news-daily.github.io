@@ -127,21 +127,12 @@ function updatePageMetadata(selectedDate) {
   const articleCount = allArticles.length;
   const sourceCount = [...new Set(allArticles.map(a => a.source))].length;
   
-  // Format date for display
+  // Format date for display (use yyyy-mm-dd format)
   let dateText = '';
   let shortDateText = '';
   if (selectedDate) {
-    const date = new Date(selectedDate);
-    dateText = date.toLocaleDateString('en-US', { 
-      weekday: 'short', 
-      year: 'numeric', 
-      month: 'short', 
-      day: 'numeric' 
-    });
-    shortDateText = date.toLocaleDateString('en-US', { 
-      month: 'short', 
-      day: 'numeric' 
-    });
+    dateText = selectedDate; // Keep yyyy-mm-dd format
+    shortDateText = selectedDate; // Keep yyyy-mm-dd format
   }
   
   // Update meta description
@@ -159,7 +150,7 @@ function updatePageMetadata(selectedDate) {
   document.title = title;
   
   // Update logo subtitle
-  const logoSubtitle = document.querySelector('.logo-subtitle');
+  const logoSubtitle = document.querySelector('.brand-subtitle');
   if (logoSubtitle) {
     const subtitle = `Curated AI news from ${sourceCount}+ sources • ${isLatest ? 'Updated today' : `Updated ${shortDateText}`}`;
     logoSubtitle.textContent = subtitle;
@@ -393,26 +384,33 @@ function applyFilters() {
   
 
   
-  // Sort articles: Green tick first, then Reddit last
+  // Sort articles: Latest to oldest first, then by confidence
   filteredArticles.sort((a, b) => {
-    // 1. Prioritize high confidence (green tick) articles
+    // 1. Primary sort by recency (newest first)
+    const aTime = new Date(a.pubDate || a.published_at).getTime();
+    const bTime = new Date(b.pubDate || b.published_at).getTime();
+    
+    // If times are different, sort by time (newest first)
+    if (aTime !== bTime) {
+      return bTime - aTime;
+    }
+    
+    // 2. If published at same time, prioritize high confidence articles
     const aHighConfidence = (a.confidence || 0) > 0.8;
     const bHighConfidence = (b.confidence || 0) > 0.8;
     
     if (aHighConfidence && !bHighConfidence) return -1;
     if (!aHighConfidence && bHighConfidence) return 1;
     
-    // 2. Deprioritize Reddit (move to bottom)
+    // 3. If same confidence, deprioritize Reddit
     const aIsReddit = a.source_category === 'reddit';
     const bIsReddit = b.source_category === 'reddit';
     
     if (!aIsReddit && bIsReddit) return -1;
     if (aIsReddit && !bIsReddit) return 1;
     
-    // 3. Secondary sort by recency (newest first)
-    const aTime = new Date(a.pubDate || a.published_at).getTime();
-    const bTime = new Date(b.pubDate || b.published_at).getTime();
-    return bTime - aTime;
+    // 4. If all else equal, sort by title for consistency
+    return (a.title || '').localeCompare(b.title || '');
   });
   
   // Reset pagination

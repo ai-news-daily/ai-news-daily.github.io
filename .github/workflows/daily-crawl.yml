@@ -82,7 +82,7 @@ jobs:
           
       - name: Process with AI categorization
         env:
-          PROCESSING_LIMIT: 200  # Process only 200 articles to avoid GitHub timeout
+          PROCESSING_LIMIT: 250  # Process only 200 articles to avoid GitHub timeout
         run: |
           echo "🧠 Processing articles with AI (limited to 200 articles)..."
           node scripts/process-clean.js

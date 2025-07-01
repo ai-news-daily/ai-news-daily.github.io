@@ -228,7 +228,7 @@ async function buildSite(selectedDate = null) {
         <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
           <option value="">Latest</option>
           ${availableDates.map(date => 
-            `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</option>`
+            `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${date}</option>`
           ).join('')}
         </select>
         
@@ -265,7 +265,7 @@ async function buildSite(selectedDate = null) {
               <select id="dateSelectMobile" class="form-select form-select-sm" style="max-width: 150px;">
                 <option value="">Latest</option>
                 ${availableDates.map(date => 
-                  `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</option>`
+                  `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${date}</option>`
                 ).join('')}
               </select>
               
