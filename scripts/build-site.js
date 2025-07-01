@@ -67,95 +67,6 @@ function generateArticleHTML(article) {
   `;
 }
 
-// Generate complete HTML page
-function generateHTML(data) {
-  const { articles, crawledAt, totalArticles } = data;
-  
-  // Get unique categories for filters
-  const categories = [...new Set(articles.map(a => a.source_category))].sort();
-  
-  const categoryFilters = categories.map(cat => 
-    `<button class="filter-btn" data-category="${cat}">
-      ${cat} 
-     </button>`
-  ).join('');
-
-  const articlesHTML = articles.map(generateArticleHTML).join('');
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI News Daily - Latest AI News from 50+ Sources</title>
-  <meta name="description" content="Latest AI news and updates from ${totalArticles} articles. Updated ${new Date(crawledAt).toLocaleDateString()}.">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
-  <meta property="og:description" content="Curated AI news from 50+ sources">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ai-news-daily.github.io">
-  
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
-  
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">
-        🤖 AI News Daily
-      </h1>
-      <p class="tagline">
-        Latest AI news from 50+ sources • ${totalArticles} articles • Updated ${timeAgo(crawledAt)}
-      </p>
-    </div>
-  </header>
-
-  <main class="main">
-    <div class="container">
-      <!-- Filters -->
-      <div class="filters">
-        <div class="filter-group">
-          <h3>Categories</h3>
-          <button class="filter-btn active" data-category="all">All (${totalArticles})</button>
-          ${categoryFilters}
-        </div>
-      </div>
-
-      <!-- Search -->
-      <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="Search articles..." />
-        <button id="clearSearch">Clear</button>
-      </div>
-
-      <!-- Articles -->
-      <div class="articles-grid" id="articlesGrid">
-        ${articlesHTML}
-      </div>
-
-      <!-- Load More -->
-      <div class="load-more-container">
-        <button id="loadMoreBtn" class="load-more-btn">Load More Articles</button>
-        <p class="show-count">Showing <span id="showCount">${Math.min(20, articles.length)}</span> of <span id="totalCount">${articles.length}</span> articles</p>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 AI News Daily. Built with ❤️ and AI. <a href="https://github.com/ai-news-daily/ai-news-daily.github.io" target="_blank">Open Source</a></p>
-      <p class="disclaimer">We aggregate links from public RSS feeds. All content belongs to original publishers.</p>
-    </div>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-</html>`;
-}
-
 // Get available dates from data directory
 async function getAvailableDates() {
   const dataDir = path.join(__dirname, '../data');
@@ -252,158 +163,275 @@ async function buildSite(selectedDate = null) {
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
   <meta property="og:description" content="AI news aggregator from ${Object.keys(sourceStats).length}+ sources including Reddit, arXiv, tech blogs, and YouTube">
   <meta property="og:type" content="website">
-      <meta property="og:url" content="https://ai-news-daily.github.io">
+  <meta property="og:url" content="https://ai-news-daily.github.io">
   
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
   
-  <!-- Styles -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="header-content">
-      <div class="logo-section">
-        <div class="logo">
-          <div class="logo-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Background with modern gradient -->
-              <rect width="32" height="32" rx="10" fill="url(#modernGradient)"/>
-              
-              <!-- Neural network nodes -->
-              <circle cx="8" cy="10" r="2" fill="#00D9FF" opacity="0.9"/>
-              <circle cx="16" cy="8" r="1.5" fill="#FFB800" opacity="0.8"/>
-              <circle cx="24" cy="11" r="1.5" fill="#00FFB8" opacity="0.8"/>
-              <circle cx="12" cy="18" r="1.5" fill="#FF6B9D" opacity="0.8"/>
-              <circle cx="20" cy="20" r="2" fill="#00D9FF" opacity="0.9"/>
-              <circle cx="24" cy="24" r="1.5" fill="#FFB800" opacity="0.8"/>
-              
-              <!-- Neural connections -->
-              <path d="M8 10L16 8M16 8L24 11M8 10L12 18M16 8L20 20M24 11L20 20M12 18L20 20M20 20L24 24" 
-                    stroke="rgba(255,255,255,0.4)" stroke-width="1" opacity="0.7"/>
-              
-              <!-- RSS/News waves -->
-              <path d="M6 24c0-4 2-8 6-8s6 4 6 8" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
-              <path d="M6 26c0-2 1-4 3-4s3 2 3 4" stroke="white" stroke-width="1.5" fill="none" opacity="0.8"/>
-              <circle cx="6" cy="26" r="1" fill="white" opacity="0.9"/>
-              
-              <defs>
-                <linearGradient id="modernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-          <div class="logo-text">
-            <div class="logo-title">AI News Daily</div>
-            <div class="logo-subtitle">Curated AI news from ${Object.keys(sourceStats).length}+ sources • Updated ${new Date(crawledAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</div>
-          </div>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <div class="logo-icon me-2">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background with modern gradient -->
+            <rect width="32" height="32" rx="10" fill="url(#modernGradient)"/>
+            
+            <!-- Neural network nodes -->
+            <circle cx="8" cy="10" r="2" fill="#00D9FF" opacity="0.9"/>
+            <circle cx="16" cy="8" r="1.5" fill="#FFB800" opacity="0.8"/>
+            <circle cx="24" cy="11" r="1.5" fill="#00FFB8" opacity="0.8"/>
+            <circle cx="12" cy="18" r="1.5" fill="#FF6B9D" opacity="0.8"/>
+            <circle cx="20" cy="20" r="2" fill="#00D9FF" opacity="0.9"/>
+            <circle cx="24" cy="24" r="1.5" fill="#FFB800" opacity="0.8"/>
+            
+            <!-- Neural connections -->
+            <path d="M8 10L16 8M16 8L24 11M8 10L12 18M16 8L20 20M24 11L20 20M12 18L20 20M20 20L24 24" 
+                  stroke="rgba(255,255,255,0.4)" stroke-width="1" opacity="0.7"/>
+            
+            <!-- RSS/News waves -->
+            <path d="M6 24c0-4 2-8 6-8s6 4 6 8" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+            <path d="M6 26c0-2 1-4 3-4s3 2 3 4" stroke="white" stroke-width="1.5" fill="none" opacity="0.8"/>
+            <circle cx="6" cy="26" r="1" fill="white" opacity="0.9"/>
+            
+            <defs>
+              <linearGradient id="modernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg>
         </div>
-      </div>
-      
-      <div class="search-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search articles, sources, or topics...">
-        <button id="clearSearch" class="clear-search">Clear</button>
-      </div>
-      
-      <div class="header-controls">
-        <div class="date-selector">
-          <select id="dateSelect" class="date-select" title="Select date to view articles">
-            <option value="">Latest</option>
-            ${availableDates.map(date => 
-              `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>
-                ${new Date(date).toLocaleDateString('en-US', { 
-                  weekday: 'short', 
-                  month: 'short', 
-                  day: 'numeric' 
-                })}
-              </option>`
-            ).join('')}
-          </select>
+        <div class="brand-text">
+          <div class="brand-title">AI News Daily</div>
+          <div class="brand-subtitle d-none d-sm-block">Curated AI news from ${Object.keys(sourceStats).length}+ sources • Updated ${new Date(crawledAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</div>
+        </div>
+      </a>
+
+            <!-- Desktop Controls (visible on lg+) -->
+      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end">
+        <!-- Search -->
+        <div class="input-group" style="max-width: 300px;">
+          <input type="text" id="searchInput" class="form-control" placeholder="Search articles...">
+          <button id="clearSearch" class="btn btn-outline-secondary">Clear</button>
         </div>
         
-        <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode">
+        <!-- Date Selector -->
+        <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
+          <option value="">Latest</option>
+          ${availableDates.map(date => 
+            `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</option>`
+          ).join('')}
+        </select>
+        
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="btn btn-outline-light" title="Toggle theme">
           <span class="theme-icon">🌙</span>
         </button>
         
-        <div class="stats">
+        <!-- Stats -->
+        <div class="text-light small">
           <span id="showCount">${articles.length}</span> of <span id="totalCount">${articles.length}</span> articles
         </div>
       </div>
-    </div>
-  </header>
 
-  <!-- Page Layout Container -->
-  <div class="page-layout">
-    <!-- Filters -->
-    <div class="filters">
-      <div class="filters-content">
-        <!-- Category Filters -->
-        <div class="filter-group">
-          <button class="filter-header" data-target="categories">
-            <label class="filter-label">Categories</label>
-            <span class="filter-toggle">▼</span>
-          </button>
-          <div class="filter-buttons" id="categories">
-            <button class="filter-btn active" data-category="all">All (${articles.length})</button>
-            ${Object.entries(categoryStats)
-              .sort(([,a], [,b]) => b - a)
-              .map(([category, count]) => 
-                `<button class="filter-btn" data-category="${category}">${category.replace('-', ' ')} (${count})</button>`
-              ).join('')}
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <!-- Mobile Search -->
+          <div class="nav-item p-2 d-lg-none">
+            <div class="input-group">
+              <input type="text" id="searchInputMobile" class="form-control" placeholder="Search articles...">
+              <button id="clearSearchMobile" class="btn btn-outline-secondary">Clear</button>
+            </div>
           </div>
-        </div>
-        
-        <!-- Source Type Filters -->
-        <div class="filter-group">
-          <button class="filter-header" data-target="source-types">
-            <label class="filter-label">Source Types</label>
-            <span class="filter-toggle">▼</span>
-          </button>
-          <div class="filter-buttons" id="source-types">
-            <button class="filter-btn active" data-source="all">All Sources</button>
-            ${Object.entries(sourceStats)
-              .sort(([,a], [,b]) => b - a)
-              .slice(0, 8)
-              .map(([source, count]) => 
-                `<button class="filter-btn" data-source="${source}">${source} (${count})</button>`
-              ).join('')}
+
+          <!-- Mobile Controls -->
+          <div class="nav-item p-2 d-lg-none">
+            <div class="d-flex gap-2 align-items-center flex-wrap">
+              <select id="dateSelectMobile" class="form-select form-select-sm" style="max-width: 150px;">
+                <option value="">Latest</option>
+                ${availableDates.map(date => 
+                  `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</option>`
+                ).join('')}
+              </select>
+              
+              <button id="themeToggleMobile" class="btn btn-outline-light btn-sm">
+                <span class="theme-icon">🌙</span>
+              </button>
+              
+              <div class="text-light small">
+                <span id="showCountMobile">${articles.length}</span> of <span id="totalCountMobile">${articles.length}</span>
+              </div>
+            </div>
           </div>
-        </div>
-        
-        <!-- Difficulty Filters -->
-        <div class="filter-group">
-          <button class="filter-header" data-target="difficulty-level">
-            <label class="filter-label">Difficulty Level</label>
-            <span class="filter-toggle">▼</span>
-          </button>
-          <div class="filter-buttons" id="difficulty-level">
-            <button class="filter-btn active" data-difficulty="all">All Levels</button>
-            <button class="filter-btn" data-difficulty="easy">Easy (${difficultyStats.easy})</button>
-            <button class="filter-btn" data-difficulty="medium">Medium (${difficultyStats.medium})</button>
-            <button class="filter-btn" data-difficulty="hard">Hard (${difficultyStats.hard})</button>
+          
+          <!-- Mobile Filters -->
+          <div class="nav-item p-2 d-lg-none">
+            <div class="accordion accordion-flush" id="mobileFiltersAccordion">
+              <!-- Categories -->
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-transparent text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#categoriesCollapse">
+                    Categories
+                  </button>
+                </h2>
+                <div id="categoriesCollapse" class="accordion-collapse collapse" data-bs-parent="#mobileFiltersAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex flex-wrap gap-1">
+                      <button class="btn btn-sm btn-primary filter-btn active" data-category="all">All (${articles.length})</button>
+                      ${Object.entries(categoryStats)
+                        .sort(([,a], [,b]) => b - a)
+                        .map(([category, count]) => 
+                          `<button class="btn btn-sm btn-outline-light filter-btn" data-category="${category}">${category.replace(/([A-Z])/g, ' $1').trim().replace(/^./, str => str.toUpperCase())} (${count})</button>`
+                        ).join('')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Sources -->
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-transparent text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sourcesCollapse">
+                    Sources
+                  </button>
+                </h2>
+                <div id="sourcesCollapse" class="accordion-collapse collapse" data-bs-parent="#mobileFiltersAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex flex-wrap gap-1">
+                      <button class="btn btn-sm btn-primary filter-btn active" data-source="all">All Sources</button>
+                      ${Object.entries(sourceStats)
+                        .sort(([,a], [,b]) => b - a)
+                        .map(([source, count]) => 
+                          `<button class="btn btn-sm btn-outline-light filter-btn" data-source="${source}">${source.charAt(0).toUpperCase() + source.slice(1)} (${count})</button>`
+                        ).join('')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+               
+              <!-- Difficulty Level -->
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-transparent text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#difficultyCollapse">
+                    Difficulty Level
+                  </button>
+                </h2>
+                <div id="difficultyCollapse" class="accordion-collapse collapse" data-bs-parent="#mobileFiltersAccordion">
+                  <div class="accordion-body">
+                    <div class="d-flex flex-wrap gap-1">
+                      <button class="btn btn-sm btn-primary filter-btn active" data-difficulty="all">All Levels</button>
+                      <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="easy">Easy (${articles.filter(a => a.difficulty <= 3).length})</button>
+                      <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="medium">Medium (${articles.filter(a => a.difficulty > 3 && a.difficulty <= 7).length})</button>
+                      <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="hard">Hard (${articles.filter(a => a.difficulty > 7).length})</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </nav>
 
-    <!-- Main Content -->
-    <main class="main">
-      <div class="main-content">
-        <!-- Articles Grid -->
-        <div class="articles-grid" id="articlesGrid">
-          ${articles.map(article => generateArticleHTML(article)).join('')}
+  <!-- Main Content with Bootstrap Layout -->
+  <div class="container-fluid main-container">
+    <div class="row">
+      <!-- Desktop Sidebar Filters -->
+      <div class="col-lg-3 d-none d-lg-block sidebar-filters">
+        <div class="filters-content">
+          <!-- Categories Card -->
+          <div class="card bg-dark border-secondary mb-3">
+            <div class="card-header">
+              <h6 class="mb-0 text-light">Categories</h6>
+            </div>
+            <div class="card-body">
+              <div class="d-flex flex-wrap gap-1">
+                <button class="btn btn-sm btn-primary filter-btn active" data-category="all">All (${articles.length})</button>
+                ${Object.entries(categoryStats)
+                  .sort(([,a], [,b]) => b - a)
+                  .map(([category, count]) => 
+                    `<button class="btn btn-sm btn-outline-light filter-btn" data-category="${category}">${category.replace(/([A-Z])/g, ' $1').trim().replace(/^./, str => str.toUpperCase())} (${count})</button>`
+                  ).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Sources Card -->
+          <div class="card bg-dark border-secondary mb-3">
+            <div class="card-header">
+              <h6 class="mb-0 text-light">Sources</h6>
+            </div>
+            <div class="card-body">
+              <div class="d-flex flex-wrap gap-1">
+                <button class="btn btn-sm btn-primary filter-btn active" data-source="all">All Sources</button>
+                ${Object.entries(sourceStats)
+                  .sort(([,a], [,b]) => b - a)
+                  .map(([source, count]) => 
+                    `<button class="btn btn-sm btn-outline-light filter-btn" data-source="${source}">${source.charAt(0).toUpperCase() + source.slice(1)} (${count})</button>`
+                  ).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Difficulty Card -->
+          <div class="card bg-dark border-secondary mb-3">
+            <div class="card-header">
+              <h6 class="mb-0 text-light">Difficulty Level</h6>
+            </div>
+            <div class="card-body">
+              <div class="d-flex flex-wrap gap-1">
+                <button class="btn btn-sm btn-primary filter-btn active" data-difficulty="all">All Levels</button>
+                <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="easy">Easy (${articles.filter(a => a.difficulty <= 3).length})</button>
+                <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="medium">Medium (${articles.filter(a => a.difficulty > 3 && a.difficulty <= 7).length})</button>
+                <button class="btn btn-sm btn-outline-light filter-btn" data-difficulty="hard">Hard (${articles.filter(a => a.difficulty > 7).length})</button>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <!-- Load More Button -->
-        <button id="loadMoreBtn" class="load-more">Load More Articles</button>
       </div>
-    </main>
+
+      <!-- Main Content -->
+      <div class="col-lg-9">
+        <main class="main-content">
+          <!-- Articles Grid -->
+          <div class="articles-grid" id="articlesGrid">
+            ${articles.map(article => generateArticleHTML(article)).join('')}
+          </div>
+          
+          <!-- Load More Button -->
+          <button id="loadMoreBtn" class="btn btn-primary btn-lg d-block mx-auto mt-4">Load More Articles</button>
+        </main>
+      </div>
+    </div>
   </div>
+       
+   <!-- Footer -->
+   <footer class="site-footer">
+     <div class="container">
+       <p class="mb-0 text-center">© 2025 AI News Daily • Automated Intelligence</p>
+     </div>
+   </footer>
 
-  <!-- Scripts -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <!-- Custom Scripts -->
   <script src="app.js"></script>
 </body>
 </html>`;

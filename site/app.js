@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     console.log('🔍 DEBUG: Initial filter state =', filters);
     
+    // Initialize filter button states to match JavaScript state
+    initializeFilterStates();
+    
     updateFilterCounts();
     console.log('🔍 DEBUG: After updateFilterCounts');
     
@@ -95,17 +98,13 @@ async function handleDateChange(event) {
     filters.search = '';
     if (searchInput) searchInput.value = '';
     
-    // Reset filter buttons to "all"
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.classList.remove('active');
-      if (btn.dataset.category === 'all' || btn.dataset.source === 'all' || btn.dataset.difficulty === 'all') {
-        btn.classList.add('active');
-      }
-    });
-    
+    // Reset filters to "all"
     filters.category = 'all';
     filters.source = 'all';
     filters.difficulty = 'all';
+    
+    // Initialize filter button states
+    initializeFilterStates();
     
     // Update page metadata for selected date
     updatePageMetadata(selectedDate);
@@ -167,14 +166,41 @@ function updatePageMetadata(selectedDate) {
   }
 }
 
+// Initialize filter button states to match current filter state
+function initializeFilterStates() {
+  // Set category buttons
+  document.querySelectorAll('[data-category]').forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.dataset.category === filters.category) {
+      btn.classList.add('active');
+    }
+  });
+  
+  // Set source buttons
+  document.querySelectorAll('[data-source]').forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.dataset.source === filters.source) {
+      btn.classList.add('active');
+    }
+  });
+  
+  // Set difficulty buttons
+  document.querySelectorAll('[data-difficulty]').forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.dataset.difficulty === filters.difficulty) {
+      btn.classList.add('active');
+    }
+  });
+}
+
 // Setup event listeners
 function setupEventListeners() {
-  // Filter buttons
+  // Filter buttons (both desktop and mobile)
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', handleFilterClick);
   });
   
-  // Filter section toggles
+  // Filter section toggles (both desktop and mobile)
   document.querySelectorAll('.filter-header').forEach(header => {
     header.addEventListener('click', handleFilterToggle);
   });
@@ -197,8 +223,8 @@ function setupEventListeners() {
   // Keyboard shortcuts
   document.addEventListener('keydown', handleKeyboard);
   
-  // Initialize mobile filter state
-  initializeMobileFilters();
+  // Initialize mobile menu
+  initializeMobileMenu();
 }
 
 // Handle filter button clicks
@@ -208,13 +234,17 @@ function handleFilterClick(event) {
                     btn.dataset.source ? 'source' : 'difficulty';
   const filterValue = btn.dataset.category || btn.dataset.source || btn.dataset.difficulty;
   
-  // Remove active class from siblings
-  btn.parentElement.querySelectorAll('.filter-btn').forEach(b => {
+  // Remove active class from ALL buttons of the same filter type (desktop and mobile)
+  const allFilterButtons = document.querySelectorAll(`[data-${filterType}]`);
+  allFilterButtons.forEach(b => {
     b.classList.remove('active');
   });
   
-  // Add active class to clicked button
-  btn.classList.add('active');
+  // Add active class to ALL buttons with the same filter value (desktop and mobile)
+  const matchingButtons = document.querySelectorAll(`[data-${filterType}="${filterValue}"]`);
+  matchingButtons.forEach(b => {
+    b.classList.add('active');
+  });
   
   // Update filter state
   filters[filterType] = filterValue;
@@ -243,34 +273,68 @@ function handleFilterToggle(event) {
   }
 }
 
-// Initialize mobile filter state (collapsed by default on mobile)
-function initializeMobileFilters() {
-  const isMobile = window.innerWidth <= 768;
+// Initialize Bootstrap navbar and mobile functionality
+function initializeMobileMenu() {
+  // Sync mobile controls with desktop controls
+  syncMobileControls();
   
-  if (isMobile) {
-    // Collapse all filter groups on mobile
-    document.querySelectorAll('.filter-group').forEach(group => {
-      group.classList.remove('expanded');
-      const toggle = group.querySelector('.filter-toggle');
-      if (toggle) {
-        toggle.textContent = '▶';
-      }
+  // Bootstrap handles the navbar toggle automatically
+  // No need for custom mobile menu logic
+}
+
+// Sync mobile controls with desktop controls
+function syncMobileControls() {
+  const searchInput = document.getElementById('searchInput');
+  const searchInputMobile = document.getElementById('searchInputMobile');
+  const clearSearch = document.getElementById('clearSearch');
+  const clearSearchMobile = document.getElementById('clearSearchMobile');
+  const dateSelect = document.getElementById('dateSelect');
+  const dateSelectMobile = document.getElementById('dateSelectMobile');
+  const themeToggle = document.getElementById('themeToggle');
+  const themeToggleMobile = document.getElementById('themeToggleMobile');
+  
+  // Sync search inputs
+  if (searchInput && searchInputMobile) {
+    searchInput.addEventListener('input', (e) => {
+      searchInputMobile.value = e.target.value;
     });
-  } else {
-    // Expand all filter groups on desktop
-    document.querySelectorAll('.filter-group').forEach(group => {
-      group.classList.add('expanded');
-      const toggle = group.querySelector('.filter-toggle');
-      if (toggle) {
-        toggle.textContent = '▼';
-      }
+    searchInputMobile.addEventListener('input', (e) => {
+      searchInput.value = e.target.value;
+      handleSearch(e);
+    });
+  }
+  
+  // Sync clear buttons
+  if (clearSearch && clearSearchMobile) {
+    clearSearchMobile.addEventListener('click', () => {
+      searchInput.value = '';
+      searchInputMobile.value = '';
+      clearSearch();
+    });
+  }
+  
+  // Sync date selectors
+  if (dateSelect && dateSelectMobile) {
+    dateSelect.addEventListener('change', (e) => {
+      dateSelectMobile.value = e.target.value;
+    });
+    dateSelectMobile.addEventListener('change', (e) => {
+      dateSelect.value = e.target.value;
+      handleDateChange(e);
+    });
+  }
+  
+  // Sync theme toggles
+  if (themeToggle && themeToggleMobile) {
+    themeToggleMobile.addEventListener('click', () => {
+      toggleTheme();
     });
   }
 }
 
 // Handle window resize to reinitialize mobile state
 window.addEventListener('resize', debounce(() => {
-  initializeMobileFilters();
+  initializeMobileMenu();
 }, 250));
 
 // Handle search input
@@ -555,9 +619,15 @@ function updateDisplay() {
     articlesGrid.appendChild(articleElement);
   });
   
-  // Update counters
+  // Update counters (both desktop and mobile)
   showCount.textContent = articlesToShow.length;
   totalCount.textContent = filteredArticles.length;
+  
+  // Update mobile counts too
+  const showCountMobile = document.getElementById('showCountMobile');
+  const totalCountMobile = document.getElementById('totalCountMobile');
+  if (showCountMobile) showCountMobile.textContent = articlesToShow.length;
+  if (totalCountMobile) totalCountMobile.textContent = filteredArticles.length;
   
   // Update load more button
   const hasMore = articlesToShow.length < filteredArticles.length;
@@ -660,6 +730,13 @@ function showEmptyState() {
   
   showCount.textContent = '0';
   totalCount.textContent = allArticles.length;
+  
+  // Update mobile counts too
+  const showCountMobile = document.getElementById('showCountMobile');
+  const totalCountMobile = document.getElementById('totalCountMobile');
+  if (showCountMobile) showCountMobile.textContent = '0';
+  if (totalCountMobile) totalCountMobile.textContent = allArticles.length;
+  
   loadMoreBtn.style.display = 'none';
 }
 

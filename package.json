@@ -8,7 +8,7 @@
     "crawl": "node scripts/crawl.js",
     "categorize": "node scripts/process-clean.js",
     "build": "node scripts/build-site.js",
-    "dev": ".venv/bin/python -m http.server 8000 --directory site",
+    "dev": ".venv/bin/python -m http.server 8000 --directory site --bind 0.0.0.0",
     "test": "node scripts/crawl.js && node scripts/process-clean.js && node scripts/build-site.js"
   },
   "keywords": ["ai", "news", "aggregator", "rss", "static-site"],
