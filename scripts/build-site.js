@@ -215,7 +215,7 @@ async function buildSite(selectedDate = null) {
         </div>
         <div class="brand-text">
           <div class="brand-title">AI News Daily</div>
-          <div class="brand-subtitle d-none d-sm-block">Curated AI news from ${Object.keys(sourceStats).length}+ sources • Updated ${new Date(crawledAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</div>
+          <div class="brand-subtitle d-none d-sm-block">Your daily source for cutting-edge AI breakthroughs • ${articles.length}+ stories curated</div>
         </div>
       </a>
 

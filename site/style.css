@@ -188,23 +188,73 @@ body::before {
 
 .navbar-brand {
   text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover .brand-title {
+  animation-duration: 3s;
+  filter: drop-shadow(0 0 25px rgba(0, 217, 255, 0.6));
+}
+
+.navbar-brand:hover .brand-subtitle {
+  animation-duration: 4s;
+  opacity: 1;
 }
 
 .brand-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  background: var(--gradient-primary);
+  font-size: 1.85rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #00D9FF 0%, #FFB800 25%, #00FFB8 50%, #FF6B9D 75%, #00D9FF 100%);
+  background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin: 0;
+  letter-spacing: -0.8px;
+  filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.4));
+  animation: gradientShift 10s ease-in-out infinite;
+  position: relative;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', system-ui, sans-serif;
+}
+
+@keyframes gradientShift {
+  0%, 100% { 
+    background-position: 0% 50%; 
+    filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.4));
+  }
+  25% { 
+    background-position: 25% 50%; 
+    filter: drop-shadow(0 0 25px rgba(255, 184, 0, 0.5));
+  }
+  50% { 
+    background-position: 100% 50%; 
+    filter: drop-shadow(0 0 30px rgba(0, 255, 184, 0.6));
+  }
+  75% { 
+    background-position: 75% 50%; 
+    filter: drop-shadow(0 0 25px rgba(255, 107, 157, 0.5));
+  }
 }
 
 .brand-subtitle {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #94a3b8, #00D9FF, #FFB800, #94a3b8);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin: 0;
+  margin-top: 2px;
+  letter-spacing: 0.3px;
+  animation: subtitleGlow 8s ease-in-out infinite;
+  opacity: 0.95;
+}
+
+@keyframes subtitleGlow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 .navbar-toggler {

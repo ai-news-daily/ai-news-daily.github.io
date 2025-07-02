@@ -152,7 +152,7 @@ function updatePageMetadata(selectedDate) {
   // Update logo subtitle
   const logoSubtitle = document.querySelector('.brand-subtitle');
   if (logoSubtitle) {
-    const subtitle = `Curated AI news from ${sourceCount}+ sources • ${isLatest ? 'Updated today' : `Updated ${shortDateText}`}`;
+    const subtitle = `Your daily source for cutting-edge AI breakthroughs • ${articleCount}+ stories curated`;
     logoSubtitle.textContent = subtitle;
   }
 }
