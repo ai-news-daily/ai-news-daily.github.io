@@ -233,7 +233,7 @@ async function buildSite(selectedDate = null) {
       </a>
 
             <!-- Desktop Controls (visible on lg+) -->
-      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end">
+      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end" style="margin-right: 2rem;">
         <!-- Search -->
         <div class="input-group" style="max-width: 300px;">
           <input type="text" id="searchInput" class="form-control" placeholder="Search articles...">
@@ -277,20 +277,24 @@ async function buildSite(selectedDate = null) {
 
           <!-- Mobile Controls -->
           <div class="nav-item p-2 d-lg-none">
-            <div class="d-flex gap-2 align-items-center flex-wrap">
-              <select id="dateSelectMobile" class="form-select form-select-sm" style="max-width: 150px;">
+            <!-- Row 1: Date and Theme Controls -->
+            <div class="d-flex gap-2 align-items-center justify-content-between mb-2">
+              <select id="dateSelectMobile" class="form-select form-select-sm mobile-control-input">
                 <option value="">Latest</option>
                 ${availableDates.map(date => 
                   `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${date}</option>`
                 ).join('')}
               </select>
               
-              <button id="themeToggleMobile" class="btn btn-outline-light btn-sm">
+              <button id="themeToggleMobile" class="btn btn-outline-light btn-sm mobile-control-btn">
                 <span class="theme-icon">🌙</span>
               </button>
-              
-              <div class="text-light small">
-                <span id="showCountMobile">${articles.length}</span> of <span id="totalCountMobile">${articles.length}</span>
+            </div>
+            
+            <!-- Row 2: Article Count Badge (Centered) -->
+            <div class="d-flex justify-content-center">
+              <div class="mobile-stats-badge">
+                <span id="showCountMobile">${articles.length}</span> of <span id="totalCountMobile">${articles.length}</span> articles
               </div>
             </div>
           </div>
@@ -440,7 +444,12 @@ async function buildSite(selectedDate = null) {
    <!-- Footer -->
    <footer class="site-footer">
      <div class="container">
-       <p class="mb-0 text-center">© 2025 AI News Daily • Automated Intelligence</p>
+       <p class="mb-0 text-center">
+         © 2025 AI News Daily • 
+         <a href="https://github.com/ai-news-daily/ai-news-daily" target="_blank" rel="noopener" class="footer-link">
+           ⭐ Star us on GitHub
+         </a>
+       </p>
      </div>
    </footer>
 

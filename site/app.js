@@ -365,34 +365,22 @@ function handleSearch(event) {
 
 // Clear search
 function clearSearch() {
-  console.log('🔍 clearSearch() called');
-  
   const searchInput = document.getElementById('searchInput');
   const searchInputMobile = document.getElementById('searchInputMobile');
   
   // Clear both desktop and mobile search inputs
   if (searchInput) {
     searchInput.value = '';
-    console.log('✅ Cleared desktop search input');
   }
   if (searchInputMobile) {
     searchInputMobile.value = '';
-    console.log('✅ Cleared mobile search input');
   }
   
   filters.search = '';
   currentPage = 0;
-  
-  console.log('🔍 Updating filter counts...');
   updateFilterCounts();
-  
-  console.log('🔍 Applying filters...');
   applyFilters();
-  
-  console.log('🔍 Updating display...');
   updateDisplay();
-  
-  console.log('✅ clearSearch() completed');
 }
 
 // Apply filters and search

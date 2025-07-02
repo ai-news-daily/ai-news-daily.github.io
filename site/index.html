@@ -67,7 +67,7 @@
       </a>
 
             <!-- Desktop Controls (visible on lg+) -->
-      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end">
+      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end" style="margin-right: 2rem;">
         <!-- Search -->
         <div class="input-group" style="max-width: 300px;">
           <input type="text" id="searchInput" class="form-control" placeholder="Search articles...">
@@ -109,18 +109,22 @@
 
           <!-- Mobile Controls -->
           <div class="nav-item p-2 d-lg-none">
-            <div class="d-flex gap-2 align-items-center flex-wrap">
-              <select id="dateSelectMobile" class="form-select form-select-sm" style="max-width: 150px;">
+            <!-- Row 1: Date and Theme Controls -->
+            <div class="d-flex gap-2 align-items-center justify-content-between mb-2">
+              <select id="dateSelectMobile" class="form-select form-select-sm mobile-control-input">
                 <option value="">Latest</option>
                 <option value="2025-07-02" >2025-07-02</option><option value="2025-07-01" >2025-07-01</option><option value="2025-06-30" >2025-06-30</option>
               </select>
               
-              <button id="themeToggleMobile" class="btn btn-outline-light btn-sm">
+              <button id="themeToggleMobile" class="btn btn-outline-light btn-sm mobile-control-btn">
                 <span class="theme-icon">🌙</span>
               </button>
-              
-              <div class="text-light small">
-                <span id="showCountMobile">706</span> of <span id="totalCountMobile">706</span>
+            </div>
+            
+            <!-- Row 2: Article Count Badge (Centered) -->
+            <div class="d-flex justify-content-center">
+              <div class="mobile-stats-badge">
+                <span id="showCountMobile">706</span> of <span id="totalCountMobile">706</span> articles
               </div>
             </div>
           </div>
@@ -276,7 +280,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">1h ago</time>
+        <time class="pub-time">2h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -408,7 +412,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">2h ago</time>
+        <time class="pub-time">3h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -432,7 +436,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">2h ago</time>
+        <time class="pub-time">3h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -576,7 +580,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
         <span class="source-name">r/deeplearning</span>
-        <time class="pub-time">3h ago</time>
+        <time class="pub-time">4h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -606,7 +610,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">3h ago</time>
+        <time class="pub-time">4h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -1932,7 +1936,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">4h ago</time>
+        <time class="pub-time">5h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -1956,7 +1960,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">4h ago</time>
+        <time class="pub-time">5h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2142,7 +2146,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">5h ago</time>
+        <time class="pub-time">6h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2172,7 +2176,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">5h ago</time>
+        <time class="pub-time">6h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2202,7 +2206,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">5h ago</time>
+        <time class="pub-time">6h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2316,7 +2320,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">6h ago</time>
+        <time class="pub-time">7h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2346,7 +2350,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">6h ago</time>
+        <time class="pub-time">7h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2370,7 +2374,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">6h ago</time>
+        <time class="pub-time">7h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2394,7 +2398,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">6h ago</time>
+        <time class="pub-time">7h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2502,7 +2506,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">7h ago</time>
+        <time class="pub-time">8h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2532,7 +2536,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=venturebeat.com" alt="VentureBeat" width="16" height="16">
         <span class="source-name">VentureBeat</span>
-        <time class="pub-time">7h ago</time>
+        <time class="pub-time">8h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2754,7 +2758,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">8h ago</time>
+        <time class="pub-time">9h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2778,7 +2782,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">8h ago</time>
+        <time class="pub-time">9h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2808,7 +2812,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LangChain" width="16" height="16">
         <span class="source-name">r/LangChain</span>
-        <time class="pub-time">8h ago</time>
+        <time class="pub-time">9h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2940,7 +2944,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">9h ago</time>
+        <time class="pub-time">10h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -2964,7 +2968,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">9h ago</time>
+        <time class="pub-time">10h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3258,7 +3262,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">10h ago</time>
+        <time class="pub-time">11h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3486,7 +3490,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">11h ago</time>
+        <time class="pub-time">12h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3510,7 +3514,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
         <span class="source-name">r/deeplearning</span>
-        <time class="pub-time">11h ago</time>
+        <time class="pub-time">12h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3540,7 +3544,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
         <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">11h ago</time>
+        <time class="pub-time">12h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3684,7 +3688,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
         <span class="source-name">Wired AI</span>
-        <time class="pub-time">12h ago</time>
+        <time class="pub-time">13h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -3714,7 +3718,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LangChain" width="16" height="16">
         <span class="source-name">r/LangChain</span>
-        <time class="pub-time">12h ago</time>
+        <time class="pub-time">13h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4056,7 +4060,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
         <span class="source-name">r/artificial</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4086,7 +4090,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4110,7 +4114,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4134,7 +4138,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4164,7 +4168,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MLOps" width="16" height="16">
         <span class="source-name">r/MLOps</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4194,7 +4198,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">13h ago</time>
+        <time class="pub-time">14h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4620,7 +4624,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=wired.com" alt="Wired AI" width="16" height="16">
         <span class="source-name">Wired AI</span>
-        <time class="pub-time">14h ago</time>
+        <time class="pub-time">15h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4890,7 +4894,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">15h ago</time>
+        <time class="pub-time">16h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4914,7 +4918,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">15h ago</time>
+        <time class="pub-time">16h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4944,7 +4948,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">15h ago</time>
+        <time class="pub-time">16h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -4974,7 +4978,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/OpenAI" width="16" height="16">
         <span class="source-name">r/OpenAI</span>
-        <time class="pub-time">15h ago</time>
+        <time class="pub-time">16h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5244,7 +5248,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/artificial" width="16" height="16">
         <span class="source-name">r/artificial</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5274,7 +5278,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5304,7 +5308,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5334,7 +5338,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5358,7 +5362,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5382,7 +5386,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=techcrunch.com" alt="TechCrunch AI" width="16" height="16">
         <span class="source-name">TechCrunch AI</span>
-        <time class="pub-time">16h ago</time>
+        <time class="pub-time">17h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5550,7 +5554,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/ChatGPT" width="16" height="16">
         <span class="source-name">r/ChatGPT</span>
-        <time class="pub-time">17h ago</time>
+        <time class="pub-time">18h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5580,7 +5584,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=generativeai.pub" alt="Generative AI" width="16" height="16">
         <span class="source-name">Generative AI</span>
-        <time class="pub-time">17h ago</time>
+        <time class="pub-time">18h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -5610,7 +5614,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/singularity" width="16" height="16">
         <span class="source-name">r/singularity</span>
-        <time class="pub-time">17h ago</time>
+        <time class="pub-time">18h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6138,7 +6142,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/LocalLLaMA" width="16" height="16">
         <span class="source-name">r/LocalLLaMA</span>
-        <time class="pub-time">19h ago</time>
+        <time class="pub-time">20h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6168,7 +6172,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=youtube.com" alt="Prompt Engineering" width="16" height="16">
         <span class="source-name">Prompt Engineering</span>
-        <time class="pub-time">19h ago</time>
+        <time class="pub-time">20h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6390,7 +6394,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">20h ago</time>
+        <time class="pub-time">21h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6420,7 +6424,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">20h ago</time>
+        <time class="pub-time">21h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6504,7 +6508,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">21h ago</time>
+        <time class="pub-time">22h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6528,7 +6532,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">21h ago</time>
+        <time class="pub-time">22h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6720,7 +6724,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/StableDiffusion" width="16" height="16">
         <span class="source-name">r/StableDiffusion</span>
-        <time class="pub-time">22h ago</time>
+        <time class="pub-time">23h ago</time>
       </div>
       
       <h3 class="article-title">
@@ -6852,7 +6856,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/deeplearning" width="16" height="16">
         <span class="source-name">r/deeplearning</span>
-        <time class="pub-time">23h ago</time>
+        <time class="pub-time">1d ago</time>
       </div>
       
       <h3 class="article-title">
@@ -15840,7 +15844,7 @@
       <div class="source-bar">
         <img src="https://www.google.com/s2/favicons?domain=reddit.com" alt="r/MachineLearning" width="16" height="16">
         <span class="source-name">r/MachineLearning</span>
-        <time class="pub-time">2d ago</time>
+        <time class="pub-time">3d ago</time>
       </div>
       
       <h3 class="article-title">
@@ -19844,7 +19848,12 @@
    <!-- Footer -->
    <footer class="site-footer">
      <div class="container">
-       <p class="mb-0 text-center">© 2025 AI News Daily • Automated Intelligence</p>
+       <p class="mb-0 text-center">
+         © 2025 AI News Daily • 
+         <a href="https://github.com/ai-news-daily/ai-news-daily" target="_blank" rel="noopener" class="footer-link">
+           ⭐ Star us on GitHub
+         </a>
+       </p>
      </div>
    </footer>
 

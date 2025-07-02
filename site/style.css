@@ -1941,4 +1941,52 @@ html {
   .navbar-brand {
     margin-right: auto;
   }
+}
+
+/* Enhanced Mobile Controls Styling */
+@media (max-width: 991px) {
+  .nav-item.p-3 {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    margin: 0.5rem;
+  }
+  
+  [data-theme="light"] .nav-item.p-3 {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  #dateSelectMobile {
+    border-radius: 12px !important;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  [data-theme="light"] #dateSelectMobile {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  #themeToggleMobile {
+    border-radius: 12px !important;
+    min-width: 48px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #themeToggleMobile .theme-icon {
+    font-size: 1.1rem;
+  }
+  
+  .mobile-stats-badge {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+  }
+  
+  [data-theme="light"] .mobile-stats-badge {
+    background: rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #1e293b !important;
+  }
 } 
