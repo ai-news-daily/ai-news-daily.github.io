@@ -217,6 +217,7 @@ This ensures fresh content regardless of your location, with maximum 4-hour dela
 - **Dynamic Branding** - "Your daily source for cutting-edge AI breakthroughs" subtitle
 - **Interactive Effects** - Smooth hover animations and visual feedback
 - **Responsive Design** - Mobile-first, works on all devices
+- **📱 Mobile Optimizations** - Dedicated mobile context cards, optimized card heights, improved touch targets
 - **Real-time Filtering** - Filter by category, source, difficulty
 - **Smart Search** - Search titles, sources, entities
 - **Infinite Scroll** - Load more articles seamlessly
