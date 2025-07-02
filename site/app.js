@@ -231,23 +231,6 @@ function setupEventListeners() {
   
   // Initialize mobile menu
   initializeMobileMenu();
-  
-  // Make article cards clickable
-  setupArticleClickHandlers();
-}
-
-// Make entire article cards clickable
-function setupArticleClickHandlers() {
-  document.addEventListener('click', (event) => {
-    const newsItem = event.target.closest('.news-item');
-    if (newsItem && !event.target.closest('a')) {
-      // If clicked on the card but not on a link, find the main article link and click it
-      const articleLink = newsItem.querySelector('.article-title a');
-      if (articleLink) {
-        articleLink.click();
-      }
-    }
-  });
 }
 
 // Handle filter button clicks
@@ -344,6 +327,14 @@ function syncMobileControls() {
   // Sync theme toggles
   if (themeToggle && themeToggleMobile) {
     themeToggleMobile.addEventListener('click', () => {
+      toggleTheme();
+    });
+  }
+  
+  // Mobile theme hint button
+  const mobileThemeHint = document.getElementById('mobileThemeHint');
+  if (mobileThemeHint) {
+    mobileThemeHint.addEventListener('click', () => {
       toggleTheme();
     });
   }
@@ -659,13 +650,51 @@ function updateDisplay() {
   // Update mobile counts too
   const showCountMobile = document.getElementById('showCountMobile');
   const totalCountMobile = document.getElementById('totalCountMobile');
+  const mobileContextCount = document.getElementById('mobileContextCount');
   if (showCountMobile) showCountMobile.textContent = articlesToShow.length;
   if (totalCountMobile) totalCountMobile.textContent = filteredArticles.length;
+  if (mobileContextCount) mobileContextCount.textContent = filteredArticles.length;
+  
+  // Update mobile context subtitle based on active filters
+  updateMobileContextSubtitle();
   
   // Update load more button
   const hasMore = articlesToShow.length < filteredArticles.length;
   loadMoreBtn.style.display = hasMore ? 'block' : 'none';
   loadMoreBtn.disabled = !hasMore;
+}
+
+// Update mobile context subtitle based on active filters
+function updateMobileContextSubtitle() {
+  const subtitleEl = document.querySelector('.context-subtitle');
+  if (!subtitleEl) return;
+  
+  const activeFilters = [];
+  
+  if (filters.category !== 'all') {
+    activeFilters.push(`${filters.category.replace('-', ' ')}`);
+  }
+  
+  if (filters.source !== 'all') {
+    activeFilters.push(`${filters.source} sources`);
+  }
+  
+  if (filters.difficulty !== 'all') {
+    activeFilters.push(`${filters.difficulty} level`);
+  }
+  
+  if (filters.search) {
+    activeFilters.push(`matching "${filters.search}"`);
+  }
+  
+  let subtitle;
+  if (activeFilters.length > 0) {
+    subtitle = `Filtered: ${activeFilters.join(' • ')}`;
+  } else {
+    subtitle = `Curated from 11+ trusted sources • Updated daily`;
+  }
+  
+  subtitleEl.textContent = subtitle;
 }
 
 // Create article DOM element - full AI-enhanced version
@@ -716,9 +745,7 @@ function createArticleElement(article) {
       </div>
       
       <h3 class="article-title">
-        <a href="${article.url || '#'}" target="_blank" rel="noopener" title="${article.title || 'Untitled'}">
-          ${article.title || 'Untitled Article'} ↗
-        </a>
+        ${article.title || 'Untitled Article'}
       </h3>
       
       ${summaryHTML}
@@ -729,6 +756,12 @@ function createArticleElement(article) {
         <span class="category category-${category.replace(/[^a-z0-9]/gi, '-')}">${category}</span>
         <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
         <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
+      </div>
+      
+      <div class="article-actions">
+        <a href="${article.url || '#'}" target="_blank" rel="noopener" class="read-more-btn">
+          Read full article ↗
+        </a>
       </div>
     `;
     
@@ -767,8 +800,13 @@ function showEmptyState() {
   // Update mobile counts too
   const showCountMobile = document.getElementById('showCountMobile');
   const totalCountMobile = document.getElementById('totalCountMobile');
+  const mobileContextCount = document.getElementById('mobileContextCount');
   if (showCountMobile) showCountMobile.textContent = '0';
   if (totalCountMobile) totalCountMobile.textContent = allArticles.length;
+  if (mobileContextCount) mobileContextCount.textContent = '0';
+  
+  // Update mobile context subtitle for empty state
+  updateMobileContextSubtitle();
   
   loadMoreBtn.style.display = 'none';
 }

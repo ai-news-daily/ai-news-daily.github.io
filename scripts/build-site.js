@@ -56,9 +56,7 @@ function generateArticleHTML(article) {
       </div>
       
       <h3 class="article-title">
-        <a href="${article.url}" target="_blank" rel="noopener" title="${article.title}">
-          ${article.title} ↗
-        </a>
+        ${article.title}
       </h3>
       
       ${summary ? `<p class="article-summary">${summary.trim()}</p>` : ''}
@@ -75,6 +73,12 @@ function generateArticleHTML(article) {
         <span class="category category-${(article.category || article.source_category).replace(/[^a-z0-9]/gi, '-')}">${article.category || article.source_category}</span>
         <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
         <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
+      </div>
+      
+      <div class="article-actions">
+        <a href="${article.url}" target="_blank" rel="noopener" class="read-more-btn">
+          Read full article ↗
+        </a>
       </div>
     </article>
   `;
@@ -371,6 +375,45 @@ async function buildSite(selectedDate = null) {
 
   <!-- Main Content with Bootstrap Layout -->
   <div class="container-fluid main-container">
+    
+    <!-- Mobile Context Header - Only visible on small screens -->
+    <div class="row d-lg-none">
+      <div class="col-12">
+        <div class="mobile-context-section">
+          <div class="mobile-context-card">
+            <div class="context-header">
+              <h1>🤖 Latest AI News</h1>
+              <p class="context-subtitle">Curated from ${Object.keys(sourceStats).length}+ trusted sources • Updated daily</p>
+            </div>
+            
+            <div class="context-stats">
+              <div class="stat-item">
+                <span class="stat-number" id="mobileContextCount">${articles.length}</span>
+                <span class="stat-label">Articles</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">${Object.keys(sourceStats).length}+</span>
+                <span class="stat-label">Sources</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">🔥</span>
+                <span class="stat-label">Live</span>
+              </div>
+            </div>
+            
+            <div class="context-actions">
+              <button class="btn btn-outline-light btn-sm mobile-filter-hint" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                🔍 Search & Filter
+              </button>
+              <button class="btn btn-outline-light btn-sm mobile-theme-hint" id="mobileThemeHint">
+                <span class="theme-icon">🌙</span> Theme
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="row">
       <!-- Desktop Sidebar Filters -->
       <div class="col-lg-3 d-none d-lg-block sidebar-filters">
