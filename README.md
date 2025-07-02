@@ -39,9 +39,11 @@
 
 - **Hosting**: GitHub Pages (FREE)
 - **Database**: Git repository (FREE)  
-- **Automation**: GitHub Actions (FREE - 2000 mins/month)
+- **Automation**: GitHub Actions (FREE - using 900/2000 mins/month)
 - **AI Processing**: Local Transformers.js (FREE)
 - **Domain**: Optional custom domain (₹500/year)
+
+**With 6x daily updates**: Still completely free with 55% GitHub Actions capacity remaining!
 
 ## 🚀 Quick Start
 
@@ -193,7 +195,7 @@ Runs automatically 6 times daily (every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:
 - Health check
 ```
 
-**Free Tier Usage**: ~1200 minutes/month (well under 2000 limit)
+**Free Tier Usage**: ~900 minutes/month (well under 2000 limit, ~5 mins per run)
 
 ### 🌍 Global Coverage Benefits
 
@@ -206,6 +208,8 @@ Running 6 times daily provides optimal coverage for all time zones:
 - **20:00 UTC**: Asia-Pacific evening
 
 This ensures fresh content regardless of your location, with maximum 4-hour delays.
+
+**Efficiency**: Each run takes ~5 minutes, totaling just 900 minutes/month of the 2000-minute GitHub Actions free tier.
 
 ## 🎨 Frontend Features
 

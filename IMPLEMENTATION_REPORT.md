@@ -297,8 +297,9 @@ sequenceDiagram
 
 ### Scalability Metrics
 - **Sources**: 70+ active RSS feeds
-- **Processing Speed**: ~400 articles in 5-10 minutes
+- **Processing Speed**: ~400 articles in 5 minutes per run
 - **Update Frequency**: 6 times daily automated runs (every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+- **GitHub Actions Usage**: 900 minutes/month (45% of free tier, 5 min per run)
 - **Storage Efficiency**: ~500KB per day of processed data
 - **Bandwidth**: Minimal (static files only)
 - **GitHub Actions Usage**: ~400 minutes/month (reduced from 600)
