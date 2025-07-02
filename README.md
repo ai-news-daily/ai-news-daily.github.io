@@ -8,7 +8,7 @@
 
 ## ✨ About
 
-**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs. Features a modern, animated interface with professional styling and runs twice daily automated updates.
+**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs. Features a modern, animated interface with professional styling and runs 6 times daily automated updates.
 
 ## ✨ Features
 
@@ -74,7 +74,7 @@ npm run dev        # Serve locally
 2. **Enable GitHub Actions**:
    - Go to Actions tab
    - Enable workflows
-   - The workflow will run automatically twice daily (12 AM & 12 PM UTC)
+   - The workflow will run automatically 6 times daily (every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
 
 3. **Customize**:
    - Update `sources.json` with your preferred RSS feeds
@@ -182,7 +182,7 @@ Articles are automatically rated 1-10:
 
 ## 📊 GitHub Actions Workflow
 
-Runs automatically twice daily (12 AM & 12 PM UTC):
+Runs automatically 6 times daily (every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC):
 
 ```yaml
 - Crawl 50+ RSS feeds
@@ -193,7 +193,19 @@ Runs automatically twice daily (12 AM & 12 PM UTC):
 - Health check
 ```
 
-**Free Tier Usage**: ~400 minutes/month (well under 2000 limit)
+**Free Tier Usage**: ~1200 minutes/month (well under 2000 limit)
+
+### 🌍 Global Coverage Benefits
+
+Running 6 times daily provides optimal coverage for all time zones:
+- **00:00 UTC**: Asia-Pacific morning updates
+- **04:00 UTC**: Europe early morning
+- **08:00 UTC**: Europe business hours
+- **12:00 UTC**: Americas morning
+- **16:00 UTC**: Americas afternoon  
+- **20:00 UTC**: Asia-Pacific evening
+
+This ensures fresh content regardless of your location, with maximum 4-hour delays.
 
 ## 🎨 Frontend Features
 
@@ -292,7 +304,7 @@ The workflow includes:
 ## 📊 Stats & Performance
 
 - **Sources**: 50+ RSS feeds
-- **Update Frequency**: Twice daily
+- **Update Frequency**: 6 times daily
 - **Page Load**: <2 seconds
 - **Lighthouse Score**: 95+
 - **Monthly Cost**: ₹0

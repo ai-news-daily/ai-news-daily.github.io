@@ -2,7 +2,7 @@ name: Daily AI News Crawl with LLM
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'  # Runs at 12 AM and 12 PM UTC daily (twice a day)
+    - cron: '0 0,4,8,12,16,20 * * *'  # Runs 6 times daily every 4 hours (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
   workflow_dispatch:  # Manual trigger for testing
   push:
     branches: [main]  # Also run on pushes to main for testing
