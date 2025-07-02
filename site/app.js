@@ -1089,6 +1089,9 @@ function toggleTheme() {
   setTheme(newTheme);
 }
 
+// Make toggleTheme available globally for inline onclick handlers
+window.toggleTheme = toggleTheme;
+
 function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);

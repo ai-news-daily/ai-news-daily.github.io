@@ -418,9 +418,6 @@ async function buildSite(selectedDate = null) {
               <button class="btn btn-outline-light btn-sm mobile-filter-hint" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 🔍 Search & Filter
               </button>
-              <button class="btn btn-outline-light btn-sm mobile-theme-hint" id="mobileThemeHint" onclick="toggleTheme()" aria-label="Toggle theme">
-                <span class="theme-icon">🌙</span> Theme
-              </button>
             </div>
           </div>
         </div>
