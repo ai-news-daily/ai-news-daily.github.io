@@ -405,7 +405,21 @@ async function crawlFeed(source, useAIFilter = false, stats = null) {
                       source.category === 'tutorial' ? 14 :
                       source.category === 'agentic' ? 10 : 7;
       
-      const pubDate = new Date(item.pubDate || item.isoDate || item.published);
+      const pubDate = new Date(item.pubDate || item.isoDate || item.published || Date.now());
+      
+      // Validate date - skip articles with invalid or future dates
+      if (isNaN(pubDate.getTime())) {
+        console.log(`⚠️ Invalid date for article: "${title.substring(0, 50)}..."`);
+        continue;
+      }
+      
+      const now = new Date();
+      if (pubDate > now) {
+        console.log(`⚠️ Future date detected for article: "${title.substring(0, 50)}..." (${pubDate.toISOString()})`);
+        // Use current time instead of future date
+        pubDate.setTime(now.getTime());
+      }
+      
       const cutoffDate = new Date(Date.now() - daysBack * 24 * 60 * 60 * 1000);
       if (pubDate < cutoffDate) continue;
       

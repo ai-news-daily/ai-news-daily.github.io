@@ -161,25 +161,31 @@ function updatePageMetadata(selectedDate) {
 function initializeFilterStates() {
   // Set category buttons
   document.querySelectorAll('[data-category]').forEach(btn => {
-    btn.classList.remove('active');
+    btn.classList.remove('active', 'btn-primary');
+    btn.classList.add('btn-outline-light');
     if (btn.dataset.category === filters.category) {
-      btn.classList.add('active');
+      btn.classList.add('active', 'btn-primary');
+      btn.classList.remove('btn-outline-light');
     }
   });
   
   // Set source buttons
   document.querySelectorAll('[data-source]').forEach(btn => {
-    btn.classList.remove('active');
+    btn.classList.remove('active', 'btn-primary');
+    btn.classList.add('btn-outline-light');
     if (btn.dataset.source === filters.source) {
-      btn.classList.add('active');
+      btn.classList.add('active', 'btn-primary');
+      btn.classList.remove('btn-outline-light');
     }
   });
   
   // Set difficulty buttons
   document.querySelectorAll('[data-difficulty]').forEach(btn => {
-    btn.classList.remove('active');
+    btn.classList.remove('active', 'btn-primary');
+    btn.classList.add('btn-outline-light');
     if (btn.dataset.difficulty === filters.difficulty) {
-      btn.classList.add('active');
+      btn.classList.add('active', 'btn-primary');
+      btn.classList.remove('btn-outline-light');
     }
   });
 }
@@ -197,8 +203,17 @@ function setupEventListeners() {
   });
   
   // Search
-  searchInput.addEventListener('input', debounce(handleSearch, 300));
-  clearSearchBtn.addEventListener('click', clearSearch);
+  if (searchInput) {
+    searchInput.addEventListener('input', debounce(handleSearch, 300));
+  }
+  
+  // Clear search buttons (both desktop and mobile)
+  const clearSearchBtns = document.querySelectorAll('#clearSearch, #clearSearchMobile');
+  clearSearchBtns.forEach(btn => {
+    if (btn) {
+      btn.addEventListener('click', clearSearch);
+    }
+  });
   
   // Date selection
   if (dateSelect) {
@@ -216,6 +231,23 @@ function setupEventListeners() {
   
   // Initialize mobile menu
   initializeMobileMenu();
+  
+  // Make article cards clickable
+  setupArticleClickHandlers();
+}
+
+// Make entire article cards clickable
+function setupArticleClickHandlers() {
+  document.addEventListener('click', (event) => {
+    const newsItem = event.target.closest('.news-item');
+    if (newsItem && !event.target.closest('a')) {
+      // If clicked on the card but not on a link, find the main article link and click it
+      const articleLink = newsItem.querySelector('.article-title a');
+      if (articleLink) {
+        articleLink.click();
+      }
+    }
+  });
 }
 
 // Handle filter button clicks
@@ -225,16 +257,18 @@ function handleFilterClick(event) {
                     btn.dataset.source ? 'source' : 'difficulty';
   const filterValue = btn.dataset.category || btn.dataset.source || btn.dataset.difficulty;
   
-  // Remove active class from ALL buttons of the same filter type (desktop and mobile)
+  // Remove active class and Bootstrap primary class from ALL buttons of the same filter type
   const allFilterButtons = document.querySelectorAll(`[data-${filterType}]`);
   allFilterButtons.forEach(b => {
-    b.classList.remove('active');
+    b.classList.remove('active', 'btn-primary');
+    b.classList.add('btn-outline-light');
   });
   
-  // Add active class to ALL buttons with the same filter value (desktop and mobile)
+  // Add active class and Bootstrap primary class to ALL buttons with the same filter value
   const matchingButtons = document.querySelectorAll(`[data-${filterType}="${filterValue}"]`);
   matchingButtons.forEach(b => {
-    b.classList.add('active');
+    b.classList.add('active', 'btn-primary');
+    b.classList.remove('btn-outline-light');
   });
   
   // Update filter state
@@ -277,8 +311,6 @@ function initializeMobileMenu() {
 function syncMobileControls() {
   const searchInput = document.getElementById('searchInput');
   const searchInputMobile = document.getElementById('searchInputMobile');
-  const clearSearch = document.getElementById('clearSearch');
-  const clearSearchMobile = document.getElementById('clearSearchMobile');
   const dateSelect = document.getElementById('dateSelect');
   const dateSelectMobile = document.getElementById('dateSelectMobile');
   const themeToggle = document.getElementById('themeToggle');
@@ -295,14 +327,8 @@ function syncMobileControls() {
     });
   }
   
-  // Sync clear buttons
-  if (clearSearch && clearSearchMobile) {
-    clearSearchMobile.addEventListener('click', () => {
-      searchInput.value = '';
-      searchInputMobile.value = '';
-      clearSearch();
-    });
-  }
+  // Clear buttons are now handled in setupEventListeners
+  // No need for additional sync here
   
   // Sync date selectors
   if (dateSelect && dateSelectMobile) {
@@ -339,12 +365,34 @@ function handleSearch(event) {
 
 // Clear search
 function clearSearch() {
-  searchInput.value = '';
+  console.log('🔍 clearSearch() called');
+  
+  const searchInput = document.getElementById('searchInput');
+  const searchInputMobile = document.getElementById('searchInputMobile');
+  
+  // Clear both desktop and mobile search inputs
+  if (searchInput) {
+    searchInput.value = '';
+    console.log('✅ Cleared desktop search input');
+  }
+  if (searchInputMobile) {
+    searchInputMobile.value = '';
+    console.log('✅ Cleared mobile search input');
+  }
+  
   filters.search = '';
   currentPage = 0;
+  
+  console.log('🔍 Updating filter counts...');
   updateFilterCounts();
+  
+  console.log('🔍 Applying filters...');
   applyFilters();
+  
+  console.log('🔍 Updating display...');
   updateDisplay();
+  
+  console.log('✅ clearSearch() completed');
 }
 
 // Apply filters and search
@@ -384,32 +432,31 @@ function applyFilters() {
   
 
   
-  // Sort articles: Latest to oldest first, then by confidence
+  // Sort articles: High confidence (ticked) first, then latest to oldest
   filteredArticles.sort((a, b) => {
-    // 1. Primary sort by recency (newest first)
-    const aTime = new Date(a.pubDate || a.published_at).getTime();
-    const bTime = new Date(b.pubDate || b.published_at).getTime();
-    
-    // If times are different, sort by time (newest first)
-    if (aTime !== bTime) {
-      return bTime - aTime;
-    }
-    
-    // 2. If published at same time, prioritize high confidence articles
+    // 1. PRIORITY: High confidence articles (with green checkmarks) first
     const aHighConfidence = (a.confidence || 0) > 0.8;
     const bHighConfidence = (b.confidence || 0) > 0.8;
     
     if (aHighConfidence && !bHighConfidence) return -1;
     if (!aHighConfidence && bHighConfidence) return 1;
     
-    // 3. If same confidence, deprioritize Reddit
+    // 2. Within same confidence level, sort by recency (newest first)
+    const aTime = new Date(a.pubDate || a.published_at).getTime();
+    const bTime = new Date(b.pubDate || b.published_at).getTime();
+    
+    if (aTime !== bTime) {
+      return bTime - aTime;
+    }
+    
+    // 3. If same time and confidence, deprioritize Reddit for quality
     const aIsReddit = a.source_category === 'reddit';
     const bIsReddit = b.source_category === 'reddit';
     
     if (!aIsReddit && bIsReddit) return -1;
     if (aIsReddit && !bIsReddit) return 1;
     
-    // 4. If all else equal, sort by title for consistency
+    // 4. Final tie-breaker: sort by title for consistency
     return (a.title || '').localeCompare(b.title || '');
   });
   
@@ -758,11 +805,24 @@ function loadMore() {
 function timeAgo(dateString) {
   const now = new Date();
   const date = new Date(dateString);
+  
+  // Handle invalid dates
+  if (isNaN(date.getTime())) {
+    return 'unknown';
+  }
+  
   const diffMs = now - date;
+  
+  // Handle future dates or negative timestamps
+  if (diffMs < 0) {
+    return 'just now';
+  }
+  
   const diffMins = Math.floor(diffMs / 60000);
   const diffHours = Math.floor(diffMs / 3600000);
   const diffDays = Math.floor(diffMs / 86400000);
 
+  if (diffMins < 1) return 'just now';
   if (diffMins < 60) return `${diffMins}m ago`;
   if (diffHours < 24) return `${diffHours}h ago`;
   if (diffDays < 7) return `${diffDays}d ago`;
@@ -829,11 +889,11 @@ function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
   
-  // Update theme toggle icon
-  const themeIcon = document.querySelector('.theme-icon');
-  if (themeIcon) {
-    themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
-  }
+  // Update theme toggle icons (both desktop and mobile)
+  const themeIcons = document.querySelectorAll('.theme-icon');
+  themeIcons.forEach(icon => {
+    icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+  });
 }
 
 // Performance monitoring

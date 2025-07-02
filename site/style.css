@@ -23,8 +23,8 @@
   
   /* Text Colors */
   --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
   
   /* Borders & Dividers */
   --border: rgba(255, 255, 255, 0.1);
@@ -132,7 +132,7 @@
 }
 
 [data-theme="light"] .card-header h6 {
-  color: #000000 !important;
+  color: #1e293b !important;
   font-weight: 700 !important;
 }
 
@@ -142,6 +142,73 @@
 
 [data-theme="light"] .mobile-filter-toggle {
   background: var(--gradient-primary);
+}
+
+/* Fix light theme filter section headers visibility */
+[data-theme="light"] .filter-label {
+  color: #1e293b !important;
+  font-weight: 700 !important;
+}
+
+[data-theme="light"] .filter-header .filter-label {
+  color: #1e293b !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .filter-header {
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .filter-header:hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Fix light theme card annotations visibility */
+[data-theme="light"] .entity-tag {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: #1e293b !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .category {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: #1e293b !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .difficulty,
+[data-theme="light"] .confidence {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: #1e293b !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  font-weight: 600 !important;
+}
+
+[data-theme="light"] .source-name {
+  color: #1e293b !important;
+  font-weight: 700 !important;
+}
+
+[data-theme="light"] .pub-time {
+  color: #475569 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .article-title a {
+  color: #1e293b !important;
+  background: linear-gradient(135deg, #1e293b 0%, #6366f1 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+[data-theme="light"] .article-summary {
+  color: #475569 !important;
 }
 
 * {
@@ -272,14 +339,14 @@ body::before {
 
 /* Bootstrap Cards in Dark Theme */
 .card {
-  background: var(--surface-glass) !important;
-  border: 1px solid var(--border) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
   backdrop-filter: blur(10px);
 }
 
 .card-header {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-bottom: 1px solid var(--border) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
 }
 
 /* Bootstrap Buttons */
@@ -329,6 +396,13 @@ body::before {
   z-index: 1050;
 }
 
+/* Light theme mobile navbar collapse */
+[data-theme="light"] .navbar-collapse {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
 /* Bootstrap Accordion for Mobile Filters */
 .accordion-button {
   background: transparent !important;
@@ -339,13 +413,37 @@ body::before {
 
 /* Fix light theme accordion buttons */
 [data-theme="light"] .accordion-button {
-  color: #000000 !important;
+  color: #1e293b !important;
   font-weight: 600 !important;
 }
 
 [data-theme="light"] .accordion-button:not(.collapsed) {
-  color: #000000 !important;
+  color: #1e293b !important;
   font-weight: 700 !important;
+}
+
+/* Fix light theme accordion arrows */
+[data-theme="light"] .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23334155'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+/* Fix light theme mobile filter buttons */
+[data-theme="light"] .filter-btn {
+  background: rgba(30, 41, 59, 0.08) !important;
+  color: #1e293b !important;
+  border-color: rgba(30, 41, 59, 0.15) !important;
+}
+
+[data-theme="light"] .filter-btn:hover {
+  background: rgba(30, 41, 59, 0.12) !important;
+  color: #0f172a !important;
+  border-color: rgba(30, 41, 59, 0.25) !important;
+}
+
+[data-theme="light"] .filter-btn.active {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.9) 0%, rgba(147, 51, 234, 0.9) 100%) !important;
+  color: white !important;
+  border-color: rgba(59, 130, 246, 0.6) !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -426,6 +524,12 @@ body::before {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
   }
   
+  /* Light theme mobile navbar background */
+  [data-theme="light"] .navbar-collapse {
+    background: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+  }
+  
   /* Add extra background protection */
   .navbar-collapse::before {
     content: '';
@@ -436,6 +540,11 @@ body::before {
     bottom: 0;
     background: rgba(15, 15, 35, 1);
     z-index: -1;
+  }
+  
+  /* Light theme background protection */
+  [data-theme="light"] .navbar-collapse::before {
+    background: rgba(255, 255, 255, 0.98);
   }
 }
 
@@ -701,7 +810,7 @@ body::before {
 .filter-label {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: rgba(241, 245, 249, 0.95);
   margin-bottom: 0.75rem;
   display: block;
   letter-spacing: -0.025em;
@@ -714,9 +823,9 @@ body::before {
 }
 
 .filter-btn {
-  background: var(--surface);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(241, 245, 249, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 0.625rem 1rem;
   border-radius: 16px;
   font-size: 0.875rem;
@@ -747,18 +856,20 @@ body::before {
 }
 
 .filter-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--border-hover);
-  color: var(--text-primary);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: rgba(241, 245, 249, 0.95);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .filter-btn.active {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-1px);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.8) 0%, rgba(139, 92, 246, 0.8) 100%);
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3), 0 0 0 1px rgba(99, 102, 241, 0.4);
+  transform: translateY(-2px);
+  font-weight: 600;
 }
 
 .filter-btn.active::before {
@@ -768,8 +879,8 @@ body::before {
 /* Collapsible filter headers */
 .filter-header {
   width: 100%;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -782,10 +893,10 @@ body::before {
 }
 
 .filter-header:hover {
-  background: var(--surface-hover);
-  border-color: var(--border-hover);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.08);
   transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .filter-header .filter-label {
@@ -793,6 +904,7 @@ body::before {
   pointer-events: none;
   font-size: 1rem;
   font-weight: 600;
+  color: rgba(241, 245, 249, 0.95);
 }
 
 .filter-toggle {
@@ -852,14 +964,14 @@ body::before {
     width: 320px;
     height: calc(100vh - 90px);
     overflow-y: auto;
-    background: var(--surface-glass);
-    border-right: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.02);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: none;
     border-radius: 0;
     border-top-right-radius: 24px;
     backdrop-filter: blur(20px);
     z-index: 98;
-    box-shadow: var(--shadow-xl);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
   .filters-content {
@@ -883,8 +995,8 @@ body::before {
 
 /* Stunning Article Cards */
 .news-item {
-  background: var(--surface-glass);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 24px;
   padding: 2rem;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -895,6 +1007,7 @@ body::before {
   display: flex;
   flex-direction: column;
   height: 100%;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .news-item::before {
@@ -912,8 +1025,9 @@ body::before {
 
 .news-item:hover {
   transform: translateY(-8px);
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
   border-color: var(--primary-light);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .news-item:hover::before {
@@ -947,7 +1061,8 @@ body::before {
 
 .pub-time {
   font-size: 0.8125rem;
-  opacity: 0.8;
+  opacity: 0.9;
+  color: rgba(241, 245, 249, 0.8);
   background: var(--surface);
   padding: 0.25rem 0.5rem;
   border-radius: 8px;
@@ -990,7 +1105,7 @@ body::before {
   border-radius: 16px;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #94a3b8 !important;
+  color: rgba(241, 245, 249, 0.85) !important;
   font-style: italic;
   position: relative;
   backdrop-filter: blur(10px);
@@ -1812,5 +1927,18 @@ html {
   
   .site-footer p {
     font-size: 0.8125rem;
+  }
+}
+
+/* Custom positioning for desktop controls */
+@media (min-width: 992px) {
+  .d-lg-flex.justify-content-end {
+    margin-left: auto;
+    padding-right: 2rem;
+  }
+  
+  /* Ensure proper spacing between brand and controls */
+  .navbar-brand {
+    margin-right: auto;
   }
 } 

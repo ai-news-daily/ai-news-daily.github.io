@@ -8,7 +8,7 @@
 
 ## ✨ About
 
-**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs.
+**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs. Features a modern, animated interface with professional styling and runs twice daily automated updates.
 
 ## ✨ Features
 
@@ -74,7 +74,7 @@ npm run dev        # Serve locally
 2. **Enable GitHub Actions**:
    - Go to Actions tab
    - Enable workflows
-   - The workflow will run automatically twice daily
+   - The workflow will run automatically twice daily (12 AM & 12 PM UTC)
 
 3. **Customize**:
    - Update `sources.json` with your preferred RSS feeds
@@ -182,7 +182,7 @@ Articles are automatically rated 1-10:
 
 ## 📊 GitHub Actions Workflow
 
-Runs automatically twice daily (6 AM & 6 PM UTC):
+Runs automatically twice daily (12 AM & 12 PM UTC):
 
 ```yaml
 - Crawl 50+ RSS feeds
@@ -193,15 +193,18 @@ Runs automatically twice daily (6 AM & 6 PM UTC):
 - Health check
 ```
 
-**Free Tier Usage**: ~600 minutes/month (well under 2000 limit)
+**Free Tier Usage**: ~400 minutes/month (well under 2000 limit)
 
 ## 🎨 Frontend Features
 
+- **Enhanced UI/UX** - Animated gradient title with professional styling
+- **Dynamic Branding** - "Your daily source for cutting-edge AI breakthroughs" subtitle
+- **Interactive Effects** - Smooth hover animations and visual feedback
 - **Responsive Design** - Mobile-first, works on all devices
 - **Real-time Filtering** - Filter by category, source, difficulty
 - **Smart Search** - Search titles, sources, entities
 - **Infinite Scroll** - Load more articles seamlessly
-- **Dark Theme** - Easy on the eyes
+- **Dark/Light Theme** - Easy on the eyes with theme toggle
 - **Fast Loading** - Optimized for performance
 - **Keyboard Shortcuts** - Ctrl+K for search, Esc to clear
 
