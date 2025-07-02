@@ -304,17 +304,35 @@ async function processArticlesWithAI() {
     console.log('📋 No existing processed data found, processing all articles');
   }
   
-  // Create set of already processed article IDs for quick lookup
-  const processedIds = new Set(existingProcessed.articles.map(a => a.id));
+  // Load rejected articles cache to avoid reprocessing low-confidence articles
+  const rejectedDataPath = path.join(__dirname, '../data/rejected-articles.json');
+  let rejectedArticles = { articles: [] };
   
-  // Filter out already processed articles
-  const articlesToProcess = rawData.articles.filter(article => !processedIds.has(article.id));
+  try {
+    const rejectedData = await fs.readFile(rejectedDataPath, 'utf-8');
+    rejectedArticles = JSON.parse(rejectedData);
+    console.log(`🚫 Found ${rejectedArticles.articles.length} previously rejected articles`);
+  } catch (error) {
+    console.log('🚫 No rejected articles cache found, starting fresh');
+  }
+  
+  // Create sets for quick lookup
+  const processedIds = new Set(existingProcessed.articles.map(a => a.id));
+  const rejectedIds = new Set(rejectedArticles.articles.map(a => a.id));
+  
+  // Filter out already processed AND rejected articles
+  const articlesToProcess = rawData.articles.filter(article => 
+    !processedIds.has(article.id) && !rejectedIds.has(article.id)
+  );
   
   // Apply configurable processing limit for testing (via env var)
   const testLimit = process.env.PROCESSING_LIMIT ? parseInt(process.env.PROCESSING_LIMIT) : null;
   const finalArticlesToProcess = testLimit ? articlesToProcess.slice(0, testLimit) : articlesToProcess;
   
   console.log(`📊 Found ${rawData.articles.length} total articles, ${articlesToProcess.length} new articles to process`);
+  if (rejectedArticles.articles.length > 0) {
+    console.log(`⏭️ Skipping ${rejectedArticles.articles.length} previously rejected articles`);
+  }
   if (testLimit && testLimit < articlesToProcess.length) {
     console.log(`🧪 TESTING MODE: Processing only first ${testLimit} articles (set PROCESSING_LIMIT=${testLimit})`);
   }
@@ -351,6 +369,7 @@ async function processArticlesWithAI() {
   console.log(`🧠 Processing ${finalArticlesToProcess.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis...`);
   
   const newlyProcessedArticles = [];
+  const newlyRejectedArticles = [];
   const categoryStats = {};
   let duplicateCount = 0;
   let rejectedLowConfidence = 0;
@@ -400,10 +419,21 @@ async function processArticlesWithAI() {
     // Generate summary
     const summary = await generateSummary(article.title, article.metaDescription, article.source, useAI);
     
-      // Apply confidence threshold filter - reject articles below threshold (configurable via PROCESS_CONFIDENCE_THRESHOLD env var)
-const confidenceThreshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
-  if (result.confidence < confidenceThreshold) {
+    // Apply confidence threshold filter - reject articles below threshold (configurable via PROCESS_CONFIDENCE_THRESHOLD env var)
+    const confidenceThreshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
+    if (result.confidence < confidenceThreshold) {
       console.log(`❌ Rejected low confidence (${(result.confidence * 100).toFixed(1)}%): ${article.title.substring(0, 60)}...`);
+      
+      // Save rejected article to cache to avoid reprocessing
+      const rejectedArticle = {
+        ...article,
+        rejectedReason: 'low_confidence',
+        confidence: result.confidence,
+        confidenceThreshold: confidenceThreshold,
+        rejected_at: new Date().toISOString()
+      };
+      
+      newlyRejectedArticles.push(rejectedArticle);
       rejectedLowConfidence++;
       continue; // Skip this article
     }
@@ -454,6 +484,38 @@ const confidenceThreshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD 
   
   // Save date-specific file (for historical tracking)
   await fs.writeFile(datePath, JSON.stringify(outputData, null, 2));
+  
+  // Save updated rejected articles cache if we have new rejections
+  if (newlyRejectedArticles.length > 0) {
+    let allRejectedArticles = [...rejectedArticles.articles, ...newlyRejectedArticles];
+    
+    // Optional: Clean up old rejected articles (older than 30 days) to prevent cache bloat
+    const cleanupThresholdDays = parseInt(process.env.REJECTED_CACHE_CLEANUP_DAYS || '30');
+    const cleanupThreshold = new Date(Date.now() - cleanupThresholdDays * 24 * 60 * 60 * 1000);
+    const beforeCleanup = allRejectedArticles.length;
+    
+    allRejectedArticles = allRejectedArticles.filter(article => {
+      const rejectedDate = new Date(article.rejected_at);
+      return rejectedDate > cleanupThreshold;
+    });
+    
+    const cleanedUp = beforeCleanup - allRejectedArticles.length;
+    
+    const rejectedOutputData = {
+      articles: allRejectedArticles,
+      updatedAt: new Date().toISOString(),
+      totalRejected: allRejectedArticles.length,
+      newlyRejected: newlyRejectedArticles.length,
+      cleanupThresholdDays: cleanupThresholdDays,
+      cleanedUpCount: cleanedUp
+    };
+    
+    await fs.writeFile(rejectedDataPath, JSON.stringify(rejectedOutputData, null, 2));
+    console.log(`🚫 Updated rejected articles cache: ${newlyRejectedArticles.length} new rejections, ${allRejectedArticles.length} total`);
+    if (cleanedUp > 0) {
+      console.log(`🧹 Cleaned up ${cleanedUp} rejected articles older than ${cleanupThresholdDays} days`);
+    }
+  }
   
   console.log(`✅ Successfully processed ${newlyProcessedArticles.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis`);
   console.log(`📊 Total articles: ${allProcessedArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
