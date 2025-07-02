@@ -1609,6 +1609,9 @@ body::before {
   .news-item {
     padding: 1.5rem;
     border-radius: 20px;
+    /* Remove fixed height on mobile for flexible content-based sizing */
+    height: auto !important;
+    min-height: unset;
   }
   
   .metadata {
@@ -1619,6 +1622,25 @@ body::before {
   
   .entities {
     margin-bottom: 1rem;
+  }
+  
+  /* Optimize spacing for mobile cards with varying content */
+  .news-item .source-bar {
+    margin-bottom: 1rem;
+  }
+  
+  .news-item .article-title {
+    margin-bottom: 1rem;
+  }
+  
+  .news-item .article-summary {
+    margin-bottom: 1rem;
+  }
+  
+  /* Compact metadata for mobile */
+  .news-item .metadata {
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
   }
   
   .filter-buttons {
@@ -1697,6 +1719,32 @@ body::before {
   
   .news-item {
     padding: 1.25rem;
+    /* Flexible height for very small screens */
+    height: auto !important;
+  }
+  
+  /* Further optimize spacing on small screens */
+  .news-item .source-bar {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .news-item .article-title {
+    margin-bottom: 0.75rem;
+  }
+  
+  .news-item .article-summary {
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .news-item .entities {
+    margin-bottom: 0.75rem;
+  }
+  
+  .news-item .metadata {
+    padding-top: 0.5rem;
+    margin-top: 0.25rem;
   }
   
   .article-title {
