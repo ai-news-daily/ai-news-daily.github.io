@@ -385,22 +385,24 @@ body::before {
   color: var(--text-secondary) !important;
 }
 
-/* Mobile Navbar Collapse Background */
-.navbar-collapse {
-  background: rgba(15, 15, 35, 1) !important;
-  backdrop-filter: blur(20px);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 0.5rem;
-  padding: 1rem 0;
-  position: relative;
-  z-index: 1050;
-}
+/* Mobile Navbar Collapse Background - ONLY on mobile screens */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background: rgba(15, 15, 35, 1) !important;
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 1050;
+  }
 
-/* Light theme mobile navbar collapse */
-[data-theme="light"] .navbar-collapse {
-  background: rgba(255, 255, 255, 0.98) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  /* Light theme mobile navbar collapse */
+  [data-theme="light"] .navbar-collapse {
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  }
 }
 
 /* Bootstrap Accordion for Mobile Filters */
@@ -1406,19 +1408,29 @@ body::before {
 }
 
 /* Bootstrap-style navbar collapse */
-.navbar-collapse {
-  display: none;
-  background: var(--surface-glass);
-  border-top: 1px solid var(--border);
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.4s ease-in-out;
+/* Ensure navbar collapse only shows on mobile */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    display: none;
+    background: var(--surface-glass);
+    border-top: 1px solid var(--border);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
 }
 
-.navbar-collapse.show {
-  display: block;
-  max-height: 80vh;
-  overflow-y: auto;
+/* Force hide on desktop */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: none !important;
+  }
 }
 
 .navbar-nav {
@@ -1989,4 +2001,15 @@ html {
     border: 1px solid rgba(0, 0, 0, 0.15);
     color: #1e293b !important;
   }
-} 
+}
+
+/* Light Mode Desktop Stats Enhancement - Keep navbar dark, just style the stats text */
+[data-theme="light"] .custom-navbar .text-light.small {
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: #1e293b !important;
+  padding: 0.375rem 0.75rem !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  font-weight: 600 !important;
+  backdrop-filter: blur(10px) !important;
+}
