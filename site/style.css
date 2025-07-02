@@ -319,6 +319,16 @@ body::before {
   opacity: 0.95;
 }
 
+/* Responsive subtitle visibility */
+.brand-subtitle-full {
+  display: block;
+}
+
+.brand-subtitle-medium,
+.brand-subtitle-short {
+  display: none;
+}
+
 @keyframes subtitleGlow {
   0%, 100% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -670,7 +680,6 @@ body::before {
   color: var(--text-primary);
   backdrop-filter: blur(10px);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
 }
 
 .search-input:focus {
@@ -736,7 +745,6 @@ body::before {
 }
 
 .date-select:focus {
-  outline: none;
   border-color: var(--primary);
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
@@ -1533,8 +1541,30 @@ body::before {
     padding-bottom: 0;
   }
   
-  .logo-subtitle {
-    display: none; /* Hide subtitle on mobile to save space */
+  /* Switch to medium subtitle on tablets */
+  .brand-subtitle-full {
+    display: none;
+  }
+  
+  .brand-subtitle-medium {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    margin-top: 1px;
+  }
+  
+  .brand-subtitle-short {
+    display: none;
+  }
+  
+  .navbar-brand {
+    min-width: 0; /* Allow text to wrap */
+    flex: 1; /* Take available space */
+  }
+  
+  .brand-text {
+    min-width: 0; /* Allow text to wrap */
+    flex: 1;
   }
   
   /* Hide desktop filters on mobile by default */
@@ -1696,9 +1726,17 @@ body::before {
     font-size: 1.125rem; /* Smaller title */
   }
   
-  .logo-subtitle {
-    font-size: 0.75rem;
-    display: none; /* Hide subtitle on very small screens */
+  /* Switch to shortest subtitle on very small screens */
+  .brand-subtitle-full,
+  .brand-subtitle-medium {
+    display: none;
+  }
+  
+  .brand-subtitle-short {
+    display: block;
+    font-size: 0.625rem;
+    line-height: 1.2;
+    margin-top: 1px;
   }
   
   .search-input {
@@ -1737,9 +1775,93 @@ body::before {
 .search-input:focus,
 .load-more:focus,
 .theme-toggle:focus,
-.date-select:focus {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
+.date-select:focus,
+.read-more-btn:focus,
+.navbar-toggler:focus,
+.mobile-filter-hint:focus,
+.mobile-theme-hint:focus,
+.accordion-button:focus,
+button:focus,
+[role="button"]:focus {
+  outline: 3px solid var(--primary) !important;
+  outline-offset: 2px !important;
+  z-index: 999 !important;
+}
+
+/* Focus styles for light theme */
+[data-theme="light"] .filter-btn:focus,
+[data-theme="light"] .search-input:focus,
+[data-theme="light"] .load-more:focus,
+[data-theme="light"] .theme-toggle:focus,
+[data-theme="light"] .date-select:focus,
+[data-theme="light"] .read-more-btn:focus,
+[data-theme="light"] .navbar-toggler:focus,
+[data-theme="light"] .mobile-filter-hint:focus,
+[data-theme="light"] .mobile-theme-hint:focus,
+[data-theme="light"] button:focus {
+  outline: 3px solid #1e40af !important;
+}
+
+/* Skip Link for Screen Readers */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--primary);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 9999;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: 3px solid white !important;
+  outline-offset: 2px !important;
+}
+
+/* Improve focus visibility for interactive elements */
+.news-item .read-more-btn:focus {
+  background: linear-gradient(135deg, #1e40af 0%, #4338ca 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(30, 64, 175, 0.4) !important;
+}
+
+/* Focus management for filter buttons */
+.filter-btn:focus {
+  background: var(--surface-hover) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.filter-btn.active:focus {
+  background: var(--gradient-primary) !important;
+  color: white !important;
+}
+
+/* Enhanced navbar toggle focus */
+.navbar-toggler:focus {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+/* Focus for mobile context buttons */
+.mobile-filter-hint:focus,
+.mobile-theme-hint:focus {
+  background: var(--primary) !important;
+  color: white !important;
+  transform: translateY(-2px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Ensure accordion buttons are focusable and visible */
+.accordion-button:focus {
+  background: rgba(99, 102, 241, 0.1) !important;
+  border-radius: 8px !important;
 }
 
 /* Beautiful Loading Animation */

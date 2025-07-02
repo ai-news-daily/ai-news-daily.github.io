@@ -150,6 +150,7 @@ async function buildSite(selectedDate = null) {
     // Get category statistics with AI categories
     const categoryStats = {};
     const sourceStats = {};
+    const uniqueSources = new Set();
     const difficultyStats = { easy: 0, medium: 0, hard: 0 };
     
     articles.forEach(article => {
@@ -160,10 +161,17 @@ async function buildSite(selectedDate = null) {
       categoryStats[category] = (categoryStats[category] || 0) + 1;
       sourceStats[source] = (sourceStats[source] || 0) + 1;
       
+      // Count unique actual sources (individual websites/domains)
+      if (article.source) {
+        uniqueSources.add(article.source);
+      }
+      
       if (difficulty <= 3) difficultyStats.easy++;
       else if (difficulty <= 7) difficultyStats.medium++;
       else difficultyStats.hard++;
     });
+    
+    const uniqueSourceCount = uniqueSources.size;
     
     console.log('🎨 Generating HTML...');
     
@@ -174,11 +182,11 @@ async function buildSite(selectedDate = null) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News Daily - Latest AI News from 50+ Sources</title>
-  <meta name="description" content="AI news aggregator collecting ${articles.length} articles from ${Object.keys(sourceStats).length}+ sources. Updated ${new Date(crawledAt).toLocaleDateString()}.">
+  <meta name="description" content="AI news aggregator collecting ${articles.length} articles from ${uniqueSourceCount}+ sources. Updated ${new Date(crawledAt).toLocaleDateString()}.">
   
   <!-- Open Graph -->
   <meta property="og:title" content="AI News Daily - Latest AI News Aggregator">
-  <meta property="og:description" content="AI news aggregator from ${Object.keys(sourceStats).length}+ sources including Reddit, arXiv, tech blogs, and YouTube">
+  <meta property="og:description" content="AI news aggregator from ${uniqueSourceCount}+ sources including Reddit, arXiv, tech blogs, and YouTube">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ai-news-daily.github.io">
   
@@ -195,6 +203,9 @@ async function buildSite(selectedDate = null) {
   <script src="https://cdn.counter.dev/script.js" data-id="6721f4c7-1553-46c3-8190-a502ae988d59" data-utcoffset="6"></script>
 </head>
 <body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
   <!-- Bootstrap Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
     <div class="container-fluid">
@@ -232,7 +243,9 @@ async function buildSite(selectedDate = null) {
         </div>
         <div class="brand-text">
           <div class="brand-title">AI News Daily</div>
-          <div class="brand-subtitle d-none d-sm-block">Your daily source for cutting-edge AI breakthroughs • ${articles.length}+ stories curated</div>
+          <div class="brand-subtitle brand-subtitle-full">Your daily source for cutting-edge AI breakthroughs • ${articles.length}+ stories curated</div>
+          <div class="brand-subtitle brand-subtitle-medium">${articles.length}+ AI stories • Updated daily</div>
+          <div class="brand-subtitle brand-subtitle-short">${articles.length}+ stories</div>
         </div>
       </a>
 
@@ -383,7 +396,7 @@ async function buildSite(selectedDate = null) {
           <div class="mobile-context-card">
             <div class="context-header">
               <h1>🤖 Latest AI News</h1>
-              <p class="context-subtitle">Curated from ${Object.keys(sourceStats).length}+ trusted sources • Updated daily</p>
+              <p class="context-subtitle">Curated from ${uniqueSourceCount}+ trusted sources • Updated daily</p>
             </div>
             
             <div class="context-stats">
@@ -392,7 +405,7 @@ async function buildSite(selectedDate = null) {
                 <span class="stat-label">Articles</span>
               </div>
               <div class="stat-item">
-                <span class="stat-number">${Object.keys(sourceStats).length}+</span>
+                <span class="stat-number">${uniqueSourceCount}+</span>
                 <span class="stat-label">Sources</span>
               </div>
               <div class="stat-item">
@@ -405,7 +418,7 @@ async function buildSite(selectedDate = null) {
               <button class="btn btn-outline-light btn-sm mobile-filter-hint" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 🔍 Search & Filter
               </button>
-              <button class="btn btn-outline-light btn-sm mobile-theme-hint" id="mobileThemeHint">
+              <button class="btn btn-outline-light btn-sm mobile-theme-hint" id="mobileThemeHint" onclick="toggleTheme()" aria-label="Toggle theme">
                 <span class="theme-icon">🌙</span> Theme
               </button>
             </div>
@@ -471,7 +484,7 @@ async function buildSite(selectedDate = null) {
 
       <!-- Main Content -->
       <div class="col-lg-9">
-        <main class="main-content">
+        <main id="main-content" class="main-content">
           <!-- Articles Grid -->
           <div class="articles-grid" id="articlesGrid">
             ${articles.map(article => generateArticleHTML(article)).join('')}
@@ -539,7 +552,7 @@ async function buildSite(selectedDate = null) {
     console.log('✅ Site built successfully!');
     console.log(`📊 Generated page with ${articles.length} articles`);
     console.log(`📈 Categories: ${Object.keys(categoryStats).length}`);
-    console.log(`🔗 Sources: ${Object.keys(sourceStats).length}`);
+    console.log(`🔗 Sources: ${uniqueSourceCount} unique sources (${Object.keys(sourceStats).length} categories)`);
     
   } catch (error) {
     console.error('❌ Build failed:', error);

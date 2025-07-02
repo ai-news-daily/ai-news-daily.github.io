@@ -3,6 +3,7 @@ let allArticles = [];
 let filteredArticles = [];
 let currentPage = 0;
 const articlesPerPage = 20;
+let uniqueSourceCount = 0;
 
 // DOM elements
 const articlesGrid = document.getElementById('articlesGrid');
@@ -45,6 +46,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     updateDisplay();
     console.log('🔍 DEBUG: After updateDisplay');
+    
+    // Enhance accessibility after everything is loaded
+    enhanceAccessibility();
+    console.log('🔍 DEBUG: Accessibility enhancements applied');
   } catch (error) {
     console.error('Failed to initialize app:', error);
     showError('Failed to load articles. Please refresh the page.');
@@ -65,7 +70,17 @@ async function loadData(selectedDate = null) {
     allArticles = data.articles;
     filteredArticles = [...allArticles];
     
+    // Calculate unique source count
+    const uniqueSources = new Set();
+    allArticles.forEach(article => {
+      if (article.source) {
+        uniqueSources.add(article.source);
+      }
+    });
+    uniqueSourceCount = uniqueSources.size;
+    
     console.log(`✅ Loaded ${allArticles.length} articles${selectedDate ? ` for ${selectedDate}` : ''}`);
+    console.log(`🔗 Unique sources: ${uniqueSourceCount}`);
     console.log('📊 Source categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.source_category] = true; return acc; }, {})));
     console.log('🤖 AI categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.category] = true; return acc; }, {})));
   } catch (error) {
@@ -149,11 +164,19 @@ function updatePageMetadata(selectedDate) {
     : `AI News Daily - AI News for ${dateText}`;
   document.title = title;
   
-  // Update logo subtitle
-  const logoSubtitle = document.querySelector('.brand-subtitle');
-  if (logoSubtitle) {
-    const subtitle = `Your daily source for cutting-edge AI breakthroughs • ${articleCount}+ stories curated`;
-    logoSubtitle.textContent = subtitle;
+  // Update all brand subtitle variants
+  const logoSubtitleFull = document.querySelector('.brand-subtitle-full');
+  const logoSubtitleMedium = document.querySelector('.brand-subtitle-medium');
+  const logoSubtitleShort = document.querySelector('.brand-subtitle-short');
+  
+  if (logoSubtitleFull) {
+    logoSubtitleFull.textContent = `Your daily source for cutting-edge AI breakthroughs • ${articleCount}+ stories curated`;
+  }
+  if (logoSubtitleMedium) {
+    logoSubtitleMedium.textContent = `${articleCount}+ AI stories • Updated daily`;
+  }
+  if (logoSubtitleShort) {
+    logoSubtitleShort.textContent = `${articleCount}+ stories`;
   }
 }
 
@@ -691,7 +714,7 @@ function updateMobileContextSubtitle() {
   if (activeFilters.length > 0) {
     subtitle = `Filtered: ${activeFilters.join(' • ')}`;
   } else {
-    subtitle = `Curated from 11+ trusted sources • Updated daily`;
+    subtitle = `Curated from ${uniqueSourceCount}+ trusted sources • Updated daily`;
   }
   
   subtitleEl.textContent = subtitle;
@@ -868,17 +891,29 @@ function debounce(func, wait) {
   };
 }
 
-// Keyboard shortcuts
+// Enhanced keyboard shortcuts and navigation
 function handleKeyboard(event) {
-  // Escape to clear search
+  // Skip if user is typing in an input
+  if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA' || event.target.tagName === 'SELECT') {
+    // Allow Escape to exit inputs
+    if (event.key === 'Escape') {
+      event.target.blur();
+      clearSearch();
+    }
+    return;
+  }
+  
+  // Escape to clear search and focus
   if (event.key === 'Escape') {
     clearSearch();
+    document.activeElement?.blur();
   }
   
   // Ctrl/Cmd + K to focus search
   if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
     event.preventDefault();
-    searchInput.focus();
+    const searchEl = document.getElementById('searchInput') || document.getElementById('searchInputMobile');
+    if (searchEl) searchEl.focus();
   }
   
   // Ctrl/Cmd + / to toggle theme
@@ -886,6 +921,149 @@ function handleKeyboard(event) {
     event.preventDefault();
     toggleTheme();
   }
+  
+  // M key to toggle mobile menu
+  if (event.key === 'm' || event.key === 'M') {
+    const navbarToggle = document.querySelector('.navbar-toggler');
+    if (navbarToggle && !navbarToggle.classList.contains('d-none')) {
+      event.preventDefault();
+      navbarToggle.click();
+    }
+  }
+  
+  // L key to load more articles
+  if (event.key === 'l' || event.key === 'L') {
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn && loadMoreBtn.style.display !== 'none' && !loadMoreBtn.disabled) {
+      event.preventDefault();
+      loadMoreBtn.click();
+    }
+  }
+  
+  // Number keys (1-9) to activate category filters
+  if (event.key >= '1' && event.key <= '9') {
+    event.preventDefault();
+    const filterIndex = parseInt(event.key) - 1;
+    const categoryButtons = document.querySelectorAll('[data-category]');
+    if (categoryButtons[filterIndex]) {
+      categoryButtons[filterIndex].click();
+      categoryButtons[filterIndex].focus();
+    }
+  }
+  
+  // Arrow key navigation for filter buttons
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight' || event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+    const focusedElement = document.activeElement;
+    
+    if (focusedElement && focusedElement.classList.contains('filter-btn')) {
+      event.preventDefault();
+      navigateFilters(focusedElement, event.key);
+    }
+  }
+}
+
+// Navigate between filter buttons with arrow keys
+function navigateFilters(currentButton, direction) {
+  const allFilterButtons = Array.from(document.querySelectorAll('.filter-btn:not([style*="display: none"])'));
+  const currentIndex = allFilterButtons.indexOf(currentButton);
+  
+  if (currentIndex === -1) return;
+  
+  let nextIndex;
+  
+  switch (direction) {
+    case 'ArrowLeft':
+    case 'ArrowUp':
+      nextIndex = currentIndex > 0 ? currentIndex - 1 : allFilterButtons.length - 1;
+      break;
+    case 'ArrowRight':
+    case 'ArrowDown':
+      nextIndex = currentIndex < allFilterButtons.length - 1 ? currentIndex + 1 : 0;
+      break;
+    default:
+      return;
+  }
+  
+  if (allFilterButtons[nextIndex]) {
+    allFilterButtons[nextIndex].focus();
+  }
+}
+
+// Add ARIA attributes and improve keyboard accessibility
+function enhanceAccessibility() {
+  // Add ARIA labels to filter buttons
+  document.querySelectorAll('.filter-btn').forEach((btn, index) => {
+    btn.setAttribute('role', 'button');
+    btn.setAttribute('tabindex', '0');
+    btn.setAttribute('aria-pressed', btn.classList.contains('active') ? 'true' : 'false');
+    
+    // Add keyboard support for filter buttons
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  });
+  
+  // Add ARIA labels to theme toggles
+  document.querySelectorAll('[id*="themeToggle"]').forEach(btn => {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    btn.setAttribute('aria-label', `Switch to ${currentTheme === 'dark' ? 'light' : 'dark'} theme`);
+    btn.setAttribute('role', 'button');
+  });
+  
+  // Add ARIA labels to mobile context buttons
+  document.querySelectorAll('.mobile-filter-hint, .mobile-theme-hint').forEach(btn => {
+    btn.setAttribute('role', 'button');
+    btn.setAttribute('tabindex', '0');
+    
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  });
+  
+  // Improve accordion accessibility
+  document.querySelectorAll('.accordion-button').forEach(btn => {
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  });
+  
+  // Add skip link functionality
+  const skipLink = document.querySelector('.skip-link');
+  if (skipLink) {
+    skipLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      const mainContent = document.getElementById('main-content');
+      if (mainContent) {
+        mainContent.focus();
+        mainContent.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
+  
+  // Make main content focusable for skip link
+  const mainContent = document.getElementById('main-content');
+  if (mainContent) {
+    mainContent.setAttribute('tabindex', '-1');
+  }
+  
+  // Add focus management for article read-more buttons
+  document.querySelectorAll('.read-more-btn').forEach(btn => {
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        // Let the default link behavior happen
+        return;
+      }
+    });
+  });
 }
 
 // Theme management
@@ -944,6 +1122,8 @@ const originalUpdateDisplay = updateDisplay;
 updateDisplay = function() {
   originalUpdateDisplay.call(this);
   observeArticles();
+  // Re-enhance accessibility for dynamically created elements
+  setTimeout(() => enhanceAccessibility(), 100);
 };
 
 // Export for testing
