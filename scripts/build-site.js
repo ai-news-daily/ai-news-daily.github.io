@@ -134,12 +134,23 @@ async function buildSite(selectedDate = null) {
     
     // Get available dates and load data
     const availableDates = await getAvailableDates();
-    const articlesData = await loadDateData(selectedDate);
+    
+    // Load all articles data for complete site functionality
+    const allArticlesData = await loadDateData(null);
+    
+    // For UI default, set today's date as the default selection
+    const defaultUIDate = selectedDate || (availableDates.length > 0 ? availableDates[0] : null);
+    
+    // For initial page build, default to today's articles (but keep all articles available)
+    const articlesData = selectedDate ? await loadDateData(selectedDate) : 
+                        (defaultUIDate ? await loadDateData(defaultUIDate) : allArticlesData);
     
     if (selectedDate) {
       console.log(`✅ Using data for ${selectedDate}`);
+    } else if (defaultUIDate) {
+      console.log(`✅ Defaulting to ${defaultUIDate} articles for initial page load`);
     } else {
-      console.log('✅ Using latest AI-processed data');
+      console.log('✅ Using latest AI-processed data (all articles)');
     }
     
     const articles = articlesData.articles || [];
@@ -171,7 +182,22 @@ async function buildSite(selectedDate = null) {
       else difficultyStats.hard++;
     });
     
-    const uniqueSourceCount = uniqueSources.size;
+    // Always load total source count from latest-processed.json for consistency
+    let totalUniqueSourceCount = uniqueSources.size;
+    try {
+      const latestData = await loadDateData(null); // Load all articles
+      const allSources = new Set();
+      latestData.articles?.forEach(article => {
+        if (article.source) {
+          allSources.add(article.source);
+        }
+      });
+      totalUniqueSourceCount = allSources.size;
+    } catch (error) {
+      console.log('⚠️ Could not load total source count, using current selection');
+    }
+    
+    const uniqueSourceCount = totalUniqueSourceCount;
     
     console.log('🎨 Generating HTML...');
     
@@ -259,9 +285,9 @@ async function buildSite(selectedDate = null) {
         
         <!-- Date Selector -->
         <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
-          <option value="">Latest</option>
+          <option value="">All</option>
           ${availableDates.map(date => 
-            `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${date}</option>`
+            `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${date}</option>`
           ).join('')}
         </select>
         
@@ -297,9 +323,9 @@ async function buildSite(selectedDate = null) {
             <!-- Row 1: Date and Theme Controls -->
             <div class="d-flex gap-2 align-items-center justify-content-between mb-2">
               <select id="dateSelectMobile" class="form-select form-select-sm mobile-control-input">
-                <option value="">Latest</option>
+                <option value="">All</option>
                 ${availableDates.map(date => 
-                  `<option value="${date}" ${selectedDate === date ? 'selected' : ''}>${date}</option>`
+                  `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${date}</option>`
                 ).join('')}
               </select>
               
@@ -395,7 +421,7 @@ async function buildSite(selectedDate = null) {
         <div class="mobile-context-section">
           <div class="mobile-context-card">
             <div class="context-header">
-              <h1>🤖 Latest AI News</h1>
+              <h1>🤖 AI News Daily</h1>
               <p class="context-subtitle">Curated from ${uniqueSourceCount}+ trusted sources • Updated daily</p>
             </div>
             
@@ -519,10 +545,10 @@ async function buildSite(selectedDate = null) {
     await fs.mkdir(siteDir, { recursive: true });
     await fs.writeFile(path.join(siteDir, 'index.html'), html);
     
-    // Write the main data.json for the frontend
+    // Write the main data.json for the frontend (always use all articles for "All" option)
     await fs.writeFile(
       path.join(siteDir, 'data.json'), 
-      JSON.stringify(articlesData, null, 2)
+      JSON.stringify(allArticlesData, null, 2)
     );
     
     // Write available dates list for frontend

@@ -26,12 +26,17 @@ const filters = {
 // Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    await loadData();
+    // Load today's date by default (get the selected date from the dropdown)
+    const dateSelect = document.getElementById('dateSelect');
+    const selectedOption = dateSelect?.querySelector('option[selected]');
+    const defaultDate = selectedOption?.value || null;
+    
+    await loadData(defaultDate);
     console.log('🔍 DEBUG: After loadData, allArticles.length =', allArticles.length);
     
     setupEventListeners();
     initializeTheme();
-    updatePageMetadata(null);
+    updatePageMetadata(defaultDate);
     
     console.log('🔍 DEBUG: Initial filter state =', filters);
     
@@ -56,10 +61,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-// Load article data for a specific date or latest
+// Load article data for a specific date or all
 async function loadData(selectedDate = null) {
   try {
-    let dataUrl = 'data.json'; // Default to latest
+    let dataUrl = 'data.json'; // Default to all
     
     if (selectedDate) {
       dataUrl = `data/${selectedDate}.json`;
@@ -85,10 +90,13 @@ async function loadData(selectedDate = null) {
     console.log('🤖 AI categories:', Object.keys(allArticles.reduce((acc, a) => { acc[a.category] = true; return acc; }, {})));
   } catch (error) {
     console.error(`❌ Failed to load data${selectedDate ? ` for ${selectedDate}` : ''}:`, error);
+    console.error('Error details:', error.message);
+    console.error('URL attempted:', dataUrl);
     
-    // If date-specific load fails, try latest
+    // If date-specific load fails, try all
     if (selectedDate) {
-      console.log('🔄 Falling back to latest data...');
+      console.log('🔄 Falling back to all data...');
+      console.log('⚠️ WARNING: Date-specific file failed to load, using all articles instead');
       await loadData(); // Recursive call without date
       return;
     }
@@ -129,7 +137,7 @@ async function handleDateChange(event) {
     applyFilters();
     updateDisplay();
     
-    console.log(`✅ Switched to ${selectedDate || 'latest'} data`);
+    console.log(`✅ Switched to ${selectedDate || 'all'} data`);
   } catch (error) {
     console.error('❌ Failed to change date:', error);
     showError('Failed to load articles for selected date. Please try again.');
@@ -138,7 +146,7 @@ async function handleDateChange(event) {
 
 // Update page metadata when switching dates
 function updatePageMetadata(selectedDate) {
-  const isLatest = !selectedDate;
+  const isAll = !selectedDate;
   const articleCount = allArticles.length;
   const sourceCount = [...new Set(allArticles.map(a => a.source))].length;
   
@@ -154,14 +162,14 @@ function updatePageMetadata(selectedDate) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     const baseDesc = `AI news aggregator collecting ${articleCount} articles from ${sourceCount}+ sources.`;
-    const dateDesc = isLatest ? 'Updated today' : `Updated ${shortDateText}`;
+    const dateDesc = isAll ? 'All articles' : `Updated ${shortDateText}`;
     metaDesc.setAttribute('content', `${baseDesc} ${dateDesc}.`);
   }
   
   // Update page title
-  const title = isLatest 
+  const title = isAll 
     ? 'AI News Daily - Latest AI News from 50+ Sources'
-    : `AI News Daily - AI News for ${dateText}`;
+    : `AI News Daily - Latest AI News for ${dateText}`;
   document.title = title;
   
   // Update all brand subtitle variants
@@ -434,22 +442,22 @@ function applyFilters() {
   
 
   
-  // Sort articles: High confidence (ticked) first, then latest to oldest
+  // Sort articles: Time first (newest first), then by confidence and quality
   filteredArticles.sort((a, b) => {
-    // 1. PRIORITY: High confidence articles (with green checkmarks) first
-    const aHighConfidence = (a.confidence || 0) > 0.8;
-    const bHighConfidence = (b.confidence || 0) > 0.8;
-    
-    if (aHighConfidence && !bHighConfidence) return -1;
-    if (!aHighConfidence && bHighConfidence) return 1;
-    
-    // 2. Within same confidence level, sort by recency (newest first)
+    // 1. PRIORITY: Sort by recency (newest first)
     const aTime = new Date(a.pubDate || a.published_at).getTime();
     const bTime = new Date(b.pubDate || b.published_at).getTime();
     
     if (aTime !== bTime) {
       return bTime - aTime;
     }
+    
+    // 2. If same time, high confidence articles first
+    const aHighConfidence = (a.confidence || 0) > 0.8;
+    const bHighConfidence = (b.confidence || 0) > 0.8;
+    
+    if (aHighConfidence && !bHighConfidence) return -1;
+    if (!aHighConfidence && bHighConfidence) return 1;
     
     // 3. If same time and confidence, deprioritize Reddit for quality
     const aIsReddit = a.source_category === 'reddit';
