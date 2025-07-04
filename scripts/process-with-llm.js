@@ -340,8 +340,8 @@ async function processArticlesWithAI() {
   if (finalArticlesToProcess.length === 0) {
     console.log('✅ All articles already processed! Updating metadata...');
     
-    // Update the processed file with latest metadata
-    const outputData = {
+    // Update the latest file with ALL articles
+    const latestData = {
       ...rawData,
       articles: existingProcessed.articles,
       processedAt: new Date().toISOString(),
@@ -349,18 +349,42 @@ async function processArticlesWithAI() {
       totalArticles: existingProcessed.articles.length
     };
     
-    // Save to both latest and date-specific files
+    // Create today's file with ONLY today's articles
     const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+    const todayStart = new Date(today + 'T00:00:00.000Z');
+    const todayEnd = new Date(today + 'T23:59:59.999Z');
+    
+    // Filter articles that were published or processed today
+    const todaysArticles = existingProcessed.articles.filter(article => {
+      const pubDate = new Date(article.pubDate || article.published_at);
+      const processedDate = new Date(article.processed_at || article.crawledAt);
+      
+      // Include articles published today OR processed today
+      return (pubDate >= todayStart && pubDate <= todayEnd) || 
+             (processedDate >= todayStart && processedDate <= todayEnd);
+    });
+    
+    const dailyData = {
+      ...rawData,
+      articles: todaysArticles,
+      processedAt: new Date().toISOString(),
+      processingMethod: 'cached',
+      totalArticles: todaysArticles.length,
+      dailyArticlesCount: todaysArticles.length,
+      filterDate: today
+    };
+    
+    // Save files
     const latestPath = path.join(__dirname, '../data/latest-processed.json');
     const datePath = path.join(__dirname, `../data/${today}-processed.json`);
     
-    await fs.writeFile(latestPath, JSON.stringify(outputData, null, 2));
-    await fs.writeFile(datePath, JSON.stringify(outputData, null, 2));
+    await fs.writeFile(latestPath, JSON.stringify(latestData, null, 2));
+    await fs.writeFile(datePath, JSON.stringify(dailyData, null, 2));
     
-    console.log(`💾 Updated: ${latestPath}`);
-    console.log(`📅 Historical backup: ${datePath}`);
+    console.log(`💾 Updated: ${latestPath} (${existingProcessed.articles.length} total articles)`);
+    console.log(`📅 Historical backup: ${datePath} (${todaysArticles.length} today's articles)`);
     console.log('🎉 Processing completed (no new articles)!');
-    return outputData;
+    return latestData;
   }
   
   // Initialize AI models only if we have articles to process
@@ -462,8 +486,8 @@ async function processArticlesWithAI() {
   // Sort by publication date (newest first)
   allProcessedArticles.sort((a, b) => new Date(b.pubDate || b.published_at) - new Date(a.pubDate || a.published_at));
   
-  // Save processed data
-  const outputData = {
+  // Create data for latest file (contains ALL articles)
+  const latestData = {
     ...rawData,
     articles: allProcessedArticles,
     processedAt: new Date().toISOString(),
@@ -474,16 +498,42 @@ async function processArticlesWithAI() {
     existingArticlesKept: existingProcessed.articles.length
   };
   
-  // Save to both latest and date-specific files
+  // Create data for daily file (contains ONLY today's articles)
   const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+  const todayStart = new Date(today + 'T00:00:00.000Z');
+  const todayEnd = new Date(today + 'T23:59:59.999Z');
+  
+  // Filter articles that were published or processed today
+  const todaysArticles = allProcessedArticles.filter(article => {
+    const pubDate = new Date(article.pubDate || article.published_at);
+    const processedDate = new Date(article.processed_at || article.crawledAt);
+    
+    // Include articles published today OR processed today
+    return (pubDate >= todayStart && pubDate <= todayEnd) || 
+           (processedDate >= todayStart && processedDate <= todayEnd);
+  });
+  
+  const dailyData = {
+    ...rawData,
+    articles: todaysArticles,
+    processedAt: new Date().toISOString(),
+    totalArticles: todaysArticles.length,
+    categories: [...new Set(todaysArticles.map(a => a.category))],
+    processingMethod: useAI ? 'ai-powered' : 'rule-based',
+    newArticlesProcessed: newlyProcessedArticles.length,
+    dailyArticlesCount: todaysArticles.length,
+    filterDate: today
+  };
+  
+  // Save files
   const latestPath = path.join(__dirname, '../data/latest-processed.json');
   const datePath = path.join(__dirname, `../data/${today}-processed.json`);
   
-  // Save latest file (for current site build)
-  await fs.writeFile(latestPath, JSON.stringify(outputData, null, 2));
+  // Save latest file (for current site build) - contains ALL articles
+  await fs.writeFile(latestPath, JSON.stringify(latestData, null, 2));
   
-  // Save date-specific file (for historical tracking)
-  await fs.writeFile(datePath, JSON.stringify(outputData, null, 2));
+  // Save date-specific file (for historical tracking) - contains ONLY today's articles
+  await fs.writeFile(datePath, JSON.stringify(dailyData, null, 2));
   
   // Save updated rejected articles cache if we have new rejections
   if (newlyRejectedArticles.length > 0) {
@@ -524,11 +574,11 @@ async function processArticlesWithAI() {
     const threshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
     console.log(`🚫 Rejected ${rejectedLowConfidence} articles with confidence < ${(threshold * 100).toFixed(0)}%`);
   }
-  console.log(`💾 Saved to: ${latestPath}`);
-  console.log(`📅 Historical backup: ${datePath}`);
+  console.log(`💾 Saved to: ${latestPath} (${allProcessedArticles.length} total articles)`);
+  console.log(`📅 Historical backup: ${datePath} (${todaysArticles.length} today's articles)`);
   console.log('🎉 AI processing completed successfully!');
   
-  return outputData;
+  return latestData;
 }
 
 // Run if called directly
