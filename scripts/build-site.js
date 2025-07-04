@@ -291,16 +291,19 @@ async function buildSite(selectedDate = null) {
         </div>
       </a>
 
-            <!-- Desktop Controls (visible on lg+) -->
-      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end" style="margin-right: 2rem;">
+      <!-- Spacer to push controls to the right -->
+      <div class="flex-grow-1"></div>
+
+      <!-- Desktop Controls (visible on lg+) -->
+      <div class="d-none d-lg-flex align-items-center gap-2 navbar-controls-right">
         <!-- Search -->
-        <div class="input-group" style="max-width: 300px;">
-          <input type="text" id="searchInput" class="form-control" placeholder="Search articles...">
-          <button id="clearSearch" class="btn btn-outline-secondary">Clear</button>
+        <div class="input-group search-group">
+          <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Search articles...">
+          <button id="clearSearch" class="btn btn-outline-secondary btn-sm">Clear</button>
         </div>
         
         <!-- Date Selector -->
-        <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
+        <select id="dateSelect" class="form-select form-select-sm date-select-desktop" title="Select date">
           <option value="">All</option>
           ${availableDates.map(date => 
             `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${formatDateLabel(date)}</option>`
@@ -308,12 +311,12 @@ async function buildSite(selectedDate = null) {
         </select>
         
         <!-- Theme Toggle -->
-        <button id="themeToggle" class="btn btn-outline-light" title="Toggle theme">
+        <button id="themeToggle" class="btn btn-outline-light btn-sm theme-toggle-desktop" title="Toggle theme">
           <span class="theme-icon">🌙</span>
         </button>
         
         <!-- Stats -->
-        <div class="text-light small">
+        <div class="text-light small stats-desktop">
           <span id="showCount">${articles.length}</span> of <span id="totalCount">${articles.length}</span> articles
         </div>
       </div>
