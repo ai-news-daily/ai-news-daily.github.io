@@ -317,7 +317,7 @@ async function buildSite(selectedDate = null) {
         
         <!-- Stats -->
         <div class="text-light small stats-desktop">
-          <span id="showCount">${articles.length}</span> of <span id="totalCount">${articles.length}</span> articles
+          <span id="showCount">${articles.length}</span>/<span id="totalCount">${articles.length}</span>
         </div>
       </div>
 
@@ -356,7 +356,7 @@ async function buildSite(selectedDate = null) {
             <!-- Row 2: Article Count Badge (Centered) -->
             <div class="d-flex justify-content-center">
               <div class="mobile-stats-badge">
-                <span id="showCountMobile">${articles.length}</span> of <span id="totalCountMobile">${articles.length}</span> articles
+                <span id="showCountMobile">${articles.length}</span>/<span id="totalCountMobile">${articles.length}</span>
               </div>
             </div>
           </div>

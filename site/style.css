@@ -1016,7 +1016,7 @@ body::before {
   cursor: default;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: auto;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -1134,12 +1134,13 @@ body::before {
 }
 
 /* Set Cards to 100% Height */
+/* Cards with natural content height - will be equalized by JavaScript */
 .news-item {
-  height: 100vh !important;
-  max-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
   overflow: hidden;
 }
-
 /* Beautiful entity tags */
 .entities {
   margin-bottom: 1.5rem;
@@ -2195,24 +2196,24 @@ html {
     font-weight: 600;
   }
   
-  [data-theme="light"] .mobile-stats-badge {
-    background: rgba(0, 0, 0, 0.08) !important;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    color: #1e293b !important;
-  }
-}
-
-/* Light Mode Desktop Stats Enhancement - Keep navbar dark, just style the stats text */
-[data-theme="light"] .custom-navbar .text-light.small {
-  background: rgba(255, 255, 255, 0.9) !important;
+[data-theme="light"] .mobile-stats-badge {
+  background: transparent !important;
+  border: none !important;
   color: #1e293b !important;
-  padding: 0.375rem 0.75rem !important;
-  border-radius: 12px !important;
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
-  font-weight: 600 !important;
-  backdrop-filter: blur(10px) !important;
-}
+  padding: 0 !important;
+  font-weight: 500 !important;
+}}
 
+/* Light Mode Desktop Stats Enhancement - remove button styling */
+[data-theme="light"] .custom-navbar .text-light.small {
+  background: transparent !important;
+  color: #1e293b !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  font-weight: 500 !important;
+  backdrop-filter: none !important;
+}
 /* Article Actions */
 .article-actions {
   margin-top: 1rem;
@@ -2595,11 +2596,12 @@ html {
 }
 
 [data-theme="light"] .mobile-stats-badge {
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  color: #1e293b;
+  background: transparent !important;
+  border: none !important;
+  color: #1e293b !important;
+  padding: 0 !important;
+  font-weight: 500 !important;
 }
-
 /* Enhanced Navbar Controls - TRULY Right Aligned */
 .navbar-controls-right {
   margin-right: 1rem !important;
@@ -2669,11 +2671,12 @@ html {
 }
 
 [data-theme="light"] .mobile-stats-badge {
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  color: #1e293b;
+  background: transparent !important;
+  border: none !important;
+  color: #1e293b !important;
+  padding: 0 !important;
+  font-weight: 500 !important;
 }
-
 /* Light theme adjustments for right-aligned controls */
 [data-theme="light"] .navbar-controls-right .search-group input {
   background: rgba(0, 0, 0, 0.05);
@@ -2755,12 +2758,6 @@ html {
   z-index: 10 !important;
 }
 
-/* Set Cards to 100% Height */
-.news-item {
-  height: 100vh !important;
-  max-height: 100vh !important;
-  overflow: hidden;
-}
 
 /* Ensure content fits properly in 90vh cards */
 .news-item .source-bar {
@@ -2867,12 +2864,7 @@ html {
 }
 
 /* Low confidence styling */
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
-  border-color: rgba(245, 158, 11, 0.3) !important;
-}
 
-  border-top-color: rgba(245, 158, 11, 0.9) !important;
-}
 
 .article-card .metadata {
   overflow: visible !important;
@@ -2920,25 +2912,14 @@ html {
 }
 
 /* Low confidence styling */
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
-  border-color: rgba(245, 158, 11, 0.3) !important;
-}
 
-  border-top-color: rgba(245, 158, 11, 0.9) !important;
-}
 
 .article-card .metadata {
   overflow: visible !important;
 }
 
-  border-bottom-color: rgba(245, 158, 11, 0.9) !important;
-}
 
-  border-bottom-color: rgba(16, 185, 129, 0.9) !important;
-}
 
-  border-bottom-color: rgba(245, 158, 11, 0.9) !important;
-}
 
 /* Difficulty Specific Styling */
 .difficulty::after {
@@ -2961,12 +2942,7 @@ html {
 }
 
 /* Low confidence styling */
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
-  border-color: rgba(245, 158, 11, 0.3) !important;
-}
 
-  border-top-color: rgba(245, 158, 11, 0.9) !important;
-}
 
 /* Difficulty specific styling */
 .difficulty::after {
@@ -2989,12 +2965,7 @@ html {
 }
 
 /* Low confidence styling */
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.95) 0%, rgba(249, 115, 22, 0.98) 100%) !important;
-  border-color: rgba(245, 158, 11, 0.4) !important;
-}
 
-  border-top-color: rgba(245, 158, 11, 0.95) !important;
-}
 
 .difficulty.show-below::before,
 .confidence.show-below::before {
@@ -3010,9 +2981,6 @@ html {
 
 .confidence.show-below::before {
   border-bottom-color: rgba(16, 185, 129, 0.95) !important;
-}
-
-  border-bottom-color: rgba(245, 158, 11, 0.95) !important;
 }
 
 /* Enhanced hover effects */
@@ -3040,10 +3008,6 @@ html {
 .col,
 .col-* {
   overflow: visible !important;
-}
-/* Alternative selector for browsers that don't support :has() */
-  overflow: visible !important;
-  z-index: 999 !important;
 }
 /* Mobile adjustments for better readability */
 @media (max-width: 768px) {

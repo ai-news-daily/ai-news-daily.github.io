@@ -407,9 +407,10 @@ function syncMobileControls() {
   }
 }
 
-// Handle window resize to reinitialize mobile state
+// Handle window resize to reinitialize mobile state and equalize card heights
 window.addEventListener('resize', debounce(() => {
   initializeMobileMenu();
+  equalizeCardHeights();
 }, 250));
 
 // Handle search input
@@ -729,6 +730,36 @@ function updateDisplay() {
   const hasMore = articlesToShow.length < filteredArticles.length;
   loadMoreBtn.style.display = hasMore ? 'block' : 'none';
   loadMoreBtn.disabled = !hasMore;
+  
+  // Equalize card heights after a short delay to allow rendering
+  setTimeout(equalizeCardHeights, 100);
+}
+
+// Equalize card heights to make all cards the same size
+function equalizeCardHeights() {
+  const cards = document.querySelectorAll('.news-item');
+  if (cards.length === 0) return;
+  
+  // Reset heights first
+  cards.forEach(card => {
+    card.style.height = 'auto';
+  });
+  
+  // Get the maximum height
+  let maxHeight = 0;
+  cards.forEach(card => {
+    const height = card.offsetHeight;
+    if (height > maxHeight) {
+      maxHeight = height;
+    }
+  });
+  
+  // Set all cards to the maximum height
+  cards.forEach(card => {
+    card.style.height = `${maxHeight}px`;
+  });
+  
+  console.log(`✅ Equalized ${cards.length} cards to ${maxHeight}px height`);
 }
 
 // Update mobile context subtitle based on active filters
