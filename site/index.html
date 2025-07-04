@@ -30,7 +30,7 @@
   
   <!-- Bootstrap Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
-    <div class="container-fluid">
+    <div class="container-fluid px-3">
       <!-- Brand -->
       <a class="navbar-brand d-flex align-items-center" href="#">
         <div class="logo-icon me-2">
@@ -71,27 +71,30 @@
         </div>
       </a>
 
-            <!-- Desktop Controls (visible on lg+) -->
-      <div class="d-none d-lg-flex align-items-center gap-3 flex-grow-1 justify-content-end" style="margin-right: 2rem;">
+      <!-- Spacer to push controls to the right -->
+      <div class="flex-grow-1"></div>
+
+      <!-- Desktop Controls (visible on lg+) -->
+      <div class="d-none d-lg-flex align-items-center gap-2 navbar-controls-right">
         <!-- Search -->
-        <div class="input-group" style="max-width: 300px;">
-          <input type="text" id="searchInput" class="form-control" placeholder="Search articles...">
-          <button id="clearSearch" class="btn btn-outline-secondary">Clear</button>
+        <div class="input-group search-group">
+          <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Search articles...">
+          <button id="clearSearch" class="btn btn-outline-secondary btn-sm">Clear</button>
         </div>
         
         <!-- Date Selector -->
-        <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
+        <select id="dateSelect" class="form-select form-select-sm date-select-desktop" title="Select date">
           <option value="">All</option>
           <option value="2025-07-04" selected>Today</option><option value="2025-07-03" >Yesterday</option><option value="2025-07-02" >2025-07-02</option><option value="2025-07-01" >2025-07-01</option><option value="2025-06-30" >2025-06-30</option>
         </select>
         
         <!-- Theme Toggle -->
-        <button id="themeToggle" class="btn btn-outline-light" title="Toggle theme">
+        <button id="themeToggle" class="btn btn-outline-light btn-sm theme-toggle-desktop" title="Toggle theme">
           <span class="theme-icon">🌙</span>
         </button>
         
         <!-- Stats -->
-        <div class="text-light small">
+        <div class="text-light small stats-desktop">
           <span id="showCount">124</span> of <span id="totalCount">124</span> articles
         </div>
       </div>
@@ -394,7 +397,7 @@
         Amjad Masad says true AGI means an AI that can enter new situations and quickly learn how to achieve goals - The real breakthrough will come when AI can train itself -- like AlphaGo playing billions of games against itself
       </h3>
       
-      <p class="article-summary">Joe Rogan Experience #2344 - Amjad Masad:   "WfmrEa0L08E" is a video from Haider.com.</p>
+      <p class="article-summary">Joe Rogan Experience #2344 - Amjad Masad:   "WfmrEa0L08E" is a video from Haider.com.</p>
       
       
       <div class="entities">
@@ -1168,7 +1171,7 @@
         RouteGPT - dynamic model selector for chatGPT based on your usage preferences
       </h3>
       
-      <p class="article-summary">The extension is a Chrome extension for ChatGPT. It lets you control which OpenAI model is used, depending on the kind of prompt you’re sending.</p>
+      <p class="article-summary">The extension is a Chrome extension for ChatGPT. It lets you control which OpenAI model is used, depending on the kind of prompt you're sending.</p>
       
       
       
@@ -1351,7 +1354,7 @@
       </div>
       
       <h3 class="article-title">
-        Taming OpenAI’s Built-In Retrieval: My Take on Constraints, Gaps, and Costs
+        Taming OpenAI's Built-In Retrieval: My Take on Constraints, Gaps, and Costs
       </h3>
       
       <p class="article-summary">Community discussion about AI developments and related topics.</p>
@@ -1506,7 +1509,7 @@
         Build Effective AI Agents the simple way
       </h3>
       
-      <p class="article-summary">The best setups don’t use huge frameworks or fancy tools. They break tasks. The best setup don”t use big frameworks or Fancy tools.</p>
+      <p class="article-summary">The best setups don't use huge frameworks or fancy tools. They break tasks. The best setup don"t use big frameworks or Fancy tools.</p>
       
       
       
@@ -1940,7 +1943,7 @@
         CROP: Circuit Retrieval and Optimization with Parameter Guidance using LLMs
       </h3>
       
-      <p class="article-summary">Design requires the implementation of integrated circuits using electronic design automation (EDA) tools. Du Du: "Modern very large-scale integration (VLSI) design requires the Implementation of integrated integrated circuits.</p>
+      <p class="article-summary">Design requires the implementation of integrated circuits using electronic design automation (EDA) tools. Du Du: "Modern very large-scale integration (VLSI) design requires the Implementation of integrated integrated circuits.</p>
       
       
       
@@ -2408,7 +2411,7 @@
         PAL: Designing Conversational Agents as Scalable, Cooperative Patient Simulators for Palliative-Care Training
       </h3>
       
-      <p class="article-summary">The New Year's Day. arXiv. arxiv:      -  -  "The New Year’s Day:  ‘The New year’: ’ “The Year”:</p>
+      <p class="article-summary">The New Year's Day. arXiv. arxiv:    -  -  "The New Year's Day: 'The New year': '"The Year":</p>
       
       
       
@@ -2650,7 +2653,7 @@
         How do Software Engineering Candidates Prepare for Technical Interviews?
       </h3>
       
-      <p class="article-summary">The process involves candidates writing code while c.C.C.'s c. C.C’s C.A. C’S’C”s C‘S‘C‘s’: ‘C.A’ is a</p>
+      <p class="article-summary">The process involves candidates writing code while c.C.C.'s c. C.C's C.A. C'S'C"s C'S'C's': 'C.A' is a</p>
       
       
       <div class="entities">
@@ -3332,7 +3335,7 @@
         Fairness Pruning: Precision Surgery to Reduce Bias in LLMs
       </h3>
       
-      <p class="article-summary">The post Fairness Pruning: Precision Surgery to Reduce Bias in LLMs appeared first on Towards Data Sci.</p>
+      <p class="article-summary">The post Fairness Pruning: Precision Surgery to Reduce Bias in LLMs appeared first on Towards Data Sci.</p>
       
       
       
@@ -3555,7 +3558,7 @@
       </div>
       
       <h3 class="article-title">
-        Sakana AI’s TreeQuest: Deploy multi-model teams that outperform individual LLMs by 30%
+        Sakana AI's TreeQuest: Deploy multi-model teams that outperform individual LLMs by 30%
       </h3>
       
       <p class="article-summary">Sakana AI's new inference-time scaling technique uses Monte-Carlo Tree Search to orchestrate multiple LLMs.</p>
@@ -3812,7 +3815,7 @@
         Proof of Concept AI Music Video
       </h3>
       
-      <p class="article-summary">This is my original song called “No Ghost by Cooked Sushi.’ by Cooking Sushi.</p>
+      <p class="article-summary">This is my original song called "No Ghost by Cooked Sushi.' by Cooking Sushi.</p>
       
       
       
@@ -3874,7 +3877,7 @@
         What Happens Inside ChatGPT After You Hit Enter?
       </h3>
       
-      <p class="article-summary">“A behind-the-scenes look at how your message becomes magic’s message.’’. ‘A behind the scenes look at the way your message is made,’ says author.</p>
+      <p class="article-summary">"A behind-the-scenes look at how your message becomes magic's message.'. 'A behind the scenes look at the way your message is made,' says author.</p>
       
       
       
@@ -4153,7 +4156,7 @@
       </div>
       
       <h3 class="article-title">
-        I Built My Wife a Simple Web App for Image Editing Using Flux Kontext—Now It’s Open Source
+        I Built My Wife a Simple Web App for Image Editing Using Flux Kontext—Now It's Open Source
       </h3>
       
       <p class="article-summary">Discussion about AI-powered creative content generation and tools.</p>
