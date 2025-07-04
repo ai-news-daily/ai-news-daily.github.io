@@ -1,9 +1,417 @@
 {
-  "crawledAt": "2025-07-04T15:59:03.090Z",
+  "crawledAt": "2025-07-04T16:53:26.381Z",
   "totalSources": 70,
-  "totalArticles": 166,
+  "totalArticles": 175,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "kappaTune: a PyTorch-based optimizer wrapper for continual learning via selective fine-tuning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1lrnibz/r_kappatune_a_pytorchbased_optimizer_wrapper_for/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:51:03.000Z",
+      "metaDescription": "This optimizer wrapper for continual learning is guided by the condition number (κ) of model tensors. It identifies and updates only the least anisotropic parameters to preserve pre-trained knowledge ",
+      "category": "infrastructure",
+      "difficulty": 8,
+      "confidence": 0.4826860995986023,
+      "crawledAt": "2025-07-04T16:52:02.538Z",
+      "id": "w9swfi",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9667435884475708,
+          "index": 7,
+          "word": "P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9490448236465454,
+          "index": 9,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8417233228683472,
+          "index": 11,
+          "word": "##ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This optimizer wrapper is guided by the condition number of model tensors. It identifies and updates only the least anisotropic parameters to preserve pre-trained knowledge.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:53:39.483Z"
+    },
+    {
+      "title": "i think Google News just deployed an AI-generated image for a BBC article on Ukraine?",
+      "url": "https://www.reddit.com/r/artificial/comments/1lrn0nb/i_think_google_news_just_deployed_an_aigenerated/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:30:27.000Z",
+      "metaDescription": "spotted this thumbnail, was very suspicious of it. clicked the link and the image doesn't appear anywhere in the BBC News article.\n https://preview.redd.it/5mqw8pjpwvaf1.png?width=296&format=png&auto=",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.3750710053669598,
+      "crawledAt": "2025-07-04T16:52:09.255Z",
+      "id": "9l8pbx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9988639950752258,
+          "index": 3,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9973547458648682,
+          "index": 4,
+          "word": "News",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9992451071739197,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9974323511123657,
+          "index": 14,
+          "word": "BBC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9995039105415344,
+          "index": 17,
+          "word": "Ukraine",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI-powered creative content generation and tools.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:53:39.943Z"
+    },
+    {
+      "title": "Leaks hint at Operator-like tool in ChatGPT ahead of GPT-5 launch",
+      "url": "https://www.reddit.com/r/singularity/comments/1lrmyu8/leaks_hint_at_operatorlike_tool_in_chatgpt_ahead/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-04T16:28:25.000Z",
+      "metaDescription": "submitted by    /u/Neat_Finance1774  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 6,
+      "confidence": 0.6795894422740776,
+      "crawledAt": "2025-07-04T16:52:13.658Z",
+      "id": "mizwen",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9323341846466064,
+          "index": 5,
+          "word": "Opera",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.927676796913147,
+          "index": 6,
+          "word": "##tor",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9923544526100159,
+          "index": 17,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9738214015960693,
+          "index": 18,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9056759476661682,
+          "index": 20,
+          "word": "5",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:53:40.135Z"
+    },
+    {
+      "title": "Explainable Anomaly Detection with RuleFit: An Intuitive Guide",
+      "url": "https://towardsdatascience.com/explainable-anomaly-detection-with-rulefit-an-intuitive-guide/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:15:52.000Z",
+      "metaDescription": "Creating interpretable rules to characterize the identified anomalies\nThe post Explainable Anomaly Detection with RuleFit: An Intuitive Guide appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.32429811933875224,
+      "crawledAt": "2025-07-04T16:51:24.347Z",
+      "id": "d839r3",
+      "entities": [],
+      "summary": " The post Explainable Anomaly Detection with RuleFit: An Intuitive Guide. Creating interpretable rules to characterize the identified anomalies.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:54:11.223Z"
+    },
+    {
+      "title": "I built a GUI tool for FLUX LoRA manipulation - advanced layer merging, face and style pre-sets, subtraction, layer zeroing, metadata editing and more. Tried to build what I wanted, something easy.",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lrmnfj/i_built_a_gui_tool_for_flux_lora_manipulation/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-04T16:14:38.000Z",
+      "metaDescription": "Hey everyone,\n I've been working on a tool called LoRA the Explorer - it's a GUI for advanced FLUX LoRA manipulation. Got tired of CLI-only options and wanted something more accessible.\n What it does:",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4274426962569095,
+      "crawledAt": "2025-07-04T16:52:32.324Z",
+      "id": "w5yjmt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.878212034702301,
+          "index": 4,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.94334876537323,
+          "index": 8,
+          "word": "FL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9151479005813599,
+          "index": 11,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.966083288192749,
+          "index": 12,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LoRA the Explorer is a GUI for advanced FLUX LoRA manipulation. It's a GUI tool for advanced LoRA manipulations.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:54:37.645Z"
+    },
+    {
+      "title": "How to get back the old chatgpt",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1lrmlbu/how_to_get_back_the_old_chatgpt/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:12:04.000Z",
+      "metaDescription": "I dont want this gen z ass ai model i want a more mature version. How to get back the old one?\n    submitted by    /u/Odd-Musician-6697  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.30164962248458843,
+      "crawledAt": "2025-07-04T16:52:18.019Z",
+      "id": "a5lrfg",
+      "entities": [],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:54:37.881Z"
+    },
+    {
+      "title": "Self-Correction Bench: Revealing and Addressing the Self-Correction Blind Spot in LLMs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1lrmic2/r_selfcorrection_bench_revealing_and_addressing/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:08:38.000Z",
+      "metaDescription": "I recently released this preprint benchmarking LLM capability of self-correction.\n The Problem: LLM self-correction is important for reliability, but it's hard to benchmark because naturally occurring",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.30978765248878787,
+      "crawledAt": "2025-07-04T16:52:01.567Z",
+      "id": "altvyw",
+      "entities": [],
+      "summary": " LLM self-correction is important for reliability, but it's hard to benchmark because naturally occurring. I recently released this preprint benchmarking LLM capability of self- Correction.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:54:50.055Z"
+    },
+    {
+      "title": "Elon Musk confirms xAI is buying an overseas power plant and shipping the whole thing to the U.S. to power its new data center — 1 million AI GPUs and up to 2 Gigawatts of power under one roof, equivalent to powering 1.9 million homes",
+      "url": "https://www.reddit.com/r/singularity/comments/1lrmcfp/elon_musk_confirms_xai_is_buying_an_overseas/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-04T16:01:56.000Z",
+      "metaDescription": "submitted by    /u/occupyOneillrings  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 9,
+      "confidence": 0.5132237485523443,
+      "crawledAt": "2025-07-04T16:52:12.329Z",
+      "id": "cw44zy",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9993093609809875,
+          "index": 1,
+          "word": "El",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9985847473144531,
+          "index": 2,
+          "word": "##on",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9991157054901123,
+          "index": 3,
+          "word": "Mu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9949102401733398,
+          "index": 4,
+          "word": "##sk",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9982868432998657,
+          "index": 6,
+          "word": "x",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9977254271507263,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9951056241989136,
+          "index": 8,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9995426535606384,
+          "index": 22,
+          "word": "U",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9795024991035461,
+          "index": 23,
+          "word": ".",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9970688819885254,
+          "index": 24,
+          "word": "S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9737732410430908,
+          "index": 25,
+          "word": ".",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8829590678215027,
+          "index": 43,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2025-07-04T16:55:10.364Z"
+    },
+    {
+      "title": "\"Rethinking the Illusion of Thinking\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1lrlv6w/rethinking_the_illusion_of_thinking/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-04T15:42:09.000Z",
+      "metaDescription": "Yet another response to the (in)famous Apple paper. https://www.arxiv.org/pdf/2507.01231 \n \"Earlier this year, Apple ignited controversy by publishing \"The Illusion of Thinking,\" prompting heated deba",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.35465692727984893,
+      "crawledAt": "2025-07-04T16:52:14.704Z",
+      "id": "jtnng",
+      "entities": [],
+      "summary": " \"Earlier this year, Apple ignited controversy by publishing \"The Illusion of Thinking,\" prompting heated deba. Yet another response to the (in-famous Apple paper)",
+      "language": "en",
+      "processed_at": "2025-07-04T16:55:21.228Z"
+    },
     {
       "title": "How are the casual users here using LLMs or/and MCPs?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lrlmco/how_are_the_casual_users_here_using_llms_orand/",
@@ -5389,21 +5797,21 @@
       "processed_at": "2025-07-04T16:02:39.731Z"
     }
   ],
-  "processedAt": "2025-07-04T16:02:39.735Z",
+  "processedAt": "2025-07-04T16:55:21.231Z",
   "categories": [
     "infrastructure",
-    "model-release",
-    "creative-ai",
-    "ai-agents",
-    "safety-ethics",
-    "product-launch",
-    "industry-news",
-    "research-paper",
     "developer-tool",
+    "product-launch",
+    "creative-ai",
+    "research-paper",
+    "ai-agents",
+    "model-release",
+    "safety-ethics",
+    "industry-news",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 17,
-  "dailyArticlesCount": 166,
+  "newArticlesProcessed": 9,
+  "dailyArticlesCount": 175,
   "filterDate": "2025-07-04"
 }
