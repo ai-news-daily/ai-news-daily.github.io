@@ -5,6 +5,22 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Helper function to format date labels
+function formatDateLabel(date) {
+  if (!date) return 'All';
+  
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+  
+  const todayStr = today.toISOString().split('T')[0];
+  const yesterdayStr = yesterday.toISOString().split('T')[0];
+  
+  if (date === todayStr) return 'Today';
+  if (date === yesterdayStr) return 'Yesterday';
+  return date;
+}
+
 // Time ago helper
 function timeAgo(dateString) {
   const now = new Date();
@@ -287,7 +303,7 @@ async function buildSite(selectedDate = null) {
         <select id="dateSelect" class="form-select" style="max-width: 150px;" title="Select date">
           <option value="">All</option>
           ${availableDates.map(date => 
-            `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${date}</option>`
+            `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${formatDateLabel(date)}</option>`
           ).join('')}
         </select>
         
@@ -325,7 +341,7 @@ async function buildSite(selectedDate = null) {
               <select id="dateSelectMobile" class="form-select form-select-sm mobile-control-input">
                 <option value="">All</option>
                 ${availableDates.map(date => 
-                  `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${date}</option>`
+                  `<option value="${date}" ${defaultUIDate === date ? 'selected' : ''}>${formatDateLabel(date)}</option>`
                 ).join('')}
               </select>
               
