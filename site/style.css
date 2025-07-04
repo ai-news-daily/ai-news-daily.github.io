@@ -1541,6 +1541,13 @@ body::before {
     padding-bottom: 0;
   }
   
+  /* Fix: Reduce brand title size for mobile to prevent cropping */
+  .brand-title {
+    font-size: 1.25rem !important; /* Reduced from 1.85rem */
+    line-height: 1.2 !important;
+    letter-spacing: -0.5px !important;
+  }
+  
   /* Switch to medium subtitle on tablets */
   .brand-subtitle-full {
     display: none;
@@ -1548,9 +1555,9 @@ body::before {
   
   .brand-subtitle-medium {
     display: block;
-    font-size: 0.75rem;
-    line-height: 1.3;
-    margin-top: 1px;
+    font-size: 0.65rem;
+    line-height: 1.2;
+    margin-top: 0px; /* Reduced from 1px */
   }
   
   .brand-subtitle-short {
@@ -1560,11 +1567,31 @@ body::before {
   .navbar-brand {
     min-width: 0; /* Allow text to wrap */
     flex: 1; /* Take available space */
+    padding: 0.25rem 0; /* Add vertical padding to prevent cropping */
   }
   
   .brand-text {
     min-width: 0; /* Allow text to wrap */
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Ensure navbar has sufficient height for content */
+  .custom-navbar {
+    min-height: 60px; /* Ensure minimum height */
+  }
+  
+  /* Fix: Reduce logo icon size for better proportion */
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logo-icon svg {
+    width: 24px;
+    height: 24px;
   }
   
   /* Hide desktop filters on mobile by default */
@@ -1770,8 +1797,8 @@ body::before {
     height: 20px;
   }
   
-  .logo-title {
-    font-size: 1.125rem; /* Smaller title */
+  .brand-title {
+    font-size: 1.125rem !important; /* Smaller title for very small screens */
   }
   
   /* Switch to shortest subtitle on very small screens */
@@ -1784,7 +1811,7 @@ body::before {
     display: block;
     font-size: 0.625rem;
     line-height: 1.2;
-    margin-top: 1px;
+    margin-top: 0px; /* Remove extra margin */
   }
   
   .search-input {
@@ -2361,8 +2388,8 @@ html {
 }
 
 .navbar-controls .search-group {
-  max-width: 280px;
-  min-width: 200px;
+  max-width: 350px;
+  min-width: 250px;
 }
 
 .navbar-controls .search-group input {
@@ -2383,8 +2410,8 @@ html {
 }
 
 .navbar-controls .date-select-desktop {
-  max-width: 140px;
-  min-width: 120px;
+  max-width: 110px;
+  min-width: 90px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
@@ -2466,13 +2493,13 @@ html {
 /* Responsive breakpoints */
 @media (max-width: 1200px) {
   .navbar-controls .search-group {
-    max-width: 240px;
-    min-width: 180px;
+    max-width: 300px;
+    min-width: 220px;
   }
   
   .navbar-controls .date-select-desktop {
-    max-width: 120px;
-    min-width: 100px;
+    max-width: 100px;
+    min-width: 80px;
   }
 }
 
@@ -2482,8 +2509,8 @@ html {
   }
   
   .navbar-controls .search-group {
-    max-width: 220px;
-    min-width: 160px;
+    max-width: 280px;
+    min-width: 200px;
   }
   
   .navbar-controls .stats-desktop {
@@ -2573,6 +2600,17 @@ html {
   z-index: 10;
 }
 
+/* Base width rules for navbar-controls-right */
+.navbar-controls-right .search-group {
+  max-width: 350px;
+  min-width: 250px;
+}
+
+.navbar-controls-right .date-select-desktop {
+  max-width: 110px;
+  min-width: 90px;
+}
+
 /* Force right alignment on larger screens */
 @media (min-width: 1400px) {
   .navbar-controls-right {
@@ -2593,13 +2631,13 @@ html {
   }
   
   .navbar-controls-right .search-group {
-    max-width: 240px;
-    min-width: 180px;
+    max-width: 300px;
+    min-width: 220px;
   }
   
   .navbar-controls-right .date-select-desktop {
-    max-width: 120px;
-    min-width: 100px;
+    max-width: 100px;
+    min-width: 80px;
   }
 }
 
@@ -2609,8 +2647,8 @@ html {
   }
   
   .navbar-controls-right .search-group {
-    max-width: 200px;
-    min-width: 160px;
+    max-width: 280px;
+    min-width: 200px;
   }
   
   .navbar-controls-right .stats-desktop {

@@ -286,7 +286,7 @@ async function buildSite(selectedDate = null) {
         <div class="brand-text">
           <div class="brand-title">AI News Daily</div>
           <div class="brand-subtitle brand-subtitle-full">Your daily source for cutting-edge AI breakthroughs • ${articles.length}+ stories curated</div>
-          <div class="brand-subtitle brand-subtitle-medium">${articles.length}+ AI stories • Updated daily</div>
+          <div class="brand-subtitle brand-subtitle-medium">${articles.length}+ AI stories</div>
           <div class="brand-subtitle brand-subtitle-short">${articles.length}+ stories</div>
         </div>
       </a>

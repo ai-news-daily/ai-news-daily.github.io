@@ -181,7 +181,7 @@ function updatePageMetadata(selectedDate) {
     logoSubtitleFull.textContent = `Your daily source for cutting-edge AI breakthroughs • ${articleCount}+ stories curated`;
   }
   if (logoSubtitleMedium) {
-    logoSubtitleMedium.textContent = `${articleCount}+ AI stories • Updated daily`;
+    logoSubtitleMedium.textContent = `${articleCount}+ AI stories`;
   }
   if (logoSubtitleShort) {
     logoSubtitleShort.textContent = `${articleCount}+ stories`;
@@ -722,7 +722,7 @@ function updateMobileContextSubtitle() {
   if (activeFilters.length > 0) {
     subtitle = `Filtered: ${activeFilters.join(' • ')}`;
   } else {
-    subtitle = `Curated from ${uniqueSourceCount}+ trusted sources • Updated daily`;
+    subtitle = `Curated from ${uniqueSourceCount}+ trusted sources`;
   }
   
   subtitleEl.textContent = subtitle;
