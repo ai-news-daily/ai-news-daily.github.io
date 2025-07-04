@@ -251,8 +251,10 @@ function setupEventListeners() {
     dateSelect.addEventListener('change', handleDateChange);
   }
   
-  // Theme toggle
-  themeToggle.addEventListener('click', toggleTheme);
+  // Theme toggle - add null check
+  if (themeToggle) {
+    themeToggle.addEventListener('click', toggleTheme);
+  }
   
   // Load more
   loadMoreBtn.addEventListener('click', loadMore);
@@ -330,42 +332,76 @@ function syncMobileControls() {
   const themeToggle = document.getElementById('themeToggle');
   const themeToggleMobile = document.getElementById('themeToggleMobile');
   
-  // Sync search inputs
-  if (searchInput && searchInputMobile) {
-    searchInput.addEventListener('input', (e) => {
-      searchInputMobile.value = e.target.value;
-    });
-    searchInputMobile.addEventListener('input', (e) => {
-      searchInput.value = e.target.value;
-      handleSearch(e);
-    });
+  // Remove existing event listeners to prevent duplicates
+  if (searchInputMobile && !searchInputMobile.hasAttribute('data-synced')) {
+    searchInputMobile.setAttribute('data-synced', 'true');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchInputMobile.value = e.target.value;
+      });
+      searchInputMobile.addEventListener('input', (e) => {
+        searchInput.value = e.target.value;
+        handleSearch(e);
+      });
+    }
   }
-  
-  // Clear buttons are now handled in setupEventListeners
-  // No need for additional sync here
   
   // Sync date selectors
-  if (dateSelect && dateSelectMobile) {
-    dateSelect.addEventListener('change', (e) => {
-      dateSelectMobile.value = e.target.value;
-    });
-    dateSelectMobile.addEventListener('change', (e) => {
-      dateSelect.value = e.target.value;
-      handleDateChange(e);
-    });
+  if (dateSelectMobile && !dateSelectMobile.hasAttribute('data-synced')) {
+    dateSelectMobile.setAttribute('data-synced', 'true');
+    if (dateSelect) {
+      dateSelect.addEventListener('change', (e) => {
+        dateSelectMobile.value = e.target.value;
+      });
+      dateSelectMobile.addEventListener('change', (e) => {
+        dateSelect.value = e.target.value;
+        handleDateChange(e);
+      });
+    }
   }
   
-  // Sync theme toggles
-  if (themeToggle && themeToggleMobile) {
-    themeToggleMobile.addEventListener('click', () => {
-      toggleTheme();
+  // Sync theme toggles - prevent duplicate listeners and add mobile reliability
+  if (themeToggleMobile && !themeToggleMobile.hasAttribute('data-synced')) {
+    themeToggleMobile.setAttribute('data-synced', 'true');
+    
+    // Add multiple event types for better mobile compatibility
+    ['click', 'touchend'].forEach(eventType => {
+      themeToggleMobile.addEventListener(eventType, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Force theme toggle with mobile-specific handling
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        // Double-check theme change on mobile
+        setTheme(newTheme);
+        
+        // Verify theme change after a brief delay (mobile-specific)
+        setTimeout(() => {
+          const actualTheme = document.documentElement.getAttribute('data-theme');
+          if (actualTheme !== newTheme) {
+            // Force the theme change if it didn't take effect
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Force icon update
+            const icons = document.querySelectorAll('.theme-icon');
+            icons.forEach(icon => {
+              icon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            });
+          }
+        }, 50);
+      }, { passive: false });
     });
   }
   
   // Mobile theme hint button
   const mobileThemeHint = document.getElementById('mobileThemeHint');
-  if (mobileThemeHint) {
-    mobileThemeHint.addEventListener('click', () => {
+  if (mobileThemeHint && !mobileThemeHint.hasAttribute('data-synced')) {
+    mobileThemeHint.setAttribute('data-synced', 'true');
+    mobileThemeHint.addEventListener('click', (e) => {
+      e.preventDefault();
       toggleTheme();
     });
   }
@@ -745,7 +781,6 @@ function createArticleElement(article) {
   
   // AI confidence and difficulty indicators
   const confidenceIcon = confidence > 0.8 ? '✅' : '❓';
-  const confidenceTitle = confidence > 0.8 ? 'High confidence AI categorization' : 'Lower confidence - manual review suggested';
   
   // Process entities safely
   const entities = article.entities || [];
@@ -762,7 +797,7 @@ function createArticleElement(article) {
   
   // AI summary
   const summary = article.summary || '';
-  const summaryHTML = summary ? `<p class="article-summary">${summary.trim()}</p>` : '';
+  const summaryHTML = summary ? `<hr><p class="article-summary">${summary.trim()}</p>` : '';
   
   // Entity section
   const entitiesHTML = entityTagsHTML ? `<div class="entities">${entityTagsHTML}</div>` : '';
@@ -776,6 +811,7 @@ function createArticleElement(article) {
       </div>
       
       <h3 class="article-title">
+        <span class="indicator-label">Title:</span>
         ${article.title || 'Untitled Article'}
       </h3>
       
@@ -785,8 +821,16 @@ function createArticleElement(article) {
       
       <div class="metadata">
         <span class="category category-${category.replace(/[^a-z0-9]/gi, '-')}">${category}</span>
-        <span class="difficulty" title="Difficulty level: ${difficulty}/10">★${difficulty}</span>
-        <span class="confidence" title="${confidenceTitle}">${confidenceIcon}</span>
+        <div class="indicators">
+          <span class="indicator-item">
+            <span class="indicator-label">Difficulty:</span>
+            <span class="difficulty">★${difficulty}</span>
+          </span>
+          <span class="indicator-item">
+            <span class="indicator-label">Confidence:</span>
+            <span class="confidence">${confidenceIcon}</span>
+          </span>
+        </div>
       </div>
       
       <div class="article-actions">
@@ -1101,14 +1145,35 @@ function toggleTheme() {
 window.toggleTheme = toggleTheme;
 
 function setTheme(theme) {
+  // Set the theme attribute immediately
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
   
-  // Update theme toggle icons (both desktop and mobile)
-  const themeIcons = document.querySelectorAll('.theme-icon');
-  themeIcons.forEach(icon => {
-    icon.textContent = theme === 'dark' ? '☀️' : '🌙';
-  });
+  // Force a small delay to ensure DOM is ready on mobile devices
+  setTimeout(() => {
+    // Update theme toggle icons (both desktop and mobile) with force refresh
+    const themeIcons = document.querySelectorAll('.theme-icon');
+    const newIcon = theme === 'dark' ? '☀️' : '🌙';
+    
+    themeIcons.forEach(icon => {
+      icon.textContent = newIcon;
+      // Force reflow on mobile to ensure the change takes effect
+      icon.offsetHeight;
+    });
+    
+    // Update ARIA labels for accessibility
+    document.querySelectorAll('[id*="themeToggle"]').forEach(btn => {
+      btn.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
+    });
+    
+    // Force theme refresh on mobile by toggling a class
+    if (window.innerWidth <= 768) {
+      document.body.classList.toggle('theme-refresh', true);
+      setTimeout(() => {
+        document.body.classList.toggle('theme-refresh', false);
+      }, 10);
+    }
+  }, 10);
 }
 
 // Performance monitoring

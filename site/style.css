@@ -1096,34 +1096,48 @@ body::before {
   letter-spacing: -0.025em;
 }
 
-/* Beautiful AI-generated summary */
+/* AI Summary Highlighting */
 .article-summary {
   margin-bottom: 1.5rem;
-  padding: 1rem 1.25rem;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  border-radius: 16px;
+  padding: 1.25rem !important;
+  background: linear-gradient(135deg, 
+    rgba(139, 92, 246, 0.15) 0%,
+    rgba(99, 102, 241, 0.12) 100%) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  border-radius: 16px !important;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: rgba(241, 245, 249, 0.85) !important;
+  color: rgba(241, 245, 249, 0.95) !important;
   font-style: italic;
   position: relative;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px) !important;
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.1) !important;
 }
 
 .article-summary::before {
-  content: '🤖';
+  content: '🤖 AI Summary';
   position: absolute;
-  top: -8px;
-  left: 12px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 0 0.5rem;
-  font-size: 0.875rem;
+  top: -12px;
+  left: 16px;
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+  font-style: normal;
+}
+
+/* Set Cards to 100% Height */
+.news-item {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden;
 }
 
 /* Beautiful entity tags */
@@ -1279,7 +1293,6 @@ body::before {
   font-size: 0.8125rem;
   color: var(--warning);
   font-weight: 700;
-  cursor: help;
   letter-spacing: 0.1em;
   background: var(--surface);
   padding: 0.375rem 0.75rem;
@@ -1297,7 +1310,6 @@ body::before {
 .confidence {
   font-size: 1rem;
   font-weight: 700;
-  cursor: help;
   width: 2rem;
   height: 2rem;
   display: inline-flex;
@@ -2703,3 +2715,531 @@ html {
 [data-theme="light"] .navbar-controls-right .stats-desktop {
   color: #1e293b !important;
 }
+/* USER REQUESTED CHANGES */
+
+/* Highlight AI Summary */
+.article-summary {
+  margin-bottom: 1.5rem !important;
+  padding: 1.25rem !important;
+  background: linear-gradient(135deg, 
+    rgba(139, 92, 246, 0.15) 0%,
+    rgba(99, 102, 241, 0.12) 100%) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  border-radius: 16px !important;
+  font-size: 0.9rem !important;
+  line-height: 1.6 !important;
+  color: rgba(241, 245, 249, 0.95) !important;
+  font-style: italic !important;
+  position: relative !important;
+  backdrop-filter: blur(15px) !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.1) !important;
+}
+
+.article-summary::before {
+  content: '🤖 AI Summary' !important;
+  position: absolute !important;
+  top: -12px !important;
+  left: 16px !important;
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%) !important;
+  color: white !important;
+  padding: 0.25rem 0.75rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(139, 92, 246, 0.4) !important;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3) !important;
+  font-style: normal !important;
+  z-index: 10 !important;
+}
+
+/* Set Cards to 100% Height */
+.news-item {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden;
+}
+
+/* Ensure content fits properly in 90vh cards */
+.news-item .source-bar {
+  flex-shrink: 0 !important;
+}
+
+.news-item .article-title {
+  flex-shrink: 0 !important;
+}
+
+.news-item .entities {
+  flex-shrink: 0 !important;
+}
+
+.news-item .metadata {
+  margin-top: auto !important;
+  flex-shrink: 0 !important;
+}
+/* Horizontal Rule After Title (Before AI Summary) */
+.article-title + hr,
+.news-item hr {
+  margin: 1.5rem 0 !important;
+  border: none !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(139, 92, 246, 0.5) 20%, 
+    rgba(99, 102, 241, 0.6) 50%, 
+    rgba(139, 92, 246, 0.5) 80%, 
+    transparent 100%) !important;
+  position: relative !important;
+}
+
+.article-title + hr::before,
+.news-item hr::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -2px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 60px !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #a855f7 0%, #6366f1 100%) !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.3) !important;
+}
+
+/* Ensure proper spacing around hr */
+.news-item .article-title {
+  margin-bottom: 0.75rem !important;
+}
+
+.news-item hr + .article-summary {
+  margin-top: 0.75rem !important;
+}
+/* Difficulty Specific Styling */
+.difficulty::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.difficulty::before {
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Confidence Specific Styling */
+.confidence::after {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.9) 0%, rgba(5, 150, 105, 0.95) 100%) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.confidence::before {
+  border-top-color: rgba(16, 185, 129, 0.9) !important;
+}
+
+/* Low confidence styling */
+.confidence[title*="Lower confidence"]::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.confidence[title*="Lower confidence"]::before {
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Difficulty Specific Styling */
+.difficulty::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.difficulty::before {
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Confidence Specific Styling */
+.confidence::after {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.9) 0%, rgba(5, 150, 105, 0.95) 100%) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.confidence::before {
+  border-top-color: rgba(16, 185, 129, 0.9) !important;
+}
+
+/* Low confidence styling */
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+.article-card .metadata {
+  overflow: visible !important;
+}
+
+/* Dynamic positioning based on element position */
+.difficulty:hover::after {
+  top: calc(var(--element-top, 0px) - 12px) !important;
+  left: var(--element-left, 50%) !important;
+}
+
+.difficulty:hover::before {
+  top: calc(var(--element-top, 0px) - 6px) !important;
+  left: var(--element-left, 50%) !important;
+}
+
+.confidence:hover::after {
+  top: calc(var(--element-top, 0px) - 12px) !important;
+  left: var(--element-left, 50%) !important;
+}
+
+.confidence:hover::before {
+  top: calc(var(--element-top, 0px) - 6px) !important;
+  left: var(--element-left, 50%) !important;
+}
+
+/* Difficulty Specific Styling */
+.difficulty::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.difficulty::before {
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Confidence Specific Styling */
+.confidence::after {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.9) 0%, rgba(5, 150, 105, 0.95) 100%) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.confidence::before {
+  border-top-color: rgba(16, 185, 129, 0.9) !important;
+}
+
+/* Low confidence styling */
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+.article-card .metadata {
+  overflow: visible !important;
+}
+
+  border-bottom-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+  border-bottom-color: rgba(16, 185, 129, 0.9) !important;
+}
+
+  border-bottom-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Difficulty Specific Styling */
+.difficulty::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.difficulty::before {
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Confidence Specific Styling */
+.confidence::after {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.9) 0%, rgba(5, 150, 105, 0.95) 100%) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.confidence::before {
+  border-top-color: rgba(16, 185, 129, 0.9) !important;
+}
+
+/* Low confidence styling */
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(249, 115, 22, 0.95) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+  border-top-color: rgba(245, 158, 11, 0.9) !important;
+}
+
+/* Difficulty specific styling */
+.difficulty::after {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.95) 0%, rgba(249, 115, 22, 0.98) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+}
+
+.difficulty::before {
+  border-top-color: rgba(245, 158, 11, 0.95) !important;
+}
+
+/* Confidence specific styling */
+.confidence::after {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.95) 0%, rgba(5, 150, 105, 0.98) 100%) !important;
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+.confidence::before {
+  border-top-color: rgba(16, 185, 129, 0.95) !important;
+}
+
+/* Low confidence styling */
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.95) 0%, rgba(249, 115, 22, 0.98) 100%) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+}
+
+  border-top-color: rgba(245, 158, 11, 0.95) !important;
+}
+
+.difficulty.show-below::before,
+.confidence.show-below::before {
+  bottom: auto !important;
+  top: calc(100% + 6px) !important;
+  border-top: none !important;
+  border-bottom: 8px solid rgba(0, 0, 0, 0.95) !important;
+}
+
+.difficulty.show-below::before {
+  border-bottom-color: rgba(245, 158, 11, 0.95) !important;
+}
+
+.confidence.show-below::before {
+  border-bottom-color: rgba(16, 185, 129, 0.95) !important;
+}
+
+  border-bottom-color: rgba(245, 158, 11, 0.95) !important;
+}
+
+/* Enhanced hover effects */
+.difficulty:hover,
+.confidence:hover {
+  transform: translateY(-1px) scale(1.02) !important;
+  transition: transform 0.2s ease !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .difficulty::after,
+  .confidence::after {
+    font-size: 0.7rem !important;
+    padding: 0.6rem 0.8rem !important;
+    min-width: 180px !important;
+    max-width: 280px !important;
+  }
+}
+
+/* Ensure Bootstrap containers don't interfere */
+.container,
+.container-fluid,
+.row,
+.col,
+.col-* {
+  overflow: visible !important;
+}
+/* Alternative selector for browsers that don't support :has() */
+  overflow: visible !important;
+  z-index: 999 !important;
+}
+/* Mobile adjustments for better readability */
+@media (max-width: 768px) {
+  .difficulty::after,
+  .confidence::after {
+    max-width: 280px !important;
+    min-width: 180px !important;
+    font-size: 0.7rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+}
+/* Style the new indicator labels */
+.indicators {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.indicator-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* General indicator labels (for Difficulty and Confidence) */
+.indicator-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+/* Special styling for Title label - make it distinct */
+.article-title .indicator-label {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 50%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: none;
+  letter-spacing: 0.025em;
+  margin-right: 0.75rem;
+  padding: 0.25rem 0;
+  border-left: 3px solid #a855f7;
+  padding-left: 0.5rem;
+  opacity: 1;
+  text-shadow: none;
+  position: relative;
+}
+
+/* Add a subtle glow effect for title label */
+.article-title .indicator-label::before {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%);
+  box-shadow: 0 0 8px rgba(168, 85, 247, 0.4);
+  border-radius: 2px;
+}
+
+/* Light theme adjustments for indicator labels */
+[data-theme="light"] .indicator-label {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* Light theme for Title label */
+[data-theme="light"] .article-title .indicator-label {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-left-color: #7c3aed;
+  opacity: 1;
+}
+
+[data-theme="light"] .article-title .indicator-label::before {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  box-shadow: 0 0 6px rgba(124, 58, 237, 0.3);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .indicators {
+    gap: 0.75rem;
+  }
+  
+  .indicator-item {
+    gap: 0.375rem;
+  }
+  
+  .indicator-label {
+    font-size: 0.7rem;
+  }
+}
+/* Update metadata layout for better organization */
+.metadata {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Ensure category doesn't take too much space */
+.metadata .category {
+  flex-shrink: 0;
+}
+
+/* Mobile adjustments for metadata */
+@media (max-width: 768px) {
+  .metadata {
+    gap: 0.75rem;
+  }
+  
+  .metadata .indicators {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  .metadata {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  
+  .metadata .indicators {
+    justify-content: center;
+  }
+}
+
+/* Fix mobile title truncation issue */
+@media (max-width: 768px) {
+  /* Ensure navbar brand has enough space for full title */
+  .navbar-brand {
+    min-width: 180px !important; /* Reserve minimum space for "AI News Daily" */
+    max-width: none !important; /* Remove any max-width constraints */
+    flex: 0 0 auto !important; /* Don't let it shrink */
+    white-space: nowrap !important; /* Prevent title wrapping */
+  }
+  
+  /* Adjust brand text container */
+  .brand-text {
+    min-width: 0 !important; /* Allow text to use full available space */
+    flex: 1 1 auto !important;
+  }
+  
+  /* Ensure title doesn't get truncated */
+  .brand-title {
+    font-size: 1.2rem !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    min-width: fit-content !important;
+  }
+  
+  /* Adjust navbar for better spacing */
+  .custom-navbar .container-fluid {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  /* Ensure hamburger menu doesn't interfere */
+  .navbar-toggler {
+    margin-left: auto !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For very small screens, slightly smaller font but still visible */
+  .brand-title {
+    font-size: 1.1rem !important;
+  }
+  
+  /* Ensure minimum space for brand */
+  .navbar-brand {
+    min-width: 170px !important;
+  }
+}
+
+/* Ensure content fits properly in 100vh cards */
+.news-item .source-bar {
+  flex-shrink: 0 !important;
+}
+
