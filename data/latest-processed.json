@@ -1,9 +1,88 @@
 {
-  "crawledAt": "2025-07-04T16:53:26.381Z",
+  "crawledAt": "2025-07-04T17:09:23.053Z",
   "totalSources": 70,
-  "totalArticles": 1223,
+  "totalArticles": 1226,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Rethinking Data Science Interviews in the Age of AI",
+      "url": "https://towardsdatascience.com/rethinking-data-science-interviews-in-the-age-of-ai/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T17:02:47.000Z",
+      "metaDescription": "How AI is transforming data science interviews—and what hiring managers and candidates should do to adapt\nThe post Rethinking Data Science Interviews in the Age of AI appeared first on Towards Data Sc",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.25770155134010764,
+      "crawledAt": "2025-07-04T17:07:20.419Z",
+      "id": "o26xru",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9634726643562317,
+          "index": 4,
+          "word": "Data",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9928765296936035,
+          "index": 5,
+          "word": "Science",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9212279319763184,
+          "index": 10,
+          "word": "Age",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9118990898132324,
+          "index": 11,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9846379160881042,
+          "index": 12,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "The post Rethinking Data Science Interviews in the Age of AI appeared first on Towards Data Sc. How AI is transforming data science interviews and what hiring managers and candidates should do to adapt.",
+      "language": "en",
+      "processed_at": "2025-07-04T17:09:37.595Z"
+    },
+    {
+      "title": "How much novel security-critical infrastructure do you need during the singularity?",
+      "url": "https://www.alignmentforum.org/posts/qKz2hBahahmb4uDty/how-much-novel-security-critical-infrastructure-do-you-need",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2025-07-04T16:54:53.000Z",
+      "metaDescription": "Published on July 4, 2025 4:54 PM GMT\n\nI think a lot about the possibility of huge numbers of AI agents doing AI R&D inside an AI company (as depicted in AI 2027). I think particularly about what will",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5085090168532121,
+      "crawledAt": "2025-07-04T17:07:30.722Z",
+      "id": "3b40y2",
+      "entities": [],
+      "summary": "I think particularly about what will be done by AI agents inside an AI company. I think particularly About what will will be the future of AI agents.",
+      "language": "en",
+      "processed_at": "2025-07-04T17:09:47.180Z"
+    },
     {
       "title": "kappaTune: a PyTorch-based optimizer wrapper for continual learning via selective fine-tuning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1lrnibz/r_kappatune_a_pytorchbased_optimizer_wrapper_for/",
@@ -47,6 +126,25 @@
       "summary": " This optimizer wrapper is guided by the condition number of model tensors. It identifies and updates only the least anisotropic parameters to preserve pre-trained knowledge.",
       "language": "en",
       "processed_at": "2025-07-04T16:53:39.483Z"
+    },
+    {
+      "title": "Trying to use an upscaling workflow using a nunchaku based FLUX model",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lrngyp/trying_to_use_an_upscaling_workflow_using_a/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-04T16:49:30.000Z",
+      "metaDescription": "The workflow : https://drive.google.com/file/d/1Vc00eMbB3xZXO6PLnc6a6_yDM4ebszgp/view?usp=sharing\n The model : https://civitai.com/models/1545303?modelVersionId=1861654\n The upscaler : https://hugging",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.44035936123561037,
+      "crawledAt": "2025-07-04T17:08:24.469Z",
+      "id": "f50llj",
+      "entities": [],
+      "summary": " The workflow. The workflow.. The workflow is. The model is. model versionId=1861654.",
+      "language": "en",
+      "processed_at": "2025-07-04T17:09:55.276Z"
     },
     {
       "title": "i think Google News just deployed an AI-generated image for a BBC article on Ukraine?",
@@ -41691,13 +41789,13 @@
       "processed_at": "2025-06-30T19:20:17.398Z"
     }
   ],
-  "processedAt": "2025-07-04T16:55:21.229Z",
+  "processedAt": "2025-07-04T17:09:55.277Z",
   "categories": [
+    "research-paper",
     "infrastructure",
+    "creative-ai",
     "developer-tool",
     "product-launch",
-    "creative-ai",
-    "research-paper",
     "ai-agents",
     "model-release",
     "safety-ethics",
@@ -41705,6 +41803,6 @@
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 9,
-  "existingArticlesKept": 1214
+  "newArticlesProcessed": 3,
+  "existingArticlesKept": 1223
 }
