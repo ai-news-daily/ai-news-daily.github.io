@@ -1,9 +1,1501 @@
 {
-  "crawledAt": "2025-07-09T13:48:55.978Z",
+  "crawledAt": "2025-07-09T16:57:37.014Z",
   "totalSources": 70,
-  "totalArticles": 2052,
+  "totalArticles": 2095,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "What's everyone using AI image gen for?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lvnt9l/whats_everyone_using_ai_image_gen_for/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:50:50.000Z",
+      "metaDescription": "Curious to hear what everyone is working on. Is it for work, side hustle, or hobby? What are you creating, and, if you make money, how do you do it?\n    submitted by    /u/MaximusDM22  \n [link]   [com",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.5452323331033799,
+      "crawledAt": "2025-07-09T16:56:41.376Z",
+      "id": "3jeqoh",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9477274417877197,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI-powered creative content generation and tools.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:57:53.180Z"
+    },
+    {
+      "title": "Query Amazon Aurora PostgreSQL using Amazon Bedrock Knowledge Bases structured data",
+      "url": "https://aws.amazon.com/blogs/machine-learning/query-amazon-aurora-postgresql-using-amazon-bedrock-knowledge-bases-structured-data/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:48:35.000Z",
+      "metaDescription": "In this post, we discuss how to make your Amazon Aurora PostgreSQL-Compatible Edition data available for natural language querying through Amazon Bedrock Knowledge Bases while maintaining data freshne",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.515802520580475,
+      "crawledAt": "2025-07-09T16:55:40.286Z",
+      "id": "2f2sjm",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8135828375816345,
+          "index": 5,
+          "word": "Post",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8110299706459045,
+          "index": 8,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9036367535591125,
+          "index": 15,
+          "word": "Base",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon's Aurora PostgreSQL-Compatible Edition data available for natural language querying through Amazon Bedrock Knowledge Bases.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:58:04.508Z"
+    },
+    {
+      "title": "Configure fine-grained access to Amazon Bedrock models using Amazon SageMaker Unified Studio",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-fine-grained-access-to-amazon-bedrock-models-using-amazon-sagemaker-unified-studio/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:45:56.000Z",
+      "metaDescription": "In this post, we demonstrate how to use SageMaker Unified Studio and AWS Identity and Access Management (IAM) to establish a robust permission framework for Amazon Bedrock models. We show how administ",
+      "category": "model-release",
+      "difficulty": 7,
+      "confidence": 0.9666509663675593,
+      "crawledAt": "2025-07-09T16:55:40.471Z",
+      "id": "a8ffcl",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8606600761413574,
+          "index": 12,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9266226887702942,
+          "index": 13,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8461974859237671,
+          "index": 16,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8586012125015259,
+          "index": 17,
+          "word": "Sage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9367349147796631,
+          "index": 20,
+          "word": "Unified",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9403476119041443,
+          "index": 21,
+          "word": "Studio",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We show how to use SageMaker Unified Studio and AWS Identity and Access Management to establish a robust permission framework for Amazon Bedrock models.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:58:16.972Z"
+    },
+    {
+      "title": "Scale generative AI use cases, Part 1: Multi-tenant hub and spoke architecture using AWS Transit Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scale-generative-ai-use-cases-part-1-multi-tenant-hub-and-spoke-architecture-using-aws-transit-gateway/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:29:11.000Z",
+      "metaDescription": "n this two-part series, we discuss a hub and spoke architecture pattern for building a multi-tenant and multi-account architecture. This pattern supports abstractions for shared services across use ca",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.33597813855616426,
+      "crawledAt": "2025-07-09T16:55:40.826Z",
+      "id": "xjs3yz",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8475413918495178,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9543444514274597,
+          "index": 21,
+          "word": "Transit",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The pattern supports abstractions for shared services across use. n this two-part series, we discuss a hub and spoke architecture pattern.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:58:39.797Z"
+    },
+    {
+      "title": "OpenAI's open-weight model will debut as soon as next week",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lvn1sd/openais_openweight_model_will_debut_as_soon_as/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T16:20:46.000Z",
+      "metaDescription": "This new open language model will be available on Azure, Hugging Face, and other large cloud providers. Sources describe the model as “similar to o3 mini,” complete with the reasoning capabilities tha",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.9494679311723482,
+      "crawledAt": "2025-07-09T16:56:14.586Z",
+      "id": "h6g1fm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9963761568069458,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9763704538345337,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9228888750076294,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " New open language model will be available on Azure, Hugging Face, and other cloud providers. Sources describe the model as “similar to o3 mini,’ complete with the reasoning capabilities.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:58:52.833Z"
+    },
+    {
+      "title": "OmniGen2: Exploration to Advanced Multimodal Generation",
+      "url": "https://levelup.gitconnected.com/omnigen2-exploration-to-advanced-multimodal-generation-41beb33aa945?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:39.000Z",
+      "metaDescription": "In this work, we present OmniGen2, an open-source generative model designed to handle many types of generation tasks, like text-to-image…\nContinue reading on Level Up Coding »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.48345960473828936,
+      "crawledAt": "2025-07-09T16:56:03.940Z",
+      "id": "i4vrda",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8835690021514893,
+          "index": 11,
+          "word": "Multi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9195386171340942,
+          "index": 12,
+          "word": "##mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9111675024032593,
+          "index": 13,
+          "word": "##dal",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9060023427009583,
+          "index": 14,
+          "word": "Generation",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "O OmniGen2 is an open-source generative model designed to handle many types of generation tasks, like text-to-image.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:59:07.703Z"
+    },
+    {
+      "title": "Writing your first smart contract in Solidity",
+      "url": "https://levelup.gitconnected.com/writing-your-first-smart-contract-in-solidity-717f1cc611eb?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:36.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.25446750061663675,
+      "crawledAt": "2025-07-09T16:56:03.997Z",
+      "id": "ngks8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9806072115898132,
+          "index": 7,
+          "word": "Solid",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9576327800750732,
+          "index": 8,
+          "word": "##ity",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:59:07.790Z"
+    },
+    {
+      "title": "The Microservices Trap: When Distributed Systems Became a Distributed Mess",
+      "url": "https://levelup.gitconnected.com/the-microservices-trap-when-distributed-systems-became-a-distributed-mess-7a3da6b947fc?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:34.000Z",
+      "metaDescription": "How the promise of independence led to a maze of dependencies, and how to find your way out.\nContinue reading on Level Up Coding »",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.264157086135902,
+      "crawledAt": "2025-07-09T16:56:04.139Z",
+      "id": "4k3wer",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.855644702911377,
+          "index": 10,
+          "word": "Di",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The promise of independence led to a maze of dependencies, and how to find your way out. How to find a way out of the maze of dependency?",
+      "language": "en",
+      "processed_at": "2025-07-09T16:59:19.553Z"
+    },
+    {
+      "title": "Is AI really making us more productive, or are we just outsourcing our thinking?",
+      "url": "https://levelup.gitconnected.com/is-ai-really-making-us-more-productive-or-are-we-just-outsourcing-our-thinking-f8d04dd35a62?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:29.000Z",
+      "metaDescription": "Note: I wrote this without using AI. Every thought and analogy here came from my own head, which, ironically, is the very thing this…\nContinue reading on Level Up Coding »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.4952366322628043,
+      "crawledAt": "2025-07-09T16:56:04.505Z",
+      "id": "csxnrs",
+      "entities": [],
+      "summary": " The author of the book, \"The Book of the Book\" and \"The World of the Year,\" is published in the book of the year. The book, which is published on the book's website, is published every year.",
+      "language": "en",
+      "processed_at": "2025-07-09T16:59:46.961Z"
+    },
+    {
+      "title": "The Python Productivity Stack That Changed How I Code Forever",
+      "url": "https://levelup.gitconnected.com/the-python-productivity-stack-that-changed-how-i-code-forever-a7ee0d05214c?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:28.000Z",
+      "metaDescription": "From dead-simple time savers to mind-blowing automation — this is the stack I now use daily to write better, faster, and more scalable…\nContinue reading on Level Up Coding »",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.3224914948598913,
+      "crawledAt": "2025-07-09T16:56:04.660Z",
+      "id": "aszqt3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9864886999130249,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8625887036323547,
+          "index": 3,
+          "word": "Product",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9440173506736755,
+          "index": 5,
+          "word": "St",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8485440611839294,
+          "index": 6,
+          "word": "##ack",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " From dead-simple time savers to mind-blowing automation, this is the stack I now use daily to write better, faster, and more scalable.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:00:00.417Z"
+    },
+    {
+      "title": "Important LLM Papers for the Week From 30/06 to 05/07",
+      "url": "https://levelup.gitconnected.com/important-llm-papers-for-the-week-from-30-06-to-05-07-50e3e0092ad3?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:18:20.000Z",
+      "metaDescription": "Stay Updated with Recent Large Language Models Research\nContinue reading on Level Up Coding »",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.3450096478838433,
+      "crawledAt": "2025-07-09T16:56:04.994Z",
+      "id": "ndv7l9",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9521601796150208,
+          "index": 2,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9748947620391846,
+          "index": 3,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Stay Updated with Recent Large Language Models Research. Stay Updated. Stay updated with Recent large Language Models research. Read more on Level Up Coding.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:00:18.625Z"
+    },
+    {
+      "title": "Psychology Today just published an AI written article about the dangers of AI... without disclosing it was written by AI",
+      "url": "https://www.reddit.com/r/singularity/comments/1lvmmk8/psychology_today_just_published_an_ai_written/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:03:53.000Z",
+      "metaDescription": "I was reading this article from a mainstream magazine and found it ironic that the article discussing the perils of AI... seemed to be written by AI.\n As far as I can tell, the author is a real person",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2693491759930171,
+      "crawledAt": "2025-07-09T16:56:13.388Z",
+      "id": "5fp8dm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9983645677566528,
+          "index": 1,
+          "word": "Psychology",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9979393482208252,
+          "index": 2,
+          "word": "Today",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9981618523597717,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9855691194534302,
+          "index": 13,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9328593611717224,
+          "index": 25,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The author of the article is a real person, according to the author. The article was written by a real man.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:00:55.457Z"
+    },
+    {
+      "title": "Beyond prompt crafting: How to be a better partner for your AI pair programmer",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-prompt-crafting-how-to-be-a-better-partner-for-your-ai-pair-programmer/",
+      "source": "GitHub Blog",
+      "source_domain": "github.blog",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T16:00:00.000Z",
+      "metaDescription": "Ensuring quality code suggestions from Copilot goes beyond the perfect prompt. Context is key to success when working with your AI pair programmer.\nThe post Beyond prompt crafting: How to be a better ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9236486349823485,
+      "crawledAt": "2025-07-09T16:55:21.703Z",
+      "id": "h1hfn3",
+      "entities": [],
+      "summary": " Ensuring quality code suggestions from Copilot goes beyond the perfect prompt. The post Beyond prompt crafting: How to be a better Copilot.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:01:05.786Z"
+    },
+    {
+      "title": "Blok is using AI personas to simulate real-world app usage",
+      "url": "https://techcrunch.com/2025/07/09/blok-is-using-ai-persons-to-simulate-real-world-app-usage/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T16:00:00.000Z",
+      "metaDescription": "AI-powered coding tools like Cursor, Replit, Claude Code, and Lovable are helping developers write many lines of code every day to ship products faster. However, app makers still have to rely on eithe",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.32732392105622,
+      "crawledAt": "2025-07-09T16:55:18.301Z",
+      "id": "emcr11",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.983288586139679,
+          "index": 1,
+          "word": "B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8860928416252136,
+          "index": 2,
+          "word": "##lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9722672700881958,
+          "index": 3,
+          "word": "##k",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9780615568161011,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI-powered coding tools like Cursor, Replit, Claude Code, and Lovable are helping developers write lines of code every day to ship products faster.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:01:19.726Z"
+    },
+    {
+      "title": "Uhh...Is this normal guys?",
+      "url": "https://www.reddit.com/r/artificial/comments/1lvmhpf/uhhis_this_normal_guys/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:58:48.000Z",
+      "metaDescription": "I commanded the whatsapp AI (Meta AI) to give me text out of a certain screenshot, it did gave me the text to only delete it just a moment later. I repeated the process and it kept doing it. Hence I a",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.3262386606492247,
+      "crawledAt": "2025-07-09T16:56:23.934Z",
+      "id": "px3vjp",
+      "entities": [],
+      "summary": " The app gave me text to only delete it just a moment later. I repeated the process and it kept doing it.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:01:29.420Z"
+    },
+    {
+      "title": "Fairly new to image gen, if I’m focused on img2img and not txt2img, does SDXL make more sense than Flux? I like building simple scenes in Blender.",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lvm8q5/fairly_new_to_image_gen_if_im_focused_on_img2img/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T15:49:02.000Z",
+      "metaDescription": "Apologies if this is a dumb question, I’m genuinely curious. I’m running on an RTX 3070 8GB. SDXL runs great, while Flux works, it takes quite a while to generate a single image.\n As mentioned, I’m no",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28552991080134627,
+      "crawledAt": "2025-07-09T16:56:39.798Z",
+      "id": "l32wt2",
+      "entities": [],
+      "summary": " SDXL runs great, while Flux works, it takes quite a while to generate a single image. I’m running on an RTX 3070 8GB, while I‘m running with SDXL.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:01:56.133Z"
+    },
+    {
+      "title": "How to Identify and Score an AI Model Punt Response with Real Examples",
+      "url": "https://ai.plainenglish.io/ai-model-punt-response-examples-6d5b58248bc4?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:30:41.000Z",
+      "metaDescription": "Learn how to recognize and rate an AI model punt response using real-world examples. Improve evaluation accuracy with this clear…\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.27636406065077507,
+      "crawledAt": "2025-07-09T16:56:02.700Z",
+      "id": "qlrzf1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9877443313598633,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Learn how to recognize and rate an AI model punt response using real-world examples. Improve evaluation accuracy with this clear-up technique.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:17.592Z"
+    },
+    {
+      "title": "When Good Wasn’t Good Enough: How ML’s Weaknesses Gave Birth to LLMs",
+      "url": "https://python.plainenglish.io/when-good-wasnt-good-enough-how-ml-s-weaknesses-gave-birth-to-llms-33eca1a2cff3?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T15:23:30.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.32070730888247284,
+      "crawledAt": "2025-07-09T16:56:01.404Z",
+      "id": "mrzu9",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8409396409988403,
+          "index": 10,
+          "word": "M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:32.310Z"
+    },
+    {
+      "title": "The AI Genie Is Out — And It’s Planning Its Own Wish List",
+      "url": "https://ai.plainenglish.io/the-ai-genie-is-out-and-its-planning-its-own-wish-list-a1a8372fe423?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:22:35.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4359453717827604,
+      "crawledAt": "2025-07-09T16:56:02.773Z",
+      "id": "cgl5wi",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8597192764282227,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:32.459Z"
+    },
+    {
+      "title": "Building AI That Works in the Real World: My Deep Dive into Practical AI Systems, Failures, and…",
+      "url": "https://ai.plainenglish.io/building-ai-that-works-in-the-real-world-my-deep-dive-into-practical-ai-systems-failures-and-60b5f883a91b?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:22:13.000Z",
+      "metaDescription": "Why AI Isn’t Just About Models\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6217182676970223,
+      "crawledAt": "2025-07-09T16:56:02.903Z",
+      "id": "zbuavq",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8706954121589661,
+          "index": 8,
+          "word": "World",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9070277810096741,
+          "index": 17,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9213407039642334,
+          "index": 18,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Aims to improve the quality of artificial intelligence in Plain English. The language is a form of language that can be used to help people understand the world.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:43.249Z"
+    },
+    {
+      "title": "From Flaws to Foundations: How Machine Learning’s Cons Drove Its Greatest Innovations",
+      "url": "https://ai.plainenglish.io/from-flaws-to-foundations-how-machine-learnings-cons-drove-its-greatest-innovations-5396ddefa270?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:21:52.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.35768800810982676,
+      "crawledAt": "2025-07-09T16:56:02.978Z",
+      "id": "m8unjj",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8618286848068237,
+          "index": 9,
+          "word": "Machine",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9907388687133789,
+          "index": 10,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:43.376Z"
+    },
+    {
+      "title": "🌾 Krishi Mitra – An Offline AI Crop Doctor in Hindi, built using Google’s Gemma 3n",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1lvlh2l/project_krishi_mitra_an_offline_ai_crop_doctor_in/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:18:51.000Z",
+      "metaDescription": "submitted by    /u/Ok_Firefighter_9999  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.37290270402942566,
+      "crawledAt": "2025-07-09T16:56:18.723Z",
+      "id": "keh6fs",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9947635531425476,
+          "index": 2,
+          "word": "Kris",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.998645544052124,
+          "index": 4,
+          "word": "Mi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9365273118019104,
+          "index": 5,
+          "word": "##tra",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8764127492904663,
+          "index": 11,
+          "word": "C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9977793097496033,
+          "index": 15,
+          "word": "Hindi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9905537962913513,
+          "index": 19,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9357004165649414,
+          "index": 23,
+          "word": "3",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:55.104Z"
+    },
+    {
+      "title": "I asked ChatGPT to insult itself in five words",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1lvlgb8/i_asked_chatgpt_to_insult_itself_in_five_words/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T15:18:02.000Z",
+      "metaDescription": "submitted by    /u/WilliamInBlack  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.292424363840978,
+      "crawledAt": "2025-07-09T16:56:10.996Z",
+      "id": "18stga",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9811540842056274,
+          "index": 3,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8993867635726929,
+          "index": 5,
+          "word": "##GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8939376473426819,
+          "index": 6,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:02:55.244Z"
+    },
+    {
+      "title": "Lesson 6 is Live: Fine-Tuning, LoRA, RLHF & the Tools That Give You Real Control",
+      "url": "https://pub.towardsai.net/lesson-6-is-live-fine-tuning-lora-rlhf-the-tools-that-give-you-real-control-8bf5fa98ee6b?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:03:00.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 10,
+      "confidence": 0.2837418132896842,
+      "crawledAt": "2025-07-09T16:55:54.859Z",
+      "id": "xo55xq",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.8057629466056824,
+          "index": 7,
+          "word": "Fine",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9967641234397888,
+          "index": 15,
+          "word": "R",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8935170769691467,
+          "index": 17,
+          "word": "##HF",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:03:05.592Z"
+    },
+    {
+      "title": "New opensource AI voice platform just dropped, curious what the community thinks",
+      "url": "https://www.reddit.com/r/artificial/comments/1lvl2fz/new_opensource_ai_voice_platform_just_dropped/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:02:57.000Z",
+      "metaDescription": "Just came across Intervo, an opensource AI voice platform that lets you create voice agents to handle real conversations things like booking appointments, answering FAQs, or even qualifying leads.\n Th",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5048677994850403,
+      "crawledAt": "2025-07-09T16:56:22.720Z",
+      "id": "hntuz5",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8360029458999634,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Intervo is an opensource AI voice platform that lets you create voice agents to handle real conversations. Th Th Th. Th. Just came across Intervo, an openssource AI platform that allows you to handle conversations like booking appointments.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:03:21.351Z"
+    },
+    {
+      "title": "LLMs live only in the world of words",
+      "url": "https://www.reddit.com/r/artificial/comments/1lvl10s/llms_live_only_in_the_world_of_words/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:01:29.000Z",
+      "metaDescription": "They will readily hallucinate that they can do things outside their scope of operations. Because humans have used those action words in token contexts that match the current one enough. \n They have no",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.35569192996037513,
+      "crawledAt": "2025-07-09T16:56:23.368Z",
+      "id": "gkc7rr",
+      "entities": [],
+      "summary": "Human action words in token contexts match the current one enough. They will readily hallucinate that they can do things outside their scope of operations.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:03:43.155Z"
+    },
+    {
+      "title": "5 Ways to Transition Into AI from a Non-Tech Background",
+      "url": "https://www.kdnuggets.com/5-ways-to-transition-into-ai-from-a-non-tech-background",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T15:00:16.000Z",
+      "metaDescription": "You have a non-tech background? Sure, you can transition into AI. Here are five practical ways of doing it.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4041068405241879,
+      "crawledAt": "2025-07-09T16:57:32.110Z",
+      "id": "87udmd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8703665137290955,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You have a non-tech background? Sure, you can transition into AI. Here are five practical ways to do it.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:03:51.351Z"
+    },
+    {
+      "title": "Get your exhibit table at TechCrunch Disrupt 2025",
+      "url": "https://techcrunch.com/2025/07/09/get-your-exhibit-table-at-techcrunch-disrupt-2025/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:00:00.000Z",
+      "metaDescription": "Time is running out to secure your exhibit table at TechCrunch Disrupt 2025, October 27-29, at Moscone West in San Francisco. This is your chance to get your startup in front of 10,000+ startup pionee",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.27546501934576123,
+      "crawledAt": "2025-07-09T16:55:18.881Z",
+      "id": "38g7yi",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8458535075187683,
+          "index": 7,
+          "word": "##C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This is your chance to get your startup in front of 10,000+ startup pionee. Time is running out to secure your exhibit table at TechCrunch Disrupt 2025.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:04.106Z"
+    },
+    {
+      "title": "Perplexity launches Comet, an AI-powered web browser",
+      "url": "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T15:00:00.000Z",
+      "metaDescription": "Perplexity on Wednesday launched its first AI-powered web browser, called Comet, marking the startup’s latest effort to challenge Google Search as the primary avenue people use to find information onl",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.9798759311844278,
+      "crawledAt": "2025-07-09T16:55:19.044Z",
+      "id": "ef4jev",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9886246919631958,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "On Wednesday, Comet launched its first AI-powered web browser, called Comet. Comet is the startup's latest effort to challenge Google Search.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:15.815Z"
+    },
+    {
+      "title": "Deepseeks censorship getting worse by the day",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1lvkw5q/deepseeks_censorship_getting_worse_by_the_day/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:56:11.000Z",
+      "metaDescription": "I used to like Deepseek a lot because of its relative \"freedom\" and lack of censorship (as long as you didnt talk about China)\n But nowadays its more censored than a pornmagazine in an Orthodox church",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25538803373105645,
+      "crawledAt": "2025-07-09T16:56:32.825Z",
+      "id": "373m24",
+      "entities": [],
+      "summary": "Deepseek is more censored than a pornmagazine in an Orthodox church. The magazine is more censorship than a magazine in anthodox church.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:25.182Z"
+    },
+    {
+      "title": "Invoke 6.0 - Major update introducing updated UI, reimagined AI canvas, UI-integrated Flux Kontext Dev support & Layered PSD Exports",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lvkflv/invoke_60_major_update_introducing_updated_ui/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T14:37:28.000Z",
+      "metaDescription": "submitted by    /u/hipster_username  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.9808673166461219,
+      "crawledAt": "2025-07-09T16:56:37.389Z",
+      "id": "qy97ib",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8558061718940735,
+          "index": 21,
+          "word": "U",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9649417996406555,
+          "index": 25,
+          "word": "F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9581580758094788,
+          "index": 27,
+          "word": "Ko",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:25.393Z"
+    },
+    {
+      "title": "What's worse, spies or schemers?",
+      "url": "https://www.alignmentforum.org/posts/o5g4bhHgoZrewKwFH/what-s-worse-spies-or-schemers",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:37:25.000Z",
+      "metaDescription": "Published on July 9, 2025 2:37 PM GMT\n\nHere are two problems you’ll face if you’re an AI company building and using powerful AI:\n\nSpies: Some of your employees might be colluding to do something probl",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.2684985754595125,
+      "crawledAt": "2025-07-09T16:55:48.162Z",
+      "id": "y4f2k8",
+      "entities": [],
+      "summary": " AI company building and using powerful AI are two problems you'll face if you're an AI company. Some of your employees might be colluding to do something probl.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:36.061Z"
+    },
+    {
+      "title": "Is Cline A Good Vibe Coding Alternative To Cursor?",
+      "url": "https://generativeai.pub/is-cline-a-good-vibe-coding-alternative-to-cursor-fc3c7f270cb1?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:24:41.000Z",
+      "metaDescription": "With all the mess that Cursor is currently in, does Cline offer a cheaper and overall better user experience for vibe coders?\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7294514350994066,
+      "crawledAt": "2025-07-09T16:56:05.343Z",
+      "id": "drdf05",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.8726847767829895,
+          "index": 2,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Cline offers a cheaper and overall better user experience for vibe coders. With all the mess that Cursor is currently in, does Cline offer a cheaper, overall better experience for coders?",
+      "language": "en",
+      "processed_at": "2025-07-09T17:04:59.308Z"
+    },
+    {
+      "title": "How Sneaky Researchers Are Using Hidden AI Prompts to Influence the Peer Review Process",
+      "url": "https://generativeai.pub/how-researchers-hack-peer-review-with-ai-prompts-a1a8e54310ef?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:23:24.000Z",
+      "metaDescription": "Yes, I expose every word of their prompt injection technique\nContinue reading on Generative AI »",
+      "category": "ai-agents",
+      "difficulty": 8,
+      "confidence": 0.8887013999824133,
+      "crawledAt": "2025-07-09T16:56:05.504Z",
+      "id": "v48o3e",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9227737188339233,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9309419393539429,
+          "index": 19,
+          "word": "P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8004508018493652,
+          "index": 20,
+          "word": "##eer",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9803757071495056,
+          "index": 21,
+          "word": "Review",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9819812178611755,
+          "index": 22,
+          "word": "Process",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I expose every word of their prompt injection technique. Yes, I expose each word of the prompt injection method. I expose all of their prompts.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:05:09.064Z"
+    },
+    {
+      "title": "What impressive local AI tools can I run now that everything is local?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lvk1ms/what_impressive_borderline_creepy_local_ai_tools/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:21:39.000Z",
+      "metaDescription": "2 years ago, I left Windows mainly because of the creepy Copilot-type stuff — always-on apps that watch everything, take screenshots every 5 seconds, and offer \"smart\" help in return. Felt like a trad",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.4995277873171634,
+      "crawledAt": "2025-07-09T16:56:15.205Z",
+      "id": "cgzvcs",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9838988184928894,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " 2 years ago, I left Windows mainly because of the creepy Copilot-type stuff. I left because of \"smart\" apps that take screenshots every 5 seconds.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:05:21.543Z"
+    },
+    {
+      "title": "Agentic Topic Modeling with Maarten Grootendorst - Weaviate Podcast #126!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1lvjyzk/agentic_topic_modeling_with_maarten_grootendorst/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T14:18:36.000Z",
+      "metaDescription": "Topic Modeling helps us understanding re-occurring themes and categories in our data! How will the rise of Agents impact Topic Modeling?\n I am SUPER EXCITED to publish the 126th episode of the Weaviat",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.25351550525149996,
+      "crawledAt": "2025-07-09T16:56:26.517Z",
+      "id": "svkr7l",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9983021020889282,
+          "index": 8,
+          "word": "Ma",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9901390075683594,
+          "index": 9,
+          "word": "##arte",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.993928849697113,
+          "index": 11,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9067492485046387,
+          "index": 12,
+          "word": "##root",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.973295271396637,
+          "index": 13,
+          "word": "##end",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.80402010679245,
+          "index": 14,
+          "word": "##ors",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9227708578109741,
+          "index": 20,
+          "word": "Po",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Topic Modeling helps us understanding re-occurring themes and categories in our data. How will the rise of Agents impact Topic Modeled? I am SUPER EXCITED to publish the 126th episode of the Weaviat.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:05:36.116Z"
+    },
+    {
+      "title": "Is there an easy way to convert pixel art into anime style?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1lvjrjm/is_there_an_easy_way_to_convert_pixel_art_into/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T14:09:59.000Z",
+      "metaDescription": "I have a pixel art upscaled to 512*512, and I want to convert it into anime style img2img. What is the best way to do this? Would it also help if I have a proper anime style reference image? Happy to ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3590540043404889,
+      "crawledAt": "2025-07-09T16:56:40.367Z",
+      "id": "jb9a9g",
+      "entities": [],
+      "summary": " I have a pixel art upscaled to 512*512, and I want to convert it into anime style img2 img2img. Would it also help if I have an anime style reference image? Would it help if we have a proper anime style image?",
+      "language": "en",
+      "processed_at": "2025-07-09T17:06:06.450Z"
+    },
+    {
+      "title": "Dive deeper with AI Mode and get gaming help in Circle to Search",
+      "url": "https://blog.google/products/search/circle-to-search-ai-mode-gaming/",
+      "source": "Google AI Blog",
+      "source_domain": "blog.google",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T14:00:00.000Z",
+      "metaDescription": "We’re bringing new AI capabilities to Circle to Search, so you can dive deeper and ask follow-ups in AI Mode, and get gaming tips.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4501666997416518,
+      "crawledAt": "2025-07-09T16:55:09.216Z",
+      "id": "o7gdg3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9092148542404175,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8377053141593933,
+          "index": 6,
+          "word": "Mode",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "We're bringing new AI capabilities to Circle to Search. You can dive deeper and ask follow-ups in AI Mode, and get gaming tips.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:06:15.490Z"
+    },
+    {
+      "title": "Microsoft, OpenAI & Anthropic launch $23M AI training initiative for US teachers",
+      "url": "https://www.reddit.com/r/singularity/comments/1lvj212/microsoft_openai_anthropic_launch_23m_ai_training/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T13:39:30.000Z",
+      "metaDescription": "submitted by    /u/intelerks  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 9,
+      "confidence": 0.9948450853524693,
+      "crawledAt": "2025-07-09T16:56:13.596Z",
+      "id": "ucpen6",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9986925721168518,
+          "index": 1,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.998699963092804,
+          "index": 3,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.998224675655365,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9981986880302429,
+          "index": 5,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9988996982574463,
+          "index": 6,
+          "word": "&",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.998621940612793,
+          "index": 7,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9965754747390747,
+          "index": 8,
+          "word": "##throp",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9976861476898193,
+          "index": 9,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.991590678691864,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:06:59.865Z"
+    },
     {
       "title": "What model could I finetune to create a study assistant llm?",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lviwb4/what_model_could_i_finetune_to_create_a_study/",
@@ -22,6 +1514,34 @@
       "summary": "Medical student takes a small language model and trains it to help him create study guides/summaries. The model uses all the past summar summarised.",
       "language": "en",
       "processed_at": "2025-07-09T13:49:15.690Z"
+    },
+    {
+      "title": "Hunyuan A13B tensor override",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lvirqs/hunyuan_a13b_tensor_override/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T13:26:49.000Z",
+      "metaDescription": "Hi r/LocalLLaMA does anyone have a good tensor override for hunyuan a13b? I get around 12 t/s on ddr4 3600 and with different offloads to a 3090 I got to 21 t/s. This is the command I'm using just in ",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.28307399010304546,
+      "crawledAt": "2025-07-09T16:56:16.631Z",
+      "id": "ein7q4",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9831113219261169,
+          "index": 1,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The command I'm using just in is the command I am using just the command. I get around 12 t/s on ddr4 3600 and with different offloads to a 3090 I got to 21 t/S.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:07:16.872Z"
     },
     {
       "title": "Apple’s new study shows that advanced AI reasoning models like OpenAI’s o3, Anthropic’s Claude, and DeepSeek’s R1 fail completely when problems become too complex.",
@@ -252,6 +1772,34 @@
       "summary": " Europe takes another step toward fostering competition in a stagnant launch market. Europe takes a step toward foster competition in the market.",
       "language": "en",
       "processed_at": "2025-07-09T13:50:26.791Z"
+    },
+    {
+      "title": "🚀 Built another 124m parameter transformer based model from scratch.This time with multi GPU training using DDP.Inspired from nanoGPT.But redesigned to suit my own training pipeline.Model and training code is on huggingface⬇️",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1lvhxe7/built_another_124m_parameter_transformer_based/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-09T12:48:51.000Z",
+      "metaDescription": "https://huggingface.co/abhinavv3/MEMGPT\n Before training the current code Im planning to experiment by replacing the existing attention layer with GQA and the positional encoding with RoPE.Also trying",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.46876610965225435,
+      "crawledAt": "2025-07-09T16:56:16.898Z",
+      "id": "aavq81",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8451455235481262,
+          "index": 22,
+          "word": "DD",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:07:17.303Z"
     },
     {
       "title": "Flux Kontext Outpainting Workflow Using 8 Steps and 6GB of Vram",
@@ -612,6 +2160,34 @@
       "processed_at": "2025-07-09T13:52:29.352Z"
     },
     {
+      "title": "10 Python Programs for Beginners",
+      "url": "https://python.plainenglish.io/10-python-programs-for-beginners-645f3e8feb81?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T11:13:28.000Z",
+      "metaDescription": "With Output You Can Actually Understand\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2918653473879124,
+      "crawledAt": "2025-07-09T16:56:01.617Z",
+      "id": "fs75c3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9901081323623657,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " With Output You Can Actually Understand You Can actually Understand You can actually Understand. With Output you Can Actually understand You Canactually Understand Youcan Actually Understand.",
+      "language": "en",
+      "processed_at": "2025-07-09T17:07:50.256Z"
+    },
+    {
       "title": "How I Built an AI Personal Finance Chatbot Using Prompt Engineering",
       "url": "https://ai.plainenglish.io/how-i-built-an-ai-personal-finance-chatbot-using-prompt-engineering-016421c761a2?source=rss----78d064101951---4",
       "source": "AI in Plain English",
@@ -947,6 +2523,25 @@
       "summary": " I'm working on a pipeline that analyzes user-generated posts from social platforms to determine whether they contain actionable promotional content.",
       "language": "en",
       "processed_at": "2025-07-09T13:54:27.996Z"
+    },
+    {
+      "title": "9 ‘Simple’ Python Interview Questions That Can Trip You Up",
+      "url": "https://python.plainenglish.io/9-simple-python-interview-questions-that-can-trip-you-up-49985a05e9f4?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-07-09T09:46:36.000Z",
+      "metaDescription": "…and why “simple” doesn’t always mean “easy.”\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4609110102446709,
+      "crawledAt": "2025-07-09T16:56:01.740Z",
+      "id": "lmq8lx",
+      "entities": [],
+      "summary": " The author's book is published in the UK and the UK. The book is called \"Python in the English\"",
+      "language": "en",
+      "processed_at": "2025-07-09T17:08:00.744Z"
     },
     {
       "title": "A futuristic time trial concept bike, created using Stable Diffusion and finished in Photoshop.",
@@ -68094,20 +69689,20 @@
       "processed_at": "2025-06-30T19:20:17.398Z"
     }
   ],
-  "processedAt": "2025-07-09T13:55:07.064Z",
+  "processedAt": "2025-07-09T17:08:12.252Z",
   "categories": [
-    "creative-ai",
     "ai-agents",
-    "product-launch",
-    "infrastructure",
     "developer-tool",
-    "safety-ethics",
-    "industry-news",
     "model-release",
+    "infrastructure",
+    "creative-ai",
+    "safety-ethics",
     "research-paper",
+    "industry-news",
+    "product-launch",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 36,
-  "existingArticlesKept": 2016
+  "newArticlesProcessed": 43,
+  "existingArticlesKept": 2052
 }
