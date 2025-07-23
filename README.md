@@ -8,30 +8,31 @@
 
 ## ✨ About
 
-**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 50+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs. Features a modern, animated interface with professional styling and runs 6 times daily automated updates.
+**AI News Daily** is a free, open-source AI news aggregator that collects and categorizes articles from 70+ sources using local LLM processing. Built for GitHub Pages with zero monthly costs. Features a modern, animated interface with professional styling, 15-day rolling archive system, and runs 6 times daily automated updates.
 
 ## ✨ Features
 
-- **📰 50+ AI News Sources** - OpenAI, Anthropic, Google AI, research papers, tools, and more
+- **📰 70+ AI News Sources** - OpenAI, Anthropic, Google AI, research papers, tools, and more
 - **🧠 AI-Powered Categorization** - Local LLM processing with Transformers.js
 - **📱 Mobile-First Design** - Clean, fast, responsive interface
 - **🔍 Advanced Filtering** - Filter by category, difficulty, source, or search
 - **🚀 Zero Cost Hosting** - Completely free using GitHub Pages + Actions
 - **⚡ Fast & Lightweight** - No external dependencies, pure static site
 - **🎯 SEO Optimized** - Structured data, meta descriptions, sitemap
+- **📁 Smart Data Management** - 15-day rolling archive with 85% storage optimization
 
 ## 🏗️ Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   RSS Feeds     │───▶│  GitHub Actions  │───▶│  GitHub Pages   │
-│   (50+ sources) │    │  + Local LLM     │    │  (Static Site)  │
+│   (70+ sources) │    │  + Local LLM     │    │  (Static Site)  │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
                               │
                               ▼
                        ┌──────────────────┐
                        │   Data Storage   │
-                       │   (JSON files)   │
+                       │ (15-day archive) │
                        └──────────────────┘
 ```
 
@@ -181,17 +182,19 @@ Articles are automatically rated 1-10:
 7. **Difficulty Estimation** - Assess technical complexity
 8. **SEO Enhancement** - Generate meta descriptions
 9. **Site Generation** - Build static HTML with all features
+10. **Data Management** - 15-day rolling archive cleanup
 
 ## 📊 GitHub Actions Workflow
 
 Runs automatically 6 times daily (every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC):
 
 ```yaml
-- Crawl 50+ RSS feeds
+- Crawl 70+ RSS feeds
 - Process with local LLM
 - Generate static site
 - Deploy to GitHub Pages
 - Update data files
+- Clean up old data (15-day archive)
 - Health check
 ```
 
