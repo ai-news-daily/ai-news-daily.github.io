@@ -340,13 +340,31 @@ async function processArticlesWithAI() {
   if (finalArticlesToProcess.length === 0) {
     console.log('✅ All articles already processed! Updating metadata...');
     
-    // Update the latest file with ALL articles
+    // Apply 15-day rolling cleanup to existing articles too
+    const cleanupThresholdDays = 15;
+    const cleanupThreshold = new Date(Date.now() - cleanupThresholdDays * 24 * 60 * 60 * 1000);
+    
+    const beforeCleanup = existingProcessed.articles.length;
+    const recentArticles = existingProcessed.articles.filter(article => {
+      const pubDate = new Date(article.pubDate || article.published_at);
+      return pubDate > cleanupThreshold;
+    });
+    
+    const cleanedUpCount = beforeCleanup - recentArticles.length;
+    if (cleanedUpCount > 0) {
+      console.log(`🧹 Cleaned up ${cleanedUpCount} articles older than ${cleanupThresholdDays} days from existing data`);
+    }
+    
+    // Update the latest file with recent articles only (15-day rolling window)
     const latestData = {
       ...rawData,
-      articles: existingProcessed.articles,
+      articles: recentArticles,
       processedAt: new Date().toISOString(),
       processingMethod: 'cached',
-      totalArticles: existingProcessed.articles.length
+      totalArticles: recentArticles.length,
+      cleanupApplied: cleanedUpCount > 0,
+      cleanedUpCount: cleanedUpCount,
+      rollingWindowDays: cleanupThresholdDays
     };
     
     // Create today's file with ONLY today's articles
@@ -355,7 +373,7 @@ async function processArticlesWithAI() {
     const todayEnd = new Date(today + 'T23:59:59.999Z');
     
     // Filter articles that were published or processed today
-    const todaysArticles = existingProcessed.articles.filter(article => {
+    const todaysArticles = recentArticles.filter(article => {
       const pubDate = new Date(article.pubDate || article.published_at);
       const processedDate = new Date(article.processed_at || article.crawledAt);
       
@@ -381,7 +399,7 @@ async function processArticlesWithAI() {
     await fs.writeFile(latestPath, JSON.stringify(latestData, null, 2));
     await fs.writeFile(datePath, JSON.stringify(dailyData, null, 2));
     
-    console.log(`💾 Updated: ${latestPath} (${existingProcessed.articles.length} total articles)`);
+    console.log(`💾 Updated: ${latestPath} (${recentArticles.length} articles in 15-day rolling window)`);
     console.log(`📅 Historical backup: ${datePath} (${todaysArticles.length} today's articles)`);
     console.log('🎉 Processing completed (no new articles)!');
     return latestData;
@@ -486,16 +504,34 @@ async function processArticlesWithAI() {
   // Sort by publication date (newest first)
   allProcessedArticles.sort((a, b) => new Date(b.pubDate || b.published_at) - new Date(a.pubDate || a.published_at));
   
-  // Create data for latest file (contains ALL articles)
+  // Apply 15-day rolling cleanup to latest-processed.json to maintain consistency
+  const cleanupThresholdDays = 15;
+  const cleanupThreshold = new Date(Date.now() - cleanupThresholdDays * 24 * 60 * 60 * 1000);
+  
+  const beforeCleanup = allProcessedArticles.length;
+  const recentArticles = allProcessedArticles.filter(article => {
+    const pubDate = new Date(article.pubDate || article.published_at);
+    return pubDate > cleanupThreshold;
+  });
+  
+  const cleanedUpCount = beforeCleanup - recentArticles.length;
+  if (cleanedUpCount > 0) {
+    console.log(`🧹 Cleaned up ${cleanedUpCount} articles older than ${cleanupThresholdDays} days from latest-processed.json`);
+  }
+  
+  // Create data for latest file (contains recent articles only - 15-day rolling window)
   const latestData = {
     ...rawData,
-    articles: allProcessedArticles,
+    articles: recentArticles,
     processedAt: new Date().toISOString(),
-    totalArticles: allProcessedArticles.length,
-    categories: [...new Set(allProcessedArticles.map(a => a.category))],
+    totalArticles: recentArticles.length,
+    categories: [...new Set(recentArticles.map(a => a.category))],
     processingMethod: useAI ? 'ai-powered' : 'rule-based',
     newArticlesProcessed: newlyProcessedArticles.length,
-    existingArticlesKept: existingProcessed.articles.length
+    existingArticlesKept: existingProcessed.articles.length,
+    cleanupApplied: cleanedUpCount > 0,
+    cleanedUpCount: cleanedUpCount,
+    rollingWindowDays: cleanupThresholdDays
   };
   
   // Create data for daily file (contains ONLY today's articles)
@@ -504,7 +540,7 @@ async function processArticlesWithAI() {
   const todayEnd = new Date(today + 'T23:59:59.999Z');
   
   // Filter articles that were published or processed today
-  const todaysArticles = allProcessedArticles.filter(article => {
+  const todaysArticles = recentArticles.filter(article => {
     const pubDate = new Date(article.pubDate || article.published_at);
     const processedDate = new Date(article.processed_at || article.crawledAt);
     
@@ -539,8 +575,8 @@ async function processArticlesWithAI() {
   if (newlyRejectedArticles.length > 0) {
     let allRejectedArticles = [...rejectedArticles.articles, ...newlyRejectedArticles];
     
-    // Optional: Clean up old rejected articles (older than 30 days) to prevent cache bloat
-    const cleanupThresholdDays = parseInt(process.env.REJECTED_CACHE_CLEANUP_DAYS || '30');
+    // Clean up old rejected articles (align with 15-day rolling archive) to prevent cache bloat
+    const cleanupThresholdDays = parseInt(process.env.REJECTED_CACHE_CLEANUP_DAYS || '15');
     const cleanupThreshold = new Date(Date.now() - cleanupThresholdDays * 24 * 60 * 60 * 1000);
     const beforeCleanup = allRejectedArticles.length;
     
@@ -568,13 +604,16 @@ async function processArticlesWithAI() {
   }
   
   console.log(`✅ Successfully processed ${newlyProcessedArticles.length} new articles with ${useAI ? 'AI' : 'rule-based'} analysis`);
-  console.log(`📊 Total articles: ${allProcessedArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
+  console.log(`📊 Total articles in 15-day window: ${recentArticles.length} (${existingProcessed.articles.length} existing + ${newlyProcessedArticles.length} new)`);
+  if (cleanedUpCount > 0) {
+    console.log(`🧹 Cleaned up ${cleanedUpCount} articles older than ${cleanupThresholdDays} days`);
+  }
   console.log(`🎯 New categories found:`, Object.keys(categoryStats).join(', ') || 'none');
   if (rejectedLowConfidence > 0) {
     const threshold = parseFloat(process.env.PROCESS_CONFIDENCE_THRESHOLD || '0.25');
     console.log(`🚫 Rejected ${rejectedLowConfidence} articles with confidence < ${(threshold * 100).toFixed(0)}%`);
   }
-  console.log(`💾 Saved to: ${latestPath} (${allProcessedArticles.length} total articles)`);
+  console.log(`💾 Saved to: ${latestPath} (${recentArticles.length} articles in 15-day rolling window)`);
   console.log(`📅 Historical backup: ${datePath} (${todaysArticles.length} today's articles)`);
   console.log('🎉 AI processing completed successfully!');
   

@@ -396,9 +396,9 @@ async function crawlFeed(source, useAIFilter = false, stats = null) {
       
       if (!isRelevant) continue;
       
-      // Different time windows based on source type
+      // Different time windows based on source type (max 15 days to align with cleanup)
       const daysBack = source.category === 'youtube' ? 14 :
-                      source.category === 'research' ? 30 :
+                      source.category === 'research' ? 15 :  // Reduced from 30 to prevent reprocessing
                       source.category === 'community' ? 3 :
                       source.category === 'medium' ? 7 :
                       source.category === 'developer' ? 14 :

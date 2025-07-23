@@ -216,16 +216,33 @@ jobs:
           # Keep only last 15 days of date-specific data files
           echo "🧹 Cleaning up data files older than 15 days..."
           
-          # Find and list files to be deleted (for logging)
-          find data/ -name "20*-*-processed.json" -type f -mtime +15 | while read file; do
-            echo "Deleting old file: $file"
+          # Calculate cutoff date (15 days ago)
+          CUTOFF_DATE=$(date -d "15 days ago" +%Y-%m-%d)
+          echo "🗓️ Cutoff date for cleanup: $CUTOFF_DATE"
+          
+          # Find and delete old data files based on filename date
+          find data/ -name "20*-*-processed.json" -type f | while read file; do
+            # Extract date from filename (e.g., 2025-06-30-processed.json -> 2025-06-30)
+            filename=$(basename "$file")
+            file_date=${filename%-processed.json}
+            
+            # Compare dates (string comparison works for YYYY-MM-DD format)
+            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
+              echo "Deleting old file: $file (date: $file_date)"
+              rm -f "$file"
+            fi
           done
           
-          # Delete old date-specific files (but keep latest-*.json files)
-          find data/ -name "20*-*-processed.json" -type f -mtime +15 -delete || true
-          
           # Also clean up corresponding site data files
-          find site/data/ -name "20*-*.json" -type f -mtime +15 -delete 2>/dev/null || true
+          find site/data/ -name "20*-*.json" -type f | while read file; do
+            filename=$(basename "$file")
+            file_date=${filename%.json}
+            
+            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
+              echo "Deleting old site file: $file (date: $file_date)"
+              rm -f "$file"
+            fi
+          done
           
           echo "✅ Rolling cleanup completed (15-day archive maintained)"
           
