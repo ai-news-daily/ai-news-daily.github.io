@@ -88,6 +88,41 @@ jobs:
           node scripts/process-clean.js
           echo "AI processing completed"
           
+      - name: Cleanup old data files (15-day rolling archive)
+        run: |
+          # Keep only last 15 days of date-specific data files
+          echo "🧹 Cleaning up data files older than 15 days..."
+          
+          # Calculate cutoff date (15 days ago)
+          CUTOFF_DATE=$(date -d "15 days ago" +%Y-%m-%d)
+          echo "🗓️ Cutoff date for cleanup: $CUTOFF_DATE"
+          
+          # Find and delete old data files based on filename date
+          find data/ -name "20*-*-processed.json" -type f | while read file; do
+            # Extract date from filename (e.g., 2025-06-30-processed.json -> 2025-06-30)
+            filename=$(basename "$file")
+            file_date=${filename%-processed.json}
+            
+            # Compare dates (string comparison works for YYYY-MM-DD format)
+            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
+              echo "Deleting old file: $file (date: $file_date)"
+              rm -f "$file"
+            fi
+          done
+          
+          # Also clean up corresponding site data files
+          find site/data/ -name "20*-*.json" -type f | while read file; do
+            filename=$(basename "$file")
+            file_date=${filename%.json}
+            
+            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
+              echo "Deleting old site file: $file (date: $file_date)"
+              rm -f "$file"
+            fi
+          done
+          
+          echo "✅ Rolling cleanup completed (15-day archive maintained)"
+          
       - name: Build static site
         run: |
           echo "🏗️ Building static site..."
@@ -210,41 +245,6 @@ jobs:
             console.log(\`Categories: \${Object.keys(categoryStats).length}\`);
             console.log(\`AI Processing: \${data.processingMethod || 'completed'}\`);
           "
-          
-      - name: Cleanup old data files (15-day rolling archive)
-        run: |
-          # Keep only last 15 days of date-specific data files
-          echo "🧹 Cleaning up data files older than 15 days..."
-          
-          # Calculate cutoff date (15 days ago)
-          CUTOFF_DATE=$(date -d "15 days ago" +%Y-%m-%d)
-          echo "🗓️ Cutoff date for cleanup: $CUTOFF_DATE"
-          
-          # Find and delete old data files based on filename date
-          find data/ -name "20*-*-processed.json" -type f | while read file; do
-            # Extract date from filename (e.g., 2025-06-30-processed.json -> 2025-06-30)
-            filename=$(basename "$file")
-            file_date=${filename%-processed.json}
-            
-            # Compare dates (string comparison works for YYYY-MM-DD format)
-            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
-              echo "Deleting old file: $file (date: $file_date)"
-              rm -f "$file"
-            fi
-          done
-          
-          # Also clean up corresponding site data files
-          find site/data/ -name "20*-*.json" -type f | while read file; do
-            filename=$(basename "$file")
-            file_date=${filename%.json}
-            
-            if [[ "$file_date" < "$CUTOFF_DATE" ]]; then
-              echo "Deleting old site file: $file (date: $file_date)"
-              rm -f "$file"
-            fi
-          done
-          
-          echo "✅ Rolling cleanup completed (15-day archive maintained)"
           
   # Health check job
   health-check:
