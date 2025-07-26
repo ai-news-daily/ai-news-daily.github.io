@@ -1,9 +1,84 @@
 {
-  "crawledAt": "2025-07-26T03:51:32.157Z",
+  "crawledAt": "2025-07-26T05:03:18.769Z",
   "totalSources": 70,
-  "totalArticles": 36,
+  "totalArticles": 39,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Unifying Probabilistic Learning in Transformers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1m9klbs/unifying_probabilistic_learning_in_transformers_r/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-26T04:46:29.000Z",
+      "metaDescription": "Hi all! Our paper claims to unify various different objects in deep learning, such as diffusion, attention and test-time learning, as all originating from a single idea. It includes a novel, exact der",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.33361869269204125,
+      "crawledAt": "2025-07-26T05:02:18.556Z",
+      "id": "l90qme",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9568222761154175,
+          "index": 6,
+          "word": "##istic",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The paper claims to unify various objects in deep learning, such as diffusion, attention and test-time learning.",
+      "language": "en",
+      "processed_at": "2025-07-26T05:03:42.569Z"
+    },
+    {
+      "title": "Agent Mode for Data Compilation",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1m9kl3g/agent_mode_for_data_compilation/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-07-26T04:46:09.000Z",
+      "metaDescription": "The ability for Agent Mode to create spreadsheets interested me because there is a project that I’ve wanted to work on for a while, but the manual data collection would take me a while, and I figured ",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.4786274418803131,
+      "crawledAt": "2025-07-26T05:02:28.346Z",
+      "id": "wbmynh",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9305596351623535,
+          "index": 5,
+          "word": "Co",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The ability for Agent Mode to create spreadsheets interested me because there is a project that I’ve wanted to work on for a while.",
+      "language": "en",
+      "processed_at": "2025-07-26T05:03:56.893Z"
+    },
+    {
+      "title": "Speed question: SDXL and Chroma",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1m9k8b0/speed_question_sdxl_and_chroma/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-07-26T04:26:46.000Z",
+      "metaDescription": "RTX 3060 12GB and 32 GB RAM.\n I get about 1.x s/it on SDXL on a workflow that includes 2 controlnets and a faceid, if that matters.\n On a standard Chroma workflow, using Chroma FP8, I get about 6.x s/",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3135951363749593,
+      "crawledAt": "2025-07-26T05:02:32.472Z",
+      "id": "pafeph",
+      "entities": [],
+      "summary": "On a standard Chroma workflow, using Chroma FP8, I get about 6.x s/it on a standard chroma workflow. On a standardchroma workflow that includes 2 controlnets and a faceid, if that matters.",
+      "language": "en",
+      "processed_at": "2025-07-26T05:04:12.843Z"
+    },
     {
       "title": "Why are we chasing AGI",
       "url": "https://www.reddit.com/r/artificial/comments/1m9jchs/why_are_we_chasing_agi/",
@@ -1383,16 +1458,16 @@
       "processed_at": "2025-07-26T04:01:07.666Z"
     }
   ],
-  "processedAt": "2025-07-26T04:01:07.993Z",
+  "processedAt": "2025-07-26T05:04:23.677Z",
   "categories": [
     "creative-ai",
+    "ai-agents",
     "infrastructure",
     "research-paper",
-    "ai-agents",
     "model-release"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 36,
-  "dailyArticlesCount": 36,
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 39,
   "filterDate": "2025-07-26"
 }
