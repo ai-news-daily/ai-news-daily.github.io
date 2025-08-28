@@ -1,9 +1,1367 @@
 {
-  "crawledAt": "2025-08-28T12:51:53.886Z",
+  "crawledAt": "2025-08-28T16:32:14.591Z",
   "totalSources": 70,
-  "totalArticles": 140,
+  "totalArticles": 183,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Experimenting with multi-LLM ensemble orchestration: GPT-5 as moderator, Claude/Gemini/DeepSeek/Perplexity as specialists",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n2gx76/p_experimenting_with_multillm_ensemble/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T16:26:18.000Z",
+      "metaDescription": "This started as a debugging hack when I was stuck on persistent API timeouts. Single-model GPT-5 responses felt inconsistent, so I tried a different setup: let GPT-5 act as a moderator and “consult” f",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.31194982671589544,
+      "crawledAt": "2025-08-28T16:31:03.798Z",
+      "id": "ldw1sp",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9707872271537781,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8767003417015076,
+          "index": 20,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " GPT-5 is a new version of the API. GPT.5 is the latest version of a new API.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:32:27.368Z"
+    },
+    {
+      "title": "AI or not, Will Smith’s crowd video is fresh cringe",
+      "url": "https://techcrunch.com/2025/08/28/ai-or-not-will-smiths-crowd-video-is-fresh-cringe/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T16:24:02.000Z",
+      "metaDescription": "Fans are accusing Will Smith of sharing an AI-generated video from his tour, but the truth isn't that simple.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6684801257066998,
+      "crawledAt": "2025-08-28T16:30:03.827Z",
+      "id": "edb4pl",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9997304081916809,
+          "index": 5,
+          "word": "Will",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999420166015625,
+          "index": 6,
+          "word": "Smith",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Fans are accusing Will Smith of sharing an AI-generated video from his tour. But the truth is that the video is actually a video.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:32:36.437Z"
+    },
+    {
+      "title": "⟆ - tʀɪßes_∞",
+      "url": "https://www.reddit.com/r/singularity/comments/1n2gu51/tʀɪßes/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T16:23:06.000Z",
+      "metaDescription": "More experiments, through: www.linktr.ee/uisato\n    submitted by    /u/uisato  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3083332973758932,
+      "crawledAt": "2025-08-28T16:30:52.807Z",
+      "id": "l4292x",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:32:36.525Z"
+    },
+    {
+      "title": "AMA With Z.AI, The Lab Behind GLM Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2ghx4/ama_with_zai_the_lab_behind_glm_models/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T16:10:25.000Z",
+      "metaDescription": "AMA with Z.AI — The Lab Behind GLM Models. Ask Us Anything!\n Hi r/LocalLLaMA\n Today we are having Z.AI, the research lab behind the GLM family of models. We’re excited to have them open up and answer ",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.5604381630519949,
+      "crawledAt": "2025-08-28T16:30:56.345Z",
+      "id": "d014ac",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9960880875587463,
+          "index": 1,
+          "word": "AM",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9462130665779114,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9711742997169495,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9719940423965454,
+          "index": 8,
+          "word": "The",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9871739149093628,
+          "index": 9,
+          "word": "Lab",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9477002024650574,
+          "index": 11,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9171010851860046,
+          "index": 12,
+          "word": "##LM",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9698305726051331,
+          "index": 13,
+          "word": "Models",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Z.AI is the research lab behind the GLM family of models. We're excited to have them open up and answer questions.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:32:46.015Z"
+    },
+    {
+      "title": "\"Optical generative models\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1n2gftz/optical_generative_models/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T16:08:11.000Z",
+      "metaDescription": "https://www.nature.com/articles/s41586-025-09446-5 \n \"Generative models cover various application areas, including image and video synthesis, natural language processing and molecular design, among ma",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2663006957137326,
+      "crawledAt": "2025-08-28T16:30:52.976Z",
+      "id": "c88nk2",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:32:46.094Z"
+    },
+    {
+      "title": "AI Frontlines: What Happens When One Company Controls $4 Trillion Worth of AI?",
+      "url": "https://pub.towardsai.net/ai-frontlines-what-happens-when-one-company-controls-4-trillion-worth-of-ai-6c55371cfec2?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T16:01:37.000Z",
+      "metaDescription": "When one company owns 80% of the AI GPU market and hits a $4T valuation, the question isn’t “how high?” — it’s “how long can it last?”\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.3004969666896421,
+      "crawledAt": "2025-08-28T16:30:36.881Z",
+      "id": "utea12",
+      "entities": [],
+      "summary": " When one company owns 80% of the AI GPU market and hits a $4T valuation, the question isn’t “how high?’s “How long can it last?”",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:24.511Z"
+    },
+    {
+      "title": "Must Know Dev Tools Feature - Save Hours",
+      "url": "https://www.youtube.com/shorts/EQOa-uavBsc",
+      "source": "Dave Ebbelaar",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T16:00:32.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.3089148316857063,
+      "crawledAt": "2025-08-28T16:31:36.635Z",
+      "id": "js466t",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:24.598Z"
+    },
+    {
+      "title": "MathGPT.AI, the ‘cheat-proof’ tutor and teaching assistant, expands to over 50 institutions",
+      "url": "https://techcrunch.com/2025/08/28/mathgpt-the-cheat-proof-ai-tutor-and-teaching-assistant-expands-to-over-50-institutions/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T16:00:00.000Z",
+      "metaDescription": "MathGPT AI, a tutor and teaching assistant that helps students learn, expands to over 50 institutions",
+      "category": "tutorial-guide",
+      "difficulty": 4,
+      "confidence": 0.6056004480023812,
+      "crawledAt": "2025-08-28T16:30:03.966Z",
+      "id": "cs6acm",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8270441889762878,
+          "index": 2,
+          "word": "##GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8858389854431152,
+          "index": 3,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " MathGPT AI, a tutor and teaching assistant that helps students learn, expands to over 50 institutions. MathG PT AI is a tutor, teaching assistant and tutor that helps student learn.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:36.142Z"
+    },
+    {
+      "title": "OpenAI–Anthropic cross-tests expose jailbreak and misuse risks — what enterprises must add to GPT-5 evaluations",
+      "url": "https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T15:50:54.000Z",
+      "metaDescription": "OpenAI and Anthropic tested each other's AI models and found that even though reasoning models align better to safety, there are still risks.",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.3481297934060873,
+      "crawledAt": "2025-08-28T16:30:13.595Z",
+      "id": "k5p9nj",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8503525853157043,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9856398105621338,
+          "index": 24,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9365682005882263,
+          "index": 25,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " OpenAI and Anthropic tested each other's AI models for safety. There are still risks, but there are still some risks, they say.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:44.924Z"
+    },
+    {
+      "title": "Photoshop is cooked, Nano Bananas manipulation is insane.",
+      "url": "https://www.reddit.com/r/singularity/comments/1n2fxjn/photoshop_is_cooked_nano_bananas_manipulation_is/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T15:49:11.000Z",
+      "metaDescription": "submitted by    /u/N35TY  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.37952853662201647,
+      "crawledAt": "2025-08-28T16:30:51.020Z",
+      "id": "w6oypl",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9097042083740234,
+          "index": 7,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9734688997268677,
+          "index": 9,
+          "word": "Ban",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9435707926750183,
+          "index": 10,
+          "word": "##ana",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:45.020Z"
+    },
+    {
+      "title": "One-time WordPress competitor TypePad ends its slide into obscurity by shutting down",
+      "url": "https://arstechnica.com/gadgets/2025/08/one-time-wordpress-competitor-typepad-ends-its-slide-into-obscurity-by-shutting-down/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T15:46:17.000Z",
+      "metaDescription": "After years of neglect, TypePad and everything on it goes away on September 30.",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.32937082463929285,
+      "crawledAt": "2025-08-28T16:30:06.711Z",
+      "id": "u6c75v",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9974316358566284,
+          "index": 4,
+          "word": "Word",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9971350431442261,
+          "index": 5,
+          "word": "##P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9863904714584351,
+          "index": 6,
+          "word": "##ress",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9892578721046448,
+          "index": 8,
+          "word": "Type",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.982462465763092,
+          "index": 9,
+          "word": "##Pad",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " TypePad goes away on September 30. The TypePad has been in the news for more than a decade. It has been neglected for years.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:33:54.949Z"
+    },
+    {
+      "title": "Oh get ready",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n2f8f3/oh_get_ready/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T15:22:47.000Z",
+      "metaDescription": "submitted by    /u/Independent-Wind4462  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25305456586680586,
+      "crawledAt": "2025-08-28T16:31:08.682Z",
+      "id": "bu7bdr",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:04.737Z"
+    },
+    {
+      "title": "Evaluate any computer-use agent with HUD + OSWorld-Verified",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2f25o/evaluate_any_computeruse_agent_with_hud/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T15:16:23.000Z",
+      "metaDescription": "We integrated Cua with HUD so you can run OSWorld-Verified and other computer-/browser-use benchmarks at scale.\n Different runners and logs made results hard to compare. Cua × HUD gives you a consiste",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.30830243500263405,
+      "crawledAt": "2025-08-28T16:30:59.960Z",
+      "id": "xubtg6",
+      "entities": [],
+      "summary": " We integrated Cua with HUD so you can run OSWorld-Verified and other computer-based benchmarks. Different runners and logs made results hard to compare.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:18.068Z"
+    },
+    {
+      "title": "The double standards are sickening!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n2ewvj/the_double_standards_are_sickening/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T15:11:07.000Z",
+      "metaDescription": "A single isolated, tragic incident simply got weaponized into a universal threat narrative – as if every meaningful AI-human interaction is inherently dangerous. \n Why no one is talking about:\n  \nTeen",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6656960127756988,
+      "crawledAt": "2025-08-28T16:31:01.659Z",
+      "id": "ul07ua",
+      "entities": [],
+      "summary": " A single isolated, tragic incident simply got weaponized into a universal threat narrative. The incident happened in a single incident.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:28.523Z"
+    },
+    {
+      "title": "Livestream at 10 A.M PT For Devs",
+      "url": "https://www.reddit.com/r/singularity/comments/1n2ewqm/livestream_at_10_am_pt_for_devs/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T15:10:59.000Z",
+      "metaDescription": "submitted by    /u/Independent-Ruin-376  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.32418218249034453,
+      "crawledAt": "2025-08-28T16:30:51.433Z",
+      "id": "js9g0f",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:28.624Z"
+    },
+    {
+      "title": "CohereLabs/command-a-translate-08-2025 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2ev3c/coherelabscommandatranslate082025_hugging_face/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T15:09:18.000Z",
+      "metaDescription": "Cohere Labs Command A Translate is an open weights research release of a 111 billion parameter model that achieves state-of-the-art performance on translation quality.\n Developed by: Cohere and Cohere",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.47009064943348106,
+      "crawledAt": "2025-08-28T16:30:57.432Z",
+      "id": "kpk7e1",
+      "entities": [],
+      "summary": " Cohere Labs Command A Translate is an open weights research release of a 111 billion parameter model. The model is based on the model's translation quality.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:40.463Z"
+    },
+    {
+      "title": "LIVESTREAM! Today 10am Pacific Time!",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n2etxc/livestream_today_10am_pacific_time/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T15:08:07.000Z",
+      "metaDescription": "submitted by    /u/cysety  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.7013166828959129,
+      "crawledAt": "2025-08-28T16:31:08.599Z",
+      "id": "hz9lfs",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8033318519592285,
+          "index": 11,
+          "word": "Time",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:40.557Z"
+    },
+    {
+      "title": "LAI #90: Research Agents, Model Selection, and Smarter Workflows",
+      "url": "https://pub.towardsai.net/lai-90-research-agents-model-selection-and-smarter-workflows-7f8351495753?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T15:01:46.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.38421590157631724,
+      "crawledAt": "2025-08-28T16:30:36.953Z",
+      "id": "b43v68",
+      "entities": [],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:40.725Z"
+    },
+    {
+      "title": "If you had unlimited compute, what model would you train?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n2ednh/d_if_you_had_unlimited_compute_what_model_would/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:51:50.000Z",
+      "metaDescription": "Just curious what people are dreaming of at night\n EDIT: ok maybe not unlimited, but like, a lot\n    submitted by    /u/MarkovNeckbrace  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3065002521823662,
+      "crawledAt": "2025-08-28T16:31:04.882Z",
+      "id": "25xity",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:34:41.256Z"
+    },
+    {
+      "title": "Eagle model compatibility with Qwen3 30B-A3B-2507-thinking?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2dz6v/eagle_model_compatibility_with_qwen3/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:37:04.000Z",
+      "metaDescription": "Hi all! I want to improve latency for the qwen3 30b-a3b 2507-thinking by applying speculative decoding.\n When I checked the supported model checkpoints at official eagle github, I found only Qwen3-30B",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.4054986132249288,
+      "crawledAt": "2025-08-28T16:30:59.571Z",
+      "id": "jkpubd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9971363544464111,
+          "index": 5,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9244340062141418,
+          "index": 6,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9820581078529358,
+          "index": 7,
+          "word": "##3",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Qwen3 30b-a-3b 2507-thinking by applying speculative decoding. When I checked the supported model checkpoints at official eagle github, I found only Qwen3-30B.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:35:12.673Z"
+    },
+    {
+      "title": "LatteReview: a low-code Python package designed to automate systematic literature review processes through AI-powered agents.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2dfb9/lattereview_a_lowcode_python_package_designed_to/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:16:06.000Z",
+      "metaDescription": "I encountered this project (not mine), it looks really cool:\n  \nLatteReview is a powerful Python package designed to automate academic literature review processes through AI-powered agents. Just like ",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9749298582168516,
+      "crawledAt": "2025-08-28T16:30:58.490Z",
+      "id": "w2fgk0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9923427700996399,
+          "index": 12,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9959511160850525,
+          "index": 23,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The project is called \"LatteReview\" and is based on a Python package. It is designed to automate academic literature review processes through AI.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:35:41.026Z"
+    },
+    {
+      "title": "Kinexus - open-source genAI +txt) enhanced cyoa editor.",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n2ddwa/kinexus_opensource_genai_imgfluxtxt_enhanced_cyoa/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T14:14:36.000Z",
+      "metaDescription": "Kinexus is an AI-enhanced (img+txt) for creating, styling, and exporting choice-based narrative games, interactive fiction, and interactive graphic novels. It runs entirely in your web browser, provid",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.2651732672338334,
+      "crawledAt": "2025-08-28T16:31:12.656Z",
+      "id": "sp0t6q",
+      "entities": [],
+      "summary": " Kinexus is an AI-enhanced (image+txt) for creating, styling, and exporting choice-based games. It runs entirely in your web browser, provid.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:03.873Z"
+    },
+    {
+      "title": "Investors are loving Lovable",
+      "url": "https://techcrunch.com/2025/08/28/investors-are-loving-lovable/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:04:06.000Z",
+      "metaDescription": "Investors are clambering to get onto Swedish vibe-coding startup Lovable’s cap table, making unsolicited offers of investment that value the company at more than $4 billion.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7015076058181481,
+      "crawledAt": "2025-08-28T16:30:04.110Z",
+      "id": "cj3dhe",
+      "entities": [],
+      "summary": " Swedish startup Lovable's cap table is valued at more than $4 billion. Lovable’s cap table.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:12.650Z"
+    },
+    {
+      "title": "Beyond RAG: Context Engineering for Smarter AI Systems",
+      "url": "https://pub.towardsai.net/beyond-rag-context-engineering-for-smarter-ai-systems-96caf8d562f7?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:01:50.000Z",
+      "metaDescription": "How Context Engineering Enhances Retrieval-Augmented Generation (RAG) for Smarter, More Reliable AI Applications.\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3471878316996537,
+      "crawledAt": "2025-08-28T16:30:37.147Z",
+      "id": "1fpnxa",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.883021891117096,
+          "index": 7,
+          "word": "Engineering",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.855609118938446,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " How Context Engineering Enhances Retrieval-Augmented Generation (RAG) for Smarter, More Reliable AI Applications.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:22.751Z"
+    },
+    {
+      "title": "5 Simple Steps to Mastering Docker for Data Science",
+      "url": "https://www.kdnuggets.com/5-simple-steps-to-mastering-docker-for-data-science",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T14:00:49.000Z",
+      "metaDescription": "Docker makes data science workflows more consistent and portable. This guide breaks it down into five simple, practical steps.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.28269397292022724,
+      "crawledAt": "2025-08-28T16:32:05.579Z",
+      "id": "l4tb6q",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9655081033706665,
+          "index": 11,
+          "word": "Science",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This guide breaks it down into five simple, practical steps. Docker makes data science workflows more consistent and portable.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:30.717Z"
+    },
+    {
+      "title": "Simulating Phase Change | Guest video by Vilas Winstein",
+      "url": "https://www.youtube.com/watch?v=itRV2jEtV8Q",
+      "source": "3Blue1Brown",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T14:00:47.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.33175091191608236,
+      "crawledAt": "2025-08-28T16:31:23.026Z",
+      "id": "w1b8qz",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9994193315505981,
+          "index": 9,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9990093111991882,
+          "index": 10,
+          "word": "##ila",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9988985657691956,
+          "index": 11,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999095618724823,
+          "index": 12,
+          "word": "Win",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9880952835083008,
+          "index": 13,
+          "word": "##stein",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:30.821Z"
+    },
+    {
+      "title": "AI hires or human hustle? Inside the next frontier of startup operations at TechCrunch Disrupt 2025",
+      "url": "https://techcrunch.com/2025/08/28/ai-hires-or-human-hustle-inside-the-next-frontier-of-startup-operations-at-techcrunch-disrupt-2025/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T14:00:00.000Z",
+      "metaDescription": "What happens when your first 10 hires aren’t people at all? At TechCrunch Disrupt 2025, we’re digging into the new wave of startups replacing or augmenting early employees with AI agents.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8963848346274372,
+      "crawledAt": "2025-08-28T16:30:04.310Z",
+      "id": "eg4dvh",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9815150499343872,
+          "index": 19,
+          "word": "Tech",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9898753762245178,
+          "index": 20,
+          "word": "##C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9593227505683899,
+          "index": 21,
+          "word": "##runch",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8682634234428406,
+          "index": 22,
+          "word": "Di",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " At TechCrunch Disrupt 2025, we're digging into the new wave of startups. We're looking at the future of the tech industry.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:39.457Z"
+    },
+    {
+      "title": "This Is How You Teach Jelly To Do Parkour!",
+      "url": "https://www.youtube.com/watch?v=EEvewoxv0TA",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:52:57.000Z",
+      "metaDescription": "",
+      "category": "tutorial-guide",
+      "difficulty": 3,
+      "confidence": 0.7002514307640748,
+      "crawledAt": "2025-08-28T16:31:22.347Z",
+      "id": "9kv08v",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:39.669Z"
+    },
+    {
+      "title": "Is Skakey the robot an AI?",
+      "url": "https://www.reddit.com/r/singularity/comments/1n2cl5m/is_skakey_the_robot_an_ai/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T13:43:02.000Z",
+      "metaDescription": "Is anybody here know Shakey the robot?\n    submitted by    /u/Adventurous-Ice9231  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.35900732816517766,
+      "crawledAt": "2025-08-28T16:30:52.502Z",
+      "id": "pj8pg0",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9960883855819702,
+          "index": 2,
+          "word": "S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9446519613265991,
+          "index": 3,
+          "word": "##ka",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:40.035Z"
+    },
+    {
+      "title": "Again where behemoth and reasoning model from meta ??",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2chrm/again_where_behemoth_and_reasoning_model_from_meta/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:39:03.000Z",
+      "metaDescription": "submitted by    /u/Independent-Wind4462  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.25703230963934254,
+      "crawledAt": "2025-08-28T16:30:56.555Z",
+      "id": "6egcn",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:36:40.177Z"
+    },
+    {
+      "title": "Built an AI-powered alerts app to stay ahead of news",
+      "url": "https://www.reddit.com/r/artificial/comments/1n2bz1z/built_an_aipowered_alerts_app_to_stay_ahead_of/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:17:17.000Z",
+      "metaDescription": "Hey everyone,\n I’ve been building a side project for the past few months — Cirrus Alerts, an AI-powered alerts app that helps you stay ahead of news that actually matters to you.\n The idea:\n  \nNo more",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.8553739233376045,
+      "crawledAt": "2025-08-28T16:30:55.041Z",
+      "id": "97ok39",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9958115220069885,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Cirrus Alerts app is an AI-powered alerts app that helps you stay ahead of news that actually matters to you. The idea is to help you stay in touch with news that matters to us.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:02.449Z"
+    },
+    {
+      "title": "Godfather of AI: We have no idea how to keep advanced AI under control. We thought we'd have plenty of time to figure it out. And there isn't plenty of time anymore.",
+      "url": "https://www.reddit.com/r/artificial/comments/1n2byez/godfather_of_ai_we_have_no_idea_how_to_keep/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:16:31.000Z",
+      "metaDescription": "submitted by    /u/katxwoods  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8877456086128289,
+      "crawledAt": "2025-08-28T16:30:53.711Z",
+      "id": "e53brb",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:02.669Z"
+    },
+    {
+      "title": "Are AI language models good at rating world building projects?",
+      "url": "https://www.reddit.com/r/artificial/comments/1n2bufl/are_ai_language_models_good_at_rating_world/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:11:51.000Z",
+      "metaDescription": "I asked multiple AI assistants(ChatGPT, DeepSeek, Gemini and few more) to rate an overview of my big world building project. All of them either said 9/10 or 10/10, but that got me thinking if they are",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.27505841309222867,
+      "crawledAt": "2025-08-28T16:30:55.232Z",
+      "id": "lgrvv5",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.995255708694458,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " All of the AI assistants said 9/10 or 10/10, but that got me thinking if they are. All of them either said 9-10 or10, or 10-10, and that got him thinking if there are more.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:17.628Z"
+    },
+    {
+      "title": "Hailuo AI. La Survivante",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n2bqn3/hailuo_ai_la_survivante/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T13:07:07.000Z",
+      "metaDescription": "submitted by    /u/Gannicus_manoul  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.8647512390898942,
+      "crawledAt": "2025-08-28T16:31:13.486Z",
+      "id": "xcvrzz",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9949071407318115,
+          "index": 1,
+          "word": "Hai",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9590617418289185,
+          "index": 2,
+          "word": "##lu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9914013743400574,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9952096939086914,
+          "index": 6,
+          "word": "La",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9959700703620911,
+          "index": 7,
+          "word": "Sur",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9862092137336731,
+          "index": 8,
+          "word": "##vi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9882088899612427,
+          "index": 9,
+          "word": "##vant",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8306151628494263,
+          "index": 10,
+          "word": "##e",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:27.736Z"
+    },
+    {
+      "title": "The 5% Playbook: Turning Generative AI Potential into Provable Business Value",
+      "url": "https://pub.towardsai.net/turn-generative-ai-potential-into-provable-business-value-417c9b3cb643?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:03:37.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9761397901135642,
+      "crawledAt": "2025-08-28T16:30:37.221Z",
+      "id": "r6ms4k",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:37.113Z"
+    },
+    {
+      "title": "Game On: How Modders Reimagine Classic Games With NVIDIA RTX Remix and Generative AI",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-rtx-remix-mod-contest-gen-ai/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:00:30.000Z",
+      "metaDescription": "Last week at Gamescom, NVIDIA announced the winners of the NVIDIA and ModDB RTX Remix Mod Contest, a $50,000 competition celebrating community-made projects that reimagine classic games with modern fi",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8924706174645588,
+      "crawledAt": "2025-08-28T16:29:53.368Z",
+      "id": "ojifp5",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9081360697746277,
+          "index": 13,
+          "word": "Games",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9102833271026611,
+          "index": 16,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " NVIDIA announced the winners of the NVIDIA and ModDB Remix Mod Contest. The $50,000 competition celebrates community-made projects that reimagine classic games with modern fi fi-made games.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:37:48.925Z"
+    },
+    {
+      "title": "Drop Into the Battle: ‘Gears of War: Reloaded Unleashed’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-reloaded/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T13:00:17.000Z",
+      "metaDescription": "Brace yourself, COGs — the Locusts aren’t the only thing rising up. The Coalition’s legendary shooter Gears of War: Reloaded is launching day one on GeForce NOW. But that’s just the start. This GFN Th",
+      "category": "product-launch",
+      "difficulty": 7,
+      "confidence": 0.8785210081501812,
+      "crawledAt": "2025-08-28T16:29:53.580Z",
+      "id": "yfwpuv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9608111381530762,
+          "index": 7,
+          "word": "Gear",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8959996700286865,
+          "index": 8,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9937279224395752,
+          "index": 9,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9728360772132874,
+          "index": 10,
+          "word": "War",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9090132713317871,
+          "index": 20,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9269394874572754,
+          "index": 21,
+          "word": "##e",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9894607663154602,
+          "index": 22,
+          "word": "##F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9008859992027283,
+          "index": 24,
+          "word": "##ce",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Coalition's legendary shooter Gears of War: Reloaded is launching day one on GeForce NOW. But that's just the start. This GFN Th GFNTh is just the beginning of the series.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:01.253Z"
+    },
+    {
+      "title": "Unpacking Passkeys Pwned: Possibly the most specious research in decades",
+      "url": "https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T13:00:10.000Z",
+      "metaDescription": "Researchers take note: When the endpoint is compromised, all bets are off.",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.7038747838471436,
+      "crawledAt": "2025-08-28T16:30:07.191Z",
+      "id": "8vwydh",
+      "entities": [],
+      "summary": " When the endpoint is compromised, all bets are off. When the end of the line is compromised. All bets are on the end.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:11.255Z"
+    },
+    {
+      "title": "Qwen Image Edit 3 Image Combine Workflow",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n2bgvy/qwen_image_edit_3_image_combine_workflow/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T12:55:09.000Z",
+      "metaDescription": "submitted by    /u/NautilusSudo  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5283134127854003,
+      "crawledAt": "2025-08-28T16:31:11.568Z",
+      "id": "rpfta2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9850746393203735,
+          "index": 1,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9156471490859985,
+          "index": 2,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9422674179077148,
+          "index": 6,
+          "word": "Image",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI-powered creative content generation and tools.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:11.358Z"
+    },
+    {
+      "title": "Porsche adds digital keys, in-car gaming to 2026 Macan Electric",
+      "url": "https://arstechnica.com/cars/2025/08/porsche-adds-digital-keys-in-car-gaming-to-2026-macan-electric/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T12:48:14.000Z",
+      "metaDescription": "Towing capacity is now 5,500 lbs, and there are some new driver assistance features.",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.9086753098991818,
+      "crawledAt": "2025-08-28T16:30:07.306Z",
+      "id": "2uh61n",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9975869059562683,
+          "index": 1,
+          "word": "Porsche",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9942859411239624,
+          "index": 13,
+          "word": "Mac",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8836132287979126,
+          "index": 14,
+          "word": "##an",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8122422099113464,
+          "index": 15,
+          "word": "Electric",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Towing capacity is now 5,500 lbs, and there are some new driver assistance features. There are some driver assistance feature features.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:30.767Z"
+    },
     {
       "title": "Life, Intelligence, and Consciousness: A Functional Perspective",
       "url": "https://www.reddit.com/r/singularity/comments/1n2b5sd/life_intelligence_and_consciousness_a_functional/",
@@ -300,6 +1658,25 @@
       "processed_at": "2025-08-28T12:53:03.653Z"
     },
     {
+      "title": "built a opensource tool that explores your files with deep research like workflow",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n2alye/built_a_opensource_tool_that_explores_your_files/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T12:15:31.000Z",
+      "metaDescription": "research workflow\n Demo\n repo - https://github.com/Datalore-ai/deepdoc\n a while back I released a small open source project and the support it got honestly meant a lot. the feedback and love here keep",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.3038639677973209,
+      "crawledAt": "2025-08-28T16:30:59.772Z",
+      "id": "bs7k3j",
+      "entities": [],
+      "summary": " A while back I released a small open source project and the support it got honestly meant a lot. The feedback and love here keep the feedback andLove here keep a lot of the feedback.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:42.552Z"
+    },
+    {
       "title": "The Download: Google’s AI energy use, and the AI Hype Index",
       "url": "https://www.technologyreview.com/2025/08/28/1122723/the-download-googles-ai-energy-use-and-the-ai-hype-index/",
       "source": "MIT Technology Review",
@@ -368,6 +1745,34 @@
       "processed_at": "2025-08-28T12:53:14.532Z"
     },
     {
+      "title": "7 Pandas Tricks for Efficient Data Merging",
+      "url": "https://machinelearningmastery.com/7-pandas-tricks-for-efficient-data-merging/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2025-08-28T12:00:55.000Z",
+      "metaDescription": "Data merging is the process of combining data from different sources into a unified dataset.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3515167866308868,
+      "crawledAt": "2025-08-28T16:30:28.933Z",
+      "id": "a3cbgm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8864504098892212,
+          "index": 2,
+          "word": "Pan",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Data merging is the process of combining data from different sources into a unified dataset. Data merging is a form of combining information from different data sources.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:38:52.175Z"
+    },
+    {
       "title": "7 Beginner Machine Learning Projects To Complete This Weekend",
       "url": "https://www.kdnuggets.com/7-beginner-machine-learning-projects-complete-this-weekend",
       "source": "KDnuggets",
@@ -430,6 +1835,25 @@
       "summary": " While working on self-explainable deep architectures for vision, I stumbled on something that feels quite profound. I observed that if you were playing with input-level gradients of ReLU networks, it was quite profound.",
       "language": "en",
       "processed_at": "2025-08-28T12:53:39.964Z"
+    },
+    {
+      "title": "Scapegoating AI it's easy",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n2a2xb/scapegoating_ai_its_easy/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-28T11:49:54.000Z",
+      "metaDescription": "Stop worrying about the polite, helpful, boundaried AI and start worrying about the psychologically devastating human-to-human platforms. 💀 They want to panic about \"AI attachment\" while ignoring the",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6226892070669843,
+      "crawledAt": "2025-08-28T16:31:01.812Z",
+      "id": "w8bb6q",
+      "entities": [],
+      "summary": "Stop worrying about \"AI attachment\" and stop worrying about the \"human-to-human\" platform. Stop worrying about AI and start worrying about human-to.",
+      "language": "en",
+      "processed_at": "2025-08-28T16:39:02.843Z"
     },
     {
       "title": "GPT5 Thinking echos negations and it’s driving me nuts!!!",
@@ -5236,21 +6660,21 @@
       "processed_at": "2025-08-28T12:58:20.238Z"
     }
   ],
-  "processedAt": "2025-08-28T12:58:20.250Z",
+  "processedAt": "2025-08-28T16:39:13.718Z",
   "categories": [
     "creative-ai",
-    "product-launch",
-    "industry-news",
-    "ai-agents",
     "infrastructure",
-    "model-release",
-    "safety-ethics",
+    "ai-agents",
     "developer-tool",
+    "tutorial-guide",
+    "safety-ethics",
+    "model-release",
+    "product-launch",
     "research-paper",
-    "tutorial-guide"
+    "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 42,
-  "dailyArticlesCount": 140,
+  "newArticlesProcessed": 43,
+  "dailyArticlesCount": 183,
   "filterDate": "2025-08-28"
 }
