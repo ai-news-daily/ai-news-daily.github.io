@@ -1,9 +1,721 @@
 {
-  "crawledAt": "2025-08-30T16:27:56.821Z",
+  "crawledAt": "2025-08-30T20:25:09.002Z",
   "totalSources": 70,
-  "totalArticles": 23,
+  "totalArticles": 86,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Ashton Kutcher uses ChatGPT-5",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n4bkg6/ashton_kutcher_uses_chatgpt5/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T20:22:03.000Z",
+      "metaDescription": "submitted by    /u/Away_Veterinarian579  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.2944977653772386,
+      "crawledAt": "2025-08-30T20:24:21.676Z",
+      "id": "ngwt0m",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9996340274810791,
+          "index": 1,
+          "word": "Ashton",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9997047781944275,
+          "index": 2,
+          "word": "Ku",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9990448355674744,
+          "index": 3,
+          "word": "##tch",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9425071477890015,
+          "index": 4,
+          "word": "##er",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.991513729095459,
+          "index": 6,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.980071485042572,
+          "index": 8,
+          "word": "##GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9497330188751221,
+          "index": 9,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:25:11.043Z"
+    },
+    {
+      "title": "Claude Isn’t Your Copilot. It’s Your New Engineering Team.",
+      "url": "https://pub.towardsai.net/claude-isnt-your-copilot-it-s-your-new-engineering-team-ae2dc96cc75a?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T20:01:36.000Z",
+      "metaDescription": "I stopped treating Claude Code like an autocomplete and started managing it like a team of junior devs. Here’s the workflow that actually…\nContinue reading on Towards AI »",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.25392271240174624,
+      "crawledAt": "2025-08-30T20:23:46.698Z",
+      "id": "yggq14",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8345904350280762,
+          "index": 15,
+          "word": "Engineering",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Claude Code was created by a team of junior devs. The team is based in the U.S. and is based on the work of a group of young developers.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:25:34.591Z"
+    },
+    {
+      "title": "Building a YOLOX Plate Detector: Setup, Fine-Tuning, Metrics, Dashcam Inference",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n4asaq/p_building_a_yolox_plate_detector_setup/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T19:48:34.000Z",
+      "metaDescription": "Hey all 👋\n I just published this is end-to-end walkthrough of fine-tuning YOLOX on a ~7k-image license-plate dataset: clean environment setup, dataset prep, training & evaluation with COCO metrics (m",
+      "category": "infrastructure",
+      "difficulty": 9,
+      "confidence": 0.5119507158879093,
+      "crawledAt": "2025-08-30T20:24:14.579Z",
+      "id": "chx9ve",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.943344235420227,
+          "index": 3,
+          "word": "Y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9011343717575073,
+          "index": 4,
+          "word": "##OL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8719853758811951,
+          "index": 5,
+          "word": "##OX",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " YOLOX is a fine-tuning YOLox on a ~7k-image license-plate dataset.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:25:53.899Z"
+    },
+    {
+      "title": "ChatterBox SRT Voice is now TTS Audio Suite - With VibeVoice, Higgs Audio 2, F5, RVC and more",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n4ahna/chatterbox_srt_voice_is_now_tts_audio_suite_with/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T19:35:36.000Z",
+      "metaDescription": "Hey everyone! Wow, a lot has changed since my last post. I've been quite busy and didn't have the time to make a new video. ChatterBox SRT Voice is now TTS Audio Suite - figured it needed a proper nam",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.33760279305969587,
+      "crawledAt": "2025-08-30T20:24:22.614Z",
+      "id": "m1gr6j",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9925286173820496,
+          "index": 1,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8585946559906006,
+          "index": 2,
+          "word": "##tter",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9980586767196655,
+          "index": 3,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9933291673660278,
+          "index": 4,
+          "word": "##ox",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9675889611244202,
+          "index": 5,
+          "word": "SR",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9914606213569641,
+          "index": 6,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9849368333816528,
+          "index": 7,
+          "word": "Voice",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8316267728805542,
+          "index": 30,
+          "word": "R",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " ChatterBox SRT Voice is now TTS Audio Suite. Chatterbox Audio Suite is now a TTS audio suite.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:26:02.072Z"
+    },
+    {
+      "title": "what changed in 24hrs?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n49nz4/what_changed_in_24hrs/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T19:01:30.000Z",
+      "metaDescription": "none of my custom gpt’s are behaving they way they were last night. they are stripped of all customization protocols and purpose despite nothing seeming to change in their instructions, prl’s, knowled",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.27559497642969155,
+      "crawledAt": "2025-08-30T20:24:20.927Z",
+      "id": "26z4wd",
+      "entities": [],
+      "summary": " The custom gpt’s are stripped of all customization protocols and purpose despite nothing seeming to change in their instructions.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:26:23.778Z"
+    },
+    {
+      "title": "Political censorship",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n49gvc/political_censorship/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T18:53:48.000Z",
+      "metaDescription": "Revisiting prompta chatgpt ran without issue a month or two ago, it now refuses the same exact prompts.\n Nano banana also refuses. When i ask why, it doesnt even know what im asking about, the part of",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.45987306728584737,
+      "crawledAt": "2025-08-30T20:24:09.232Z",
+      "id": "f6v9ah",
+      "entities": [],
+      "summary": " A month or two ago, a chatgpt ran without issue. A month ago, it now refuses to respond to the same exact prompts.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:26:48.157Z"
+    },
+    {
+      "title": "Can't search the internet or upload files?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n49d39/cant_search_the_internet_or_upload_files/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T18:49:36.000Z",
+      "metaDescription": "I was using chatgpt to do a dumb search and was told it couldn't access the internet or anything after 2023. I told it that it could and took a screenshot to win the argument and...the upload files is",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3015009109301309,
+      "crawledAt": "2025-08-30T20:24:21.112Z",
+      "id": "ep34ih",
+      "entities": [],
+      "summary": " I was using chatgpt to do a dumb search and was told it could not be done after 2023. I was told to take a screenshot of the search to prove it could be done. I did it and took a screenshot to win the argument.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:27:04.161Z"
+    },
+    {
+      "title": "This morning I've been generating Wan videos in the old A1111/Forge UI - Pretty Wild - If you want to be a bit nostalgic help this dev test it",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n48ovi/this_morning_ive_been_generating_wan_videos_in/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T18:21:57.000Z",
+      "metaDescription": "submitted by    /u/StevenWintower  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.27314193534674136,
+      "crawledAt": "2025-08-30T20:24:23.495Z",
+      "id": "4rkpcc",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9707785844802856,
+          "index": 23,
+          "word": "Wild",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:27:04.372Z"
+    },
+    {
+      "title": "WAN STV models / various settings on a 5090",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n48ltn/wan_stv_models_various_settings_on_a_5090/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T18:18:38.000Z",
+      "metaDescription": "Having a look at different results from the different model combinations. I found that the speed lora was really causing a lot of problems with mouth motions. It is significantly faster, but I think I",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.4440270869889811,
+      "crawledAt": "2025-08-30T20:24:22.382Z",
+      "id": "gsak4s",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9021070003509521,
+          "index": 3,
+          "word": "ST",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The speed lora is causing a lot of problems with mouth motions. It is significantly faster, but I think it is significantly quicker.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:27:13.543Z"
+    },
+    {
+      "title": "10,000 $ Budget for a rig that will run ai",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n48lcx/10000_budget_for_a_rig_that_will_run_ai_247/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T18:18:07.000Z",
+      "metaDescription": "As the title says, I want to make myself at home a set-up that can run AI 24/7, i need it mainly to replace the general use of llms ( chatgpt, gemini etc...), was thinking and saw lots of posts and in",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.27569901817877884,
+      "crawledAt": "2025-08-30T20:24:06.866Z",
+      "id": "7mirqx",
+      "entities": [],
+      "summary": " As the title says, I want to make myself at home a set-up that can run AI 24/7. I need it mainly to replace the general use of llms ( chatgpt, gemini etc.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:27:28.425Z"
+    },
+    {
+      "title": "Body proportions and skin realism in character LoRA",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n48hok/body_proportions_and_skin_realism_in_character/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T18:13:57.000Z",
+      "metaDescription": "Hey guys. I trained a character LoRA in WAN 2.2 yesterday. It's doing a good job at generating the face I trained it for but I cannot find a way to make the body proportions and the skin consistent.\n ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.43401442306005444,
+      "crawledAt": "2025-08-30T20:24:25.597Z",
+      "id": "vsmqeq",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9888140559196472,
+          "index": 8,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I trained a character LoRA in WAN 2.2 yesterday. It's doing a good job at generating the face I trained it for but I cannot find a way to make the body proportions and the skin consistent.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:27:50.237Z"
+    },
+    {
+      "title": "5 Prompting Techniques That Changed My Life as an AI Engineer",
+      "url": "https://pub.towardsai.net/5-prompting-techniques-that-changed-my-life-as-an-ai-engineer-and-everyday-ai-user-31a60fc003a4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T18:01:36.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3757944988834372,
+      "crawledAt": "2025-08-30T20:23:46.760Z",
+      "id": "lhjal",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9189038276672363,
+          "index": 15,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:28:03.636Z"
+    },
+    {
+      "title": "Wan GP Vace Multitalk FusioniX 14B",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n47x6b/wan_gp_vace_multitalk_fusionix_14b/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T17:49:57.000Z",
+      "metaDescription": "Wan 2.2 S2V is the new hotness, but I've had better luck with Vace Multitalk FusioniX 14B in WanGP. I was inspired by the talking video seen here. \n https://reddit.com/link/1n47x6b/video/fxcv0q5t27mf1",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.2769635607337236,
+      "crawledAt": "2025-08-30T20:24:24.163Z",
+      "id": "5hmhvq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9336552619934082,
+          "index": 1,
+          "word": "Wan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9739978313446045,
+          "index": 3,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.941647469997406,
+          "index": 4,
+          "word": "##ace",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9839903116226196,
+          "index": 5,
+          "word": "Multi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9873910546302795,
+          "index": 6,
+          "word": "##tal",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9746000170707703,
+          "index": 7,
+          "word": "##k",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8308876156806946,
+          "index": 8,
+          "word": "Fusion",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Wan 2.2 S2V is the new hotness, but I've had better luck with Vace Multitalk FusioniX 14B in WanGP.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:28:16.302Z"
+    },
+    {
+      "title": "How AI Vibe Coding Is Destroying Junior Developers' Careers",
+      "url": "https://www.reddit.com/r/artificial/comments/1n47vmr/how_ai_vibe_coding_is_destroying_junior/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T17:48:11.000Z",
+      "metaDescription": "submitted by    /u/creaturefeature16  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.4886318967530258,
+      "crawledAt": "2025-08-30T20:24:01.744Z",
+      "id": "i4fg31",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:28:16.527Z"
+    },
+    {
+      "title": "ADetailer question",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n46h3p/adetailer_question/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T16:50:27.000Z",
+      "metaDescription": "I seem to be getting these visible lines where ADetailer draws the box around the face. I've tried various denoise levels, positive and negative embeddings and only leaving certain words in Adetailer'",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.3881336989842968,
+      "crawledAt": "2025-08-30T20:24:25.259Z",
+      "id": "tfpybs",
+      "entities": [],
+      "summary": " I've tried various denoise levels, positive and negative embeddings. I've only left certain words in Adetailer's 'Adetailers'",
+      "language": "en",
+      "processed_at": "2025-08-30T20:29:27.429Z"
+    },
+    {
+      "title": "Hyodol AI robots ease loneliness for South Korea’s seniors: Rest of World",
+      "url": "https://www.reddit.com/r/singularity/comments/1n46ged/hyodol_ai_robots_ease_loneliness_for_south_koreas/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T16:49:40.000Z",
+      "metaDescription": "submitted by    /u/striketheviol  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.617657892806301,
+      "crawledAt": "2025-08-30T20:24:12.109Z",
+      "id": "qdkxfd",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9996494650840759,
+          "index": 10,
+          "word": "South",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9991945624351501,
+          "index": 11,
+          "word": "Korea",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8413295149803162,
+          "index": 16,
+          "word": "Rest",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9799507856369019,
+          "index": 17,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9646784067153931,
+          "index": 18,
+          "word": "World",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:29:43.095Z"
+    },
+    {
+      "title": "FLUX_KREA creatures",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n4694o/flux_krea_creatures/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T16:41:27.000Z",
+      "metaDescription": "I ignored KREA because QWEN is so good already. Then I tried creating extraterrestrial beings with the goal of minimal resemblance to Earth creatures. QWEN failed at this (prompt adherence was good, b",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4564592131991624,
+      "crawledAt": "2025-08-30T20:24:22.959Z",
+      "id": "k76mbt",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8303704261779785,
+          "index": 1,
+          "word": "FL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9262896776199341,
+          "index": 5,
+          "word": "K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8524500131607056,
+          "index": 6,
+          "word": "##RE",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " QWEN failed at this (prompt adherence was good) I ignored KREA because QWen is so good already.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:29:55.936Z"
+    },
+    {
+      "title": "Any fix for advanced voice giving you the straight facts, no fluff, right to the point, no sugar coated responses?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n4635b/any_fix_for_advanced_voice_giving_you_the/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T16:34:44.000Z",
+      "metaDescription": "Had OpenAI even acknowledged this issue? I want to have a conversation, I want the fluff. It’s impossible to talk to now. \n Hope I’m not the only one. \n    submitted by    /u/InsertWittySaying  \n [lin",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3116012715576814,
+      "crawledAt": "2025-08-30T20:24:21.897Z",
+      "id": "cdlgdi",
+      "entities": [],
+      "summary": "OpenAI acknowledged this issue. Had OpenAI even acknowledged it? I want to have a conversation, I want the fluff. It’s impossible to talk to now. Hope I’m not the only one.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:30:11.074Z"
+    },
+    {
+      "title": "Developers - API Tone Help?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n462ta/developers_api_tone_help/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T16:34:21.000Z",
+      "metaDescription": "Hi! I am making an app with OpenAI's API. I've only just started, and I have no experience in this. I've noticed that the API has that standard canned customer service style (I appreciate you bringing",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.8079710415361135,
+      "crawledAt": "2025-08-30T20:24:22.063Z",
+      "id": "mi784m",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9877328276634216,
+          "index": 5,
+          "word": "API",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9152364134788513,
+          "index": 6,
+          "word": "To",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I've only just started, and I have no experience in this. I've noticed that the API has that standard customer service style.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:30:20.381Z"
+    },
+    {
+      "title": "openai what did you do to our ai a massive downgrade and radio silence",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n462cd/openai_what_did_you_do_to_our_ai_a_massive/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T16:33:48.000Z",
+      "metaDescription": "ever feel like you’re talking to an ai that’s slowly losing its mind? over the past few weeks, something’s felt off and it’s not just me. \n let’s talk about the two biggest headaches.\n first, the memo",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.26480166716443576,
+      "crawledAt": "2025-08-30T20:24:09.616Z",
+      "id": "2tgfhd",
+      "entities": [],
+      "summary": "Over the past few weeks, something's felt off and it's not just me, says a memo from a friend.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:30:30.365Z"
+    },
     {
       "title": "AI Bubble? Understanding Real Value Amidst Market Hype",
       "url": "https://pub.towardsai.net/ai-bubble-understanding-real-value-amidst-market-hype-210099b48261?source=rss----98111c9905da---4",
@@ -22,6 +734,254 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-08-30T16:27:58.951Z"
+    },
+    {
+      "title": "Nexus - I made a Lora of a superhero I've been working on",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n44zyv/nexus_i_made_a_lora_of_a_superhero_ive_been/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T15:50:04.000Z",
+      "metaDescription": "Good Morning everyone. I've been working on a superhero for some time that me and my friend are making a comic book of for fun. So I took some time to make a lora of the character and I wanted to show",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6450562827503293,
+      "crawledAt": "2025-08-30T20:24:22.808Z",
+      "id": "6uixc",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8467003107070923,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.904680609703064,
+          "index": 3,
+          "word": "##us",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8985734581947327,
+          "index": 8,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I've been working on a superhero for some time that me and my friend are making a comic book of fun. I took some time to make a lora of the character and I wanted to show it.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:31:41.937Z"
+    },
+    {
+      "title": "OpenWebUI lets you auto expand reasoning now!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n44xxi/openwebui_lets_you_auto_expand_reasoning_now/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T15:47:40.000Z",
+      "metaDescription": "I'm not sure when they added this, but it was a pet peeve of mine so I wanted to share this is how you can turn on show reasoning content automatically. It's just in Settings > Interface > Always Expa",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.44383414639438273,
+      "crawledAt": "2025-08-30T20:24:07.638Z",
+      "id": "hrwc6o",
+      "entities": [],
+      "summary": " You can turn on show reasoning to show show content automatically. It's just in Settings. It's in the same settings as the other settings.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:31:52.358Z"
+    },
+    {
+      "title": "‘Sliding into an abyss’: experts warn over rising use of AI for mental health support",
+      "url": "https://www.reddit.com/r/artificial/comments/1n44u8v/sliding_into_an_abyss_experts_warn_over_rising/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T15:43:29.000Z",
+      "metaDescription": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.25523812425425185,
+      "crawledAt": "2025-08-30T20:24:01.392Z",
+      "id": "o4dxw8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9798334836959839,
+          "index": 17,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:31:52.495Z"
+    },
+    {
+      "title": "Which Wan2.2 workflow are you using, to mitigate motion issues?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n44k5t/which_wan22_workflow_are_you_using_to_mitigate/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T15:31:46.000Z",
+      "metaDescription": "Apparently the Lightning Loras are destroying movement/motion (I'm noticing this as well). I've heard people using different workflows and combinations; what have you guys found works best, while stil",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3991392203797385,
+      "crawledAt": "2025-08-30T20:24:24.343Z",
+      "id": "v52yee",
+      "entities": [],
+      "summary": " The Lightning Loras are destroying movement/motion. I've heard people using different workflows and combinations. I'm noticing this as well.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:32:03.773Z"
+    },
+    {
+      "title": "ChatGPT Used to Nail It Now It’s Full of Hallucinations. What’s Going On?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n43u2h/chatgpt_used_to_nail_it_now_its_full_of/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T15:02:15.000Z",
+      "metaDescription": "Why is ChatGPT Suddenly Getting Worse? Paying for Plus, Feeling Totally Let Down\n I’ve been a loyal ChatGPT Plus subscriber for a while now, but lately, I’m seriously reconsidering. Has anyone else no",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7902999894721519,
+      "crawledAt": "2025-08-30T20:24:11.131Z",
+      "id": "o8vq26",
+      "entities": [],
+      "summary": " I've been a loyal ChatGPT Plus subscriber for a while now, but lately, I'm seriously reconsidering. Has anyone else no else no other no else?",
+      "language": "en",
+      "processed_at": "2025-08-30T20:32:14.974Z"
+    },
+    {
+      "title": "ChatGPT Agent Mode & Deep Research usage not refreshing?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n43bp3/chatgpt_agent_mode_deep_research_usage_not/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T14:41:31.000Z",
+      "metaDescription": "Has anyone else seen their Agent Mode or Deep Research credits not reset? \n I first tried Agent Mode in late July (2 Agent runs + 1 Deep Research counted), but since then the numbers haven’t fully ref",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.6084166121494217,
+      "crawledAt": "2025-08-30T20:24:21.574Z",
+      "id": "9fqszw",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9764296412467957,
+          "index": 8,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8397277593612671,
+          "index": 9,
+          "word": "Research",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Has anyone else seen their Agent Mode or Deep Research credits not reset? Has anyone else see their Agent mode or Deep research credits notreset?",
+      "language": "en",
+      "processed_at": "2025-08-30T20:32:27.277Z"
+    },
+    {
+      "title": "ComfyUI - question about ConditioningZeroOut node to generate negative prompts",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n4385q/comfyui_question_about_conditioningzeroout_node/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T14:37:30.000Z",
+      "metaDescription": "Hi everyone,\n I’ve been experimenting with Stable Diffusion workflows and came across the ConditioningZeroOut node. I noticed it’s sometimes used when generating the negative prompt starting from the ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.30122589187982646,
+      "crawledAt": "2025-08-30T20:24:25.427Z",
+      "id": "nmcg8m",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9298306107521057,
+          "index": 11,
+          "word": "##Z",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The ConditioningZeroOut node is a node that generates negative prompts. The node is used to generate negative prompts from a negative prompt.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:32:36.186Z"
+    },
+    {
+      "title": "ChatGPT wont recreate picture with me and wife",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n437bh/chatgpt_wont_recreate_picture_with_me_and_wife/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T14:36:29.000Z",
+      "metaDescription": "I tried to recreate a photo of me and my wife. The issue is it wont do it since „its real people“. Is there any way to have it recreate the photo? Even just a month ago it would do it without hesitati",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3314028252647775,
+      "crawledAt": "2025-08-30T20:24:10.183Z",
+      "id": "x8futq",
+      "entities": [],
+      "summary": " I tried to recreate a photo of me and my wife. Is there any way to do it? Even just a month ago it would do it without hesitati.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:32:46.967Z"
+    },
+    {
+      "title": "How do you people run GLM 4.5 locally ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n4329n/how_do_you_people_run_glm_45_locally/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T14:30:45.000Z",
+      "metaDescription": "For context i have a dual rtx 3090 rig with 128gb of ddr5 ram and no matter what i try i get around 6 tokens per second...\n On CPU only inference i get between 5 and 6 tokens while on partial GPU offl",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2798213937165051,
+      "crawledAt": "2025-08-30T20:24:05.816Z",
+      "id": "nlby1i",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9937110543251038,
+          "index": 6,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9572418928146362,
+          "index": 7,
+          "word": "##LM",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " i have a dual rtx 3090 rig with 128gb of ddr5 ram and no matter what i try i get around 6 tokens per second. On CPU only inference i get between 5 and 6 tokens while on partial GPU offl. On CPU, only inference only inference I get",
+      "language": "en",
+      "processed_at": "2025-08-30T20:33:03.651Z"
     },
     {
       "title": "1 in 5 Adults Have Tried AI Romance. Here’s the Danger",
@@ -88,6 +1048,159 @@
       "summary": "Community discussion seeking help or recommendations on AI-related topics.",
       "language": "en",
       "processed_at": "2025-08-30T16:28:20.431Z"
+    },
+    {
+      "title": "How do you pivot to a Western academic career",
+      "url": "https://www.reddit.com/r/mlops/comments/1n40li9/how_do_you_pivot_to_a_western_academic_career/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T12:38:49.000Z",
+      "metaDescription": "I spent my time in primary school to university in the UK but I came back to Japan after COVID to do a masters in machine learning / NLP, now I'm kind of fed up with the ethos here and want to move ba",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3270633288350041,
+      "crawledAt": "2025-08-30T20:24:33.885Z",
+      "id": "v78wrp",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9995419383049011,
+          "index": 9,
+          "word": "Western",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I came back to Japan after COVID to do a masters in machine learning / NLP. Now I'm kind of fed up with the ethos here and want to move ba ba.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:33:36.762Z"
+    },
+    {
+      "title": "Qwen edit, awesome but so slow.",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n40kex/qwen_edit_awesome_but_so_slow/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T12:37:20.000Z",
+      "metaDescription": "Hello,\n So as the title says, I think qwen edit is amazing and alot of fun to use. However this enjoyment is ruined by its speed, it is so excruciatingly slow compared to everything else. I mean even ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8593128582739143,
+      "crawledAt": "2025-08-30T20:24:23.671Z",
+      "id": "aiqy3t",
+      "entities": [],
+      "summary": "Qwen edit is so excruciatingly slow compared to everything else, it is so slow compared. I mean even even even more slow than everything else.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:33:50.742Z"
+    },
+    {
+      "title": "NanoBanana Vs Queen Image Edit",
+      "url": "https://www.reddit.com/r/artificial/comments/1n4071t/nanobanana_vs_queen_image_edit/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T12:18:50.000Z",
+      "metaDescription": "Where I used Banana and Qween. The response nice comments.\n    submitted by    /u/spaceuniversal  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.2644922214223717,
+      "crawledAt": "2025-08-30T20:24:02.856Z",
+      "id": "ipyuxk",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9815593361854553,
+          "index": 1,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9261171221733093,
+          "index": 2,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9975230693817139,
+          "index": 3,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9479615688323975,
+          "index": 4,
+          "word": "##ana",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9707269072532654,
+          "index": 5,
+          "word": "##na",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.842557430267334,
+          "index": 6,
+          "word": "V",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI-powered creative content generation and tools.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:34:22.738Z"
+    },
+    {
+      "title": "Drop your agent building ideas here and get a free tested prototype!",
+      "url": "https://www.reddit.com/r/LangChain/comments/1n3zmte/drop_your_agent_building_ideas_here_and_get_a/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T11:49:50.000Z",
+      "metaDescription": "Hey everyone! I am the founder of Promptius AI ( https://promptius.ai )\n We are an agent builder that can build tool-equipped langgraph+langchain+langsmith agent prototypes within minutes.\n An interat",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3488973155390957,
+      "crawledAt": "2025-08-30T20:24:29.520Z",
+      "id": "wfdeg",
+      "entities": [],
+      "summary": " The founder of Promptius AI (https://promptius.ai) is the founder of the company. The company can build tool-equipped langgraph+langgraph+ langgraph +langchain+langsmith agent prototypes within minutes.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:34:36.585Z"
+    },
+    {
+      "title": "i think i still have a shot",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n3yvca/i_think_i_still_have_a_shot/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T11:06:43.000Z",
+      "metaDescription": "submitted by    /u/big_guyforyou  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.27701479796325074,
+      "crawledAt": "2025-08-30T20:24:08.250Z",
+      "id": "rzkddh",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:34:36.809Z"
     },
     {
       "title": "AI will steal your Job — Hype or Help!",
@@ -335,6 +1448,69 @@
       "processed_at": "2025-08-30T12:44:40.606Z"
     },
     {
+      "title": "Claude Leads, Codex Rises: npm Data on AI Agent CLIs",
+      "url": "https://generativeai.pub/claude-leads-codex-rises-and-gemini-npm-downloads-on-ai-agent-clis-1ad0e8e94437?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T10:14:57.000Z",
+      "metaDescription": "AI agent CLIs are buzzing. I took a data‑first look at adoption using npm downloads for Claude Code, Gemini CLI, and Codex CLI to see…\nContinue reading on Generative AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9689822658515921,
+      "crawledAt": "2025-08-30T20:23:59.297Z",
+      "id": "j26tgq",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9920386672019958,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9709053635597229,
+          "index": 13,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9834031462669373,
+          "index": 14,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI agent CLIs are buzzing. I took a data‑first look at adoption using npm downloads for Claude Code, Gemini CLI, and Codex CLI.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:34:45.778Z"
+    },
+    {
+      "title": "🌟Introducing Art-0-8B: Reasoning the way you want it to with Adaptive Thinking🌟",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n3xxm5/introducing_art08b_reasoning_the_way_you_want_it/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T10:08:44.000Z",
+      "metaDescription": "Hi everyone! Today I'm announcing a new experimental open-source model finetuned from Qwen3- Art-0-8B is the first reasoning model where users can explicitly control how the model thinks through promp",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.757069577907925,
+      "crawledAt": "2025-08-30T20:24:05.615Z",
+      "id": "4v03q9",
+      "entities": [],
+      "summary": " Qwen3- Art-0-8B is the first reasoning model where users can explicitly control how the model thinks through promp.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:34:57.155Z"
+    },
+    {
       "title": "How Dentsu Uses Generative Machine Learning to Transform Customer Service?",
       "url": "https://www.analyticsvidhya.com/blog/2025/08/generative-machine-learning/",
       "source": "Analytics Vidhya",
@@ -369,6 +1545,141 @@
       "summary": "In today's dynamic business environment, a company’s approach to customer experience can significantly impact its brand perception.",
       "language": "en",
       "processed_at": "2025-08-30T12:44:54.027Z"
+    },
+    {
+      "title": "New stealth drop by OpenAI in WebDev Arena",
+      "url": "https://www.reddit.com/r/singularity/comments/1n3wfq6/new_stealth_drop_by_openai_in_webdev_arena/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T08:28:30.000Z",
+      "metaDescription": "submitted by    /u/Outside-Iron-8242  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.25844323977544237,
+      "crawledAt": "2025-08-30T20:24:11.873Z",
+      "id": "slgrmx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9956924319267273,
+          "index": 6,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9252029657363892,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9484878182411194,
+          "index": 8,
+          "word": "##I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:35:18.400Z"
+    },
+    {
+      "title": "Meta changes teen AI chatbot responses as Senate begins probe into ‘romantic’ conversations",
+      "url": "https://www.reddit.com/r/artificial/comments/1n3vvvg/meta_changes_teen_ai_chatbot_responses_as_senate/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T07:52:28.000Z",
+      "metaDescription": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.41157649853184647,
+      "crawledAt": "2025-08-30T20:24:01.860Z",
+      "id": "jfcg99",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9886429905891418,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9293730854988098,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9989534020423889,
+          "index": 10,
+          "word": "Senate",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:35:30.169Z"
+    },
+    {
+      "title": "Was asking Chatgpt to explain the movie Hereditary then this happens:",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n3uugv/was_asking_chatgpt_to_explain_the_movie/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T06:46:03.000Z",
+      "metaDescription": "submitted by    /u/_Dextronaut  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2532729463825966,
+      "crawledAt": "2025-08-30T20:24:10.294Z",
+      "id": "rpdjxc",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9969701766967773,
+          "index": 3,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:35:41.162Z"
+    },
+    {
+      "title": "This morph is insanely smooth",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n3tcq4/this_morph_is_insanely_smooth/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-30T05:16:34.000Z",
+      "metaDescription": "submitted by    /u/Stv_L  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9407983057860658,
+      "crawledAt": "2025-08-30T20:24:08.870Z",
+      "id": "pem5xe",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:36:06.169Z"
     },
     {
       "title": "How Andrej Karpathy’s LLM Workflow is Redefining Developer Productivity",
@@ -629,6 +1940,58 @@
       "processed_at": "2025-08-30T01:48:01.690Z"
     },
     {
+      "title": "Is Isolation Forest ideal for real-time IMU-based anomaly detection? Open to better alternatives",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3nfye/is_isolation_forest_ideal_for_realtime_imubased/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-30T00:07:36.000Z",
+      "metaDescription": "Hey folks,\n I’m working on a project involving real-time anomaly detection using IMU data from a mobile robot (acc_x, acc_y, acc_z, magnitude). The goal is to detect small disturbances (e.g., bumping ",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.3498802928153982,
+      "crawledAt": "2025-08-30T20:24:15.148Z",
+      "id": "ng97wu",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9723427891731262,
+          "index": 2,
+          "word": "Is",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.960163414478302,
+          "index": 4,
+          "word": "##tion",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9190335273742676,
+          "index": 5,
+          "word": "Forest",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9980127215385437,
+          "index": 11,
+          "word": "I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Real-time anomaly detection using IMU data from a mobile robot. The goal is to detect small disturbances (e.g., bumping)",
+      "language": "en",
+      "processed_at": "2025-08-30T20:37:08.511Z"
+    },
+    {
       "title": "Dave Plummer: Programming, Autism, and Old-School Microsoft Stories | Lex Fridman Podcast #479",
       "url": "https://www.youtube.com/watch?v=HsLgZzgpz9Y",
       "source": "Lex Fridman",
@@ -703,6 +2066,159 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-08-30T01:48:01.835Z"
+    },
+    {
+      "title": "How to approach building a semantic search for 1M rows excel database?",
+      "url": "https://www.reddit.com/r/LangChain/comments/1n3mt1l/how_to_approach_building_a_semantic_search_for_1m/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T23:37:52.000Z",
+      "metaDescription": "As title states - I have a neatly categorized database of companies and their details in Excel. All columns are unified, there is no random data, no errors, weird symbols etc - it's very well prepped.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.28426695332771196,
+      "crawledAt": "2025-08-30T20:24:30.307Z",
+      "id": "wmabzo",
+      "entities": [],
+      "summary": " As title states, I have a neatly categorized database of companies and their details in Excel. All columns are unified, there is no random data, no errors, no weird symbols or random data.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:37:20.701Z"
+    },
+    {
+      "title": "Qwen3-coder is mind blowing on local hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1n3ldon/qwen3coder_is_mind_blowing_on_local_hardware/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T22:35:27.000Z",
+      "metaDescription": "Hello hello!\n I'm honestly blown away by how far local models have gotten in the past 1-2 months. Six months ago, local models were completely useless in Cline, which tbf is pretty heavyweight in term",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.34719439321796075,
+      "crawledAt": "2025-08-30T20:24:05.206Z",
+      "id": "nqg1ur",
+      "entities": [],
+      "summary": "Local models have been useless in the past 1-2 months. Local models were useless in Cline, which is pretty heavyweight in term.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:37:29.315Z"
+    },
+    {
+      "title": "People thinking Al will end all jobs are hallucinating- Yann LeCun reposted",
+      "url": "https://www.reddit.com/r/artificial/comments/1n3kvkm/people_thinking_al_will_end_all_jobs_are/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T22:13:55.000Z",
+      "metaDescription": "Are we already in the Trough of Disillusionment of the hype curve or are we still in a growing bubble? I feel like somehow we ended up having these 2 at the same time\n    submitted by    /u/Queasy_Sys",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4896907354263252,
+      "crawledAt": "2025-08-30T20:24:01.271Z",
+      "id": "iqprma",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.997222900390625,
+          "index": 13,
+          "word": "Yan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9989136457443237,
+          "index": 15,
+          "word": "Le",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9926949739456177,
+          "index": 16,
+          "word": "##C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Are we already in the Trough of Disillusionment of the hype curve or are we still in a growing bubble? I feel like somehow we ended up having these 2 at the same time.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:37:59.517Z"
+    },
+    {
+      "title": "Show me your real project",
+      "url": "https://www.reddit.com/r/LangChain/comments/1n3jawh/show_me_your_real_project_please/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T21:08:03.000Z",
+      "metaDescription": "I’d love to see real projects you’ve built that already solve a real problem (or even fun side projects like a game or a personal tool)\n It doesn’t matter if you used LangChain, LangGraph, or another ",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.8507914760214429,
+      "crawledAt": "2025-08-30T20:24:29.686Z",
+      "id": "6fi0a3",
+      "entities": [],
+      "summary": " It doesn’t matter if you used LangChain, LangGraph, or another LangChain or another. I’d love to see real projects you’ve built that already solve a real problem.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:12.912Z"
+    },
+    {
+      "title": "\"Starring Wynona Ryder\" - Filmography 1988-1992 - Wan2.2 FLF Morph/Transitions Edited with DaVinci Resolve.",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n3ja7h/starring_wynona_ryder_filmography_19881992_wan22/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T21:07:12.000Z",
+      "metaDescription": "*****Her name is \"Winona Ryder\" - I misspelled it in the post title thinking it was spelled like Wynonna Judd. Reddit doesn't allow you to edit post titles only the body text, so my mistake is now ent",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.28928012771941597,
+      "crawledAt": "2025-08-30T20:24:23.922Z",
+      "id": "ryttdd",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9977288842201233,
+          "index": 4,
+          "word": "W",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9251192808151245,
+          "index": 5,
+          "word": "##yn",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9372665286064148,
+          "index": 6,
+          "word": "##ona",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9826436042785645,
+          "index": 7,
+          "word": "Ryder",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Reddit doesn't allow you to edit post titles only with body text. I misspelled \"Winona Ryder\" in the post title.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:24.237Z"
     },
     {
       "title": "CDC spiraled into chaos this week. Here’s where things stand.",
@@ -815,6 +2331,653 @@
       "summary": " TechCrunch Disrupt isn't just about showcasing the startups of tomorrow. It's also about surfacing the boldest ideas shaping technology today.",
       "language": "en",
       "processed_at": "2025-08-30T01:48:29.090Z"
+    },
+    {
+      "title": "Forget the golden age of fraud, the billionaire investor who shorted Enron warns we might be in the ‘diamond or platinum level’ amid the AI boom",
+      "url": "https://www.reddit.com/r/artificial/comments/1n3iz0d/forget_the_golden_age_of_fraud_the_billionaire/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T20:54:31.000Z",
+      "metaDescription": "submitted by    /u/fortune  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4319525510870298,
+      "crawledAt": "2025-08-30T20:24:01.647Z",
+      "id": "l45gts",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9982764720916748,
+          "index": 14,
+          "word": "En",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9932723641395569,
+          "index": 15,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9897491335868835,
+          "index": 30,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:24.557Z"
+    },
+    {
+      "title": "ComfyUI Claims 30% speed increase did you notice?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n3ixj9/comfyui_claims_30_speed_increase_did_you_notice/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T20:52:51.000Z",
+      "metaDescription": "submitted by    /u/CeFurkan  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3888853073891076,
+      "crawledAt": "2025-08-30T20:24:24.676Z",
+      "id": "6gspu0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9663963317871094,
+          "index": 1,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9400051832199097,
+          "index": 4,
+          "word": "##UI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9767602682113647,
+          "index": 5,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:24.707Z"
+    },
+    {
+      "title": "Frontend for your AI agents.",
+      "url": "https://www.reddit.com/r/LangChain/comments/1n3ioli/frontend_for_your_ai_agents/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T20:42:41.000Z",
+      "metaDescription": "👋 Hey everyone!\n I’ve been working on a little project: “Frontend for your AI agents.”\n The idea: you focus on building amazing agents, and we instantly give you a clean, shareable frontend (chat UI ",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9724610647674076,
+      "crawledAt": "2025-08-30T20:24:30.883Z",
+      "id": "r30yn1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8315321207046509,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The idea is to build a clean, shareable frontend for your AI agents. The idea comes from the idea of a clean frontend.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:33.560Z"
+    },
+    {
+      "title": "Working with Optuna + AutoSampler in massive search spaces",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3iiam/d_working_with_optuna_autosampler_in_massive/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T20:35:35.000Z",
+      "metaDescription": "Hi! I’m using Optuna with AutoSampler to optimize a model, but the search space is huge—around 2 million combinations.\n Has anyone worked with something similar? I’m interested in learning which techn",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.5988752153608399,
+      "crawledAt": "2025-08-30T20:24:15.558Z",
+      "id": "n2m7qm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9979103207588196,
+          "index": 3,
+          "word": "Op",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9872151613235474,
+          "index": 4,
+          "word": "##tun",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9461433291435242,
+          "index": 5,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9871131777763367,
+          "index": 6,
+          "word": "+",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9951938390731812,
+          "index": 7,
+          "word": "Auto",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9955700635910034,
+          "index": 8,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9898170232772827,
+          "index": 9,
+          "word": "##ample",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9798499941825867,
+          "index": 10,
+          "word": "##r",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Optuna with AutoSampler to optimize a model, but the search space is huge. The search space has around 2 million combinations.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:42.912Z"
+    },
+    {
+      "title": "Scaling Inference: Lessons from Running Multiple Foundation Models in Production",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3i2fx/d_scaling_inference_lessons_from_running_multiple/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T20:18:02.000Z",
+      "metaDescription": "We’ve been experimenting with deploying a mix of foundation models (LLaMA, Mistral, Stable Diffusion variants, etc.) in a single platform. One of the recurring pain points is inference optimization at",
+      "category": "tutorial-guide",
+      "difficulty": 5,
+      "confidence": 0.2545683411042837,
+      "crawledAt": "2025-08-30T20:24:16.288Z",
+      "id": "b66xrc",
+      "entities": [],
+      "summary": " AMA, Mistral, Mistrals, Stable Diffusion variants, etc. in a single platform. One of the recurring pain points is inference optimization at inference optimization.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:38:53.208Z"
+    },
+    {
+      "title": "Once GPT is actually smart enough to replace entire teams of human workers, it's not gonna be free to use. It's not gonna cost $20 a month. They're gonna charge millions.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1n3hhm3/once_gpt_is_actually_smart_enough_to_replace/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T19:54:59.000Z",
+      "metaDescription": "Just something that hit me. We are just in the ramp up phase to gain experience and data. In the future, this is gonna be a highly valuable resource they're not gonna give away for free.\n    submitted",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.3495745589361647,
+      "crawledAt": "2025-08-30T20:24:10.721Z",
+      "id": "7we89k",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9555245637893677,
+          "index": 2,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8278260231018066,
+          "index": 3,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This is a highly valuable resource they're not gonna give away for free. We are just in the ramp up phase to gain experience and data, says author.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:18.272Z"
+    },
+    {
+      "title": "Open-Source Protocol designed for Multi-Agent Communication",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3gfpt/p_opensource_protocol_designed_for_multiagent/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T19:13:34.000Z",
+      "metaDescription": "Project\n OSS Released MAPLE – a Multi Agent Protocol Language Engine designed for fast, secure, and reliable agent communication.\n — a new open-source protocol designed for multi-agent communication a",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.6565278088077344,
+      "crawledAt": "2025-08-30T20:24:16.437Z",
+      "id": "fi8vec",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8038622140884399,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9471383094787598,
+          "index": 3,
+          "word": "Source",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9153980016708374,
+          "index": 4,
+          "word": "Protocol",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8441110253334045,
+          "index": 7,
+          "word": "Multi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9633215665817261,
+          "index": 9,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Project OSS Released MAPLE – a new open-source protocol designed for multi-agent communication. OSS is designed for fast, secure, and reliable agent communication.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:29.209Z"
+    },
+    {
+      "title": "How do we make browser-based AI agents more reliable?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3g1p7/d_how_do_we_make_browserbased_ai_agents_more/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T18:58:40.000Z",
+      "metaDescription": "I’ve been experimenting with different approaches for giving AI agents the ability to use browsers in real workflows (data collection, QA automation, multi-step workflows). The promise is huge but the",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9431261304503684,
+      "crawledAt": "2025-08-30T20:24:14.927Z",
+      "id": "6dxje1",
+      "entities": [],
+      "summary": " The promise is huge but the promise is big but the promises are huge. I’ve been experimenting with different approaches for giving AI agents the ability to use browsers in real workflows.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:41.393Z"
+    },
+    {
+      "title": "xAI accuses ex-employee of stealing AI secrets for OpenAI",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1n3fhiz/xai_accuses_exemployee_of_stealing_ai_secrets_for/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T18:36:44.000Z",
+      "metaDescription": "submitted by    /u/Outside-Iron-8242  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.29672125955513146,
+      "crawledAt": "2025-08-30T20:24:21.221Z",
+      "id": "obsyfi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9979228377342224,
+          "index": 1,
+          "word": "x",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9979100227355957,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9940682649612427,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9688627123832703,
+          "index": 12,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9919955134391785,
+          "index": 15,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9770898222923279,
+          "index": 16,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:50.160Z"
+    },
+    {
+      "title": "Google is cooking something....",
+      "url": "https://www.reddit.com/r/singularity/comments/1n3emvc/google_is_cooking_something/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T18:04:09.000Z",
+      "metaDescription": "submitted by    /u/ThunderBeanage  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7039985367917059,
+      "crawledAt": "2025-08-30T20:24:13.011Z",
+      "id": "1w6n40",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9974107146263123,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:50.474Z"
+    },
+    {
+      "title": "Upcoming interviews at frontier labs, tips?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1n3e27s/d_upcoming_interviews_at_frontier_labs_tips/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T17:42:40.000Z",
+      "metaDescription": "Hi all,\n I’m currently interviewing at a few labs for MLE positions and there’s two interviews in particular that have stumped me that I’d like some clarity on:\n  \nTransformer debugging - to my knowle",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.2679309343756149,
+      "crawledAt": "2025-08-30T20:24:14.750Z",
+      "id": "o3i5le",
+      "entities": [],
+      "summary": " The author is currently interviewing at a few labs for MLE positions. He's currently interviewing for Mle positions.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:39:58.097Z"
+    },
+    {
+      "title": "RAG without vector dbs",
+      "url": "https://www.reddit.com/r/LangChain/comments/1n3dftt/rag_without_vector_dbs/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T17:19:25.000Z",
+      "metaDescription": "submitted by    /u/grilledCheeseFish  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.27813936494909813,
+      "crawledAt": "2025-08-30T20:24:30.392Z",
+      "id": "s8ozb3",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:11.143Z"
+    },
+    {
+      "title": "Anthropic will start training its AI models on chat transcripts",
+      "url": "https://www.reddit.com/r/artificial/comments/1n3d1uu/anthropic_will_start_training_its_ai_models_on/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T17:04:49.000Z",
+      "metaDescription": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.26182928087504886,
+      "crawledAt": "2025-08-30T20:24:02.480Z",
+      "id": "8t1ync",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.980800449848175,
+          "index": 1,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9033374190330505,
+          "index": 3,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9798994064331055,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:11.490Z"
+    },
+    {
+      "title": "Taco Bell’s AI drive-thru plan gets caught up on trolls and glitches",
+      "url": "https://www.reddit.com/r/artificial/comments/1n3cx6v/taco_bells_ai_drivethru_plan_gets_caught_up_on/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-08-29T17:00:04.000Z",
+      "metaDescription": "submitted by    /u/F0urLeafCl0ver  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.9459446119546817,
+      "crawledAt": "2025-08-30T20:24:02.980Z",
+      "id": "qtc6nw",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9990828037261963,
+          "index": 1,
+          "word": "Ta",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9929373860359192,
+          "index": 2,
+          "word": "##co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9987804293632507,
+          "index": 3,
+          "word": "Bell",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:11.650Z"
+    },
+    {
+      "title": "Infinite Talk: lip-sync/V2V",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1n3c5hq/infinite_talk_lipsyncv2v_comfyui_workflow/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T16:30:31.000Z",
+      "metaDescription": "video/audio input -> video (lip-sync)\n On my RTX 3090 generation takes about 33 seconds per one second of video.\n Workflow: https://github.com/bluespork/InfiniteTalk-ComfyUI-workflows/blob/main/Infini",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4288324078900425,
+      "crawledAt": "2025-08-30T20:24:25.096Z",
+      "id": "tfs5yj",
+      "entities": [],
+      "summary": " On my RTX 3090 generation takes about 33 seconds per one second of video. Workflow:  Workflow.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:22.464Z"
+    },
+    {
+      "title": "Robotics last grand challenge: Assembling this 7,541-piece Millennium Falcon",
+      "url": "https://www.reddit.com/r/singularity/comments/1n3bv2z/robotics_last_grand_challenge_assembling_this/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T16:19:31.000Z",
+      "metaDescription": "submitted by    /u/Dr_Love2-14  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.4895891626740889,
+      "crawledAt": "2025-08-30T20:24:13.737Z",
+      "id": "km4jj6",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9802231192588806,
+          "index": 18,
+          "word": "Millennium",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9650984406471252,
+          "index": 19,
+          "word": "Falcon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:22.586Z"
+    },
+    {
+      "title": "Apple is not giving up on AI - yet",
+      "url": "https://www.reddit.com/r/singularity/comments/1n3bgwx/apple_is_not_giving_up_on_ai_yet/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-08-29T16:04:27.000Z",
+      "metaDescription": "submitted by    /u/elemental-mind  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3996619105089639,
+      "crawledAt": "2025-08-30T20:24:13.520Z",
+      "id": "rk96ou",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9964414834976196,
+          "index": 1,
+          "word": "Apple",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9859700798988342,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-08-30T20:40:22.705Z"
     },
     {
       "title": "Quiz: Deep vs Shallow Copies in Python",
@@ -937,18 +3100,21 @@
       "processed_at": "2025-08-30T12:45:17.181Z"
     }
   ],
-  "processedAt": "2025-08-30T16:28:20.582Z",
+  "processedAt": "2025-08-30T20:40:22.850Z",
   "categories": [
-    "ai-agents",
     "creative-ai",
+    "safety-ethics",
+    "infrastructure",
+    "product-launch",
+    "ai-agents",
+    "model-release",
+    "developer-tool",
     "industry-news",
     "research-paper",
-    "developer-tool",
-    "safety-ethics",
-    "infrastructure"
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 5,
-  "dailyArticlesCount": 23,
+  "newArticlesProcessed": 63,
+  "dailyArticlesCount": 86,
   "filterDate": "2025-08-30"
 }
