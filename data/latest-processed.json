@@ -1,9 +1,415 @@
 {
-  "crawledAt": "2025-10-20T04:32:02.675Z",
+  "crawledAt": "2025-10-20T08:41:44.064Z",
   "totalSources": 70,
-  "totalArticles": 3002,
+  "totalArticles": 2999,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "I wanna get into generating AI content",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1oberr3/i_wanna_get_into_generating_ai_content/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-20T08:37:36.000Z",
+      "metaDescription": "Hello guys! As the title says, how would I be able to do that? I've generated some videos on seaart.ai with the img to video option using prompts, I've used sora2 and it's amazing in my opinion. My la",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9298500506192512,
+      "crawledAt": "2025-10-20T08:40:36.091Z",
+      "id": "z2oinz",
+      "entities": [],
+      "summary": " The video was created using the img to video option. I've used sora2 and it's amazing in my opinion.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:41:55.522Z"
+    },
+    {
+      "title": "The man betting everything on AI and Bill Belichick",
+      "url": "https://techcrunch.com/2025/10/20/the-man-betting-everything-on-ai-and-bill-belichick/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T08:10:52.000Z",
+      "metaDescription": "UNC Chancellor Lee Roberts is making big bets on AI and Bill Belichick, and he sounds like a Silicon Valley CEO while doing it.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.6134290972269709,
+      "crawledAt": "2025-10-20T08:39:34.810Z",
+      "id": "4ackpe",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9995425343513489,
+          "index": 8,
+          "word": "Bill",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9994368553161621,
+          "index": 9,
+          "word": "Bel",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9968875050544739,
+          "index": 10,
+          "word": "##ichi",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " UNC Chancellor Lee Roberts is making big bets on AI and Bill Belichick. He sounds like a Silicon Valley CEO while doing it.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:42:36.368Z"
+    },
+    {
+      "title": "Using torch.cuda.synchronize causing unexpected errors with Triton.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1obe2i3/d_using_torchcudasynchronize_causing_unexpected/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T07:55:47.000Z",
+      "metaDescription": "I was going through the triton tutorial for vector addition here. When I added torch.cuda.synchronize() statement before return output in the add function, the benchmarks showed that the difference be",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.37649704079124735,
+      "crawledAt": "2025-10-20T08:40:20.683Z",
+      "id": "ya50ci",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9480124711990356,
+          "index": 16,
+          "word": "Tri",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " When I added torch.cuda.synchronize() statement before return output in the add function, the benchmarks showed that the difference be the difference.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:42:45.096Z"
+    },
+    {
+      "title": "How to build a full stack app with Langgraph?",
+      "url": "https://www.reddit.com/r/LangChain/comments/1obdlbi/how_to_build_a_full_stack_app_with_langgraph/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T07:28:26.000Z",
+      "metaDescription": "I love LangGraph because it provides a graph-based architecture for building AI agents. It’s great for building and prototyping locally, but when it comes to creating an AI SaaS around it and shipping",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5080777576917753,
+      "crawledAt": "2025-10-20T08:40:41.974Z",
+      "id": "hb9cju",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8132538795471191,
+          "index": 10,
+          "word": "##graph",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LangGraph provides a graph-based architecture for building AI agents. It's great for building and prototyping, but it's also great for shipping.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:42:55.894Z"
+    },
+    {
+      "title": "Is GPT-5 even usable now?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1obdixy/is_gpt5_even_usable_now/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-20T07:24:30.000Z",
+      "metaDescription": "Listen. I don’t use ChatGPT for therapy or a yes man, so don’t ever frame me as that (even though using it like that still has its own merits -- telling people to “talk to real friends!” is fucking la",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2562547440608541,
+      "crawledAt": "2025-10-20T08:40:26.184Z",
+      "id": "nm4p9k",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9941931962966919,
+          "index": 2,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.965101957321167,
+          "index": 3,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8627866506576538,
+          "index": 5,
+          "word": "5",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "I don't use ChatGPT for therapy or therapy, so don't call it a \"yes man\" or a \"Yes man\"",
+      "language": "en",
+      "processed_at": "2025-10-20T08:43:06.454Z"
+    },
+    {
+      "title": "Running model without VRAM issues",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1obdduw/running_model_without_vram_issues/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-20T07:15:34.000Z",
+      "metaDescription": "Hey! I have trained my own LoRa for the Qwen-Image-Edit-2509 model. To do that, I rented a RTX 5090 machine, and used settings from a youtube channel. Currently, I'm trying to run inference on the mod",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.32567201647916394,
+      "crawledAt": "2025-10-20T08:40:36.279Z",
+      "id": "gmp1wp",
+      "entities": [],
+      "summary": " The Qwen-Image-Edit-2509 model was rented from a YouTube channel. To do that, I rented a RTX 5090 machine, and used settings from a youtube channel.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:43:19.261Z"
+    },
+    {
+      "title": "I built a plug-n-play AI PC running Ollama and OpenWebUI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1obcfqn/i_built_a_plugnplay_ai_pc_running_ollama_and/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T06:14:46.000Z",
+      "metaDescription": "submitted by    /u/boxgpt  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9407986431478055,
+      "crawledAt": "2025-10-20T08:40:18.792Z",
+      "id": "3wk331",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8490099310874939,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9845734238624573,
+          "index": 12,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8747549653053284,
+          "index": 13,
+          "word": "##lla",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9468157887458801,
+          "index": 16,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9182847142219543,
+          "index": 17,
+          "word": "##W",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:43:54.053Z"
+    },
+    {
+      "title": "Building an action-based WhatsApp chatbot",
+      "url": "https://www.reddit.com/r/LangChain/comments/1obc4la/building_an_actionbased_whatsapp_chatbot_like/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T05:55:34.000Z",
+      "metaDescription": "Hey everyone I am exploring a WhatsApp chatbot that can do things, not just chat. Example: “Generate invoice for Company X” → it actually creates and emails the invoice. Same for sending emails, updat",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.5408877802694197,
+      "crawledAt": "2025-10-20T08:40:42.726Z",
+      "id": "u8f60f",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.954799473285675,
+          "index": 6,
+          "word": "What",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9756848216056824,
+          "index": 7,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9890062808990479,
+          "index": 8,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9372820854187012,
+          "index": 9,
+          "word": "##pp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The chatbot is a chatbot that can do things, not just chat. It can create and emails the invoice.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:16.023Z"
+    },
+    {
+      "title": "Introducing Unitree H2 - china is too good at robotics 😭",
+      "url": "https://www.reddit.com/r/singularity/comments/1obbuf9/introducing_unitree_h2_china_is_too_good_at/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-20T05:37:46.000Z",
+      "metaDescription": "submitted by    /u/Pro_RazE  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6103405894583733,
+      "crawledAt": "2025-10-20T08:40:27.156Z",
+      "id": "t6fzaj",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:25.389Z"
+    },
+    {
+      "title": "The 4th R -- LLMs and Graphicacy is a nascent yet fascinating topic that deserves way more attention -- LLMs can interpret visualizations better than raw data analysis and this would presumably be even more profound now than the paper date of 2024",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1obbrqc/the_4th_r_llms_vision_and_graphicacy_is_a_nascent/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T05:33:08.000Z",
+      "metaDescription": "https://preview.redd.it/tkrvoynb37wf1.png?width=1410&format=png&auto=webp&s=f31b86bbe4c6eb47506202a480c64151d09434e1\n I've discovered something very interesting and it is related to the Arxiv paper an",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.3515657692548826,
+      "crawledAt": "2025-10-20T08:40:39.744Z",
+      "id": "vdxm6j",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8837767839431763,
+          "index": 3,
+          "word": "R",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8298270106315613,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:25.702Z"
+    },
+    {
+      "title": "Built a searchable gallery of ML paper plots with copy-paste replication code",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1obbp7m/p_built_a_searchable_gallery_of_ml_paper_plots/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T05:28:52.000Z",
+      "metaDescription": "Hey everyone,\n I got tired of seeing interesting plots in papers and then spending 30+ minutes hunting through GitHub repos or trying to reverse-engineer the visualization code, so I built a tool to f",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.6464987010076407,
+      "crawledAt": "2025-10-20T08:40:20.494Z",
+      "id": "etxdo0",
+      "entities": [],
+      "summary": " GitHub repos are a tool to f f f-f-f. I got tired of seeing interesting plots in papers and then spent 30+ minutes hunting through GitHub repo.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:36.072Z"
+    },
+    {
+      "title": "Trying to add a unique cap 🧢",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1obblwb/trying_to_add_a_unique_cap/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-20T05:23:24.000Z",
+      "metaDescription": "Hey, i was wondering if anybody can help me with trying to add a specific cap/hat to my character in sora 2? \n    submitted by    /u/Similar-Efficiency12  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.40410915686483095,
+      "crawledAt": "2025-10-20T08:40:41.010Z",
+      "id": "ntpa8f",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:36.149Z"
+    },
+    {
+      "title": "Building AI-Assisted Jewelry Design Pipeline - Looking for feedback & feature ideas",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1obbhgi/building_aiassisted_jewelry_design_pipeline/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-20T05:16:01.000Z",
+      "metaDescription": "Hey everyone! Wanted to share what I'm building while getting your thoughts on the direction.\n The Problem I'm Tackling:\n Traditional jewelry design is time-consuming and expensive. Designers create s",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6402923321026643,
+      "crawledAt": "2025-10-20T08:40:37.853Z",
+      "id": "syyfsy",
+      "entities": [],
+      "summary": " The Problem I'm Tackling: Traditional jewelry design is time-consuming and expensive. The Problem: Traditional design is expensive and time- consuming.",
+      "language": "en",
+      "processed_at": "2025-10-20T08:44:44.949Z"
+    },
     {
       "title": "Your move OpenAI. Gemini discovered possible cancer treatment.",
       "url": "https://www.reddit.com/r/OpenAI/comments/1obadao/your_move_openai_gemini_discovered_possible/",
@@ -98335,660 +98741,25 @@
       "summary": " AI and modern trends are replacing mutual interaction with solitary, one-sided experiences with fake AI pets like Casio’s Moflin. cryptocurrencies like Bitcoin that benefit only the owner, AI-gener.",
       "language": "en",
       "processed_at": "2025-10-05T16:36:44.213Z"
-    },
-    {
-      "title": "The idea of an AI tool that synthesizes the results from multiple AI tools.",
-      "url": "https://www.reddit.com/r/artificial/comments/1nyiocs/the_idea_of_an_ai_tool_that_synthesizes_the/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T08:22:06.000Z",
-      "metaDescription": "I am not a native English speaker and am using an AI tool to translate in order to bridge the significant differences between the languages. I sincerely hope this AI tool conveys my intended meaning w",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.40293311355448513,
-      "crawledAt": "2025-10-06T01:50:55.100Z",
-      "id": "a51xqk",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9924447536468506,
-          "index": 5,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9933832883834839,
-          "index": 16,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I sincerely hope this AI tool conveys my intended meaning w. I am not a native English speaker and am using an AI tool to translate in order to bridge the significant differences between the languages.",
-      "language": "en",
-      "processed_at": "2025-10-06T02:00:43.628Z"
-    },
-    {
-      "title": "AI Endangering Tourists by Sending Them to Nonexistent Landmarks in Hazardous Locations",
-      "url": "https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:41:55.000Z",
-      "metaDescription": "submitted by    /u/mareacaspica  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.5057771678709927,
-      "crawledAt": "2025-10-05T16:26:33.770Z",
-      "id": "lsw1lu",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:23.889Z"
-    },
-    {
-      "title": "Building the Practical Foundation of Fine-Tuning Large Language Models",
-      "url": "https://pub.towardsai.net/building-the-practical-foundation-of-fine-tuning-large-language-models-llms-48b28deebbab?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:32:49.000Z",
-      "metaDescription": "Large Language Models (LLMs) like GPT, LLaMA, and Falcon have changed how machines understand and generate human-like text.\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 10,
-      "confidence": 0.3273234733513833,
-      "crawledAt": "2025-10-05T08:27:23.284Z",
-      "id": "yzmc00",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9839739799499512,
-          "index": 3,
-          "word": "P",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9905221462249756,
-          "index": 5,
-          "word": "Foundation",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9932205080986023,
-          "index": 6,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9948766827583313,
-          "index": 7,
-          "word": "Fine",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.963507354259491,
-          "index": 8,
-          "word": "-",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9467617273330688,
-          "index": 9,
-          "word": "Tu",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9822659492492676,
-          "index": 10,
-          "word": "##ning",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8992717266082764,
-          "index": 11,
-          "word": "Large",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9701713919639587,
-          "index": 12,
-          "word": "Language",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9753498435020447,
-          "index": 13,
-          "word": "Models",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Large Language Models (LLMs) like GPT, LLaMA, and Falcon have changed how machines understand and generate human-like text.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:28:23.631Z"
-    },
-    {
-      "title": "A brain-inspired agentic architecture to improve planning with LLMs",
-      "url": "https://www.reddit.com/r/singularity/comments/1nyhw6c/a_braininspired_agentic_architecture_to_improve/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-05T07:32:38.000Z",
-      "metaDescription": "submitted by    /u/OGSyedIsEverywhere  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.567726417432029,
-      "crawledAt": "2025-10-05T16:26:48.588Z",
-      "id": "3tw98v",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.868476152420044,
-          "index": 12,
-          "word": "LL",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:24.032Z"
-    },
-    {
-      "title": "The Two Faces of Forecasting",
-      "url": "https://pub.towardsai.net/the-two-faces-of-forecasting-why-amazons-469b-supply-chain-split-the-problem-in-half-and-why-8c99eab34c7c?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:26:40.000Z",
-      "metaDescription": "Why Amazon’s $469B Supply Chain Split the Problem in Half (And Why Your Company Should Too)\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.30597141749666323,
-      "crawledAt": "2025-10-05T08:27:23.509Z",
-      "id": "zdpts0",
-      "entities": [
-        {
-          "entity": "I-ORG",
-          "score": 0.970780611038208,
-          "index": 3,
-          "word": "Faces",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9782286286354065,
-          "index": 4,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9863876700401306,
-          "index": 5,
-          "word": "For",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9396342635154724,
-          "index": 6,
-          "word": "##eca",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9593800902366638,
-          "index": 7,
-          "word": "##sting",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Amazon’s $469B Supply Chain Split the Problem in Half (And Why Your Company Should Too) continues reading on Towards AI.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:28:32.496Z"
-    },
-    {
-      "title": "Why the Trillion-Dollar AI Bubble Could Ruin Your Future",
-      "url": "https://pub.towardsai.net/why-the-trillion-dollar-ai-bubble-could-ruin-your-future-3fd2cf50201c?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:25:46.000Z",
-      "metaDescription": "Continue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.3694716474812426,
-      "crawledAt": "2025-10-05T08:27:23.588Z",
-      "id": "ruu1rt",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9922791123390198,
-          "index": 3,
-          "word": "Tri",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8413646221160889,
-          "index": 4,
-          "word": "##lli",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8559790253639221,
-          "index": 9,
-          "word": "B",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8699589967727661,
-          "index": 16,
-          "word": "Future",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:28:32.606Z"
-    },
-    {
-      "title": "Quantum Computing + AI; What Happens?",
-      "url": "https://pub.towardsai.net/quantum-computing-ai-what-happens-93072762e5d2?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:23:07.000Z",
-      "metaDescription": "When Quantum Meets AI: A Story of Two Future Giants\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.36960316681987565,
-      "crawledAt": "2025-10-05T08:27:23.685Z",
-      "id": "tnbsvp",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9537210464477539,
-          "index": 2,
-          "word": "Computing",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " When Quantum Meets AI: A Story of Two Future Giants.Continue reading on Towards AI. When QuantumMeets AI is a Story of two Future Giants: A story of TwoFuture Giants.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:28:44.659Z"
-    },
-    {
-      "title": "Multimodal AI: The New Era of AI that Understands Text, Images, Audio, and More",
-      "url": "https://pub.towardsai.net/multimodal-ai-the-new-era-of-ai-that-understands-text-images-audio-and-more-3cda9e02e0e4?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:21:40.000Z",
-      "metaDescription": "What if your AI assistant could watch a video, read an article about it, listen to a podcast discussing it, and then explain the whole…\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.744666230684483,
-      "crawledAt": "2025-10-05T08:27:23.857Z",
-      "id": "ywrs54",
-      "entities": [],
-      "summary": " AI assistant could watch a video, read an article about it, listen to a podcast discussing it, and then explain it.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:28:55.243Z"
-    },
-    {
-      "title": "Don’t Panic, Why AI Can’t Replace You",
-      "url": "https://pub.towardsai.net/dont-panic-why-ai-can-t-replace-you-2c234e0e9d86?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:15:28.000Z",
-      "metaDescription": "This article is 100% free to read! Non-members can read for free by clicking “MY FRIEND LINK” here!\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3899834083902814,
-      "crawledAt": "2025-10-05T08:27:24.106Z",
-      "id": "oq4o0q",
-      "entities": [],
-      "summary": " This article is 100% free to read! Non-members can read for free by clicking “MY FRIEND LINK’s’. This article was 100%Free to read.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:29:20.026Z"
-    },
-    {
-      "title": "Qwen3-VL-30B-A3B-Thinking GGUF with llama.cpp patch to run it",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nyhjbc/qwen3vl30ba3bthinking_gguf_with_llamacpp_patch_to/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:10:16.000Z",
-      "metaDescription": "https://preview.redd.it/rsimr0s5t8tf1.png?width=1497&format=png&auto=webp&s=78bae97847f836ea3c715504082caa5c8e93de9e\n Example how to run it with vision support: --mmproj mmproj-Qwen3-VL-30B-A3B-F16.gg",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.4748843618415126,
-      "crawledAt": "2025-10-05T16:26:45.021Z",
-      "id": "bwqrg3",
-      "entities": [],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:24.247Z"
-    },
-    {
-      "title": "How I Automated My Finances with AI and Python",
-      "url": "https://pub.towardsai.net/how-i-automated-my-finances-with-ai-and-python-5a35752249ab?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T07:08:41.000Z",
-      "metaDescription": "A practical guide to using Python scripts and generative AI to track expenses, categorize transactions, and summarize your financial…\nContinue reading on Towards AI »",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.7952948144874395,
-      "crawledAt": "2025-10-05T08:27:24.358Z",
-      "id": "x4c2fo",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9356625080108643,
-          "index": 9,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.8958214521408081,
-          "index": 11,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A practical guide to using Python scripts and generative AI to track expenses, categorize transactions, and summarize your financial transactions.",
-      "language": "en",
-      "processed_at": "2025-10-05T08:29:29.427Z"
-    },
-    {
-      "title": "Used Gemini deepthink and GPT-5-pro to help solve niche but unpublished problems in combinatorics. Then built an open-source archive for AI assisted research",
-      "url": "https://www.reddit.com/r/singularity/comments/1nyh5s1/used_gemini_deepthink_and_gpt5pro_to_help_solve/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-05T06:47:28.000Z",
-      "metaDescription": "https://archivara.org/\n papers: https://obbxyqnoefmxxjqsuuxm.supabase.co/storage/v1/object/public/Papers/papers/55309337-466d-4453-ba22-12506db20b21/e18c0fa6-ee54-44ed-bd0d-6cd67f2dd3e4.pdf?\n https://",
-      "category": "developer-tool",
-      "difficulty": 7,
-      "confidence": 0.37440383971993285,
-      "crawledAt": "2025-10-05T16:26:48.332Z",
-      "id": "j4j565",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.832570493221283,
-          "index": 2,
-          "word": "Gemini",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9484997391700745,
-          "index": 7,
-          "word": "GP",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9136074781417847,
-          "index": 8,
-          "word": "##T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9975752830505371,
-          "index": 33,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:24.745Z"
-    },
-    {
-      "title": "Free Demo: Adaptive Optimizer for Edge AI – 70% Energy Savings with Auto-Freezing/Unfreezing!",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1nygrmy/free_demo_adaptive_optimizer_for_edge_ai_70/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-05T06:23:55.000Z",
-      "metaDescription": "submitted by    /u/Visible-Cricket-3762  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.895986376281345,
-      "crawledAt": "2025-10-05T16:27:06.435Z",
-      "id": "1sf91r",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8490162491798401,
-          "index": 14,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:24.952Z"
-    },
-    {
-      "title": "Replacing coders with AI? Why Bill Gates, Sam Altman and experience say you shouldn’t.",
-      "url": "https://venturebeat.com/ai/replacing-coders-with-ai-why-bill-gates-sam-altman-and-experience-say-you",
-      "source": "VentureBeat",
-      "source_domain": "venturebeat.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2025-10-05T05:00:00.000Z",
-      "metaDescription": "In the race to automate everything – from customer service to code – AI is being heralded as a silver bullet. The narrative is seductive: AI tools that can write entire applications, streamline engine",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.4135652347279108,
-      "crawledAt": "2025-10-05T20:23:28.517Z",
-      "id": "y4bqdg",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9599157571792603,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9995642900466919,
-          "index": 9,
-          "word": "Bill",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9994628429412842,
-          "index": 10,
-          "word": "Gates",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9997257590293884,
-          "index": 12,
-          "word": "Sam",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9994904398918152,
-          "index": 13,
-          "word": "Alt",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The narrative is seductive: AI tools that can write entire applications, streamline engine engine. In the race to automate everything – from customer service to code – AI is being heralded as a silver bullet.",
-      "language": "en",
-      "processed_at": "2025-10-05T20:25:33.498Z"
-    },
-    {
-      "title": "Replacing coders with AI? Why Bill Gates, Sam Altman and experience say you shouldn’t",
-      "url": "https://venturebeat.com/ai/replacing-coders-with-ai-why-bill-gates-sam-altman-and-experience-say-you",
-      "source": "VentureBeat",
-      "source_domain": "venturebeat.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2025-10-05T05:00:00.000Z",
-      "metaDescription": "In the race to automate everything – from customer service to code – AI is being heralded as a silver bullet. The narrative is seductive: AI tools that can write entire applications, streamline engine",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.26429992658799334,
-      "crawledAt": "2025-10-06T16:29:39.135Z",
-      "id": "q4y946",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9566916227340698,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9996134638786316,
-          "index": 9,
-          "word": "Bill",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.999517023563385,
-          "index": 10,
-          "word": "Gates",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.99973064661026,
-          "index": 12,
-          "word": "Sam",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9995442628860474,
-          "index": 13,
-          "word": "Alt",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The narrative is seductive: AI tools that can write entire applications, streamline engine engine. In the race to automate everything – from customer service to code – AI is being heralded as a silver bullet.",
-      "language": "en",
-      "processed_at": "2025-10-06T16:35:32.800Z"
-    },
-    {
-      "title": "LLM Inference on TPUs",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1nyfadh/d_llm_inference_on_tpus/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-05T04:57:38.000Z",
-      "metaDescription": "It seems like simple model.generate() calls are incredibly slow on TPUs (basically stuck after one inference), does anyone have simple solutions for using torch XLA on TPUs? This seems to be an ongoin",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.40345454059297287,
-      "crawledAt": "2025-10-05T16:26:40.021Z",
-      "id": "unv0av",
-      "entities": [],
-      "summary": "generate() calls are incredibly slow on TPUs. This seems to be an ongoin. It seems to have a simple solution to the problem.",
-      "language": "en",
-      "processed_at": "2025-10-05T16:37:35.168Z"
     }
   ],
-  "processedAt": "2025-10-20T04:50:02.471Z",
+  "processedAt": "2025-10-20T08:45:04.958Z",
   "categories": [
-    "infrastructure",
     "creative-ai",
-    "research-paper",
     "ai-agents",
+    "infrastructure",
+    "model-release",
+    "research-paper",
     "developer-tool",
     "safety-ethics",
     "tutorial-guide",
     "product-launch",
-    "model-release",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 63,
-  "existingArticlesKept": 2941,
+  "newArticlesProcessed": 13,
+  "existingArticlesKept": 3002,
   "cleanupApplied": true,
-  "cleanedUpCount": 2,
+  "cleanedUpCount": 16,
   "rollingWindowDays": 15
 }
