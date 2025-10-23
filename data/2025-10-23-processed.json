@@ -1,9 +1,1351 @@
 {
-  "crawledAt": "2025-10-23T01:54:02.859Z",
+  "crawledAt": "2025-10-23T04:30:32.463Z",
   "totalSources": 70,
-  "totalArticles": 25,
+  "totalArticles": 72,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Less is More: Recursive Reasoning with Tiny Networks",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/trm-recursive-reasoning/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:24:00.000Z",
+      "metaDescription": "Do you think that a small neural network (like TRM) can outperform models many times larger in reasoning tasks? How is it possible for billions of LLM parameters to have such a small number of modest ",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.43868569996199497,
+      "crawledAt": "2025-10-23T04:30:30.858Z",
+      "id": "w50mmv",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9725359082221985,
+          "index": 12,
+          "word": "Tiny",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9211812019348145,
+          "index": 13,
+          "word": "Networks",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A small neural network can outperform models many times larger in reasoning tasks. How is it possible for billions of LLM parameters to have such a small number of modest parameters?",
+      "language": "en",
+      "processed_at": "2025-10-23T04:30:47.788Z"
+    },
+    {
+      "title": "The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMS",
+      "url": "https://arxiv.org/abs/2510.19055",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19055v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) have demonstrated capabilities in audio understanding, but current evaluations may obscure fundamental weaknes",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.3881491270536184,
+      "crawledAt": "2025-10-23T04:30:03.067Z",
+      "id": "9jtars",
+      "entities": [],
+      "summary": "MLLMs. have demonstrated capabilities in audio understanding. The language is a language that can be used to communicate with people.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:31:26.627Z"
+    },
+    {
+      "title": "The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models",
+      "url": "https://arxiv.org/abs/2510.19176",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19176v1 Announce Type: new \nAbstract: Reasoning models have demonstrated exceptional performance in tasks such as mathematics and logical reasoning, primarily due to their ability to engage",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.988696976323403,
+      "crawledAt": "2025-10-23T04:30:03.443Z",
+      "id": "q2p1u9",
+      "entities": [],
+      "summary": " Reasoning models have demonstrated exceptional performance in tasks such as mathematics and logical reasoning, primarily due to their ability to engage.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:31:44.629Z"
+    },
+    {
+      "title": "ChatGPT Unveils Its Limits: Principles of Law Deliver Checkmate",
+      "url": "https://arxiv.org/abs/2510.19261",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19261v1 Announce Type: new \nAbstract: This study examines the performance of ChatGPT with an experiment in the legal domain. We compare the outcome with it a baseline using regular expressi",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.46800599540066745,
+      "crawledAt": "2025-10-23T04:30:03.805Z",
+      "id": "pd1cv7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.928753137588501,
+          "index": 1,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8385552763938904,
+          "index": 3,
+          "word": "##GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8670741319656372,
+          "index": 4,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9884234666824341,
+          "index": 13,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8891777396202087,
+          "index": 14,
+          "word": "Law",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The study examines the performance of ChatGPT with an experiment in the legal domain. We compare the outcome with a baseline using regular expressi.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:32:05.901Z"
+    },
+    {
+      "title": "MSC-Bench: A Rigorous Benchmark for Multi-Server Tool Orchestration",
+      "url": "https://arxiv.org/abs/2510.19423",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19423v1 Announce Type: new \nAbstract: We introduce MSC-Bench, a large-scale benchmark for evaluating multi-hop, end-to-end tool orchestration by LLM agents in a hierarchical Model-Context P",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.36430542243615965,
+      "crawledAt": "2025-10-23T04:30:04.522Z",
+      "id": "vakn21",
+      "entities": [],
+      "summary": " MSC-bench is a large-scale benchmark for evaluating multi-hop, end-to-end tool orchestration.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:32:45.992Z"
+    },
+    {
+      "title": "ADPO: Anchored Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2510.18913",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18913v1 Announce Type: new \nAbstract: Anchored Direct Preference Optimization (ADPO) is a unified framework that generalizes Direct Preference Optimization (DPO) with soft preferences, refe",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3820808910993964,
+      "crawledAt": "2025-10-23T04:30:17.109Z",
+      "id": "9mgyw",
+      "entities": [],
+      "summary": " The new system is a unified framework that generalizes Direct Preference Optimization (DPO) with soft preferences.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:33:51.372Z"
+    },
+    {
+      "title": "Benchmarking On-Device Machine Learning on Apple Silicon with MLX",
+      "url": "https://arxiv.org/abs/2510.18921",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18921v1 Announce Type: new \nAbstract: The recent widespread adoption of Large Language Models (LLMs) and machine learning in general has sparked research interest in exploring the possibili",
+      "category": "research-paper",
+      "difficulty": 4,
+      "confidence": 0.7392563792315674,
+      "crawledAt": "2025-10-23T04:30:17.288Z",
+      "id": "8fl7xh",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8886120319366455,
+          "index": 9,
+          "word": "Machine",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The recent adoption of Large Language Models (LLMs) and machine learning has sparked interest in exploring the possibili.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:33:59.397Z"
+    },
+    {
+      "title": "Category learning in deep neural networks: Information content and geometry of internal representations",
+      "url": "https://arxiv.org/abs/2510.19021",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19021v1 Announce Type: new \nAbstract: In animals, category learning enhances discrimination between stimuli close to the category boundary. This phenomenon, called categorical perception, w",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.28005409707768075,
+      "crawledAt": "2025-10-23T04:30:19.045Z",
+      "id": "2ixsf5",
+      "entities": [],
+      "summary": "In animals, learning enhances discrimination between stimuli close to the category boundary. This phenomenon, called categorical perception, is called categorian perception.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:35:34.410Z"
+    },
+    {
+      "title": "POLAR: Policy-based Layerwise Reinforcement Learning Method for Stealthy Backdoor Attacks in Federated Learning",
+      "url": "https://arxiv.org/abs/2510.19056",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19056v1 Announce Type: new \nAbstract: Federated Learning (FL) enables decentralized model training across multiple clients without exposing local data, but its distributed feature makes it ",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.293362725449072,
+      "crawledAt": "2025-10-23T04:30:19.401Z",
+      "id": "p0dpad",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8829398155212402,
+          "index": 28,
+          "word": "##erated",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Federated Learning enables decentralized model training across multiple clients without exposing local data. The distributed feature makes it easier to train across the country.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:35:53.227Z"
+    },
+    {
+      "title": "Dimensionality Reduction for Remote Sensing Data Analysis: A Systematic Review of Methods and Applications",
+      "url": "https://arxiv.org/abs/2510.18935",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18935v1 Announce Type: new \nAbstract: Earth observation involves collecting, analyzing, and processing an ever-growing mass of data. Automatically harvesting information is crucial for addr",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.2692006384384261,
+      "crawledAt": "2025-10-23T04:30:19.602Z",
+      "id": "4c0sk7",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8819379806518555,
+          "index": 11,
+          "word": "##sing",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.803463339805603,
+          "index": 13,
+          "word": "Analysis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The world's largest ever-growing data is collected by analyzing, analyzing, and collecting data. The data is used to create a map of the world.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:36:03.267Z"
+    },
+    {
+      "title": "Robust Driving QA through Metadata-Grounded Context and Task-Specific Prompts",
+      "url": "https://arxiv.org/abs/2510.19001",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19001v1 Announce Type: new \nAbstract: We present a two-phase vision-language QA system for autonomous driving that answers high-level perception, prediction, and planning questions. In Phas",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.252334169235239,
+      "crawledAt": "2025-10-23T04:30:19.987Z",
+      "id": "ri9ov2",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8786135911941528,
+          "index": 7,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8178731203079224,
+          "index": 8,
+          "word": "##ada",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " In Phas, we present a two-phase vision-language QA system for autonomous driving that answers high-level perception, prediction, and planning questions.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:36:25.538Z"
+    },
+    {
+      "title": "MoAlign: Motion-Centric Representation Alignment for Video Diffusion Models",
+      "url": "https://arxiv.org/abs/2510.19022",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19022v1 Announce Type: new \nAbstract: Text-to-video diffusion models have enabled high-quality video synthesis, yet often fail to generate temporally coherent and physically plausible motio",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.26942502481798564,
+      "crawledAt": "2025-10-23T04:30:20.379Z",
+      "id": "11kuz0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.866761326789856,
+          "index": 6,
+          "word": "Motion",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8612353801727295,
+          "index": 10,
+          "word": "##ric",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9152645468711853,
+          "index": 19,
+          "word": "Di",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new video is a new version of the video-based video series. The new version is a version of a new video series.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:36:50.654Z"
+    },
+    {
+      "title": "FootFormer: Estimating Stability from Visual Input",
+      "url": "https://arxiv.org/abs/2510.19170",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19170v1 Announce Type: new \nAbstract: We propose FootFormer, a cross-modality approach for jointly predicting human motion dynamics directly from visual input. On multiple datasets, FootFor",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.431653366795191,
+      "crawledAt": "2025-10-23T04:30:21.518Z",
+      "id": "upql2y",
+      "entities": [],
+      "summary": "FootFormer is a cross-modality approach for jointly predicting human motion dynamics directly from visual input. On multiple datasets, FootFor.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:37:51.282Z"
+    },
+    {
+      "title": "Malaria Detection from Blood Cell Images Using XceptionNet",
+      "url": "https://arxiv.org/abs/2510.19182",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19182v1 Announce Type: new \nAbstract: Malaria, which primarily spreads with the bite of female anopheles mosquitos, often leads to death of people - specifically children in the age-group o",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.407510209600758,
+      "crawledAt": "2025-10-23T04:30:21.696Z",
+      "id": "bdnq4z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8617885708808899,
+          "index": 1,
+          "word": "Mal",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Malaria often spreads with the bite of female anopheles mosquitos. Children in the age-group o.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:37:59.887Z"
+    },
+    {
+      "title": "PruneHal: Reducing Hallucinations in Multi-modal Large Language Models through Adaptive KV Cache Pruning",
+      "url": "https://arxiv.org/abs/2510.19183",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19183v1 Announce Type: new \nAbstract: While multi-modal large language models (MLLMs) have made significant progress in recent years, the issue of hallucinations remains a major challenge. ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.26763344318005083,
+      "crawledAt": "2025-10-23T04:30:21.909Z",
+      "id": "l4758f",
+      "entities": [],
+      "summary": "Multi-modal large language models (MLLMs) have made significant progress in recent years. The issue of hallucinations remains a major challenge.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:38:08.738Z"
+    },
+    {
+      "title": "Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks",
+      "url": "https://arxiv.org/abs/2510.19195",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19195v1 Announce Type: new \nAbstract: Recent advancements in driving world models enable controllable generation of high-quality RGB videos or multimodal videos. Existing methods primarily ",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.3128022369213136,
+      "crawledAt": "2025-10-23T04:30:22.289Z",
+      "id": "lxmnuf",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9813619256019592,
+          "index": 4,
+          "word": "Driving",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.997115433216095,
+          "index": 5,
+          "word": "World",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9965032935142517,
+          "index": 6,
+          "word": "Model",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Recent advancements in driving models enable controllable generation of high-quality RGB videos or multimodal videos. Existing methods primarily primarily used for driving.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:38:29.929Z"
+    },
+    {
+      "title": "Transformer-Based Low-Resource Language Translation: A Study on Standard Bengali to Sylheti",
+      "url": "https://arxiv.org/abs/2510.18898",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18898v1 Announce Type: new \nAbstract: Machine Translation (MT) has advanced from rule-based and statistical methods to neural approaches based on the Transformer architecture. While these m",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.3349075705431467,
+      "crawledAt": "2025-10-23T04:30:11.484Z",
+      "id": "947v3v",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9244841933250427,
+          "index": 14,
+          "word": "Standard",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9887045621871948,
+          "index": 15,
+          "word": "Bengali",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8098673820495605,
+          "index": 17,
+          "word": "S",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Machine Translation (MT) has advanced from rule-based and statistical methods to neural approaches based on the Transformer architecture.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:39:10.305Z"
+    },
+    {
+      "title": "DuoLens: A Framework for Robust Detection of Machine-Generated Multilingual Text and Code",
+      "url": "https://arxiv.org/abs/2510.18904",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18904v1 Announce Type: new \nAbstract: The prevalence of Large Language Models (LLMs) for generating multilingual text and source code has only increased the imperative for machine-generated",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5135689042583991,
+      "crawledAt": "2025-10-23T04:30:11.677Z",
+      "id": "smmpiz",
+      "entities": [],
+      "summary": " The prevalence of Large Language Models for generating multilingual text and source code has increased the need for machine-generated text.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:39:18.145Z"
+    },
+    {
+      "title": "Evaluating LLM Story Generation through Large-scale Network Analysis of Social Structures",
+      "url": "https://arxiv.org/abs/2510.18932",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18932v1 Announce Type: new \nAbstract: Evaluating the creative capabilities of large language models (LLMs) in complex tasks often requires human assessments that are difficult to scale. We ",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.2720583924335121,
+      "crawledAt": "2025-10-23T04:30:12.858Z",
+      "id": "x1u7u7",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8804700970649719,
+          "index": 15,
+          "word": "Social",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The World's largest language models (LLMs) in complex tasks often require human assessments that are difficult to scale.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:40:22.271Z"
+    },
+    {
+      "title": "Are they lovers or friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues",
+      "url": "https://arxiv.org/abs/2510.19028",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19028v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly used in human-AI interactions, their social reasoning capabilities in interpersonal contexts are criti",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.5496571619282381,
+      "crawledAt": "2025-10-23T04:30:13.594Z",
+      "id": "rwnsg0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9995281100273132,
+          "index": 17,
+          "word": "English",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9992326498031616,
+          "index": 19,
+          "word": "Korean",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "As large language models are increasingly used in human-AI interactions, their social reasoning capabilities are increasingly becoming more sophisticated.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:41:05.584Z"
+    },
+    {
+      "title": "LLM Bazaar: A Service Design for Supporting Collaborative Learning with an LLM-Powered Multi-Party Collaboration Infrastructure",
+      "url": "https://arxiv.org/abs/2510.18877",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18877v1 Announce Type: new \nAbstract: For nearly two decades, conversational agents have played a critical role in structuring interactions in collaborative learning, shaping group dynamics",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.5989041617686552,
+      "crawledAt": "2025-10-23T04:30:13.792Z",
+      "id": "spbpi8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9396034479141235,
+          "index": 1,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9666449427604675,
+          "index": 3,
+          "word": "Ba",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9781075716018677,
+          "index": 19,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " For nearly two decades, conversational agents have played a critical role in structuring interactions in collaborative learning. The group dynamics of group dynamics are key to shaping group dynamics.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:41:16.461Z"
+    },
+    {
+      "title": "CityAQVis: Integrated ML-Visualization Sandbox Tool for Pollutant Estimation in Urban Regions Using Multi-Source Data",
+      "url": "https://arxiv.org/abs/2510.18878",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18878v1 Announce Type: new \nAbstract: Urban air pollution poses significant risks to public health, environmental sustainability, and policy planning. Effective air quality management requi",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3389487332737548,
+      "crawledAt": "2025-10-23T04:30:13.987Z",
+      "id": "vwi6us",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8171159029006958,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Urban air pollution poses significant risks to public health, environmental sustainability, and policy planning. New air quality management requi.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:41:24.725Z"
+    },
+    {
+      "title": "FIRETWIN: Digital Twin Advancing Multi-Modal Sensing, Interactive Analytics for Wildfire Response",
+      "url": "https://arxiv.org/abs/2510.18879",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18879v1 Announce Type: new \nAbstract: Current wildfire management systems lack integrated virtual environments that combine historical data with immersive digital representations, hindering",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3087266899960727,
+      "crawledAt": "2025-10-23T04:30:14.164Z",
+      "id": "qycikh",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9846919178962708,
+          "index": 7,
+          "word": "Digital",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9786733984947205,
+          "index": 8,
+          "word": "Twin",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Current wildfire management systems lack integrated virtual environments, hindering immersive digital experiences. The new technology will allow the use of historical data and historical data.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:41:34.504Z"
+    },
+    {
+      "title": "Detecting AI-Assisted Cheating in Online Exams through Behavior Analytics",
+      "url": "https://arxiv.org/abs/2510.18881",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18881v1 Announce Type: new \nAbstract: AI-assisted cheating has emerged as a significant threat in the context of online exams. Advanced browser extensions now enable large language models (",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.7558630299141317,
+      "crawledAt": "2025-10-23T04:30:14.513Z",
+      "id": "9vggcd",
+      "entities": [],
+      "summary": " Advanced browser extensions now enable large language models. Advanced browser extension now enables large language model. Advanced browsers now enable larger language models.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:41:56.826Z"
+    },
+    {
+      "title": "Plural Voices, Single Agent: Towards Inclusive AI in Multi-User Domestic Spaces",
+      "url": "https://arxiv.org/abs/2510.19008",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19008v1 Announce Type: new \nAbstract: Domestic AI agents faces ethical, autonomy, and inclusion challenges, particularly for overlooked groups like children, elderly, and Neurodivergent use",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9432618149844149,
+      "crawledAt": "2025-10-23T04:30:14.695Z",
+      "id": "7jsbdq",
+      "entities": [],
+      "summary": " Domestic AI agents faces ethical, autonomy, and inclusion challenges. They face challenges for overlooked groups like children, elderly, and Neurodivergent use.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:42:05.763Z"
+    },
+    {
+      "title": "CLiVR: Conversational Learning System in Virtual Reality with AI-Powered Patients",
+      "url": "https://arxiv.org/abs/2510.19031",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19031v1 Announce Type: new \nAbstract: Simulations constitute a fundamental component of medical and nursing education and traditionally employ standardized patients (SP) and high-fidelity m",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.5536851260425426,
+      "crawledAt": "2025-10-23T04:30:15.241Z",
+      "id": "nnum73",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8596999645233154,
+          "index": 8,
+          "word": "##ational",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9365325570106506,
+          "index": 9,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8026343584060669,
+          "index": 10,
+          "word": "System",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9386425614356995,
+          "index": 15,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new generation of medical and nursing education is a major part of the world's education system. The new era of medical education has been transformed into a new generation.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:42:36.717Z"
+    },
+    {
+      "title": "\"Over-the-Hood\" AI Inclusivity Bugs and How 3 AI Product Teams Found and Fixed Them",
+      "url": "https://arxiv.org/abs/2510.19033",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19033v1 Announce Type: new \nAbstract: While much research has shown the presence of AI's \"under-the-hood\" biases (e.g., algorithmic, training data, etc.), what about \"over-the-hood\" inclusi",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5886572608546496,
+      "crawledAt": "2025-10-23T04:30:15.501Z",
+      "id": "xj1rj2",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.981044352054596,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8368567228317261,
+          "index": 9,
+          "word": "Inc",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9290239214897156,
+          "index": 12,
+          "word": "Bugs",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Much research has shown the presence of AI's \"under-the-hood\" biases. What about \"over-the-\"hood\" inclusi?",
+      "language": "en",
+      "processed_at": "2025-10-23T04:42:46.792Z"
+    },
+    {
+      "title": "When Strings Tug at Algorithm: Human-AI Sovereignty and Entanglement in Nomadic Improvisational Music Performance as a Decolonial Exploration",
+      "url": "https://arxiv.org/abs/2510.19086",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19086v1 Announce Type: new \nAbstract: As emergent artificial intelligence technologies increasingly assert roles as assistants within intangible cultural heritage contexts, researchers and ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9386384603232372,
+      "crawledAt": "2025-10-23T04:30:15.697Z",
+      "id": "f93qb7",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9046350717544556,
+          "index": 24,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9587669968605042,
+          "index": 25,
+          "word": "I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8798837661743164,
+          "index": 28,
+          "word": "##al",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " As emergent artificial intelligence technologies increasingly assert roles as assistants within intangible heritage contexts, researchers and researchers will be able to help in the future.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:42:55.751Z"
+    },
+    {
+      "title": "LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition",
+      "url": "https://arxiv.org/abs/2510.19252",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19252v1 Announce Type: new \nAbstract: The growing diversity of large language models (LLMs) means users often need to compare and combine outputs from different models to obtain higher-qual",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.6022504225308074,
+      "crawledAt": "2025-10-23T04:30:15.911Z",
+      "id": "m32wb6",
+      "entities": [],
+      "summary": " The growing diversity of large language models means users often need to compare and combine models to get higher-qualities.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:43:06.409Z"
+    },
+    {
+      "title": "Learning To Defer To A Population With Limited Demonstrations",
+      "url": "https://arxiv.org/abs/2510.19351",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19351v1 Announce Type: new \nAbstract: This paper addresses the critical data scarcity that hinders the practical deployment of learning to defer (L2D) systems to the population. We introduc",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3027439863711715,
+      "crawledAt": "2025-10-23T04:30:16.094Z",
+      "id": "seahv4",
+      "entities": [],
+      "summary": " This paper addresses the critical data scarcity that hinders the practical deployment of learning to defer (L2D) systems to the population.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:43:14.833Z"
+    },
+    {
+      "title": "Design Considerations for Human Oversight of AI: Insights from Co-Design Workshops and Work Design Theory",
+      "url": "https://arxiv.org/abs/2510.19512",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19512v1 Announce Type: new \nAbstract: As AI systems become increasingly capable and autonomous, domain experts' roles are shifting from performing tasks themselves to overseeing AI-generate",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.3244409132926835,
+      "crawledAt": "2025-10-23T04:30:16.273Z",
+      "id": "x3s5iv",
+      "entities": [],
+      "summary": " As AI systems become increasingly autonomous, domain experts' roles are shifting from performing tasks to overseeing AI-generate.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:43:22.102Z"
+    },
+    {
+      "title": "EasyVitessce: auto-magically adding interactivity to Scverse single-cell and spatial biology plots",
+      "url": "https://arxiv.org/abs/2510.19532",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19532v1 Announce Type: new \nAbstract: EasyVitessce is a Python package that turns existing static Scanpy and SpatialData plots into interactive visualizations by virtue of adding a single l",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.40115215986251507,
+      "crawledAt": "2025-10-23T04:30:16.477Z",
+      "id": "dde217",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8659826517105103,
+          "index": 15,
+          "word": "Sc",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " EasyVitessce is a Python package that turns existing Scanpy and Spatial data into interactive visualizations.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:43:31.014Z"
+    },
+    {
+      "title": "CosmoCore Affective Dream-Replay Reinforcement Learning for Code Generation",
+      "url": "https://arxiv.org/abs/2510.18895",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.18895v1 Announce Type: new \nAbstract: We introduce CosmoCore, a neuroscience-inspired reinforcement learning (RL) architecture that integrates affective signals to enhance code generation i",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4460165433265159,
+      "crawledAt": "2025-10-23T04:30:08.173Z",
+      "id": "g5xgvh",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8584836721420288,
+          "index": 1,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.851688027381897,
+          "index": 4,
+          "word": "##ore",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9349144101142883,
+          "index": 19,
+          "word": "Generation",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " CosmoCore is a neuroscience-inspired reinforcement learning (RL) architecture that integrates affective signals to enhance code generation.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:43:39.043Z"
+    },
+    {
+      "title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+      "url": "https://arxiv.org/abs/2510.19240",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19240v1 Announce Type: new \nAbstract: With the growing use of embedded systems in various industries, the need for automated platforms for the development and deployment of customized Linux",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.40077018211702864,
+      "crawledAt": "2025-10-23T04:30:09.100Z",
+      "id": "ncz288",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9534966349601746,
+          "index": 16,
+          "word": "Em",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The need for automated platforms for the development and deployment of customized systems is growing. The use of embedded systems is increasing in the industry.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:44:26.061Z"
+    },
+    {
+      "title": "Trace: Securing Smart Contract Repository Against Access Control Vulnerability",
+      "url": "https://arxiv.org/abs/2510.19254",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19254v1 Announce Type: new \nAbstract: Smart contract vulnerabilities, particularly improper Access Control that allows unauthorized execution of restricted functions, have caused billions o",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.25293175581240074,
+      "crawledAt": "2025-10-23T04:30:09.258Z",
+      "id": "ans1me",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8744203448295593,
+          "index": 8,
+          "word": "##tract",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.88985276222229,
+          "index": 15,
+          "word": "Control",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Unclearly improper Access Control allows unauthorized execution of restricted functions. The problem has caused billions of dollars in damages.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:44:33.817Z"
+    },
+    {
+      "title": "From Specification to Service: Accelerating API-First Development Using Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2510.19274",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19274v1 Announce Type: new \nAbstract: This paper presents a system that uses Large Language Models (LLMs)-based agents to automate the API-first development of RESTful microservices. This s",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.48485973706126767,
+      "crawledAt": "2025-10-23T04:30:09.457Z",
+      "id": "l8d868",
+      "entities": [],
+      "summary": " The system uses Large Language Models (LLMs)-based agents to automate the API-first development of microservices.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:44:46.938Z"
+    },
+    {
+      "title": "An Empirical Study of Bitwise Operators Intuitiveness through Performance Metrics",
+      "url": "https://arxiv.org/abs/2510.19281",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19281v1 Announce Type: new \nAbstract: Objectives: This study aims to investigate the readability and understandability of bitwise operators in programming, with the main hypothesis that the",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.34478322139985274,
+      "crawledAt": "2025-10-23T04:30:09.631Z",
+      "id": "rcg8lz",
+      "entities": [],
+      "summary": " The study aims to investigate the readability and understandability of bitwise operators in programming. The study will also examine the readable and understandable use of bit Wise operators.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:44:58.037Z"
+    },
+    {
+      "title": "AutoMT: A Multi-Agent LLM Framework for Automated Metamorphic Testing of Autonomous Driving Systems",
+      "url": "https://arxiv.org/abs/2510.19438",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19438v1 Announce Type: new \nAbstract: Autonomous Driving Systems (ADS) are safety-critical, where failures can be severe. While Metamorphic Testing (MT) is effective for fault detection in ",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.3147622951477138,
+      "crawledAt": "2025-10-23T04:30:10.034Z",
+      "id": "fac9b3",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8915209174156189,
+          "index": 7,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8196843862533569,
+          "index": 9,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8038775324821472,
+          "index": 15,
+          "word": "##amo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8164389729499817,
+          "index": 16,
+          "word": "##rp",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9491499662399292,
+          "index": 21,
+          "word": "Driving",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8453437089920044,
+          "index": 22,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Autonomous Driving Systems are safety-critical, where failures can be severe. Metamorphic Testing (MT) is effective for fault detection in fault detection.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:45:16.092Z"
+    },
+    {
+      "title": "Human-Agent Collaborative Paper-to-Page Crafting for Under $0.1",
+      "url": "https://arxiv.org/abs/2510.19600",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2025-10-23T04:00:00.000Z",
+      "metaDescription": "arXiv:2510.19600v1 Announce Type: new \nAbstract: In the quest for scientific progress, communicating research is as vital as the discovery itself. Yet, researchers are often sidetracked by the manual,",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.9514969094065294,
+      "crawledAt": "2025-10-23T04:30:10.572Z",
+      "id": "yqzksn",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9394665956497192,
+          "index": 16,
+          "word": "Under",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Researchers are often sidetracked by the manual, and often sidetacked by it. But they are still trying to find out how to do it.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:45:45.408Z"
+    },
+    {
+      "title": "I just wanna lol",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1odsp97/i_just_wanna_lol/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T03:18:13.000Z",
+      "metaDescription": "Maybe adult mode will give me something more interesting…\n    submitted by    /u/elowenryth  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.27893191123041194,
+      "crawledAt": "2025-10-23T04:29:13.349Z",
+      "id": "kp63jk",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:46:07.007Z"
+    },
+    {
+      "title": "Humanoid goalkeeper",
+      "url": "https://www.reddit.com/r/singularity/comments/1odsny7/humanoid_goalkeeper_fully_autonomous_realtime/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T03:16:21.000Z",
+      "metaDescription": "submitted by    /u/SharpCartographer831  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7143063193001424,
+      "crawledAt": "2025-10-23T04:29:09.570Z",
+      "id": "peo12w",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:46:07.111Z"
+    },
+    {
+      "title": "What is the limit for writing a prompt in Sora 2?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1odsizk/what_is_the_limit_for_writing_a_prompt_in_sora_2/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T03:09:06.000Z",
+      "metaDescription": "I want to ask what is the limit for writing a prompt in Sora 2? Because I feel that it does not take a full prompt.\n    submitted by    /u/Important_Lynx_2595  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3289646794018513,
+      "crawledAt": "2025-10-23T04:29:38.314Z",
+      "id": "i0ght7",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:46:07.255Z"
+    },
+    {
+      "title": "How long does it take to learn AI/ML?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1odrwny/how_long_does_it_take_to_learn_aiml/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T02:38:17.000Z",
+      "metaDescription": "Somebody please tell me the best roadmap to learn AI/ML and how much time does it take to learn from zero to hero? Also how much does a company pay for people who works in the domain AI/ML? \n    submi",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.35179854228006147,
+      "crawledAt": "2025-10-23T04:29:33.069Z",
+      "id": "sq1g1s",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9486186504364014,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " How much does a company pay for people who works in the domain AI/ML? Also how much does company pay to people who work in the domains. How much time does it take to learn from zero to hero?",
+      "language": "en",
+      "processed_at": "2025-10-23T04:46:31.886Z"
+    },
+    {
+      "title": "Which AI browser is better: Perplexity’s Comet or OpenAI’s Atlas?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1odrpyr/which_ai_browser_is_better_perplexitys_comet_or/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-10-23T02:29:06.000Z",
+      "metaDescription": "Hey everyone,\n I made the switch from OperaGX to Perplexity’s agentic browser (Comet) a few months ago after getting an invite, and honestly, it’s become my default browser for everything. It’s been m",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.7579202905859388,
+      "crawledAt": "2025-10-23T04:29:38.519Z",
+      "id": "bfyeia",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9964718818664551,
+          "index": 14,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9652131199836731,
+          "index": 15,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9647971391677856,
+          "index": 16,
+          "word": "##I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The browser has become the default browser for many of the world's most popular sites. It's been a long time since OperaGX was launched.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:46:53.263Z"
+    },
     {
       "title": "Australian-made LLM beats OpenAI and Google at legal retrieval",
       "url": "https://www.reddit.com/r/artificial/comments/1odqnxn/australianmade_llm_beats_openai_and_google_at/",
@@ -99,6 +1441,58 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-10-23T01:54:20.054Z"
+    },
+    {
+      "title": "Claude Sonnet 4.5 claims 1st place in SWE-Bench Pro",
+      "url": "https://www.reddit.com/r/singularity/comments/1odqhtm/claude_sonnet_45_claims_1st_place_in_swebench_pro/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-23T01:28:49.000Z",
+      "metaDescription": "https://scale.com/leaderboard/swe_bench_pro_public\n Its improvement over Sonnet 4 was not statistically significant, but between this, SWE-rebench, and SWE-bench, I think we can be pretty confident it",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2738894795199722,
+      "crawledAt": "2025-10-23T04:29:10.648Z",
+      "id": "rggoj5",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9995385408401489,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9995232224464417,
+          "index": 2,
+          "word": "Son",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9960079193115234,
+          "index": 3,
+          "word": "##net",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9526001811027527,
+          "index": 11,
+          "word": "S",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:47:18.420Z"
     },
     {
       "title": "I'm working on a Chrome extension that helps you record conversations with AI. What do you think? Any suggestions?",
@@ -283,6 +1677,66 @@
       "summary": " A new project based on Wan 2.1 promises longer and consistent video generations. From their Readme:  Stable Video Infinity (SVI) is able to generate ANY-length videos with high temporal consisis.",
       "language": "en",
       "processed_at": "2025-10-23T01:55:21.388Z"
+    },
+    {
+      "title": "Canadian child protection group uncovers in NudeNet Database",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1odnqws/canadian_child_protection_group_uncovers_in/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-10-22T23:20:25.000Z",
+      "metaDescription": "https://preview.redd.it/qvdacs3hxqwf1.png?width=1024&format=png&auto=webp&s=c9e32143e532a09a69ccb10a8fb70985e83ecda4\n This post got a strong reaction in this subreddit:\n Wanted to give an update to th",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.27656705288499045,
+      "crawledAt": "2025-10-23T04:29:31.770Z",
+      "id": "nhvtov",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9997331500053406,
+          "index": 1,
+          "word": "Canadian",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9584575891494751,
+          "index": 9,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9713581800460815,
+          "index": 10,
+          "word": "##ude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9822078943252563,
+          "index": 11,
+          "word": "##Net",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9873708486557007,
+          "index": 12,
+          "word": "Database",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:47:18.668Z"
     },
     {
       "title": "I thought I was gonna be able to trip it up.",
@@ -793,6 +2247,90 @@
       "processed_at": "2025-10-23T01:58:33.620Z"
     },
     {
+      "title": "AI in South Korea: OpenAI's Economic Blueprint",
+      "url": "https://openai.com/index/south-korea-economic-blueprint",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2025-10-22T21:00:00.000Z",
+      "metaDescription": "OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted AI through sovereign capabilities and strategic partnerships to drive growth.",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.298214015649751,
+      "crawledAt": "2025-10-23T04:28:11.659Z",
+      "id": "wj4jom",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9271551370620728,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9951736330986023,
+          "index": 3,
+          "word": "South",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9973350763320923,
+          "index": 4,
+          "word": "Korea",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9979495406150818,
+          "index": 6,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9947461485862732,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9931081533432007,
+          "index": 8,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8657629489898682,
+          "index": 12,
+          "word": "Blue",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8270646929740906,
+          "index": 13,
+          "word": "##print",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted AI through sovereign capabilities and strategic partnerships to drive growth.",
+      "language": "en",
+      "processed_at": "2025-10-23T04:47:28.832Z"
+    },
+    {
       "title": "Why Cohere’s ex-AI research lead is betting against the scaling race",
       "url": "https://techcrunch.com/2025/10/22/why-coheres-ex-ai-research-lead-is-betting-against-the-scaling-race/",
       "source": "TechCrunch AI",
@@ -1004,17 +2542,18 @@
       "processed_at": "2025-10-23T01:59:57.890Z"
     }
   ],
-  "processedAt": "2025-10-23T02:00:18.676Z",
+  "processedAt": "2025-10-23T04:47:28.950Z",
   "categories": [
-    "creative-ai",
-    "ai-agents",
     "infrastructure",
-    "developer-tool",
+    "research-paper",
     "safety-ethics",
-    "model-release"
+    "creative-ai",
+    "model-release",
+    "ai-agents",
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 25,
-  "dailyArticlesCount": 25,
+  "newArticlesProcessed": 47,
+  "dailyArticlesCount": 72,
   "filterDate": "2025-10-23"
 }
