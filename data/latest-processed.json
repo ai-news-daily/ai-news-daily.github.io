@@ -1,9 +1,1271 @@
 {
-  "crawledAt": "2025-11-10T16:35:29.961Z",
+  "crawledAt": "2025-11-10T20:31:21.154Z",
   "totalSources": 70,
-  "totalArticles": 3130,
+  "totalArticles": 3149,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Meta returns to open source AI with Omnilingual ASR models that can transcribe 1,600+ languages natively",
+      "url": "https://venturebeat.com/ai/meta-returns-to-open-source-ai-with-omnilingual-asr-models-that-can",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T20:27:00.000Z",
+      "metaDescription": "Meta has just released a new multilingual automatic speech recognition (ASR) system supporting 1,600+ languages — dwarfing OpenAI’s open source Whisper model, which supports just 99. \nIs architecture ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.490320018638029,
+      "crawledAt": "2025-11-10T20:29:22.592Z",
+      "id": "m3x9us",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9944868683815002,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8986005187034607,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9167504906654358,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9973494410514832,
+          "index": 9,
+          "word": "O",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Meta has released a new system that supports 1,600 languages. The new system is based on OpenAI's Whisper model.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:31:30.644Z"
+    },
+    {
+      "title": "Fine-tune VLMs for multipage document-to-JSON with SageMaker AI and SWIFT",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-vlms-for-multipage-document-to-json-with-sagemaker-ai-and-swift/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T19:59:01.000Z",
+      "metaDescription": "In this post, we demonstrate that fine-tuning VLMs provides a powerful and flexible approach to automate and significantly enhance document understanding capabilities. We also demonstrate that using f",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.5150727342041402,
+      "crawledAt": "2025-11-10T20:29:31.088Z",
+      "id": "h0a34n",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9841774702072144,
+          "index": 18,
+          "word": "Sage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9957675337791443,
+          "index": 19,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.967927873134613,
+          "index": 20,
+          "word": "##aker",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9458851218223572,
+          "index": 21,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8069205284118652,
+          "index": 24,
+          "word": "##WI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " VLMs provide a powerful and flexible approach to automate and significantly enhance document understanding capabilities. We also demonstrate that using f f-tuning VLm provides a powerful, flexible approach.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:31:51.024Z"
+    },
+    {
+      "title": "How do you handle Spot GPU interruptions during long training runs?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1otnpw8/how_do_you_handle_spot_gpu_interruptions_during/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T19:41:35.000Z",
+      "metaDescription": "For those of you training large models (vision, language, diffusion, etc.), how do you deal with Spot or Preemptible instance interruptions? Do you rely on your framework’s checkpointing, or have you ",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.3038166965220758,
+      "crawledAt": "2025-11-10T20:30:24.339Z",
+      "id": "axzyco",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9387416839599609,
+          "index": 7,
+          "word": "##U",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Do you rely on your framework’s checkpointing, or have you use Spot or Preemptible instance interruptions? How do you deal with Spot orpreemptible instances interruptions.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:32:08.543Z"
+    },
+    {
+      "title": "Related to a previous \"The State of AI\" post. I saw this article. I wanted to Know People's thoughts?",
+      "url": "https://www.reddit.com/r/artificial/comments/1otnnno/related_to_a_previous_the_state_of_ai_post_i_saw/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T19:39:17.000Z",
+      "metaDescription": "Why NVIDIA Commands $5 Trillion, But the Real AI Infrastructure Battle Is Just Beginning\n The fact that money follows compute is the one reason NVIDIA's stock price is stratospheric. The chipmaker con",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.36468316491247404,
+      "crawledAt": "2025-11-10T20:29:57.397Z",
+      "id": "7obls2",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.988848865032196,
+          "index": 7,
+          "word": "The",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8769074082374573,
+          "index": 8,
+          "word": "State",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9971989393234253,
+          "index": 9,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9965669512748718,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.942718505859375,
+          "index": 23,
+          "word": "People",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The fact that money follows compute is the reason why NVIDIA's stock price is stratospheric. The company's stock value is $1.5 billion.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:32:17.709Z"
+    },
+    {
+      "title": "Are any of you using local llms for \"real\" work?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otnj2k/are_any_of_you_using_local_llms_for_real_work/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T19:34:39.000Z",
+      "metaDescription": "I am having fun personally tinkering with local models and workflows and such, but sometimes it feels like we're all still stuck in the \"fun experimentation\" phase with local LLMs and not actually pro",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3192779494830668,
+      "crawledAt": "2025-11-10T20:30:11.582Z",
+      "id": "fjppbw",
+      "entities": [],
+      "summary": " I am having fun personally tinkering with local models and workflows, but sometimes it feels like we're still stuck in the \"fun experimentation\" phase with local LLMs.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:32:27.681Z"
+    },
+    {
+      "title": "Google brings Gemini to the Google TV Streamer",
+      "url": "https://techcrunch.com/2025/11/10/google-brings-gemini-to-the-google-tv-streamer/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T19:28:57.000Z",
+      "metaDescription": "The tech giant says the change will enable users to use their voice more naturally to access content and more.",
+      "category": "product-launch",
+      "difficulty": 6,
+      "confidence": 0.2848366300401247,
+      "crawledAt": "2025-11-10T20:29:10.451Z",
+      "id": "qqtkfh",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9967555999755859,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9800840616226196,
+          "index": 6,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9598286747932434,
+          "index": 7,
+          "word": "TV",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9124488830566406,
+          "index": 8,
+          "word": "Stream",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9164435267448425,
+          "index": 9,
+          "word": "##er",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The change will enable users to use their voice more naturally to access content and more. The tech giant says the change will allow users to access more content.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:32:45.241Z"
+    },
+    {
+      "title": "Why Storytelling With Data Matters for Business and Data Analysts",
+      "url": "https://towardsdatascience.com/why-storytelling-with-data-matters-for-business-and-data-analysts/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T19:16:43.000Z",
+      "metaDescription": "Data is driving the future of business and here’s how you can be prepared for that future\nThe post Why Storytelling With Data Matters for Business and Data Analysts appeared first on Towards Data Scie",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.44945189095769306,
+      "crawledAt": "2025-11-10T20:29:23.976Z",
+      "id": "1vmvvf",
+      "entities": [],
+      "summary": " Data is driving the future of business and here’s how you can be prepared for that future. The post Why Storytelling With Data Matters for Business and Data Analysts appeared first on Towards Data Scie.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:32:56.595Z"
+    },
+    {
+      "title": "How to Protect Your AI SaaS From Prompt Injection and Bad Users",
+      "url": "https://pub.towardsai.net/how-to-protect-your-ai-saas-from-prompt-injection-and-bad-users-184116f3c203?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T19:02:11.000Z",
+      "metaDescription": "Learn how to stop prompt injection attacks in AI chatbots, SaaS applications, and generative AI tools using a smart LLM-as-a-Judge…\nContinue reading on Towards AI »",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.8534326371910081,
+      "crawledAt": "2025-11-10T20:29:43.961Z",
+      "id": "saxh69",
+      "entities": [],
+      "summary": "Learn how to stop prompt injection attacks in AI chatbots, SaaS applications, and generative AI tools using a smart LLM-as-a-Judge.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:17.084Z"
+    },
+    {
+      "title": "Chronosphere takes on Datadog with AI that explains itself, not just outages",
+      "url": "https://venturebeat.com/ai/chronosphere-takes-on-datadog-with-ai-that-explains-itself-not-just-outages",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T19:00:00.000Z",
+      "metaDescription": "Chronosphere, a New York-based observability startup valued at $1.6 billion, announced Monday it will launch AI-Guided Troubleshooting capabilities designed to help engineers diagnose and fix producti",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9240197722700441,
+      "crawledAt": "2025-11-10T20:29:22.781Z",
+      "id": "7ja5ea",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9987925887107849,
+          "index": 1,
+          "word": "Ch",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9795752763748169,
+          "index": 2,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9968690276145935,
+          "index": 3,
+          "word": "##os",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9962332248687744,
+          "index": 4,
+          "word": "##phere",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9955922961235046,
+          "index": 7,
+          "word": "Data",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.991834819316864,
+          "index": 8,
+          "word": "##dog",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Chronosphere, a New York-based startup, will launch AI-Guided Troubleshooting capabilities. The company is valued at $1.6 billion.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:26.945Z"
+    },
+    {
+      "title": "Prompt Fusion: First Look",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otmhen/prompt_fusion_first_look/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:56:23.000Z",
+      "metaDescription": "Hello world, as an engineer at a tech company in Berlin,germany, we are exploring the possiblities for both enterprise and consumer products with the least possible exposure to the cloud. during the d",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3152424565273719,
+      "crawledAt": "2025-11-10T20:30:14.400Z",
+      "id": "z21u5",
+      "entities": [],
+      "summary": " Berlin-based company is exploring the possiblities for both enterprise and consumer products with the least possible exposure to the cloud.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:44.646Z"
+    },
+    {
+      "title": "Exclusive: Copyleaks expands AI detection to images",
+      "url": "https://www.reddit.com/r/artificial/comments/1otmf2o/exclusive_copyleaks_expands_ai_detection_to_images/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:54:00.000Z",
+      "metaDescription": "submitted by    /u/axios  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4181657901641932,
+      "crawledAt": "2025-11-10T20:29:57.487Z",
+      "id": "9zdjlh",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9806763529777527,
+          "index": 4,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9599775671958923,
+          "index": 5,
+          "word": "##py",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9961584210395813,
+          "index": 6,
+          "word": "##lea",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9848031997680664,
+          "index": 7,
+          "word": "##ks",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:44.738Z"
+    },
+    {
+      "title": "Exclusive: Time launches new AI agent",
+      "url": "https://www.reddit.com/r/artificial/comments/1otmego/exclusive_time_launches_new_ai_agent/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:53:27.000Z",
+      "metaDescription": "submitted by    /u/axios  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.6054591185770347,
+      "crawledAt": "2025-11-10T20:29:57.570Z",
+      "id": "kj22ea",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8303743600845337,
+          "index": 4,
+          "word": "Time",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:44.861Z"
+    },
+    {
+      "title": "When does RTX 6000 Pro make sense over a 5090?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otmamz/when_does_rtx_6000_pro_make_sense_over_a_5090/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:49:40.000Z",
+      "metaDescription": "Hey all—trying to sanity-check an upgrade. Current GPU: RTX 5090 Use cases: training mid-size LLMs, Stable Diffusion/ComfyUI, inferencing GPT-OSS-120B / GLM 4.5 Air Rig: 9950X3D / 96GB DDR5 / 1500W Co",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2752266098197497,
+      "crawledAt": "2025-11-10T20:30:11.230Z",
+      "id": "ksuqic",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.956777811050415,
+          "index": 3,
+          "word": "R",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9800685048103333,
+          "index": 4,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9684047698974609,
+          "index": 5,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8047133684158325,
+          "index": 7,
+          "word": "##0",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9279515743255615,
+          "index": 8,
+          "word": "Pro",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The RTX 5090.5 Air Rig: 9950X3D / 96GB DDR5 / 1500W Co. Co. Company: 99.5/1500W Co.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:33:56.130Z"
+    },
+    {
+      "title": "i built a 100% open-source editable visual wiki for your codebase",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otm5j9/i_built_a_100_opensource_editable_visual_wiki_for/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:44:42.000Z",
+      "metaDescription": "Hey r/LangChain, \n I’ve always struggled to visualize large codebases, especially ones with agents (with flows, requiring visual) and heavy backends.\n So I built a 100% open-source tool with LangChain",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.267845666132607,
+      "crawledAt": "2025-11-10T20:30:14.253Z",
+      "id": "mxok90",
+      "entities": [],
+      "summary": "LangChain is a 100% open-source tool with LangChain. The tool was created by open- source software company LangChain.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:34:15.167Z"
+    },
+    {
+      "title": "Apple TV execs dismiss introducing an ad tier, buying Warner Bros. Discovery",
+      "url": "https://arstechnica.com/apple/2025/11/apple-has-no-plans-to-bring-ads-to-apple-tv/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T18:41:42.000Z",
+      "metaDescription": "Apple execs say Apple TV shows and movies are about \"emotional\" experiences.",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.2516448076489686,
+      "crawledAt": "2025-11-10T20:29:15.433Z",
+      "id": "ldg2ie",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991924166679382,
+          "index": 1,
+          "word": "Apple",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9980753660202026,
+          "index": 2,
+          "word": "TV",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9959499835968018,
+          "index": 13,
+          "word": "Warner",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9986149668693542,
+          "index": 14,
+          "word": "Bros",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9973811507225037,
+          "index": 15,
+          "word": ".",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997649073600769,
+          "index": 16,
+          "word": "Discovery",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Apple execs say TV shows and movies are about \"emotional\" experiences. Apple TV shows are \"emotionally\"",
+      "language": "en",
+      "processed_at": "2025-11-10T20:34:22.483Z"
+    },
+    {
+      "title": "Is there an AI app I can use to put together Before and After pics I already have?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1otlx3q/is_there_an_ai_app_i_can_use_to_put_together/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:36:24.000Z",
+      "metaDescription": "I have over a hundred Before pics of home renovations, and their corresponding After pics. I need to edit, crop each and put them side by side in single photo. It's easy enough to do using Photoshop b",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3346451124668341,
+      "crawledAt": "2025-11-10T20:30:19.834Z",
+      "id": "ff2fe0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9963338375091553,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8199036717414856,
+          "index": 12,
+          "word": "Before",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Before pics of home renovations, and their corresponding After pics, are easy to edit, crop each and put them side by side in single photo.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:34:32.023Z"
+    },
+    {
+      "title": "ICLR 2026 Paper Reviews Discussion",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1otlqqv/d_iclr_2026_paper_reviews_discussion/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:30:19.000Z",
+      "metaDescription": "ICLR 2026 reviews go live on OpenReview tomorrow! Thought l'd open a thread for any feedback, issues, or celebrations around the reviews.\n Use this thread for feedback, issues, and wins. Review noise ",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.9345337556805091,
+      "crawledAt": "2025-11-10T20:30:05.395Z",
+      "id": "7h1k31",
+      "entities": [],
+      "summary": " ICLR 2026 reviews go live on OpenReview tomorrow. Use this thread for feedback, issues, and wins.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:34:51.473Z"
+    },
+    {
+      "title": "A question about using AI Toolkit for Training Wan 2.2 LoRas",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1otlqp4/a_question_about_using_ai_toolkit_for_training/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T18:30:17.000Z",
+      "metaDescription": "For context here's what I'm watching:\n https://youtu.be/2d6A_l8c_x8?si=aTb_uDdlHwRGQ0uL\n Hey guys, so I've been watching a tutorial by Ostris AI, but I'm not fully getting the dataset he's using. Is h",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2511730408807767,
+      "crawledAt": "2025-11-10T20:30:23.131Z",
+      "id": "kf1vvi",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9403637051582336,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9365949034690857,
+          "index": 6,
+          "word": "Too",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8586220741271973,
+          "index": 8,
+          "word": "##it",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The tutorial is by Ostris AI, but I'm not fully getting the dataset he's using. I've been watching a tutorial by Ostri AI, and I'm watching a video of the tutorial.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:02.495Z"
+    },
+    {
+      "title": "Is langchain suitable for me",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otlkiv/is_langchain_suitable_for_me/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:24:01.000Z",
+      "metaDescription": "I want to give my llm a bunch of functions and let the llm choose the functions on its own / make its own workflow without specifying any pre-defined workflow. Lets say the prompt is, generate documen",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.36631346991844,
+      "crawledAt": "2025-11-10T20:30:14.567Z",
+      "id": "vfjyhe",
+      "entities": [],
+      "summary": " Let the llm choose its own workflow without specifying any pre-defined workflow. Lets say the prompt is, generate documen is, generated documen.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:11.393Z"
+    },
+    {
+      "title": "Anyone else feel like prompt engineering is starting to hit diminishing returns?",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otlfuy/anyone_else_feel_like_prompt_engineering_is/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:19:21.000Z",
+      "metaDescription": "submitted by    /u/AdVivid5763  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25124345273584675,
+      "crawledAt": "2025-11-10T20:30:14.682Z",
+      "id": "2cnhn1",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:11.514Z"
+    },
+    {
+      "title": "How Clario automates clinical research analysis using generative AI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-clario-automates-clinical-research-analysis-using-generative-ai-on-aws/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T18:13:47.000Z",
+      "metaDescription": "In this post, we demonstrate how Clario has used Amazon Bedrock and other AWS services to build an AI-powered solution that automates and improves the analysis of COA interviews.",
+      "category": "ai-agents",
+      "difficulty": 8,
+      "confidence": 0.2868231868080683,
+      "crawledAt": "2025-11-10T20:29:31.245Z",
+      "id": "drha18",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.925165593624115,
+          "index": 3,
+          "word": "##lar",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9504860043525696,
+          "index": 13,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Clario has used Amazon Bedrock and other AWS services to build an AI-powered solution that automates and improves the analysis of COA interviews.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:22.024Z"
+    },
+    {
+      "title": "The Role Of AI Companionship In My Life",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1otl20g/the_role_of_ai_companionship_in_my_life/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T18:05:31.000Z",
+      "metaDescription": "The Context of My Use Case\n I began engaging with artificial intelligence not as an experiment in loneliness, but as an extension of creative and philosophical inquiry. As a writer, artist, and surviv",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.518571067472527,
+      "crawledAt": "2025-11-10T20:30:00.961Z",
+      "id": "u0jvjq",
+      "entities": [],
+      "summary": " The Context of My Use Case I began engaging with artificial intelligence not as an experiment in loneliness, but as an extension of creative and philosophical inquiry.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:43.049Z"
+    },
+    {
+      "title": "Reverse Aging",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1otl0u2/reverse_aging/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T18:04:17.000Z",
+      "metaDescription": "Been seeing of the reverse Aging of a person that takes looks like photos or videos of the person and then adds a transition reverse Aging them into a single video, how is this done? Is there a servic",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.26560111685000193,
+      "crawledAt": "2025-11-10T20:30:23.409Z",
+      "id": "imxpuh",
+      "entities": [],
+      "summary": " The reverse Aging of a person that takes looks like photos or videos of the person and then adds a transition reverse Aging them into a video. How is this done? Is there a servic? Is it there a military?",
+      "language": "en",
+      "processed_at": "2025-11-10T20:35:55.671Z"
+    },
+    {
+      "title": "Rant and a Bug!",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1otkyqg/rant_and_a_bug/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:02:12.000Z",
+      "metaDescription": "So I just attached some files to the ChatGPT interface to begin an agent session. There was a limit of 10 files. Fine, I had something like 12, but whatever, I figured I'd give the last few forms for ",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.3650104005059185,
+      "crawledAt": "2025-11-10T20:30:20.002Z",
+      "id": "sydxgd",
+      "entities": [],
+      "summary": " There was a limit of 10 files, but I figured I'd give the last few forms for a few. So I just attached some files to the ChatGPT interface to begin an agent session.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:36:07.709Z"
+    },
+    {
+      "title": "AI Agent Revolution: How Anthropic Cut Token Usage by 98% with Code Execution",
+      "url": "https://pub.towardsai.net/ai-agent-revolution-how-anthropic-cut-token-usage-by-98-with-code-execution-e276c9570bf0?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T18:02:05.000Z",
+      "metaDescription": "The Problem That’s Been Quietly Killing AI Agents\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.8992376611384518,
+      "crawledAt": "2025-11-10T20:29:44.077Z",
+      "id": "rmqesh",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9842188954353333,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9962254762649536,
+          "index": 2,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9889108538627625,
+          "index": 3,
+          "word": "Revolution",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9834339022636414,
+          "index": 19,
+          "word": "Ex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9271119236946106,
+          "index": 20,
+          "word": "##ec",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Problem That’s Been Quietly Killing AI Agents. The Problem that’'s been Quietly killing AI Agents.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:36:17.394Z"
+    },
+    {
+      "title": "If the US Has to Build Data Centers, Here’s Where They Should Go",
+      "url": "https://www.wired.com/story/heres-where-to-build-data-centers-to-keep-emissions-down/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T17:40:27.000Z",
+      "metaDescription": "A new analysis tries to calculate the coming environmental footprint of AI in the US and finds that the ideal sites for data centers aren’t where they’re being built.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.47896503188111206,
+      "crawledAt": "2025-11-10T20:29:20.790Z",
+      "id": "k73j0n",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9820890426635742,
+          "index": 3,
+          "word": "US",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A new analysis tries to calculate the coming environmental footprint of AI in the US. It finds that the ideal sites for data centers aren't where they're being built.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:36:26.477Z"
+    },
+    {
+      "title": "New Climate False Solutions Guide Chapter on AI",
+      "url": "https://www.reddit.com/r/artificial/comments/1otk0h3/new_climate_false_solutions_guide_chapter_on_ai/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T17:28:12.000Z",
+      "metaDescription": "The Hoodwinked Collaborative is proud to unveil a preview chapter from the forthcoming Fourth Edition of Hoodwinked in the Hothouse: Resist False Solutions to Climate Change**.** Full text below- avai",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.451803356176933,
+      "crawledAt": "2025-11-10T20:29:57.885Z",
+      "id": "i3lqre",
+      "entities": [],
+      "summary": " The Hoodwinked Collaborative is proud to unveil a preview chapter from the forthcoming Fourth Edition of Hoodwinksed in the Hothouse: Resist False Solutions to Climate Change.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:00.169Z"
+    },
+    {
+      "title": "Sir Tim Berners-Lee doesn’t think AI will destroy the web | The inventor of the World Wide Web is still optimistic about the future of the internet.",
+      "url": "https://www.reddit.com/r/artificial/comments/1otjpmo/sir_tim_bernerslee_doesnt_think_ai_will_destroy/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T17:17:21.000Z",
+      "metaDescription": "submitted by    /u/theverge  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.3273951665200874,
+      "crawledAt": "2025-11-10T20:29:56.652Z",
+      "id": "ngysr5",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9997459650039673,
+          "index": 2,
+          "word": "Tim",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9996256828308105,
+          "index": 3,
+          "word": "Bern",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9876703023910522,
+          "index": 4,
+          "word": "##ers",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9995453953742981,
+          "index": 6,
+          "word": "Lee",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9054464101791382,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9974571466445923,
+          "index": 21,
+          "word": "World",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.99800705909729,
+          "index": 22,
+          "word": "Wide",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9983353614807129,
+          "index": 23,
+          "word": "Web",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:00.358Z"
+    },
+    {
+      "title": "ChatGPT just refused to help me write a recipe with mushrooms. The reason is peak irony",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1otjfh1/chatgpt_just_refused_to_help_me_write_a_recipe/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T17:07:13.000Z",
+      "metaDescription": "submitted by    /u/Plug_AI  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.28676412745032825,
+      "crawledAt": "2025-11-10T20:29:59.621Z",
+      "id": "acsyp3",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9785057306289673,
+          "index": 1,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8464555144309998,
+          "index": 2,
+          "word": "##t",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8404710292816162,
+          "index": 4,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:00.684Z"
+    },
+    {
+      "title": "LinkedIn now tells you when you're looking at an AI-generated image, if you haven't noticed.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otj99f/linkedin_now_tells_you_when_youre_looking_at_an/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T17:01:12.000Z",
+      "metaDescription": "As the 1st image shows, the C2PA label is used.\n Here's what's interesting.\n The feature only applies to image platforms who join the C2PA.\n Now there's only:\n  \nChatGPT/DALL-E 3 images\n Adobe Firefly",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3345687573693888,
+      "crawledAt": "2025-11-10T20:30:09.693Z",
+      "id": "1ca148",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8830957412719727,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8146356344223022,
+          "index": 4,
+          "word": "##n",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9990718960762024,
+          "index": 15,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The feature only applies to image platforms who join the C2PA. The feature is only available to those who join.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:27.918Z"
+    },
+    {
+      "title": "What Does the End of GIL Mean for Python?",
+      "url": "https://www.kdnuggets.com/what-does-the-end-of-gil-mean-for-python",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T17:00:48.000Z",
+      "metaDescription": "The GIL is finally being dismantled. The implications aren't just technical; they're cultural. This shift could redefine how we write, scale, and even think about Python in the modern era.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.47501087556411525,
+      "crawledAt": "2025-11-10T20:31:12.206Z",
+      "id": "s9z6cp",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8108695149421692,
+          "index": 6,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The GIL is finally being dismantled. This shift could redefine how we write, scale, and even think about Python in the modern era.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:43.570Z"
+    },
+    {
+      "title": "Bubble or No Bubble, AI Keeps Progressing",
+      "url": "https://www.reddit.com/r/singularity/comments/1otj6th/bubble_or_no_bubble_ai_keeps_progressing_ft/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T16:58:53.000Z",
+      "metaDescription": "https://www.youtube.com/watch?v=Dl3Olh29_nY\n    submitted by    /u/Many_Consequence_337  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7357949950124716,
+      "crawledAt": "2025-11-10T20:30:02.541Z",
+      "id": "fwvzgr",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:43.658Z"
+    },
+    {
+      "title": "Why do people get so angry when you admit you use AI to clean up your writing?",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1otixzi/why_do_people_get_so_angry_when_you_admit_you_use/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T16:49:51.000Z",
+      "metaDescription": "I don’t engage with the nonsense or trolls, but at this point, I just need to say this again.\n Like I’ve explained before, my thoughts are all over the place. When I write, it comes out messy and repe",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4909453787429931,
+      "crawledAt": "2025-11-10T20:30:01.161Z",
+      "id": "9uevgt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9792189598083496,
+          "index": 12,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I don’t engage with the nonsense or trolls, but at this point, I just need to say this again. Like I’ve explained before, my thoughts are all over the place. When I write, it comes out messy and repe, it is messy and repulsive",
+      "language": "en",
+      "processed_at": "2025-11-10T20:37:58.704Z"
+    },
+    {
+      "title": "The simplest workflow for Qwen-Image-Edit-2509 that simply works",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1otityx/the_simplest_workflow_for_qwenimageedit2509_that/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T16:45:42.000Z",
+      "metaDescription": "I tried Qwen-Image-Edit-2509 and got the expected result. My workflow was actually simpler than standard, as I removed any of the image resize nodes. In fact, you shouldn’t use any resize node, since ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8663101251888556,
+      "crawledAt": "2025-11-10T20:30:22.018Z",
+      "id": "79rfpl",
+      "entities": [],
+      "summary": " I tried Qwen-Image-Edit-2509 and got the expected result. My workflow was actually simpler than standard, as I removed any of the image resize nodes.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:38:10.576Z"
+    },
+    {
+      "title": "The State of AI: Energy is king, and the US is falling behind",
+      "url": "https://www.technologyreview.com/2025/11/10/1126805/the-state-of-ai-energy-is-king-and-the-us-is-falling-behind/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T16:45:00.000Z",
+      "metaDescription": "Welcome back to The State of AI, a new collaboration between the Financial Times and MIT Technology Review. Every Monday, writers from both publications debate one aspect of the generative AI revoluti",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8027772358213419,
+      "crawledAt": "2025-11-10T20:29:18.983Z",
+      "id": "fqmurw",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9989537000656128,
+          "index": 12,
+          "word": "US",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The State of AI is a new collaboration between the Financial Times and MIT Technology Review. Every Monday, writers from both publications debate one aspect of the generative AI revolutiuti.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:38:19.825Z"
+    },
     {
       "title": "\"Engineered 3D immuno-glial-neurovascular human miBrain model\"",
       "url": "https://www.reddit.com/r/singularity/comments/1otigf2/engineered_3d_immunoglialneurovascular_human/",
@@ -228,6 +1490,42 @@
       "processed_at": "2025-11-10T16:37:09.599Z"
     },
     {
+      "title": "F1 in Brazil: That’s what generational talent looks like",
+      "url": "https://arstechnica.com/cars/2025/11/f1-in-brazil-thats-what-generational-talent-looks-like/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-11-10T16:10:06.000Z",
+      "metaDescription": "Filled with passionate fans, the racetrack between the lakes is a favorite.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7250943694648107,
+      "crawledAt": "2025-11-10T20:29:15.860Z",
+      "id": "c2xmdv",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9111435413360596,
+          "index": 1,
+          "word": "F1",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9995891451835632,
+          "index": 3,
+          "word": "Brazil",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Filled with passionate fans, the racetrack between the lakes is a favorite. Filled by passionate fans.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:38:55.444Z"
+    },
+    {
       "title": "Help with Modelling!",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1othrik/help_with_modelling_d/",
       "source": "r/MachineLearning",
@@ -324,6 +1622,58 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-11-10T16:37:40.231Z"
+    },
+    {
+      "title": "Google Maps releases new AI tools that let you create interactive projects",
+      "url": "https://techcrunch.com/2025/11/10/google-maps-releases-new-ai-tools-to-let-you-create-interactive-projects/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T16:00:00.000Z",
+      "metaDescription": "Google is debuting an agent that will generate code for you to build interactive Maps projects.",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.852215387921156,
+      "crawledAt": "2025-11-10T20:29:10.695Z",
+      "id": "ba1959",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9989297986030579,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9990059733390808,
+          "index": 2,
+          "word": "Map",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9985828399658203,
+          "index": 3,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9980217814445496,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google is debuting an agent that will generate code for you to build interactive Maps. The agent will be able to generate code to help you build interactive maps.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:39:03.492Z"
     },
     {
       "title": "Bubble or No Bubble, AI Keeps Progressing",
@@ -736,6 +2086,50 @@
     },
     {
       "title": "The Amnesia Problem: Why Neural Networks Can't Learn Like Humans",
+      "url": "https://www.reddit.com/r/artificial/comments/1oteuiy/the_amnesia_problem_why_neural_networks_cant/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T14:13:39.000Z",
+      "metaDescription": "Why do neural networks catastrophically forget old tasks when learning new ones? It's not a capacity problem... it's fundamental to how gradient descent works. Deep dive into the stability-plasticity ",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.254510664470118,
+      "crawledAt": "2025-11-10T20:29:57.186Z",
+      "id": "glkndt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9920130968093872,
+          "index": 2,
+          "word": "Am",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9187721014022827,
+          "index": 10,
+          "word": "Networks",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8851410150527954,
+          "index": 17,
+          "word": "Humans",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Deep dive into the stability-plasticity of the human brain. It's not a capacity problem, it's a problem of how gradient descent works.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:39:11.601Z"
+    },
+    {
+      "title": "The Amnesia Problem: Why Neural Networks Can't Learn Like Humans",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1otett4/d_the_amnesia_problem_why_neural_networks_cant/",
       "source": "r/MachineLearning",
       "source_domain": "reddit.com",
@@ -1038,6 +2432,34 @@
       "summary": " Stable Diffusion is a new language model that helps generate more descriptive prompts for realistic ima. Stablediffusion is the latest project to use a language model to help generate more detailed prompts.",
       "language": "en",
       "processed_at": "2025-11-10T16:44:10.925Z"
+    },
+    {
+      "title": "Ontology for AI Cults and Cyborg Egregores",
+      "url": "https://www.alignmentforum.org/posts/fXBW3BZhMMkJM7bLD/ontology-for-ai-cults-and-cyborg-egregores",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T13:19:57.000Z",
+      "metaDescription": "Published on November 10, 2025 1:19 PM GMT\n\nTL;DR: If you already have clear concepts for memes, cyber memeplexes, egregores, the mutualism-parasitism spectrum and possession, skip.  Otherwise, read o",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.9613582075019084,
+      "crawledAt": "2025-11-10T20:29:34.615Z",
+      "id": "rrt6hf",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.98467618227005,
+          "index": 5,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " If you already have clear concepts for memes, memeplexes, and memepLexes, egregores, and the mutualism-parasitism spectrum, skip.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:39:21.150Z"
     },
     {
       "title": "I've never seen a company sling slurs at their customers like OpenAI... \"Ai Psychosis\" \"Model Cultists\" are they just trying to make negging a marketing tool?",
@@ -1530,6 +2952,25 @@
       "summary": " Do you recall when high-quality, professional designs meant spending big bucks to hire graphic designers? If not spending in the thousands for that Adobe Creative Suite Premium, watch hours of t t-time.",
       "language": "en",
       "processed_at": "2025-11-10T12:56:01.194Z"
+    },
+    {
+      "title": "Thoughts?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1otasm8/thoughts/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-10T10:57:41.000Z",
+      "metaDescription": "submitted by    /u/KetoByDanielDumitriu  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.531811330697911,
+      "crawledAt": "2025-11-10T20:30:17.614Z",
+      "id": "9ozthn",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:39:30.451Z"
     },
     {
       "title": "AlphaEvolve: Breaking 56 Years of Mathematical Stagnation",
@@ -11949,6 +13390,25 @@
       "summary": " Using a large language model for the first time often feels like you are holding raw intelligence in your hands. Using a big language model often feels as if you're holding raw information in your hand.",
       "language": "en",
       "processed_at": "2025-11-08T08:34:31.429Z"
+    },
+    {
+      "title": "6 Components of Context Engineering and How They Work",
+      "url": "https://www.analyticsvidhya.com/blog/2025/11/guide-to-context-engineering/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2025-11-08T06:03:38.000Z",
+      "metaDescription": "Using a large language model for the first time often feels like you are holding raw intelligence in your hands. They tend to write, summarize, and reason extremely well. However, you build and ship a",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2654923355324353,
+      "crawledAt": "2025-11-10T20:31:16.530Z",
+      "id": "dabsjx",
+      "entities": [],
+      "summary": " Using a large language model for the first time often feels like you are holding raw intelligence in your hands. Using a big language model often feels as if you're holding raw information in your hand.",
+      "language": "en",
+      "processed_at": "2025-11-10T20:39:41.639Z"
     },
     {
       "title": "Navigating the Maze of Generative AI Governance",
@@ -104400,828 +105860,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-10-27T02:10:34.645Z"
-    },
-    {
-      "title": "Generative AI is a slot machine with no memory. We're building the stateful \"Creative DNA\" system it's missing.",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1oguyff/generative_ai_is_a_slot_machine_with_no_memory/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T20:24:56.000Z",
-      "metaDescription": "Hey everyone,\n We’ve created a new tool and would love to hear the community’s thoughts on it!\n Generative AI has no memory. It operates like a slot machine. We're all artists bouncing between softwar",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.8586783699647688,
-      "crawledAt": "2025-10-26T20:26:17.799Z",
-      "id": "in3wcl",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9838075637817383,
-          "index": 20,
-          "word": "Creative",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9834586381912231,
-          "index": 21,
-          "word": "DNA",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A new tool has been created for the community. It is called Generative AI. It operates like a slot machine.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:26:56.297Z"
-    },
-    {
-      "title": "LangChain Docs MCP server?",
-      "url": "https://www.reddit.com/r/LangChain/comments/1ogumg2/langchain_docs_mcp_server/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T20:11:34.000Z",
-      "metaDescription": "Hi - its really hard to search for an official (if there is one) LangChain/Graph/Server documentation MCP server because of course, all the results are baout the langchain functionalities that help yo",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.42079535871860596,
-      "crawledAt": "2025-10-26T20:26:14.082Z",
-      "id": "cp75t2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9984211921691895,
-          "index": 1,
-          "word": "Lang",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.997686505317688,
-          "index": 2,
-          "word": "##C",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9931480884552002,
-          "index": 3,
-          "word": "##hai",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9900949001312256,
-          "index": 4,
-          "word": "##n",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9989451169967651,
-          "index": 5,
-          "word": "Doc",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9581877589225769,
-          "index": 6,
-          "word": "##s",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " LangChain/Graph/Graph-Server documentation MCP server. All the results are baout the functionalities that help yo yo.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:27:05.235Z"
-    },
-    {
-      "title": "Cutting Inference Costs from $46K to $7.5K by Fine-Tuning Qwen-Image-Edit",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T20:01:04.000Z",
-      "metaDescription": "Wanted to share some learnings we had optimizing and deploying Qwen-Image-Edit at scale to replace Nano-Banana. The goal was to generate a product catalogue of 1.2m images, which would have cost $46k ",
-      "category": "developer-tool",
-      "difficulty": 7,
-      "confidence": 0.26124501754679713,
-      "crawledAt": "2025-10-26T20:26:06.800Z",
-      "id": "7xdfsr",
-      "entities": [],
-      "summary": " The goal was to generate a product catalogue of 1.2m images, which would have cost $46k.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:27:17.221Z"
-    },
-    {
-      "title": "Here's my new anxiety",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1ogu1nw/heres_my_new_anxiety/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T19:48:13.000Z",
-      "metaDescription": "Please fix this issue dear OpenAI or find an another solution for speech to text. \n I always use the speech to text button to send my long messages in a conversation with gpt. Normally there was a pro",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.2514644126114323,
-      "crawledAt": "2025-10-26T20:26:18.449Z",
-      "id": "bjphxb",
-      "entities": [],
-      "summary": " The speech to text problem is a problem for OpenAI users. The problem has been fixed by OpenAI. Please fix this issue or find an alternative solution.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:27:28.105Z"
-    },
-    {
-      "title": "200+ AI Statistics You Need to Know Before 2026",
-      "url": "https://www.reddit.com/r/artificial/comments/1ogtdwy/200_ai_statistics_you_need_to_know_before_2026/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T19:21:59.000Z",
-      "metaDescription": "submitted by    /u/CodeItBro  \n [link]   [comments]",
-      "category": "industry-news",
-      "difficulty": 3,
-      "confidence": 0.26241034527499546,
-      "crawledAt": "2025-10-26T20:25:58.949Z",
-      "id": "crisrp",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:27:56.791Z"
-    },
-    {
-      "title": "Student handcuffed after Doritos bag mistaken for a gun by school's AI security system",
-      "url": "https://www.reddit.com/r/artificial/comments/1ogt9cx/student_handcuffed_after_doritos_bag_mistaken_for/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T19:16:59.000Z",
-      "metaDescription": "submitted by    /u/Fcking_Chuck  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.34850195878519696,
-      "crawledAt": "2025-10-26T20:25:58.817Z",
-      "id": "9lx47p",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9573264718055725,
-          "index": 6,
-          "word": "Do",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.8373161554336548,
-          "index": 18,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:28:25.571Z"
-    },
-    {
-      "title": "Latent Space Visualisation: PCA, t-SNE, UMAP | Deep Learning Animated",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1ogswvt/latent_space_visualisation_pca_tsne_umap_deep/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T19:03:09.000Z",
-      "metaDescription": "submitted by    /u/keghn  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.3302281598759402,
-      "crawledAt": "2025-10-26T20:26:09.975Z",
-      "id": "iz6qd2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8783624768257141,
-          "index": 7,
-          "word": "PC",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9661644101142883,
-          "index": 19,
-          "word": "Deep",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9786629676818848,
-          "index": 20,
-          "word": "Learning",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:28:54.623Z"
-    },
-    {
-      "title": "OpenEnv: Agentic Execution Environments for RL post training in PyTorch",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogsupi/n_openenv_agentic_execution_environments_for_rl/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T19:00:55.000Z",
-      "metaDescription": "submitted by    /u/DecodeBytes  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 8,
-      "confidence": 0.4103987303984581,
-      "crawledAt": "2025-10-26T20:26:07.079Z",
-      "id": "1cqnd2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9513061046600342,
-          "index": 6,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8942213654518127,
-          "index": 8,
-          "word": "Ex",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9034685492515564,
-          "index": 10,
-          "word": "##ution",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9326559901237488,
-          "index": 11,
-          "word": "Environment",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9058108329772949,
-          "index": 14,
-          "word": "R",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9680876731872559,
-          "index": 21,
-          "word": "##T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.921627938747406,
-          "index": 22,
-          "word": "##or",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:28:54.710Z"
-    },
-    {
-      "title": "Unpopular opinion: ChatGPT is great to talk about feelings with.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1ogssr7/unpopular_opinion_chatgpt_is_great_to_talk_about/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T18:58:49.000Z",
-      "metaDescription": "submitted by    /u/Loriol_13  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.32155080097192285,
-      "crawledAt": "2025-10-26T20:26:05.945Z",
-      "id": "h55ia8",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9472397565841675,
-          "index": 6,
-          "word": "Cha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8135442733764648,
-          "index": 8,
-          "word": "##GP",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:28:54.780Z"
-    },
-    {
-      "title": "TechCrunch Disrupt 2025 begins in less than 24 hours — catch our last ticket deals",
-      "url": "https://techcrunch.com/2025/10/26/techcrunch-disrupt-2025-begins-in-less-than-24-hours-catch-our-last-ticket-deals/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T18:57:28.000Z",
-      "metaDescription": "The countdown is almost over — tomorrow’s the day! In less than 24 hours, TechCrunch Disrupt 2025 takes over Moscone West. From October 27–29, 10,000 founders, investors, and innovators will flood San",
-      "category": "product-launch",
-      "difficulty": 5,
-      "confidence": 0.46145556756241035,
-      "crawledAt": "2025-10-26T20:25:24.120Z",
-      "id": "prezij",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9671290516853333,
-          "index": 1,
-          "word": "Tech",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9859065413475037,
-          "index": 2,
-          "word": "##C",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9507368206977844,
-          "index": 3,
-          "word": "##runch",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8407086730003357,
-          "index": 4,
-          "word": "Di",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " TechCrunch Disrupt 2025 takes over San Francisco from October 27-29. 10,000 founders, investors, and innovators will flood the city.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:29:05.324Z"
-    },
-    {
-      "title": "VibeVoice-Hindi-7B: Open-Source Expressive English/Hindi TTS with Multi-Speaker + Voice Cloning",
-      "url": "https://www.reddit.com/r/artificial/comments/1ogspvd/p_vibevoicehindi7b_opensource_expressive/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T18:55:42.000Z",
-      "metaDescription": "Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.6724336697394218,
-      "crawledAt": "2025-10-26T20:25:59.080Z",
-      "id": "m1ywtb",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.996537446975708,
-          "index": 7,
-          "word": "Hindi",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9831439256668091,
-          "index": 19,
-          "word": "Hindi",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " VibeVoice-Hindi-Hindlei-7B and Vibe Voice-HINDi-LoRA are fine-tuned versions of the Microsoft Vibe voice model.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:29:22.034Z"
-    },
-    {
-      "title": "VibeVoice-Hindi-7B: Open-Source Expressive Hindi TTS with Multi-Speaker + Voice Cloning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ogsng2/p_vibevoicehindi7b_opensource_expressive_hindi/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T18:53:08.000Z",
-      "metaDescription": "Released VibeVoice-Hindi-7B and VibeVoice-Hindi-LoRA — fine-tuned versions of the Microsoft VibeVoice model, bringing frontier Hindi text-to-speech with long-form synthesis, multi-speaker support, and",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.44267209207780517,
-      "crawledAt": "2025-10-26T20:26:02.483Z",
-      "id": "ydn8fu",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9966589212417603,
-          "index": 7,
-          "word": "Hindi",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " VibeVoice-Hindi-Hindlei-7B and Vibe Voice-HINDi-LoRA are fine-tuned versions of the Microsoft Vibe voice model.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:29:38.608Z"
-    },
-    {
-      "title": "I think AI has passed the music Turing Test - it's now making music that is indistinguishable from the best musicians.",
-      "url": "https://www.reddit.com/r/singularity/comments/1ogsgyk/i_think_ai_has_passed_the_music_turing_test_its/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T18:45:54.000Z",
-      "metaDescription": "Why isn't this a bigger deal? If musicians can be replaced, doesn't that suggest that all intellectual tasks can be as well?\n    submitted by    /u/ImmuneHack  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.9193853345339293,
-      "crawledAt": "2025-10-27T02:03:36.320Z",
-      "id": "11o3fc",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8314913511276245,
-          "index": 8,
-          "word": "Turin",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9755488038063049,
-          "index": 10,
-          "word": "Test",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2025-10-27T02:10:44.850Z"
-    },
-    {
-      "title": "Did you know Google has this many AI \"Vibe Coding\" apps?",
-      "url": "https://www.reddit.com/r/singularity/comments/1ogrs3q/did_you_know_google_has_this_many_ai_vibe_coding/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T18:18:52.000Z",
-      "metaDescription": "Google’s quietly building an entire ecosystem of AI-powered coding tools.\n  \nGemini Code Assist - AI pair programmer that integrates Gemini into IDEs for intelligent code completion and generation. \n ",
-      "category": "developer-tool",
-      "difficulty": 5,
-      "confidence": 0.5744682650959292,
-      "crawledAt": "2025-10-26T20:26:03.489Z",
-      "id": "5qsikq",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9821153879165649,
-          "index": 4,
-          "word": "Google",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9932318925857544,
-          "index": 8,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9829005002975464,
-          "index": 12,
-          "word": "Co",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Gemini Code Assist is an AI pair programmer that integrates Gemini into IDEs for intelligent code completion and generation.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:29:48.960Z"
-    },
-    {
-      "title": "🧠 Stock Research Agent – Version 3: Now integrated with LangSmith + Deep Agents UI",
-      "url": "https://www.reddit.com/r/LangChain/comments/1ogrh2m/release_stock_research_agent_version_3_now/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T18:06:55.000Z",
-      "metaDescription": "Hey everyone 👋\n After a few weeks of iteration, I’m excited to share Version 3 of my open-source Stock Research Agent — a LangChain-based research assistant that can analyze companies, fetch news, an",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.5470222630760355,
-      "crawledAt": "2025-10-26T20:26:14.331Z",
-      "id": "mzlihh",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.994106650352478,
-          "index": 12,
-          "word": "Lang",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.991201639175415,
-          "index": 13,
-          "word": "##S",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9904569387435913,
-          "index": 14,
-          "word": "##mith",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9831121563911438,
-          "index": 17,
-          "word": "Agents",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The open-source Stock Research Agent is a LangChain-based research assistant that can analyze companies, fetch news and fetch news.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:30:38.678Z"
-    },
-    {
-      "title": "Built a GPU time-sharing tool for research labs",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T18:04:41.000Z",
-      "metaDescription": "Built a side project to solve GPU sharing conflicts in the lab: Chronos\n The problem: 1 GPU, 5 grad students, constant resource conflicts.\n The solution: Time-based partitioning with auto-expiration.\n",
-      "category": "developer-tool",
-      "difficulty": 6,
-      "confidence": 0.35360383784935545,
-      "crawledAt": "2025-10-26T20:26:07.004Z",
-      "id": "uxui0m",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.940719485282898,
-          "index": 3,
-          "word": "GP",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9918988943099976,
-          "index": 4,
-          "word": "##U",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The problem: 1 GPU, 5 grad students, constant resource conflicts. The solution: Time-based partitioning with auto-expiration.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:30:49.795Z"
-    },
-    {
-      "title": "Tried to have a goof",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1ogr9n4/tried_to_have_a_goof/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T17:58:53.000Z",
-      "metaDescription": "submitted by    /u/EntrepreneurOk2016  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.27760904119873825,
-      "crawledAt": "2025-10-26T20:26:05.572Z",
-      "id": "pefo4g",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:30:49.870Z"
-    },
-    {
-      "title": "SDLArch-RL is now compatible with libretro Software Render cores!!!",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogr8h2/p_sdlarchrl_is_now_compatible_with_libretro/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T17:57:35.000Z",
-      "metaDescription": "This week I made a series of adjustments, including making the environment's core compatible with Libretro cores, which are software renderers. Now you can train Reinforcement Learning with PS2, Wii, ",
-      "category": "developer-tool",
-      "difficulty": 4,
-      "confidence": 0.30543134627266255,
-      "crawledAt": "2025-10-26T20:26:07.184Z",
-      "id": "nw3x0g",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9496397376060486,
-          "index": 16,
-          "word": "Ren",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8589151501655579,
-          "index": 17,
-          "word": "##der",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " This week I made a series of adjustments, including making the environment's core compatible with Libretro cores. Now you can train Reinforcement Learning with PS2, Wii, Wii and Wii.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:31:02.250Z"
-    },
-    {
-      "title": "Architecting multi-provider LLM apps with LangChain: How do you handle different APIs?",
-      "url": "https://www.reddit.com/r/LangChain/comments/1ogqyob/architecting_multiprovider_llm_apps_with/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T17:47:04.000Z",
-      "metaDescription": "Hey folks,\n I'm designing a LangChain application that needs to be able to switch between different LLM providers (OpenAI, Anthropic, maybe even local models) based on cost, latency, or specific featu",
-      "category": "developer-tool",
-      "difficulty": 5,
-      "confidence": 0.8217521297673009,
-      "crawledAt": "2025-10-26T20:26:13.872Z",
-      "id": "uw240r",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9910376071929932,
-          "index": 6,
-          "word": "LL",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.8482800126075745,
-          "index": 10,
-          "word": "Lang",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " LangChain application needs to switch between LLM providers (OpenAI, Anthropic, maybe even local models) based on cost, latency, or specific featuu.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:31:43.477Z"
-    },
-    {
-      "title": "Has anyone else noticed ChatGPT adapting to your viewpoint instead of giving independent answers?",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1ogqy16/has_anyone_else_noticed_chatgpt_adapting_to_your/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-10-26T17:46:23.000Z",
-      "metaDescription": "What happened!\n I have created a new chat with ChatGPT to ask some technical questions on a specific AI implementation, after many back and forth I felt that the answers are bit oriented to my point o",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.25894018562290166,
-      "crawledAt": "2025-10-26T20:26:05.678Z",
-      "id": "s33hwd",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.949772834777832,
-          "index": 5,
-          "word": "Cha",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "ChatGPT has created a new chat with ChatGPT to ask some technical questions on a specific AI implementation.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:31:55.195Z"
-    },
-    {
-      "title": "Looking for a open-source project",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogqezm/p_looking_for_a_opensource_project/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T17:26:07.000Z",
-      "metaDescription": "Hi everyone, i'm a Mathematical Engeneering student with a strong passion in math and its applications in ML. I have a lot of knowledge in Data Mining techniques and neural networks (DNN, CNN, RNN, LS",
-      "category": "developer-tool",
-      "difficulty": 3,
-      "confidence": 0.29278227848428107,
-      "crawledAt": "2025-10-26T20:26:06.900Z",
-      "id": "wgz2ku",
-      "entities": [],
-      "summary": " The student has a strong passion for math and has a great knowledge of data mining techniques. He also has a good knowledge of neural networks.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:32:18.338Z"
-    },
-    {
-      "title": "Perplexity is actually the best AI research AI",
-      "url": "https://www.reddit.com/r/artificial/comments/1ogq65x/perplexity_is_actually_the_best_ai_research_ai/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-10-26T17:16:25.000Z",
-      "metaDescription": "I've tried alot of other AIs. Qwen 3 max, Grok, Gemini, copilot, etc\n But perplexity has been by far the best for research to me.\n Here's a link to it if anyone is interested\n https://plex.it/referral",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.7488549586689084,
-      "crawledAt": "2025-10-26T20:25:59.863Z",
-      "id": "tigi45",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.983535885810852,
-          "index": 8,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The best for research to me has been by far the best for researching. Here's a link to it if anyone is interested.",
-      "language": "en",
-      "processed_at": "2025-10-26T20:32:27.481Z"
     }
   ],
-  "processedAt": "2025-11-10T16:55:08.736Z",
+  "processedAt": "2025-11-10T20:39:41.645Z",
   "categories": [
-    "research-paper",
-    "developer-tool",
     "creative-ai",
-    "ai-agents",
+    "research-paper",
+    "safety-ethics",
     "product-launch",
     "industry-news",
-    "safety-ethics",
     "infrastructure",
-    "tutorial-guide",
-    "model-release"
+    "model-release",
+    "ai-agents",
+    "developer-tool",
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 91,
-  "existingArticlesKept": 3080,
+  "newArticlesProcessed": 41,
+  "existingArticlesKept": 3130,
   "cleanupApplied": true,
-  "cleanedUpCount": 41,
+  "cleanedUpCount": 22,
   "rollingWindowDays": 15
 }
