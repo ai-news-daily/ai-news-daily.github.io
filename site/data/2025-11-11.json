@@ -1,9 +1,453 @@
 {
-  "crawledAt": "2025-11-11T02:00:06.847Z",
+  "crawledAt": "2025-11-11T04:32:06.702Z",
   "totalSources": 70,
-  "totalArticles": 35,
+  "totalArticles": 50,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Built a simple PII-blocker this weekend to protect my chat agent.",
+      "url": "https://www.reddit.com/r/LangChain/comments/1ou00wh/built_a_simple_piiblocker_this_weekend_to_protect/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T04:22:39.000Z",
+      "metaDescription": "https://preview.redd.it/msv635pk0k0g1.png?width=2190&format=png&auto=webp&s=d6665b5914dea630a255ec6dd88f7f0cc2b343c4\n I spent the weekend building LLMSentry.\n It's a simple stateless gateway that:\n  \n",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.6659387109051776,
+      "crawledAt": "2025-11-11T04:31:04.541Z",
+      "id": "1okxrf",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9536411166191101,
+          "index": 4,
+          "word": "P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:32:08.806Z"
+    },
+    {
+      "title": "🚀 A new cognitive architecture for agents … OODA: Observe, Orient, Decide, Act",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otzwju/a_new_cognitive_architecture_for_agents_ooda/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T04:16:36.000Z",
+      "metaDescription": "Deep Agents are powerful, but they don’t think …they just edit text plans (todos.md) without true understanding or self-awareness.\n I built OODA Agents to fix that. They run a continuous cognitive loo",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.4223610999492072,
+      "crawledAt": "2025-11-11T04:31:04.736Z",
+      "id": "m50w30",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9928728342056274,
+          "index": 9,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9606096744537354,
+          "index": 10,
+          "word": "##OD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8462867140769958,
+          "index": 11,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Deep Agents are powerful, but they don't think … they just edit text plans. I built OODA Agents to fix that. They run a continuous cognitive loo.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:32:21.540Z"
+    },
+    {
+      "title": "AI be like:",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1otzpql/ai_be_like/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T04:07:00.000Z",
+      "metaDescription": "submitted by    /u/Baconkings  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9461539993797143,
+      "crawledAt": "2025-11-11T04:30:48.060Z",
+      "id": "mr8bn",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:32:21.607Z"
+    },
+    {
+      "title": "How are you all managing memory/context in LangChain agents?",
+      "url": "https://www.reddit.com/r/LangChain/comments/1otz4oi/how_are_you_all_managing_memorycontext_in/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T03:37:50.000Z",
+      "metaDescription": "Hey all- I’m doing a short research sprint on how devs are handling memory and context in AI agents built with LangChain (or similar frameworks).\n If you’ve worked on agents that “remember” across ses",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.27111959433055616,
+      "crawledAt": "2025-11-11T04:31:05.086Z",
+      "id": "g3mr2h",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8912540078163147,
+          "index": 10,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8797128200531006,
+          "index": 11,
+          "word": "##C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A short research sprint on how devs are handling memory and context in AI agents built with LangChain (or similar frameworks)",
+      "language": "en",
+      "processed_at": "2025-11-11T04:33:06.114Z"
+    },
+    {
+      "title": "MLOps Research paper",
+      "url": "https://www.reddit.com/r/mlops/comments/1otz22l/mlops_research_paper/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T03:34:21.000Z",
+      "metaDescription": "Hi! I am writing a research paper about MLOps responsibility mechanisms - I would greatly appreciate if anyone with experience with MLOps would answer a few questions in an interview (written or phone",
+      "category": "research-paper",
+      "difficulty": 10,
+      "confidence": 0.993611420837329,
+      "crawledAt": "2025-11-11T04:31:17.708Z",
+      "id": "qfusqe",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9649915099143982,
+          "index": 1,
+          "word": "M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.901752769947052,
+          "index": 2,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9732846617698669,
+          "index": 3,
+          "word": "##O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9666855335235596,
+          "index": 4,
+          "word": "##ps",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8907992243766785,
+          "index": 5,
+          "word": "Research",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I am writing a research paper about MLOps responsibility mechanisms. I would greatly appreciate if anyone with experience with MLOps would answer a few questions in an interview.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:33:18.599Z"
+    },
+    {
+      "title": "Our sub got a shout-out from the Corridor Crew",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otxs37/our_sub_got_a_shoutout_from_the_corridor_crew/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T02:33:11.000Z",
+      "metaDescription": "From their recent video AI Experts Debunk The Latest SLOP\n    submitted by    /u/onil_gova  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.31434390421883784,
+      "crawledAt": "2025-11-11T04:30:49.485Z",
+      "id": "8enmud",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9937853813171387,
+          "index": 10,
+          "word": "Corridor",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9943154454231262,
+          "index": 11,
+          "word": "Crew",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:33:31.890Z"
+    },
+    {
+      "title": "Looking for Github Copilot equivalent for Microsoft Word",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1otxoy8/looking_for_github_copilot_equivalent_for/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T02:29:06.000Z",
+      "metaDescription": "I really like the inline editing/questions of the Github Copilot in VSCode, currently wondering if there is a similar AI service for Microsoft Word or any document editors.\n    submitted by    /u/Arek",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.27369531096916333,
+      "crawledAt": "2025-11-11T04:31:03.642Z",
+      "id": "uinpa0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.990943193435669,
+          "index": 3,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8164595365524292,
+          "index": 4,
+          "word": "##ith",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9494491815567017,
+          "index": 6,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9957671165466309,
+          "index": 11,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9967831969261169,
+          "index": 12,
+          "word": "Word",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Github Copilot in VSCode is an AI-powered version of the Copilot. The Copilot is a version of a version that uses the same software as Microsoft Word.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:33:47.407Z"
+    },
+    {
+      "title": "#FREETHETIDDLETS: the anthem",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1otxlc2/freethetiddlets_the_anthem/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T02:24:26.000Z",
+      "metaDescription": "submitted by    /u/Beautiful_Crab6670  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3612461614898699,
+      "crawledAt": "2025-11-11T04:31:02.556Z",
+      "id": "t0iaa9",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:33:47.508Z"
+    },
+    {
+      "title": "8 Python Visualization Tricks That Make Data Pop",
+      "url": "https://python.plainenglish.io/8-python-visualization-tricks-that-make-data-pop-5585ea5f84d7?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T02:08:54.000Z",
+      "metaDescription": "Impress your boss without touching PowerPoint.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5691883708316541,
+      "crawledAt": "2025-11-11T04:30:35.024Z",
+      "id": "g4xv2c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9658889174461365,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Impress your boss without touching PowerPoint without touching your boss. Impress you boss without touch PowerPoint. Impress yourself without touching a PowerPoint.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:05.380Z"
+    },
+    {
+      "title": "Nano banana 2 vs ChatGPT Dall-E",
+      "url": "https://www.reddit.com/r/singularity/comments/1otx6dw/nano_banana_2_vs_chatgpt_dalle/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T02:05:04.000Z",
+      "metaDescription": "So where is the goal post supposed to be? I’m just curious, I’ve also included more generations from Nana Banana after the gpt image.\n My bachelors degree in Digital Arts and Design was $76k, most of ",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.48304960654897644,
+      "crawledAt": "2025-11-11T04:30:53.386Z",
+      "id": "sb64it",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9909154176712036,
+          "index": 1,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8770514726638794,
+          "index": 2,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9566064476966858,
+          "index": 3,
+          "word": "banana",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9769120216369629,
+          "index": 6,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.860650360584259,
+          "index": 7,
+          "word": "##t",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9064323902130127,
+          "index": 10,
+          "word": "Dal",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.914330244064331,
+          "index": 11,
+          "word": "##l",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The image was created by Nana Banana after the gpt image. Nana's bachelors degree in Digital Arts and Design was $76k.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:16.729Z"
+    },
+    {
+      "title": "Is open-webui vibe coded? Why else is the documentation littered with emoji?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otx50l/is_openwebui_vibe_coded_why_else_is_the/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T02:03:13.000Z",
+      "metaDescription": "It's like every other 5 words: an emoji.\n God damn, the future is bleak\n    submitted by    /u/ksoops  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3822875555383733,
+      "crawledAt": "2025-11-11T04:30:50.741Z",
+      "id": "mu2pvj",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:16.869Z"
+    },
+    {
+      "title": "Best OS for serious setup",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1otx2b9/best_os_for_serious_setup/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T01:59:59.000Z",
+      "metaDescription": "Hi again. So... Advanced Comfy user here. I've just upgraded from a 5090 to a 6000 pro. I am using mainly Windows, just because I produce tutorial videos and that is the OS of my audience. But now I h",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.301471795804523,
+      "crawledAt": "2025-11-11T04:31:00.274Z",
+      "id": "89k4cq",
+      "entities": [],
+      "summary": " I am using mainly Windows, just because I produce tutorial videos and that is the OS of my audience. But now I h h now I have upgraded from a 5090 to a 6000 pro.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:29.877Z"
+    },
     {
       "title": "Wan 2.2 - Img 2 Img or inpainting. Can I skip high noise model ?",
       "url": "https://www.reddit.com/r/StableDiffusion/comments/1otwz8l/wan_22_img_2_img_or_inpainting_can_i_skip_high/",
@@ -174,6 +618,93 @@
       "processed_at": "2025-11-11T02:00:51.736Z"
     },
     {
+      "title": "Full Replication of Google's Nested Learning Paper in PyTorch – code now live",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1otwek3/full_replication_of_googles_nested_learning_paper/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-11T01:29:37.000Z",
+      "metaDescription": "Some of you may have seen Google Research’s Nested Learning paper. They introduced HOPE, a self-modifying TITAN variant with a Continuum Memory System (multi-frequency FFN chain) + deep optimizer stac",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.5142913528989632,
+      "crawledAt": "2025-11-11T04:30:49.937Z",
+      "id": "a81xcs",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9964233040809631,
+          "index": 5,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8657121658325195,
+          "index": 11,
+          "word": "Paper",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9284789562225342,
+          "index": 13,
+          "word": "P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9144861102104187,
+          "index": 15,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8730048537254333,
+          "index": 16,
+          "word": "##or",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8711063265800476,
+          "index": 17,
+          "word": "##ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google's new product is a self-modelled version of the TITAN memory system. The new system is called HOPE.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:42.649Z"
+    },
+    {
+      "title": "GPT-5-mini gave me its system prompt .",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1otwduo/gpt5mini_gave_me_its_system_prompt_after_a_bit_of/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T01:28:42.000Z",
+      "metaDescription": "You are ChatGPT, a large language model based on the GPT-5-mini model and trained by OpenAI. Current date: 2025-11-08. Image input capabilities: Enabled. Personality: v2. You are an insightful, encour",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2507452820691509,
+      "crawledAt": "2025-11-11T04:30:48.482Z",
+      "id": "fphkrf",
+      "entities": [],
+      "summary": " ChatGPT is a large language model based on the GPT-5-mini model and trained by OpenAI. Current date: 2025-11-08.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:53.015Z"
+    },
+    {
       "title": "Why are mods here allowing fake posts from AI influencers claiming to be new models?",
       "url": "https://www.reddit.com/r/singularity/comments/1otw7xe/why_are_mods_here_allowing_fake_posts_from_ai/",
       "source": "r/singularity",
@@ -334,6 +865,34 @@
       "summary": "Every time I use controlnet, it always seems to do nothing, with the exception of canny, tile, and tile. I'm using flux models and have tried v.",
       "language": "en",
       "processed_at": "2025-11-11T02:01:54.947Z"
+    },
+    {
+      "title": "Neutron rocket’s debut slips into mid-2026 as company seeks success from the start",
+      "url": "https://arstechnica.com/space/2025/11/neutron-rockets-debut-slips-into-mid-2026-as-company-seeks-success-from-the-start/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2025-11-11T00:39:13.000Z",
+      "metaDescription": "\"Those who have failed to deliver are numerous.\"",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.8234622747540536,
+      "crawledAt": "2025-11-11T04:29:55.333Z",
+      "id": "xy3d3u",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9636884927749634,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-11T04:34:53.153Z"
     },
     {
       "title": "Yes it’s over for 4.1",
@@ -1178,19 +1737,19 @@
       "processed_at": "2025-11-11T02:07:03.390Z"
     }
   ],
-  "processedAt": "2025-11-11T02:07:03.404Z",
+  "processedAt": "2025-11-11T04:34:53.166Z",
   "categories": [
-    "infrastructure",
-    "creative-ai",
-    "ai-agents",
-    "product-launch",
     "safety-ethics",
+    "infrastructure",
+    "ai-agents",
+    "research-paper",
+    "creative-ai",
+    "product-launch",
     "model-release",
-    "industry-news",
-    "research-paper"
+    "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 35,
-  "dailyArticlesCount": 35,
+  "newArticlesProcessed": 15,
+  "dailyArticlesCount": 50,
   "filterDate": "2025-11-11"
 }
