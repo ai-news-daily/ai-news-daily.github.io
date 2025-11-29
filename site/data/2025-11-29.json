@@ -1,9 +1,496 @@
 {
-  "crawledAt": "2025-11-29T08:33:42.472Z",
+  "crawledAt": "2025-11-29T12:50:36.777Z",
   "totalSources": 70,
-  "totalArticles": 56,
+  "totalArticles": 70,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Leak: OpenAI is building an Ad Network inside ChatGPT. \"Search Ads\" strings found in latest Android Beta.",
+      "url": "https://www.reddit.com/r/singularity/comments/1p9nxjg/leak_openai_is_building_an_ad_network_inside/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T12:36:24.000Z",
+      "metaDescription": "A trusted reverse engineer Tibor Blaho found ad system strings inside the latest ChatGPT Android beta(v1.2025.329).\n This is not a rumor. The code already includes Search Ads and ad targeting hooks. L",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.39414302746182955,
+      "crawledAt": "2025-11-29T12:49:35.315Z",
+      "id": "5xfwjm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9970579743385315,
+          "index": 4,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.992658793926239,
+          "index": 5,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9828348159790039,
+          "index": 6,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8149886131286621,
+          "index": 13,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9967222809791565,
+          "index": 27,
+          "word": "Android",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8295358419418335,
+          "index": 28,
+          "word": "Beta",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A trusted reverse engineer found ad system strings inside the latest ChatGPT Android beta (v1.2025.329) The code already includes Search Ads and ad targeting hooks.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:51:14.620Z"
+    },
+    {
+      "title": "Turning Images into Live-Blinking Pixel Art Inside Excel",
+      "url": "https://pub.towardsai.net/turning-images-into-live-blinking-pixel-art-inside-excel-with-python-5a4f805fd3e4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2025-11-29T12:02:12.000Z",
+      "metaDescription": "Ever thought Excel was just a spreadsheet tool?\n Think again. With a bit of Python magic, Excel can become a canvas that displays images —…\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.29300649594521616,
+      "crawledAt": "2025-11-29T12:49:12.009Z",
+      "id": "dm2xy4",
+      "entities": [],
+      "summary": "With a bit of Python magic, Excel can become a canvas that displays images. With a bit of Python magic.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:51:37.650Z"
+    },
+    {
+      "title": "Humans of Z-Image: How many celebrities can you fit into 6GB?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1p9m78k/humans_of_zimage_how_many_celebrities_can_you_fit/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T10:56:46.000Z",
+      "metaDescription": "I was curious just how extensive Z-Image's celebrity knowledge is, so I gave it a few hundred names to test out. No information was given other the name, so it was up to the model to choose clothing/b",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5486638418206242,
+      "crawledAt": "2025-11-29T12:49:56.073Z",
+      "id": "9yjh25",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9492364525794983,
+          "index": 3,
+          "word": "Z",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9457399845123291,
+          "index": 5,
+          "word": "Image",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A few hundred names were given to test out. No information was given other name, so it was up to the model to choose clothing/b.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:51:56.983Z"
+    },
+    {
+      "title": "Z-IMAGE COMICS RESULT + PROMPTS",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1p9lsqc/zimage_comics_result_prompts/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T10:31:32.000Z",
+      "metaDescription": "PROMPT 1-\n A comic book page, in a classic 5-panel layout: 1 wide horizontal panel on top, 4 equal square panels aligned in a row at the bottom. Clean white gutters. Thick, clean black ink outlines. F",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2968347279999924,
+      "crawledAt": "2025-11-29T12:49:58.981Z",
+      "id": "4quvsb",
+      "entities": [],
+      "summary": " A comic book page, in a classic 5-panel layout, is in aclassic 5- panel layout. Clean white gutters. Thick, clean black ink outlines.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:52:22.768Z"
+    },
+    {
+      "title": "I built pipe: A stateless \"Agent as Function\" framework that follows Unix Philosophy.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1p9lqvl/project_i_built_pipe_a_stateless_agent_as/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-29T10:28:15.000Z",
+      "metaDescription": "Hi r/LocalLLaMA,\n I hated stateful chatbots and black-box frameworks that hide context. So I built pipe.\n It treats an agent not as a partner, but as a stateless, pure function:\n f(context) \\rightarro",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.3388773432783034,
+      "crawledAt": "2025-11-29T12:49:34.185Z",
+      "id": "ylpj00",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9442968964576721,
+          "index": 9,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9811832904815674,
+          "index": 10,
+          "word": "as",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9728204011917114,
+          "index": 17,
+          "word": "Unix",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9600533246994019,
+          "index": 18,
+          "word": "Philosophy",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The author of the book, \"The Book, The Book of The Book, is based on the book's first published by The Book's publisher, The Company, and The Book Of The Book.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:52:37.733Z"
+    },
+    {
+      "title": "SPartan R&D SROL",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1p9l242/spartan_rd_srol/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T09:46:11.000Z",
+      "metaDescription": "submitted by    /u/ChipAffectionate9625  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.28446770873422694,
+      "crawledAt": "2025-11-29T12:49:46.253Z",
+      "id": "w0oget",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9687193036079407,
+          "index": 1,
+          "word": "SP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9167030453681946,
+          "index": 2,
+          "word": "##art",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8977798223495483,
+          "index": 3,
+          "word": "##an",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.988853394985199,
+          "index": 4,
+          "word": "R",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9889313578605652,
+          "index": 5,
+          "word": "&",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9825674891471863,
+          "index": 6,
+          "word": "D",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:52:38.224Z"
+    },
+    {
+      "title": "Why AI hallucinates",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1p9kxrt/why_ai_hallucinates/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T09:38:08.000Z",
+      "metaDescription": "submitted by    /u/big_guyforyou  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6793275968668142,
+      "crawledAt": "2025-11-29T12:49:28.754Z",
+      "id": "sf73zz",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:52:38.336Z"
+    },
+    {
+      "title": "6 Python Experiments That Completely Transformed My Skill Level",
+      "url": "https://python.plainenglish.io/6-python-experiments-that-completely-transformed-my-skill-level-c1b2219048db?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T09:23:33.000Z",
+      "metaDescription": "Growth doesn’t come from tutorials — it comes from tinkering.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4951770382499116,
+      "crawledAt": "2025-11-29T12:49:20.497Z",
+      "id": "axrpqe",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.987295389175415,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Growth doesn't come from tutorials, it comes from tinkering, it's from tinkers. \"Growth is from tinkling,\" says the author.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:52:48.913Z"
+    },
+    {
+      "title": "ChatGPT will NOT stop using \"Honestly,\"",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1p9kh26/chatgpt_5mini_will_not_stop_using_honestly/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T09:08:45.000Z",
+      "metaDescription": "Every response, even just a dot. It will always, always generate a response with one paragraph starting with \"Honestly,\" like this:\n (main paragraph)\n Honestly, (2nd paragraph)\n It drives me crazy. Me",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.4076483009162098,
+      "crawledAt": "2025-11-29T12:49:30.213Z",
+      "id": "myeg4v",
+      "entities": [],
+      "summary": "Every response, even just a dot, will always generate a response with one paragraph starting with \"Honestly\" It drives me crazy.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:53:21.250Z"
+    },
+    {
+      "title": "Z Image Lora Training on a 3060 12GB + AI Toolkit Guide that a child can use",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1p9k8td/z_image_lora_training_on_a_3060_12gb_ai_toolkit/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T08:54:39.000Z",
+      "metaDescription": "Here are the results and my settings + an easy guide anyone can use without writing a single terminal command.\n  \nWhat I used to train Loras\n I've used Ostris' implementation which can be found here: ",
+      "category": "tutorial-guide",
+      "difficulty": 6,
+      "confidence": 0.2758702544641434,
+      "crawledAt": "2025-11-29T12:49:56.266Z",
+      "id": "dn6brp",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9763861894607544,
+          "index": 1,
+          "word": "Z",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9945138692855835,
+          "index": 2,
+          "word": "Image",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997100293636322,
+          "index": 3,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9716776609420776,
+          "index": 4,
+          "word": "##ra",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "What I used to train Loras. I've used Ostris' implementation which can be found here. Here are the results and my settings and my setting.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:53:55.595Z"
+    },
+    {
+      "title": "RAG from Scratch is now live on GitHub",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1p9jzx6/rag_from_scratch_is_now_live_on_github/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2025-11-29T08:38:56.000Z",
+      "metaDescription": "It’s an educational open-source project, inspired by my previous repo AI Agents from Scratch, available here: https://github.com/pguso/rag-from-scratch\n The goal is to demystify Retrieval-Augmented Ge",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6132240246536397,
+      "crawledAt": "2025-11-29T12:49:32.483Z",
+      "id": "3twmbm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8108985424041748,
+          "index": 1,
+          "word": "RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8064901232719421,
+          "index": 11,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8165562748908997,
+          "index": 12,
+          "word": "##it",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.920724093914032,
+          "index": 13,
+          "word": "##H",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The goal is to demystify Retrieval-Augmented Ge. It's an educational open-source project.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:54:07.386Z"
+    },
+    {
+      "title": "Germany's industrial titans embrace the AI age",
+      "url": "https://www.reddit.com/r/singularity/comments/1p9jubq/germanys_industrial_titans_embrace_the_ai_age/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T08:29:04.000Z",
+      "metaDescription": "submitted by    /u/donutloop  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6512010967294118,
+      "crawledAt": "2025-11-29T12:49:37.159Z",
+      "id": "kmrsnv",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9997992515563965,
+          "index": 1,
+          "word": "Germany",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9199724793434143,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:54:07.576Z"
+    },
+    {
+      "title": "Z_image_turbo GGUF VS Full Model",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1p9jpe5/z_image_turbo_gguf_vs_full_model/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T08:20:16.000Z",
+      "metaDescription": "From left to right (default workflow , random prompt from civitai :)))))\n  \n Z_image_turbo-Q8.gguf(7GB) + Qwen3-4B-UD-Q8_K_XL.gguf(4.9GB)\n Z_image_turbo_bf16.safetensors(12GB) + qwen_3_4b.safetensors(",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.25301060470076464,
+      "crawledAt": "2025-11-29T12:49:58.232Z",
+      "id": "wczo3j",
+      "entities": [],
+      "summary": "Z_image_turbo-Q8.gguf(7GB) Z_image-turbo_f16.safetensors (12GB) Qwen_3-4B-UD-Q 8.ggf (7GB), Qwen3-3",
+      "language": "en",
+      "processed_at": "2025-11-29T12:54:24.791Z"
+    },
     {
       "title": "ChatGPT is your biggest \"yes man\", here's how to change that",
       "url": "https://www.reddit.com/r/ChatGPT/comments/1p9jjdz/chatgpt_is_your_biggest_yes_man_heres_how_to/",
@@ -77,6 +564,25 @@
       "summary": "After applying some long-tailed learning strategies, my macro-F1 improved significantly. I'm currently working on a multi-class classification task where the class distribution is highly imbalanced.",
       "language": "en",
       "processed_at": "2025-11-29T08:34:29.838Z"
+    },
+    {
+      "title": "Update Sprite generator - v1.1! | Generation of detailed sprites for full body | SDXL\\Pony\\IL\\NoobAI\\Any!",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1p9j5jz/update_sprite_generator_v11_generation_of/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2025-11-29T07:47:32.000Z",
+      "metaDescription": "Good afternoon!\n This is an update to my character generation workflow.\n What's changed?\n  \nImproved detail\n More efficient settings.\n Removed the prompt randomizer. I decided it was too crooked and u",
+      "category": "model-release",
+      "difficulty": 3,
+      "confidence": 0.3213374156521981,
+      "crawledAt": "2025-11-29T12:49:57.753Z",
+      "id": "s8ohs0",
+      "entities": [],
+      "summary": "This is an update to my character generation workflow. This is an updated version of the original version of this article.",
+      "language": "en",
+      "processed_at": "2025-11-29T12:54:33.367Z"
     },
     {
       "title": "Swear on my mum I wrote this all by myself, but ZeroGPT flagged it as AI-generated",
@@ -1782,18 +2288,18 @@
       "processed_at": "2025-11-29T02:02:35.679Z"
     }
   ],
-  "processedAt": "2025-11-29T08:38:32.997Z",
+  "processedAt": "2025-11-29T12:54:33.375Z",
   "categories": [
-    "creative-ai",
-    "safety-ethics",
-    "product-launch",
-    "model-release",
-    "ai-agents",
     "infrastructure",
-    "tutorial-guide"
+    "creative-ai",
+    "product-launch",
+    "tutorial-guide",
+    "model-release",
+    "safety-ethics",
+    "ai-agents"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 16,
-  "dailyArticlesCount": 56,
+  "newArticlesProcessed": 14,
+  "dailyArticlesCount": 70,
   "filterDate": "2025-11-29"
 }
