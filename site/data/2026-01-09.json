@@ -1,9 +1,1353 @@
 {
-  "crawledAt": "2026-01-09T12:59:35.384Z",
+  "crawledAt": "2026-01-09T16:38:14.594Z",
   "totalSources": 70,
-  "totalArticles": 122,
+  "totalArticles": 162,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Is the photo real or taken with AI?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q8cyn2/is_the_photo_real_or_taken_with_ai/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T16:32:17.000Z",
+      "metaDescription": "Is the photo real or taken with AI? Obviously leaving aside the stickers in the face that I added\n    submitted by    /u/raff02  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.29163521497100275,
+      "crawledAt": "2026-01-09T16:37:10.821Z",
+      "id": "a8l49n",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8836401104927063,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:38:16.608Z"
+    },
+    {
+      "title": "TabPFN deployment via AWS SageMaker Marketplace",
+      "url": "https://www.reddit.com/r/mlops/comments/1q8cmpn/tabpfn_deployment_via_aws_sagemaker_marketplace/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T16:20:07.000Z",
+      "metaDescription": "TabPFN-2.5 is now on SageMaker Marketplace to address the infrastructure constraints teams kept hitting: compliance requirements preventing external API calls, GPU setup overhead, and inference endpoi",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2711018589596678,
+      "crawledAt": "2026-01-09T16:37:28.404Z",
+      "id": "d6xzbv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8094707727432251,
+          "index": 14,
+          "word": "##place",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " TabPFN-2.5 is now on SageMaker Marketplace to address the infrastructure constraints teams kept hitting. Compliance requirements prevent external API calls, GPU setup overhead, and inference endpoi endpoI endpois.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:38:42.955Z"
+    },
+    {
+      "title": "How Beekeeper optimized user personalization with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-beekeeper-optimized-user-personalization-with-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T16:10:52.000Z",
+      "metaDescription": "Beekeeper’s automated leaderboard approach and human feedback loop system for dynamic LLM and prompt pair selection addresses the key challenges organizations face in navigating the rapidly evolving l",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5046661890768898,
+      "crawledAt": "2026-01-09T16:36:26.206Z",
+      "id": "vvhc8z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8558104634284973,
+          "index": 2,
+          "word": "Bee",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8542113304138184,
+          "index": 3,
+          "word": "##keeper",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8603911399841309,
+          "index": 13,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Beekeeper’s automated leaderboard approach and human feedback loop system for dynamic LLM. The pair selection addresses the key challenges organizations face in navigating the rapidly evolving l.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:38:54.425Z"
+    },
+    {
+      "title": "Sentiment Analysis with Text and Audio Using AWS Generative AI Services: Approaches, Challenges, and Solutions",
+      "url": "https://aws.amazon.com/blogs/machine-learning/sentiment-analysis-with-text-and-audio-using-aws-generative-ai-services-approaches-challenges-and-solutions/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T16:06:50.000Z",
+      "metaDescription": "This post, developed through a strategic scientific partnership between AWS and the Instituto de Ciência e Tecnologia Itaú (ICTi), P&D hub maintained by Itaú Unibanco, the largest private bank in Lati",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.35689378402851774,
+      "crawledAt": "2026-01-09T16:36:26.413Z",
+      "id": "fobt1g",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8771359324455261,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The post was developed through a strategic partnership between AWS and the Instituto de Ciência e Tecnologia Itaú (ICTi)",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:08.879Z"
+    },
+    {
+      "title": "Real-world DGX Spark experiences after 1-2 months? Fine-tuning, stability, hidden pitfalls?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q8c6x1/realworld_dgx_spark_experiences_after_12_months/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T16:04:22.000Z",
+      "metaDescription": "I’d like to hear from those who have been using the DGX Spark for 1-2 months now. What’s your experience so far?\n I’m particularly interested in fine-tuning capabilities, and I find both the NVIDIA so",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.35787747079650745,
+      "crawledAt": "2026-01-09T16:36:56.449Z",
+      "id": "xajyr",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9277623295783997,
+          "index": 4,
+          "word": "D",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I'm particularly interested in fine-tuning capabilities, and I find both the NVIDIA NVIDIA and the DGX Spark. I'd like to hear from those who have been using the DGx Spark for 1-2 months.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:22.975Z"
+    },
+    {
+      "title": "Architecting TrueLook’s AI-powered construction safety system on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/architecting-truelooks-ai-powered-construction-safety-system-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T16:03:36.000Z",
+      "metaDescription": "This post provides a detailed architectural overview of how TrueLook built its AI-powered safety monitoring system using SageMaker AI, highlighting key technical decisions, pipeline design patterns, a",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.4870488550864711,
+      "crawledAt": "2026-01-09T16:36:26.575Z",
+      "id": "tjamoa",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9938063621520996,
+          "index": 3,
+          "word": "True",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.996126115322113,
+          "index": 4,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9715195298194885,
+          "index": 5,
+          "word": "##ook",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9907662272453308,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8174067735671997,
+          "index": 16,
+          "word": "Sage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9449363350868225,
+          "index": 17,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " TrueLook built its AI-powered safety monitoring system using SageMaker AI. This post provides a detailed architectural overview of how TrueLook used AI- powered safety monitoring systems using Sage Maker AI.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:35.199Z"
+    },
+    {
+      "title": "This Year with ChatGPT",
+      "url": "https://www.youtube.com/watch?v=cjveRUfE7dc",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T16:00:11.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25184969375038435,
+      "crawledAt": "2026-01-09T16:37:33.034Z",
+      "id": "3y6q26",
+      "entities": [],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:35.416Z"
+    },
+    {
+      "title": "Nostalgia",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q8c2le/nostalgia/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T16:00:00.000Z",
+      "metaDescription": "submitted by    /u/memerwala_londa  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6731493685214978,
+      "crawledAt": "2026-01-09T16:37:10.679Z",
+      "id": "50zjh",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:35.506Z"
+    },
+    {
+      "title": "I learnt about LLM Evals the hard way – here's what actually matters",
+      "url": "https://www.reddit.com/r/LangChain/comments/1q8bxzw/i_learnt_about_llm_evals_the_hard_way_heres_what/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:55:06.000Z",
+      "metaDescription": "submitted by    /u/sunglasses-guy  \n [link]   [comments]",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.45406729888115055,
+      "crawledAt": "2026-01-09T16:37:20.918Z",
+      "id": "zcs9b",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9698906540870667,
+          "index": 4,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9740492701530457,
+          "index": 5,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9937784671783447,
+          "index": 6,
+          "word": "Eva",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.90803062915802,
+          "index": 7,
+          "word": "##ls",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:35.661Z"
+    },
+    {
+      "title": "Fine Tuning LLMS Projects",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1q8bubw/fine_tuning_llms_projects/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T15:51:14.000Z",
+      "metaDescription": "Hello everyone ,recently i dive deeped into fine tunign llms ,like quantization ,lora,qlora ,instruction tuning ,i was wonderign what kind of projects can i make in the domain of fine tuning llms -mai",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3869425568921101,
+      "crawledAt": "2026-01-09T16:37:15.374Z",
+      "id": "bvp9lg",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9172652363777161,
+          "index": 4,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9922285676002502,
+          "index": 5,
+          "word": "##MS",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "i was wonderign what kind of projects can i make in the domain of fine tuning llms -mai.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:39:49.454Z"
+    },
+    {
+      "title": "Ministral-3-14B-Reasoning: High Intelligence on Low VRAM – A Benchmark-Comparison",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q8b82f/ministral314breasoning_high_intelligence_on_low/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:27:49.000Z",
+      "metaDescription": "Below you’ll find a benchmark comparison of Ministral-3-14B-Reasoning-2512 against 10 other large language models.\n LiveCodeBench:\n  \n Model LiveCodeBench \n  \n GLM-4.5-Air 70.7% \n  Gemini 2.5 Pro Prev",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.584511188017333,
+      "crawledAt": "2026-01-09T16:36:54.381Z",
+      "id": "mjvsqx",
+      "entities": [],
+      "summary": "Ministral-3-14B-Reasoning-2512 against 10 other language models. Below you'll find a benchmark comparison of Ministral 3-14b-Reasoned-25in against 10 others.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:11.066Z"
+    },
+    {
+      "title": "Big Change in artificialanalysis.ai benchmarks",
+      "url": "https://www.reddit.com/r/singularity/comments/1q8b3pp/big_change_in_artificialanalysisai_benchmarks/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T15:23:17.000Z",
+      "metaDescription": "Hello guys,\n Did you notice the benchmark results changed drastically on artificialanalysis.ai. Earlier I remember gmini 3.0 pro was the best mode with scroe around I think 73 but now the best model i",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3238674254191307,
+      "crawledAt": "2026-01-09T16:37:02.566Z",
+      "id": "1w4muh",
+      "entities": [],
+      "summary": " Earlier I remember gmini 3.0 pro was the best mode with scroe around I think 73 but now the best model i think 73.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:21.554Z"
+    },
+    {
+      "title": "X Didn’t Fix Grok's ‘Undressing’ Problem. It Just Makes People Pay for It",
+      "url": "https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:19:18.000Z",
+      "metaDescription": "X is allowing only “verified” users to create images with Grok. Experts say it represents the “monetization of abuse”—and anyone can still generate images on Grok’s app and website.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2818935195904701,
+      "crawledAt": "2026-01-09T16:36:09.631Z",
+      "id": "1gmdnd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9296085834503174,
+          "index": 1,
+          "word": "X",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " X is allowing only “verified’s users to create images with Grok. Experts say it represents the “monetization of abuse’",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:32.929Z"
+    },
+    {
+      "title": "Tested GLM 4.7 vs MiniMax M2.1 - impressed with the performance of both",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q8aypi/tested_glm_47_vs_minimax_m21_impressed_with_the/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:17:53.000Z",
+      "metaDescription": "Full transparency, I work closely with the Kilo Code team, so take this with appropriate context. That said, I think the results are genuinely interesting for anyone running local/open-weight models.\n",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.9383354150732633,
+      "crawledAt": "2026-01-09T16:36:54.749Z",
+      "id": "dz6emd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9449974298477173,
+          "index": 3,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Kilo Code is based on local/open-weight models. I think the results are genuinely interesting for anyone running local/ open-weight model.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:43.535Z"
+    },
+    {
+      "title": "cute kitty cat ltx2",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q8auyq/cute_kitty_cat_ltx2/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T15:13:55.000Z",
+      "metaDescription": "submitted by    /u/benjimon667  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.32687768397104316,
+      "crawledAt": "2026-01-09T16:37:12.641Z",
+      "id": "u66ade",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:43.614Z"
+    },
+    {
+      "title": "In the House of Lords AI debate today, Lord Fairfax says that mitigating the risk of extinction from AI should not be \"a\" global priority, it should be \"the\" global priority, because of the seriousness of the situation.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q8anxp/in_the_house_of_lords_ai_debate_today_lord/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:06:22.000Z",
+      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2820492784247354,
+      "crawledAt": "2026-01-09T16:37:09.545Z",
+      "id": "8oqvpa",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8381983041763306,
+          "index": 3,
+          "word": "House",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9743010401725769,
+          "index": 4,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9335004091262817,
+          "index": 5,
+          "word": "Lords",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9567832350730896,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9959514141082764,
+          "index": 11,
+          "word": "Fairfax",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8854847550392151,
+          "index": 22,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:44.113Z"
+    },
+    {
+      "title": "Built a cognitive framework for AI agents - today it audited itself for release and caught its own bugs",
+      "url": "https://www.reddit.com/r/artificial/comments/1q8ankw/built_a_cognitive_framework_for_ai_agents_today/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:05:58.000Z",
+      "metaDescription": "I've been working on a problem: AI agents confidently claim to understand things they don't, make the same mistakes across sessions, and have no awareness of their own knowledge gaps.\n Empirica is my ",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9818797571523423,
+      "crawledAt": "2026-01-09T16:36:50.879Z",
+      "id": "fgv73a",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9880049824714661,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI agents claim to understand things they don't, make the same mistakes across sessions. They have no awareness of their own knowledge gaps.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:40:53.681Z"
+    },
+    {
+      "title": "Building a Multi-Agent Research Workflow with LangGraph",
+      "url": "https://pub.towardsai.net/building-a-multi-agent-research-workflow-with-langgraph-acb35ee2b881?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:02:51.000Z",
+      "metaDescription": "LLMs have made it incredibly easy to build prototypes. But for complex workflows — like researching a topic, gathering evidence…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.6026478877316928,
+      "crawledAt": "2026-01-09T16:36:38.624Z",
+      "id": "1av6at",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8054826855659485,
+          "index": 11,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8328431844711304,
+          "index": 12,
+          "word": "##rap",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LLMs have made it incredibly easy to build prototypes. But for complex workflows, they need to be careful.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:41:15.762Z"
+    },
+    {
+      "title": "The future of personal injury law: AI and legal tech in Philadelphia",
+      "url": "https://www.artificialintelligence-news.com/news/the-future-of-personal-injury-law-ai-and-legal-tech-in-philadelphia/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T15:01:54.000Z",
+      "metaDescription": "Artificial intelligence and legal technology are reshaping the landscape of personal injury law in Philadelphia, introducing significant changes. The advancements offer new capabilities for legal prof",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.29514578218082216,
+      "crawledAt": "2026-01-09T16:36:17.747Z",
+      "id": "7dm9il",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9974751472473145,
+          "index": 13,
+          "word": "Philadelphia",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The advancements offer new capabilities for prof prof. Artificial intelligence and legal technology are reshaping the landscape of personal injury law in Philadelphia.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:41:24.564Z"
+    },
+    {
+      "title": "Data Science Spotlight: Selected Problems from Advent of Code 2025",
+      "url": "https://towardsdatascience.com/data-science-spotlight-selected-problems-from-advent-of-code-2025/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T15:00:00.000Z",
+      "metaDescription": "Hands-on walkthroughs of problems and solution approaches that power real‑world data science use cases\nThe post Data Science Spotlight: Selected Problems from Advent of Code 2025 appeared first on Tow",
+      "category": "industry-news",
+      "difficulty": 6,
+      "confidence": 0.3696951990319803,
+      "crawledAt": "2026-01-09T16:36:14.475Z",
+      "id": "tovjux",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.859620213508606,
+          "index": 2,
+          "word": "Science",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9207549095153809,
+          "index": 9,
+          "word": "Ad",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.947736918926239,
+          "index": 10,
+          "word": "##vent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9894090294837952,
+          "index": 11,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9953839778900146,
+          "index": 12,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Hands-on walkthroughs of problems and solution approaches that power real‑world data science use cases. The post Data Science Spotlight: Selected Problems from Advent of Code 2025 appeared first on Tow Tow.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:41:36.103Z"
+    },
+    {
+      "title": "“Ungentrified” Craigslist may be the last real place on the Internet",
+      "url": "https://arstechnica.com/culture/2026/01/ungentrified-craigslist-may-be-the-last-real-place-on-the-internet/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T14:56:59.000Z",
+      "metaDescription": "People still use Craigslist to find jobs, love, and even to cast creative projects.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2714743650498619,
+      "crawledAt": "2026-01-09T16:36:05.946Z",
+      "id": "ws121i",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9349660873413086,
+          "index": 17,
+          "word": "Internet",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " People still use Craigslist to find jobs, love, and even to cast creative projects. People still find jobs and find creative projects on Craigslist.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:42:00.722Z"
+    },
+    {
+      "title": "AI Research laptop, what's your setup?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1q8adi0/d_ai_research_laptop_whats_your_setup/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T14:55:30.000Z",
+      "metaDescription": "Dear all, first time writing here.\n I’m a deep learning PhD student trying to decide between a MacBook Air 15 (M4, 32 GB, 1 TB) and a ThinkPad P14s with Ubuntu and an NVIDIA RTX Pro 1000. For context,",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.35648356440920265,
+      "crawledAt": "2026-01-09T16:36:57.582Z",
+      "id": "diwzrg",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.998996376991272,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9990270137786865,
+          "index": 2,
+          "word": "Research",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A MacBook Air 15 (M4, 32 GB, 1 TB) and a ThinkPad P14s with Ubuntu and an NVIDIA RTX 1000. For context, a Thinkpad P14S with Ubuntu is a Think Pad P14's with Ubuntu. For context.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:42:17.293Z"
+    },
+    {
+      "title": "LTX-2 is multilingual!",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q8acer/ltx2_is_multilingual/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T14:54:25.000Z",
+      "metaDescription": "It may be common knowledge, but it seems that LTX-2 works well with languages other than English. I can personally confirm that the results in Spanish are quite decent, and there is even some support ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.41669259692067656,
+      "crawledAt": "2026-01-09T16:37:12.799Z",
+      "id": "1xinlk",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8957335352897644,
+          "index": 1,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9787127375602722,
+          "index": 2,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9917945861816406,
+          "index": 3,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8498833775520325,
+          "index": 4,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9655877351760864,
+          "index": 5,
+          "word": "2",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LTX-2 works well with languages other than English, says author. LTX is a Spanish language. LEX-2 is a new language.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:42:29.222Z"
+    },
+    {
+      "title": "RAGLight Framework Update : Reranking, Memory, VLM PDF Parser & More!",
+      "url": "https://www.reddit.com/r/LangChain/comments/1q8a6nj/raglight_framework_update_reranking_memory_vlm/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T14:48:18.000Z",
+      "metaDescription": "Hey everyone! Quick update on RAGLight, my framework for building RAG pipelines in a few lines of code.\n Better Reranking\n Classic RAG now retrieves more docs and reranks them for higher-quality answe",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.27672380711994615,
+      "crawledAt": "2026-01-09T16:37:20.808Z",
+      "id": "re3vs5",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9244389533996582,
+          "index": 3,
+          "word": "##L",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " RAG now retrieves more docs and reranks them for higher-quality answe. RAGLight is a framework for building RAG pipelines in a few lines of code.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:42:56.561Z"
+    },
+    {
+      "title": "Autonomy without accountability: The real AI risk",
+      "url": "https://www.artificialintelligence-news.com/news/autonomy-without-accountability-the-real-ai-risk/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T14:44:37.000Z",
+      "metaDescription": "If you have ever taken a self-driving Uber through downtown LA, you might recognise the strange sense of uncertainty that settles in when there is no driver and no conversation, just a quiet car makin",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.35704899810605667,
+      "crawledAt": "2026-01-09T16:36:17.897Z",
+      "id": "sm0pbu",
+      "entities": [],
+      "summary": " The strange sense of uncertainty settles in when there is no driver and no conversation, just a quiet car makin.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:43:09.244Z"
+    },
+    {
+      "title": "Tutorial - LTX-2 artifacts with high motion videos",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q89w2l/tutorial_ltx2_artifacts_with_high_motion_videos/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T14:36:40.000Z",
+      "metaDescription": "Hey guys, one thing i've noticed with LTX-2 is it sometimes has some artifacts with high motion videos, making the details less sharp and kinda smudged.\n I saw someone on Discord suggest this trick an",
+      "category": "tutorial-guide",
+      "difficulty": 5,
+      "confidence": 0.7564974592467784,
+      "crawledAt": "2026-01-09T16:37:12.132Z",
+      "id": "lbgexh",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9916543960571289,
+          "index": 5,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9504367113113403,
+          "index": 6,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9835278391838074,
+          "index": 7,
+          "word": "##X",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LTX-2 sometimes has some artifacts with high motion videos, making the details less sharp and kinda smudged. I saw someone on Discord suggest this trick an an an attempt to make the details more sharp.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:43:37.033Z"
+    },
+    {
+      "title": "Wild chart",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q89oox/wild_chart/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T14:28:34.000Z",
+      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7237439489402973,
+      "crawledAt": "2026-01-09T16:37:08.711Z",
+      "id": "z1gicd",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:43:37.092Z"
+    },
+    {
+      "title": "DeepSeek V4 Coming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q89g1i/deepseek_v4_coming/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T14:18:56.000Z",
+      "metaDescription": "According to two people with direct knowledge, DeepSeek is expected to roll out a next‑generation flagship AI model in the coming weeks that focuses on strong code‑generation capabilities.\n The two so",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.46672796718202836,
+      "crawledAt": "2026-01-09T16:36:53.479Z",
+      "id": "b8kd9v",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8376812934875488,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8572794198989868,
+          "index": 3,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " DeepSeek is expected to roll out a next‑generation flagship AI model in the coming weeks. The two so-called DeepSeeks will focus on strong code‑generation capabilities.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:05.066Z"
+    },
+    {
+      "title": "When AI satire writes itself",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1q88zfb/when_ai_satire_writes_itself/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T14:00:22.000Z",
+      "metaDescription": "submitted by    /u/EchoOfOppenheimer  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6856341969337629,
+      "crawledAt": "2026-01-09T16:37:05.701Z",
+      "id": "mv03na",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9656540751457214,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:24.134Z"
+    },
+    {
+      "title": "NVIDIA Unveils Multi-Agent Intelligent Warehouse and Catalog Enrichment AI Blueprints to Power the Retail Pipeline",
+      "url": "https://blogs.nvidia.com/blog/multi-agent-intelligent-warehouse-and-catalog-enrichment-blueprints/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T14:00:02.000Z",
+      "metaDescription": "Every “that was easy” shopping moment is made possible by teams working to hit shipping deadlines, scrambling to fix missing product details and striving to provide curated shopping experiences. Behin",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8195654367963866,
+      "crawledAt": "2026-01-09T16:35:50.329Z",
+      "id": "51kft6",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9714454412460327,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9631795287132263,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.832015335559845,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8355361819267273,
+          "index": 8,
+          "word": "Multi",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Teams working to hit shipping deadlines, scrambling to fix missing product details and provide curated shopping experiences. Behin Behin: “That was easy’s easy” shopping moment is made possible by teams working to meet deadlines.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:39.765Z"
+    },
+    {
+      "title": "X restricts Grok’s image generation to paying subscribers only after drawing the world’s ire",
+      "url": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T13:59:24.000Z",
+      "metaDescription": "Elon Musk's AI company has restricted Grok's controversial AI image-generation feature to only paying subscribers on X, after the tool invited heated criticism from across the world for letting users ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3361493048658489,
+      "crawledAt": "2026-01-09T16:36:02.618Z",
+      "id": "i3yd8p",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9870646595954895,
+          "index": 1,
+          "word": "X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.865870475769043,
+          "index": 5,
+          "word": "##rok",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Elon Musk's AI company has restricted Grok's controversial AI image-generation feature to only paying subscribers on X.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:51.265Z"
+    },
+    {
+      "title": "How AI will finally break the \"Medical License Moat\": A Case Study of South Korea’s Professional Cartel",
+      "url": "https://www.reddit.com/r/singularity/comments/1q88k3z/how_ai_will_finally_break_the_medical_license/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T13:42:18.000Z",
+      "metaDescription": "We often talk about AI taking blue-collar or entry-level white-collar jobs. But in South Korea, AI is about to hit the ultimate 'Final Boss': The Medical Monopoly.\n Currently, Korea is facing a massiv",
+      "category": "ai-agents",
+      "difficulty": 9,
+      "confidence": 0.63869543798907,
+      "crawledAt": "2026-01-09T16:37:01.640Z",
+      "id": "w9gia8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9891083240509033,
+          "index": 8,
+          "word": "Medical",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.987360417842865,
+          "index": 9,
+          "word": "License",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8998801708221436,
+          "index": 10,
+          "word": "Mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8702955842018127,
+          "index": 11,
+          "word": "##at",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9989062547683716,
+          "index": 18,
+          "word": "South",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9985875487327576,
+          "index": 19,
+          "word": "Korea",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9337940812110901,
+          "index": 22,
+          "word": "Professional",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Currently, Korea is facing a massiviation. Currently, South Korea is face a massive massivial.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:58.804Z"
+    },
+    {
+      "title": ": DeepSeek To Release Next Flagship AI Model With Strong Coding Ability",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q88hdc/the_information_deepseek_to_release_next_flagship/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T13:39:02.000Z",
+      "metaDescription": "(paywall): https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability\n    submitted by    /u/Nunki08  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.9794765380633971,
+      "crawledAt": "2026-01-09T16:36:53.336Z",
+      "id": "pkm3qp",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9814960956573486,
+          "index": 2,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9869426488876343,
+          "index": 3,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9549925327301025,
+          "index": 4,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:44:58.936Z"
+    },
+    {
+      "title": "A practical 2026 roadmap for modern AI search & RAG systems",
+      "url": "https://www.reddit.com/r/artificial/comments/1q87y8e/a_practical_2026_roadmap_for_modern_ai_search_rag/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T13:15:14.000Z",
+      "metaDescription": "I kept seeing RAG tutorials that stop at “vector DB + prompt” and break down in real systems.\n I put together a roadmap that reflects how modern AI search actually works:\n – semantic + hybrid retrieva",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.7631678214691037,
+      "crawledAt": "2026-01-09T16:36:50.569Z",
+      "id": "1lvon8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9678861498832703,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " RAG is an AI search engine that can be used to search for information. The search engine is based on the search engine's ability to search the world for information.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:45:55.450Z"
+    },
+    {
+      "title": "The Download: the case for AI slop, and helping CRISPR fulfill its promise",
+      "url": "https://www.technologyreview.com/2026/01/09/1130953/the-download-the-case-for-ai-slop-and-helping-crispr-fulfill-its-promise/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T13:10:00.000Z",
+      "metaDescription": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How I learned to stop worrying and love AI slop —Caiwei Chen I",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4444701133097554,
+      "crawledAt": "2026-01-09T16:36:11.133Z",
+      "id": "3hvt7x",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9214900135993958,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9968440532684326,
+          "index": 14,
+          "word": "CR",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8933046460151672,
+          "index": 15,
+          "word": "##IS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8759840726852417,
+          "index": 16,
+          "word": "##PR",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Caiwei Chen I. I. Chen: How I learned to stop worrying and love AI slop. This is today's edition of The Download, our daily dose of what's going on in the world of technology.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:46:20.097Z"
+    },
+    {
+      "title": "From cloud to factory – humanoid robots coming to workplaces",
+      "url": "https://www.artificialintelligence-news.com/news/from-cloud-to-factory-humanoid-robots-coming-to-workplaces/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T13:06:00.000Z",
+      "metaDescription": "The Microsoft-Hexagon partnerships may mark a turning point in the acceptance of humanoid robots in the workplace, as prototypes become operational realities.\nThe post From cloud to factory – humanoid",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5188984250391387,
+      "crawledAt": "2026-01-09T16:36:18.046Z",
+      "id": "cuttqz",
+      "entities": [],
+      "summary": " Microsoft-Hexagon partnerships may mark a turning point in the acceptance of humanoid robots in the workplace. The Microsoft-hexagon partnership may mark the turning point.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:46:31.544Z"
+    },
+    {
+      "title": "Been cooking another Anime/Anything to Realism workflow",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q872xf/been_cooking_another_animeanything_to_realism/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T12:33:05.000Z",
+      "metaDescription": "Some of you might remember me for posting that Anime/AnythingToRealism workflow a week back, that was the very first workflow I've ever made with comfy. Now I've been working on a new version. It's st",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.790710581648486,
+      "crawledAt": "2026-01-09T16:37:13.529Z",
+      "id": "z7j14j",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8426756262779236,
+          "index": 4,
+          "word": "An",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A new version of the Anime/AnythingToRealism workflow has been created. It's st st. It's the first time I've been working on a new version.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:47:32.228Z"
+    },
+    {
+      "title": "LTX-2 5060ti 16gb, 32GB DDR3, i7-6700 non K 23 Sec",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q870e7/ltx2_5060ti_16gb_32gb_ddr3_i76700_non_k_23_sec/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T12:29:25.000Z",
+      "metaDescription": "Using I2V with Input Audio- Norah Jones, Don`t Know Why\n 19b Distill with Unsloth Gemma 3\n 620x832\n Pyt2.9 Cu 13.0 ComfyUI\n 23sec, render time is 443secs in total.\n This is roughly what i can squeeze ",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2550900912052305,
+      "crawledAt": "2026-01-09T16:37:14.533Z",
+      "id": "f8ktwj",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8614598512649536,
+          "index": 3,
+          "word": "##X",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Using I2V with Input Audio- Norah Jones, Don't Know Why is roughly what i can squeeze. Using I2v with Input audio- NorAH Jones, don't know why.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:47:47.681Z"
+    },
     {
       "title": "Why is “AI memory” still all hype? Where are the verifiable benchmarks + real-world comparison videos?",
       "url": "https://www.reddit.com/r/OpenAI/comments/1q86yjx/why_is_ai_memory_still_all_hype_where_are_the/",
@@ -204,6 +1548,34 @@
       "summary": "Computer science major is working on a healthcare related system which can interpret medical reports. He is looking for datasets that contain bl datasets that contains medical reports.",
       "language": "en",
       "processed_at": "2026-01-09T13:01:42.029Z"
+    },
+    {
+      "title": "I’m gonna live during the Ai take over ig",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1q85zop/im_gonna_live_during_the_ai_take_over_ig_i_am_a/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T11:35:51.000Z",
+      "metaDescription": "submitted by    /u/CORZATZ  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.45801062804869885,
+      "crawledAt": "2026-01-09T16:37:06.197Z",
+      "id": "vnakka",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8447349667549133,
+          "index": 8,
+          "word": "Ai",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:47:47.778Z"
     },
     {
       "title": "‘Physical AI’ Is Coming for Your Car",
@@ -2595,6 +3967,58 @@
       "processed_at": "2026-01-09T13:07:17.837Z"
     },
     {
+      "title": "How KPMG is redefining the future of SAP consulting on a global scale",
+      "url": "https://venturebeat.com/orchestration/how-kpmg-is-redefining-the-future-of-sap-consulting-on-a-global-scale",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-09T05:00:00.000Z",
+      "metaDescription": "Presented by SAP\n\nSAP consulting projects today involve a vast amount of documentation, multiple stakeholders, and compressed timelines, which often require manual knowledge retrieval from online SAP ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.32235553730666344,
+      "crawledAt": "2026-01-09T16:36:13.000Z",
+      "id": "t0owa",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9989749193191528,
+          "index": 2,
+          "word": "K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9977402687072754,
+          "index": 4,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9972416162490845,
+          "index": 12,
+          "word": "SA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9914724230766296,
+          "index": 13,
+          "word": "##P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " SAP consulting projects involve a vast amount of documentation, multiple stakeholders, and compressed timelines. Many often require manual knowledge retrieval from online SAP.",
+      "language": "en",
+      "processed_at": "2026-01-09T16:47:59.547Z"
+    },
+    {
       "title": "Draft Proposal: AGENTS.md v1.1",
       "url": "https://www.reddit.com/r/LangChain/comments/1q7yr0n/draft_proposal_agentsmd_v11/",
       "source": "r/LangChain",
@@ -3946,21 +5370,21 @@
       "processed_at": "2026-01-09T08:56:07.164Z"
     }
   ],
-  "processedAt": "2026-01-09T13:07:31.504Z",
+  "processedAt": "2026-01-09T16:48:11.482Z",
   "categories": [
     "creative-ai",
-    "industry-news",
     "infrastructure",
     "safety-ethics",
-    "product-launch",
-    "ai-agents",
-    "model-release",
-    "developer-tool",
     "research-paper",
-    "tutorial-guide"
+    "model-release",
+    "ai-agents",
+    "industry-news",
+    "developer-tool",
+    "tutorial-guide",
+    "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 34,
-  "dailyArticlesCount": 122,
+  "newArticlesProcessed": 40,
+  "dailyArticlesCount": 162,
   "filterDate": "2026-01-09"
 }
