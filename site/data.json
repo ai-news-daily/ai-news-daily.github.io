@@ -1,9 +1,446 @@
 {
-  "crawledAt": "2026-01-11T04:53:43.337Z",
+  "crawledAt": "2026-01-11T08:35:55.970Z",
   "totalSources": 70,
-  "totalArticles": 2545,
+  "totalArticles": 2533,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Which is the best model under 15B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q9u07d/which_is_the_best_model_under_15b/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T08:19:06.000Z",
+      "metaDescription": "I need a llm under 15B for agentic capabilities, reasoning, maths, general knowledge,\n making for raycast local model, i dont know hich model to select,\n ministral 3 14B, gemma 3 12B, qwen 3 14B, gpt-",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.4476258097316727,
+      "crawledAt": "2026-01-11T08:34:54.637Z",
+      "id": "1qlmrg",
+      "entities": [],
+      "summary": " I need a llm under 15B for agentic capabilities, reasoning, maths, maths and general knowledge, making for raycast local model, i don't know hich model to select.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:36:14.932Z"
+    },
+    {
+      "title": "NVIDIA NCA-GENL Cheat Sheet 2026",
+      "url": "https://www.reddit.com/r/mlops/comments/1q9tboz/nvidia_ncagenl_cheat_sheet_2026/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T07:38:24.000Z",
+      "metaDescription": "submitted by    /u/dudeitsperfect  \n [link]   [comments]",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.3501779641131723,
+      "crawledAt": "2026-01-11T08:35:22.922Z",
+      "id": "5pdou3",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9224785566329956,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9690465927124023,
+          "index": 5,
+          "word": "NC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9982244372367859,
+          "index": 8,
+          "word": "GE",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9966860413551331,
+          "index": 9,
+          "word": "##NL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8771191239356995,
+          "index": 10,
+          "word": "Ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:36:54.786Z"
+    },
+    {
+      "title": "Announcing Kreuzberg v4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q9t9op/announcing_kreuzberg_v4_open_source/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T07:34:55.000Z",
+      "metaDescription": "Hi Peeps,\n I'm excited to announce Kreuzberg v4.0.0.\n What is Kreuzberg:\n Kreuzberg is a document intelligence library that extracts structured data from 56+ formats, including PDFs, Office docs, HTML",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.26692990821271434,
+      "crawledAt": "2026-01-11T08:34:53.086Z",
+      "id": "h8f6kh",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9469481706619263,
+          "index": 6,
+          "word": "##uz",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Kreuzberg is a document intelligence library that extracts structured data from 56+ formats, including PDFs, Office docs, HTML and PDFs.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:37:05.790Z"
+    },
+    {
+      "title": "Anyone running into KV cache / memory bandwidth limits with long-context inference?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1q9syiz/d_anyone_running_into_kv_cache_memory_bandwidth/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T07:15:56.000Z",
+      "metaDescription": "Hey guys, I’m working on optimizing inference for transformer models and keep seeing memory bandwidth become the bottleneck well before compute, especially once context length gets past ~8k tokens.\n A",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3948925615909302,
+      "crawledAt": "2026-01-11T08:34:46.527Z",
+      "id": "f89kaa",
+      "entities": [],
+      "summary": " Aims to optimize inference for transformer models and keep seeing memory bandwidth become the bottleneck well before compute, especially once context length gets past ~8k tokens.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:37:18.022Z"
+    },
+    {
+      "title": "Double blind review is such an illusion…",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1q9spsk/d_double_blind_review_is_such_an_illusion/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T07:01:47.000Z",
+      "metaDescription": "Honestly tired of seeing all the top tier labs pushing their papers to arxiv and publicizing it like crazy on X and other platforms. Like the work hasn’t even been reviewed and becomes a “media trial”",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.3761478306690809,
+      "crawledAt": "2026-01-11T08:34:46.195Z",
+      "id": "cwsz8p",
+      "entities": [],
+      "summary": " The work hasn't even been reviewed by the top-tier labs. The work has become a \"media trial\"",
+      "language": "en",
+      "processed_at": "2026-01-11T08:37:52.843Z"
+    },
+    {
+      "title": "10 Hackathons You Can Join in 2026",
+      "url": "https://www.analyticsvidhya.com/blog/2026/01/top-hackathon-platforms/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T06:36:08.000Z",
+      "metaDescription": "Hackathons are different!. The good ones pull you in, stretch your thinking, and leave you with something real—regardless of the outcome. The problem is choice. It’s hard to find the right one! Too ma",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.3735325580456662,
+      "crawledAt": "2026-01-11T08:35:54.322Z",
+      "id": "sxj951",
+      "entities": [],
+      "summary": " The good ones pull you in, stretch your thinking, and leave you with something real. The problem is choice. It's hard to find the right one.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:38:15.849Z"
+    },
+    {
+      "title": "Agentic AI Roadmap 2026: A Complete Guide to Building Autonomous AI Agents",
+      "url": "https://ai.plainenglish.io/agentic-ai-roadmap-2026-a-complete-guide-to-building-autonomous-ai-agents-c8affd9ddfdb?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T06:29:28.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.8456694323049101,
+      "crawledAt": "2026-01-11T08:34:37.024Z",
+      "id": "f53z6d",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:38:15.974Z"
+    },
+    {
+      "title": "7 AI Agent Protocols You Should Know in 2026: Architectures from Google, Anthropic, IBM & More",
+      "url": "https://ai.plainenglish.io/7-ai-agent-protocols-you-should-know-in-2026-architectures-from-google-anthropic-ibm-more-5940565ba2ef?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T06:27:27.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.9730802921539841,
+      "crawledAt": "2026-01-11T08:34:37.119Z",
+      "id": "j23jox",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9756172895431519,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8536310791969299,
+          "index": 3,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9978216886520386,
+          "index": 16,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9779971241950989,
+          "index": 18,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9341304302215576,
+          "index": 20,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9990247488021851,
+          "index": 22,
+          "word": "IBM",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9983272552490234,
+          "index": 23,
+          "word": "&",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9942505955696106,
+          "index": 24,
+          "word": "More",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:38:16.170Z"
+    },
+    {
+      "title": "Writing Smarter Python with Sets: Advanced Techniques That Scale",
+      "url": "https://python.plainenglish.io/writing-smarter-python-with-sets-advanced-techniques-that-scale-b3acda975a3a?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T06:23:22.000Z",
+      "metaDescription": "Most Python code doesn’t break because of complex algorithms.\nIt breaks because the wrong data structure was chosen early.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6835050043125087,
+      "crawledAt": "2026-01-11T08:34:39.103Z",
+      "id": "365yf2",
+      "entities": [],
+      "summary": " Most Python code doesn't break because of complex algorithms. It breaks because the wrong data structure was chosen early. It also breaks because of the wrongData structure.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:38:26.778Z"
+    },
+    {
+      "title": "ComfyUI workflow for structure-aligned re-rendering Looking for feedback",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q9s0u5/comfyui_workflow_for_structurealigned_rerendering/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T06:21:49.000Z",
+      "metaDescription": "One common frustration with image-to-image/video-to-video diffusion is losing structure.\n A while ago I shared a preprint on a diffusion variant that keeps structure fixed while letting appearance cha",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3519363097778922,
+      "crawledAt": "2026-01-11T08:35:04.736Z",
+      "id": "dx2r3k",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8965817093849182,
+          "index": 1,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8811936974525452,
+          "index": 3,
+          "word": "##fy",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A while ago, I shared a preprint on a diffusion variant that keeps structure fixed while letting appearance cha cha.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:38:40.301Z"
+    },
+    {
+      "title": "One-Minute Daily AI News 1/10/2026",
+      "url": "https://www.reddit.com/r/artificial/comments/1q9rf5i/oneminute_daily_ai_news_1102026/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T05:50:02.000Z",
+      "metaDescription": "Meta signs nuclear energy deals to power Prometheus AI supercluster.[1]\n OpenAI is reportedly asking contractors to upload real work from past jobs.[2]\n Meta and Harvard Researchers Introduce the Conf",
+      "category": "industry-news",
+      "difficulty": 6,
+      "confidence": 0.3648169429400589,
+      "crawledAt": "2026-01-11T08:34:56.321Z",
+      "id": "qoxln7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9976711273193359,
+          "index": 1,
+          "word": "One",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9717810153961182,
+          "index": 3,
+          "word": "Min",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9950964450836182,
+          "index": 4,
+          "word": "##ute",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997495710849762,
+          "index": 5,
+          "word": "Daily",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9968034625053406,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9987531900405884,
+          "index": 7,
+          "word": "News",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Meta signs nuclear energy deals to power Prometheus AI supercluster. OpenAI is reportedly asking contractors to upload real work from past jobs.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:39:05.501Z"
+    },
+    {
+      "title": "New Prompts I’m trying",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1q9qdqw/new_prompts_im_trying/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T04:57:01.000Z",
+      "metaDescription": "submitted by    /u/princeJ370  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3273436849769735,
+      "crawledAt": "2026-01-11T08:34:45.534Z",
+      "id": "8ftthe",
+      "entities": [],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:39:31.572Z"
+    },
+    {
+      "title": "Pro model can't use \"saved memories\"—long unacknowledged OpenAI problem",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q9qdjt/pro_model_cant_use_saved_memorieslong/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T04:56:44.000Z",
+      "metaDescription": "The Pro model—the one you get by selecting Pro in the model-picker if you're a Pro subscriber—cannot use \"saved memories\" or \"reference chat history,\" even when both settings are toggled on. It still ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.28040478107240957,
+      "crawledAt": "2026-01-11T08:35:02.116Z",
+      "id": "3qgsa3",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9659270644187927,
+          "index": 20,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Pro model can't use \"saved memories\" or \"reference chat history\" when settings are toggled on. It still can't be used to use \"Saved memories,\" or \" reference chat history,\" for example.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:39:47.582Z"
+    },
     {
       "title": "Don't get the hype with claude opus 4.5",
       "url": "https://www.reddit.com/r/singularity/comments/1q9pctu/dont_get_the_hype_with_claude_opus_45/",
@@ -4849,6 +5286,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-01-10T02:14:27.230Z"
+    },
+    {
+      "title": "Intelligent security camera",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q8kkat/intelligent_security_camera/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-09T21:15:29.000Z",
+      "metaDescription": "submitted by    /u/Outside-Iron-8242  \n [link]   [comments]",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.349389494233328,
+      "crawledAt": "2026-01-11T08:35:02.450Z",
+      "id": "y96nrm",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T08:39:59.158Z"
     },
     {
       "title": "Tourette cat",
@@ -82492,929 +82948,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-12-27T12:56:24.453Z"
-    },
-    {
-      "title": "Microsoft Bing really Suck's Ass, even to this day",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1pwsx01/microsoft_bing_really_sucks_ass_even_to_this_day/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T08:32:21.000Z",
-      "metaDescription": "I'm trying to search up something, but this garbage Search result just keeps popping up and it has information that has nothing to do with the search topic or is just lying to you. And the only way to",
-      "category": "industry-news",
-      "difficulty": 4,
-      "confidence": 0.3282584194437206,
-      "crawledAt": "2025-12-27T08:34:40.565Z",
-      "id": "f22rxa",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9910051226615906,
-          "index": 1,
-          "word": "Microsoft",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " This garbage Search result just keeps popping up and it has nothing to do with the search topic or is just lying to you.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:35:46.181Z"
-    },
-    {
-      "title": "what local LLMs do you recommend to train on epubs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwsk11/what_local_llms_small_do_you_recommend_to_train/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T08:09:17.000Z",
-      "metaDescription": "Have so many epubs I can organize by author or genre to gain deep insights (with other sources) into an author's work for example. What language model should I start with to train on these epubs (prep",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.27774392121305597,
-      "crawledAt": "2025-12-27T12:52:09.036Z",
-      "id": "ppxa0p",
-      "entities": [],
-      "summary": " The author's epubs can be used to gain deep insights into an author's work. The epubs should be used as a tool to train on these epubs.",
-      "language": "en",
-      "processed_at": "2025-12-27T12:57:07.130Z"
-    },
-    {
-      "title": "LLM Running Locally in the Browser for Infinite Dropdowns",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwsa27/llm_running_locally_in_the_browser_for_infinite/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:52:07.000Z",
-      "metaDescription": "I made a site playing around with what an LLM running locally in the browser can do, feel free to check it out!\n The static site is: https://rohanadwankar.github.io/unravel/\n The Github repo is: https",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.2776360545395778,
-      "crawledAt": "2025-12-27T08:34:35.117Z",
-      "id": "32aqth",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8595446348190308,
-          "index": 1,
-          "word": "LL",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I made a site playing around with what an LLM running locally in the browser can do. Feel free to check out the site for more information.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:35:59.318Z"
-    },
-    {
-      "title": "A Deep Agent I created to work with ComfyUI",
-      "url": "https://www.reddit.com/r/LangChain/comments/1pws0sc/a_deep_agent_i_created_to_work_with_comfyui/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:36:12.000Z",
-      "metaDescription": "submitted by    /u/SearchTricky7875  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.2859157739446895,
-      "crawledAt": "2025-12-27T08:34:48.114Z",
-      "id": "cc50ed",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9867073893547058,
-          "index": 9,
-          "word": "Co",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9622101783752441,
-          "index": 11,
-          "word": "##fy",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:10.930Z"
-    },
-    {
-      "title": "OpenAI is creating an antibiotic dilemma situation with their AI",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwrqtu/openai_is_creating_an_antibiotic_dilemma/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:18:55.000Z",
-      "metaDescription": "It is obvious that the new safety guardrails or mechanisms are harmful to the user's mental health. I can't put it in one post because it will instantly be removed. Ask me questions. It starts with th",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.4706504493201755,
-      "crawledAt": "2025-12-27T08:34:28.044Z",
-      "id": "euz63t",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9975715279579163,
-          "index": 1,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9972409605979919,
-          "index": 2,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9944162964820862,
-          "index": 3,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9160353541374207,
-          "index": 14,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The new safety guardrails or mechanisms are harmful to the user's mental health. Ask me questions. It starts with th. It begins with th. It starts in th.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:23.813Z"
-    },
-    {
-      "title": "AI Trends 2025: From Autonomous Agents to Job Transformation | Complete Guide",
-      "url": "https://ai.plainenglish.io/ai-trends-2025-from-autonomous-agents-to-job-transformation-complete-guide-abe67ec649e2?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:18:24.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.8947094004146965,
-      "crawledAt": "2025-12-27T08:34:17.706Z",
-      "id": "uj36tk",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:23.921Z"
-    },
-    {
-      "title": "The Math Behind Generative Adversarial Networks",
-      "url": "https://ai.plainenglish.io/the-math-behind-generative-adversarial-networks-gans-6226be4fd9cb?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:18:21.000Z",
-      "metaDescription": "",
-      "category": "infrastructure",
-      "difficulty": 8,
-      "confidence": 0.9120068665091006,
-      "crawledAt": "2025-12-27T08:34:17.766Z",
-      "id": "x1ys63",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9611810445785522,
-          "index": 2,
-          "word": "Math",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9977023601531982,
-          "index": 3,
-          "word": "Behind",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9939678311347961,
-          "index": 4,
-          "word": "Gene",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9959936738014221,
-          "index": 5,
-          "word": "##rative",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9937875866889954,
-          "index": 6,
-          "word": "Ad",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9462956190109253,
-          "index": 7,
-          "word": "##vers",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.993772566318512,
-          "index": 8,
-          "word": "##aria",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9960678815841675,
-          "index": 9,
-          "word": "##l",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9975054860115051,
-          "index": 10,
-          "word": "Networks",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:24.065Z"
-    },
-    {
-      "title": "Cursor Just Made a Power Move in the AI Coding War",
-      "url": "https://ai.plainenglish.io/cursor-just-made-a-power-move-in-the-ai-coding-war-df350891bec9?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:18:20.000Z",
-      "metaDescription": "The AI-first editor acquires code review startup Graphite. Here’s why this deal changes everything for developers.⚔️✨\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.4164199312994646,
-      "crawledAt": "2025-12-27T08:34:17.921Z",
-      "id": "lw6gki",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9988376498222351,
-          "index": 11,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9962291121482849,
-          "index": 12,
-          "word": "Co",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9972427487373352,
-          "index": 13,
-          "word": "##ding",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9984298944473267,
-          "index": 14,
-          "word": "War",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The AI-first editor acquires code review startup Graphite. Here's why this deal changes everything for developers.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:31.322Z"
-    },
-    {
-      "title": "Development of an Akkadian-to-Spanish Translation Model Using mBART-50",
-      "url": "https://ai.plainenglish.io/development-of-an-akkadian-to-spanish-translation-model-using-mbart-50-679b00fbe337?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:17:27.000Z",
-      "metaDescription": "",
-      "category": "developer-tool",
-      "difficulty": 6,
-      "confidence": 0.5597861887504832,
-      "crawledAt": "2025-12-27T08:34:18.108Z",
-      "id": "oid4mw",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9994696378707886,
-          "index": 4,
-          "word": "A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9985421895980835,
-          "index": 5,
-          "word": "##kka",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.882451057434082,
-          "index": 6,
-          "word": "##dian",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.997356116771698,
-          "index": 10,
-          "word": "Spanish",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:41.803Z"
-    },
-    {
-      "title": "RouteRAG: Reinforcement Learning for Smarter AI Knowledge Retrieval",
-      "url": "https://ai.plainenglish.io/routerag-reinforcement-learning-for-smarter-ai-knowledge-retrieval-ce08a31c938a?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:17:20.000Z",
-      "metaDescription": "Introduction\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.4568428911183702,
-      "crawledAt": "2025-12-27T08:34:18.192Z",
-      "id": "lghx3p",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9556506276130676,
-          "index": 15,
-          "word": "Re",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Aims to learn more about Artificial Intelligence in Plain English. Read more on Artificial Intelligence. Read more about how to use the language of the language.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:36:51.650Z"
-    },
-    {
-      "title": "You’ve Been Using AI the Hard Way",
-      "url": "https://ai.plainenglish.io/youve-been-using-ai-the-hard-way-use-this-instead-391b3913c1ef?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:17:16.000Z",
-      "metaDescription": "Stop Treating AI Like Google. Start Treating It Like a Teammate.\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.5943841258067701,
-      "crawledAt": "2025-12-27T08:34:18.460Z",
-      "id": "9aryc",
-      "entities": [],
-      "summary": " Stop Treating AI Like Google. Start Treating It Like a Teammate. Read more on Artificial Intelligence in Plain English.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:11.224Z"
-    },
-    {
-      "title": "7 AI Tools That Actually Make Your Job Easier",
-      "url": "https://ai.plainenglish.io/7-ai-tools-that-actually-make-your-job-easier-11e501a816bf?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:17:10.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.4322893360687828,
-      "crawledAt": "2025-12-27T08:34:18.518Z",
-      "id": "9766pq",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:11.318Z"
-    },
-    {
-      "title": "From Event Chaos to CampusPulse: Our Hackathon Journey",
-      "url": "https://ai.plainenglish.io/from-event-chaos-to-campuspulse-our-hackathon-journey-98e537b141b7?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T07:17:09.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.29769794912707437,
-      "crawledAt": "2025-12-27T08:34:18.587Z",
-      "id": "6ln8ui",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8979868292808533,
-          "index": 5,
-          "word": "Campus",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8948928117752075,
-          "index": 6,
-          "word": "##P",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9625168442726135,
-          "index": 7,
-          "word": "##ulse",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9418311715126038,
-          "index": 12,
-          "word": "##ath",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8244392275810242,
-          "index": 13,
-          "word": "##on",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:11.490Z"
-    },
-    {
-      "title": "️ Mastering Web Scraping in Python with Requests and BeautifulSoup",
-      "url": "https://python.plainenglish.io/%EF%B8%8F-mastering-web-scraping-in-python-with-requests-and-beautifulsoup-691f19fce941?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:03:59.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.31200122922736456,
-      "crawledAt": "2025-12-27T08:34:19.947Z",
-      "id": "8otodq",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9700916409492493,
-          "index": 9,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:19.255Z"
-    },
-    {
-      "title": "Pandas to Polars: The 11-Step Cheat Sheet for Faster Data Analysis",
-      "url": "https://python.plainenglish.io/pandas-to-polars-the-11-step-cheat-sheet-for-faster-data-analysis-f37c2824fb25?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:03:56.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.4145345452982866,
-      "crawledAt": "2025-12-27T08:34:20.021Z",
-      "id": "6gt2ey",
-      "entities": [],
-      "summary": "Discussion of AI research findings and academic papers.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:19.424Z"
-    },
-    {
-      "title": "5 Python Libraries That Turned My Messy Scripts Into Clean Systems",
-      "url": "https://python.plainenglish.io/5-python-libraries-that-turned-my-messy-scripts-into-clean-systems-3696263a25c2?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:03:40.000Z",
-      "metaDescription": "From confusion to clarity, one library at a time\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3478502836576264,
-      "crawledAt": "2025-12-27T08:34:20.260Z",
-      "id": "462hge",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9508481025695801,
-          "index": 2,
-          "word": "Python",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8839498162269592,
-          "index": 15,
-          "word": "Systems",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " From confusion to clarity, one library at a time at atime in Plain English was a library at the time.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:38.121Z"
-    },
-    {
-      "title": "12 Python Libraries That Made Python Feel Like a Superpower",
-      "url": "https://python.plainenglish.io/12-python-libraries-that-made-python-feel-like-a-superpower-a399d53c758b?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:03:39.000Z",
-      "metaDescription": "The tools that quietly changed how I write Python\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.29859500542701195,
-      "crawledAt": "2025-12-27T08:34:20.363Z",
-      "id": "ycroeg",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9599175453186035,
-          "index": 2,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The tools that quietly changed how I write Python changed how he write Python. The tools, that quietly change how I wrote Python, changed how to write Python.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:37:50.120Z"
-    },
-    {
-      "title": "Stop Using Tkinter for Modern Apps Try This Instead",
-      "url": "https://python.plainenglish.io/stop-using-tkinter-for-modern-apps-try-this-instead-e405981b235a?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T07:03:36.000Z",
-      "metaDescription": "Why your Python GUIs feel stuck in 2008 (and what I switched to for real automation projects)\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.26337444943370375,
-      "crawledAt": "2025-12-27T08:34:20.597Z",
-      "id": "jjy3ll",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9153782725334167,
-          "index": 8,
-          "word": "A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8949268460273743,
-          "index": 9,
-          "word": "##pps",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Continue reading on Python in Plain English. Read on Python for real automation projects. Read onPython in PlainEnglish. Read more on Python's \"Python GUIs\"",
-      "language": "en",
-      "processed_at": "2025-12-27T08:38:09.653Z"
-    },
-    {
-      "title": "First LoRA - dataset from scratch",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwr37c/first_lorazimage_dataset_from_scratch_qwen2511/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T06:40:00.000Z",
-      "metaDescription": "AI Toolkit - 20 Images - Modest captioning - 3000 steps - Rank16\n Wanted to try this and I dare say it works. I had heard that people were supplementing their datasets with Nano Banana and wanted to t",
-      "category": "research-paper",
-      "difficulty": 4,
-      "confidence": 0.43856110637982076,
-      "crawledAt": "2025-12-27T08:34:45.582Z",
-      "id": "r7z9c1",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9449564218521118,
-          "index": 3,
-          "word": "##RA",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " AI Toolkit is designed to help people with reading comprehension and vocabulary. The tool is designed for people who want to improve their reading comprehension.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:38:28.632Z"
-    },
-    {
-      "title": "Chat GPT imagining Forrest Gump having a good Christmas",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwqtcw/chat_gpt_imagining_forrest_gump_having_a_good/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T06:24:04.000Z",
-      "metaDescription": "I hope you all had a good one as well\n    submitted by    /u/xStratos  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.8846876293121224,
-      "crawledAt": "2025-12-27T08:34:27.867Z",
-      "id": "k6y02o",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.8031777739524841,
-          "index": 6,
-          "word": "Forrest",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9257020354270935,
-          "index": 7,
-          "word": "G",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9134197235107422,
-          "index": 8,
-          "word": "##ump",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:38:28.730Z"
-    },
-    {
-      "title": "ChatGPT isn’t even able to hold context from open chats anymore. Anybody else noticing anything similar?",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwqfzw/chatgpt_isnt_even_able_to_hold_context_from_open/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T06:02:11.000Z",
-      "metaDescription": "I’ve had to explain things I haven’t said in a while. I didn’t realize it until I was asking for directions to the nearest dispo like I’d done a million times and you would have thought I was asking f",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.285133595818958,
-      "crawledAt": "2025-12-27T08:34:28.466Z",
-      "id": "c050kn",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9550127387046814,
-          "index": 1,
-          "word": "Cha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8754275441169739,
-          "index": 2,
-          "word": "##t",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9312546849250793,
-          "index": 3,
-          "word": "##GP",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8689481019973755,
-          "index": 4,
-          "word": "##T",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I’ve had to explain things I haven’t said in a while. I didn't realize it until I was asking for directions to the nearest dispo like I'd done a million times.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:38:44.905Z"
-    },
-    {
-      "title": "GPT winning the battle losing the war?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1pwpx5p/gpt_winning_the_battle_losing_the_war/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T05:33:10.000Z",
-      "metaDescription": "OpenAI’s real risk isn’t model quality; it’s not meeting the market where it is now\n I’m a heavy ChatGPT power user and still think GPT has the sharpest reasoning and deepest inference out there. Long",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.38805079059433845,
-      "crawledAt": "2025-12-27T08:34:39.525Z",
-      "id": "lc1t71",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8736209869384766,
-          "index": 1,
-          "word": "GP",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "GPT is not a good enough company to be a big player in the world of technology. The company has been criticised for its lack of transparency.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:38:54.725Z"
-    },
-    {
-      "title": "Lora Training, How do you create a character then generate enough training data with the same likeness?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwppm0/lora_training_how_do_you_create_a_character_then/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T05:21:56.000Z",
-      "metaDescription": "A bit newer to lora training but had great success on some existing character training. My question is though, if I wanted to create a custom character for repeated use, I have seen the advice given I",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.40030863059136823,
-      "crawledAt": "2025-12-27T08:34:46.328Z",
-      "id": "cv83yz",
-      "entities": [],
-      "summary": "Lora training has had great success on some existing character training. My question is if I wanted to create a custom character for repeated use.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:39:05.455Z"
-    },
-    {
-      "title": "Strix Halo llama-bench Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwplsz/strix_halo_llamabench_results_glm45air/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T05:16:08.000Z",
-      "metaDescription": "Looking for anyone who has some benchmarks they would like to share. I am trying to optimize my EVO-X2 (Strix Halo) 128GB box using GLM-4.5-Air for use with Cline. Trying to find out if I am in the ba",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.2793701420017533,
-      "crawledAt": "2025-12-27T08:34:34.411Z",
-      "id": "gcdxu8",
-      "entities": [],
-      "summary": " I am trying to optimize my EVO-X2 (Strix Halo) 128GB box using GLM-4.5-Air for use with Cline.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:39:19.626Z"
-    },
-    {
-      "title": "Qwen Image v2?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwpbvn/qwen_image_v2/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T05:02:00.000Z",
-      "metaDescription": "https://x.com/bdsqlsz/status/2004771274573381772\n    submitted by    /u/ByteZSzn  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.34403732055108066,
-      "crawledAt": "2025-12-27T08:34:45.248Z",
-      "id": "i0tibe",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.99935382604599,
-          "index": 1,
-          "word": "Q",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9934530258178711,
-          "index": 2,
-          "word": "##wen",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9982796311378479,
-          "index": 3,
-          "word": "Image",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI-powered creative content generation and tools.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:39:19.702Z"
-    },
-    {
-      "title": "How should a fresher start ML / MLOps and find entry-level roles?",
-      "url": "https://www.reddit.com/r/mlops/comments/1pwp9d4/how_should_a_fresher_start_ml_mlops_and_find/",
-      "source": "r/MLOps",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T04:58:44.000Z",
-      "metaDescription": "submitted by    /u/Least-Speed-9677  \n [link]   [comments]",
-      "category": "product-launch",
-      "difficulty": 3,
-      "confidence": 0.8075748673296883,
-      "crawledAt": "2025-12-27T08:34:58.913Z",
-      "id": "j3a6nz",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T08:39:19.860Z"
     }
   ],
-  "processedAt": "2026-01-11T04:55:51.587Z",
+  "processedAt": "2026-01-11T08:39:59.164Z",
   "categories": [
-    "creative-ai",
-    "infrastructure",
-    "research-paper",
-    "industry-news",
-    "ai-agents",
     "model-release",
+    "research-paper",
+    "product-launch",
+    "infrastructure",
+    "ai-agents",
+    "creative-ai",
+    "industry-news",
     "tutorial-guide",
     "safety-ethics",
-    "developer-tool",
-    "product-launch"
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 6,
+  "newArticlesProcessed": 14,
   "existingArticlesKept": 2545,
   "cleanupApplied": true,
-  "cleanedUpCount": 6,
+  "cleanedUpCount": 26,
   "rollingWindowDays": 15
 }
