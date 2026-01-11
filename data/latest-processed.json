@@ -1,9 +1,797 @@
 {
-  "crawledAt": "2026-01-11T12:54:38.081Z",
+  "crawledAt": "2026-01-11T16:33:51.828Z",
   "totalSources": 70,
-  "totalArticles": 2539,
+  "totalArticles": 2536,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "We’re probably going to learn to live with AI music",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qa3rqn/were_probably_going_to_learn_to_live_with_ai_music/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T16:32:11.000Z",
+      "metaDescription": "submitted by    /u/paxinfernum  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.45056549345652464,
+      "crawledAt": "2026-01-11T16:33:13.923Z",
+      "id": "jmndm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8950986862182617,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:33:53.875Z"
+    },
+    {
+      "title": "The Continuous Thought Machine: A brilliant example of how biology can still inspire deep learning",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qa3q76/the_continuous_thought_machine_a_brilliant/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T16:30:37.000Z",
+      "metaDescription": "submitted by    /u/Tobio-Star  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5166706954359538,
+      "crawledAt": "2026-01-11T16:32:57.565Z",
+      "id": "xymaos",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9558579921722412,
+          "index": 5,
+          "word": "Thought",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9788281917572021,
+          "index": 6,
+          "word": "Machine",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:33:54.032Z"
+    },
+    {
+      "title": "AI just achieved a perfect score on the hardest math competition in the world",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qa3m1k/ai_just_achieved_a_perfect_score_on_the_hardest/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T16:26:07.000Z",
+      "metaDescription": "Source: https://axiommath.ai/territory/from-seeing-why-to-checking-everything\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2737593554730262,
+      "crawledAt": "2026-01-11T16:33:13.308Z",
+      "id": "vdwzid",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9616161584854126,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:33:54.191Z"
+    },
+    {
+      "title": "PerpetualBooster: A new gradient boosting library that enables O continual learning and out-performs AutoGluon on tabular benchmarks.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa351n/p_perpetualbooster_a_new_gradient_boosting/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T16:08:02.000Z",
+      "metaDescription": "Hi everyone,\n I’m part of the team that developed PerpetualBooster, a gradient boosting algorithm designed to solve the \"forgetting\" and \"retraining\" bottlenecks in traditional GBDT frameworks like XG",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.25523764595454573,
+      "crawledAt": "2026-01-11T16:32:50.333Z",
+      "id": "nn5u1h",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8255366086959839,
+          "index": 26,
+          "word": "##lu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " PerpetualBooster is a gradient boosting algorithm designed to solve the \"forgetting\" and \"retraining\" bottlenecks in traditional GBDT frameworks like XG.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:34:10.030Z"
+    },
+    {
+      "title": "Claude HUD: Building Real-Time Observability for Claude Code via the Statusline API",
+      "url": "https://pub.towardsai.net/claude-hud-building-real-time-observability-for-claude-code-via-the-statusline-api-b114b825d3ef?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T16:02:52.000Z",
+      "metaDescription": "I’ve seen people debugging enough context window overflows to know the frustration. You’re deep into a Claude Code session — file edits…\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2522590802217289,
+      "crawledAt": "2026-01-11T16:32:27.942Z",
+      "id": "j64s8i",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8105627298355103,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "’s. I’ve seen people debugging enough context window overflows to know the frustration. You’re deep into a Claude Code session.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:34:24.146Z"
+    },
+    {
+      "title": "New data center will use as much power as Indianapolis",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qa24eh/new_data_center_will_use_as_much_power_as/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T15:27:47.000Z",
+      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.30895038122285173,
+      "crawledAt": "2026-01-11T16:33:14.023Z",
+      "id": "oiz5uo",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.972553551197052,
+          "index": 10,
+          "word": "Indianapolis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:34:46.328Z"
+    },
+    {
+      "title": "Anthropic's new data center will use as much power as Indianapolis",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1qa23sb/anthropics_new_data_center_will_use_as_much_power/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T15:27:07.000Z",
+      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.5701684335944424,
+      "crawledAt": "2026-01-11T16:32:49.062Z",
+      "id": "vipdkx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9853413701057434,
+          "index": 1,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8576429486274719,
+          "index": 2,
+          "word": "##throp",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9614995121955872,
+          "index": 3,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.930083155632019,
+          "index": 15,
+          "word": "Indianapolis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:34:46.486Z"
+    },
+    {
+      "title": "Designing a crawler that produces ready markdown instead of raw HTML",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa20k5/d_designing_a_crawler_that_produces_ready/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T15:23:30.000Z",
+      "metaDescription": "When building RAG pipelines and agent systems, I kept running into the same issue:\n most web crawlers return raw HTML or noisy text that still requires significant post-processing before it’s usable f",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.8466637385752708,
+      "crawledAt": "2026-01-11T16:32:50.881Z",
+      "id": "obolqi",
+      "entities": [],
+      "summary": "Most web crawlers return raw HTML or noisy text that still requires significant post-processing before it's usable f f. Most web crawler return rawHTML or noisy texts that still require significant post processing before it’s usable f.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:35:01.851Z"
+    },
+    {
+      "title": "LTX2 1080P lipsync If you liked the previous one ,you will CREAM YOUR PANTS FROM THIS",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qa1or3/ltx2_1080p_lipsync_if_you_liked_the_previous_one/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T15:10:15.000Z",
+      "metaDescription": "So there is a thread here where someone said they do 1080 with no OOM and yuh ... no OOM\n https://www.reddit.com/r/StableDiffusion/comments/1q9rb7x/ltx2_how_i_fixed_oom_issues_for_15_second_videos/\n B",
+      "category": "model-release",
+      "difficulty": 3,
+      "confidence": 0.39014020610260924,
+      "crawledAt": "2026-01-11T16:33:04.541Z",
+      "id": "q6xov1",
+      "entities": [],
+      "summary": " There is a thread here where someone said they do 1080 with no OOM and yuh... no Oom.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:35:24.609Z"
+    },
+    {
+      "title": "What’s your wild take on the rise of AI?",
+      "url": "https://www.reddit.com/r/artificial/comments/1qa1ht3/whats_your_wild_take_on_the_rise_of_ai/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T15:02:19.000Z",
+      "metaDescription": "We have entered an era of AI doing _almost_ anything. From vibe coding, to image/video creation, new age of SEO, etc etc…\n But what do you think AI is going to be able to do in the near future?\n Just ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7149267300124463,
+      "crawledAt": "2026-01-11T16:32:39.734Z",
+      "id": "1scysq",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9738940000534058,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We have entered an era of AI doing almost anything, from image/video creation to image/ video creation, to image and video creation. But what do you think AI is going to be able to do in the near future?",
+      "language": "en",
+      "processed_at": "2026-01-11T16:36:15.575Z"
+    },
+    {
+      "title": "Google announces a new protocol to facilitate commerce using AI agents",
+      "url": "https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T15:00:00.000Z",
+      "metaDescription": "Google said that merchants can now offer discounts to users directly in AI mode results",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9561559548622013,
+      "crawledAt": "2026-01-11T16:31:52.031Z",
+      "id": "mblvgf",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9982930421829224,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9862031936645508,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google said merchants can now offer discounts to users directly in AI mode results. Google said that merchants can offer discounts directly to users in AI Mode results.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:36:33.892Z"
+    },
+    {
+      "title": "Automatic Prompt Optimization for Multimodal Vision Agents: A Self-Driving Car Example",
+      "url": "https://towardsdatascience.com/automatic-prompt-optimization-for-multimodal-vision-agents-a-self-driving-car-example/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T15:00:00.000Z",
+      "metaDescription": "Walkthrough using open-source prompt optimization algorithms in Python to improve the accuracy of an autonomous vehicle car safety agent running on OpenAI's GPT 5.2\nThe post Automatic Prompt Optimizat",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.3810785769195365,
+      "crawledAt": "2026-01-11T16:32:03.611Z",
+      "id": "4soivo",
+      "entities": [],
+      "summary": "The post Automatic Prompt Optimizat uses open-source optimization algorithms in Python to improve the accuracy of an autonomous car safety agent.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:36:45.579Z"
+    },
+    {
+      "title": "Best ML course?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qa1c6h/best_ml_course/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T14:56:13.000Z",
+      "metaDescription": "submitted by    /u/luffydmonkey77  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9003718705964352,
+      "crawledAt": "2026-01-11T16:32:57.998Z",
+      "id": "cd6b47",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:36:45.744Z"
+    },
+    {
+      "title": "CES 2026 shows Humanoid robots moving from demos to real world deployment",
+      "url": "https://www.reddit.com/r/singularity/comments/1qa0yz9/ces_2026_shows_humanoid_robots_moving_from_demos/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T14:40:48.000Z",
+      "metaDescription": "CES 2026 highlighted a clear shift in humanoid robotics. Many systems were presented with concrete use cases, pricing targets, and deployment timelines rather than stage demos.\n Several platforms are ",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.5028050349983365,
+      "crawledAt": "2026-01-11T16:32:53.579Z",
+      "id": "h5vtka",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9819449186325073,
+          "index": 1,
+          "word": "CE",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9885076880455017,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9008008241653442,
+          "index": 3,
+          "word": "202",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9625815153121948,
+          "index": 6,
+          "word": "Human",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " CES 2026 highlighted a clear shift in humanoid robotics. Many systems were presented with concrete use cases, pricing targets, and deployment timelines.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:37:07.879Z"
+    },
+    {
+      "title": "It works! Abliteration can reduce slop without training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qa0w6c/it_works_abliteration_can_reduce_slop_without/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T14:37:37.000Z",
+      "metaDescription": "I'm back at my favorite hobby: Brain surgery! I don't have a medical license, but I just can't stop :)\n Can abliteration fight the scourge of \"slop\" (flowery, cliched language) in LLM outputs? The ans",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2705159773143411,
+      "crawledAt": "2026-01-11T16:32:43.374Z",
+      "id": "lx8u3x",
+      "entities": [],
+      "summary": " I'm back at my favorite hobby: Brain surgery! I don't have a medical license, but I just can't stop :) Can abliteration fight the scourge of \"slop\" (flowery, cliched language) in LLM outputs? The ans.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:37:24.919Z"
+    },
+    {
+      "title": "Why doubly stochastic matrix idea only made popular in the DeepSeek's mHC paper, but not in earlier RNN papers?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa0n65/r_why_doubly_stochastic_matrix_idea_using/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T14:26:51.000Z",
+      "metaDescription": "After DeepSeek’s mHC paper, the Sinkhorn–Knopp algorithm has attracted a lot of attention because it turns $$\\mathcal{H}^{\\mathrm{res}}_{l}$$ at each layer into a doubly stochastic matrix. As a result",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.8232077299396544,
+      "crawledAt": "2026-01-11T16:32:49.795Z",
+      "id": "s4a9ml",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9936470985412598,
+          "index": 16,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9965603947639465,
+          "index": 17,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9946370124816895,
+          "index": 18,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9767487049102783,
+          "index": 29,
+          "word": "R",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8959219455718994,
+          "index": 30,
+          "word": "##N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9061834216117859,
+          "index": 31,
+          "word": "##N",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Sinkhorn-Knopp algorithm turns the algorithm into a doubly stochastic matrix. The algorithm turns each layer into a matrix.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:37:35.122Z"
+    },
+    {
+      "title": "Qwen-Image-Edit-Rapid-AIO V19",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qa0j7x/qwenimageeditrapidaio_v19_merged_2509_and_2511/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T14:22:08.000Z",
+      "metaDescription": "V19: New Lightning Edit 2511 8-step mixed in (still recommend 4-8 steps). Also a new N**W LORA (GNASS for Qwen 2512) that worked quite well in the merge. er_sde/beta or euler_ancestral/beta recommende",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6578776361918534,
+      "crawledAt": "2026-01-11T16:33:01.790Z",
+      "id": "p39xn4",
+      "entities": [],
+      "summary": " The new N**W LORA is a new version of the N*W. LORa. The new version is a version of N*LORA.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:37:49.544Z"
+    },
+    {
+      "title": "Skills Marketplace: A New Digital Economy?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qa088x/skills_marketplace_a_new_digital_economy/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T14:08:57.000Z",
+      "metaDescription": "What are your thoughts?\n    submitted by    /u/ryan_the_dev  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.41951659100681304,
+      "crawledAt": "2026-01-11T16:33:14.131Z",
+      "id": "1bq3s8",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9205965995788574,
+          "index": 7,
+          "word": "Digital",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8711128234863281,
+          "index": 8,
+          "word": "Economy",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:37:49.625Z"
+    },
+    {
+      "title": "$1 Billion to Google. 15 AI Minds Lost. Apple’s Surrender Equation.",
+      "url": "https://pub.towardsai.net/1-billion-to-google-15-ai-minds-lost-apples-surrender-equation-5ba4dbaf7406?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T14:02:49.000Z",
+      "metaDescription": "The Diagnosis.\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.3140270725401159,
+      "crawledAt": "2026-01-11T16:32:28.176Z",
+      "id": "t1jsvj",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9965410232543945,
+          "index": 6,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.997629702091217,
+          "index": 14,
+          "word": "Apple",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8826939463615417,
+          "index": 20,
+          "word": "E",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:38:01.450Z"
+    },
+    {
+      "title": "Reminds/tasks option",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1q9zlnn/remindstasks_option/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T13:40:34.000Z",
+      "metaDescription": "Plus Users, are you using reminders/tasks feature? I find it extremely useful, especially for long-term reminders and recurring tasks, as I’m tracking some specific news development.\n Do you have any ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3385805687420028,
+      "crawledAt": "2026-01-11T16:33:12.812Z",
+      "id": "w029ii",
+      "entities": [],
+      "summary": "Users can use reminders/tasks to help with long-term reminders and recurring tasks. Plus Users, are you using reminders/ tasks feature?",
+      "language": "en",
+      "processed_at": "2026-01-11T16:38:27.610Z"
+    },
+    {
+      "title": "Part2: Guide to Huggingface AutoModels** for Vision and Audio",
+      "url": "https://pub.towardsai.net/part2-guide-to-huggingface-automodels-for-vision-and-audio-4b0c90f2255c?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T13:39:12.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5949214501394692,
+      "crawledAt": "2026-01-11T16:32:28.409Z",
+      "id": "so8icv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8598187565803528,
+          "index": 10,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:38:27.939Z"
+    },
+    {
+      "title": "Dear ChatGPT, stop kissing my backside.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1q9yqbb/dear_chatgpt_stop_kissing_my_backside/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T12:58:04.000Z",
+      "metaDescription": "\"You've raised a very interesting point...\"\n \"You're touching on a crucial piece of information...\"\n \"That's a very thoughtful interpretation...\"\n \"You're absolutely right - and you're right to...\"\n S",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2870622950045089,
+      "crawledAt": "2026-01-11T16:32:48.060Z",
+      "id": "5go0f2",
+      "entities": [],
+      "summary": " \"You're touching on a crucial piece of information...\" says S. S. \"You've raised a very interesting point,\" says S S.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:39:21.939Z"
+    },
+    {
+      "title": "Boost Your ROI with this AI-Powered UGC Video Generator",
+      "url": "https://generativeai.pub/boost-your-roi-with-this-ai-powered-ugc-video-generator-3f67fd5d6309?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T12:53:51.000Z",
+      "metaDescription": "Here’s a detailed guide on how to create effective product ads with the MakeUGC AI video generator.\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.9173731071182513,
+      "crawledAt": "2026-01-11T16:32:35.656Z",
+      "id": "6paloo",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9439119100570679,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8917919993400574,
+          "index": 13,
+          "word": "U",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8361667394638062,
+          "index": 16,
+          "word": "Gene",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Make-up AI video generator is a popular tool to create product ads. Use it to create ads for the company's products.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:39:44.989Z"
+    },
+    {
+      "title": "The AI Paradox: Why I’m Secretly Relieved About Getting Busier",
+      "url": "https://generativeai.pub/the-ai-paradox-why-im-secretly-relieved-about-getting-busier-dc68ac0b6123?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T12:44:05.000Z",
+      "metaDescription": "Escape the “Fixed Pie” of work and find the upside of the Agency Economy\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.47214712611898857,
+      "crawledAt": "2026-01-11T16:32:35.780Z",
+      "id": "uut2iy",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9884014129638672,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9408676028251648,
+          "index": 3,
+          "word": "Para",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.853581964969635,
+          "index": 4,
+          "word": "##dox",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Escape the “Fixed Pie’ of work and find the upside of the Agency Economy. Escape the \"Fixed Pie\" of work. Escape the 'Fixed Pie' of work.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:39:57.748Z"
+    },
+    {
+      "title": "The Ultimate Guide to Agent Skills: From Zero to Mastery",
+      "url": "https://generativeai.pub/the-ultimate-guide-to-agent-skills-from-zero-to-mastery-d8df1bb5d31b?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-11T12:44:01.000Z",
+      "metaDescription": "Why static prompts are dead, and how 'Skills' enable the next generation of AI apps (without writing code).\nContinue reading on Generative AI »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.85554987816107,
+      "crawledAt": "2026-01-11T16:32:35.921Z",
+      "id": "7pqgw4",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8008511066436768,
+          "index": 6,
+          "word": "Skills",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " static prompts are dead, and how 'Skills' enable the next generation of AI apps (without writing code)",
+      "language": "en",
+      "processed_at": "2026-01-11T16:40:07.476Z"
+    },
     {
       "title": "Is 5.2 GPT 5.2 Pro in the web app?",
       "url": "https://www.reddit.com/r/OpenAI/comments/1q9ydfv/is_52_xhigh_gpt_52_pro_in_the_web_app/",
@@ -213,6 +1001,58 @@
       "processed_at": "2026-01-11T12:56:08.977Z"
     },
     {
+      "title": "LTX-2 for Shorts: what I learned after making two short films",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q9xz1j/ltx2_for_shorts_what_i_learned_after_making_two/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T12:18:11.000Z",
+      "metaDescription": "LTX-2 came out this week, and I was eager to try out what possibilities it could open up. My setup is an RTX 4090 with 64GB system memory. This lets me generate 10-second 720p videos in ~300s on avera",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25885738094116456,
+      "crawledAt": "2026-01-11T16:33:04.745Z",
+      "id": "7dxgxb",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9553432464599609,
+          "index": 1,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9826446175575256,
+          "index": 2,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9942514300346375,
+          "index": 3,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9150523543357849,
+          "index": 5,
+          "word": "2",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LTX-2 came out this week, and I was eager to try out what possibilities it could open up. My setup is an RTX 4000 with 64GB system memory. This lets me generate 10-second videos in ~300s on avera.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:40:23.782Z"
+    },
+    {
       "title": "Smart Tennis Predictor: A Machine Learning App to Decide When to Play",
       "url": "https://python.plainenglish.io/smart-tennis-predictor-a-machine-learning-app-to-decide-when-to-play-d636cb18b639?source=rss----78073def27b8---4",
       "source": "Python in Plain English",
@@ -414,6 +1254,53 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-01-11T12:58:35.189Z"
+    },
+    {
+      "title": "Conditioning Enhancer : Post-Encode MLP & Self-Attention Refiner",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q9xdu7/conditioning_enhancer_qwenzimage_postencode_mlp/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T11:45:19.000Z",
+      "metaDescription": "Hello everyone,\n I've just released Capitan Conditioning Enhancer, a lightweight custom node designed specifically to refine the 2560-dim conditioning from the native Qwen3-4B text encoder (common in ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.46347496199087335,
+      "crawledAt": "2026-01-11T16:33:02.211Z",
+      "id": "d1p8np",
+      "entities": [],
+      "summary": " Capitan Conditioning Enhancer is a lightweight custom node designed specifically to refine the 2560-dim conditioning from the native Qwen3-4B text encoder.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:40:37.352Z"
+    },
+    {
+      "title": "Nothing special - just an LTX-2 T2V workflow using gguf + detailers",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q9wwes/nothing_special_just_an_ltx2_t2v_workflow_using/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T11:16:05.000Z",
+      "metaDescription": "somebody was looking for a working T2V gguf workflow, I had an hour to kill so I gave it a shot. Turns out T2V is a lot better than I'd thought it'd be.\n Workflow: https://pastebin.com/QrR3qsjR \n It t",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3460750843040844,
+      "crawledAt": "2026-01-11T16:33:01.343Z",
+      "id": "qhcqx6",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.979026198387146,
+          "index": 6,
+          "word": "L",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " T2V is a lot better than I'd thought it'd be, says the writer. T2v is better than he'd thought, he says.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:40:48.354Z"
     },
     {
       "title": "The \"magic\" inside Deep Learning is literally just an if statement",
@@ -702,6 +1589,66 @@
       "summary": " Ragus AI can take any RSS feed, transform it into structured data and upload it into your target database swiftly.",
       "language": "en",
       "processed_at": "2026-01-11T13:00:01.278Z"
+    },
+    {
+      "title": "VNCCS Utils 0.3.0 Release! Model Manager",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q9u4tb/vnccs_utils_030_release_model_manager/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-11T08:26:31.000Z",
+      "metaDescription": "New nodes are here! Today's nodes will delight creators of large and complex workflows. Tired of making lists of models used in a project and posting them in an accompanying file? Want to replace one ",
+      "category": "model-release",
+      "difficulty": 7,
+      "confidence": 0.8843060444837042,
+      "crawledAt": "2026-01-11T16:33:03.690Z",
+      "id": "vo4y1h",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9903068542480469,
+          "index": 1,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8405573964118958,
+          "index": 2,
+          "word": "##NC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9914849996566772,
+          "index": 3,
+          "word": "##CS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.995233952999115,
+          "index": 4,
+          "word": "U",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9256622791290283,
+          "index": 5,
+          "word": "##til",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " nodes will delight creators of large and complex workflows. Today's nodes will be available for the first time in a year.",
+      "language": "en",
+      "processed_at": "2026-01-11T16:40:59.435Z"
     },
     {
       "title": "Which is the best model under 15B",
@@ -82107,1099 +83054,15 @@
       "summary": " Released v1.0, still have plans with it for v2.0 (outpaint, further optimize) Download from dropbox.",
       "language": "en",
       "processed_at": "2025-12-27T20:33:13.047Z"
-    },
-    {
-      "title": "Seeking \"Abliterated\" Gemma 3 or Llama 3.3 that retains logic and multilingual capabilities",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1px234n/seeking_abliterated_gemma_3_or_llama_33_that/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:37:26.000Z",
-      "metaDescription": "I’m looking for a specific type of model recommendation. I’ve been testing Gemma 3 12B/27B and I’m impressed by its reasoning and excellent support for Central European languages (especially Slovak an",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.3133529492574276,
-      "crawledAt": "2025-12-27T20:29:13.170Z",
-      "id": "waljw0",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9117911458015442,
-          "index": 9,
-          "word": "Gemma",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.983045220375061,
-          "index": 10,
-          "word": "3",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.917696475982666,
-          "index": 12,
-          "word": "L",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9420413970947266,
-          "index": 13,
-          "word": "##lam",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9360336065292358,
-          "index": 15,
-          "word": "3",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9505277872085571,
-          "index": 17,
-          "word": "3",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "I'm impressed by Gemma's reasoning and support for Central European languages. I'm looking for a specific type of model to use. I've been testing Gemma 3 12B/27B.",
-      "language": "en",
-      "processed_at": "2025-12-27T20:33:39.185Z"
-    },
-    {
-      "title": "AI MAX 395 using NPU on linux",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1px1z6i/ai_max_395_using_npu_on_linux/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:32:56.000Z",
-      "metaDescription": "I am trying to find a my way into the topic of local llms. I got this mini pc with the ai max 395 chip.\n After hours i now am able to run some LLMs on the GPU (with rocm) instead of only CPU work on a",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.3078881808669214,
-      "crawledAt": "2025-12-27T20:29:13.929Z",
-      "id": "klmcly",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9902299046516418,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9928067922592163,
-          "index": 2,
-          "word": "MA",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9940415024757385,
-          "index": 3,
-          "word": "##X",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9750960469245911,
-          "index": 4,
-          "word": "395",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8139420747756958,
-          "index": 6,
-          "word": "N",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "After hours of work, I can run some LLMs on the GPU (with rocm) instead of only CPU work.",
-      "language": "en",
-      "processed_at": "2025-12-27T20:33:51.371Z"
-    },
-    {
-      "title": "how to get he workflow out of video iamge",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1px1wn8/how_to_get_he_workflow_out_of_video_iamge/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T16:30:11.000Z",
-      "metaDescription": "hi guys any help on how\n to get the comfyui workflow from a video png becuz normal image it is ez just drag and paste and it will show the work flow for comfyui but png video dont even if it show ther",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.6489279240099344,
-      "crawledAt": "2025-12-27T16:32:19.125Z",
-      "id": "n70eh6",
-      "entities": [],
-      "summary": " A video png is just drag and paste and it will show the work flow for comfyui. But png video doesn't even show ther or show ther.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:22.299Z"
-    },
-    {
-      "title": "A comprehensive survey of deep learning for time series forecasting: architectural diversity and open challenges",
-      "url": "https://www.reddit.com/r/artificial/comments/1px1s7u/a_comprehensive_survey_of_deep_learning_for_time/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:25:11.000Z",
-      "metaDescription": "https://link.springer.com/article/10.1007/s10462-025-11223-9\n Abstract: \"Time series forecasting is a critical task that provides key information for decision-making across various fields, such as eco",
-      "category": "research-paper",
-      "difficulty": 4,
-      "confidence": 0.33640622190863806,
-      "crawledAt": "2025-12-27T16:32:05.237Z",
-      "id": "fmlf9s",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:22.645Z"
-    },
-    {
-      "title": "Dark Fantasy Toads.. All animated with OpenAI",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1px1oi2/dark_fantasy_toads_all_animated_with_openai/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:20:52.000Z",
-      "metaDescription": "submitted by    /u/Kalicola  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.25732941335013104,
-      "crawledAt": "2025-12-27T16:32:25.075Z",
-      "id": "ath8qt",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8901442289352417,
-          "index": 1,
-          "word": "Dark",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9904444813728333,
-          "index": 2,
-          "word": "Fantasy",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9811699390411377,
-          "index": 10,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9346458911895752,
-          "index": 11,
-          "word": "##A",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:22.790Z"
-    },
-    {
-      "title": "François Chollet thinks arc-agi 6-7 will be the last benchmark to be saturated before real AGI comes out. What are your thoughts?",
-      "url": "https://www.reddit.com/r/singularity/comments/1px1g5q/françois_chollet_thinks_arcagi_67_will_be_the/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T16:11:03.000Z",
-      "metaDescription": "Even one of the most prominent critics of LLMs finally set a final test, after which we will officially enter the era of AGI\n    submitted by    /u/Longjumping_Fly_2978  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.53347967573525,
-      "crawledAt": "2025-12-27T16:32:12.295Z",
-      "id": "mtcsop",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9995851516723633,
-          "index": 1,
-          "word": "François",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9996710419654846,
-          "index": 2,
-          "word": "Cho",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.996457040309906,
-          "index": 3,
-          "word": "##lle",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.990204930305481,
-          "index": 4,
-          "word": "##t",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:23.025Z"
-    },
-    {
-      "title": "Hot Take: Don’t complain about Chat GPT responding with the self help messages if you aren’t willing to discuss what you inputted",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1px1emj/hot_take_dont_complain_about_chat_gpt_responding/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T16:09:20.000Z",
-      "metaDescription": "Is this a necessary post to make?\n Unfortunately YUP!\n I feel like a lot of us here are interested in how the LLM functions and gets to certain answers, even as amateurs. It’s frustrating when people ",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.373724416039379,
-      "crawledAt": "2025-12-27T20:29:16.119Z",
-      "id": "uwefya",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8541639447212219,
-          "index": 9,
-          "word": "Cha",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The LLM functions and gets to certain answers, even as amateurs. It's frustrating when people are interested in how the LLM works.",
-      "language": "en",
-      "processed_at": "2025-12-27T20:34:00.551Z"
-    },
-    {
-      "title": "China issues drafts rules to regulate AI with human-like interaction",
-      "url": "https://www.reddit.com/r/singularity/comments/1px1dm3/china_issues_drafts_rules_to_regulate_ai_with/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T16:08:06.000Z",
-      "metaDescription": "submitted by    /u/SnoozeDoggyDog  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.3963063790257444,
-      "crawledAt": "2025-12-27T16:32:11.804Z",
-      "id": "1pejem",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.9998506307601929,
-          "index": 1,
-          "word": "China",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.8729047179222107,
-          "index": 8,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:23.173Z"
-    },
-    {
-      "title": "China Is Worried AI Threatens Party Rule—and Is Trying to Tame It",
-      "url": "https://www.reddit.com/r/singularity/comments/1px1cu3/china_is_worried_ai_threatens_party_ruleand_is/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T16:07:10.000Z",
-      "metaDescription": "submitted by    /u/SnoozeDoggyDog  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.33445409539471027,
-      "crawledAt": "2025-12-27T16:32:11.700Z",
-      "id": "qn2to6",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.999003529548645,
-          "index": 1,
-          "word": "China",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9695404767990112,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9639793634414673,
-          "index": 7,
-          "word": "T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9483973979949951,
-          "index": 8,
-          "word": "##hr",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9715464115142822,
-          "index": 9,
-          "word": "##eat",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9900022745132446,
-          "index": 11,
-          "word": "Party",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:23.343Z"
-    },
-    {
-      "title": "Head of Engineering @MiniMax__AI on MiniMax M2 int4 QAT",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1px1c41/head_of_engineering_minimax_ai_on_minimax_m2_int4/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:06:19.000Z",
-      "metaDescription": "submitted by    /u/Difficult-Cap-7527  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3249759551974174,
-      "crawledAt": "2025-12-27T16:32:02.031Z",
-      "id": "otqphd",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:23.517Z"
-    },
-    {
-      "title": "r/MachineLearning - a year in review",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1px1agd/d_rmachinelearning_a_year_in_review/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T16:04:27.000Z",
-      "metaDescription": "This is a review of most upvoted posts on this sub in 2025, loosely grouped into high-level themes. Many important news will be missing, however that is indicative of discussion lying elsewhere at tha",
-      "category": "industry-news",
-      "difficulty": 3,
-      "confidence": 0.4131893493420313,
-      "crawledAt": "2025-12-30T08:37:06.573Z",
-      "id": "4b3ojz",
-      "entities": [],
-      "summary": " This is a review of most upvoted posts on this sub in 2025. Many important news will be missing, however that is indicative of discussion lying elsewhere at tha.",
-      "language": "en",
-      "processed_at": "2025-12-30T08:56:06.180Z"
-    },
-    {
-      "title": "The Other: Slop Fiction™",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1px0ruk/the_other_slop_fiction/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T15:43:04.000Z",
-      "metaDescription": "submitted by    /u/serialchilla91  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.33668517350188065,
-      "crawledAt": "2025-12-27T16:32:23.826Z",
-      "id": "10g9i7",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9919315576553345,
-          "index": 4,
-          "word": "S",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:33:23.757Z"
-    },
-    {
-      "title": "Is there any AI upsampler that is 100% true to the low-res image?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1px0rd7/is_there_any_ai_upsampler_that_is_100_true_to_the/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T15:42:29.000Z",
-      "metaDescription": "There is a way to guarantee that an upsampled image is accurate to the low-res image: when you downsample it again, it is pixel-perfect the same. There are many possible images that have this property",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.6860005921494583,
-      "crawledAt": "2025-12-27T20:29:40.386Z",
-      "id": "kyywqb",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9964976906776428,
-          "index": 4,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " There are many possible images that have this property. There is a way to guarantee that an upsampled image is accurate to the low-res image.",
-      "language": "en",
-      "processed_at": "2025-12-27T20:34:09.504Z"
-    },
-    {
-      "title": "Launching unlimited Veo 3.1 / Sora 2 access, giving out some free codes",
-      "url": "https://www.reddit.com/r/AutoGPT/comments/1px0ddq/launching_unlimited_veo_31_sora_2_access_giving/",
-      "source": "r/AutoGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T15:25:57.000Z",
-      "metaDescription": "Hey everyone, we just rolled out a big update on swipe[dot]farm\n The Unlimited Plan now includes unlimited generations with Veo 3.1, Sora 2, and Nano Banana – and every code we send out today gives yo",
-      "category": "product-launch",
-      "difficulty": 4,
-      "confidence": 0.994503721258083,
-      "crawledAt": "2025-12-27T16:32:29.697Z",
-      "id": "6q8f2d",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8117964863777161,
-          "index": 5,
-          "word": "##eo",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The Unlimited Plan now includes unlimited generations with Veo 3.1, Sora 2, and Nano Banana. Every code we send out today gives you a free code.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:34:10.079Z"
-    },
-    {
-      "title": "How did this person edit so well?",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1px07cw/how_did_this_person_edit_so_well/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T15:18:36.000Z",
-      "metaDescription": "submitted by    /u/r2cyp  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.4040604684938666,
-      "crawledAt": "2025-12-27T16:32:08.498Z",
-      "id": "ku50c3",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:34:10.167Z"
-    },
-    {
-      "title": "Open source: Turn Claude into a personal coach that remembers you",
-      "url": "https://www.reddit.com/r/artificial/comments/1px01vf/open_source_turn_claude_into_a_personal_coach/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T15:11:48.000Z",
-      "metaDescription": "I built a Claude-based life assistant that acts as a personal coach living in your filesystem. It:\n - Reads your journal entries and remembers patterns\n - Calls out gaps between what you say and what ",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.41735978544828467,
-      "crawledAt": "2025-12-27T16:32:05.405Z",
-      "id": "ftm3zw",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9948517084121704,
-          "index": 5,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I built a Claude-based life assistant that acts as a personal coach. The assistant is based in the city of Paris.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:34:19.964Z"
-    },
-    {
-      "title": "I Learned Python in 30 Days — This Is the Roadmap That Actually Worked",
-      "url": "https://python.plainenglish.io/i-learned-python-in-30-days-this-is-the-roadmap-that-actually-worked-e4deafc94896?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T15:09:35.000Z",
-      "metaDescription": "Most Python roadmaps fail because they ignore how learning actually feels.\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.8128189167777021,
-      "crawledAt": "2025-12-27T16:31:55.753Z",
-      "id": "fbyyoy",
-      "entities": [],
-      "summary": " Most Python roadmaps fail because they ignore how learning actually feels. Most Python drivers fail because of their lack of knowledge of the language.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:34:28.557Z"
-    },
-    {
-      "title": "Are you afraid of AI making you unemployable within the next few years?, Rob Pike goes nuclear over GenAI and many other links from Hacker News",
-      "url": "https://www.reddit.com/r/artificial/comments/1pwznkj/are_you_afraid_of_ai_making_you_unemployable/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T14:53:54.000Z",
-      "metaDescription": "Hey everyone, I just sent the 13th issue of Hacker News AI newsletter - a round up of the best AI links and the discussions around them from Hacker News.\n Here are some links from this issue: \n  \nRob ",
-      "category": "ai-agents",
-      "difficulty": 7,
-      "confidence": 0.29167924279264357,
-      "crawledAt": "2025-12-27T16:32:04.878Z",
-      "id": "5r0fyj",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8703669905662537,
-          "index": 5,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9996953010559082,
-          "index": 19,
-          "word": "Rob",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9994719624519348,
-          "index": 20,
-          "word": "Pike",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9837587475776672,
-          "index": 24,
-          "word": "Gen",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9950207471847534,
-          "index": 32,
-          "word": "Ha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9838364720344543,
-          "index": 33,
-          "word": "##cker",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9940004348754883,
-          "index": 34,
-          "word": "News",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The 13th issue of Hacker News AI newsletter is a round up of the best AI links and discussions around them.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:03.536Z"
-    },
-    {
-      "title": "People in construction are using AI to fake completed work",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1pwzja9/people_in_construction_are_using_ai_to_fake/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T14:48:30.000Z",
-      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.8275478190492636,
-      "crawledAt": "2025-12-27T16:32:23.246Z",
-      "id": "xgdsxe",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9871953725814819,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:03.792Z"
-    },
-    {
-      "title": "Stable Diffusion",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwz8s8/stable_diffusion/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T14:35:03.000Z",
-      "metaDescription": "Someone here helped me getting something working.. I have the AMD 9070XT video card.. I downloaded ComfyUI Windows Portable and it works fine.\n I just can't figure out how to do IMG2IMG.. I want to us",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3445565582147227,
-      "crawledAt": "2025-12-27T16:32:18.795Z",
-      "id": "odbio7",
-      "entities": [],
-      "summary": " I just can't figure out how to do IMG2IMG.. I want to us to us. Someone here helped me get something working.. I have the AMD 9070XT video card. I downloaded ComfyUI Windows Portable and it works fine.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:20.137Z"
-    },
-    {
-      "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
-      "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
-      "source": "Yannic Kilcher",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T14:33:29.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.4239440380984755,
-      "crawledAt": "2025-12-27T16:32:42.948Z",
-      "id": "bfm7ag",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:20.262Z"
-    },
-    {
-      "title": "Z-image Nunchaku is here !",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwyxwd/zimage_nunchaku_is_here/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T14:21:23.000Z",
-      "metaDescription": "https://github.com/nunchaku-tech/nunchaku/releases/tag/v1.1.0\n    submitted by    /u/Current-Row-159  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.26396709990648176,
-      "crawledAt": "2025-12-27T16:32:16.354Z",
-      "id": "keod7a",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9900477528572083,
-          "index": 4,
-          "word": "N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.814825177192688,
-          "index": 5,
-          "word": "##unch",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI-powered creative content generation and tools.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:31.128Z"
-    },
-    {
-      "title": "MiniMaxAI/MiniMax-M2.1 seems to be the strongest model per param",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwyw36/minimaxaiminimaxm21_seems_to_be_the_strongest/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T14:19:07.000Z",
-      "metaDescription": "Going by the Artifical Analysis benchaes, MiniMaxAI/MiniMax-M2.1 can compete with Kimi K2 Thinking, Deepseek 3.2 and GLM 4.7 in performance.\n But what feels especially notable is that MiniMaxAI/MiniMa",
-      "category": "model-release",
-      "difficulty": 4,
-      "confidence": 0.5243916154002157,
-      "crawledAt": "2025-12-27T16:32:01.347Z",
-      "id": "vruym6",
-      "entities": [],
-      "summary": "MiniMaxAI/MiniMax-M2.1 can compete with Kimi K2 Thinking, Deepseek 3.2 and GLM 4.7 in performance.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:44.962Z"
-    },
-    {
-      "title": "Is this refurbished Mac Studio m3 ultra worth it at that price?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwyqzp/is_this_refurbished_mac_studio_m3_ultra_worth_it/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T14:12:33.000Z",
-      "metaDescription": "submitted by    /u/solo_entrepreneur  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.422816306323839,
-      "crawledAt": "2025-12-27T16:32:04.544Z",
-      "id": "ysi87v",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:45.066Z"
-    },
-    {
-      "title": "Trying to edit an image makes me want to pull my hair out, whereas Nano banana one-shotted it.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwypf9/trying_to_edit_an_image_makes_me_want_to_pull_my/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T14:10:31.000Z",
-      "metaDescription": "I tried until I hit the image generation limit to convert a sketched door into a more realistic door for a mockup of a future garage/entryway renovation for a friend. I know my prompting is lazy, but ",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2966079653769851,
-      "crawledAt": "2025-12-27T16:32:08.883Z",
-      "id": "3plb21",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8233420848846436,
-          "index": 16,
-          "word": "Nan",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The image generation limit is the age of the image generation. I tried to convert a sketched door into a more realistic door for a friend's garage.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:35:58.360Z"
-    },
-    {
-      "title": "XiaomiMiMo.MiMo-V2-Flash: is there a reason why i see so few ggufs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1pwybpe/xiaomimimomimov2flash_is_there_a_reason_why_i_see/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T13:52:37.000Z",
-      "metaDescription": "xiaomimimo\n I've been testing the model for two days. It's incredibly fast at generating tokens compared to other models (certainly faster than both GLM and Minimax).\n But I see few people talking abo",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.3378798663370233,
-      "crawledAt": "2025-12-27T16:32:02.390Z",
-      "id": "f8ytq1",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9406011700630188,
-          "index": 1,
-          "word": "Xiao",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8629825711250305,
-          "index": 3,
-          "word": "##M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8688493967056274,
-          "index": 5,
-          "word": "##M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8321540951728821,
-          "index": 6,
-          "word": "##o",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " xiaomimimimimo has been testing the model for two days. It's incredibly fast at generating tokens. It's faster than GLM and Minimax.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:10.625Z"
-    },
-    {
-      "title": "Gemini AI's performance is irrelevant, and Google will ruin it",
-      "url": "https://www.reddit.com/r/artificial/comments/1pwy6mh/gemini_ais_performance_is_irrelevant_and_google/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T13:45:26.000Z",
-      "metaDescription": "One of the main problems with the way technology is evaluated in today's world is that the benchmarks and reviews come from tech savvy people who don't understand basics of business concepts, or the d",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.3324061909216535,
-      "crawledAt": "2025-12-27T16:32:05.576Z",
-      "id": "lm9qsd",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.992283821105957,
-          "index": 1,
-          "word": "Gemini",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.965809166431427,
-          "index": 2,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9982383251190186,
-          "index": 10,
-          "word": "Google",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Tech savvy people don't understand basics of business concepts, or the d d d. One of the main problems with the way technology is evaluated is that the benchmarks and reviews come from tech savvy people.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:24.104Z"
-    },
-    {
-      "title": "I hate this so freaking much you have no idea!!!",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwy58c/i_hate_this_so_freaking_much_you_have_no_idea/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T13:43:27.000Z",
-      "metaDescription": "can’t even say anything real anymore without the bot throwing up a suicide hotline\n    submitted by    /u/Pajtima  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.38905984018531053,
-      "crawledAt": "2025-12-27T16:32:09.548Z",
-      "id": "jbzi6x",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:24.205Z"
-    },
-    {
-      "title": "First FastAPI Project: A Complete CRUD Movie API",
-      "url": "https://python.plainenglish.io/first-fastapi-project-a-complete-crud-movie-api-a09c778b7d8e?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T13:36:48.000Z",
-      "metaDescription": "Introduction\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.6102358166379337,
-      "crawledAt": "2025-12-27T16:31:55.838Z",
-      "id": "ix9c0a",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8968191146850586,
-          "index": 2,
-          "word": "Fast",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8666790723800659,
-          "index": 3,
-          "word": "##AP",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Python in Plain English. Introduction to Python in PlainEnglish. Introduction to the language is \"Python in Python in Python\"",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:34.931Z"
-    },
-    {
-      "title": "People in construction are now using AI to fake completed work",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1pwxr73/people_in_construction_are_now_using_ai_to_fake/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T13:24:02.000Z",
-      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.475922542898152,
-      "crawledAt": "2025-12-27T16:32:08.294Z",
-      "id": "pf1drm",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9926019906997681,
-          "index": 7,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:35.025Z"
-    },
-    {
-      "title": "Best Paid Courses for Generative AI + Agentic AI Learning Path?",
-      "url": "https://www.reddit.com/r/LangChain/comments/1pwxoq5/best_paid_courses_for_generative_ai_agentic_ai/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-27T13:20:34.000Z",
-      "metaDescription": "Hey folks,\n I'm looking to deepen my skills in Generative AI and Agentic AI this year, and I want to invest in quality paid courses rather than relying purely on free resources. I have a solid Python ",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.9635716647859366,
-      "crawledAt": "2025-12-27T16:32:26.135Z",
-      "id": "cw99sn",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8591354489326477,
-          "index": 7,
-          "word": "Gene",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9637963175773621,
-          "index": 9,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9059775471687317,
-          "index": 11,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8533410429954529,
-          "index": 13,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Python is a popular tool for developing software for the Python software. The software is based on the language of Python, which is used in the Python.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:36:47.680Z"
-    },
-    {
-      "title": "Can I run qwen 2511 on 8gb vram",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1pwxbaj/can_i_run_qwen_2511_on_8gb_vram/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-27T13:01:33.000Z",
-      "metaDescription": "I've 8gb vram 24 ram\n    submitted by    /u/ShreeyanxRaina  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.2849707951997363,
-      "crawledAt": "2025-12-27T16:32:18.925Z",
-      "id": "gldhxp",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-27T16:37:00.248Z"
     }
   ],
-  "processedAt": "2026-01-11T13:00:01.282Z",
+  "processedAt": "2026-01-11T16:40:59.440Z",
   "categories": [
-    "infrastructure",
     "creative-ai",
-    "safety-ethics",
+    "infrastructure",
     "model-release",
     "ai-agents",
+    "safety-ethics",
     "research-paper",
     "product-launch",
     "industry-news",
@@ -83207,9 +83070,9 @@
     "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 23,
-  "existingArticlesKept": 2533,
+  "newArticlesProcessed": 29,
+  "existingArticlesKept": 2539,
   "cleanupApplied": true,
-  "cleanedUpCount": 17,
+  "cleanedUpCount": 32,
   "rollingWindowDays": 15
 }
