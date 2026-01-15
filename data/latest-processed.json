@@ -1,9 +1,757 @@
 {
-  "crawledAt": "2026-01-15T13:00:36.620Z",
+  "crawledAt": "2026-01-15T16:43:24.545Z",
   "totalSources": 70,
-  "totalArticles": 2770,
+  "totalArticles": 2765,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Build Better Agent UX: Streaming Progress, Status, and File Ops with LangChain",
+      "url": "https://www.youtube.com/watch?v=3daSUNpWErQ",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T16:00:12.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.43794787732639856,
+      "crawledAt": "2026-01-15T16:42:41.685Z",
+      "id": "koywr4",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8511906862258911,
+          "index": 19,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8506898880004883,
+          "index": 21,
+          "word": "##hai",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:43:46.672Z"
+    },
+    {
+      "title": "Safeguard generative AI applications with Amazon Bedrock Guardrails",
+      "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-generative-ai-applications-with-amazon-bedrock-guardrails/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:50:54.000Z",
+      "metaDescription": "In this post, we demonstrate how you can address these challenges by adding centralized safeguards to a custom multi-provider generative AI gateway using Amazon Bedrock Guardrails.",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.620109270715217,
+      "crawledAt": "2026-01-15T16:42:09.852Z",
+      "id": "ap79ft",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9826139807701111,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon Bedrock Guardrails is a multi-provider generative generative AI gateway using Amazon Bedroils. We demonstrate how you can address these challenges by adding centralized safeguards to a custom multi-Provider generatives.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:44:23.913Z"
+    },
+    {
+      "title": "Scale creative asset discovery with Amazon Nova Multimodal Embeddings unified vector search",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scale-creative-asset-discovery-with-amazon-nova-multimodal-embeddings-unified-vector-search/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:45:02.000Z",
+      "metaDescription": "In this post, we describe how you can use Amazon Nova Multimodal Embeddings to retrieve specific video segments. We also review a real-world use case in which Nova Multimodal Embeddings achieved a rec",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9784998975904095,
+      "crawledAt": "2026-01-15T16:42:10.048Z",
+      "id": "v3581j",
+      "entities": [],
+      "summary": " The Nova Multimodal Embeddings can be used to retrieve specific video segments. We also review a real-world use case in which Nova MultinodalEmbeddings achieved a rec rec.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:44:36.703Z"
+    },
+    {
+      "title": "Wikipedia signs AI training deals with Microsoft, Meta, and Amazon",
+      "url": "https://arstechnica.com/ai/2026/01/wikipedia-will-share-content-with-ai-firms-in-new-licensing-deals/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:25:52.000Z",
+      "metaDescription": "Wikimedia Enterprise signs Microsoft, Meta, Amazon, Perplexity, and Mistral AI to paid deals.",
+      "category": "industry-news",
+      "difficulty": 7,
+      "confidence": 0.5755451234971866,
+      "crawledAt": "2026-01-15T16:41:48.693Z",
+      "id": "ef6olx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9856810569763184,
+          "index": 1,
+          "word": "Wikipedia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9829066395759583,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9984409809112549,
+          "index": 7,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.997875988483429,
+          "index": 9,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9885031580924988,
+          "index": 10,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9951686263084412,
+          "index": 13,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Wikimedia Enterprise signs Microsoft, Meta, Amazon, Amazon and Mistral AI to paid deals. The company also signs Microsoft and Meta, Meta and Amazon.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:44:46.847Z"
+    },
+    {
+      "title": "Wikimedia Foundation announces new AI partnerships with Amazon, Meta, Microsoft, Perplexity and others",
+      "url": "https://techcrunch.com/2026/01/15/wikimedia-foundation-announces-new-ai-partnerships-with-amazon-meta-microsoft-perplexity-and-others/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:19:05.000Z",
+      "metaDescription": "The AI partnerships allow companies to access the org's content, like Wikipedia, at scale.",
+      "category": "infrastructure",
+      "difficulty": 9,
+      "confidence": 0.2578278910734633,
+      "crawledAt": "2026-01-15T16:41:44.224Z",
+      "id": "2nfw9j",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.999199628829956,
+          "index": 1,
+          "word": "W",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9954866170883179,
+          "index": 2,
+          "word": "##iki",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9989480972290039,
+          "index": 3,
+          "word": "##media",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.998881459236145,
+          "index": 4,
+          "word": "Foundation",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9912777543067932,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.998281717300415,
+          "index": 10,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9986279010772705,
+          "index": 12,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9891369938850403,
+          "index": 13,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9989374876022339,
+          "index": 15,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9955000281333923,
+          "index": 17,
+          "word": "Per",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9799129366874695,
+          "index": 18,
+          "word": "##plex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9895384311676025,
+          "index": 19,
+          "word": "##ity",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The AI partnerships allow companies to access the org's content, like Wikipedia, at scale. The partnerships allow firms to access their content, atScale.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:44:56.926Z"
+    },
+    {
+      "title": "This Python Bot Turns Financial News Into Trading Alerts",
+      "url": "https://python.plainenglish.io/this-python-bot-turns-financial-news-into-trading-alerts-737c9477f569?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:18:57.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.6964074277103007,
+      "crawledAt": "2026-01-15T16:42:28.202Z",
+      "id": "x1q1hb",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8187210559844971,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9460306763648987,
+          "index": 3,
+          "word": "Bo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9880120158195496,
+          "index": 7,
+          "word": "Financial",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9832779765129089,
+          "index": 8,
+          "word": "News",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:44:57.020Z"
+    },
+    {
+      "title": "6 Python Concepts That Finally Clicked When I Built Something Real",
+      "url": "https://python.plainenglish.io/6-python-concepts-that-finally-clicked-when-i-built-something-real-135ffbaa2ad1?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:18:04.000Z",
+      "metaDescription": "Automation didn’t teach me faster. It taught me deeper.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2520795723705723,
+      "crawledAt": "2026-01-15T16:42:28.454Z",
+      "id": "7g8pwx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8083968162536621,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Automation didn’t teach me faster. It taught me deeper. Automation didn't teach me better.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:12.953Z"
+    },
+    {
+      "title": "I Built the Same Desktop App With 6 Python GUI Libraries — Here’s the Winner",
+      "url": "https://python.plainenglish.io/i-built-the-same-desktop-app-with-6-python-gui-libraries-heres-the-winner-01ab907c8c92?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:16:42.000Z",
+      "metaDescription": "Why I Stopped Believing Python “Can’t Do GUIs”\nContinue reading on Python in Plain English »",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.4271922156148852,
+      "crawledAt": "2026-01-15T16:42:28.580Z",
+      "id": "7u0um3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9627357721328735,
+          "index": 12,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Why I Stopped Believing Python “Can’t Do GUIs’s’. Why I stopped BelievingPython ‘Can�’nonsense’",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:25.858Z"
+    },
+    {
+      "title": "9 Reasons Python Leads AI Development in 2026",
+      "url": "https://python.plainenglish.io/9-reasons-python-leads-ai-development-in-2026-72ee0ec86f6a?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:16:39.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5173610189081888,
+      "crawledAt": "2026-01-15T16:42:28.638Z",
+      "id": "md4ovr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8126189112663269,
+          "index": 4,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9963526725769043,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9975809454917908,
+          "index": 8,
+          "word": "Development",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:25.953Z"
+    },
+    {
+      "title": "Most Agentic AI Projects Fail. And That’s a Good Thing.",
+      "url": "https://ai.plainenglish.io/most-agentic-ai-projects-fail-and-thats-a-good-thing-cb345dc25308?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:15:10.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.7591985670056595,
+      "crawledAt": "2026-01-15T16:42:27.423Z",
+      "id": "wyak5",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8766596913337708,
+          "index": 3,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9798716306686401,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8811313509941101,
+          "index": 5,
+          "word": "Projects",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:46.638Z"
+    },
+    {
+      "title": "Google Gemini vs. ChatGPT: Two Models, One Winner?",
+      "url": "https://ai.plainenglish.io/google-gemini-vs-chatgpt-two-models-one-winner-28cee94a51a4?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:14:41.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3151398099310218,
+      "crawledAt": "2026-01-15T16:42:27.649Z",
+      "id": "is2nbp",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8227272629737854,
+          "index": 2,
+          "word": "Gemini",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:57.354Z"
+    },
+    {
+      "title": "Enterprise AI ROI Analysis Report: What Actually Works in 2025",
+      "url": "https://ai.plainenglish.io/enterprise-ai-roi-analysis-report-what-actually-works-in-2025-87b6f35a7841?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:13:40.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.36377892645740084,
+      "crawledAt": "2026-01-15T16:42:27.802Z",
+      "id": "id05ws",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8932651281356812,
+          "index": 4,
+          "word": "##O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9732499122619629,
+          "index": 10,
+          "word": "Actually",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9263991117477417,
+          "index": 11,
+          "word": "Works",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:57.691Z"
+    },
+    {
+      "title": "LAI #110: Fixing Context Rot and Rethinking How Agents Reason",
+      "url": "https://pub.towardsai.net/lai-110-fixing-context-rot-and-rethinking-how-agents-reason-bcc3f8e5e5d0?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:02:50.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4133074605933268,
+      "crawledAt": "2026-01-15T16:42:24.069Z",
+      "id": "p9n0hr",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:45:58.203Z"
+    },
+    {
+      "title": "Google Antigravity: AI-First Development with This New IDE",
+      "url": "https://www.kdnuggets.com/google-antigravity-ai-first-development-with-this-new-ide",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T15:00:31.000Z",
+      "metaDescription": "Google Antigravity marks the beginning of the \"agent-first\" era, It isn't just a Copilot, it’s a platform where you stop being the typist and start being the architect.",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.6715423391672369,
+      "crawledAt": "2026-01-15T16:43:15.866Z",
+      "id": "ksubbv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8587899208068848,
+          "index": 2,
+          "word": "Anti",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9949666261672974,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9954266548156738,
+          "index": 8,
+          "word": "First",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9852572083473206,
+          "index": 9,
+          "word": "Development",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google Antigravity marks the beginning of the \"agent-first\" era. It's a platform where you stop being the typist and start being the architect.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:46:09.710Z"
+    },
+    {
+      "title": "How to Run Coding Agents in Parallel",
+      "url": "https://towardsdatascience.com/how-to-run-coding-agents-in-parallell/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T15:00:00.000Z",
+      "metaDescription": "Get the most out of Claude Code\nThe post How to Run Coding Agents in Parallel appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3349047541479771,
+      "crawledAt": "2026-01-15T16:41:56.142Z",
+      "id": "om7jjm",
+      "entities": [],
+      "summary": " The post How to Run Coding Agents in Parallel appeared on Towards Data Science. Get the most out of Claude Code.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:46:29.889Z"
+    },
+    {
+      "title": "Vector Databases: Unlocking the Future of Intelligent AI and Semantic Search",
+      "url": "https://pub.towardsai.net/vector-databases-unlocking-the-future-of-intelligent-ai-and-semantic-search-8c630324ded8?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T14:02:48.000Z",
+      "metaDescription": "How AI Learns Meaning, Not Just Keywords\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.46081833659894883,
+      "crawledAt": "2026-01-15T16:42:24.171Z",
+      "id": "b0s2mu",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9450487494468689,
+          "index": 13,
+          "word": "##ligent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9842663407325745,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8124030232429504,
+          "index": 16,
+          "word": "Se",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8933987021446228,
+          "index": 17,
+          "word": "##man",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9642499089241028,
+          "index": 19,
+          "word": "Search",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " How AI Learns Meaning, Not Just Keywords, Not just Keywords. How AI learns Meaning, not Just Key Words, NotJust Keywords.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:47:12.281Z"
+    },
+    {
+      "title": "Meeting the new ETSI standard for AI security",
+      "url": "https://www.artificialintelligence-news.com/news/meeting-the-new-etsi-standard-for-ai-security/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T13:23:47.000Z",
+      "metaDescription": "The ETSI EN 304 223 standard introduces baseline security requirements for AI that enterprises must integrate into governance frameworks. As organisations embed machine learning into their core operat",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.27959738399706635,
+      "crawledAt": "2026-01-15T16:42:00.938Z",
+      "id": "8mx4el",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8721941709518433,
+          "index": 4,
+          "word": "ET",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8846710920333862,
+          "index": 5,
+          "word": "##SI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.983040988445282,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The ETSI EN 304 223 standard introduces baseline security requirements for AI. As organisations embed machine learning into their systems, they must integrate into governance systems.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:47:49.370Z"
+    },
+    {
+      "title": "7 AI Automation Tools for Streamlined Workflows",
+      "url": "https://www.kdnuggets.com/7-ai-automation-tools-for-streamlined-workflows",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T13:00:41.000Z",
+      "metaDescription": "This list focuses on tools that streamline real workflows across data, operations, and content, not flashy demos or brittle bots. Each one earns its place by reducing manual effort while keeping human",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28669719640066815,
+      "crawledAt": "2026-01-15T16:43:16.024Z",
+      "id": "15t9v6",
+      "entities": [],
+      "summary": " This list focuses on tools that streamline workflows across data, operations, and content. Each one earns its place by reducing manual effort while keeping human effort.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:48:23.933Z"
+    },
     {
       "title": "LLMs: Just a Next Token Predictor",
       "url": "https://www.reddit.com/r/deeplearning/comments/1qdiny9/llms_just_a_next_token_predictor/",
@@ -3181,6 +3929,34 @@
       "summary": " The transition from Cloud-Native to AI-Native is fundamentally reshaping software engineering. The transition is a step from the current system to the new system.",
       "language": "en",
       "processed_at": "2026-01-15T08:56:20.311Z"
+    },
+    {
+      "title": "Breaking through AI’s memory wall with token warehousing",
+      "url": "https://venturebeat.com/infrastructure/breaking-through-ais-memory-wall-with-token-warehousing",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-15T05:00:00.000Z",
+      "metaDescription": "As agentic AI moves from experiments to real production workloads, a quiet but serious infrastructure problem is coming into focus: memory. Not compute. Not models. Memory.\nUnder the hood, today’s GPU",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2551916155272286,
+      "crawledAt": "2026-01-15T16:41:59.159Z",
+      "id": "jm25b6",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.805674135684967,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Under the hood, today’s GPU is today‘under the hood' As agentic AI moves from experiments to real production workloads, a quiet but serious infrastructure problem is coming into focus.",
+      "language": "en",
+      "processed_at": "2026-01-15T16:48:57.422Z"
     },
     {
       "title": "Stop Wasting PDFs — Build a RAG That Actually Understands Them",
@@ -91838,712 +92614,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2025-12-31T20:35:04.644Z"
-    },
-    {
-      "title": "Here we go again: Retiring coal plant forced to stay open by Trump Admin",
-      "url": "https://arstechnica.com/science/2025/12/trump-admin-orders-another-coal-plant-to-stay-open/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T16:30:33.000Z",
-      "metaDescription": "This time, a Colorado plant scheduled to shut down will be kept on standby.",
-      "category": "tutorial-guide",
-      "difficulty": 3,
-      "confidence": 0.4075269440909167,
-      "crawledAt": "2025-12-31T20:29:01.478Z",
-      "id": "c9vik",
-      "entities": [],
-      "summary": " A Colorado plant scheduled to shut down will be kept on standby. This time, a Colorado plant will be shut down.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:35:36.644Z"
-    },
-    {
-      "title": "Open Agent Platform - Local Hosting",
-      "url": "https://www.reddit.com/r/LangChain/comments/1q0h2o7/open_agent_platform_local_hosting/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T16:30:02.000Z",
-      "metaDescription": "Have successfully managed to spin up the langgraph Open Agent Platform service & one of their example supervisor agents. However when I enter the OAP front end the langgraph agent isn't listed.\n Any h",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.3132563621235616,
-      "crawledAt": "2025-12-31T20:30:14.264Z",
-      "id": "k980fn",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8308435082435608,
-          "index": 2,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The langgraph Open Agent Service is a service for the Open Graph Open Platform. The service is based on the OpenGraph Open Agent service.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:35:47.527Z"
-    },
-    {
-      "title": "Generate OpenAI embeddings locally with minilm+adapter, pip install embedding-adapters",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1q0gwfz/generate_openai_embeddings_locally_with/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T16:22:41.000Z",
-      "metaDescription": "I built a Python library called EmbeddingAdapters that provides multiple pre-trained adapters for translating embeddings from one model space into another:\n https://pypi.org/project/embedding-adapters",
-      "category": "infrastructure",
-      "difficulty": 7,
-      "confidence": 0.36573099046984237,
-      "crawledAt": "2025-12-31T20:30:00.687Z",
-      "id": "wu99y9",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9080061912536621,
-          "index": 3,
-          "word": "Open",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " EmbeddingAdapters are a tool to translate embeddings from one model to another. Embeddedadapters are available in the Python library.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:35:57.418Z"
-    },
-    {
-      "title": "AI corporations: 1 in 6 chance AI will kill us all. But also - profits!",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1q0giys/ai_corporations_1_in_6_chance_ai_will_kill_us_all/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T16:07:00.000Z",
-      "metaDescription": "submitted by    /u/FinnFarrow  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.3179058276838529,
-      "crawledAt": "2025-12-31T20:29:53.571Z",
-      "id": "f7uouz",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:35:57.669Z"
-    },
-    {
-      "title": "A Tiny Personal Humanoid Robot Q1 - AGIBOT QUESTER1",
-      "url": "https://www.reddit.com/r/singularity/comments/1q0gigs/a_tiny_personal_humanoid_robot_q1_agibot_quester1/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T16:06:25.000Z",
-      "metaDescription": "submitted by    /u/Worldly_Evidence9113  \n [link]   [comments]",
-      "category": "developer-tool",
-      "difficulty": 4,
-      "confidence": 0.7141133050904772,
-      "crawledAt": "2026-01-01T02:24:31.380Z",
-      "id": "i6zi04",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8775327205657959,
-          "index": 5,
-          "word": "##oid",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-01T02:30:31.979Z"
-    },
-    {
-      "title": "The Word That Creates Reality",
-      "url": "https://www.reddit.com/r/artificial/comments/1q0g9r0/the_word_that_creates_reality/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T15:56:35.000Z",
-      "metaDescription": "You use the word \"is\" hundreds of times a day without noticing.\n \"This is true.\" \"That is wrong.\" \"He is guilty.\" \"She is innocent.\" \"It is real.\" \"They are lying.\"\n Every time you say \"is,\" you're do",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.580008919281795,
-      "crawledAt": "2025-12-31T20:29:57.790Z",
-      "id": "d4xve5",
-      "entities": [],
-      "summary": "Every time you say \"is\" \"It is real\" \"They are lying,\" says one man. \"They're lying,\" he says.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:36:07.690Z"
-    },
-    {
-      "title": "This is one of the coolest demonstrations of AI video I've seen!",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1q0ftd4/this_is_one_of_the_coolest_demonstrations_of_ai/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T15:36:59.000Z",
-      "metaDescription": "2026 we will contribute to distribute Hollywood quality to the masses....\n    submitted by    /u/arsaldotchd  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.6382075907081208,
-      "crawledAt": "2025-12-31T20:29:53.157Z",
-      "id": "155kwg",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9803388118743896,
-          "index": 10,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:36:08.006Z"
-    },
-    {
-      "title": "left some SCAIL running while dinner with family. checked back surprised how good they handle hands",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q0fpra/left_some_scail_running_while_dinner_with_family/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T15:32:39.000Z",
-      "metaDescription": "i did this in RTX 3060 12g, render on gguf 568p 5s got around 16-17mins each. its not fast, atleast it work. definitely will become my next favorite when they release full ver\n here workflow that i us",
-      "category": "safety-ethics",
-      "difficulty": 4,
-      "confidence": 0.501226958654073,
-      "crawledAt": "2026-01-01T02:24:49.855Z",
-      "id": "77nkfb",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.865476667881012,
-          "index": 3,
-          "word": "SC",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8946621417999268,
-          "index": 4,
-          "word": "##A",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " i did this in RTX 3060 12g, render on gguf 568p 5s got around 16-17mins each. Its not fast, atleast it work.",
-      "language": "en",
-      "processed_at": "2026-01-01T02:30:47.374Z"
-    },
-    {
-      "title": "Production-Ready LLMs Made Simple with the NeMo Agent Toolkit",
-      "url": "https://towardsdatascience.com/production-ready-llms-made-simple-with-nemo-agent-toolkit/",
-      "source": "Towards Data Science",
-      "source_domain": "towardsdatascience.com",
-      "source_category": "tutorial",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T15:30:00.000Z",
-      "metaDescription": "From simple chat to multi-agent reasoning and real-time REST APIs\nThe post Production-Ready LLMs Made Simple with the NeMo Agent Toolkit appeared first on Towards Data Science.",
-      "category": "developer-tool",
-      "difficulty": 5,
-      "confidence": 0.25304149004802395,
-      "crawledAt": "2025-12-31T16:33:13.626Z",
-      "id": "yqz59k",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8630384802818298,
-          "index": 10,
-          "word": "N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8212791681289673,
-          "index": 11,
-          "word": "##e",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8268908858299255,
-          "index": 14,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The NeMo Agent is a tool that allows users to create a web-based web-enabled web-site. The tool is a free tool that lets you create a Web-based Web-enabled website.",
-      "language": "en",
-      "processed_at": "2025-12-31T16:34:44.201Z"
-    },
-    {
-      "title": "This Python Package Makes Differentiable Physics Simulations Practical",
-      "url": "https://pub.towardsai.net/this-python-package-makes-differentiable-physics-simulations-practical-9d0cfeaea903?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T15:02:33.000Z",
-      "metaDescription": "Continue reading on Towards AI »",
-      "category": "developer-tool",
-      "difficulty": 4,
-      "confidence": 0.5368572455185185,
-      "crawledAt": "2025-12-31T16:33:37.878Z",
-      "id": "63jba7",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9849308729171753,
-          "index": 2,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-31T16:34:44.302Z"
-    },
-    {
-      "title": "what helps you to concentrate more?",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1q0ezh1/what_helps_you_to_concentrate_more/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T15:01:18.000Z",
-      "metaDescription": "noise cancelation noises are really helpful for myself - but do more people listen in their earphones to black noise or to white noise? or nature sounds? what else is helpful?\n    submitted by    /u/r",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.31228209072359636,
-      "crawledAt": "2025-12-31T20:30:01.069Z",
-      "id": "e5zxxl",
-      "entities": [],
-      "summary": " noise cancelation noises are really helpful for myself - but do more people listen in their earphones to black noise? or nature sounds? What else is helpful?",
-      "language": "en",
-      "processed_at": "2025-12-31T20:36:33.746Z"
-    },
-    {
-      "title": "Train Nested learning Model for Low Cost by one script like nanochat",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1q0ewxo/train_nested_learning_model_for_low_cost_by_one/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T14:58:12.000Z",
-      "metaDescription": "So by now you must know that google released the research paper for nested learning\n I wanted to train a toy version of that for low cost, in October Sir Andrej karpathy open source a repository name ",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3218003454591739,
-      "crawledAt": "2025-12-31T20:30:01.243Z",
-      "id": "xxq570",
-      "entities": [],
-      "summary": "Google released the research paper for nested learning. I wanted to train a toy version of that for low cost, in October.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:36:43.186Z"
-    },
-    {
-      "title": "Python + AI Automation: How It Really Works",
-      "url": "https://python.plainenglish.io/python-ai-automation-how-it-really-works-and-why-its-not-always-easy-9b72347ba89a?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T14:39:08.000Z",
-      "metaDescription": "When I first heard people say, “Just automate it with Python,” it sounded like magic.\n Type a few lines of code… and suddenly your…\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.8844378696880749,
-      "crawledAt": "2025-12-31T16:33:45.776Z",
-      "id": "ovk89l",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9550284147262573,
-          "index": 1,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "When I first heard people say, “Just automate it with Python,’ it sounded like magic,” it soundedlike magic.",
-      "language": "en",
-      "processed_at": "2025-12-31T16:35:14.556Z"
-    },
-    {
-      "title": "AI‑assisted sculpting workflow I’ve been refining",
-      "url": "https://www.reddit.com/r/artificial/comments/1q0e6kr/aiassisted_sculpting_workflow_ive_been_refining/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T14:24:59.000Z",
-      "metaDescription": "I’ve been experimenting with AI‑assisted sculpting workflows for 3D miniatures \n generating base forms with AI, refining them in Blender/ZBrush, and then preparing them for print.\n Here’s what’s been ",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.49164343634069557,
-      "crawledAt": "2025-12-31T20:29:56.721Z",
-      "id": "3f9hb2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9456554651260376,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " AI-assisted sculpting has been used to create 3D models for 3D miniatures. The 3D model is based on a 3D image of a 3-D model.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:36:57.684Z"
-    },
-    {
-      "title": "Why anti-AI mood on a rise?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1q0e2z1/why_antiai_mood_on_a_rise/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T14:20:13.000Z",
-      "metaDescription": "I'm hugely surprised how anti-AI big subs, such as Futurology, are.\n AI is just autocomplete, they say.\n Also:\n AI will take all our jobs, they say.\n Which is it?\"\n I see AI as a helper. Since when he",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.47353899574464153,
-      "crawledAt": "2025-12-31T20:30:06.347Z",
-      "id": "t67l2y",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9480359554290771,
-          "index": 4,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Anti-AI big subs, such as Futurology, are just autocomplete, they say. Also: \"Intelligent AI will take all our jobs\"",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:11.485Z"
-    },
-    {
-      "title": "Subject Plus+ ZIT LoRA",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q0dygk/subject_plus_vibes_zit_lora/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T14:14:19.000Z",
-      "metaDescription": "submitted by    /u/MikirahMuse  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.48324936948795383,
-      "crawledAt": "2025-12-31T20:30:07.663Z",
-      "id": "reja9m",
-      "entities": [
-        {
-          "entity": "I-ORG",
-          "score": 0.9408556222915649,
-          "index": 7,
-          "word": "Lo",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.856402575969696,
-          "index": 8,
-          "word": "##RA",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:11.692Z"
-    },
-    {
-      "title": "Z-Image-Turbo vs Qwen Image 2512",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q0dsnj/zimageturbo_vs_qwen_image_2512/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T14:06:31.000Z",
-      "metaDescription": "submitted by    /u/Artefact_Design  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.30628244002246807,
-      "crawledAt": "2025-12-31T20:30:07.284Z",
-      "id": "1459j0",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9976597428321838,
-          "index": 1,
-          "word": "Z",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8639304041862488,
-          "index": 2,
-          "word": "-",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9958474636077881,
-          "index": 3,
-          "word": "Image",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9771631360054016,
-          "index": 5,
-          "word": "Turbo",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9985019564628601,
-          "index": 7,
-          "word": "Q",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9464800953865051,
-          "index": 8,
-          "word": "##wen",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9908804297447205,
-          "index": 9,
-          "word": "Image",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI-powered creative content generation and tools.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:11.821Z"
-    },
-    {
-      "title": "mem0, Zep, Letta, Supermemory etc: why do memory layers keep remembering the wrong things?",
-      "url": "https://www.reddit.com/r/LangChain/comments/1q0dpty/mem0_zep_letta_supermemory_etc_why_do_memory/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T14:02:45.000Z",
-      "metaDescription": "Hi everyone, this question is for people building AI agents that go a bit beyond basic demos. I keep running into the same limitation: many memory layers (mem0, Zep, Letta, Supermemory, etc.) decide f",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.5682334513362338,
-      "crawledAt": "2025-12-31T20:30:14.004Z",
-      "id": "10txta",
-      "entities": [],
-      "summary": " AI agents go a bit beyond basic demos. Many memory layers (mem0, Zep, Letta, Supermemory, etc.) decide f f f AI agents.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:23.833Z"
-    },
-    {
-      "title": "The $18/Hour Hacker: How AI Redefined the Economics of Cyber Attack",
-      "url": "https://pub.towardsai.net/the-18-hour-hacker-how-ai-redefined-the-economics-of-cyber-attack-55ee7a0bd0e3?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T14:02:28.000Z",
-      "metaDescription": "For security leaders: a breakdown of the first documented AI-driven cyber campaign, the new tools already in the wild, and a concrete…\nContinue reading on Towards AI »",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.38368539414263536,
-      "crawledAt": "2025-12-31T16:33:38.037Z",
-      "id": "vk8vy8",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8068109750747681,
-          "index": 19,
-          "word": "Attack",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A breakdown of the first documented AI-driven cyber campaign, the new tools already in the wild, and a concrete. For security leaders, a breakdown of a first documented cyber campaign.",
-      "language": "en",
-      "processed_at": "2025-12-31T16:35:29.842Z"
-    },
-    {
-      "title": "PanelPainter V3: Manga Coloring for QIE 2511. Happy New Year!",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1q0deoz/lora_panelpainter_v3_manga_coloring_for_qie_2511/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T13:47:46.000Z",
-      "metaDescription": "Somehow, I managed to get this trained and finished just hours before the New Year.\n PanelPainter V3 is a significant shift in my workflow. For this run, I scrapped my old bulk datasets and hand-picke",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.5613369352257189,
-      "crawledAt": "2025-12-31T20:30:09.216Z",
-      "id": "6dpf52",
-      "entities": [],
-      "summary": "For this run, I scrapped my old bulk datasets and hand-picke. I managed to get this trained and finished just before the New Year.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:33.218Z"
-    },
-    {
-      "title": "Neural networks and deep learning or NLP?",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1q0d860/neural_networks_and_deep_learning_or_nlp/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T13:38:58.000Z",
-      "metaDescription": "So, im a college student, quite interested in ai ml and also in finance. Basically, we have to take an elective course and we have two options which are neural networks and dl or nlp. Neural networks ",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.7463724467372482,
-      "crawledAt": "2025-12-31T20:30:01.407Z",
-      "id": "gg0fom",
-      "entities": [],
-      "summary": " Students have two options which are neural networks and dl or nlp. Students have to take an elective course.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:42.307Z"
-    },
-    {
-      "title": "Supply chains, AI, and the cloud: The biggest failures of 2025",
-      "url": "https://arstechnica.com/security/2025/12/supply-chains-ai-and-the-cloud-the-biggest-failures-and-one-success-of-2025/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2025-12-31T13:15:40.000Z",
-      "metaDescription": "The past year has seen plenty of hacks and outages. Here are the ones topping the list.",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3742516402351335,
-      "crawledAt": "2025-12-31T16:33:04.954Z",
-      "id": "cb88n",
-      "entities": [],
-      "summary": " The past year has seen plenty of hacks and outages. Here are the ones topping the list. The past years have seen plenty.",
-      "language": "en",
-      "processed_at": "2025-12-31T16:35:53.897Z"
-    },
-    {
-      "title": "My DC-GAN works better then ever!",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1q0cmvw/p_my_dcgan_works_better_then_ever/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T13:09:06.000Z",
-      "metaDescription": "I recently made a Deep Convolutional Generative adviseral Network which had some architecture problem at the starting but now it works . It still takes like 20mins for 50 epochs . Here are some images",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.6104678433892031,
-      "crawledAt": "2026-01-01T08:37:14.078Z",
-      "id": "krfcfl",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8371731042861938,
-          "index": 2,
-          "word": "DC",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I recently made a Deep Convolutional Generative Generative adviseral Network which had some architecture problem at the starting but now it works. It still takes like 20mins for 50 epochs.",
-      "language": "en",
-      "processed_at": "2026-01-01T08:54:00.881Z"
-    },
-    {
-      "title": "Another large open model from Korea about to be released release planned on 4th of january 2026 - A.X K1 by SK Telecom",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q0clou/another_large_open_model_from_korea_about_to_be/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2025-12-31T13:07:20.000Z",
-      "metaDescription": "https://huggingface.co/skt/A.X-K1\n From elie on 𝕏: https://x.com/eliebakouch/status/2006345217965011009\n    submitted by    /u/Nunki08  \n [link]   [comments]",
-      "category": "model-release",
-      "difficulty": 6,
-      "confidence": 0.5286601747144506,
-      "crawledAt": "2025-12-31T20:29:51.748Z",
-      "id": "r39t7i",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.9996674060821533,
-          "index": 6,
-          "word": "Korea",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9984466433525085,
-          "index": 28,
-          "word": "SK",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9984552264213562,
-          "index": 29,
-          "word": "Telecom",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Announcement or discussion about new AI model releases and updates.",
-      "language": "en",
-      "processed_at": "2025-12-31T20:37:42.469Z"
     }
   ],
-  "processedAt": "2026-01-15T13:06:50.370Z",
+  "processedAt": "2026-01-15T16:48:57.427Z",
   "categories": [
-    "creative-ai",
     "developer-tool",
-    "model-release",
-    "product-launch",
+    "safety-ethics",
+    "creative-ai",
+    "industry-news",
     "infrastructure",
     "ai-agents",
-    "safety-ethics",
+    "model-release",
+    "product-launch",
     "research-paper",
-    "industry-news",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 30,
-  "existingArticlesKept": 2768,
+  "newArticlesProcessed": 19,
+  "existingArticlesKept": 2770,
   "cleanupApplied": true,
-  "cleanedUpCount": 28,
+  "cleanedUpCount": 24,
   "rollingWindowDays": 15
 }
