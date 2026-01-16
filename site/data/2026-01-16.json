@@ -1,9 +1,463 @@
 {
-  "crawledAt": "2026-01-16T02:11:35.507Z",
+  "crawledAt": "2026-01-16T04:46:39.266Z",
   "totalSources": 70,
-  "totalArticles": 56,
+  "totalArticles": 67,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "I miss searching the Web for Answers",
+      "url": "https://www.reddit.com/r/singularity/comments/1qe64bb/i_miss_searching_the_web_for_answers/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T04:21:34.000Z",
+      "metaDescription": "Stumbling upon pages and pages of documents, having to search through them for what you need\n Exploring some obscure 10 years old Stack Overflow post where people discuss a solution\n Having to underst",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.34278410214152394,
+      "crawledAt": "2026-01-16T04:45:26.015Z",
+      "id": "sj9p2n",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.942807137966156,
+          "index": 5,
+          "word": "Web",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Stumbling upon pages and pages of documents, having to search through them for what you need. Exploring some obscure 10 years old Stack Overflow post.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:46:51.668Z"
+    },
+    {
+      "title": "Black Forest Labs releases FLUX.2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qe5p2f/black_forest_labs_releases_flux2_klein/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-16T04:01:07.000Z",
+      "metaDescription": "Black Forest Labs released their new FLUX.2 [klein] model\n https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence\n  \nFLUX.2 [klein]: Towards Interactive Visual Intelligence\n Today, we",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.2704994051344425,
+      "crawledAt": "2026-01-16T04:45:19.075Z",
+      "id": "vrfgjf",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991342425346375,
+          "index": 1,
+          "word": "Black",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9992255568504333,
+          "index": 2,
+          "word": "Forest",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9991037249565125,
+          "index": 3,
+          "word": "Labs",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.981860876083374,
+          "index": 5,
+          "word": "FL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9061291813850403,
+          "index": 7,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.805094301700592,
+          "index": 9,
+          "word": "2",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Black Forest Labs released their new FLUX.2 [klein] model. Black Forest Labs release their new model.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:00.932Z"
+    },
+    {
+      "title": "Anthropic Report finds long-horizon tasks at 19 hours by using multi-turn conversation",
+      "url": "https://www.reddit.com/r/singularity/comments/1qe5n5r/anthropic_report_finds_longhorizon_tasks_at_19/",
+      "source": "r/singularity",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T03:58:42.000Z",
+      "metaDescription": "Caveats are in the report\n The models and agents can be stretched in various creative ways in order to be better. We see this recently with Cursor able to get many GPT-5.2 agents to build a browser wi",
+      "category": "industry-news",
+      "difficulty": 5,
+      "confidence": 0.25206522520508123,
+      "crawledAt": "2026-01-16T04:45:24.112Z",
+      "id": "x5nbf0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9825142621994019,
+          "index": 1,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8038434386253357,
+          "index": 2,
+          "word": "##throp",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9629348516464233,
+          "index": 3,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9661993980407715,
+          "index": 4,
+          "word": "Report",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The models and agents can be stretched in various ways in order to be better. Caveats are in the report.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:08.468Z"
+    },
+    {
+      "title": "What 3,000 AI Case Studies Actually Tell Us",
+      "url": "https://www.reddit.com/r/artificial/comments/1qe5ax3/what_3000_ai_case_studies_actually_tell_us_and/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-16T03:42:31.000Z",
+      "metaDescription": "I analyzed 3,023 enterprise AI use cases to understand what's actually being deployed vs. vendor claims.\n Google published 996 cases (33% of dataset), Microsoft 755 (25%). These reflect marketing budg",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.3067180647560318,
+      "crawledAt": "2026-01-16T04:45:14.475Z",
+      "id": "irtspk",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9152426719665527,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9698200821876526,
+          "index": 7,
+          "word": "Studies",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I analyzed 3,023 enterprise AI use cases to understand what's actually being deployed vs. vendor claims. Google published 996 cases (33% of dataset) and Microsoft 755 (25%) These reflect marketing budgg.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:22.383Z"
+    },
+    {
+      "title": "LTX-2 is amazing in 3D cartoon",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qe5a5n/ltx2_is_amazing_in_3d_cartoon/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T03:41:30.000Z",
+      "metaDescription": "5090d takes 140s to produce a 14s 720p video\n I use this i2v workflow : reddit\n I use distilled Q8 model ,8 steps, cfg 1 and prompt is from official site.\n    submitted by    /u/cyberpunk1949  \n [link",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9828709839929644,
+      "crawledAt": "2026-01-16T04:45:39.300Z",
+      "id": "44d3ep",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8172855973243713,
+          "index": 1,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9447064995765686,
+          "index": 2,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9836889505386353,
+          "index": 3,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8775345683097839,
+          "index": 4,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9178861379623413,
+          "index": 5,
+          "word": "2",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8972282409667969,
+          "index": 9,
+          "word": "3D",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " 5090d takes 140s to produce a 14s 720p video. I use distilled Q8 model,8 steps, cfg 1 and prompt is from official site.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:35.191Z"
+    },
+    {
+      "title": "How is this translation done by ChatGPT ?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qe542d/how_is_this_translation_done_by_chatgpt/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-16T03:33:35.000Z",
+      "metaDescription": "https://chatgpt.com/share/6969ab01-2658-800b-b455-04cca7ff3acc\n does it translate accurately?\n trying to translate a VN who never been localized to english\n    submitted by    /u/Serious_Barber1483  \n",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.46241074191499176,
+      "crawledAt": "2026-01-16T04:45:36.347Z",
+      "id": "3v1ibk",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9837648868560791,
+          "index": 7,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8962713479995728,
+          "index": 9,
+          "word": "##GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8960195183753967,
+          "index": 10,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:48.455Z"
+    },
+    {
+      "title": "SPIFFE-SPIRE K8s framework",
+      "url": "https://www.reddit.com/r/mlops/comments/1qe4bke/spiffespire_k8s_framework/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T02:57:39.000Z",
+      "metaDescription": "Friends,\n I noticed this is becoming a requirement everywhere I go. So I built a generic framework that anyone can use of course with the help of some :) tools.\n Check it out here - https://github.com",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6329229481778352,
+      "crawledAt": "2026-01-16T04:45:52.883Z",
+      "id": "vdu89q",
+      "entities": [],
+      "summary": " The framework is a generic framework that anyone can use with the help of some :) tools. Check it out here.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:47:57.068Z"
+    },
+    {
+      "title": "Flux 2 Klein vs Nano Banana Pro",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qe45p0/flux_2_klein_vs_nano_banana_pro/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T02:50:22.000Z",
+      "metaDescription": "Full quality - https://imgur.com/a/2R9rGsw\n 1 - Input Image\n 2 - Result from Flux 2 Klein (also it fast asf, 6 seconds on my 4080)\n 3 - Nano Banana Pro\n Prompt - \"Remove image grain. Remove overexposu",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.9046026499662795,
+      "crawledAt": "2026-01-16T04:45:40.698Z",
+      "id": "r8xmx1",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9953650832176208,
+          "index": 1,
+          "word": "F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9514961838722229,
+          "index": 2,
+          "word": "##lux",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9614617824554443,
+          "index": 4,
+          "word": "Klein",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9989466071128845,
+          "index": 6,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9905173778533936,
+          "index": 7,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9988939762115479,
+          "index": 8,
+          "word": "Ban",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9984237551689148,
+          "index": 9,
+          "word": "##ana",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9944355487823486,
+          "index": 10,
+          "word": "Pro",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"Remove image grain. Remove overexposuu. Remove image grain,\" says Nano Banana Pro. \"Remove the image grain\"",
+      "language": "en",
+      "processed_at": "2026-01-16T04:48:06.943Z"
+    },
+    {
+      "title": "Deep Learning from Jensen Huang",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qe3yal/deep_learning_from_jensen_huang/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-16T02:41:11.000Z",
+      "metaDescription": "I listened to a new podcast and Jensen Huang is always so optimistic about deep learning and a sort of \"software 2.0.\" He kind of says there will be an end to coding and that the computers will learn ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3149990260175671,
+      "crawledAt": "2026-01-16T04:45:31.728Z",
+      "id": "2d09gp",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.999119758605957,
+          "index": 4,
+          "word": "Jensen",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9951372742652893,
+          "index": 5,
+          "word": "Huang",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Jensen Huang says there will be an end to coding and that computers will learn more quickly. He says there is an end for coding and computers will have to learn more about it.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:48:18.772Z"
+    },
+    {
+      "title": "Why does ai do marvels with imaging and realism but is terrible at following text prompts within those images?",
+      "url": "https://www.reddit.com/r/artificial/comments/1qe3hw4/why_does_ai_do_marvels_with_imaging_and_realism/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-16T02:20:59.000Z",
+      "metaDescription": "By text prompts I mean if I wanted part of my video/image to say a certain word or title within the image. It often comes up with almost foreign looking language. Or mimics but often misspells the wor",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9309266960471437,
+      "crawledAt": "2026-01-16T04:45:14.678Z",
+      "id": "yv66k3",
+      "entities": [],
+      "summary": "Text prompts to say a certain word or title within the image. It often comes up with almost foreign looking language.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:48:43.803Z"
+    },
     {
       "title": "9 Python Shortcuts Hidden in Plain Sight",
       "url": "https://python.plainenglish.io/9-python-shortcuts-hidden-in-plain-sight-8a609764f727?source=rss----78073def27b8---4",
@@ -1412,6 +1866,58 @@
       "processed_at": "2026-01-16T02:21:04.959Z"
     },
     {
+      "title": "How Nano Banana got its name",
+      "url": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
+      "source": "Google AI Blog",
+      "source_domain": "blog.google",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-15T16:06:00.000Z",
+      "metaDescription": "We’re peeling back the origin story of Nano Banana, one of Google DeepMind’s most popular models.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3017655724296104,
+      "crawledAt": "2026-01-16T04:44:21.005Z",
+      "id": "t7yd9g",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9924471378326416,
+          "index": 2,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9862547516822815,
+          "index": 3,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9976159334182739,
+          "index": 4,
+          "word": "Ban",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9941384792327881,
+          "index": 5,
+          "word": "##ana",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "We're peeling back the origin of Nano Banana, one of Google's most popular models. Nano Banana is one of the most popular products in the world.",
+      "language": "en",
+      "processed_at": "2026-01-16T04:49:29.774Z"
+    },
+    {
       "title": "ComfyUI Course - Learn ComfyUI From Scratch | Full 5 Hour Course",
       "url": "https://www.reddit.com/r/StableDiffusion/comments/1qdnhl5/comfyui_course_learn_comfyui_from_scratch_full_5/",
       "source": "r/StableDiffusion",
@@ -1982,19 +2488,20 @@
       "processed_at": "2026-01-16T02:24:07.443Z"
     }
   ],
-  "processedAt": "2026-01-16T02:24:15.104Z",
+  "processedAt": "2026-01-16T04:49:29.782Z",
   "categories": [
+    "infrastructure",
+    "model-release",
+    "industry-news",
     "creative-ai",
     "ai-agents",
     "safety-ethics",
-    "infrastructure",
-    "model-release",
     "product-launch",
     "developer-tool",
     "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 56,
-  "dailyArticlesCount": 56,
+  "newArticlesProcessed": 11,
+  "dailyArticlesCount": 67,
   "filterDate": "2026-01-16"
 }
