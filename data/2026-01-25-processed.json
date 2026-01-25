@@ -1,9 +1,422 @@
 {
-  "crawledAt": "2026-01-25T02:28:41.659Z",
+  "crawledAt": "2026-01-25T04:57:00.202Z",
   "totalSources": 70,
-  "totalArticles": 27,
+  "totalArticles": 44,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "I'll take it.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1qm8maz/ill_take_it/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-25T04:00:23.000Z",
+      "metaDescription": "Gemini made me into a Cheshire Cat. \n    submitted by    /u/LochNessJackalope  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.30233635335164183,
+      "crawledAt": "2026-01-25T04:56:00.293Z",
+      "id": "7wt1xo",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:02.401Z"
+    },
+    {
+      "title": "One-Minute Daily AI News 1/24/2026",
+      "url": "https://www.reddit.com/r/artificial/comments/1qm8ga8/oneminute_daily_ai_news_1242026/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:52:26.000Z",
+      "metaDescription": "Microsoft Releases VibeVoice-ASR: A Unified Speech-to-Text Model Designed to Handle 60-Minute Long-Form Audio in a Single Pass.[1]\n At Davos, fears about AI-driven job loss take center stage.[2]\n Big ",
+      "category": "industry-news",
+      "difficulty": 6,
+      "confidence": 0.3094857641899419,
+      "crawledAt": "2026-01-25T04:55:48.140Z",
+      "id": "vvwja9",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9973875284194946,
+          "index": 1,
+          "word": "One",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9894077181816101,
+          "index": 3,
+          "word": "Min",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9965536594390869,
+          "index": 4,
+          "word": "##ute",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9973098039627075,
+          "index": 5,
+          "word": "Daily",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9953755736351013,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.99861079454422,
+          "index": 7,
+          "word": "News",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Microsoft releases VibeVoice-ASR: A Unified Speech-to-Text Model Designed to Handle 60-Minute Long-Form Audio in a Single Pass.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:15.740Z"
+    },
+    {
+      "title": "RAE the new VAE?",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qm8637/rae_the_new_vae/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-25T03:38:44.000Z",
+      "metaDescription": "https://huggingface.co/papers/2601.16208\n \"Building on this simplified framework, we conduct a controlled comparison of RAE against the state-of-the-art FLUX VAE across diffusion transformer scales fr",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3226356496039215,
+      "crawledAt": "2026-01-25T04:56:21.050Z",
+      "id": "t034wm",
+      "entities": [],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:26.445Z"
+    },
+    {
+      "title": "We made egocentric video data with an “LLM” directing the human - useful for world models or total waste of time?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qm8375/we_made_egocentric_video_data_with_an_llm/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-25T03:35:02.000Z",
+      "metaDescription": "My cofounder and I ran an experiment. I wore a GoPro and did mundane tasks like cleaning. But instead of just recording raw egocentric video, my brother pretended to be an LLM on a video call - was ta",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7931623169222946,
+      "crawledAt": "2026-01-25T04:56:13.294Z",
+      "id": "804f22",
+      "entities": [],
+      "summary": "My brother pretended to be an LLM on a video call - was ta ta ta. My cofounder and I ran an experiment. I wore a GoPro and did mundane tasks like cleaning.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:42.673Z"
+    },
+    {
+      "title": "How to tell Claude Code about my local model’s context window size?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qm82ao/how_to_tell_claude_code_about_my_local_models/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:33:55.000Z",
+      "metaDescription": "I’ve got Claude Code running pointed against my local llama.cpp instance. But I can only run with about 64k of context locally before I run out of memory. Claude Code seems to assume a bigger context ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.32514352394421714,
+      "crawledAt": "2026-01-25T04:55:57.650Z",
+      "id": "qnt5d4",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9979215860366821,
+          "index": 4,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999047577381134,
+          "index": 5,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Claude Code seems to assume a bigger context. But I can only run with 64k of context locally before I run out of memory.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:51.387Z"
+    },
+    {
+      "title": "Davos 2026: What the Tech Elite Really Thinks About AI",
+      "url": "https://pub.towardsai.net/davos-2026-what-the-tech-elite-really-thinks-about-ai-and-what-they-avoided-saying-9427d10032d9?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:20:15.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4657831044604143,
+      "crawledAt": "2026-01-25T04:55:34.925Z",
+      "id": "qm4s15",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8065305948257446,
+          "index": 9,
+          "word": "Elite",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:57:51.496Z"
+    },
+    {
+      "title": "GLM-4.7-Flash: Z.ai’s Free Coding Model and What the Benchmarks Say",
+      "url": "https://pub.towardsai.net/glm-4-7-flash-z-ais-free-coding-model-and-what-the-benchmarks-say-da04bff51d47?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:19:54.000Z",
+      "metaDescription": "A look at the 30B MoE model that just dropped with unlimited free API access\nContinue reading on Towards AI »",
+      "category": "research-paper",
+      "difficulty": 4,
+      "confidence": 0.31101166232045746,
+      "crawledAt": "2026-01-25T04:55:35.071Z",
+      "id": "7brnu4",
+      "entities": [],
+      "summary": " A look at the 30B MoE model that just dropped with unlimited free API access. A look back at the model that dropped with free APIaccess.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:01.734Z"
+    },
+    {
+      "title": "In Davos, Demis Hassabis bets 50/50 AGI arrives in five years",
+      "url": "https://pub.towardsai.net/in-davos-demis-hassabis-says-agi-arrives-in-five-years-255458898ea1?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:18:58.000Z",
+      "metaDescription": "The famed Nobel laureate and Google DeepMind boss returns to Davos with Gemini 3, a cooler take on China, and a 50% bet on AGI by 2030\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2956628346352501,
+      "crawledAt": "2026-01-25T04:55:35.251Z",
+      "id": "l5shgf",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9947819709777832,
+          "index": 2,
+          "word": "Da",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9596728086471558,
+          "index": 3,
+          "word": "##vos",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9991081357002258,
+          "index": 5,
+          "word": "De",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999606192111969,
+          "index": 7,
+          "word": "Has",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9952718615531921,
+          "index": 8,
+          "word": "##sa",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.984586238861084,
+          "index": 9,
+          "word": "##bis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nobel laureate and Google DeepMind boss returns to Davos with Gemini 3, a cooler take on China, and a 50% bet on AGI by 2030.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:13.950Z"
+    },
+    {
+      "title": "Build Advanced RAG with LangGraph",
+      "url": "https://pub.towardsai.net/build-advanced-rag-with-langgraph-329158669812?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:17:37.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.45926620317380484,
+      "crawledAt": "2026-01-25T04:55:35.479Z",
+      "id": "3pvb0m",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8448529243469238,
+          "index": 4,
+          "word": "RA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:26.051Z"
+    },
+    {
+      "title": "Persistence in LangGraph — Deep, Practical Guide",
+      "url": "https://pub.towardsai.net/persistence-in-langgraph-deep-practical-guide-36dc4c452c3b?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:16:33.000Z",
+      "metaDescription": "Persistence in LangGraph means storing and restoring graph state so an agent/workflow can:\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5675841751161034,
+      "crawledAt": "2026-01-25T04:55:35.646Z",
+      "id": "lbg44z",
+      "entities": [],
+      "summary": " Persistence in LangGraph means storing and restoring graph state so an agent/workflow can be used as an agent.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:38.316Z"
+    },
+    {
+      "title": "Why MCP Matters: A Deep Dive into Model Context Protocol",
+      "url": "https://pub.towardsai.net/why-mcp-matters-a-deep-dive-into-model-context-protocol-46cfbb6bd984?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:16:23.000Z",
+      "metaDescription": "1) What is MCP?\nContinue reading on Towards AI »",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.37749387165495374,
+      "crawledAt": "2026-01-25T04:55:35.842Z",
+      "id": "q5dbxd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8709773421287537,
+          "index": 11,
+          "word": "Model",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9966734647750854,
+          "index": 12,
+          "word": "Con",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.97772216796875,
+          "index": 13,
+          "word": "##text",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.990943193435669,
+          "index": 14,
+          "word": "Protocol",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:38.634Z"
+    },
+    {
+      "title": "No fluff",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qm7o1x/no_fluff/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:14:57.000Z",
+      "metaDescription": "Why are 98.5% of ChatGPT's output tokens only the following terms: \n \"No fluff. Straight talk. It's not X, it's Y. You're absolutely right!\"\n I mean someone has had to explicitly programmed it to use ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5670614489541567,
+      "crawledAt": "2026-01-25T04:56:08.794Z",
+      "id": "y5m4bs",
+      "entities": [],
+      "summary": " The following terms: \"No fluff. Straight talk. It's not X, it's Y. You're absolutely right!\"",
+      "language": "en",
+      "processed_at": "2026-01-25T04:58:50.074Z"
+    },
+    {
+      "title": "AI that can generate fan art of pokemon characters",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qm7kid/ai_that_can_generate_fan_art_of_pokemon_characters/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T03:10:15.000Z",
+      "metaDescription": "Hi there, I am looking for a platform that I can use that doesn't have the rules and restrictions that would prevent it from creating copyrighted characters such as characters from pokémon, Harry Pott",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9652921630789648,
+      "crawledAt": "2026-01-25T04:56:08.949Z",
+      "id": "ndj8ix",
+      "entities": [],
+      "summary": "Harry Pott is looking for a platform that doesn't have the rules and restrictions that would prevent it from creating copyrighted characters such as characters from pokémon, Harry Pott.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:59:03.140Z"
+    },
     {
       "title": "What is the optimal number of threads for Whisper AI?",
       "url": "https://www.reddit.com/r/OpenAI/comments/1qm6ip4/what_is_the_optimal_number_of_threads_for_whisper/",
@@ -22,6 +435,50 @@
       "summary": " The number of Whisper AI threads no longer improves performance. For example, if I was to encode, I was trying to optimize throughput for a large number of files.",
       "language": "en",
       "processed_at": "2026-01-25T02:28:57.944Z"
+    },
+    {
+      "title": "Stable-DiffCoder, a strong code diffusion LLM built on Seed-Coder",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qm6iho/stablediffcoder_a_strong_code_diffusion_llm_built/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-01-25T02:22:05.000Z",
+      "metaDescription": "submitted by    /u/rektide  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.25692851343646106,
+      "crawledAt": "2026-01-25T04:55:55.938Z",
+      "id": "v9ttj1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9273407459259033,
+          "index": 18,
+          "word": "See",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9243819117546082,
+          "index": 19,
+          "word": "##d",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8148493766784668,
+          "index": 21,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:59:03.279Z"
     },
     {
       "title": "Help With Stack: Moving to a Decoupled Ecosystem w/ ChatGPT and Gemini Already",
@@ -93,6 +550,25 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-01-25T02:29:28.336Z"
+    },
+    {
+      "title": "I am not mad at this",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1qm5hg0/i_am_not_mad_at_this/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-25T01:36:38.000Z",
+      "metaDescription": "submitted by    /u/Neurospicyandnice  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6983859039539739,
+      "crawledAt": "2026-01-25T04:55:59.826Z",
+      "id": "by26ck",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:59:03.402Z"
     },
     {
       "title": "OpenAI’s Greatest Flaw: Diversity",
@@ -432,6 +908,58 @@
       "summary": " I asked ChatGPT to make a DnD Character sheet for an enemy. It started off normal and then went off the rails. I have never really joked around with my ChatGP or anything that I believe would prompt prompts.",
       "language": "en",
       "processed_at": "2026-01-25T02:30:44.932Z"
+    },
+    {
+      "title": "First music video attempt: LTX-2, Qwen Image 2512, ACE-Step",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qm4iwx/first_music_video_attempt_ltx2_qwen_image_2512/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-25T00:54:14.000Z",
+      "metaDescription": "Hey all!\n So I listened to all the advice I got from this subreddit and gave making a video a go. All up it took around four days and some trial and error, but I think the results came up really good!",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.47812369561987306,
+      "crawledAt": "2026-01-25T04:56:23.590Z",
+      "id": "8ihfka",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.888994574546814,
+          "index": 6,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.847572386264801,
+          "index": 7,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9139835238456726,
+          "index": 8,
+          "word": "##X",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8872242569923401,
+          "index": 12,
+          "word": "Q",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The video was posted on the subreddit. It took around four days to make. The video has been posted on YouTube.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:59:12.517Z"
     },
     {
       "title": "Dual 3090s & GLM-4.7-Flash: 1st prompt is great, then logic collapses. Is local AI worth the $5/day power bill?",
@@ -900,6 +1428,50 @@
       "processed_at": "2026-01-25T02:35:18.589Z"
     },
     {
+      "title": "VeritasGraph: AI Analytics with Power BI + MCP Server",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qlswv8/veritasgraph_ai_analytics_with_power_bi_mcp_server/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-01-24T17:23:54.000Z",
+      "metaDescription": "VeritasGraph combines GraphRAG, a FastAPI backend, and a Model Context Protocol (MCP) server to deliver an AI-first analytics experience for Power BI. Chat with your data, generate and execute DAX, an",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.40600086402049923,
+      "crawledAt": "2026-01-25T04:56:13.844Z",
+      "id": "vsm83f",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9117297530174255,
+          "index": 1,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9388231039047241,
+          "index": 3,
+          "word": "##tas",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9368014335632324,
+          "index": 4,
+          "word": "##G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " VeritasGraph combines GraphRAG, a FastAPI backend, and a Model Context Protocol (MCP) server to deliver an AI-first analytics experience for Power BI.",
+      "language": "en",
+      "processed_at": "2026-01-25T04:59:28.753Z"
+    },
+    {
       "title": "A full AI powered cooking game, where literally any ingredient is possible with infinite combinations.",
       "url": "https://www.reddit.com/r/singularity/comments/1qkqdn0/a_full_ai_powered_cooking_game_where_literally/",
       "source": "r/singularity",
@@ -928,18 +1500,20 @@
       "processed_at": "2026-01-25T02:35:30.653Z"
     }
   ],
-  "processedAt": "2026-01-25T02:35:30.665Z",
+  "processedAt": "2026-01-25T04:59:28.761Z",
   "categories": [
     "creative-ai",
+    "industry-news",
     "infrastructure",
+    "research-paper",
+    "safety-ethics",
     "ai-agents",
     "model-release",
-    "safety-ethics",
     "developer-tool",
-    "research-paper"
+    "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 27,
-  "dailyArticlesCount": 27,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 44,
   "filterDate": "2026-01-25"
 }
