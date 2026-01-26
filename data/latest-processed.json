@@ -1,9 +1,683 @@
 {
-  "crawledAt": "2026-01-26T13:03:01.833Z",
+  "crawledAt": "2026-01-26T16:43:06.106Z",
   "totalSources": 70,
-  "totalArticles": 2782,
+  "totalArticles": 2773,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "How Cursor Actually Indexes Your Codebase",
+      "url": "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T16:30:00.000Z",
+      "metaDescription": "Exploring the RAG pipeline in Cursor that powers code indexing and retrieval for coding agents\nThe post How Cursor Actually Indexes Your Codebase appeared first on Towards Data Science.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5541645594653094,
+      "crawledAt": "2026-01-26T16:41:41.105Z",
+      "id": "n4ibor",
+      "entities": [],
+      "summary": " The Cursor is a Cursor that uses the RAG pipeline to find out what to do with the code. The pipeline is used to help find out how to use the code for a code.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:43:21.367Z"
+    },
+    {
+      "title": "How Totogi automated change request processing with Totogi BSS Magic and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-totogi-automated-change-request-processing-with-totogi-bss-magic-and-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T16:16:25.000Z",
+      "metaDescription": "This blog post describes how Totogi automates change request processing by partnering with the AWS Generative AI Innovation Center and using the rapid innovation capabilities of Amazon Bedrock.",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.2854456816721505,
+      "crawledAt": "2026-01-26T16:41:55.182Z",
+      "id": "ofgt9y",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9861056804656982,
+          "index": 2,
+          "word": "To",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9380742907524109,
+          "index": 3,
+          "word": "##to",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9341814517974854,
+          "index": 4,
+          "word": "##gi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9681921601295471,
+          "index": 10,
+          "word": "To",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9462553858757019,
+          "index": 11,
+          "word": "##to",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9764706492424011,
+          "index": 14,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8763518333435059,
+          "index": 15,
+          "word": "Magic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9583303928375244,
+          "index": 17,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The blog post describes how Totogi automates change request processing by partnering with the AWS Generative AI Innovation Center.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:43:43.703Z"
+    },
+    {
+      "title": "Expereo: Enterprise connectivity amid AI surge with ‘visibility at the speed of life’",
+      "url": "https://www.artificialintelligence-news.com/news/expereo-enterprise-connectivity-amid-ai-surge-with-visibility-at-the-speed-of-life/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T15:23:57.000Z",
+      "metaDescription": "AI continues to reshape technology and business; yet for the network, enterprise connectivity in the AI age means being always-on, and extra vigilant for sovereignty and security besides. This means t",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9612241312734268,
+      "crawledAt": "2026-01-26T16:41:44.647Z",
+      "id": "ypxj9r",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9906670451164246,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI continues to reshape technology and business; yet for the network, network, connectivity in the AI age means being always-on, and extra vigilant for sovereignty and security. This means t. This means extra vigilant and security besides.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:44:36.207Z"
+    },
+    {
+      "title": "Ray: Distributed Computing For All, Part 2",
+      "url": "https://towardsdatascience.com/ray-distributed-computing-for-all-part-2/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T15:00:00.000Z",
+      "metaDescription": "Deploying and running Python code on cloud-based clusters\nThe post Ray: Distributed Computing For All, Part 2 appeared first on Towards Data Science.",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.6129706449699972,
+      "crawledAt": "2026-01-26T16:41:41.233Z",
+      "id": "rt98as",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9094207882881165,
+          "index": 3,
+          "word": "Di",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8942437171936035,
+          "index": 6,
+          "word": "##buted",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9239133596420288,
+          "index": 7,
+          "word": "Computing",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9534359574317932,
+          "index": 8,
+          "word": "For",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9381882548332214,
+          "index": 9,
+          "word": "All",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The post is part of Ray: Distributed Computing For All. Part 2 appeared first on Towards Data Science. The post also appeared on Towards data Science.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:06.608Z"
+    },
+    {
+      "title": "**NVIDIA Earth-2 Open Models Span the Whole Weather Stack**",
+      "url": "https://huggingface.co/blog/nvidia/earth-2-open-models",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:53:45.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.31662503478624754,
+      "crawledAt": "2026-01-26T16:41:12.161Z",
+      "id": "o5efzg",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9582936763763428,
+          "index": 4,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:06.748Z"
+    },
+    {
+      "title": "How Formula E uses Google Cloud AI to meet net zero targets",
+      "url": "https://www.artificialintelligence-news.com/news/how-formula-e-uses-google-cloud-ai-to-meet-net-zero-targets/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:38:53.000Z",
+      "metaDescription": "Formula E is using Google Cloud AI to meet its net zero targets by driving efficiency across its global logistics and commercial operations. As part of an expanded multi-year agreement, the electric r",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.8350888594000255,
+      "crawledAt": "2026-01-26T16:41:44.809Z",
+      "id": "3c5mqd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8446687459945679,
+          "index": 2,
+          "word": "Formula",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9925939440727234,
+          "index": 3,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.995506763458252,
+          "index": 5,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9978653192520142,
+          "index": 6,
+          "word": "Cloud",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9943705797195435,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Formula E is using Google Cloud AI to meet its net zero targets by driving efficiency across its global logistics and commercial operations.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:21.001Z"
+    },
+    {
+      "title": "EU launches formal investigation of xAI over Grok's sexualized deepfakes",
+      "url": "https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:17:46.000Z",
+      "metaDescription": "Elon Musk's company faces fines of up to 6 percent of its daily turnover.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.9522420222772664,
+      "crawledAt": "2026-01-26T16:41:31.440Z",
+      "id": "9e8eq2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991495013237,
+          "index": 1,
+          "word": "EU",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9978191256523132,
+          "index": 6,
+          "word": "x",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9827199578285217,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9988365173339844,
+          "index": 10,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Elon Musk's company faces fines of up to 6 percent of its daily turnover. Musk's firm faces fines for up to six percent of daily turnover.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:30.837Z"
+    },
+    {
+      "title": "Developers Thought AI Made Them 24% Faster. They Were Actually 19% Slower.",
+      "url": "https://pub.towardsai.net/developers-thought-ai-made-them-24-faster-they-were-actually-19-slower-e66696c28339?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:02:07.000Z",
+      "metaDescription": "16 developers. 246 real tasks. One randomized controlled trial. The results contradict everything vendors claim. and everything developers…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.44680004122898004,
+      "crawledAt": "2026-01-26T16:42:03.301Z",
+      "id": "cur511",
+      "entities": [],
+      "summary": "16 developers. 16 developers. 246 real tasks. One randomized controlled trial. The results contradict everything vendors claim. and everything vendors say.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:39.694Z"
+    },
+    {
+      "title": "NVIDIA Launches Earth-2 Family of Open Models — the World’s First Fully Open, Accelerated Set of Models and Tools for AI Weather",
+      "url": "https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:53.000Z",
+      "metaDescription": "At the American Meteorological Society’s Annual Meeting, NVIDIA today unveiled a new NVIDIA Earth-2 family of open models, libraries and frameworks for weather and climate AI, offering the world’s fir",
+      "category": "product-launch",
+      "difficulty": 10,
+      "confidence": 0.9178146929187291,
+      "crawledAt": "2026-01-26T16:41:22.012Z",
+      "id": "idbwq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9885998964309692,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9830400943756104,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9622116684913635,
+          "index": 7,
+          "word": "Earth",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8742436170578003,
+          "index": 8,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9923287034034729,
+          "index": 9,
+          "word": "2",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8620192408561707,
+          "index": 10,
+          "word": "Family",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9674674272537231,
+          "index": 11,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9619942903518677,
+          "index": 12,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9635410904884338,
+          "index": 13,
+          "word": "Models",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9633102416992188,
+          "index": 18,
+          "word": "s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9956512451171875,
+          "index": 19,
+          "word": "First",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9525396823883057,
+          "index": 20,
+          "word": "Full",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9056007266044617,
+          "index": 21,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9871327877044678,
+          "index": 22,
+          "word": "Open",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " NVIDIA today unveiled a new family of open models, libraries and frameworks for weather and climate AI. At the American Meteorological Society’s Annual Meeting, NVIDIA unveiled a family ofopen models, library and frameworks.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:53.030Z"
+    },
+    {
+      "title": "Nvidia’s new AI weather models probably saw this storm coming weeks ago",
+      "url": "https://techcrunch.com/2026/01/26/nvidias-new-ai-weather-models-probably-saw-this-storm-coming-weeks-ago/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "Nvidia announced three new AI weather tools today. Together, they promise to improve the accuracy of weather forecasts while also making them accessible to more users.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.89624582556624,
+      "crawledAt": "2026-01-26T16:41:28.984Z",
+      "id": "aluwd3",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9966435432434082,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9305386543273926,
+          "index": 2,
+          "word": "##vid",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9333400726318359,
+          "index": 3,
+          "word": "##ia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9868426322937012,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nvidia announced three new AI weather tools today. They promise to improve the accuracy of weather forecasts and make them accessible to more users.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:01.389Z"
+    },
+    {
+      "title": "The power of sound in a virtual world",
+      "url": "https://www.technologyreview.com/2026/01/26/1124655/the-power-of-sound-in-a-virtual-world/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor. We obsess over lighting, camera angles, and virtual backgrounds, but ho",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4630964101954868,
+      "crawledAt": "2026-01-26T16:41:35.728Z",
+      "id": "g5pytl",
+      "entities": [],
+      "summary": " In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:14.009Z"
+    },
+    {
+      "title": "GeoPandas Basics: Maps, Projections, and Spatial Joins",
+      "url": "https://realpython.com/geopandas/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "GeoPandas extends pandas to make working with geospatial data in Python intuitive and powerful. If you’re looking to do geospatial tasks in Python and want a library with a pandas-like API, then GeoPa",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2546594773875314,
+      "crawledAt": "2026-01-26T16:43:00.244Z",
+      "id": "unwnvk",
+      "entities": [],
+      "summary": " GeoPandas extends pandas to make working with geospatial data in Python intuitive and powerful. GeoPa is a library with a pandas-like API.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:27.400Z"
+    },
+    {
+      "title": "Stop Using AI Agents Like Chatbots.",
+      "url": "https://www.youtube.com/watch?v=3sXGt0MKmY8",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:45:00.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.28873437412016834,
+      "crawledAt": "2026-01-26T16:42:28.101Z",
+      "id": "2g6j48",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:27.484Z"
+    },
+    {
+      "title": "7 Small Developer Tools That Create Steady Revenue",
+      "url": "https://python.plainenglish.io/7-small-developer-tools-that-create-steady-revenue-587aad5308d2?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T13:37:09.000Z",
+      "metaDescription": "Quiet earners most people overlook\nContinue reading on Python in Plain English »",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.9942478952513151,
+      "crawledAt": "2026-01-26T16:42:12.428Z",
+      "id": "ekuoij",
+      "entities": [],
+      "summary": " Quiet earners most people most people overlook reading on Python in Plain English. Read more on Python. Read more about Python in plain English.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:36.574Z"
+    },
+    {
+      "title": "Import AI 442: Winners and losers in the AI economy; math proof automation; and industrialization of cyber espionage",
+      "url": "https://jack-clark.net/2026/01/26/import-ai-442-winners-and-losers-in-the-ai-economy-math-proof-automation-and-industrialization-of-cyber-espionage/",
+      "source": "Import AI",
+      "source_domain": "jack-clark.net",
+      "source_category": "newsletter",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:31:29.000Z",
+      "metaDescription": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The era of math proof automation",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.41640008663709616,
+      "crawledAt": "2026-01-26T16:42:31.624Z",
+      "id": "21hueg",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9856343269348145,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9905960559844971,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Import AI runs on arXiv and is available to all users. Use the app to help you understand the latest developments in AI.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:45.684Z"
+    },
+    {
+      "title": "The Download: why LLMs are like aliens, and the future of head transplants",
+      "url": "https://www.technologyreview.com/2026/01/26/1131717/the-download-why-llms-are-like-aliens-and-the-future-of-head-transplants/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:10:00.000Z",
+      "metaDescription": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the new biologists treating LLMs like aliens   How large ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4055476717310805,
+      "crawledAt": "2026-01-26T16:41:35.911Z",
+      "id": "h2skwt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9658852815628052,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Download is a daily dose of what's going on in the world of technology. Meet the new biologists treating LLMs like aliens like aliens.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:47:11.570Z"
+    },
     {
       "title": "Building a Self-Improving Productivity Coach: Agentic AI With Meta-Reflection, Episodic Memory, and…",
       "url": "https://pub.towardsai.net/building-a-self-improving-productivity-coach-agentic-ai-with-meta-reflection-episodic-memory-and-8b2553ffe39a?source=rss----98111c9905da---4",
@@ -17108,6 +17782,25 @@
       "summary": " The thesis explores the use of a General Game System to support the automatic expansion of game boards in boardless games.",
       "language": "en",
       "processed_at": "2026-01-23T08:58:32.838Z"
+    },
+    {
+      "title": "Why enterprise AI pilots fail — and how to move to scaled execution",
+      "url": "https://venturebeat.com/orchestration/why-enterprise-ai-pilots-fail-and-how-to-move-to-scaled-execution",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-23T05:00:00.000Z",
+      "metaDescription": "Presented by Insight Enterprises\n\nOrganizations today are trapped in proof-of-concept purgatory because yesterday’s models don’t work for today’s AI challenges.\nEveryone’s racing to prove what AI coul",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.35162617095037974,
+      "crawledAt": "2026-01-26T16:41:40.523Z",
+      "id": "bzvthn",
+      "entities": [],
+      "summary": "The AI challenges are being tested by the world's biggest companies. The world's largest companies are struggling to find a solution to the problem.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:47:54.463Z"
     },
     {
       "title": "Build a Monte Carlo Risk Simulator — Python Solution",
@@ -91337,921 +92030,25 @@
       "summary": " i made the still images using qwen image edit 2511 and tried to keep consistent characters and style. i used the multi angle lora to help get different angle shots in the same location.",
       "language": "en",
       "processed_at": "2026-01-11T20:35:08.398Z"
-    },
-    {
-      "title": "Elon Musk’s xAI tells investors it will build AI for Tesla Optimus, amid breach of fiduciary duty lawsuit / Optimus brain not from Tesla",
-      "url": "https://www.reddit.com/r/singularity/comments/1qa45sf/elon_musks_xai_tells_investors_it_will_build_ai/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T16:47:11.000Z",
-      "metaDescription": "submitted by    /u/Worldly_Evidence9113  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 10,
-      "confidence": 0.9411049057775903,
-      "crawledAt": "2026-01-11T20:30:30.242Z",
-      "id": "hjzlkl",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9992945194244385,
-          "index": 1,
-          "word": "El",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9979045391082764,
-          "index": 2,
-          "word": "##on",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9990482926368713,
-          "index": 3,
-          "word": "Mu",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9964889287948608,
-          "index": 4,
-          "word": "##sk",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9983896017074585,
-          "index": 7,
-          "word": "x",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9910337924957275,
-          "index": 8,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9821322560310364,
-          "index": 9,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9564275741577148,
-          "index": 15,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9793778657913208,
-          "index": 19,
-          "word": "Op",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8686303496360779,
-          "index": 20,
-          "word": "##ti",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8490371108055115,
-          "index": 21,
-          "word": "##mus",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8472937941551208,
-          "index": 33,
-          "word": "Op",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9816753268241882,
-          "index": 39,
-          "word": "Te",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9913991093635559,
-          "index": 40,
-          "word": "##sla",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T20:35:21.179Z"
-    },
-    {
-      "title": "We’re probably going to learn to live with AI music",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1qa3rqn/were_probably_going_to_learn_to_live_with_ai_music/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T16:32:11.000Z",
-      "metaDescription": "submitted by    /u/paxinfernum  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.45056549345652464,
-      "crawledAt": "2026-01-11T16:33:13.923Z",
-      "id": "jmndm",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8950986862182617,
-          "index": 11,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:33:53.875Z"
-    },
-    {
-      "title": "The Continuous Thought Machine: A brilliant example of how biology can still inspire deep learning",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1qa3q76/the_continuous_thought_machine_a_brilliant/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T16:30:37.000Z",
-      "metaDescription": "submitted by    /u/Tobio-Star  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.5166706954359538,
-      "crawledAt": "2026-01-11T16:32:57.565Z",
-      "id": "xymaos",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9558579921722412,
-          "index": 5,
-          "word": "Thought",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9788281917572021,
-          "index": 6,
-          "word": "Machine",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:33:54.032Z"
-    },
-    {
-      "title": "AI just achieved a perfect score on the hardest math competition in the world",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1qa3n86/ai_just_achieved_a_perfect_score_on_the_hardest/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T16:27:23.000Z",
-      "metaDescription": "Source: https://axiommath.ai/territory/from-seeing-why-to-checking-everything\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2737593554730262,
-      "crawledAt": "2026-01-11T20:30:28.802Z",
-      "id": "f9v8q7",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9616161584854126,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T20:35:21.552Z"
-    },
-    {
-      "title": "Reimagining LLM Memory: Using Context as Training Data Unlocks Models That Learn at Test-Time | NVIDIA Technical Blog",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qa3n3c/reimagining_llm_memory_using_context_as_training/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T16:27:13.000Z",
-      "metaDescription": "submitted by    /u/ab2377  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 6,
-      "confidence": 0.5245684414109111,
-      "crawledAt": "2026-01-11T20:30:24.117Z",
-      "id": "pdsgu2",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9736759066581726,
-          "index": 5,
-          "word": "LL",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-LOC",
-          "score": 0.9294760823249817,
-          "index": 28,
-          "word": "##VI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T20:35:21.780Z"
-    },
-    {
-      "title": "AI just achieved a perfect score on the hardest math competition in the world",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1qa3m1k/ai_just_achieved_a_perfect_score_on_the_hardest/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T16:26:07.000Z",
-      "metaDescription": "Source: https://axiommath.ai/territory/from-seeing-why-to-checking-everything\n    submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2737593554730262,
-      "crawledAt": "2026-01-11T16:33:13.308Z",
-      "id": "vdwzid",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9616161584854126,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:33:54.191Z"
-    },
-    {
-      "title": "Dataset Preparation - a Hugging Face Space by malcolmrey",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qa3du4/dataset_preparation_a_hugging_face_space_by/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T16:17:16.000Z",
-      "metaDescription": "submitted by    /u/malcolmrey  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.3060302485852005,
-      "crawledAt": "2026-01-11T20:30:45.879Z",
-      "id": "ea4cqa",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T20:35:22.201Z"
-    },
-    {
-      "title": "PerpetualBooster: A new gradient boosting library that enables O continual learning and out-performs AutoGluon on tabular benchmarks.",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa351n/p_perpetualbooster_a_new_gradient_boosting/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T16:08:02.000Z",
-      "metaDescription": "Hi everyone,\n I’m part of the team that developed PerpetualBooster, a gradient boosting algorithm designed to solve the \"forgetting\" and \"retraining\" bottlenecks in traditional GBDT frameworks like XG",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.25523764595454573,
-      "crawledAt": "2026-01-11T16:32:50.333Z",
-      "id": "nn5u1h",
-      "entities": [
-        {
-          "entity": "I-ORG",
-          "score": 0.8255366086959839,
-          "index": 26,
-          "word": "##lu",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " PerpetualBooster is a gradient boosting algorithm designed to solve the \"forgetting\" and \"retraining\" bottlenecks in traditional GBDT frameworks like XG.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:34:10.030Z"
-    },
-    {
-      "title": "Claude HUD: Building Real-Time Observability for Claude Code via the Statusline API",
-      "url": "https://pub.towardsai.net/claude-hud-building-real-time-observability-for-claude-code-via-the-statusline-api-b114b825d3ef?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T16:02:52.000Z",
-      "metaDescription": "I’ve seen people debugging enough context window overflows to know the frustration. You’re deep into a Claude Code session — file edits…\nContinue reading on Towards AI »",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.2522590802217289,
-      "crawledAt": "2026-01-11T16:32:27.942Z",
-      "id": "j64s8i",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8105627298355103,
-          "index": 1,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "’s. I’ve seen people debugging enough context window overflows to know the frustration. You’re deep into a Claude Code session.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:34:24.146Z"
-    },
-    {
-      "title": "New data center will use as much power as Indianapolis",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1qa24eh/new_data_center_will_use_as_much_power_as/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T15:27:47.000Z",
-      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.30895038122285173,
-      "crawledAt": "2026-01-11T16:33:14.023Z",
-      "id": "oiz5uo",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.972553551197052,
-          "index": 10,
-          "word": "Indianapolis",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Announcement or discussion about new AI model releases and updates.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:34:46.328Z"
-    },
-    {
-      "title": "Anthropic's new data center will use as much power as Indianapolis",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1qa23sb/anthropics_new_data_center_will_use_as_much_power/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T15:27:07.000Z",
-      "metaDescription": "submitted by    /u/MetaKnowing  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.5701684335944424,
-      "crawledAt": "2026-01-11T16:32:49.062Z",
-      "id": "vipdkx",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9853413701057434,
-          "index": 1,
-          "word": "An",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8576429486274719,
-          "index": 2,
-          "word": "##throp",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9614995121955872,
-          "index": 3,
-          "word": "##ic",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-LOC",
-          "score": 0.930083155632019,
-          "index": 15,
-          "word": "Indianapolis",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Announcement or discussion about new AI model releases and updates.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:34:46.486Z"
-    },
-    {
-      "title": "Designing a crawler that produces ready markdown instead of raw HTML",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa20k5/d_designing_a_crawler_that_produces_ready/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T15:23:30.000Z",
-      "metaDescription": "When building RAG pipelines and agent systems, I kept running into the same issue:\n most web crawlers return raw HTML or noisy text that still requires significant post-processing before it’s usable f",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.8466637385752708,
-      "crawledAt": "2026-01-11T16:32:50.881Z",
-      "id": "obolqi",
-      "entities": [],
-      "summary": "Most web crawlers return raw HTML or noisy text that still requires significant post-processing before it's usable f f. Most web crawler return rawHTML or noisy texts that still require significant post processing before it’s usable f.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:35:01.851Z"
-    },
-    {
-      "title": "LTX2 1080P lipsync If you liked the previous one ,you will CREAM YOUR PANTS FROM THIS",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qa1or3/ltx2_1080p_lipsync_if_you_liked_the_previous_one/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T15:10:15.000Z",
-      "metaDescription": "So there is a thread here where someone said they do 1080 with no OOM and yuh ... no OOM\n https://www.reddit.com/r/StableDiffusion/comments/1q9rb7x/ltx2_how_i_fixed_oom_issues_for_15_second_videos/\n B",
-      "category": "model-release",
-      "difficulty": 3,
-      "confidence": 0.39014020610260924,
-      "crawledAt": "2026-01-11T16:33:04.541Z",
-      "id": "q6xov1",
-      "entities": [],
-      "summary": " There is a thread here where someone said they do 1080 with no OOM and yuh... no Oom.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:35:24.609Z"
-    },
-    {
-      "title": "What’s your wild take on the rise of AI?",
-      "url": "https://www.reddit.com/r/artificial/comments/1qa1ht3/whats_your_wild_take_on_the_rise_of_ai/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T15:02:19.000Z",
-      "metaDescription": "We have entered an era of AI doing _almost_ anything. From vibe coding, to image/video creation, new age of SEO, etc etc…\n But what do you think AI is going to be able to do in the near future?\n Just ",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.7149267300124463,
-      "crawledAt": "2026-01-11T16:32:39.734Z",
-      "id": "1scysq",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9738940000534058,
-          "index": 11,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " We have entered an era of AI doing almost anything, from image/video creation to image/ video creation, to image and video creation. But what do you think AI is going to be able to do in the near future?",
-      "language": "en",
-      "processed_at": "2026-01-11T16:36:15.575Z"
-    },
-    {
-      "title": "Google announces a new protocol to facilitate commerce using AI agents",
-      "url": "https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T15:00:00.000Z",
-      "metaDescription": "Google said that merchants can now offer discounts to users directly in AI mode results",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.9561559548622013,
-      "crawledAt": "2026-01-11T16:31:52.031Z",
-      "id": "mblvgf",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9982930421829224,
-          "index": 1,
-          "word": "Google",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9862031936645508,
-          "index": 10,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Google said merchants can now offer discounts to users directly in AI mode results. Google said that merchants can offer discounts directly to users in AI Mode results.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:36:33.892Z"
-    },
-    {
-      "title": "Automatic Prompt Optimization for Multimodal Vision Agents: A Self-Driving Car Example",
-      "url": "https://towardsdatascience.com/automatic-prompt-optimization-for-multimodal-vision-agents-a-self-driving-car-example/",
-      "source": "Towards Data Science",
-      "source_domain": "towardsdatascience.com",
-      "source_category": "tutorial",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T15:00:00.000Z",
-      "metaDescription": "Walkthrough using open-source prompt optimization algorithms in Python to improve the accuracy of an autonomous vehicle car safety agent running on OpenAI's GPT 5.2\nThe post Automatic Prompt Optimizat",
-      "category": "safety-ethics",
-      "difficulty": 3,
-      "confidence": 0.3810785769195365,
-      "crawledAt": "2026-01-11T16:32:03.611Z",
-      "id": "4soivo",
-      "entities": [],
-      "summary": "The post Automatic Prompt Optimizat uses open-source optimization algorithms in Python to improve the accuracy of an autonomous car safety agent.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:36:45.579Z"
-    },
-    {
-      "title": "Best ML course?",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1qa1c6h/best_ml_course/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T14:56:13.000Z",
-      "metaDescription": "submitted by    /u/luffydmonkey77  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.9003718705964352,
-      "crawledAt": "2026-01-11T16:32:57.998Z",
-      "id": "cd6b47",
-      "entities": [],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:36:45.744Z"
-    },
-    {
-      "title": "CES 2026 shows Humanoid robots moving from demos to real world deployment",
-      "url": "https://www.reddit.com/r/singularity/comments/1qa0yz9/ces_2026_shows_humanoid_robots_moving_from_demos/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T14:40:48.000Z",
-      "metaDescription": "CES 2026 highlighted a clear shift in humanoid robotics. Many systems were presented with concrete use cases, pricing targets, and deployment timelines rather than stage demos.\n Several platforms are ",
-      "category": "model-release",
-      "difficulty": 5,
-      "confidence": 0.5028050349983365,
-      "crawledAt": "2026-01-11T16:32:53.579Z",
-      "id": "h5vtka",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9819449186325073,
-          "index": 1,
-          "word": "CE",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9885076880455017,
-          "index": 2,
-          "word": "##S",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9008008241653442,
-          "index": 3,
-          "word": "202",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9625815153121948,
-          "index": 6,
-          "word": "Human",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " CES 2026 highlighted a clear shift in humanoid robotics. Many systems were presented with concrete use cases, pricing targets, and deployment timelines.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:37:07.879Z"
-    },
-    {
-      "title": "It works! Abliteration can reduce slop without training",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qa0w6c/it_works_abliteration_can_reduce_slop_without/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T14:37:37.000Z",
-      "metaDescription": "I'm back at my favorite hobby: Brain surgery! I don't have a medical license, but I just can't stop :)\n Can abliteration fight the scourge of \"slop\" (flowery, cliched language) in LLM outputs? The ans",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2705159773143411,
-      "crawledAt": "2026-01-11T16:32:43.374Z",
-      "id": "lx8u3x",
-      "entities": [],
-      "summary": " I'm back at my favorite hobby: Brain surgery! I don't have a medical license, but I just can't stop :) Can abliteration fight the scourge of \"slop\" (flowery, cliched language) in LLM outputs? The ans.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:37:24.919Z"
-    },
-    {
-      "title": "Why doubly stochastic matrix idea only made popular in the DeepSeek's mHC paper, but not in earlier RNN papers?",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1qa0n65/r_why_doubly_stochastic_matrix_idea_using/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T14:26:51.000Z",
-      "metaDescription": "After DeepSeek’s mHC paper, the Sinkhorn–Knopp algorithm has attracted a lot of attention because it turns $$\\mathcal{H}^{\\mathrm{res}}_{l}$$ at each layer into a doubly stochastic matrix. As a result",
-      "category": "research-paper",
-      "difficulty": 8,
-      "confidence": 0.8232077299396544,
-      "crawledAt": "2026-01-11T16:32:49.795Z",
-      "id": "s4a9ml",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9936470985412598,
-          "index": 16,
-          "word": "Deep",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9965603947639465,
-          "index": 17,
-          "word": "##S",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9946370124816895,
-          "index": 18,
-          "word": "##eek",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9767487049102783,
-          "index": 29,
-          "word": "R",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8959219455718994,
-          "index": 30,
-          "word": "##N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9061834216117859,
-          "index": 31,
-          "word": "##N",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The Sinkhorn-Knopp algorithm turns the algorithm into a doubly stochastic matrix. The algorithm turns each layer into a matrix.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:37:35.122Z"
-    },
-    {
-      "title": "Qwen-Image-Edit-Rapid-AIO V19",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qa0j7x/qwenimageeditrapidaio_v19_merged_2509_and_2511/",
-      "source": "r/StableDiffusion",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T14:22:08.000Z",
-      "metaDescription": "V19: New Lightning Edit 2511 8-step mixed in (still recommend 4-8 steps). Also a new N**W LORA (GNASS for Qwen 2512) that worked quite well in the merge. er_sde/beta or euler_ancestral/beta recommende",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.6578776361918534,
-      "crawledAt": "2026-01-11T16:33:01.790Z",
-      "id": "p39xn4",
-      "entities": [],
-      "summary": " The new N**W LORA is a new version of the N*W. LORa. The new version is a version of N*LORA.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:37:49.544Z"
-    },
-    {
-      "title": "Skills Marketplace: A New Digital Economy?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1qa088x/skills_marketplace_a_new_digital_economy/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T14:08:57.000Z",
-      "metaDescription": "What are your thoughts?\n    submitted by    /u/ryan_the_dev  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.41951659100681304,
-      "crawledAt": "2026-01-11T16:33:14.131Z",
-      "id": "1bq3s8",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9205965995788574,
-          "index": 7,
-          "word": "Digital",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8711128234863281,
-          "index": 8,
-          "word": "Economy",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Announcement or discussion about new AI model releases and updates.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:37:49.625Z"
-    },
-    {
-      "title": "$1 Billion to Google. 15 AI Minds Lost. Apple’s Surrender Equation.",
-      "url": "https://pub.towardsai.net/1-billion-to-google-15-ai-minds-lost-apples-surrender-equation-5ba4dbaf7406?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T14:02:49.000Z",
-      "metaDescription": "The Diagnosis.\nContinue reading on Towards AI »",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.3140270725401159,
-      "crawledAt": "2026-01-11T16:32:28.176Z",
-      "id": "t1jsvj",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9965410232543945,
-          "index": 6,
-          "word": "Google",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.997629702091217,
-          "index": 14,
-          "word": "Apple",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8826939463615417,
-          "index": 20,
-          "word": "E",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:38:01.450Z"
-    },
-    {
-      "title": "Reminds/tasks option",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1q9zlnn/remindstasks_option/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T13:40:34.000Z",
-      "metaDescription": "Plus Users, are you using reminders/tasks feature? I find it extremely useful, especially for long-term reminders and recurring tasks, as I’m tracking some specific news development.\n Do you have any ",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3385805687420028,
-      "crawledAt": "2026-01-11T16:33:12.812Z",
-      "id": "w029ii",
-      "entities": [],
-      "summary": "Users can use reminders/tasks to help with long-term reminders and recurring tasks. Plus Users, are you using reminders/ tasks feature?",
-      "language": "en",
-      "processed_at": "2026-01-11T16:38:27.610Z"
-    },
-    {
-      "title": "Part2: Guide to Huggingface AutoModels** for Vision and Audio",
-      "url": "https://pub.towardsai.net/part2-guide-to-huggingface-automodels-for-vision-and-audio-4b0c90f2255c?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-01-11T13:39:12.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.5949214501394692,
-      "crawledAt": "2026-01-11T16:32:28.409Z",
-      "id": "so8icv",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8598187565803528,
-          "index": 10,
-          "word": "##M",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-01-11T16:38:27.939Z"
-    },
-    {
-      "title": "Is this childrens book AI art?",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1q9zby3/is_this_childrens_book_ai_art/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-01-11T13:27:50.000Z",
-      "metaDescription": "These illustrations just feel ai to me. Am i cynical?\n The publisher doesn't say anything about it being AI, neither does the author in interviews or blurbs..\n One giveaway might be that there is no c",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.5676501581340778,
-      "crawledAt": "2026-01-11T20:30:27.857Z",
-      "id": "1nvpdj",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9275375604629517,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The publisher doesn't say anything about it being AI. The publisher does not say anything. The publisher says there is no reason for it to be.",
-      "language": "en",
-      "processed_at": "2026-01-11T20:35:43.883Z"
     }
   ],
-  "processedAt": "2026-01-26T13:07:36.462Z",
+  "processedAt": "2026-01-26T16:47:54.467Z",
   "categories": [
+    "infrastructure",
+    "creative-ai",
+    "developer-tool",
+    "product-launch",
     "ai-agents",
     "safety-ethics",
-    "creative-ai",
-    "infrastructure",
     "research-paper",
-    "developer-tool",
     "tutorial-guide",
     "industry-news",
-    "product-launch",
     "model-release"
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 17,
-  "existingArticlesKept": 2795,
+  "existingArticlesKept": 2782,
   "cleanupApplied": true,
-  "cleanedUpCount": 30,
+  "cleanedUpCount": 26,
   "rollingWindowDays": 15
 }

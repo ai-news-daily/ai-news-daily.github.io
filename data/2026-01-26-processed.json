@@ -1,9 +1,683 @@
 {
-  "crawledAt": "2026-01-26T13:03:01.833Z",
+  "crawledAt": "2026-01-26T16:43:06.106Z",
   "totalSources": 70,
-  "totalArticles": 107,
+  "totalArticles": 124,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "How Cursor Actually Indexes Your Codebase",
+      "url": "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T16:30:00.000Z",
+      "metaDescription": "Exploring the RAG pipeline in Cursor that powers code indexing and retrieval for coding agents\nThe post How Cursor Actually Indexes Your Codebase appeared first on Towards Data Science.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5541645594653094,
+      "crawledAt": "2026-01-26T16:41:41.105Z",
+      "id": "n4ibor",
+      "entities": [],
+      "summary": " The Cursor is a Cursor that uses the RAG pipeline to find out what to do with the code. The pipeline is used to help find out how to use the code for a code.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:43:21.367Z"
+    },
+    {
+      "title": "How Totogi automated change request processing with Totogi BSS Magic and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-totogi-automated-change-request-processing-with-totogi-bss-magic-and-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T16:16:25.000Z",
+      "metaDescription": "This blog post describes how Totogi automates change request processing by partnering with the AWS Generative AI Innovation Center and using the rapid innovation capabilities of Amazon Bedrock.",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.2854456816721505,
+      "crawledAt": "2026-01-26T16:41:55.182Z",
+      "id": "ofgt9y",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9861056804656982,
+          "index": 2,
+          "word": "To",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9380742907524109,
+          "index": 3,
+          "word": "##to",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9341814517974854,
+          "index": 4,
+          "word": "##gi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9681921601295471,
+          "index": 10,
+          "word": "To",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9462553858757019,
+          "index": 11,
+          "word": "##to",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9764706492424011,
+          "index": 14,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8763518333435059,
+          "index": 15,
+          "word": "Magic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9583303928375244,
+          "index": 17,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The blog post describes how Totogi automates change request processing by partnering with the AWS Generative AI Innovation Center.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:43:43.703Z"
+    },
+    {
+      "title": "Expereo: Enterprise connectivity amid AI surge with ‘visibility at the speed of life’",
+      "url": "https://www.artificialintelligence-news.com/news/expereo-enterprise-connectivity-amid-ai-surge-with-visibility-at-the-speed-of-life/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T15:23:57.000Z",
+      "metaDescription": "AI continues to reshape technology and business; yet for the network, enterprise connectivity in the AI age means being always-on, and extra vigilant for sovereignty and security besides. This means t",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9612241312734268,
+      "crawledAt": "2026-01-26T16:41:44.647Z",
+      "id": "ypxj9r",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9906670451164246,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI continues to reshape technology and business; yet for the network, network, connectivity in the AI age means being always-on, and extra vigilant for sovereignty and security. This means t. This means extra vigilant and security besides.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:44:36.207Z"
+    },
+    {
+      "title": "Ray: Distributed Computing For All, Part 2",
+      "url": "https://towardsdatascience.com/ray-distributed-computing-for-all-part-2/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T15:00:00.000Z",
+      "metaDescription": "Deploying and running Python code on cloud-based clusters\nThe post Ray: Distributed Computing For All, Part 2 appeared first on Towards Data Science.",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.6129706449699972,
+      "crawledAt": "2026-01-26T16:41:41.233Z",
+      "id": "rt98as",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9094207882881165,
+          "index": 3,
+          "word": "Di",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8942437171936035,
+          "index": 6,
+          "word": "##buted",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9239133596420288,
+          "index": 7,
+          "word": "Computing",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9534359574317932,
+          "index": 8,
+          "word": "For",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9381882548332214,
+          "index": 9,
+          "word": "All",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The post is part of Ray: Distributed Computing For All. Part 2 appeared first on Towards Data Science. The post also appeared on Towards data Science.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:06.608Z"
+    },
+    {
+      "title": "**NVIDIA Earth-2 Open Models Span the Whole Weather Stack**",
+      "url": "https://huggingface.co/blog/nvidia/earth-2-open-models",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:53:45.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.31662503478624754,
+      "crawledAt": "2026-01-26T16:41:12.161Z",
+      "id": "o5efzg",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9582936763763428,
+          "index": 4,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:06.748Z"
+    },
+    {
+      "title": "How Formula E uses Google Cloud AI to meet net zero targets",
+      "url": "https://www.artificialintelligence-news.com/news/how-formula-e-uses-google-cloud-ai-to-meet-net-zero-targets/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:38:53.000Z",
+      "metaDescription": "Formula E is using Google Cloud AI to meet its net zero targets by driving efficiency across its global logistics and commercial operations. As part of an expanded multi-year agreement, the electric r",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.8350888594000255,
+      "crawledAt": "2026-01-26T16:41:44.809Z",
+      "id": "3c5mqd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8446687459945679,
+          "index": 2,
+          "word": "Formula",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9925939440727234,
+          "index": 3,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.995506763458252,
+          "index": 5,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9978653192520142,
+          "index": 6,
+          "word": "Cloud",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9943705797195435,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Formula E is using Google Cloud AI to meet its net zero targets by driving efficiency across its global logistics and commercial operations.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:21.001Z"
+    },
+    {
+      "title": "EU launches formal investigation of xAI over Grok's sexualized deepfakes",
+      "url": "https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:17:46.000Z",
+      "metaDescription": "Elon Musk's company faces fines of up to 6 percent of its daily turnover.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.9522420222772664,
+      "crawledAt": "2026-01-26T16:41:31.440Z",
+      "id": "9e8eq2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991495013237,
+          "index": 1,
+          "word": "EU",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9978191256523132,
+          "index": 6,
+          "word": "x",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9827199578285217,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9988365173339844,
+          "index": 10,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Elon Musk's company faces fines of up to 6 percent of its daily turnover. Musk's firm faces fines for up to six percent of daily turnover.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:30.837Z"
+    },
+    {
+      "title": "Developers Thought AI Made Them 24% Faster. They Were Actually 19% Slower.",
+      "url": "https://pub.towardsai.net/developers-thought-ai-made-them-24-faster-they-were-actually-19-slower-e66696c28339?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:02:07.000Z",
+      "metaDescription": "16 developers. 246 real tasks. One randomized controlled trial. The results contradict everything vendors claim. and everything developers…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.44680004122898004,
+      "crawledAt": "2026-01-26T16:42:03.301Z",
+      "id": "cur511",
+      "entities": [],
+      "summary": "16 developers. 16 developers. 246 real tasks. One randomized controlled trial. The results contradict everything vendors claim. and everything vendors say.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:39.694Z"
+    },
+    {
+      "title": "NVIDIA Launches Earth-2 Family of Open Models — the World’s First Fully Open, Accelerated Set of Models and Tools for AI Weather",
+      "url": "https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:53.000Z",
+      "metaDescription": "At the American Meteorological Society’s Annual Meeting, NVIDIA today unveiled a new NVIDIA Earth-2 family of open models, libraries and frameworks for weather and climate AI, offering the world’s fir",
+      "category": "product-launch",
+      "difficulty": 10,
+      "confidence": 0.9178146929187291,
+      "crawledAt": "2026-01-26T16:41:22.012Z",
+      "id": "idbwq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9885998964309692,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9830400943756104,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9622116684913635,
+          "index": 7,
+          "word": "Earth",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8742436170578003,
+          "index": 8,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9923287034034729,
+          "index": 9,
+          "word": "2",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8620192408561707,
+          "index": 10,
+          "word": "Family",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9674674272537231,
+          "index": 11,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9619942903518677,
+          "index": 12,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9635410904884338,
+          "index": 13,
+          "word": "Models",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9633102416992188,
+          "index": 18,
+          "word": "s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9956512451171875,
+          "index": 19,
+          "word": "First",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9525396823883057,
+          "index": 20,
+          "word": "Full",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9056007266044617,
+          "index": 21,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9871327877044678,
+          "index": 22,
+          "word": "Open",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " NVIDIA today unveiled a new family of open models, libraries and frameworks for weather and climate AI. At the American Meteorological Society’s Annual Meeting, NVIDIA unveiled a family ofopen models, library and frameworks.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:45:53.030Z"
+    },
+    {
+      "title": "Nvidia’s new AI weather models probably saw this storm coming weeks ago",
+      "url": "https://techcrunch.com/2026/01/26/nvidias-new-ai-weather-models-probably-saw-this-storm-coming-weeks-ago/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "Nvidia announced three new AI weather tools today. Together, they promise to improve the accuracy of weather forecasts while also making them accessible to more users.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.89624582556624,
+      "crawledAt": "2026-01-26T16:41:28.984Z",
+      "id": "aluwd3",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9966435432434082,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9305386543273926,
+          "index": 2,
+          "word": "##vid",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9333400726318359,
+          "index": 3,
+          "word": "##ia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9868426322937012,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nvidia announced three new AI weather tools today. They promise to improve the accuracy of weather forecasts and make them accessible to more users.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:01.389Z"
+    },
+    {
+      "title": "The power of sound in a virtual world",
+      "url": "https://www.technologyreview.com/2026/01/26/1124655/the-power-of-sound-in-a-virtual-world/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor. We obsess over lighting, camera angles, and virtual backgrounds, but ho",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4630964101954868,
+      "crawledAt": "2026-01-26T16:41:35.728Z",
+      "id": "g5pytl",
+      "entities": [],
+      "summary": " In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:14.009Z"
+    },
+    {
+      "title": "GeoPandas Basics: Maps, Projections, and Spatial Joins",
+      "url": "https://realpython.com/geopandas/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T14:00:00.000Z",
+      "metaDescription": "GeoPandas extends pandas to make working with geospatial data in Python intuitive and powerful. If you’re looking to do geospatial tasks in Python and want a library with a pandas-like API, then GeoPa",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2546594773875314,
+      "crawledAt": "2026-01-26T16:43:00.244Z",
+      "id": "unwnvk",
+      "entities": [],
+      "summary": " GeoPandas extends pandas to make working with geospatial data in Python intuitive and powerful. GeoPa is a library with a pandas-like API.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:27.400Z"
+    },
+    {
+      "title": "Stop Using AI Agents Like Chatbots.",
+      "url": "https://www.youtube.com/watch?v=3sXGt0MKmY8",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:45:00.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.28873437412016834,
+      "crawledAt": "2026-01-26T16:42:28.101Z",
+      "id": "2g6j48",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:27.484Z"
+    },
+    {
+      "title": "7 Small Developer Tools That Create Steady Revenue",
+      "url": "https://python.plainenglish.io/7-small-developer-tools-that-create-steady-revenue-587aad5308d2?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-01-26T13:37:09.000Z",
+      "metaDescription": "Quiet earners most people overlook\nContinue reading on Python in Plain English »",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.9942478952513151,
+      "crawledAt": "2026-01-26T16:42:12.428Z",
+      "id": "ekuoij",
+      "entities": [],
+      "summary": " Quiet earners most people most people overlook reading on Python in Plain English. Read more on Python. Read more about Python in plain English.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:36.574Z"
+    },
+    {
+      "title": "Import AI 442: Winners and losers in the AI economy; math proof automation; and industrialization of cyber espionage",
+      "url": "https://jack-clark.net/2026/01/26/import-ai-442-winners-and-losers-in-the-ai-economy-math-proof-automation-and-industrialization-of-cyber-espionage/",
+      "source": "Import AI",
+      "source_domain": "jack-clark.net",
+      "source_category": "newsletter",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:31:29.000Z",
+      "metaDescription": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The era of math proof automation",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.41640008663709616,
+      "crawledAt": "2026-01-26T16:42:31.624Z",
+      "id": "21hueg",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9856343269348145,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9905960559844971,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Import AI runs on arXiv and is available to all users. Use the app to help you understand the latest developments in AI.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:46:45.684Z"
+    },
+    {
+      "title": "The Download: why LLMs are like aliens, and the future of head transplants",
+      "url": "https://www.technologyreview.com/2026/01/26/1131717/the-download-why-llms-are-like-aliens-and-the-future-of-head-transplants/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-01-26T13:10:00.000Z",
+      "metaDescription": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the new biologists treating LLMs like aliens   How large ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4055476717310805,
+      "crawledAt": "2026-01-26T16:41:35.911Z",
+      "id": "h2skwt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9658852815628052,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Download is a daily dose of what's going on in the world of technology. Meet the new biologists treating LLMs like aliens like aliens.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:47:11.570Z"
+    },
     {
       "title": "Building a Self-Improving Productivity Coach: Agentic AI With Meta-Reflection, Episodic Memory, and…",
       "url": "https://pub.towardsai.net/building-a-self-improving-productivity-coach-agentic-ai-with-meta-reflection-episodic-memory-and-8b2553ffe39a?source=rss----98111c9905da---4",
@@ -3636,21 +4310,41 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-01-26T02:35:33.661Z"
+    },
+    {
+      "title": "Why enterprise AI pilots fail — and how to move to scaled execution",
+      "url": "https://venturebeat.com/orchestration/why-enterprise-ai-pilots-fail-and-how-to-move-to-scaled-execution",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-01-23T05:00:00.000Z",
+      "metaDescription": "Presented by Insight Enterprises\n\nOrganizations today are trapped in proof-of-concept purgatory because yesterday’s models don’t work for today’s AI challenges.\nEveryone’s racing to prove what AI coul",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.35162617095037974,
+      "crawledAt": "2026-01-26T16:41:40.523Z",
+      "id": "bzvthn",
+      "entities": [],
+      "summary": "The AI challenges are being tested by the world's biggest companies. The world's largest companies are struggling to find a solution to the problem.",
+      "language": "en",
+      "processed_at": "2026-01-26T16:47:54.463Z"
     }
   ],
-  "processedAt": "2026-01-26T13:07:36.465Z",
+  "processedAt": "2026-01-26T16:47:54.471Z",
   "categories": [
+    "infrastructure",
+    "creative-ai",
+    "developer-tool",
+    "product-launch",
     "ai-agents",
     "safety-ethics",
-    "creative-ai",
-    "infrastructure",
     "research-paper",
-    "developer-tool",
     "tutorial-guide",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 17,
-  "dailyArticlesCount": 107,
+  "dailyArticlesCount": 124,
   "filterDate": "2026-01-26"
 }
