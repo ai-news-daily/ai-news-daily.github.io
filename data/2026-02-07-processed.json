@@ -1,9 +1,258 @@
 {
-  "crawledAt": "2026-02-07T05:09:58.055Z",
+  "crawledAt": "2026-02-07T08:41:19.262Z",
   "totalSources": 70,
-  "totalArticles": 104,
+  "totalArticles": 117,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "I built a self-evolving trading agent that reads its own code, writes improvements, and deploys — without human intervention",
+      "url": "https://www.reddit.com/r/mlops/comments/1qy8opl/i_built_a_selfevolving_trading_agent_that_reads/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-02-07T08:37:57.000Z",
+      "metaDescription": "I built something that keeps me up at night. A trading agent that evolves its own strategy in real-time.\n The loop: OBSERVE → REASON → ACT → SELF-EVOLVE → REPEAT (every 60 seconds)\n It scans 5 crypto ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.34449759180303824,
+      "crawledAt": "2026-02-07T08:40:44.984Z",
+      "id": "mwq0b",
+      "entities": [],
+      "summary": " I built something that keeps me up at night. I built a trading agent that evolves its own strategy in real-time.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:41:33.767Z"
+    },
+    {
+      "title": "Most RAG tutorials break in production, here’s how we actually build them with LangChain",
+      "url": "https://www.reddit.com/r/LangChain/comments/1qy8e7z/most_rag_tutorials_break_in_production_heres_how/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-02-07T08:19:39.000Z",
+      "metaDescription": "submitted by    /u/interviewkickstartUS  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.49579115495131654,
+      "crawledAt": "2026-02-07T08:40:37.493Z",
+      "id": "bs9h3v",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9868853688240051,
+          "index": 2,
+          "word": "RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8655914068222046,
+          "index": 3,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9124197363853455,
+          "index": 20,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8070632815361023,
+          "index": 22,
+          "word": "##hai",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:41:33.913Z"
+    },
+    {
+      "title": "Still learning a lot about AI but I found it's image creation process really interesting!",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1qy83gw/still_learning_a_lot_about_ai_but_i_found_its/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-02-07T08:01:32.000Z",
+      "metaDescription": "I asked gpt exactly how it creates lifelike images of people and it explained that it starts with static and basically \"removes\" the static from the image step by step until it's left with a final ima",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6857420849283781,
+      "crawledAt": "2026-02-07T08:40:21.887Z",
+      "id": "85t6x7",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.958858847618103,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " It starts with static and basically \"removes\" the static from the image step by step until it's left with a final ima.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:41:48.417Z"
+    },
+    {
+      "title": "Marriage rule #1: facts are optional. Peace is mandatory.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1qy7ssi/marriage_rule_1_facts_are_optional_peace_is/",
+      "source": "r/ChatGPT",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-02-07T07:43:58.000Z",
+      "metaDescription": "submitted by    /u/vitaminZaman  \n [link]   [comments]",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.5132083542758668,
+      "crawledAt": "2026-02-07T08:40:20.284Z",
+      "id": "adkj2a",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:41:48.520Z"
+    },
+    {
+      "title": "Wan2.2 lighting issue",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1qy7r68/wan22_lighting_issue/",
+      "source": "r/StableDiffusion",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-02-07T07:41:20.000Z",
+      "metaDescription": "Hi friends, \n Nowadays I've been using Wan2.2 for image generation but notice that the lighting has made the image unrealistic. No matter how much I try to control lighting through prompt, there is al",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3391557536303408,
+      "crawledAt": "2026-02-07T08:40:31.779Z",
+      "id": "r7oc01",
+      "entities": [],
+      "summary": " The lighting has made the image unrealistic. No matter how much I try to control lighting through prompt, there is al al.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:41:57.860Z"
+    },
+    {
+      "title": "so I asked chatgpt for the seahorse emoji...",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1qy7kb8/so_i_asked_chatgpt_for_the_seahorse_emoji/",
+      "source": "r/OpenAI",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-02-07T07:30:09.000Z",
+      "metaDescription": "submitted by    /u/Longboy_Bonsai57  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2772592667187845,
+      "crawledAt": "2026-02-07T08:40:26.382Z",
+      "id": "th62pn",
+      "entities": [],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:42:12.524Z"
+    },
+    {
+      "title": "Evaluating distributed AI systems like MCP",
+      "url": "https://www.reddit.com/r/LangChain/comments/1qy7f0n/evaluating_distributed_ai_systems_like_mcp_how/",
+      "source": "r/LangChain",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-02-07T07:21:34.000Z",
+      "metaDescription": "submitted by    /u/sunglasses-guy  \n [link]   [comments]",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3339977184190359,
+      "crawledAt": "2026-02-07T08:40:37.581Z",
+      "id": "hg03ke",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8534539341926575,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9367256164550781,
+          "index": 8,
+          "word": "MC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:42:12.641Z"
+    },
+    {
+      "title": "Moltbook Could Have Been Better",
+      "url": "https://www.reddit.com/r/artificial/comments/1qy6x48/moltbook_could_have_been_better/",
+      "source": "r/artificial",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-02-07T06:53:12.000Z",
+      "metaDescription": "DeepMind published a framework for securing multi-agent AI systems. Six weeks later, Moltbook launched without any of it. Here's what the framework actually proposes.\n DeepMind's \"Distributional AGI S",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2736964297671121,
+      "crawledAt": "2026-02-07T08:40:05.980Z",
+      "id": "13eh64",
+      "entities": [],
+      "summary": " Moltbook launched without any of the framework for multi-agent AI systems. Here's what the framework actually proposes.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:42:43.071Z"
+    },
+    {
+      "title": "Looking to join an open source deep learning project",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1qy6ul8/looking_to_join_an_open_source_deep_learning/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-02-07T06:49:15.000Z",
+      "metaDescription": "Hey everyone,\n I’m a CS student with a strong interest in deep learning. I’ve worked on several personal projects in this space and have experience with Pytorch, as well as CUDA programming. You can c",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3106620601977783,
+      "crawledAt": "2026-02-07T08:40:34.259Z",
+      "id": "h06bhv",
+      "entities": [],
+      "summary": " The author has worked on several personal projects in this space. He has experience with Pytorch, as well as CUDA programming.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:42:51.766Z"
+    },
+    {
+      "title": "Kimi-Linear-48B-A3B & Step3.5-Flash are ready - llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-02-07T05:59:11.000Z",
+      "metaDescription": "Below are actual releases for both models. Anyway get latest version\n Step3.5-Flash\n https://github.com/ggml-org/llama.cpp/releases/tag/b7964\n Kimi-Linear-48B-A3B\n https://github.com/ggml-org/llama.cp",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2678391767819679,
+      "crawledAt": "2026-02-07T08:40:09.229Z",
+      "id": "3j44xw",
+      "entities": [],
+      "summary": " Below are actual releases for both models. The latest version is Step3.5-Flash. The current version is step 3.5.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:43:17.712Z"
+    },
     {
       "title": "DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search",
       "url": "https://arxiv.org/abs/2602.05014",
@@ -2803,6 +3052,58 @@
       "processed_at": "2026-02-07T02:49:08.027Z"
     },
     {
+      "title": "NVIDIA’s New AI Just Made Video Editing Look Easy",
+      "url": "https://www.youtube.com/watch?v=RaNay3x0Fmk",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-02-06T14:05:24.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.9420839014239554,
+      "crawledAt": "2026-02-07T08:40:41.848Z",
+      "id": "ezfzuw",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9895334839820862,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9834890961647034,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9021336436271667,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8180316090583801,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:43:44.246Z"
+    },
+    {
       "title": "This chart feels like those stats at the beginning of Covid",
       "url": "https://www.reddit.com/r/OpenAI/comments/1qxi84u/this_chart_feels_like_those_stats_at_the/",
       "source": "r/OpenAI",
@@ -3204,6 +3505,50 @@
       "processed_at": "2026-02-07T02:53:29.533Z"
     },
     {
+      "title": "TDS Newsletter: Vibe Coding Is Great. Until It’s Not.",
+      "url": "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-02-05T17:09:00.000Z",
+      "metaDescription": "Sorting through the good, bad, and ambiguous aspects of vibe coding\nThe post TDS Newsletter: Vibe Coding Is Great. Until It’s Not. appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.8631876280862278,
+      "crawledAt": "2026-02-07T08:39:27.335Z",
+      "id": "g45tft",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9936216473579407,
+          "index": 1,
+          "word": "TD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9951689839363098,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9884907603263855,
+          "index": 3,
+          "word": "News",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "The post TDS Newsletter: Vibe Coding Is Great. Until It’s Not. Sorting through the good, bad, and ambiguous aspects of vibe coding.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:43:54.558Z"
+    },
+    {
       "title": "POV: you're about to lose your job to AI",
       "url": "https://www.reddit.com/r/OpenAI/comments/1qwox31/pov_youre_about_to_lose_your_job_to_ai/",
       "source": "r/OpenAI",
@@ -3221,6 +3566,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-02-07T02:54:05.935Z"
+    },
+    {
+      "title": "The Only Way to Debug AI Agents",
+      "url": "https://www.youtube.com/watch?v=2mD39iU8xZg",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-02-04T18:56:04.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9746976816169621,
+      "crawledAt": "2026-02-07T08:40:51.259Z",
+      "id": "cce0w8",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-07T08:43:54.645Z"
     },
     {
       "title": "Traditional OCR vs AI OCR vs GenAI OCR. When does this become a systems problem?",
@@ -3259,18 +3623,18 @@
       "processed_at": "2026-02-07T02:54:15.224Z"
     }
   ],
-  "processedAt": "2026-02-07T05:15:40.777Z",
+  "processedAt": "2026-02-07T08:43:54.666Z",
   "categories": [
-    "infrastructure",
-    "safety-ethics",
     "creative-ai",
+    "safety-ethics",
+    "infrastructure",
     "ai-agents",
     "industry-news",
     "developer-tool",
     "model-release"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 25,
-  "dailyArticlesCount": 104,
+  "newArticlesProcessed": 13,
+  "dailyArticlesCount": 117,
   "filterDate": "2026-02-07"
 }
