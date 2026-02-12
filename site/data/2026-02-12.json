@@ -1,7 +1,7 @@
 {
-  "crawledAt": "2026-02-12T05:28:33.736Z",
+  "crawledAt": "2026-02-12T08:57:43.493Z",
   "totalSources": 70,
-  "totalArticles": 69,
+  "totalArticles": 71,
   "aiFilterUsed": true,
   "articles": [
     {
@@ -2110,6 +2110,25 @@
       "processed_at": "2026-02-12T02:49:30.749Z"
     },
     {
+      "title": "Introducing Dedicated Container Inference: Delivering 2.6x faster inference for custom AI models",
+      "url": "https://www.together.ai/blog/dedicated-container-inference",
+      "source": "Together AI Blog",
+      "source_domain": "together.ai",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-02-12T00:00:00.000Z",
+      "metaDescription": "Together AI launches Dedicated Container Inference — production-grade orchestration for custom AI models with 1.4x–2.6x faster inference.",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.26230992646414214,
+      "crawledAt": "2026-02-12T08:56:37.857Z",
+      "id": "35xddz",
+      "entities": [],
+      "summary": " Together AI launches Dedicated Container Inference — production-grade orchestration for custom AI models with 1.4x–2.6x faster inference.",
+      "language": "en",
+      "processed_at": "2026-02-12T08:57:58.072Z"
+    },
+    {
       "title": "xAI lays out interplanetary ambitions in public all-hands",
       "url": "https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/",
       "source": "TechCrunch AI",
@@ -2496,9 +2515,37 @@
       "summary": "Researchers at MIT, the Improba at MIT. Researchers at the Improbi. Researchers at MIT found that companies must maintain separate models for every skill.",
       "language": "en",
       "processed_at": "2026-02-12T02:53:05.155Z"
+    },
+    {
+      "title": "Cache-aware prefill–decode disaggregation for up to 40% faster long-context LLM serving",
+      "url": "https://www.together.ai/blog/cache-aware-disaggregated-inference",
+      "source": "Together AI Blog",
+      "source_domain": "together.ai",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-02-11T00:00:00.000Z",
+      "metaDescription": "Serving long prompts doesn't have to mean slow responses. Learn how Together AI's CPD architecture separates warm and cold inference workloads to deliver 40% higher throughput and dramatically lower t",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5194832732623661,
+      "crawledAt": "2026-02-12T08:56:38.084Z",
+      "id": "207wkj",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9495006799697876,
+          "index": 23,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI's CPD architecture separates warm and cold inference workloads to deliver 40% higher throughput and dramatically lower t t t levels. Learn how Together AI'sCPD architecture separated warm andcold inference workload.",
+      "language": "en",
+      "processed_at": "2026-02-12T08:58:12.192Z"
     }
   ],
-  "processedAt": "2026-02-12T05:44:53.387Z",
+  "processedAt": "2026-02-12T08:58:12.200Z",
   "categories": [
     "safety-ethics",
     "creative-ai",
@@ -2510,7 +2557,7 @@
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 56,
-  "dailyArticlesCount": 69,
+  "newArticlesProcessed": 2,
+  "dailyArticlesCount": 71,
   "filterDate": "2026-02-12"
 }
