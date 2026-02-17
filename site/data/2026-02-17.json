@@ -1,9 +1,283 @@
 {
-  "crawledAt": "2026-02-17T08:57:07.789Z",
+  "crawledAt": "2026-02-17T13:18:33.416Z",
   "totalSources": 70,
-  "totalArticles": 66,
+  "totalArticles": 73,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Cog-RAG: Giving RAG a Brain That Thinks Before It Retrieves",
+      "url": "https://pub.towardsai.net/cog-rag-giving-rag-a-brain-that-thinks-before-it-retrieves-8446f9655cc6?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T13:01:02.000Z",
+      "metaDescription": "Retrieval-Augmented Generation (RAG) is now a standard way to help LLMs stay grounded. The basic idea is familiar: slice documents into…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5410283832275502,
+      "crawledAt": "2026-02-17T13:17:48.657Z",
+      "id": "xasb4q",
+      "entities": [],
+      "summary": " Retrieval-Augmented Generation (RAG) is now a standard way to help LLMs stay grounded. The basic idea is a slice of a slice.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:19:01.026Z"
+    },
+    {
+      "title": "As AI jitters rattle IT stocks, Infosys partners with Anthropic to build ‘enterprise-grade’ AI agents",
+      "url": "https://techcrunch.com/2026/02/17/as-ai-jitters-rattle-it-stocks-infosys-partners-with-anthropic-to-build-enterprise-grade-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T12:55:12.000Z",
+      "metaDescription": "Under the partnership, Infosys plans to integrate Anthropic's Claude models into its Topaz AI platform to build so-called \"agentic\" systems.",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.8604386663914105,
+      "crawledAt": "2026-02-17T13:17:24.737Z",
+      "id": "wzyz25",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8998971581459045,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9457064270973206,
+          "index": 7,
+          "word": "IT",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9982553720474243,
+          "index": 10,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8422268033027649,
+          "index": 11,
+          "word": "##fo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9932340979576111,
+          "index": 12,
+          "word": "##sy",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9937753677368164,
+          "index": 13,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9212562441825867,
+          "index": 16,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9215893745422363,
+          "index": 18,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Infosys plans to integrate Anthropic's Claude models into its Topaz AI platform to build so-called \"agentic\" systems.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:19:10.803Z"
+    },
+    {
+      "title": "The 5 Multimodal Model Architectures: How AI Learned to See, Read, and Understand Simultaneously",
+      "url": "https://pub.towardsai.net/the-5-multimodal-model-architectures-how-ai-learned-to-see-read-and-understand-simultaneously-7047041b9e0f?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T12:01:03.000Z",
+      "metaDescription": "Understanding Early Fusion, Late Fusion, Cross-Attention, Unified Encoders, and End-to-End Models\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.41325570786133664,
+      "crawledAt": "2026-02-17T13:17:48.750Z",
+      "id": "28qxwm",
+      "entities": [],
+      "summary": " Understanding Early Fusion, Late Fusion, Cross-Attention, Unified Encoders, and End-to-End Models.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:19:32.026Z"
+    },
+    {
+      "title": "LLM Embeddings vs TF-IDF vs Bag-of-Words: Which Works Better in Scikit-learn?",
+      "url": "https://machinelearningmastery.com/llm-embeddings-vs-tf-idf-vs-bag-of-words-which-works-better-in-scikit-learn/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T11:00:58.000Z",
+      "metaDescription": "Machine learning models built with frameworks like scikit-learn can accommodate unstructured data like text, as long as this raw text is converted into a numerical representation that is understandabl",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.4230884054318955,
+      "crawledAt": "2026-02-17T13:17:44.152Z",
+      "id": "lc86en",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9791648983955383,
+          "index": 1,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.998400866985321,
+          "index": 11,
+          "word": "IDF",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9247373342514038,
+          "index": 24,
+          "word": "Sc",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Machine learning models built with frameworks like scikit-learn can accommodate unstructured data like text. As long as this raw text is converted into a numerical representation that is understandablabl.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:19:44.232Z"
+    },
+    {
+      "title": "The curious case of the disappearing Lamborghinis",
+      "url": "https://www.technologyreview.com/2026/02/17/1132538/curious-case-disappearing-lambhorghinis/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T11:00:00.000Z",
+      "metaDescription": "When Sam Zahr first saw the gray Rolls-Royce Dawn convertible with orange interior and orange roof, he knew he’d found a perfect addition to his fleet. “It was very appealing to our clientele,” he tol",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.289444217814785,
+      "crawledAt": "2026-02-17T13:17:29.542Z",
+      "id": "ujboz2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9245992302894592,
+          "index": 7,
+          "word": "Lamb",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The gray Rolls-Royce Dawn convertible has orange interior and orange roof. The convertible was designed by Sam Zahr.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:19:53.209Z"
+    },
+    {
+      "title": "AI Digital Twins Are Helping People Manage Diabetes and Obesity",
+      "url": "https://www.wired.com/story/ai-digital-twins-are-helping-people-manage-diabetes-and-obesity/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T11:00:00.000Z",
+      "metaDescription": "As patients and employers look for alternatives to pricey GLP-1 drugs, Silicon Valley startup Twin Health is using AI and wearable sensors to help people make healthier choices.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8999297999279925,
+      "crawledAt": "2026-02-17T13:17:30.576Z",
+      "id": "2vwrqd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9646890163421631,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.963599681854248,
+          "index": 2,
+          "word": "Digital",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9805232882499695,
+          "index": 3,
+          "word": "Twins",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8066680431365967,
+          "index": 15,
+          "word": "##besity",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Twin Health is using AI and wearable sensors to help people make healthier choices. Silicon Valley startup Twin Health uses AI and wearables to help make healthier decisions.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:20:02.498Z"
+    },
+    {
+      "title": "Cohere launches a family of open multilingual models",
+      "url": "https://techcrunch.com/2026/02/17/cohere-launches-a-family-of-open-multilingual-models/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-02-17T09:00:00.000Z",
+      "metaDescription": "Cohere's Tiny Aya models support over 70 langauges",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.9770284911328196,
+      "crawledAt": "2026-02-17T13:17:24.802Z",
+      "id": "70xddd",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9917017817497253,
+          "index": 1,
+          "word": "Co",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-17T13:20:02.564Z"
+    },
     {
       "title": "The Ralston Quote That Never Existed: A Case Study in AI Hallucination",
       "url": "https://ai.plainenglish.io/the-ralston-quote-that-never-existed-a-case-study-in-ai-hallucination-3b2f4755b36d?source=rss----78d064101951---4",
@@ -2028,20 +2302,20 @@
       "processed_at": "2026-02-17T02:41:57.077Z"
     }
   ],
-  "processedAt": "2026-02-17T09:00:18.745Z",
+  "processedAt": "2026-02-17T13:20:12.190Z",
   "categories": [
     "creative-ai",
     "ai-agents",
-    "developer-tool",
     "infrastructure",
+    "product-launch",
+    "developer-tool",
     "safety-ethics",
     "model-release",
     "research-paper",
-    "tutorial-guide",
-    "product-launch"
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 9,
-  "dailyArticlesCount": 66,
+  "newArticlesProcessed": 7,
+  "dailyArticlesCount": 73,
   "filterDate": "2026-02-17"
 }
