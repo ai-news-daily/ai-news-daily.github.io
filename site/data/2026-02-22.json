@@ -1,9 +1,241 @@
 {
-  "crawledAt": "2026-02-22T13:04:04.881Z",
+  "crawledAt": "2026-02-22T16:39:38.828Z",
   "totalSources": 70,
-  "totalArticles": 18,
+  "totalArticles": 26,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Beyond RAG: Building Memory Injections for Your AI Assistants",
+      "url": "https://pub.towardsai.net/beyond-rag-building-memory-injections-for-your-ai-assistants-ceedcea20419?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T16:01:04.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3379558026687661,
+      "crawledAt": "2026-02-22T16:38:50.115Z",
+      "id": "xv5zem",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:39:52.192Z"
+    },
+    {
+      "title": "LoRA, QLoRA, DoRA — Which Fine-Tuning Method Should You Actually Use?",
+      "url": "https://pub.towardsai.net/lora-qlora-dora-which-fine-tuning-method-should-you-actually-use-296b53ea1aa9?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T15:31:01.000Z",
+      "metaDescription": "LoRA is the default. QLoRA is the memory hack. DoRA is the upgrade. I broke down all three from the original papers — so you don’t have to.\nContinue reading on Towards AI »",
+      "category": "safety-ethics",
+      "difficulty": 10,
+      "confidence": 0.2929218130930485,
+      "crawledAt": "2026-02-22T16:38:50.302Z",
+      "id": "yut80n",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9866578578948975,
+          "index": 1,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9498050808906555,
+          "index": 2,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9892632961273193,
+          "index": 4,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9270240664482117,
+          "index": 5,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8841784000396729,
+          "index": 6,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9626400470733643,
+          "index": 7,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9924498200416565,
+          "index": 9,
+          "word": "Do",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8172114491462708,
+          "index": 10,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " QLoRA is the memory hack. DoRA is a memory hack. I broke down all three from the original papers.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:01.900Z"
+    },
+    {
+      "title": "The Reality of Vibe Coding: AI Agents and the Security Debt Crisis",
+      "url": "https://towardsdatascience.com/the-reality-of-vibe-coding-ai-agents-and-the-security-debt-crisis/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T15:00:00.000Z",
+      "metaDescription": "Why optimizing for speed over safety is leaving applications vulnerable, and how to fix it.\nThe post The Reality of Vibe Coding: AI Agents and the Security Debt Crisis appeared first on Towards Data S",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8125402775927206,
+      "crawledAt": "2026-02-22T16:38:26.800Z",
+      "id": "991yux",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8980632424354553,
+          "index": 6,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9311734437942505,
+          "index": 14,
+          "word": "De",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8607592582702637,
+          "index": 16,
+          "word": "Crisis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Reality of Vibe Coding: AI Agents and the Security Debt Crisis appeared first on Towards Data S.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:34.755Z"
+    },
+    {
+      "title": "Introducing pydantic-ai-skills: Composable Agent Skills for the Pydantic AI Ecosystem",
+      "url": "https://pub.towardsai.net/introducing-pydantic-ai-skills-composable-agent-skills-for-the-pydantic-ai-ecosystem-dc98dd2bff53?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T14:31:00.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9930420693286812,
+      "crawledAt": "2026-02-22T16:38:50.717Z",
+      "id": "cowkgf",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9470168948173523,
+          "index": 21,
+          "word": "P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:45.026Z"
+    },
+    {
+      "title": "AI Agents Suck at Backends",
+      "url": "https://www.youtube.com/watch?v=6RQHVz8MJI4",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T13:45:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9617124208515139,
+      "crawledAt": "2026-02-22T16:39:15.665Z",
+      "id": "iahg59",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:45.309Z"
+    },
+    {
+      "title": "A Beginner‑Friendly Guide to Running OpenClaw for Free",
+      "url": "https://pub.towardsai.net/a-beginner-friendly-guide-to-running-openclaw-for-free-04459be33ca0?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T13:31:01.000Z",
+      "metaDescription": "A practical walkthrough for configuring OpenClaw with no‑cost LLMs from OpenRouter and NVIDIA.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.602800466847687,
+      "crawledAt": "2026-02-22T16:38:50.934Z",
+      "id": "119hmm",
+      "entities": [],
+      "summary": " A practical walkthrough for configuring OpenClaw with no-cost LLMs from OpenRouter and NVIDIA.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:54.394Z"
+    },
+    {
+      "title": "Architecting Resilience: Why Most Agentic Workflows Are Fragile Demos",
+      "url": "https://pub.towardsai.net/architecting-resilience-why-most-agentic-workflows-are-fragile-demos-6689713bce6c?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-02-22T13:01:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6527829834426201,
+      "crawledAt": "2026-02-22T16:38:51.010Z",
+      "id": "x3lpyj",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:54.513Z"
+    },
     {
       "title": "The ML Model Selection Playbook",
       "url": "https://pub.towardsai.net/the-ml-model-selection-playbook-abf4d39a7ae8?source=rss----98111c9905da---4",
@@ -780,6 +1012,50 @@
       "processed_at": "2026-02-22T02:45:15.529Z"
     },
     {
+      "title": "Sam Altman would like to remind you that humans use a lot of energy, too",
+      "url": "https://techcrunch.com/2026/02/21/sam-altman-would-like-remind-you-that-humans-use-a-lot-of-energy-too/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-02-21T21:38:01.000Z",
+      "metaDescription": "\"It also takes a lot of energy to train a human.\"",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3322184830782843,
+      "crawledAt": "2026-02-22T16:38:14.899Z",
+      "id": "gshzx7",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9996771812438965,
+          "index": 1,
+          "word": "Sam",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999634325504303,
+          "index": 2,
+          "word": "Alt",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9851535558700562,
+          "index": 3,
+          "word": "##man",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-02-22T16:40:54.661Z"
+    },
+    {
       "title": "What is the Range Input?",
       "url": "https://levelup.gitconnected.com/best-range-input-library-540dfb2f2ea1?source=rss----5517fd7b58a6---4",
       "source": "Level Up Coding",
@@ -816,18 +1092,18 @@
       "processed_at": "2026-02-22T02:45:15.811Z"
     }
   ],
-  "processedAt": "2026-02-22T13:06:18.341Z",
+  "processedAt": "2026-02-22T16:40:54.669Z",
   "categories": [
-    "model-release",
-    "product-launch",
+    "infrastructure",
+    "safety-ethics",
     "ai-agents",
     "creative-ai",
-    "tutorial-guide",
-    "infrastructure",
-    "safety-ethics"
+    "model-release",
+    "product-launch",
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 14,
-  "dailyArticlesCount": 18,
+  "newArticlesProcessed": 8,
+  "dailyArticlesCount": 26,
   "filterDate": "2026-02-22"
 }
