@@ -1,9 +1,104 @@
 {
-  "crawledAt": "2026-04-01T05:59:55.958Z",
+  "crawledAt": "2026-04-01T09:16:22.549Z",
   "totalSources": 70,
-  "totalArticles": 69,
+  "totalArticles": 72,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "The Claude Code Leak: A Deep Dive Into Anthropic’s Accidental Open Source Moment",
+      "url": "https://ai.plainenglish.io/the-claude-code-leak-a-deep-dive-into-anthropics-accidental-open-source-moment-766fd5691b78?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-01T07:24:03.000Z",
+      "metaDescription": "On March 31, 2026, Anthropic one of the most safety-conscious AI companies in the world accidentally published the entire source code of…\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 7,
+      "confidence": 0.2718196586677267,
+      "crawledAt": "2026-04-01T09:15:29.451Z",
+      "id": "bb7brb",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9870935082435608,
+          "index": 2,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9849256873130798,
+          "index": 3,
+          "word": "Code",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9906619191169739,
+          "index": 4,
+          "word": "Lea",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9790074825286865,
+          "index": 5,
+          "word": "##k",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8717876076698303,
+          "index": 13,
+          "word": "##throp",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8006196618080139,
+          "index": 21,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9903364777565002,
+          "index": 22,
+          "word": "Source",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " On March 31, 2026, Anthropic one of the most safety-conscious AI companies in the world accidentally published the entire source code of…Continue reading on Artificial Intelligence in Plain English.",
+      "language": "en",
+      "processed_at": "2026-04-01T09:16:43.934Z"
+    },
+    {
+      "title": "Falcon Perception",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-04-01T07:13:20.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5974948165241126,
+      "crawledAt": "2026-04-01T09:14:37.036Z",
+      "id": "12e1s",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-01T09:16:43.996Z"
+    },
     {
       "title": "Agentic AI has crossed the line from experimentation to infrastructure.",
       "url": "https://ai.plainenglish.io/agentic-ai-has-crossed-the-line-from-experimentation-to-infrastructure-5ab9c06dde77?source=rss----78d064101951---4",
@@ -1901,6 +1996,66 @@
       "processed_at": "2026-04-01T06:16:11.070Z"
     },
     {
+      "title": "Gradient Labs gives every bank customer an AI account manager",
+      "url": "https://openai.com/index/gradient-labs",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-04-01T02:00:00.000Z",
+      "metaDescription": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.38810119683208383,
+      "crawledAt": "2026-04-01T09:14:38.662Z",
+      "id": "a3ed57",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9976732134819031,
+          "index": 1,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9820057153701782,
+          "index": 2,
+          "word": "##rad",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9620563983917236,
+          "index": 3,
+          "word": "##ient",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9984021782875061,
+          "index": 4,
+          "word": "Labs",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9810125827789307,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Gradient Labs uses GPT-4.1 and GPT.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "language": "en",
+      "processed_at": "2026-04-01T09:16:54.900Z"
+    },
+    {
       "title": "How Blockchain Development Improves Security and Transparency in Digital Systems",
       "url": "https://ai.plainenglish.io/how-blockchain-development-improves-security-and-transparency-in-digital-systems-7a14aab1674b?source=rss----78d064101951---4",
       "source": "AI in Plain English",
@@ -2453,20 +2608,20 @@
       "processed_at": "2026-04-01T06:20:10.267Z"
     }
   ],
-  "processedAt": "2026-04-01T06:20:10.274Z",
+  "processedAt": "2026-04-01T09:16:54.907Z",
   "categories": [
+    "safety-ethics",
+    "creative-ai",
     "ai-agents",
     "infrastructure",
     "research-paper",
     "developer-tool",
-    "creative-ai",
     "model-release",
-    "safety-ethics",
     "tutorial-guide",
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 69,
-  "dailyArticlesCount": 69,
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 72,
   "filterDate": "2026-04-01"
 }
