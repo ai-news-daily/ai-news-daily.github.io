@@ -1,9 +1,605 @@
 {
-  "crawledAt": "2026-04-17T17:00:17.539Z",
+  "crawledAt": "2026-04-17T20:55:36.974Z",
   "totalSources": 70,
-  "totalArticles": 191,
+  "totalArticles": 208,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Claude Design Is Here — Figma Stock Crashed",
+      "url": "https://www.youtube.com/watch?v=sIeK43DLaBo",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T19:57:18.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8911104794960695,
+      "crawledAt": "2026-04-17T20:54:57.082Z",
+      "id": "mqj013",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9072709679603577,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8297760486602783,
+          "index": 2,
+          "word": "Design",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:56:00.167Z"
+    },
+    {
+      "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T19:43:38.000Z",
+      "metaDescription": "In this post, we show you how to use Model Distillation, a model customization technique on Amazon Bedrock, to transfer routing intelligence from a large teacher model (Amazon Nova Premier) into a muc",
+      "category": "model-release",
+      "difficulty": 9,
+      "confidence": 0.5551413154610729,
+      "crawledAt": "2026-04-17T20:54:24.647Z",
+      "id": "cnajka",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8037848472595215,
+          "index": 9,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9545450806617737,
+          "index": 10,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9491791129112244,
+          "index": 11,
+          "word": "Model",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Model Distillation is a model customization technique on Amazon Bedrock. You can transfer routing intelligence from a large teacher model (Amazon Nova Premier) into a muc.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:56:18.756Z"
+    },
+    {
+      "title": "Power video semantic search with Amazon Nova Multimodal Embeddings",
+      "url": "https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T19:43:35.000Z",
+      "metaDescription": "In this post, we show you how to build a video semantic search solution on Amazon Bedrock using Nova Multimodal Embeddings that intelligently understands user intent and retrieves accurate video resul",
+      "category": "infrastructure",
+      "difficulty": 9,
+      "confidence": 0.35815467854462385,
+      "crawledAt": "2026-04-17T20:54:24.817Z",
+      "id": "cy11i0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8792704343795776,
+          "index": 6,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9943625330924988,
+          "index": 7,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9867302775382996,
+          "index": 8,
+          "word": "Multi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9586761593818665,
+          "index": 9,
+          "word": "##mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9793543219566345,
+          "index": 10,
+          "word": "##dal",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8501357436180115,
+          "index": 11,
+          "word": "Em",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon Bedrock uses Nova Multimodal Embeddings that intelligently understands user intent and retrieves accurate video resul.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:56:31.437Z"
+    },
+    {
+      "title": "Satellite and drone images reveal big delays in US data center construction",
+      "url": "https://arstechnica.com/ai/2026/04/construction-delays-hit-40-of-us-data-centers-planned-for-2026/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T18:08:25.000Z",
+      "metaDescription": "Data centers face construction delays and energy bottleneck as resistance grows.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.25378633563412545,
+      "crawledAt": "2026-04-17T20:53:59.766Z",
+      "id": "t9nlxq",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9873420000076294,
+          "index": 9,
+          "word": "US",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Construction delays and energy bottleneck as resistance grows. Data centers face construction delays and delays as resistance grow. Data centers are facing construction delays.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:57:51.369Z"
+    },
+    {
+      "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+      "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+      "source": "AI Explained",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T18:07:46.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6985078444714621,
+      "crawledAt": "2026-04-17T20:54:53.231Z",
+      "id": "f1hwb9",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9218987822532654,
+          "index": 9,
+          "word": "Frontier",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:57:51.488Z"
+    },
+    {
+      "title": "I Tested Claude Opus 4.7 vs 4.6 on 7 Real Tasks: The Default Setting Swap That Quietly Ends the…",
+      "url": "https://pub.towardsai.net/i-tested-claude-opus-4-7-vs-4-6-on-7-real-tasks-the-default-setting-swap-that-quietly-ends-the-6757e3c18418?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T18:01:01.000Z",
+      "metaDescription": "Same $5/$25 price. 4 problems only 4.7 can solve. And the one-line config change Anthropic buried in the release notes.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4352017365497348,
+      "crawledAt": "2026-04-17T20:54:32.712Z",
+      "id": "kc3pxk",
+      "entities": [],
+      "summary": " One-line config change Anthropic is buried in the release notes. 4 problems only 4.7 can solve.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:58:00.261Z"
+    },
+    {
+      "title": "Building an emoji list generator with the GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
+      "source": "GitHub Blog",
+      "source_domain": "github.blog",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T18:00:00.000Z",
+      "metaDescription": "See how we created an emoji list generator during the Rubber Duck Thursday stream.\nThe post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.6649400310912311,
+      "crawledAt": "2026-04-17T20:53:57.615Z",
+      "id": "pj70wl",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9762212634086609,
+          "index": 10,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9825142621994019,
+          "index": 12,
+          "word": "##H",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog. See how we created an emoji lists generator during the Rubber Duck Thursday stream.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:58:10.982Z"
+    },
+    {
+      "title": "Ridley Scott's post-apocalyptic The Dog Stars drops first trailer",
+      "url": "https://arstechnica.com/culture/2026/04/ridley-scotts-post-apocalyptic-the-dog-stars-drops-first-trailer/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T17:32:55.000Z",
+      "metaDescription": "\"The world that was, doesn't exist. It's just us, trying to hold onto what was.\"",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.361865020271834,
+      "crawledAt": "2026-04-17T20:53:59.997Z",
+      "id": "ev50rj",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9996200799942017,
+          "index": 1,
+          "word": "Ridley",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9995195269584656,
+          "index": 2,
+          "word": "Scott",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"The world that was, doesn't exist. It's just us, trying to hold onto what was,\" says the author.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:58:41.090Z"
+    },
+    {
+      "title": "How I Built an AI Tool Using Python That Saved Me 10 Hours a Week",
+      "url": "https://python.plainenglish.io/how-i-built-an-ai-tool-using-python-that-saved-me-10-hours-a-week-12b84b5916b8?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T17:31:01.000Z",
+      "metaDescription": "Most automation projects don’t fail because they’re hard.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5176427906415398,
+      "crawledAt": "2026-04-17T20:54:41.987Z",
+      "id": "qdfje6",
+      "entities": [],
+      "summary": " Most automation projects don’t fail because they’re hard, says John Sutter. Sutter: ‘Most automation projects are hard’",
+      "language": "en",
+      "processed_at": "2026-04-17T20:58:54.443Z"
+    },
+    {
+      "title": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nova-forge-sdk-series-part-2-practical-guide-to-fine-tune-nova-models-using-data-mixing-capabilities/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T17:27:40.000Z",
+      "metaDescription": "This hands-on guide walks through every step of fine-tuning an Amazon Nova model with the Amazon Nova Forge SDK, from data preparation to training with data mixing to evaluation, giving you a repeatab",
+      "category": "model-release",
+      "difficulty": 8,
+      "confidence": 0.5054912334918149,
+      "crawledAt": "2026-04-17T20:54:25.004Z",
+      "id": "bjam0v",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9757940173149109,
+          "index": 1,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9592020511627197,
+          "index": 2,
+          "word": "For",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9455085396766663,
+          "index": 3,
+          "word": "##ge",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8019497990608215,
+          "index": 4,
+          "word": "SD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8658602237701416,
+          "index": 5,
+          "word": "##K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8590270280838013,
+          "index": 17,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Hands-on guide walks through every step of fine-tuning an Amazon Nova model with the Amazon Nova Forge SDK.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:05.608Z"
+    },
+    {
+      "title": "Gazing Into Sam Altman’s Orb Now Proves You’re Human on Tinder",
+      "url": "https://www.wired.com/story/gazing-into-sam-altmans-orb-now-proves-youre-human-on-tinder/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T17:14:51.000Z",
+      "metaDescription": "Honestly, what’s hotter than a real person?",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6851670805536186,
+      "crawledAt": "2026-04-17T20:54:06.132Z",
+      "id": "nvnqda",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9987229704856873,
+          "index": 5,
+          "word": "Sam",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9991675615310669,
+          "index": 6,
+          "word": "Alt",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.980089545249939,
+          "index": 7,
+          "word": "##man",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:05.734Z"
+    },
+    {
+      "title": "From hours to minutes: How Agentic AI gave marketers time back for what matters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-hours-to-minutes-how-agentic-ai-gave-marketers-time-back-for-what-matters/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T17:12:10.000Z",
+      "metaDescription": "In this post, we share how AWS Marketing’s Technology, AI, and Analytics (TAA) team worked with Gradial to build an agentic AI solution on Amazon Bedrock for accelerating content publishing workflows.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9515184530222975,
+      "crawledAt": "2026-04-17T20:54:25.198Z",
+      "id": "ajk9vp",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8281459808349609,
+          "index": 7,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8624937534332275,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The team worked with Gradial to build an agentic AI solution on Amazon Bedrock for accelerating content publishing workflows.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:17.601Z"
+    },
+    {
+      "title": "How Large Language Models Actually Work",
+      "url": "https://ai.plainenglish.io/how-large-language-models-actually-work-explained-simply-79603be73c74?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T17:08:08.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.26614787398625983,
+      "crawledAt": "2026-04-17T20:54:40.984Z",
+      "id": "28a6ei",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:17.678Z"
+    },
+    {
+      "title": "Most enterprises can't stop stage-three AI agent threats, VentureBeat survey finds",
+      "url": "https://venturebeat.com/security/most-enterprises-cant-stop-stage-three-ai-agent-threats-venturebeat-survey-finds",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T17:07:29.000Z",
+      "metaDescription": "A rogue AI agent at Meta passed every identity check and still exposed sensitive data to unauthorized employees in March. Two weeks later, Mercor, a $10 billion AI startup, confirmed a supply-chain br",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8201777986665475,
+      "crawledAt": "2026-04-17T20:54:09.479Z",
+      "id": "p50zgu",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9883916974067688,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9957866668701172,
+          "index": 14,
+          "word": "Venture",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9959949254989624,
+          "index": 15,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9948040246963501,
+          "index": 16,
+          "word": "##eat",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A rogue AI agent at Meta passed every identity check and exposed sensitive data to unauthorized employees in March. Mercor, a $10 billion AI startup, confirmed a supply-chain br confirmed a Supply-chain Br.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:31.763Z"
+    },
+    {
+      "title": "How AI Agents Shop, Work, and Transact: The MCP–UCP Architecture Breakdown",
+      "url": "https://pub.towardsai.net/how-ai-agents-shop-work-and-transact-the-mcp-ucp-architecture-breakdown-93a856da31d8?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-17T17:01:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9381610325416947,
+      "crawledAt": "2026-04-17T20:54:32.794Z",
+      "id": "winanv",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-17T20:59:31.888Z"
+    },
+    {
+      "title": "Meta's AI spending spree is helping make its Quest headsets more expensive",
+      "url": "https://arstechnica.com/ai/2026/04/metas-ai-spending-spree-is-helping-make-its-quest-headsets-more-expensive/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-17T16:23:20.000Z",
+      "metaDescription": "Prices for \"critical components\" are surging because of massive data center investments.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.978432215699803,
+      "crawledAt": "2026-04-17T20:54:00.225Z",
+      "id": "yz3gm0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9981439113616943,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9917746782302856,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.830018162727356,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Prices for \"critical components\" are surging because of massive data center investments. Prices for 'critical components' are surging.",
+      "language": "en",
+      "processed_at": "2026-04-17T21:00:05.688Z"
+    },
     {
       "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
@@ -6053,6 +6649,50 @@
       "processed_at": "2026-04-17T06:30:26.470Z"
     },
     {
+      "title": "DeepMind’s New AI Just Broke The Internet",
+      "url": "https://www.youtube.com/watch?v=Sk9tvyRSCgY",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-16T17:44:48.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.8661028145530848,
+      "crawledAt": "2026-04-17T20:54:49.678Z",
+      "id": "ruysxf",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9893831610679626,
+          "index": 1,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9955893754959106,
+          "index": 2,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9899382591247559,
+          "index": 3,
+          "word": "##ind",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-04-17T21:00:05.779Z"
+    },
+    {
       "title": "Multi-tier cache for LangChain + LangGraph that works on vanilla Valkey/Redis - no modules required",
       "url": "https://www.reddit.com/r/LangChain/comments/1sn9sg0/multitier_cache_for_langchain_langgraph_that/",
       "source": "r/LangChain",
@@ -6581,21 +7221,21 @@
       "processed_at": "2026-04-17T13:48:36.435Z"
     }
   ],
-  "processedAt": "2026-04-17T17:03:20.830Z",
+  "processedAt": "2026-04-17T21:00:05.788Z",
   "categories": [
-    "infrastructure",
     "creative-ai",
-    "product-launch",
+    "model-release",
+    "infrastructure",
     "ai-agents",
+    "product-launch",
     "developer-tool",
     "industry-news",
     "safety-ethics",
-    "model-release",
     "tutorial-guide",
     "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 12,
-  "dailyArticlesCount": 191,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 208,
   "filterDate": "2026-04-17"
 }
