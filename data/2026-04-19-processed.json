@@ -1,9 +1,83 @@
 {
-  "crawledAt": "2026-04-19T09:01:18.249Z",
+  "crawledAt": "2026-04-19T13:15:52.906Z",
   "totalSources": 70,
-  "totalArticles": 15,
+  "totalArticles": 18,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Claude Design Is Here — Figma Stock Crashed",
+      "url": "https://www.youtube.com/watch?v=1V_hqIwydeA",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-19T13:00:05.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8911104794960695,
+      "crawledAt": "2026-04-19T13:15:27.793Z",
+      "id": "rzxcd0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9072709679603577,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8297760486602783,
+          "index": 2,
+          "word": "Design",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-04-19T13:15:55.061Z"
+    },
+    {
+      "title": "Dreaming in Cubes",
+      "url": "https://towardsdatascience.com/dreaming-in-cubes/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-04-19T13:00:00.000Z",
+      "metaDescription": "Generating Minecraft Worlds with Vector Quantized Variational Autoencoders (VQ-VAE) and Transformers\nThe post Dreaming in Cubes appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.49083064960933187,
+      "crawledAt": "2026-04-19T13:14:40.675Z",
+      "id": "50mhbq",
+      "entities": [],
+      "summary": "The post Dreaming in Cubes. The post is part of a series of posts by CNN's John Sutter.",
+      "language": "en",
+      "processed_at": "2026-04-19T13:16:05.766Z"
+    },
+    {
+      "title": "KV Cache Is Eating Your VRAM. Here’s How Google Fixed It With TurboQuant.",
+      "url": "https://towardsdatascience.com/kv-cache-is-eating-your-vram-heres-how-google-fixed-it-with-turboquant/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-04-19T11:00:00.000Z",
+      "metaDescription": "Explore the end-to-end pipeline of TurboQuant, a novel KV cache quantization framework. This overview breaks down how multi-stage compression achieves near-lossless storage through PolarQuant and QJL ",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3167720279055889,
+      "crawledAt": "2026-04-19T13:14:40.875Z",
+      "id": "1ei94l",
+      "entities": [],
+      "summary": " TurboQuant is a novel KV cache quantization framework. This overview breaks down how multi-stage compression achieves near-lossless storage through PolarQuant and QJL.",
+      "language": "en",
+      "processed_at": "2026-04-19T13:16:41.691Z"
+    },
     {
       "title": "9 Python Errors Developers Keep Repeating",
       "url": "https://python.plainenglish.io/9-python-errors-developers-keep-repeating-d2379cde7519?source=rss----78073def27b8---4",
@@ -498,17 +572,17 @@
       "processed_at": "2026-04-19T03:31:42.326Z"
     }
   ],
-  "processedAt": "2026-04-19T09:02:31.819Z",
+  "processedAt": "2026-04-19T13:16:41.697Z",
   "categories": [
     "creative-ai",
+    "infrastructure",
     "ai-agents",
     "safety-ethics",
-    "infrastructure",
     "developer-tool",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 11,
-  "dailyArticlesCount": 15,
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 18,
   "filterDate": "2026-04-19"
 }
