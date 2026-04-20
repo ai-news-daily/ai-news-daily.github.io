@@ -1,9 +1,105 @@
 {
-  "crawledAt": "2026-04-20T06:23:09.842Z",
+  "crawledAt": "2026-04-20T10:05:03.007Z",
   "totalSources": 70,
-  "totalArticles": 90,
+  "totalArticles": 96,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
+      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-20T09:00:00.000Z",
+      "metaDescription": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.  Earlier this mon",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4992141082545504,
+      "crawledAt": "2026-04-20T10:03:25.666Z",
+      "id": "mya4pk",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9997769594192505,
+          "index": 1,
+          "word": "Chinese",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8453464508056641,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Tech workers in China are being told to train AI agents to replace them. The move is prompting a wave of soul-searching among early adopters.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:05:15.347Z"
+    },
+    {
+      "title": "Anthropic walks into the White House and Mythos is the reason Washington let it in",
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-mythos-ai-cybersecurity-white-house/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-20T08:00:00.000Z",
+      "metaDescription": "When we covered Project Glasswing earlier this month, the story was about a model too dangerous to release publicly and what Anthropic decided to do with it instead. That story has moved. On Friday, A",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.4376785864966885,
+      "crawledAt": "2026-04-20T10:03:34.391Z",
+      "id": "llr2vi",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9986929893493652,
+          "index": 7,
+          "word": "White",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9982731342315674,
+          "index": 8,
+          "word": "House",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8440696001052856,
+          "index": 10,
+          "word": "My",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8347429037094116,
+          "index": 12,
+          "word": "##os",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9024157524108887,
+          "index": 16,
+          "word": "Washington",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The story was about a model too dangerous to release publicly and what Anthropic decided to do with it instead. On Friday, A. A.A. A story has moved.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:05:40.032Z"
+    },
     {
       "title": "I thought about doing this without any jokes, something I've never done here in 23 years, to impress upon people how much different I feel this issue is from any I have ever covered.\" ... \"We're letting a handful of sociopaths roll the dice on species extinction.",
       "url": "https://www.reddit.com/r/OpenAI/comments/1sqh1hn/i_thought_about_doing_this_without_any_jokes/",
@@ -1890,6 +1986,124 @@
       "processed_at": "2026-04-20T06:37:25.373Z"
     },
     {
+      "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+      "url": "https://arxiv.org/abs/2604.15574",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-04-20T04:00:00.000Z",
+      "metaDescription": "arXiv:2604.15574v1 Announce Type: new \nAbstract: Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information th",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9742480887010398,
+      "crawledAt": "2026-04-20T10:04:43.256Z",
+      "id": "44wjqn",
+      "entities": [],
+      "summary": " Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:06:53.033Z"
+    },
+    {
+      "title": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
+      "url": "https://arxiv.org/abs/2604.15588",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-04-20T04:00:00.000Z",
+      "metaDescription": "arXiv:2604.15588v1 Announce Type: new \nAbstract: The integration of Large Language Models (LLMs) into scientific workflows presents exciting opportunities to accelerate biomedical discovery. However, ",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.5809062178145281,
+      "crawledAt": "2026-04-20T10:04:43.498Z",
+      "id": "nvdgvm",
+      "entities": [],
+      "summary": " The integration of Large Language Models (LLMs) into scientific workflows presents exciting opportunities to accelerate biomedical discovery. arXiv:2604.15588v1.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:07:08.122Z"
+    },
+    {
+      "title": "DALM: A Domain-Algebraic Language Model via Three-Phase Structured Generation",
+      "url": "https://arxiv.org/abs/2604.15593",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-04-20T04:00:00.000Z",
+      "metaDescription": "arXiv:2604.15593v1 Announce Type: new \nAbstract: Large language models compress heterogeneous knowledge into a single parameter space, allowing facts from different domains to interfere during generat",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.34539007166031965,
+      "crawledAt": "2026-04-20T10:04:43.903Z",
+      "id": "yndwbg",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9447968602180481,
+          "index": 6,
+          "word": "Domain",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9337740540504456,
+          "index": 8,
+          "word": "Al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8626683950424194,
+          "index": 10,
+          "word": "##bra",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8738892078399658,
+          "index": 11,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "ArXiv:2604.15593v1 Announce Type: new type: new Type: New Type.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:07:27.376Z"
+    },
+    {
+      "title": "Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies",
+      "url": "https://arxiv.org/abs/2604.15607",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-04-20T04:00:00.000Z",
+      "metaDescription": "arXiv:2604.15607v1 Announce Type: new \nAbstract: AI design characteristics and human personality traits each impact the quality and outcomes of human-AI interactions. However, their relative and joint",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3517468930169139,
+      "crawledAt": "2026-04-20T10:04:44.526Z",
+      "id": "d89crg",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8379663825035095,
+          "index": 33,
+          "word": "Studies",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "ArXiv:2604.15607v1 Announce Type: new AI design characteristics and human personality traits.",
+      "language": "en",
+      "processed_at": "2026-04-20T10:08:04.068Z"
+    },
+    {
       "title": "Eu comecei a postar um personagem ia que eu fiz, Nao é grande coisa",
       "url": "https://www.reddit.com/r/artificial/comments/1sqeduw/eu_comecei_a_postar_um_personagem_ia_que_eu_fiz/",
       "source": "r/artificial",
@@ -3032,7 +3246,7 @@
       "processed_at": "2026-04-20T03:41:40.969Z"
     }
   ],
-  "processedAt": "2026-04-20T06:38:35.722Z",
+  "processedAt": "2026-04-20T10:08:43.809Z",
   "categories": [
     "creative-ai",
     "model-release",
@@ -3045,7 +3259,7 @@
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 55,
-  "dailyArticlesCount": 90,
+  "newArticlesProcessed": 6,
+  "dailyArticlesCount": 96,
   "filterDate": "2026-04-20"
 }
