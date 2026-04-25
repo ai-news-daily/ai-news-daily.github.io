@@ -1,9 +1,72 @@
 {
-  "crawledAt": "2026-04-25T16:53:15.769Z",
+  "crawledAt": "2026-04-25T20:48:42.601Z",
   "totalSources": 70,
-  "totalArticles": 26,
+  "totalArticles": 29,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Hybrid Search for RAG: BM25 + Vectors",
+      "url": "https://pub.towardsai.net/hybrid-search-for-rag-bm25-vectors-when-each-wins-402f24abaeea?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-25T18:01:01.000Z",
+      "metaDescription": "How to choose between lexical and semantic retrieval, when each one fails, and why real RAG systems usually need both.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28314086457154897,
+      "crawledAt": "2026-04-25T20:48:12.312Z",
+      "id": "qvel68",
+      "entities": [],
+      "summary": "Real RAG systems usually need both. How to choose between lexical and semantic retrieval, when each one fails, when one one fails.",
+      "language": "en",
+      "processed_at": "2026-04-25T20:49:04.460Z"
+    },
+    {
+      "title": "NVIDIA's New AI Broke My Brain",
+      "url": "https://www.youtube.com/watch?v=Xf_v62TQOx4",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-25T17:09:47.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.8715996392847927,
+      "crawledAt": "2026-04-25T20:48:23.303Z",
+      "id": "2zrlb",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9955542683601379,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9888082146644592,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9159095883369446,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-04-25T20:49:17.009Z"
+    },
     {
       "title": "Understanding LangChain Deep Agents as a Kitchen",
       "url": "https://pub.towardsai.net/understanding-langchain-deep-agents-as-a-kitchen-bf1d1f7857f5?source=rss----98111c9905da---4",
@@ -296,6 +359,25 @@
       "summary": " In 2026, AI-powered tools began revolutionizing software development, with Cursor v3 emerging as a leading example.",
       "language": "en",
       "processed_at": "2026-04-25T05:55:41.596Z"
+    },
+    {
+      "title": "Monitoring LLM behavior: Drift, retries, and refusal patterns",
+      "url": "https://venturebeat.com/infrastructure/monitoring-llm-behavior-drift-retries-and-refusal-patterns",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-25T04:00:00.000Z",
+      "metaDescription": "The stochastic challenge\nTraditional software is predictable: Input A plus function B always equals output C. This determinism allows engineers to develop robust tests. On the other hand, generative A",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.29361466500372274,
+      "crawledAt": "2026-04-25T20:48:00.108Z",
+      "id": "u2yixx",
+      "entities": [],
+      "summary": "Traditional software is predictable: Input A plus function B always equals output C. This determinism allows engineers to develop robust tests.",
+      "language": "en",
+      "processed_at": "2026-04-25T20:49:43.199Z"
     },
     {
       "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
@@ -914,10 +996,10 @@
       "processed_at": "2026-04-25T02:59:05.577Z"
     }
   ],
-  "processedAt": "2026-04-25T16:54:02.099Z",
+  "processedAt": "2026-04-25T20:49:43.205Z",
   "categories": [
-    "infrastructure",
     "creative-ai",
+    "infrastructure",
     "product-launch",
     "ai-agents",
     "safety-ethics",
@@ -926,6 +1008,6 @@
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 3,
-  "dailyArticlesCount": 26,
+  "dailyArticlesCount": 29,
   "filterDate": "2026-04-25"
 }
