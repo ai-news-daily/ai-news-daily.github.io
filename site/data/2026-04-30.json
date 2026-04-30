@@ -1,9 +1,768 @@
 {
-  "crawledAt": "2026-04-30T17:27:41.705Z",
+  "crawledAt": "2026-04-30T21:08:14.577Z",
   "totalSources": 70,
-  "totalArticles": 106,
+  "totalArticles": 126,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Alibaba's Metis agent cuts redundant AI tool calls from 98% to 2% — and gets more accurate doing it",
+      "url": "https://venturebeat.com/orchestration/alibabas-metis-agent-cuts-redundant-ai-tool-calls-from-98-to-2-and-gets-more-accurate-doing-it",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T20:51:26.000Z",
+      "metaDescription": "One of the key challenges of building effective AI agents is teaching them to choose between using external tools or relying on their internal knowledge. But large language models are often trained to",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.92461515611342,
+      "crawledAt": "2026-04-30T21:06:49.192Z",
+      "id": "d8tfpg",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.999286413192749,
+          "index": 1,
+          "word": "Ali",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9985649585723877,
+          "index": 2,
+          "word": "##ba",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.996210515499115,
+          "index": 3,
+          "word": "##ba",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9978853464126587,
+          "index": 6,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9791585206985474,
+          "index": 7,
+          "word": "##is",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9634924530982971,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Large language models are often trained to use external tools or rely on internal knowledge. But large language models can be trained to be more accurate.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:08:26.166Z"
+    },
+    {
+      "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
+      "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T20:14:47.000Z",
+      "metaDescription": "The two wildly fast-growing rivals have raised massive sums, pushed into each other's home turf and now have dueling ad campaigns.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.5062083447111613,
+      "crawledAt": "2026-04-30T21:06:37.790Z",
+      "id": "30sv28",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9987462759017944,
+          "index": 5,
+          "word": "Le",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9984057545661926,
+          "index": 6,
+          "word": "##gor",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9948638081550598,
+          "index": 7,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9971268177032471,
+          "index": 21,
+          "word": "Harvey",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The two fast-growing rivals have raised massive sums, pushed into each other's home turf and now have dueling ad campaigns.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:08:37.138Z"
+    },
+    {
+      "title": "Reinforcement fine-tuning with LLM-as-a-judge",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T20:07:25.000Z",
+      "metaDescription": "In this post, we take a deeper look at how RLAIF or RL with LLM-as-a-judge works with Amazon Nova models effectively.",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.8534089575585825,
+      "crawledAt": "2026-04-30T21:07:04.196Z",
+      "id": "3iy4vl",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8808158040046692,
+          "index": 9,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " RLAIF and RL with LLM-as-a-judge works with Amazon Nova models. In this post, we take a deeper look at how the models work.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:08:49.189Z"
+    },
+    {
+      "title": "Most AI Agent Memory Systems Are Broken, Here's Why",
+      "url": "https://pub.towardsai.net/most-ai-agent-memory-systems-are-broken-heres-why-8e9a72e717d4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T20:01:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9805700386663856,
+      "crawledAt": "2026-04-30T21:07:14.547Z",
+      "id": "c29t23",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9206066131591797,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.826568067073822,
+          "index": 3,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9213835000991821,
+          "index": 4,
+          "word": "Memory",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8774744868278503,
+          "index": 5,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:08:49.292Z"
+    },
+    {
+      "title": "Blue Origin certainly has ambitious launch targets for New Glenn",
+      "url": "https://arstechnica.com/space/2026/04/blue-origin-certainly-has-ambitious-launch-targets-for-new-glenn/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T19:12:26.000Z",
+      "metaDescription": "If Blue Origin wants to launch New Glenn 100 times a year, we're here for it.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.8555266569354817,
+      "crawledAt": "2026-04-30T21:06:42.243Z",
+      "id": "fxbnar",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991577863693237,
+          "index": 1,
+          "word": "Blue",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.998408854007721,
+          "index": 2,
+          "word": "Origin",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9705175757408142,
+          "index": 9,
+          "word": "New",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.954986572265625,
+          "index": 10,
+          "word": "Glenn",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " If Blue Origin wants to launch New Glenn 100 times a year, we're here for it. If BlueOrigin wants to launched New Glenn, we'll be there 100 times per year.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:09:33.556Z"
+    },
+    {
+      "title": "Grok Voice Think Fast 1.0: Build Voice AI Agents That Actually Think",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/grok-voice-think-fast-1-0/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T19:08:44.000Z",
+      "metaDescription": "Voice assistants that engage in back-and-forth communication are something you’ve likely experienced. But a voice assistant that provides rational, uninterrupted exchanges via spoken dialogue? That’s ",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9316793259793884,
+      "crawledAt": "2026-04-30T21:08:12.801Z",
+      "id": "j7aggr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9741857051849365,
+          "index": 1,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8044188022613525,
+          "index": 2,
+          "word": "##rok",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9721904397010803,
+          "index": 3,
+          "word": "Voice",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A voice assistant is a voice assistant that provides rational, uninterrupted communication. A voice-assistant is a form of communication that can be heard by a person.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:09:43.597Z"
+    },
+    {
+      "title": "Stranded traveler gets more than he bargained for in Resident Evil teaser",
+      "url": "https://arstechnica.com/culture/2026/04/stranded-traveler-gets-more-than-he-bargained-for-in-resident-evil-teaser/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T19:02:10.000Z",
+      "metaDescription": "Fresh off the Oscar-winning Weapons, director Zach Cregger has his own vision for the gaming franchise.",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.30232487563854993,
+      "crawledAt": "2026-04-30T21:06:42.364Z",
+      "id": "d804ut",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9342509508132935,
+          "index": 13,
+          "word": "Resident",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9911690950393677,
+          "index": 14,
+          "word": "Evil",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Zach Cregger has his own vision for the gaming franchise. The director of the World War II-style weapons is known for his work in Germany.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:09:53.760Z"
+    },
+    {
+      "title": "Musk v. Altman Kicks Off, DOJ Guts Voting Rights Unit, and Is the AI Job Apocalypse Overhyped?",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-musk-v-altman-doj-guts-voting-rights-unit-is-ai-job-apocalypse-overhyped/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T18:54:54.000Z",
+      "metaDescription": "In this episode of Uncanny Valley, we get into how the Elon Musk-Sam Altman trial goes way beyond their rivalry and could have major implications both for OpenAI and also the AI industry at large.",
+      "category": "ai-agents",
+      "difficulty": 10,
+      "confidence": 0.43639524061382307,
+      "crawledAt": "2026-04-30T21:06:47.491Z",
+      "id": "ikjfah",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9751908183097839,
+          "index": 6,
+          "word": "##man",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9331459403038025,
+          "index": 7,
+          "word": "Kick",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9794612526893616,
+          "index": 9,
+          "word": "Off",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9982319474220276,
+          "index": 11,
+          "word": "D",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9835606813430786,
+          "index": 12,
+          "word": "##O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9724936485290527,
+          "index": 13,
+          "word": "##J",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9875743389129639,
+          "index": 14,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8661179542541504,
+          "index": 15,
+          "word": "##uts",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9809389710426331,
+          "index": 16,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9963144659996033,
+          "index": 17,
+          "word": "##oting",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9988223910331726,
+          "index": 18,
+          "word": "Rights",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9978005886077881,
+          "index": 19,
+          "word": "Unit",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9569317698478699,
+          "index": 24,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Elon Musk-Sam Altman trial could have major implications for the AI industry. The trial could also have implications for OpenAI and the AI sector.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:10:13.509Z"
+    },
+    {
+      "title": "One tool call to rule them all? New open source Python tool RunPod Flash eliminates containers for faster AI dev",
+      "url": "https://venturebeat.com/infrastructure/one-tool-call-to-rule-them-all-new-open-source-python-tool-runpod-flash-eliminates-containers-for-faster-ai-dev",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-04-30T18:31:07.000Z",
+      "metaDescription": "Runpod, the high-performance cloud computing and GPU platform designed specifically for AI development, today launched a new open source, MIT licensed, enterprise-friendly Python programming tool call",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.25622903010404247,
+      "crawledAt": "2026-04-30T21:06:49.373Z",
+      "id": "y7eh4w",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.975385844707489,
+          "index": 12,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9151730537414551,
+          "index": 15,
+          "word": "##P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9326809048652649,
+          "index": 16,
+          "word": "##od",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8570796251296997,
+          "index": 17,
+          "word": "Flash",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9812555313110352,
+          "index": 23,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Runpod, the high-performance cloud computing platform designed specifically for AI development, launched a new open source, MIT licensed, enterprise-friendly Python tool call call call.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:10:41.913Z"
+    },
+    {
+      "title": "What Codex Unlocks for Virgin Atlantic",
+      "url": "https://www.youtube.com/shorts/TXEgpKxBDiw",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T18:25:54.000Z",
+      "metaDescription": "",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.2516498294765242,
+      "crawledAt": "2026-04-30T21:07:32.308Z",
+      "id": "x84qds",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9267953038215637,
+          "index": 7,
+          "word": "Virgin",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:10:41.999Z"
+    },
+    {
+      "title": "How to Actually Fix Your Gemma 4 Local AI Agent",
+      "url": "https://ai.plainenglish.io/how-to-actually-fix-your-gemma-4-local-ai-agent-8fb68ac205da?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T18:02:38.000Z",
+      "metaDescription": "Tried, and got into an infinite loop? Here’s the fix.\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9838151584056731,
+      "crawledAt": "2026-04-30T21:07:20.643Z",
+      "id": "e0fkfq",
+      "entities": [],
+      "summary": " Tried, and got into an infinite loop? Here’s the fix. Tried and got in an infiniteloop? Here's the fix.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:11:15.274Z"
+    },
+    {
+      "title": "How to Find a Research Topic as a Final-Year CS/CSE Student in Bangladesh",
+      "url": "https://ai.plainenglish.io/how-to-find-a-research-topic-as-a-final-year-cs-cse-student-in-bangladesh-part-1-4eab2e7047ac?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:53:42.000Z",
+      "metaDescription": "",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.3115739518592032,
+      "crawledAt": "2026-04-30T21:07:20.724Z",
+      "id": "o57gzi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8118743300437927,
+          "index": 13,
+          "word": "CS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9997931122779846,
+          "index": 19,
+          "word": "Bangladesh",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:11:28.686Z"
+    },
+    {
+      "title": "The Terminal That Thinks Back: Is Kiro-Cli the End of Manual Debugging?",
+      "url": "https://ai.plainenglish.io/the-terminal-that-thinks-back-is-kiro-cli-the-end-of-manual-debugging-2aa0010bf07d?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:52:35.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3311196311739199,
+      "crawledAt": "2026-04-30T21:07:20.948Z",
+      "id": "ls0rzb",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:11:39.918Z"
+    },
+    {
+      "title": "Flutter Development: Benefits, Features, and Use Cases Explained",
+      "url": "https://ai.plainenglish.io/flutter-development-benefits-features-and-use-cases-explained-d4b80c6ca541?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:52:14.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6808681086572536,
+      "crawledAt": "2026-04-30T21:07:21.011Z",
+      "id": "hubxqn",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:11:40.073Z"
+    },
+    {
+      "title": "5 AI Workflows That Turn One Idea Into Weeks of Content",
+      "url": "https://ai.plainenglish.io/5-ai-workflows-that-turn-one-idea-into-weeks-of-content-f7ce662d6643?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:51:46.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.6400928999583118,
+      "crawledAt": "2026-04-30T21:07:21.248Z",
+      "id": "w8m6td",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:11:51.812Z"
+    },
+    {
+      "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
+      "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:46:54.000Z",
+      "metaDescription": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3969875754214576,
+      "crawledAt": "2026-04-30T21:06:38.546Z",
+      "id": "aadjjv",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9980597496032715,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The move signals Google’s push to bring more advanced, conversational AI into the driving experience. The move is part of Google‘s push for more advanced and more advanced AI.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:12:13.179Z"
+    },
+    {
+      "title": "AI governance in regulated environments has two problems.",
+      "url": "https://ai.plainenglish.io/ai-governance-in-regulated-environments-has-two-problems-510e8754cb7a?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:46:54.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.6007148483955073,
+      "crawledAt": "2026-04-30T21:07:21.308Z",
+      "id": "owotha",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9205695986747742,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:12:13.268Z"
+    },
+    {
+      "title": "You Missed the Two Biggest AI Launches of the Week — And One of Them Changes How Software Gets…",
+      "url": "https://ai.plainenglish.io/you-missed-the-two-biggest-ai-launches-of-the-week-and-one-of-them-changes-how-software-gets-282f60be55f6?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:46:44.000Z",
+      "metaDescription": "",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.9215134146552634,
+      "crawledAt": "2026-04-30T21:07:21.392Z",
+      "id": "3kb139",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:12:13.447Z"
+    },
+    {
+      "title": "OpenAI Rolls Out ‘Advanced’ Security Mode for At-Risk Accounts",
+      "url": "https://www.wired.com/story/openai-chatgpt-codex-advanced-account-security/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T17:30:39.000Z",
+      "metaDescription": "OpenAI is rolling out Advanced Account Security for people concerned that their ChatGPT or Codex accounts could be potential targets of phishing attacks.",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.9512073623449757,
+      "crawledAt": "2026-04-30T21:06:47.772Z",
+      "id": "ao89rq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9121090173721313,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Advanced Account Security is rolling out for people concerned that their ChatGPT or Codex accounts could be potential targets of phishing attacks.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:12:31.488Z"
+    },
     {
       "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
       "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
@@ -3435,6 +4194,58 @@
       "processed_at": "2026-04-30T10:28:13.378Z"
     },
     {
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-04-30T00:00:00.000Z",
+      "metaDescription": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.3642252492734005,
+      "crawledAt": "2026-04-30T21:06:28.518Z",
+      "id": "47j88w",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8611178994178772,
+          "index": 4,
+          "word": "Advanced",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.939008891582489,
+          "index": 5,
+          "word": "A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9537819623947144,
+          "index": 7,
+          "word": "##unt",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9389858245849609,
+          "index": 8,
+          "word": "Security",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "language": "en",
+      "processed_at": "2026-04-30T21:12:43.696Z"
+    },
+    {
       "title": "On the stand, Elon Musk can’t escape his own tweets",
       "url": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
       "source": "TechCrunch AI",
@@ -3792,20 +4603,21 @@
       "processed_at": "2026-04-30T03:47:46.143Z"
     }
   ],
-  "processedAt": "2026-04-30T17:33:38.530Z",
+  "processedAt": "2026-04-30T21:12:43.817Z",
   "categories": [
     "ai-agents",
-    "infrastructure",
+    "product-launch",
     "creative-ai",
+    "developer-tool",
     "research-paper",
     "safety-ethics",
+    "infrastructure",
     "industry-news",
     "model-release",
-    "tutorial-guide",
-    "developer-tool"
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 27,
-  "dailyArticlesCount": 106,
+  "newArticlesProcessed": 20,
+  "dailyArticlesCount": 126,
   "filterDate": "2026-04-30"
 }
