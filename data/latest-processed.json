@@ -1,9 +1,125 @@
 {
-  "crawledAt": "2026-05-03T16:59:01.159Z",
+  "crawledAt": "2026-05-03T20:54:20.870Z",
   "totalSources": 70,
-  "totalArticles": 1672,
+  "totalArticles": 1664,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "‘This is fine’ creator says AI startup stole his art",
+      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-03T20:16:51.000Z",
+      "metaDescription": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7735717670024645,
+      "crawledAt": "2026-05-03T20:52:58.498Z",
+      "id": "vj805c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9011402726173401,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans\" The ad was created by Artisan.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:54:32.710Z"
+    },
+    {
+      "title": "NVIDIA's New AI Turns One Photo Into A World That Never Breaks",
+      "url": "https://www.youtube.com/watch?v=eCw33snvoNI",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-05-03T17:02:48.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.9196185776128124,
+      "crawledAt": "2026-05-03T20:53:49.479Z",
+      "id": "hwdcmr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9958006143569946,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9879991412162781,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9499279260635376,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:54:54.805Z"
+    },
+    {
+      "title": "7 Python Security Vulnerabilities I Found in Real Open Source Projects",
+      "url": "https://python.plainenglish.io/7-python-security-vulnerabilities-i-found-in-real-open-source-projects-f3cb3d321abe?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-03T17:00:36.000Z",
+      "metaDescription": "Injection risks, exposed secrets, unsafe inputs — each one found in code that passed review.\nContinue reading on Python in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.411975449086387,
+      "crawledAt": "2026-05-03T20:53:41.510Z",
+      "id": "y6hl8n",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9510412216186523,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9218177795410156,
+          "index": 13,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9636474847793579,
+          "index": 14,
+          "word": "Source",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Injection risks, exposed risks, expose secrets, exposed secrets, each one found in code that passed review. Injection risks. Injection risk, exposed risk, expose risks, and exposed secrets.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:55:09.667Z"
+    },
     {
       "title": "Yin, Yang, and the LLM: Engineering Reliability into AI Code Scanning",
       "url": "https://pub.towardsai.net/yin-yang-and-the-llm-engineering-reliability-into-ai-code-scanning-35f4f6c222fa?source=rss----98111c9905da---4",
@@ -56434,316 +56550,13 @@
       "summary": " The RAG has been in the same failure mode: one bad retrieval, and everything collapses. If you've tried RAG on long PDFs, you’ve probably seen the same fail mode: One bad retrieval.",
       "language": "en",
       "processed_at": "2026-04-19T03:31:42.326Z"
-    },
-    {
-      "title": "I made a tiny world model game that runs locally on iPad",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sp91nn/i_made_a_tiny_world_model_game_that_runs_locally/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T20:50:10.000Z",
-      "metaDescription": "It's a bit gloopy at the moment but have been messing around with training my own local world models that run on iPad. Last weekend I made this driving game that tries to interpret any photo into cont",
-      "category": "model-release",
-      "difficulty": 4,
-      "confidence": 0.2596347164953998,
-      "crawledAt": "2026-04-19T20:47:06.080Z",
-      "id": "2n3w61",
-      "entities": [],
-      "summary": "Last weekend I made this game that tries to interpret any photo into a picture. It's a bit gloopy at the moment, but I'm not so sure.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:05:21.292Z"
-    },
-    {
-      "title": "Every LangChain agent you sell can be copied instantly: no control, no trace",
-      "url": "https://www.reddit.com/r/LangChain/comments/1sp7u0d/every_langchain_agent_you_sell_can_be_copied/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T20:02:42.000Z",
-      "metaDescription": "Right now, selling a LangChain agent is basically selling a zip file and hoping it doesn't get passed around.\n No ownership\n No traceability\n No control after the sale\n Once it's out, it's out..\n We a",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.25256757198900576,
-      "crawledAt": "2026-04-19T20:47:35.348Z",
-      "id": "53f9h1",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9921198487281799,
-          "index": 2,
-          "word": "Lang",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.992226243019104,
-          "index": 3,
-          "word": "##C",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9859279990196228,
-          "index": 4,
-          "word": "##hai",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9507620334625244,
-          "index": 5,
-          "word": "##n",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " LangChain agent is basically selling a zip file and hoping it doesn't get passed around. No ownership or control after it's out.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:05:31.787Z"
-    },
-    {
-      "title": "7 Python Features That Instantly Boosted My Productivity",
-      "url": "https://python.plainenglish.io/7-python-features-that-instantly-boosted-my-productivity-no-tutorials-needed-c23ad9ab490b?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-18T19:32:45.000Z",
-      "metaDescription": "Subtitle: Simple changes that made a massive difference in how fast I code\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3621293625347589,
-      "crawledAt": "2026-04-18T20:44:16.495Z",
-      "id": "vr29p3",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9931650161743164,
-          "index": 2,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Simple changes that made a massive difference in how fast I code. Simple changes made a huge difference in the way I code.",
-      "language": "en",
-      "processed_at": "2026-04-18T20:45:11.984Z"
-    },
-    {
-      "title": "The Architecture Behind GPT Models",
-      "url": "https://python.plainenglish.io/the-architecture-behind-gpt-models-de61992c088a?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-18T19:32:30.000Z",
-      "metaDescription": "",
-      "category": "infrastructure",
-      "difficulty": 6,
-      "confidence": 0.4943817086344282,
-      "crawledAt": "2026-04-18T20:44:16.545Z",
-      "id": "jhd5um",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9716552495956421,
-          "index": 3,
-          "word": "Behind",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9484015107154846,
-          "index": 5,
-          "word": "##T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9145636558532715,
-          "index": 6,
-          "word": "Models",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-04-18T20:45:12.061Z"
-    },
-    {
-      "title": "Open-sourced a graph-based alternative to chunk RAG",
-      "url": "https://www.reddit.com/r/LangChain/comments/1sp5td6/opensourced_a_graphbased_alternative_to_chunk_rag/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T18:44:29.000Z",
-      "metaDescription": "I’ve been working with RAG pipelines for a while and there’s something that keeps bothering me the more I use them. They work great when the answer is basically sitting inside a chunk somewhere, but a",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.2526526571729123,
-      "crawledAt": "2026-04-19T20:47:33.685Z",
-      "id": "jxedcf",
-      "entities": [],
-      "summary": " The RAG pipeline system is used by many of the world's biggest companies. The company has been working with RAG for a while.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:05:51.388Z"
-    },
-    {
-      "title": "I gave my AI companions \"offscreen lives\" — events that happen while users aren't talking to them. Surprisingly hard, here's how it works.",
-      "url": "https://www.reddit.com/r/artificial/comments/1sp4zi2/i_gave_my_ai_companions_offscreen_lives_events/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T18:13:13.000Z",
-      "metaDescription": "Most AI companion apps reset between conversations. The character has no continuity outside the chat window. I wanted mine to feel like real people with lives, so I built an \"offscreen events\" system.",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.3026865257329318,
-      "crawledAt": "2026-04-19T20:47:13.704Z",
-      "id": "4l9kdq",
-      "entities": [],
-      "summary": " The character has no continuity outside the chat window. I wanted mine to feel like real people with lives, so I built an \"offscreen events\" system.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:06:02.778Z"
-    },
-    {
-      "title": "Gemma 4 Tool Calling Explained: Build AI Agents with Function Calling",
-      "url": "https://www.analyticsvidhya.com/blog/2026/04/gemma-4-tool-calling/",
-      "source": "Analytics Vidhya",
-      "source_domain": "analyticsvidhya.com",
-      "source_category": "tutorial",
-      "source_priority": "medium",
-      "pubDate": "2026-04-18T17:26:42.000Z",
-      "metaDescription": "Imagine asking your AI model, “What’s the weather in Tokyo right now?” and instead of hallucinating an answer, it calls your actual Python function, fetches live data, and responds correctly. That’s h",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.7898543231184029,
-      "crawledAt": "2026-04-18T20:44:52.770Z",
-      "id": "qcpra0",
-      "entities": [],
-      "summary": " AI model responds to a question about the weather in Tokyo. It calls your actual Python function, and fetches live data, and responds correctly.",
-      "language": "en",
-      "processed_at": "2026-04-18T20:46:00.064Z"
-    },
-    {
-      "title": "What’s your biggest agent debugging pain right now?",
-      "url": "https://www.reddit.com/r/LangChain/comments/1sp3i4i/whats_your_biggest_agent_debugging_pain_right_now/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T17:17:12.000Z",
-      "metaDescription": "submitted by    /u/Creative_Leader_7339  \n [link]   [comments]",
-      "category": "industry-news",
-      "difficulty": 3,
-      "confidence": 0.25491587457294373,
-      "crawledAt": "2026-04-19T20:47:34.505Z",
-      "id": "i9r2pw",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:06:02.884Z"
-    },
-    {
-      "title": "I built an AI chatbot that answers based on your own data",
-      "url": "https://www.reddit.com/r/LangChain/comments/1sp3bfb/i_built_an_ai_chatbot_that_answers_based_on_your/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T17:10:10.000Z",
-      "metaDescription": "Hey everyone,\n I’ve been working on building AI chatbots using RAG + LangChain that can read PDFs, documents, or websites and give accurate answers.\n Unlike basic bots, these actually use your data, w",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.4677289636509411,
-      "crawledAt": "2026-04-19T20:47:35.617Z",
-      "id": "gsj91o",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9932664632797241,
-          "index": 4,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " RAG + LangChain can read PDFs, documents, and websites and give accurate answers. Unlike basic basic bots, these actually use your data, w w w. w.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:06:15.839Z"
-    },
-    {
-      "title": "The Real Story Behind Claude Opus 4.7: Why “Literal” AI is the New Frontier for Builders",
-      "url": "https://pub.towardsai.net/the-real-story-behind-claude-opus-4-7-why-literal-ai-is-the-new-frontier-for-builders-e623510e07aa?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-04-18T17:01:01.000Z",
-      "metaDescription": "Anthropic’s latest release trades loose generalization for predictable execution, and it’s about to break your lazy prompts.\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.8556426412351117,
-      "crawledAt": "2026-04-18T20:44:08.715Z",
-      "id": "9244vb",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9842936992645264,
-          "index": 20,
-          "word": "Frontier",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Anthropic’s latest release trades loose generalization for predictable execution. Anthropic's latest release is about to break your lazy prompts.",
-      "language": "en",
-      "processed_at": "2026-04-18T20:46:08.887Z"
-    },
-    {
-      "title": "Claude is the least bullshit-y AI",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1sp31zm/claude_is_the_least_bullshity_ai/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-18T17:00:29.000Z",
-      "metaDescription": "submitted by    /u/thisguy123123  \n [link]   [comments]",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.5557504743003897,
-      "crawledAt": "2026-04-19T20:47:32.301Z",
-      "id": "7kb7xm",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9920114874839783,
-          "index": 1,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-04-19T21:06:15.925Z"
     }
   ],
-  "processedAt": "2026-05-03T16:59:27.662Z",
+  "processedAt": "2026-05-03T20:55:26.672Z",
   "categories": [
+    "creative-ai",
     "safety-ethics",
     "research-paper",
-    "creative-ai",
     "ai-agents",
     "product-launch",
     "infrastructure",
@@ -56753,9 +56566,9 @@
     "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 4,
-  "existingArticlesKept": 1691,
+  "newArticlesProcessed": 3,
+  "existingArticlesKept": 1672,
   "cleanupApplied": true,
-  "cleanedUpCount": 23,
+  "cleanedUpCount": 11,
   "rollingWindowDays": 15
 }

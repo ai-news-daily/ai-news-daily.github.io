@@ -1,9 +1,125 @@
 {
-  "crawledAt": "2026-05-03T16:59:01.159Z",
+  "crawledAt": "2026-05-03T20:54:20.870Z",
   "totalSources": 70,
-  "totalArticles": 17,
+  "totalArticles": 20,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "‘This is fine’ creator says AI startup stole his art",
+      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-03T20:16:51.000Z",
+      "metaDescription": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7735717670024645,
+      "crawledAt": "2026-05-03T20:52:58.498Z",
+      "id": "vj805c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9011402726173401,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans\" The ad was created by Artisan.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:54:32.710Z"
+    },
+    {
+      "title": "NVIDIA's New AI Turns One Photo Into A World That Never Breaks",
+      "url": "https://www.youtube.com/watch?v=eCw33snvoNI",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-05-03T17:02:48.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.9196185776128124,
+      "crawledAt": "2026-05-03T20:53:49.479Z",
+      "id": "hwdcmr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9958006143569946,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9879991412162781,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9499279260635376,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:54:54.805Z"
+    },
+    {
+      "title": "7 Python Security Vulnerabilities I Found in Real Open Source Projects",
+      "url": "https://python.plainenglish.io/7-python-security-vulnerabilities-i-found-in-real-open-source-projects-f3cb3d321abe?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-03T17:00:36.000Z",
+      "metaDescription": "Injection risks, exposed secrets, unsafe inputs — each one found in code that passed review.\nContinue reading on Python in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.411975449086387,
+      "crawledAt": "2026-05-03T20:53:41.510Z",
+      "id": "y6hl8n",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9510412216186523,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9218177795410156,
+          "index": 13,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9636474847793579,
+          "index": 14,
+          "word": "Source",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Injection risks, exposed risks, expose secrets, exposed secrets, each one found in code that passed review. Injection risks. Injection risk, exposed risk, expose risks, and exposed secrets.",
+      "language": "en",
+      "processed_at": "2026-05-03T20:55:09.667Z"
+    },
     {
       "title": "Yin, Yang, and the LLM: Engineering Reliability into AI Code Scanning",
       "url": "https://pub.towardsai.net/yin-yang-and-the-llm-engineering-reliability-into-ai-code-scanning-35f4f6c222fa?source=rss----98111c9905da---4",
@@ -581,17 +697,17 @@
       "processed_at": "2026-05-03T03:50:57.580Z"
     }
   ],
-  "processedAt": "2026-05-03T16:59:27.664Z",
+  "processedAt": "2026-05-03T20:55:26.674Z",
   "categories": [
+    "creative-ai",
     "safety-ethics",
     "research-paper",
-    "creative-ai",
     "ai-agents",
     "product-launch",
     "infrastructure"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 4,
-  "dailyArticlesCount": 17,
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 20,
   "filterDate": "2026-05-03"
 }
