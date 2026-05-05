@@ -1,9 +1,714 @@
 {
-  "crawledAt": "2026-05-05T14:11:23.002Z",
+  "crawledAt": "2026-05-05T17:43:58.448Z",
   "totalSources": 70,
-  "totalArticles": 1692,
+  "totalArticles": 1672,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T17:00:40.000Z",
+      "metaDescription": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what’s possible, moving beyond simple pro",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.9400296268057664,
+      "crawledAt": "2026-05-05T17:42:06.856Z",
+      "id": "2vde4p",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9882007241249084,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9908548593521118,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.977588415145874,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997589647769928,
+          "index": 7,
+          "word": "##N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9828205108642578,
+          "index": 8,
+          "word": "##ow",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Enterprise AI has learned to generate. It has learned how to use AI to help people with problems. It has also learned to use the power of AI to solve problems.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:10.077Z"
+    },
+    {
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "metaDescription": "The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
+      "category": "model-release",
+      "difficulty": 7,
+      "confidence": 0.9965122515248092,
+      "crawledAt": "2026-05-05T17:42:17.788Z",
+      "id": "1in7u6",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9928425550460815,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9917299747467041,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8623656034469604,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9847241640090942,
+          "index": 5,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8722879886627197,
+          "index": 6,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:19.806Z"
+    },
+    {
+      "title": "Streamlining generative AI development with MLflow v3.10 on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:55:18.000Z",
+      "metaDescription": "Today, we’re excited to announce that Amazon SageMaker AI MLflow Apps now support MLflow version 3.10, bringing enhanced capabilities for generative AI development and streamlined experiment tracking ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.6619589333904081,
+      "crawledAt": "2026-05-05T17:42:45.955Z",
+      "id": "1s9iup",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9706169366836548,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9680197238922119,
+          "index": 16,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9732633233070374,
+          "index": 17,
+          "word": "Sage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9952688813209534,
+          "index": 18,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9577181339263916,
+          "index": 19,
+          "word": "##aker",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8836449980735779,
+          "index": 20,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon SageMaker AI MLflow Apps now support MLflow version 3.10, bringing enhanced capabilities for generative AI development and streamlined experiment tracking.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:41.040Z"
+    },
+    {
+      "title": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:54:35.000Z",
+      "metaDescription": "We’re announcing OS Level Actions for AgentCore Browser. This new capability unblocks these scenarios by exposing direct OS control through the InvokeBrowser API, so agents can interact with content v",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.6842336510765309,
+      "crawledAt": "2026-05-05T17:42:46.118Z",
+      "id": "h4q0me",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9858042001724243,
+          "index": 4,
+          "word": "OS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9192783236503601,
+          "index": 9,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new tool will allow agents to interact with content via the InvokeBrowser API. The tool will also allow agents and users to interact.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:49.340Z"
+    },
+    {
+      "title": "What Is Claude’s Agentic Operating System",
+      "url": "https://pub.towardsai.net/what-is-claudes-agentic-operating-system-48ec4834e2cc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T16:01:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6772592141014396,
+      "crawledAt": "2026-05-05T17:42:54.302Z",
+      "id": "a1ljk4",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.8698315024375916,
+          "index": 3,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8629006743431091,
+          "index": 6,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:00.338Z"
+    },
+    {
+      "title": "Learn React With This One Project",
+      "url": "https://www.youtube.com/watch?v=9aTRnV6g0eQ",
+      "source": "Dave Ebbelaar",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:00:14.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.37884123149554333,
+      "crawledAt": "2026-05-05T17:43:18.254Z",
+      "id": "uwj1m5",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:00.453Z"
+    },
+    {
+      "title": "TAI #203: OpenAI, Anthropic, and Wall Street Race to Build the AI Deployment Layer",
+      "url": "https://pub.towardsai.net/tai-203-openai-anthropic-and-wall-street-race-to-build-the-ai-deployment-layer-520def432288?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T15:50:48.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.35599169570252015,
+      "crawledAt": "2026-05-05T17:42:54.390Z",
+      "id": "vvnxoj",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9088332056999207,
+          "index": 8,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8707481622695923,
+          "index": 11,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.8652648329734802,
+          "index": 16,
+          "word": "Wall",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8332197666168213,
+          "index": 17,
+          "word": "Street",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9410619139671326,
+          "index": 23,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:18.043Z"
+    },
+    {
+      "title": "Etsy launches its app within ChatGPT as it continues its AI push",
+      "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T15:31:37.000Z",
+      "metaDescription": "Etsy's new native app within ChatGPT aims to be a conversational  shopping experience for users.",
+      "category": "product-launch",
+      "difficulty": 6,
+      "confidence": 0.9730611197000112,
+      "crawledAt": "2026-05-05T17:42:18.077Z",
+      "id": "cbpybb",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.995846688747406,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9316028952598572,
+          "index": 2,
+          "word": "##ts",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.985379695892334,
+          "index": 3,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9086448550224304,
+          "index": 8,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8759503364562988,
+          "index": 11,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Etsy's new native app aims to be a conversational experience for users. The app will be available in the coming weeks.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:41.821Z"
+    },
+    {
+      "title": "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-amazon-bedrock-agentcore-identity-on-amazon-ecs/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:27:30.000Z",
+      "metaDescription": "AI agents in production require secure access to external services. Amazon Bedrock AgentCore Identity, available as a standalone service, secures how your AI agents access external services whether th",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8663039637644238,
+      "crawledAt": "2026-05-05T17:42:46.267Z",
+      "id": "8e4046",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.940340518951416,
+          "index": 6,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8351300954818726,
+          "index": 7,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8384402990341187,
+          "index": 12,
+          "word": "Identity",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8045881986618042,
+          "index": 15,
+          "word": "EC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon Bedrock AgentCore Identity, available as a standalone service, secures how your AI agents access external services.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:49.029Z"
+    },
+    {
+      "title": "Intelligence-driven message defense and insights using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/intelligence-driven-message-defense-and-insights-using-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:20:54.000Z",
+      "metaDescription": "In this post, you will learn how you can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. You can identify obvious an",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.9074418753755982,
+      "crawledAt": "2026-05-05T17:42:46.415Z",
+      "id": "51yte3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8824553489685059,
+          "index": 9,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9290096163749695,
+          "index": 10,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9569612145423889,
+          "index": 11,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. In this post, you will learn how you can useAmazon Nova Foundation models in AmazonBedrock to use generativeAI techniques.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:02.367Z"
+    },
+    {
+      "title": "Charlize Theron is a bewitching Circe in Odyssey trailer",
+      "url": "https://arstechnica.com/culture/2026/05/nolans-the-odyssey-gets-a-new-trailer-and-were-here-for-it/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:20:24.000Z",
+      "metaDescription": "\"You're a man who needs to control his fate. But you cannot control this.\"",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.4251699397273138,
+      "crawledAt": "2026-05-05T17:42:22.728Z",
+      "id": "1wkhho",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.993730366230011,
+          "index": 1,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8375995755195618,
+          "index": 2,
+          "word": "##rl",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9595755338668823,
+          "index": 3,
+          "word": "##ize",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9986396431922913,
+          "index": 4,
+          "word": "The",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8987559080123901,
+          "index": 5,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9673210382461548,
+          "index": 11,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"You're a man who needs to control his fate. But you cannot control this,\" says one of the victims.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:12.418Z"
+    },
+    {
+      "title": "Musk's Europe gamble: Will others follow the Dutch and approve FSD?",
+      "url": "https://arstechnica.com/cars/2026/05/tesla-fsd-other-european-regulators-skeptical-despite-dutch-approval/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:09:58.000Z",
+      "metaDescription": "The Dutch road authority will ask other EU regulators to approve the driver assist.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.34961338753399057,
+      "crawledAt": "2026-05-05T17:42:22.840Z",
+      "id": "bdwlw9",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9038793444633484,
+          "index": 1,
+          "word": "Mu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9995556473731995,
+          "index": 5,
+          "word": "Europe",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9996464252471924,
+          "index": 13,
+          "word": "Dutch",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9792564511299133,
+          "index": 16,
+          "word": "F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8235877752304077,
+          "index": 17,
+          "word": "##SD",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Dutch road authority will ask other EU regulators to approve the driver assist. Dutch road authorities will ask EU regulators for help.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:20.496Z"
+    },
+    {
+      "title": "7 Ways to Add AI Features to Your Existing App Without Starting From Scratch",
+      "url": "https://ai.plainenglish.io/7-ways-to-add-ai-features-to-your-existing-app-without-starting-from-scratch-c159dacd3b70?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:32:03.000Z",
+      "metaDescription": "No rewrite, no ML degree, no drama — the exact integration patterns that work in real codebases.\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4062173020175031,
+      "crawledAt": "2026-05-05T17:43:01.988Z",
+      "id": "bmasnq",
+      "entities": [],
+      "summary": " No rewrite, no rewrite,no drama — no drama — the exact integration patterns that work in real codebases.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:40.541Z"
+    },
+    {
+      "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
+      "url": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+      "source": "GitHub Blog",
+      "source_domain": "github.blog",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T14:30:00.000Z",
+      "metaDescription": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source.\nThe post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on ",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2552090153052974,
+      "crawledAt": "2026-05-05T17:42:20.944Z",
+      "id": "sf790a",
+      "entities": [],
+      "summary": " Maintainer Month celebrates the people behind open source. Celebrating people behind the code. Celebrates people behind code.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:48.146Z"
+    },
+    {
+      "title": "Meta will use AI to analyze height and bone structure to identify if users are underage",
+      "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:27:00.000Z",
+      "metaDescription": "The visual analysis system is now operating in select countries, but Meta says it's working toward a broader rollout.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.7171819490416768,
+      "crawledAt": "2026-05-05T17:42:18.212Z",
+      "id": "4e7ml7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9983758926391602,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9858487844467163,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9905563592910767,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The visual analysis system is now operating in select countries. Meta says it's working toward a broader rollout of the system.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:55.956Z"
+    },
     {
       "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
       "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
@@ -63,6 +768,34 @@
       "summary": " Seattle-based startup's Series A round was led by Glilot Capital, NFX and SignalFire. TechCrunch has exclusively learned about the startup's series A round.",
       "language": "en",
       "processed_at": "2026-05-05T14:11:37.069Z"
+    },
+    {
+      "title": "Agents as Tools vs Handoffs: Understanding the Two Patterns Behind Modern AI Systems",
+      "url": "https://pub.towardsai.net/agents-as-tools-vs-handoffs-understanding-the-two-patterns-behind-modern-ai-systems-6a3b7f55b157?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:01:02.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.986727227896315,
+      "crawledAt": "2026-05-05T17:42:54.463Z",
+      "id": "s8jztu",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8140320181846619,
+          "index": 18,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:47:17.477Z"
     },
     {
       "title": "Use Codex CLI to Enhance Your Python Projects",
@@ -265,6 +998,25 @@
       "summary": " In this quiz, you'll test your understanding of Python Application Layouts. In this quizz, you’ll revisit how to structure one-off scripts, installable packages, and larger app packages.",
       "language": "en",
       "processed_at": "2026-05-05T14:13:34.481Z"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T10:00:00.000Z",
+      "metaDescription": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "category": "model-release",
+      "difficulty": 3,
+      "confidence": 0.2599489431964405,
+      "crawledAt": "2026-05-05T17:42:10.175Z",
+      "id": "as3kf0",
+      "entities": [],
+      "summary": " GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:47:27.038Z"
     },
     {
       "title": "Run Your Own AI Agent Locally: Ollama, MCP, and Skills Explained",
@@ -55901,1563 +56653,25 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-04-21T14:13:10.597Z"
-    },
-    {
-      "title": "claw-code: Open Source version of Leaked Claude Code",
-      "url": "https://www.reddit.com/r/AutoGPT/comments/1sqwjju/clawcode_open_source_version_of_leaked_claude_code/",
-      "source": "r/AutoGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T17:42:45.000Z",
-      "metaDescription": "submitted by    /u/vs4vijay  \n [link]   [comments]",
-      "category": "developer-tool",
-      "difficulty": 6,
-      "confidence": 0.37639711782091445,
-      "crawledAt": "2026-04-21T13:58:23.808Z",
-      "id": "z2hmco",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8721962571144104,
-          "index": 5,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.988477349281311,
-          "index": 6,
-          "word": "Source",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9828664660453796,
-          "index": 9,
-          "word": "Lea",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9787217378616333,
-          "index": 11,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9447064399719238,
-          "index": 12,
-          "word": "Code",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:13:10.732Z"
-    },
-    {
-      "title": "Parents Worry About Their Kids Using AI, but Worry More About Them Not Using It",
-      "url": "https://www.reddit.com/r/artificial/comments/1sqwiwb/parents_worry_about_their_kids_using_ai_but_worry/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T17:42:06.000Z",
-      "metaDescription": "submitted by    /u/Just-Grocery-2229  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.25426211219194295,
-      "crawledAt": "2026-04-21T13:58:00.836Z",
-      "id": "r7wcq3",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:13:10.893Z"
-    },
-    {
-      "title": "AGI 🚀",
-      "url": "https://www.reddit.com/r/singularity/comments/1sqvvws/agi/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T17:20:36.000Z",
-      "metaDescription": "submitted by    /u/policyweb  \n [link]   [comments]",
-      "category": "safety-ethics",
-      "difficulty": 3,
-      "confidence": 0.25520178516685615,
-      "crawledAt": "2026-04-21T13:58:08.213Z",
-      "id": "n5755u",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:13:10.986Z"
-    },
-    {
-      "title": "Deezer says 44% of new music uploads are AI-generated, most streams are fraudulent",
-      "url": "https://arstechnica.com/ai/2026/04/deezer-says-44-of-new-music-uploads-are-ai-generated-most-streams-are-fraudulent/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T17:15:51.000Z",
-      "metaDescription": "AI tracks account for a small fraction of Deezer streams, and most are demonetized for fraud.",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2513021918939105,
-      "crawledAt": "2026-04-20T20:55:34.456Z",
-      "id": "807fcd",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.8700590133666992,
-          "index": 1,
-          "word": "Dee",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9962539672851562,
-          "index": 13,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " AI tracks account for a small fraction of Deezer streams, and most are demonetized for fraud. Most of the tracks are used for fraud.",
-      "language": "en",
-      "processed_at": "2026-04-20T20:58:57.880Z"
-    },
-    {
-      "title": "Chinese Army Tests Human-Unmanned Team Tactics in Urban Warfare Drill",
-      "url": "https://www.reddit.com/r/singularity/comments/1sqvhcd/chinese_army_tests_humanunmanned_team_tactics_in/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T17:06:48.000Z",
-      "metaDescription": "submitted by    /u/zombiesingularity  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.2513254578675087,
-      "crawledAt": "2026-04-21T13:58:10.963Z",
-      "id": "wfxkqa",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9922133088111877,
-          "index": 1,
-          "word": "Chinese",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9876793622970581,
-          "index": 2,
-          "word": "Army",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8491363525390625,
-          "index": 14,
-          "word": "Warfare",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:13:11.290Z"
-    },
-    {
-      "title": "ToolSimulator: scalable tool testing for AI agents",
-      "url": "https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/",
-      "source": "AWS Machine Learning",
-      "source_domain": "aws.amazon.com",
-      "source_category": "cloud",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T17:06:26.000Z",
-      "metaDescription": "You can use ToolSimulator, an LLM-powered tool simulation framework within Strands Evals, to thoroughly and safely test AI agents that rely on external tools, at scale. Instead of risking live API cal",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.7584452699171065,
-      "crawledAt": "2026-04-20T17:12:01.615Z",
-      "id": "t0rvmo",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8924124836921692,
-          "index": 13,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " ToolSimulator is an LLM-powered tool simulation framework within Strands Evals. You can use ToolSimulators to thoroughly and safely test AI agents that rely on external tools.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:13:30.829Z"
-    },
-    {
-      "title": "Rogue Trooper brings the Genetic Infantry to the silver screen",
-      "url": "https://arstechnica.com/culture/2026/04/rogue-trooper-brings-the-genetic-infantry-to-the-silver-screen/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:58:28.000Z",
-      "metaDescription": "The future war film, from the director of Moon, is adapted from 2000 AD's comic series.",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.8752147251319471,
-      "crawledAt": "2026-04-20T20:55:34.565Z",
-      "id": "pz5hhf",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8585246205329895,
-          "index": 1,
-          "word": "Rogue",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8982526063919067,
-          "index": 2,
-          "word": "Troop",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9397515058517456,
-          "index": 6,
-          "word": "Gene",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9443336725234985,
-          "index": 7,
-          "word": "##tic",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9633600115776062,
-          "index": 8,
-          "word": "Infantry",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The future war film, from the director of Moon, is adapted from 2000 AD's comic series. The film is based on 2000 AD comic series.",
-      "language": "en",
-      "processed_at": "2026-04-20T20:59:07.806Z"
-    },
-    {
-      "title": "Highlights from Git 2.54",
-      "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
-      "source": "GitHub Blog",
-      "source_domain": "github.blog",
-      "source_category": "company",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:43:57.000Z",
-      "metaDescription": "The open source Git project just released Git 2.54. Here is GitHub’s look at some of the most interesting features and changes introduced since last time.\nThe post Highlights from Git 2.54 appeared fi",
-      "category": "research-paper",
-      "difficulty": 3,
-      "confidence": 0.5556652862910806,
-      "crawledAt": "2026-04-20T17:11:36.242Z",
-      "id": "ueqs8o",
-      "entities": [],
-      "summary": " The open source Git project just released Git 2.54.54. Here is GitHub's look at some of the most interesting features and changes introduced since last time.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:13:41.621Z"
-    },
-    {
-      "title": "The other half of the synthetic-data problem nobody talks about: referential integrity",
-      "url": "https://www.reddit.com/r/LangChain/comments/1squmck/the_other_half_of_the_syntheticdata_problem/",
-      "source": "r/LangChain",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T16:37:10.000Z",
-      "metaDescription": "Saw an interesting thread here last week about validation pipelines for LLM-generated synthetic data. That definitely resonates, but for the tabular / multi-table side of synthetic data there's a seco",
-      "category": "safety-ethics",
-      "difficulty": 3,
-      "confidence": 0.311526870233787,
-      "crawledAt": "2026-04-21T13:58:19.002Z",
-      "id": "7rtulh",
-      "entities": [],
-      "summary": " A seco-table side of synthetic data there's a seco seco side of the synthetic data. That definitely resonates, but for the tabular / multi-table Side of syntheticData there's an interesting thread here last week about validation pipelines for LLM-generated synthetic data",
-      "language": "en",
-      "processed_at": "2026-04-21T14:13:37.646Z"
-    },
-    {
-      "title": "The AI Layoff Trap, The Future of Everything Is Lies, I Guess: New Jobs and many other AI Links from Hacker News",
-      "url": "https://www.reddit.com/r/AutoGPT/comments/1sqtuqg/the_ai_layoff_trap_the_future_of_everything_is/",
-      "source": "r/AutoGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T16:10:59.000Z",
-      "metaDescription": "Hey everyone, I just sent the 28th issue of AI Hacker Newsletter, a weekly roundup of the best AI links and the discussions around it. Here are some links included in this email:\n  \nWrite less code, b",
-      "category": "creative-ai",
-      "difficulty": 10,
-      "confidence": 0.3273601027834705,
-      "crawledAt": "2026-04-23T03:27:10.959Z",
-      "id": "ymx5vo",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9962157011032104,
-          "index": 2,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9510858654975891,
-          "index": 3,
-          "word": "Lay",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.98588627576828,
-          "index": 4,
-          "word": "##off",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9948626756668091,
-          "index": 5,
-          "word": "T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9808641076087952,
-          "index": 6,
-          "word": "##rap",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9577150344848633,
-          "index": 8,
-          "word": "The",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9893131852149963,
-          "index": 9,
-          "word": "Future",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9976794719696045,
-          "index": 10,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9969850778579712,
-          "index": 11,
-          "word": "Everything",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9947437047958374,
-          "index": 12,
-          "word": "Is",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9855249524116516,
-          "index": 13,
-          "word": "Lies",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.956992506980896,
-          "index": 16,
-          "word": "Guess",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9850869178771973,
-          "index": 19,
-          "word": "Job",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9424659013748169,
-          "index": 20,
-          "word": "##s",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9673032760620117,
-          "index": 24,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9868177175521851,
-          "index": 28,
-          "word": "Ha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9662717580795288,
-          "index": 29,
-          "word": "##cker",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9869484305381775,
-          "index": 30,
-          "word": "News",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The 28th issue of the AI Hacker Newsletter is a weekly roundup of the best AI links and discussions. The newsletter is a free, free and easy way to share your thoughts with us.",
-      "language": "en",
-      "processed_at": "2026-04-23T03:54:28.515Z"
-    },
-    {
-      "title": "The AI Layoff Trap, The Future of Everything Is Lies, I Guess: New Jobs and many other AI Links from Hacker News",
-      "url": "https://www.reddit.com/r/artificial/comments/1sqttj9/the_ai_layoff_trap_the_future_of_everything_is/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T16:09:50.000Z",
-      "metaDescription": "Hey everyone, I just sent the 28th issue of AI Hacker Newsletter, a weekly roundup of the best AI links and the discussions around it. Here are some links included in this email:\n  \nWrite less code, b",
-      "category": "creative-ai",
-      "difficulty": 10,
-      "confidence": 0.3273601027834705,
-      "crawledAt": "2026-04-21T13:58:00.418Z",
-      "id": "vip8lk",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9962157011032104,
-          "index": 2,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9510858654975891,
-          "index": 3,
-          "word": "Lay",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.98588627576828,
-          "index": 4,
-          "word": "##off",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9948626756668091,
-          "index": 5,
-          "word": "T",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9808641076087952,
-          "index": 6,
-          "word": "##rap",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9577150344848633,
-          "index": 8,
-          "word": "The",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9893131852149963,
-          "index": 9,
-          "word": "Future",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9976794719696045,
-          "index": 10,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9969850778579712,
-          "index": 11,
-          "word": "Everything",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9947437047958374,
-          "index": 12,
-          "word": "Is",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9855249524116516,
-          "index": 13,
-          "word": "Lies",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.956992506980896,
-          "index": 16,
-          "word": "Guess",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9850869178771973,
-          "index": 19,
-          "word": "Job",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9424659013748169,
-          "index": 20,
-          "word": "##s",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9673032760620117,
-          "index": 24,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9868177175521851,
-          "index": 28,
-          "word": "Ha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9662717580795288,
-          "index": 29,
-          "word": "##cker",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9869484305381775,
-          "index": 30,
-          "word": "News",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The 28th issue of the AI Hacker Newsletter is a weekly roundup of the best AI links and discussions. The newsletter is a free, free and easy way to share your thoughts with us.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:18.010Z"
-    },
-    {
-      "title": "Building the 11 Layers of a Production-Grade MCP Server + Agentic System",
-      "url": "https://levelup.gitconnected.com/building-the-11-layers-of-a-production-grade-mcp-server-agentic-system-de92127aca6f?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:07:21.000Z",
-      "metaDescription": "multi-tenant isolation, auth, rate limits, audit trails, approval gates and more\nContinue reading on Level Up Coding »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.29083828197174366,
-      "crawledAt": "2026-04-20T17:12:20.662Z",
-      "id": "2bbyen",
-      "entities": [],
-      "summary": "Multi-tenant isolation, auth, rate limits, rate limit limits, audit trails, audit trail trails, approval gates and more.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:14:00.231Z"
-    },
-    {
-      "title": "Claude Design Architecture Has a Fatal Flaw",
-      "url": "https://levelup.gitconnected.com/claude-design-architecture-has-a-fatal-flaw-980676b4e115?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:58.000Z",
-      "metaDescription": "I reverse-engineered Claude Design’s architecture and found a critical flaw affecting agencies, workflows, and long-term brand consistency.\nContinue reading on Level Up Coding »",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.9402346490737846,
-      "crawledAt": "2026-04-20T17:12:20.888Z",
-      "id": "atk76z",
-      "entities": [],
-      "summary": " I reverse-engineered Claude Design’s architecture and found a critical flaw affecting agencies, workflows, and long-term brand consistency.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:14:13.001Z"
-    },
-    {
-      "title": "How to Build a $5/Month AI Agent That No Company Can Ban",
-      "url": "https://levelup.gitconnected.com/how-to-build-a-5-month-ai-agent-that-no-company-can-ban-7d07b22144ac?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:51.000Z",
-      "metaDescription": "Anthropic just cut off OpenClaw and banned its creator. Here’s the 3-step local stack that gives you a self-improving agent for $5/month…\nContinue reading on Level Up Coding »",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.9759419504237932,
-      "crawledAt": "2026-04-20T17:12:21.100Z",
-      "id": "jh2b8z",
-      "entities": [],
-      "summary": " Anthropic just cut off OpenClaw and banned its creator. The 3-step local stack gives you a self-improving agent for $5/month.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:14:24.441Z"
-    },
-    {
-      "title": "Make HTML 5 Games — Physics Game Tutorial",
-      "url": "https://levelup.gitconnected.com/make-html-5-games-physics-game-tutorial-f516a8937dc9?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:42.000Z",
-      "metaDescription": "In this tutorial and matching video tutorial, we will go through the steps to code a physics game using the HTML 5 Canvas and JavaScript.\nContinue reading on Level Up Coding »",
-      "category": "tutorial-guide",
-      "difficulty": 4,
-      "confidence": 0.8123691911494098,
-      "crawledAt": "2026-04-20T17:12:21.247Z",
-      "id": "hw40rd",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8240941166877747,
-          "index": 9,
-          "word": "Game",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " In this tutorial and matching video tutorial, we will go through the steps to code a physics game using the HTML 5 Canvas and JavaScript.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:14:36.667Z"
-    },
-    {
-      "title": "If They Ghost You After the Take-Home, Do This",
-      "url": "https://levelup.gitconnected.com/if-they-ghost-you-after-the-take-home-do-this-12b9cd4a0546?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:35.000Z",
-      "metaDescription": "The code they never reviewed ended up being a playground to try new concepts and getting me a contract at a different company.\nContinue reading on Level Up Coding »",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.32224127583071754,
-      "crawledAt": "2026-04-20T17:12:21.387Z",
-      "id": "5jbezq",
-      "entities": [],
-      "summary": " The code they never reviewed ended up being a playground to try new concepts and get a contract at a different company.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:14:47.002Z"
-    },
-    {
-      "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
-      "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T16:06:21.000Z",
-      "metaDescription": "NSA is said to be using Anthropic's restricted Mythos AI model.",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.3525181258696995,
-      "crawledAt": "2026-04-20T17:11:40.346Z",
-      "id": "3y5h5y",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9988499879837036,
-          "index": 1,
-          "word": "NSA",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9015865921974182,
-          "index": 6,
-          "word": "An",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9114360213279724,
-          "index": 7,
-          "word": "##throp",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9659066200256348,
-          "index": 11,
-          "word": "My",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9338665008544922,
-          "index": 12,
-          "word": "##th",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9662352800369263,
-          "index": 13,
-          "word": "##os",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9982149600982666,
-          "index": 16,
-          "word": "Pentagon",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " NSA said to be using Anthropic's restricted Mythos AI model. NSA is said to have used the model to create the model.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:15:08.630Z"
-    },
-    {
-      "title": "From the Dialectic Prompt to Agent Brain Trust",
-      "url": "https://levelup.gitconnected.com/from-the-dialectic-prompt-to-agent-brain-trust-5532583f6221?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:17.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.4264543455572655,
-      "crawledAt": "2026-04-20T17:12:21.572Z",
-      "id": "ry70p2",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9868144392967224,
-          "index": 3,
-          "word": "Di",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8010063767433167,
-          "index": 10,
-          "word": "Brain",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:15:08.726Z"
-    },
-    {
-      "title": "AI-Approved Waste: What a Second Pass on an AI-Built Extension Actually Caught",
-      "url": "https://levelup.gitconnected.com/ai-approved-waste-what-a-second-pass-on-an-ai-built-extension-actually-caught-39924c03de5d?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:06:09.000Z",
-      "metaDescription": "A case study of broken code, wider-than-needed permissions, and 15 KB of dead weight that survived an AI agent’s first pass.\nContinue reading on Level Up Coding »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.29274646368983026,
-      "crawledAt": "2026-04-20T17:12:21.741Z",
-      "id": "qabbc7",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9677464365959167,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9871047735214233,
-          "index": 14,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A case study of broken code, wider-than-needed permissions, and 15 KB of dead weight that survived an AI agent's first pass.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:15:19.979Z"
-    },
-    {
-      "title": "The Only Hermes Agent Setup You Need For Your Remote Machine",
-      "url": "https://levelup.gitconnected.com/the-only-hermes-agent-setup-you-need-for-your-remote-machine-bc26fbe70dda?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T16:05:59.000Z",
-      "metaDescription": "Set up your VPS, connect your devices safely, integrate your IDE, optimize your repository, and control the Hermes Agent from your phone.\nContinue reading on Level Up Coding »",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.918910033038372,
-      "crawledAt": "2026-04-20T17:12:21.895Z",
-      "id": "4yxhyr",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9849731922149658,
-          "index": 3,
-          "word": "Her",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9636210203170776,
-          "index": 4,
-          "word": "##mes",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8623984456062317,
-          "index": 14,
-          "word": "Machine",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Set up your VPS, connect your devices safely, integrate your devices, optimize your repository, and control the Hermes Agent from your phone.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:15:32.021Z"
-    },
-    {
-      "title": "60,000 Developers Are Using a Markdown File to Fix How AI Writes Code",
-      "url": "https://pub.towardsai.net/60-000-developers-are-using-a-markdown-file-to-fix-how-ai-writes-code-c62f6fd7a6c4?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T16:01:04.000Z",
-      "metaDescription": "Zero lines of code. Four principles. One file that changes everything\nContinue reading on Towards AI »",
-      "category": "developer-tool",
-      "difficulty": 3,
-      "confidence": 0.33967089527272637,
-      "crawledAt": "2026-04-20T17:12:13.872Z",
-      "id": "9m0n2p",
-      "entities": [],
-      "summary": " Four principles. Four lines of code. Zero lines of codes. One file that changes everything. One file changes everything.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:15:41.693Z"
-    },
-    {
-      "title": "Kimi K2.6",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sqswq6/kimi_k26/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:38:30.000Z",
-      "metaDescription": "Benchmarks\n    submitted by    /u/Fantastic-Emu-3819  \n [link]   [comments]",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.30074515567469834,
-      "crawledAt": "2026-04-21T13:57:57.540Z",
-      "id": "h19oeg",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:18.083Z"
-    },
-    {
-      "title": "Kimi 2.6 has been released",
-      "url": "https://www.reddit.com/r/singularity/comments/1sqsvrt/kimi_26_has_been_released/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T15:37:31.000Z",
-      "metaDescription": "Report: https://www.kimi.com/blog/kimi-k2-6\n    submitted by    /u/WhyLifeIs4  \n [link]   [comments]",
-      "category": "model-release",
-      "difficulty": 3,
-      "confidence": 0.37947317310335504,
-      "crawledAt": "2026-04-21T13:58:09.723Z",
-      "id": "l5rgzm",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:18.211Z"
-    },
-    {
-      "title": "New Gallup poll finds that low-income Americans are turning to AI as a replacement for expensive doctor's visits. Only 14% of all Americans use AI for this reason, but this figure jumps to 32% among the lowest income bracket . A plurality of Americans distrust AI's use in healthcare.",
-      "url": "https://www.reddit.com/r/artificial/comments/1sqsut6/new_gallup_poll_finds_that_lowincome_americans/",
-      "source": "r/artificial",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:36:33.000Z",
-      "metaDescription": "\"Some report forgoing healthcare visits because of AI-generated advice. Fourteen percent of recent users say the AI information or advice they received led them to skip a provider visit in the past 30",
-      "category": "ai-agents",
-      "difficulty": 7,
-      "confidence": 0.38773024386129923,
-      "crawledAt": "2026-04-21T13:57:59.464Z",
-      "id": "w00i2p",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9902682304382324,
-          "index": 2,
-          "word": "G",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9717868566513062,
-          "index": 4,
-          "word": "##up",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9995838403701782,
-          "index": 11,
-          "word": "Americans",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9824070930480957,
-          "index": 15,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9995359182357788,
-          "index": 31,
-          "word": "Americans",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9814175963401794,
-          "index": 33,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.999518871307373,
-          "index": 55,
-          "word": "Americans",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9590842723846436,
-          "index": 59,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Fourteen percent of users say AI advice led them to skip a provider visit. \"Some report forgoing healthcare visits because of AI-generated advice,\" says one user.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:28.703Z"
-    },
-    {
-      "title": "I Automated My Daily Work Using Python — Here’s Exactly How",
-      "url": "https://python.plainenglish.io/i-automated-my-daily-work-using-python-heres-exactly-how-69c0d43d7436?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T15:36:27.000Z",
-      "metaDescription": "Stop wasting time on repetitive tasks — let Python do it for you\nContinue reading on Python in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3717247364540822,
-      "crawledAt": "2026-04-20T17:12:22.019Z",
-      "id": "ng6njr",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9226433038711548,
-          "index": 8,
-          "word": "Python",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Stop wasting time on repetitive tasks — let Python do it for you. Read on Python in Plain English in PlainEnglish.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:16:00.780Z"
-    },
-    {
-      "title": "MILA vs Polytechnique Montreal: reapply or move on?",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqsr50/mila_vs_polytechnique_montreal_reapply_or_move_on/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:32:58.000Z",
-      "metaDescription": "Hi,\n I applied to two professional master’s programs this year, one at MILA and one at Polytechnique Montréal. I got accepted at Poly, but rejected from MILA, and they suggested I complete a minor in ",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.2923247909646563,
-      "crawledAt": "2026-04-21T13:58:02.861Z",
-      "id": "pde4f3",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9985877871513367,
-          "index": 1,
-          "word": "MI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8512544631958008,
-          "index": 2,
-          "word": "##LA",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.999363124370575,
-          "index": 4,
-          "word": "Pol",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9982080459594727,
-          "index": 5,
-          "word": "##yte",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9978617429733276,
-          "index": 6,
-          "word": "##ch",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9988411068916321,
-          "index": 7,
-          "word": "##ni",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9003788828849792,
-          "index": 8,
-          "word": "##que",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9943551421165466,
-          "index": 9,
-          "word": "Montreal",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " I applied to two master's programs this year, one at MILA and one at Polytechnique Montréal.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:50.730Z"
-    },
-    {
-      "title": "Kimi K2.6 Released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sqscao/kimi_k26_released_huggingface/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:18:19.000Z",
-      "metaDescription": "submitted by    /u/BiggestBau5  \n [link]   [comments]",
-      "category": "model-release",
-      "difficulty": 3,
-      "confidence": 0.9016779548899553,
-      "crawledAt": "2026-04-21T13:57:56.772Z",
-      "id": "4t6k0h",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:14:50.808Z"
-    },
-    {
-      "title": "ChatGPT 5.5 Release today?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1sqs603/chatgpt_55_release_today/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:12:10.000Z",
-      "metaDescription": "There's been a continuous flow of posts on X regarding the launch of 5.5 today, connected to the outage we are experiencing now, but these posts seem to be deleted over and over again. \n Polymarket me",
-      "category": "model-release",
-      "difficulty": 3,
-      "confidence": 0.2867739175172964,
-      "crawledAt": "2026-04-21T13:58:14.549Z",
-      "id": "47bqtw",
-      "entities": [],
-      "summary": " There's been a continuous flow of posts on X regarding the launch of 5.5 today. But these posts seem to be deleted over and over again.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:00.689Z"
-    },
-    {
-      "title": "Omnichannel ordering with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
-      "url": "https://aws.amazon.com/blogs/machine-learning/omnichannel-ordering-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/",
-      "source": "AWS Machine Learning",
-      "source_domain": "aws.amazon.com",
-      "source_category": "cloud",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T15:03:28.000Z",
-      "metaDescription": "In this post, we'll show you how to build a complete omnichannel ordering system using Amazon Bedrock AgentCore, an agentic platform, to build, deploy, and operate highly effective AI agents securely ",
-      "category": "developer-tool",
-      "difficulty": 8,
-      "confidence": 0.915659496067647,
-      "crawledAt": "2026-04-20T17:12:01.792Z",
-      "id": "js64b4",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9690553545951843,
-          "index": 1,
-          "word": "O",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8333335518836975,
-          "index": 2,
-          "word": "##m",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8151058554649353,
-          "index": 3,
-          "word": "##nic",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.955960214138031,
-          "index": 4,
-          "word": "##han",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8060429096221924,
-          "index": 8,
-          "word": "Amazon",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9363328218460083,
-          "index": 9,
-          "word": "Bed",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8352505564689636,
-          "index": 11,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9503567218780518,
-          "index": 12,
-          "word": "##C",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9566486477851868,
-          "index": 15,
-          "word": "Amazon",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9749893546104431,
-          "index": 16,
-          "word": "Nova",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Amazon Bedrock AgentCore is an agentic platform to build, deploy, and operate highly effective AI agents securely.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:16:35.913Z"
-    },
-    {
-      "title": "Meet Bruce, the \"beak-jousting\" parrot",
-      "url": "https://arstechnica.com/science/2026/04/meet-bruce-the-beak-jousting-parrot/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T15:00:22.000Z",
-      "metaDescription": "Kea parrot missing his upper beak \"has rewritten what disability means for behaviorally complex species.\"",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.2941421265273963,
-      "crawledAt": "2026-04-20T17:11:38.012Z",
-      "id": "3saqi4",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9992370009422302,
-          "index": 2,
-          "word": "Bruce",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Kea parrot missing his upper beak \"has rewritten what disability means for behaviorally complex species\" Kea Parrot missing \"has written what disability mean for behavioral complex species,\" says parrot.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:16:48.770Z"
-    },
-    {
-      "title": "Context Payload Optimization for ICL-Based Tabular Foundation Models",
-      "url": "https://towardsdatascience.com/context-payload-optimization-for-icl-based-tabular-foundation-models/",
-      "source": "Towards Data Science",
-      "source_domain": "towardsdatascience.com",
-      "source_category": "tutorial",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T15:00:00.000Z",
-      "metaDescription": "Conceptual overview and practical guidance\nThe post Context Payload Optimization for ICL-Based Tabular Foundation Models appeared first on Towards Data Science.",
-      "category": "infrastructure",
-      "difficulty": 7,
-      "confidence": 0.3128680716933039,
-      "crawledAt": "2026-04-20T17:11:47.762Z",
-      "id": "57ny4z",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9975122809410095,
-          "index": 10,
-          "word": "I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9921490550041199,
-          "index": 11,
-          "word": "##CL",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9694904685020447,
-          "index": 15,
-          "word": "##bula",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.932856559753418,
-          "index": 16,
-          "word": "##r",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9645054340362549,
-          "index": 17,
-          "word": "Foundation",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9000756740570068,
-          "index": 18,
-          "word": "Models",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The post Context Payload Optimization for ICL-Based Tabular Foundation Models appeared first on Towards Data Science.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:16:58.096Z"
-    },
-    {
-      "title": "ChatGPT seems to be down. Anyone else affected?",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1sqrbx6/chatgpt_seems_to_be_down_anyone_else_affected/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T14:41:03.000Z",
-      "metaDescription": "https://preview.redd.it/cwz4y0kbxcwg1.jpg?width=670&format=pjpg&auto=webp&s=8e2b99c59b736c87d5607b3950b87cc506fa7d12\n Most of my info and conversations was all of a sudden gone. I logged out and now I",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.2843252116220409,
-      "crawledAt": "2026-04-21T13:58:15.523Z",
-      "id": "4x2kvy",
-      "entities": [],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:10.972Z"
-    },
-    {
-      "title": "CVPR Broadening Participation Results.",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1sqr6xq/cvpr_broadening_participation_results_d/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T14:35:52.000Z",
-      "metaDescription": "Did anyone get an email?\n I emailed the chairs. They say every participant got an email titled: \"CVPR26 BP Scholarship Decision Has Been Released\", and participants got a separate email with the award",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.31077330596690933,
-      "crawledAt": "2026-04-21T13:58:03.483Z",
-      "id": "s0ndes",
-      "entities": [],
-      "summary": "Every participant got an email titled: \"CVPR26 BP Scholarship Decision Has been released\" The email was sent out to the winners of the award.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:22.275Z"
-    },
-    {
-      "title": "Is Chat GPT serves down?!",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1sqqzlu/is_chat_gpt_serves_down/",
-      "source": "r/OpenAI",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-04-20T14:28:37.000Z",
-      "metaDescription": "Im in the UK and i think its down.\n    submitted by    /u/Agile-Race6553  \n [link]   [comments]",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.3171464137279503,
-      "crawledAt": "2026-04-21T13:58:13.751Z",
-      "id": "pgljsw",
-      "entities": [],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:22.356Z"
-    },
-    {
-      "title": "AI for filling public web forms from chat?",
-      "url": "https://www.reddit.com/r/deeplearning/comments/1sqqz7e/ai_for_filling_public_web_forms_from_chat/",
-      "source": "r/deeplearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T14:28:16.000Z",
-      "metaDescription": "Hi,\n I am tired of filling government forms or from fo document management. I have to enter websites that make me ill and review forms with all properties and finding the specific cells to put values.",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.2619502784529106,
-      "crawledAt": "2026-04-21T13:58:22.965Z",
-      "id": "evkbnf",
-      "entities": [],
-      "summary": " I am tired of filling government forms or from fo document management. I have to enter websites that make me ill and review forms with all properties.",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:34.783Z"
-    },
-    {
-      "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
-      "url": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T14:21:40.000Z",
-      "metaDescription": "Cyberdefenses could be exposed faster than fixes could be deployed.",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.6260573515877879,
-      "crawledAt": "2026-04-20T17:11:38.122Z",
-      "id": "v5ne89",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8837485313415527,
-          "index": 6,
-          "word": "My",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Cyberdefenses could be exposed faster than fixes could be deployed. Cyberdefens could be expose faster than fixers could be installed.",
-      "language": "en",
-      "processed_at": "2026-04-20T17:17:06.734Z"
-    },
-    {
-      "title": "The \"it's not just a this, it's a that\" sentence structure",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1sqqrjw/the_its_not_just_a_this_its_a_that_sentence/",
-      "source": "r/ChatGPT",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-04-20T14:20:28.000Z",
-      "metaDescription": "I didn't realize how much I naturally wrote like this until I've started self correcting so I don't sound like AI.\n I was fine with AI taking the em dashes. I never really used those. But I don't like",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.291574261445249,
-      "crawledAt": "2026-04-21T13:58:05.913Z",
-      "id": "jc9r9j",
-      "entities": [],
-      "summary": " I didn't realize how much I naturally wrote like this until I've started self correcting so I don't sound like AI. I was fine with AI taking the em dashes. But I don’t like those. I never really used those. But he",
-      "language": "en",
-      "processed_at": "2026-04-21T14:15:51.200Z"
     }
   ],
-  "processedAt": "2026-05-05T14:14:00.201Z",
+  "processedAt": "2026-05-05T17:47:27.108Z",
   "categories": [
     "ai-agents",
+    "model-release",
     "creative-ai",
-    "safety-ethics",
     "developer-tool",
     "infrastructure",
+    "product-launch",
+    "safety-ethics",
     "research-paper",
     "tutorial-guide",
-    "product-launch",
-    "model-release",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 8,
-  "existingArticlesKept": 1712,
+  "newArticlesProcessed": 17,
+  "existingArticlesKept": 1692,
   "cleanupApplied": true,
-  "cleanedUpCount": 28,
+  "cleanedUpCount": 37,
   "rollingWindowDays": 15
 }

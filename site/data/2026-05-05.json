@@ -1,9 +1,714 @@
 {
-  "crawledAt": "2026-05-05T14:11:23.002Z",
+  "crawledAt": "2026-05-05T17:43:58.448Z",
   "totalSources": 70,
-  "totalArticles": 74,
+  "totalArticles": 91,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T17:00:40.000Z",
+      "metaDescription": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what’s possible, moving beyond simple pro",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.9400296268057664,
+      "crawledAt": "2026-05-05T17:42:06.856Z",
+      "id": "2vde4p",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9882007241249084,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9908548593521118,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.977588415145874,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997589647769928,
+          "index": 7,
+          "word": "##N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9828205108642578,
+          "index": 8,
+          "word": "##ow",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Enterprise AI has learned to generate. It has learned how to use AI to help people with problems. It has also learned to use the power of AI to solve problems.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:10.077Z"
+    },
+    {
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "metaDescription": "The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
+      "category": "model-release",
+      "difficulty": 7,
+      "confidence": 0.9965122515248092,
+      "crawledAt": "2026-05-05T17:42:17.788Z",
+      "id": "1in7u6",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9928425550460815,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9917299747467041,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8623656034469604,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9847241640090942,
+          "index": 5,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8722879886627197,
+          "index": 6,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:19.806Z"
+    },
+    {
+      "title": "Streamlining generative AI development with MLflow v3.10 on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:55:18.000Z",
+      "metaDescription": "Today, we’re excited to announce that Amazon SageMaker AI MLflow Apps now support MLflow version 3.10, bringing enhanced capabilities for generative AI development and streamlined experiment tracking ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.6619589333904081,
+      "crawledAt": "2026-05-05T17:42:45.955Z",
+      "id": "1s9iup",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9706169366836548,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9680197238922119,
+          "index": 16,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9732633233070374,
+          "index": 17,
+          "word": "Sage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9952688813209534,
+          "index": 18,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9577181339263916,
+          "index": 19,
+          "word": "##aker",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8836449980735779,
+          "index": 20,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon SageMaker AI MLflow Apps now support MLflow version 3.10, bringing enhanced capabilities for generative AI development and streamlined experiment tracking.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:41.040Z"
+    },
+    {
+      "title": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:54:35.000Z",
+      "metaDescription": "We’re announcing OS Level Actions for AgentCore Browser. This new capability unblocks these scenarios by exposing direct OS control through the InvokeBrowser API, so agents can interact with content v",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.6842336510765309,
+      "crawledAt": "2026-05-05T17:42:46.118Z",
+      "id": "h4q0me",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9858042001724243,
+          "index": 4,
+          "word": "OS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9192783236503601,
+          "index": 9,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new tool will allow agents to interact with content via the InvokeBrowser API. The tool will also allow agents and users to interact.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:44:49.340Z"
+    },
+    {
+      "title": "What Is Claude’s Agentic Operating System",
+      "url": "https://pub.towardsai.net/what-is-claudes-agentic-operating-system-48ec4834e2cc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T16:01:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6772592141014396,
+      "crawledAt": "2026-05-05T17:42:54.302Z",
+      "id": "a1ljk4",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.8698315024375916,
+          "index": 3,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8629006743431091,
+          "index": 6,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:00.338Z"
+    },
+    {
+      "title": "Learn React With This One Project",
+      "url": "https://www.youtube.com/watch?v=9aTRnV6g0eQ",
+      "source": "Dave Ebbelaar",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T16:00:14.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.37884123149554333,
+      "crawledAt": "2026-05-05T17:43:18.254Z",
+      "id": "uwj1m5",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:00.453Z"
+    },
+    {
+      "title": "TAI #203: OpenAI, Anthropic, and Wall Street Race to Build the AI Deployment Layer",
+      "url": "https://pub.towardsai.net/tai-203-openai-anthropic-and-wall-street-race-to-build-the-ai-deployment-layer-520def432288?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T15:50:48.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.35599169570252015,
+      "crawledAt": "2026-05-05T17:42:54.390Z",
+      "id": "vvnxoj",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9088332056999207,
+          "index": 8,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8707481622695923,
+          "index": 11,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.8652648329734802,
+          "index": 16,
+          "word": "Wall",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8332197666168213,
+          "index": 17,
+          "word": "Street",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9410619139671326,
+          "index": 23,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:18.043Z"
+    },
+    {
+      "title": "Etsy launches its app within ChatGPT as it continues its AI push",
+      "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T15:31:37.000Z",
+      "metaDescription": "Etsy's new native app within ChatGPT aims to be a conversational  shopping experience for users.",
+      "category": "product-launch",
+      "difficulty": 6,
+      "confidence": 0.9730611197000112,
+      "crawledAt": "2026-05-05T17:42:18.077Z",
+      "id": "cbpybb",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.995846688747406,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9316028952598572,
+          "index": 2,
+          "word": "##ts",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.985379695892334,
+          "index": 3,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9086448550224304,
+          "index": 8,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8759503364562988,
+          "index": 11,
+          "word": "##T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Etsy's new native app aims to be a conversational experience for users. The app will be available in the coming weeks.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:41.821Z"
+    },
+    {
+      "title": "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-amazon-bedrock-agentcore-identity-on-amazon-ecs/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:27:30.000Z",
+      "metaDescription": "AI agents in production require secure access to external services. Amazon Bedrock AgentCore Identity, available as a standalone service, secures how your AI agents access external services whether th",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.8663039637644238,
+      "crawledAt": "2026-05-05T17:42:46.267Z",
+      "id": "8e4046",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.940340518951416,
+          "index": 6,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8351300954818726,
+          "index": 7,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8384402990341187,
+          "index": 12,
+          "word": "Identity",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8045881986618042,
+          "index": 15,
+          "word": "EC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon Bedrock AgentCore Identity, available as a standalone service, secures how your AI agents access external services.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:45:49.029Z"
+    },
+    {
+      "title": "Intelligence-driven message defense and insights using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/intelligence-driven-message-defense-and-insights-using-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:20:54.000Z",
+      "metaDescription": "In this post, you will learn how you can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. You can identify obvious an",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.9074418753755982,
+      "crawledAt": "2026-05-05T17:42:46.415Z",
+      "id": "51yte3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8824553489685059,
+          "index": 9,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9290096163749695,
+          "index": 10,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9569612145423889,
+          "index": 11,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. In this post, you will learn how you can useAmazon Nova Foundation models in AmazonBedrock to use generativeAI techniques.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:02.367Z"
+    },
+    {
+      "title": "Charlize Theron is a bewitching Circe in Odyssey trailer",
+      "url": "https://arstechnica.com/culture/2026/05/nolans-the-odyssey-gets-a-new-trailer-and-were-here-for-it/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:20:24.000Z",
+      "metaDescription": "\"You're a man who needs to control his fate. But you cannot control this.\"",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.4251699397273138,
+      "crawledAt": "2026-05-05T17:42:22.728Z",
+      "id": "1wkhho",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.993730366230011,
+          "index": 1,
+          "word": "Cha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8375995755195618,
+          "index": 2,
+          "word": "##rl",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9595755338668823,
+          "index": 3,
+          "word": "##ize",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9986396431922913,
+          "index": 4,
+          "word": "The",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8987559080123901,
+          "index": 5,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9673210382461548,
+          "index": 11,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"You're a man who needs to control his fate. But you cannot control this,\" says one of the victims.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:12.418Z"
+    },
+    {
+      "title": "Musk's Europe gamble: Will others follow the Dutch and approve FSD?",
+      "url": "https://arstechnica.com/cars/2026/05/tesla-fsd-other-european-regulators-skeptical-despite-dutch-approval/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T15:09:58.000Z",
+      "metaDescription": "The Dutch road authority will ask other EU regulators to approve the driver assist.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.34961338753399057,
+      "crawledAt": "2026-05-05T17:42:22.840Z",
+      "id": "bdwlw9",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9038793444633484,
+          "index": 1,
+          "word": "Mu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9995556473731995,
+          "index": 5,
+          "word": "Europe",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9996464252471924,
+          "index": 13,
+          "word": "Dutch",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9792564511299133,
+          "index": 16,
+          "word": "F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8235877752304077,
+          "index": 17,
+          "word": "##SD",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Dutch road authority will ask other EU regulators to approve the driver assist. Dutch road authorities will ask EU regulators for help.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:20.496Z"
+    },
+    {
+      "title": "7 Ways to Add AI Features to Your Existing App Without Starting From Scratch",
+      "url": "https://ai.plainenglish.io/7-ways-to-add-ai-features-to-your-existing-app-without-starting-from-scratch-c159dacd3b70?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:32:03.000Z",
+      "metaDescription": "No rewrite, no ML degree, no drama — the exact integration patterns that work in real codebases.\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4062173020175031,
+      "crawledAt": "2026-05-05T17:43:01.988Z",
+      "id": "bmasnq",
+      "entities": [],
+      "summary": " No rewrite, no rewrite,no drama — no drama — the exact integration patterns that work in real codebases.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:40.541Z"
+    },
+    {
+      "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
+      "url": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+      "source": "GitHub Blog",
+      "source_domain": "github.blog",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-05-05T14:30:00.000Z",
+      "metaDescription": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source.\nThe post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on ",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2552090153052974,
+      "crawledAt": "2026-05-05T17:42:20.944Z",
+      "id": "sf790a",
+      "entities": [],
+      "summary": " Maintainer Month celebrates the people behind open source. Celebrating people behind the code. Celebrates people behind code.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:48.146Z"
+    },
+    {
+      "title": "Meta will use AI to analyze height and bone structure to identify if users are underage",
+      "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:27:00.000Z",
+      "metaDescription": "The visual analysis system is now operating in select countries, but Meta says it's working toward a broader rollout.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.7171819490416768,
+      "crawledAt": "2026-05-05T17:42:18.212Z",
+      "id": "4e7ml7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9983758926391602,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9858487844467163,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9905563592910767,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The visual analysis system is now operating in select countries. Meta says it's working toward a broader rollout of the system.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:46:55.956Z"
+    },
     {
       "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
       "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
@@ -63,6 +768,34 @@
       "summary": " Seattle-based startup's Series A round was led by Glilot Capital, NFX and SignalFire. TechCrunch has exclusively learned about the startup's series A round.",
       "language": "en",
       "processed_at": "2026-05-05T14:11:37.069Z"
+    },
+    {
+      "title": "Agents as Tools vs Handoffs: Understanding the Two Patterns Behind Modern AI Systems",
+      "url": "https://pub.towardsai.net/agents-as-tools-vs-handoffs-understanding-the-two-patterns-behind-modern-ai-systems-6a3b7f55b157?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T14:01:02.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.986727227896315,
+      "crawledAt": "2026-05-05T17:42:54.463Z",
+      "id": "s8jztu",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8140320181846619,
+          "index": 18,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:47:17.477Z"
     },
     {
       "title": "Use Codex CLI to Enhance Your Python Projects",
@@ -265,6 +998,25 @@
       "summary": " In this quiz, you'll test your understanding of Python Application Layouts. In this quizz, you’ll revisit how to structure one-off scripts, installable packages, and larger app packages.",
       "language": "en",
       "processed_at": "2026-05-05T14:13:34.481Z"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-05-05T10:00:00.000Z",
+      "metaDescription": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "category": "model-release",
+      "difficulty": 3,
+      "confidence": 0.2599489431964405,
+      "crawledAt": "2026-05-05T17:42:10.175Z",
+      "id": "as3kf0",
+      "entities": [],
+      "summary": " GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers.",
+      "language": "en",
+      "processed_at": "2026-05-05T17:47:27.038Z"
     },
     {
       "title": "Run Your Own AI Agent Locally: Ollama, MCP, and Skills Explained",
@@ -2417,19 +3169,20 @@
       "processed_at": "2026-05-05T03:34:20.553Z"
     }
   ],
-  "processedAt": "2026-05-05T14:14:00.203Z",
+  "processedAt": "2026-05-05T17:47:27.111Z",
   "categories": [
     "ai-agents",
+    "model-release",
     "creative-ai",
-    "safety-ethics",
     "developer-tool",
     "infrastructure",
+    "product-launch",
+    "safety-ethics",
     "research-paper",
-    "tutorial-guide",
-    "product-launch"
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 8,
-  "dailyArticlesCount": 74,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 91,
   "filterDate": "2026-05-05"
 }
