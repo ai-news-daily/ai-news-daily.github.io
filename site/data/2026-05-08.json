@@ -1,9 +1,1459 @@
 {
-  "crawledAt": "2026-05-08T03:36:53.436Z",
+  "crawledAt": "2026-05-08T06:03:29.376Z",
   "totalSources": 70,
-  "totalArticles": 12,
+  "totalArticles": 57,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Understanding Annotator Safety Policy with Interpretability",
+      "url": "https://arxiv.org/abs/2605.05329",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05329v1 Announce Type: new \nAbstract: Safety policies define what constitutes safe and unsafe AI outputs, guiding data annotation and model development. However, annotation disagreement is ",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.9587602462482261,
+      "crawledAt": "2026-05-08T06:03:02.578Z",
+      "id": "9n5z0o",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8371487855911255,
+          "index": 2,
+          "word": "Ann",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9575213193893433,
+          "index": 3,
+          "word": "##ota",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8751345872879028,
+          "index": 4,
+          "word": "##tor",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9847617149353027,
+          "index": 5,
+          "word": "Safety",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9749398827552795,
+          "index": 6,
+          "word": "Policy",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Safety policies define what constitutes safe and unsafe AI outputs, guiding data annotation and model development. However, annotation disagreement is disagreement.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:03:53.313Z"
+    },
+    {
+      "title": "ZAYA1-8B Technical Report",
+      "url": "https://arxiv.org/abs/2605.05365",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05365v1 Announce Type: new \nAbstract: We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture.",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.31146616188212917,
+      "crawledAt": "2026-05-08T06:03:02.789Z",
+      "id": "b9td5n",
+      "entities": [],
+      "summary": " The ZAYA1-8B model has 700M active and 8B total parameters. Built on Zyphra's MoE++ architecture.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:04:03.085Z"
+    },
+    {
+      "title": "Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems",
+      "url": "https://arxiv.org/abs/2605.05379",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05379v1 Announce Type: new \nAbstract: Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these set",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.30328709334281256,
+      "crawledAt": "2026-05-08T06:03:02.972Z",
+      "id": "gbunb8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8485527038574219,
+          "index": 17,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:04:14.242Z"
+    },
+    {
+      "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
+      "url": "https://arxiv.org/abs/2605.05386",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05386v1 Announce Type: new \nAbstract: Large language models increasingly operate in interactive settings where solving a task requires multiple rounds of information exchange with a user. H",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2745983755949434,
+      "crawledAt": "2026-05-08T06:03:03.144Z",
+      "id": "2867el",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.868790328502655,
+          "index": 6,
+          "word": "Bay",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Large language models increasingly operate in interactive settings where solving a task requires multiple rounds of information exchange with a user. H. H.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:04:26.637Z"
+    },
+    {
+      "title": "Intelligent CCTV for Urban Design: AI-Based Analysis of Soft Infrastructure at Intersections",
+      "url": "https://arxiv.org/abs/2605.05402",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05402v1 Announce Type: new \nAbstract: Artificial intelligence (AI) and computer vision are transforming transportation data collection. This study introduces an AI-enabled analytics framewo",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.32323323788255565,
+      "crawledAt": "2026-05-08T06:03:03.323Z",
+      "id": "1bhv1i",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8910045623779297,
+          "index": 7,
+          "word": "Design",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9028688073158264,
+          "index": 18,
+          "word": "##section",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The study introduces an AI-enabled analytics framewo. arXiv:2605.05402v1.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:04:37.699Z"
+    },
+    {
+      "title": "PRISM: Perception Reasoning Interleaved for Sequential Decision Making",
+      "url": "https://arxiv.org/abs/2605.05407",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05407v1 Announce Type: new \nAbstract: Scaling LLM-based embodied agents from text-only environments to complex multimodal settings remains a major challenge. Recent work identifies a percep",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2627971385294851,
+      "crawledAt": "2026-05-08T06:03:03.739Z",
+      "id": "nxjapg",
+      "entities": [],
+      "summary": " The new work identifies a percepable agent from text-only environments to complex multimodal settings. The work identifies the percepability of the agent.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:01.305Z"
+    },
+    {
+      "title": "Agentic Retrieval-Augmented Generation for Financial Document Question Answering",
+      "url": "https://arxiv.org/abs/2605.05409",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05409v1 Announce Type: new \nAbstract: Financial document question answering (QA) demands complex multi-step numerical reasoning over heterogeneous evidence--structured tables, textual narra",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3043516503217623,
+      "crawledAt": "2026-05-08T06:03:03.918Z",
+      "id": "qutdon",
+      "entities": [],
+      "summary": "QA demands complex multi-step numerical reasoning over heterogeneous evidence. The question is a question of whether the answer is true.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:10.208Z"
+    },
+    {
+      "title": "LaTA: A Drop-in, FERPA-Compliant Local-LLM Autograder for Upper-Division STEM Coursework",
+      "url": "https://arxiv.org/abs/2605.05410",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05410v1 Announce Type: new \nAbstract: Large-language-model (LLM) graders promise to relieve the grading burden of upper-division STEM courses, but most deployments to date send student work",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.26547553690769266,
+      "crawledAt": "2026-05-08T06:03:04.147Z",
+      "id": "bfn2i7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9116736054420471,
+          "index": 19,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The World's largest-ever-language-model. Aims to relieve the burden of grading of upper-division STEM courses.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:21.994Z"
+    },
+    {
+      "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
+      "url": "https://arxiv.org/abs/2605.05413",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05413v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly used to operate browsers, files, code and tools, making personal assistants a natural deployment tar",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2687740449798479,
+      "crawledAt": "2026-05-08T06:03:04.335Z",
+      "id": "tepx26",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9347856640815735,
+          "index": 15,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new language model is designed to make personal assistants a natural deployment tar. The new version of the tar tar will be available to all users.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:31.125Z"
+    },
+    {
+      "title": "The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias",
+      "url": "https://arxiv.org/abs/2605.05427",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05427v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are integrated into global software systems, ensuring equitable safety guardrails is a critical requirement. Current fa",
+      "category": "safety-ethics",
+      "difficulty": 8,
+      "confidence": 0.9867672062214691,
+      "crawledAt": "2026-05-08T06:03:04.531Z",
+      "id": "g4dyq",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8880075812339783,
+          "index": 4,
+          "word": "##poli",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9211737513542175,
+          "index": 6,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9867509603500366,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8672803640365601,
+          "index": 8,
+          "word": "Safety",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8386795520782471,
+          "index": 19,
+          "word": "B",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new version of the software is called Large Language Models (LLMs) The new model is based on the current version of \"Large Language Models\"",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:41.073Z"
+    },
+    {
+      "title": "Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure",
+      "url": "https://arxiv.org/abs/2605.05440",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05440v1 Announce Type: new \nAbstract: The security discussion around agentic AI focuses heavily on prompt injection. This paper argues that multi-agent systems also create a distinct author",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.5169554074248672,
+      "crawledAt": "2026-05-08T06:03:04.708Z",
+      "id": "4z6kd1",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9205005168914795,
+          "index": 9,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8462461829185486,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8595015406608582,
+          "index": 11,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The security discussion around agentic AI focuses heavily on prompt injection. This paper argues that multi-agent systems also create a distinct author.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:05:49.386Z"
+    },
+    {
+      "title": "Intentionality is a Design Decision: Measuring Functional Intentionality for Accountable AI Systems",
+      "url": "https://arxiv.org/abs/2605.05475",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05475v1 Announce Type: new \nAbstract: As AI systems increasingly exhibit autonomous, goal-directed, and long-horizon behavior, users lack a standardized way to detect the degree to which a ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28262363780537336,
+      "crawledAt": "2026-05-08T06:03:05.088Z",
+      "id": "d9uula",
+      "entities": [],
+      "summary": " As AI systems increasingly exhibit autonomous, goal-directed, and long-horizon behavior, users lack a standardized way to detect a degree of behavior.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:06:08.054Z"
+    },
+    {
+      "title": "LANTERN: LLM-Augmented Neurosymbolic Transfer with Experience-Gated Reasoning Networks",
+      "url": "https://arxiv.org/abs/2605.05478",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05478v1 Announce Type: new \nAbstract: Transfer learning in reinforcement learning (RL) seeks to accelerate learning in new tasks by leveraging knowledge from related sources. Existing neuro",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5064896308505866,
+      "crawledAt": "2026-05-08T06:03:05.284Z",
+      "id": "gbx0bd",
+      "entities": [],
+      "summary": "ArXiv:2605.05478v1 Announce Type: new type: Transfer learning in reinforcement learning.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:06:18.943Z"
+    },
+    {
+      "title": "Layout-Aware Representation Learning for Open-Set ID Fraud Discovery",
+      "url": "https://arxiv.org/abs/2605.05215",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05215v1 Announce Type: new \nAbstract: Identity-document fraud detection is not a stationary binary classification problem. Adaptive attackers modify templates and fabrication pipelines, mak",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7890051807548418,
+      "crawledAt": "2026-05-08T06:03:12.474Z",
+      "id": "aqlha6",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9717071056365967,
+          "index": 13,
+          "word": "Set",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Attackers modify templates and fabrication pipelines, mak. arXiv:2605.05215v1 Announce Type: new.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:06:29.058Z"
+    },
+    {
+      "title": "Seeing What Shouldn't Be There: Counterfactual GANs for Medical Image Attribution",
+      "url": "https://arxiv.org/abs/2605.05283",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05283v1 Announce Type: new \nAbstract: Ascription of an image gives insights into the objects that influence the classification of the whole image or its pixels towards a specific category. ",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2525201890382173,
+      "crawledAt": "2026-05-08T06:03:12.672Z",
+      "id": "kusyht",
+      "entities": [],
+      "summary": "ArXiv:26055.05283v1 Announce Type: new type: new kind of image.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:06:40.515Z"
+    },
+    {
+      "title": "Query2Uncertainty: Robust Uncertainty Quantification and Calibration for 3D Object Detection under Distribution Shift",
+      "url": "https://arxiv.org/abs/2605.05328",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05328v1 Announce Type: new \nAbstract: Reliable uncertainty estimation for 3D object detection is critical for deploying safe autonomous systems, yet modern detectors remain poorly calibrate",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2763250640677465,
+      "crawledAt": "2026-05-08T06:03:12.869Z",
+      "id": "n5h0ox",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8906813263893127,
+          "index": 27,
+          "word": "Det",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Modern detectors remain poorly calibrate, yet modern detectors are poorly calibrated. The new technology will help detect 3D objects.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:06:48.614Z"
+    },
+    {
+      "title": "Open-SAT: LLM-Guided Query Embedding Refinement for Open-Vocabulary Object Retrieval in Satellite Imagery",
+      "url": "https://arxiv.org/abs/2605.05344",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05344v1 Announce Type: new \nAbstract: In satellite applications, user queries often take the form of open-ended natural language, extending beyond a fixed set of predefined categories. This",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.2873446673406035,
+      "crawledAt": "2026-05-08T06:03:13.297Z",
+      "id": "72jxbe",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8451454043388367,
+          "index": 5,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This is the first time a user has used open-ended natural language in a satellite application. This is a new version of the application for satellite applications.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:07:08.477Z"
+    },
+    {
+      "title": "Tamaththul3D: High-Fidelity 3D Saudi Sign Language Avatars from Monocular Video",
+      "url": "https://arxiv.org/abs/2605.05367",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05367v1 Announce Type: new \nAbstract: Arabic Sign Language (ArSL) and its dialects serve approximately 400 million Arabic speakers worldwide, yet the community lacks high-quality 3D paramet",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.2580589044940273,
+      "crawledAt": "2026-05-08T06:03:13.726Z",
+      "id": "277uxc",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9450705051422119,
+          "index": 13,
+          "word": "Saudi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9330742359161377,
+          "index": 14,
+          "word": "Sign",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.942080557346344,
+          "index": 15,
+          "word": "Language",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9776536226272583,
+          "index": 19,
+          "word": "Mon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9296441674232483,
+          "index": 20,
+          "word": "##oc",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9560129642486572,
+          "index": 21,
+          "word": "##ular",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9823052883148193,
+          "index": 22,
+          "word": "Video",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new language is Arabic, and its dialects serve approximately 400 million Arabic speakers. The language is considered the most popular language in the world.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:07:30.600Z"
+    },
+    {
+      "title": "LAMP: Localization Aware Multi-camera People Tracking in Metric 3D World",
+      "url": "https://arxiv.org/abs/2605.05390",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05390v1 Announce Type: new \nAbstract: Tracking 3D human motion from egocentric multi-camera headset is challenged by severe egomotion, partial visibility or occlusions and lack of training ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2786266966172235,
+      "crawledAt": "2026-05-08T06:03:14.104Z",
+      "id": "3hy6zh",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8271081447601318,
+          "index": 16,
+          "word": "##ric",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9416155219078064,
+          "index": 17,
+          "word": "3D",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9468504190444946,
+          "index": 18,
+          "word": "World",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The 3D technology is a new form of 3D camera technology. The 3-D technology can be used to create 3D images of the human body.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:07:56.576Z"
+    },
+    {
+      "title": "Safety-Critical Camera Reliability Monitoring for ADAS via Degradation-Aware Uncertainty Pattern Analysis",
+      "url": "https://arxiv.org/abs/2605.05439",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05439v1 Announce Type: new \nAbstract: Reliable camera input is essential for safety-critical ADAS perception, but most monitoring approaches detect sensor failures only after downstream per",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.991545071096024,
+      "crawledAt": "2026-05-08T06:03:14.471Z",
+      "id": "86nltd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9857427477836609,
+          "index": 11,
+          "word": "AD",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "ArXiv:2605.05439v1. arXiv. arxiv: 2605.5.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:08:22.263Z"
+    },
+    {
+      "title": "EchoXFlow: A Beamspace Echocardiography Dataset for Cardiac Motion, Flow, and Function",
+      "url": "https://arxiv.org/abs/2605.05447",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05447v1 Announce Type: new \nAbstract: We introduce EchoXFlow, a clinical echocardiography dataset for learning from ultrasound in its native acquisition geometry rather than from scan-conve",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2928001917600838,
+      "crawledAt": "2026-05-08T06:03:14.672Z",
+      "id": "i5o7ba",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8767651319503784,
+          "index": 1,
+          "word": "Echo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8441404104232788,
+          "index": 9,
+          "word": "##pace",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "EchoXFlow is a clinical echocardiography dataset for learning from ultrasound in its native acquisition geometry.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:08:31.649Z"
+    },
+    {
+      "title": "The First Controllable Bokeh Rendering Challenge at NTIRE 2026",
+      "url": "https://arxiv.org/abs/2605.05510",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05510v1 Announce Type: new \nAbstract: This study presents the outcomes of the first Controllable Bokeh Rendering Challenge at NTIRE and highlights the most effective submitted methodologies",
+      "category": "product-launch",
+      "difficulty": 8,
+      "confidence": 0.30849379555939765,
+      "crawledAt": "2026-05-08T06:03:14.863Z",
+      "id": "vwvm2c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9950109720230103,
+          "index": 2,
+          "word": "First",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9694384932518005,
+          "index": 3,
+          "word": "Control",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9786399006843567,
+          "index": 4,
+          "word": "##la",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9872742295265198,
+          "index": 5,
+          "word": "##ble",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.994749128818512,
+          "index": 6,
+          "word": "Bo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9932854771614075,
+          "index": 7,
+          "word": "##ke",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9923226237297058,
+          "index": 8,
+          "word": "##h",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9893091320991516,
+          "index": 9,
+          "word": "Ren",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9899749755859375,
+          "index": 10,
+          "word": "##dering",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9938056468963623,
+          "index": 11,
+          "word": "Challenge",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The study highlights the most effective methodologies. It also highlights the best submitted methodologies for the first Controllable Bokeh Rendering Challenge.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:08:41.575Z"
+    },
+    {
+      "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2605.05245",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05245v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) remains brittle on multi-hop questions in realistic deployment settings, where retrieved evidence may be noisy or ",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5303304007501163,
+      "crawledAt": "2026-05-08T06:03:15.511Z",
+      "id": "lugv0r",
+      "entities": [],
+      "summary": "Retrieval-augmented generation. Retrieval. A new generation of the generation is being developed.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:09:07.811Z"
+    },
+    {
+      "title": "Counterargument for Critical Thinking as Judged by AI and Humans",
+      "url": "https://arxiv.org/abs/2605.05353",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05353v1 Announce Type: new \nAbstract: This intervention study investigates the use of counterarguments in writing for critical thinking by students in the context of Generative AI (GenAI). ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8311095807486006,
+      "crawledAt": "2026-05-08T06:03:15.698Z",
+      "id": "o2zwq0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8955280184745789,
+          "index": 6,
+          "word": "Critical",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9454195499420166,
+          "index": 7,
+          "word": "Thinking",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The study investigates the use of counterarguments in writing for critical thinking by students in the context of Generative AI (GenAI)",
+      "language": "en",
+      "processed_at": "2026-05-08T06:09:16.003Z"
+    },
+    {
+      "title": "When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for Large Language Models",
+      "url": "https://arxiv.org/abs/2605.05626",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05626v1 Announce Type: new \nAbstract: Large Language Models (LLMs) excel at generating contextually appropriate responses but remain poorly calibrated for multi-party conversations, where d",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2996479033454456,
+      "crawledAt": "2026-05-08T06:03:17.085Z",
+      "id": "6e63xu",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8037456274032593,
+          "index": 31,
+          "word": "Models",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new language models are better at generating contextually appropriate responses, but are still poorly calibrated for multi-party conversations.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:10:20.179Z"
+    },
+    {
+      "title": "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity",
+      "url": "https://arxiv.org/abs/2605.05662",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05662v1 Announce Type: new \nAbstract: Current LLM safety benchmarks are predominantly English-centric and often rely on translation, failing to capture country-specific harms. Moreover, the",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.9421418588685072,
+      "crawledAt": "2026-05-08T06:03:17.678Z",
+      "id": "urm6ng",
+      "entities": [],
+      "summary": "Current LLM safety benchmarks are predominantly English-centric. They often rely on translation, failing to capture country-specific harms.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:10:54.503Z"
+    },
+    {
+      "title": "BioTool: A Comprehensive Tool-Calling Dataset for Enhancing Biomedical Capabilities of Large Language Models",
+      "url": "https://arxiv.org/abs/2605.05758",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05758v1 Announce Type: new \nAbstract: Despite the success of large language models (LLMs) on general-purpose tasks, their performance in highly specialized domains such as biomedicine remai",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3263127050965632,
+      "crawledAt": "2026-05-08T06:03:18.109Z",
+      "id": "wzrrg",
+      "entities": [],
+      "summary": "ArXiv:2605.05758v1 Announcement: New language models on general-purpose tasks.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:11:13.618Z"
+    },
+    {
+      "title": "Making AI Drafts Count: A Quality Threshold in Audio Description Workflows",
+      "url": "https://arxiv.org/abs/2605.05348",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05348v1 Announce Type: new \nAbstract: Audio description (AD) narrates visual elements in video for blind and low-vision audiences. Recent work has shown that giving novice describers an AI-",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.32043614061360254,
+      "crawledAt": "2026-05-08T06:03:06.548Z",
+      "id": "wewnq0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9327213764190674,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8193744421005249,
+          "index": 15,
+          "word": "Des",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Video for blind and low-vision audiences. Audio description (AD) narrates visual elements in video for blind audiences.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:11:31.661Z"
+    },
+    {
+      "title": "Why Someone Asked \"Why\": Foil Inference in Human and LLM Question Interpretation",
+      "url": "https://arxiv.org/abs/2605.05401",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05401v1 Announce Type: new \nAbstract: Explanations are inherently contrastive: E happened rather than E' because of C rather than C'. However, these contrasts, or \"foils\", are rarely mentio",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.272102117902644,
+      "crawledAt": "2026-05-08T06:03:06.965Z",
+      "id": "x79ykl",
+      "entities": [],
+      "summary": " The contrasts, or \"foils\" are rarely seen in the world. The difference between E and C is often described as \"E\" or \"C\"",
+      "language": "en",
+      "processed_at": "2026-05-08T06:11:56.611Z"
+    },
+    {
+      "title": "Designing with Tensions: Older Adults' Emotional Support-Seeking Under System-Level Constraints in Conversational AI",
+      "url": "https://arxiv.org/abs/2605.05552",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05552v1 Announce Type: new \nAbstract: Older adults have increasingly turned to conversational AI as a source of emotional support. However, little is known about how emotionally supportive ",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.43819772103741506,
+      "crawledAt": "2026-05-08T06:03:07.565Z",
+      "id": "kd6wub",
+      "entities": [],
+      "summary": " Older adults have increasingly turned to conversational AI as a source of emotional support. Little is known about how emotionally supportive they are.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:12:21.954Z"
+    },
+    {
+      "title": "UX in the Age of AI: Rethinking Evaluation Metrics Through a Statistical Lens",
+      "url": "https://arxiv.org/abs/2605.05600",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05600v1 Announce Type: new \nAbstract: The rapid proliferation of artificial intelligence (AI) in consumer-facing digital products has disrupted the assumptions underlying classical user exp",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5261194108632585,
+      "crawledAt": "2026-05-08T06:03:07.751Z",
+      "id": "sugm2v",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8765871524810791,
+          "index": 5,
+          "word": "Age",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9474661350250244,
+          "index": 6,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9936816692352295,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8811941146850586,
+          "index": 19,
+          "word": "Len",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The rapid proliferation of artificial intelligence in consumer-facing digital products has disrupted the assumptions of the classical user exp. The technology has been used in the past to create new products.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:12:33.244Z"
+    },
+    {
+      "title": "PersonaTeaming: Supporting Persona-Driven Red-Teaming for Generative AI",
+      "url": "https://arxiv.org/abs/2605.05682",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05682v1 Announce Type: new \nAbstract: Recent developments in AI safety research have called for red-teaming methods that effectively surface potential risks posed by generative AI models, w",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9620519026996318,
+      "crawledAt": "2026-05-08T06:03:08.136Z",
+      "id": "4ccytg",
+      "entities": [],
+      "summary": " Recent developments in AI safety have called for red-taming methods to address potential risks posed by generative AI models.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:12:53.225Z"
+    },
+    {
+      "title": "Priming, Path-dependence, and Plasticity: Understanding the molding of user-LLM interaction and its implications from chat logs in the wild",
+      "url": "https://arxiv.org/abs/2605.05767",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05767v1 Announce Type: new \nAbstract: User interactions with LLMs are shaped by prior experiences and individual exploration, but in-lab studies do not provide system designers with visibil",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2598333630554487,
+      "crawledAt": "2026-05-08T06:03:08.365Z",
+      "id": "bh1fk2",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9486945867538452,
+          "index": 20,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " System designers do not provide designers with visibil. arXiv:2605.05767v1.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:13:04.271Z"
+    },
+    {
+      "title": "GazeMind: A Gaze-Guided LLM Agent for Personalized Cognitive Load Assessment",
+      "url": "https://arxiv.org/abs/2605.05790",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05790v1 Announce Type: new \nAbstract: Smart glasses with AI assistants are increasingly used in daily life. However, current systems lack awareness of the user's internal cognitive state, l",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.34368345213076434,
+      "crawledAt": "2026-05-08T06:03:08.573Z",
+      "id": "npeoek",
+      "entities": [],
+      "summary": "Current systems lack awareness of the user's internal cognitive state, l. arXiv:2605.055.5.1 Announce.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:13:16.717Z"
+    },
+    {
+      "title": "I see artifacts: ICA-based EEG artifact removal does not improve deep network decoding across three BCI tasks",
+      "url": "https://arxiv.org/abs/2605.06018",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.06018v1 Announce Type: new \nAbstract: In this paper, we conduct a detailed investigation on the effect of independent component (IC)-based noise rejection methods in neural network classifi",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.3168693741798612,
+      "crawledAt": "2026-05-08T06:03:08.961Z",
+      "id": "jihx54",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9990403652191162,
+          "index": 5,
+          "word": "I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9756316542625427,
+          "index": 6,
+          "word": "##CA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8652219176292419,
+          "index": 9,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9945199489593506,
+          "index": 23,
+          "word": "BC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8700117468833923,
+          "index": 24,
+          "word": "##I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "In this paper, we conduct a detailed investigation on the effect of independent component (IC) noise rejection methods in neural network classifi.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:13:34.409Z"
+    },
+    {
+      "title": "EventColumn: Integrating Event Sequences into Tabular Visualizations",
+      "url": "https://arxiv.org/abs/2605.06065",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.06065v1 Announce Type: new \nAbstract: We introduce EventColumn, a new column type that integrates event-sequence data with heterogeneous tabular attributes into a single unified table. Even",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3102643931694419,
+      "crawledAt": "2026-05-08T06:03:09.155Z",
+      "id": "u4rbf9",
+      "entities": [],
+      "summary": " EventColumn is a new column type that integrates event-sequence data with heterogeneous tabular attributes into a single table.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:13:41.855Z"
+    },
+    {
+      "title": "AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition",
+      "url": "https://arxiv.org/abs/2605.06126",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.06126v1 Announce Type: new \nAbstract: Open-Vocabulary Multimodal Emotion Recognition (OV-MER) aims to predict emotions without being constrained by predefined label spaces, thereby enabling",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.26720197295791615,
+      "crawledAt": "2026-05-08T06:03:09.356Z",
+      "id": "u3xa6i",
+      "entities": [],
+      "summary": " The Open-Vocabulary Multimodal Emotion Recognition (OV-MER) aims to predict emotions without being constrained by labels.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:13:53.282Z"
+    },
+    {
+      "title": "Automated Population-Level Audit Assurance via AI-Based Document Intelligence",
+      "url": "https://arxiv.org/abs/2605.05252",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05252v1 Announce Type: new \nAbstract: Audit transaction testing validates accuracy and completeness of customer-facing statements against internal systems of record. Traditional manual, sam",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.6055288490544273,
+      "crawledAt": "2026-05-08T06:03:09.733Z",
+      "id": "ertce6",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9958169460296631,
+          "index": 8,
+          "word": "As",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.972646176815033,
+          "index": 9,
+          "word": "##su",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9848833680152893,
+          "index": 12,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9172790050506592,
+          "index": 14,
+          "word": "Based",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " arXiv:2605.5.05252v1 Announce Type: New Type: Audit transaction testing validates accuracy and completeness of customer-facing statements against internal systems of record.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:14:17.530Z"
+    },
+    {
+      "title": "PARNESS: A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cross-Run Knowledge Accumulation",
+      "url": "https://arxiv.org/abs/2605.05258",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05258v1 Announce Type: new \nAbstract: Recent autonomous research systems -- AI-Scientist, PaperOrchestra, AutoSOTA, DeepResearch, InternAgent, ResearchAgent and others -- show LLM agents ca",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.9844233316733096,
+      "crawledAt": "2026-05-08T06:03:09.998Z",
+      "id": "ejrugx",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9867320656776428,
+          "index": 37,
+          "word": "Run",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The New York City-based firm has been working with the U.S. government to develop new autonomous systems.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:14:29.661Z"
+    },
+    {
+      "title": "Is this Build Failure Related to my Patch? An Empirical Study of Unrelated Build Failures in Continuous Integration",
+      "url": "https://arxiv.org/abs/2605.05564",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05564v1 Announce Type: new \nAbstract: Continuous Integration (CI) systems often run many builds concurrently. In this setting, a legitimate build failure may not be caused by the code push ",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.3020057602611442,
+      "crawledAt": "2026-05-08T06:03:10.584Z",
+      "id": "hinebd",
+      "entities": [],
+      "summary": " A legitimate build failure may not be caused by the code push. In this setting, a legitimate build fail may not have been caused.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:14:57.959Z"
+    },
+    {
+      "title": "Operationalizing Ethics for AI Agents: How Developers Encode Values into Repository Context Files",
+      "url": "https://arxiv.org/abs/2605.05584",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05584v1 Announce Type: new \nAbstract: As AI coding agents become embedded in software development workflows, developers are beginning to operationalize ethical principles by encoding behavi",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9068549637997299,
+      "crawledAt": "2026-05-08T06:03:10.767Z",
+      "id": "79e5bx",
+      "entities": [],
+      "summary": "Developers are beginning to encode ethical principles by encoding them in software. The software is being developed by software developers.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:15:07.068Z"
+    },
+    {
+      "title": "An Empirical Study of Proactive Coding Assistants in Real-World Software Development",
+      "url": "https://arxiv.org/abs/2605.05700",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05700v1 Announce Type: new \nAbstract: Large language model (LLM)-based coding assistants have made substantial progress, yet most systems remain reactive, requiring developers to explicitly",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.29612650212107783,
+      "crawledAt": "2026-05-08T06:03:10.946Z",
+      "id": "hm78zr",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8163090944290161,
+          "index": 17,
+          "word": "Software",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Most systems remain reactive, requiring developers to explicitly make changes. Most systems require developers to make changes to their software.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:15:14.659Z"
+    },
+    {
+      "title": "On Fixing Insecure AI-Generated Code through Model Fine-Tuning and Prompting Strategies",
+      "url": "https://arxiv.org/abs/2605.05867",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05867v1 Announce Type: new \nAbstract: The security of AI-generated code remains a major obstacle to its widespread adoption. Although code generation models achieve strong performance on fu",
+      "category": "safety-ethics",
+      "difficulty": 8,
+      "confidence": 0.42687854590506386,
+      "crawledAt": "2026-05-08T06:03:11.306Z",
+      "id": "xcd9nv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8937453627586365,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The security of AI-generated code remains a major obstacle to its widespread adoption. Although code generation models achieve strong performance on fu.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:15:32.978Z"
+    },
+    {
+      "title": "Evaluating Non-English Developer Support in Machine Learning for Software Engineering",
+      "url": "https://arxiv.org/abs/2605.05902",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.05902v1 Announce Type: new \nAbstract: Large Language Models are increasingly used in software engineering, but both code generation and its evaluation remain predominantly English-centric. ",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.5409406452280515,
+      "crawledAt": "2026-05-08T06:03:11.474Z",
+      "id": "l8czpe",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8299223780632019,
+          "index": 4,
+          "word": "Non",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8695564866065979,
+          "index": 6,
+          "word": "English",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8423449397087097,
+          "index": 13,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8263984322547913,
+          "index": 16,
+          "word": "Engineering",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Large Language Models are increasingly used in software engineering. But both code generation and its evaluation remain predominantly English-centric.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:15:41.222Z"
+    },
+    {
+      "title": "BUILD-AND-FIND: An Effort-Aware Protocol for Evaluating Agent-Managed Codebases",
+      "url": "https://arxiv.org/abs/2605.06136",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "metaDescription": "arXiv:2605.06136v1 Announce Type: new \nAbstract: Most coding-agent benchmarks ask whether generated code behaves correctly. That remains essential, but repository-level engineering is increasingly age",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.27317383046647337,
+      "crawledAt": "2026-05-08T06:03:12.259Z",
+      "id": "n58jxl",
+      "entities": [],
+      "summary": "Most coding-agent benchmarks ask whether generated code behaves correctly. That remains essential, but repository-level engineering is increasingly age age.",
+      "language": "en",
+      "processed_at": "2026-05-08T06:16:19.858Z"
+    },
     {
       "title": "Anthropic introduces \"dreaming,\" a system that lets AI agents learn from their own mistakes",
       "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
@@ -499,18 +1949,19 @@
       "processed_at": "2026-05-08T03:40:24.092Z"
     }
   ],
-  "processedAt": "2026-05-08T03:40:24.098Z",
+  "processedAt": "2026-05-08T06:16:19.864Z",
   "categories": [
-    "ai-agents",
-    "developer-tool",
-    "product-launch",
+    "safety-ethics",
     "industry-news",
     "creative-ai",
-    "safety-ethics",
-    "infrastructure"
+    "infrastructure",
+    "ai-agents",
+    "product-launch",
+    "research-paper",
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 12,
-  "dailyArticlesCount": 12,
+  "newArticlesProcessed": 45,
+  "dailyArticlesCount": 57,
   "filterDate": "2026-05-08"
 }
