@@ -1,9 +1,56 @@
 {
-  "crawledAt": "2026-05-10T13:42:36.053Z",
+  "crawledAt": "2026-05-10T17:02:54.205Z",
   "totalSources": 70,
-  "totalArticles": 6,
+  "totalArticles": 9,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
+      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-10T15:34:25.000Z",
+      "metaDescription": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.28317338769667816,
+      "crawledAt": "2026-05-10T17:01:27.771Z",
+      "id": "psrlv4",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9861680865287781,
+          "index": 9,
+          "word": "x",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The latest episode of the Equity podcast was released on Monday. The episode was on the same day as the first episode of this week's show.",
+      "language": "en",
+      "processed_at": "2026-05-10T17:03:06.996Z"
+    },
+    {
+      "title": "Stop Repeating Yourself in Tests: A Clear Guide to Fixtures in Python",
+      "url": "https://python.plainenglish.io/stop-repeating-yourself-in-tests-a-clear-guide-to-fixtures-in-python-b480a053e93b?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-10T15:09:43.000Z",
+      "metaDescription": "Fixtures may look simple — but used properly, they can completely change how you design your test suite.\nContinue reading on Python in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2622992920506295,
+      "crawledAt": "2026-05-10T17:02:13.716Z",
+      "id": "19omur",
+      "entities": [],
+      "summary": "Fixtures may look simple, but used properly, they can completely change how you design your test suite. Fixtures may be simple — but can be used properly.",
+      "language": "en",
+      "processed_at": "2026-05-10T17:03:18.261Z"
+    },
     {
       "title": "LLM Summarizers Skip the Identification Step",
       "url": "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
@@ -83,6 +130,82 @@
       "summary": " In a field that generates breathless headlines on a near-weekly basis, Demis Hassabis has earned the right to be taken seriously.",
       "language": "en",
       "processed_at": "2026-05-10T13:43:01.328Z"
+    },
+    {
+      "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-10T02:00:00.000Z",
+      "metaDescription": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.7219584159168475,
+      "crawledAt": "2026-05-10T17:01:27.913Z",
+      "id": "kcw9bi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9935998916625977,
+          "index": 1,
+          "word": "Voice",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9873082041740417,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.999231219291687,
+          "index": 4,
+          "word": "India",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9694582223892212,
+          "index": 8,
+          "word": "W",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8732099533081055,
+          "index": 10,
+          "word": "##p",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8857641220092773,
+          "index": 11,
+          "word": "##r",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9789000749588013,
+          "index": 12,
+          "word": "Flow",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Wispr Flow says growth accelerated in India after its Hinglish rollout. WisprFlow says growth was accelerated in the country after its 'Hinglish' rollout.",
+      "language": "en",
+      "processed_at": "2026-05-10T17:03:40.282Z"
     },
     {
       "title": "AI Will Not Replace Software Developers — And I’ll Say It Loud",
@@ -179,14 +302,15 @@
       "processed_at": "2026-05-10T13:43:31.115Z"
     }
   ],
-  "processedAt": "2026-05-10T13:43:31.125Z",
+  "processedAt": "2026-05-10T17:03:40.287Z",
   "categories": [
     "creative-ai",
+    "safety-ethics",
     "developer-tool",
     "ai-agents"
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 3,
-  "dailyArticlesCount": 6,
+  "dailyArticlesCount": 9,
   "filterDate": "2026-05-10"
 }
