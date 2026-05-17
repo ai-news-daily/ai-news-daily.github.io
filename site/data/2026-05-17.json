@@ -1,9 +1,108 @@
 {
-  "crawledAt": "2026-05-17T09:53:23.448Z",
+  "crawledAt": "2026-05-17T13:44:56.302Z",
   "totalSources": 70,
-  "totalArticles": 5,
+  "totalArticles": 8,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships",
+      "url": "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-05-17T13:00:00.000Z",
+      "metaDescription": "Most LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into reproducible decisions by s",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.47836208930103846,
+      "crawledAt": "2026-05-17T13:43:44.089Z",
+      "id": "m7rxta",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9943996071815491,
+          "index": 1,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9448390603065491,
+          "index": 2,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9889458417892456,
+          "index": 3,
+          "word": "Eva",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8053954839706421,
+          "index": 4,
+          "word": "##ls",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LLM evaluation systems rely on vague scoring and human judgment as well as metrics. I built a lightweight evaluation layer in pure Python that turns LLM decisions into reproducible decisions.",
+      "language": "en",
+      "processed_at": "2026-05-17T13:45:10.461Z"
+    },
+    {
+      "title": "Minimax Mavis Agent: The Verifier Pattern Changes Everything",
+      "url": "https://www.youtube.com/watch?v=VNMvqCgA7C0",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-05-17T12:45:13.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3169841424853319,
+      "crawledAt": "2026-05-17T13:44:33.030Z",
+      "id": "ounwja",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-17T13:45:10.576Z"
+    },
+    {
+      "title": "7 AI Integration Mistakes That Quietly Break Applications",
+      "url": "https://ai.plainenglish.io/7-ai-integration-mistakes-that-quietly-break-applications-7ebcaa545d30?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-17T09:48:52.000Z",
+      "metaDescription": "My app “worked” until real users started using it at scale.\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.25172514685164576,
+      "crawledAt": "2026-05-17T13:44:14.888Z",
+      "id": "cbnx8c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8385841250419617,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " My app ‘worked’ until real users started using it at scale, says author. ‘It’s a good idea,’ says author.",
+      "language": "en",
+      "processed_at": "2026-05-17T13:45:34.242Z"
+    },
     {
       "title": "The Emotional Promise of a Killer App",
       "url": "https://ai.plainenglish.io/the-emotional-promise-of-a-killer-app-9c0cc813215f?source=rss----78d064101951---4",
@@ -142,8 +241,14 @@
       "processed_at": "2026-05-17T04:00:33.388Z"
     }
   ],
-  "processedAt": "2026-05-17T09:53:23.736Z",
-  "processingMethod": "cached",
-  "dailyArticlesCount": 5,
+  "processedAt": "2026-05-17T13:45:34.248Z",
+  "categories": [
+    "safety-ethics",
+    "creative-ai",
+    "ai-agents"
+  ],
+  "processingMethod": "ai-powered",
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 8,
   "filterDate": "2026-05-17"
 }
