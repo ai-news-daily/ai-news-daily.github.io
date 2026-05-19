@@ -1,9 +1,556 @@
 {
-  "crawledAt": "2026-05-19T11:27:43.762Z",
+  "crawledAt": "2026-05-19T15:38:54.012Z",
   "totalSources": 70,
-  "totalArticles": 62,
+  "totalArticles": 78,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T15:26:37.000Z",
+      "metaDescription": "In this post, you’ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resultin",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.8219775268026424,
+      "crawledAt": "2026-05-19T15:37:36.748Z",
+      "id": "9spq2w",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9504064321517944,
+          "index": 8,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9965182542800903,
+          "index": 9,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9930846691131592,
+          "index": 10,
+          "word": "Sonic",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Use Amazon Nova Sonic, Amazon Bedrock AgentCore and Strands BidiAgent to build scalable, maintainable voice agents.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:39:07.467Z"
+    },
+    {
+      "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T15:23:22.000Z",
+      "metaDescription": "In this post, we demonstrate how you can extend the conversational memory of Kiro CLI by implementing a custom Model Context Protocol (MCP) server that integrates with Amazon Bedrock AgentCore Memory.",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2820002566190785,
+      "crawledAt": "2026-05-19T15:37:36.934Z",
+      "id": "ynxepo",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9347457885742188,
+          "index": 13,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9759321808815002,
+          "index": 14,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9931234121322632,
+          "index": 15,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8613631725311279,
+          "index": 16,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Kiro's Kiro.com has a custom-built server that integrates with Amazon's Bedrock.com.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:39:20.363Z"
+    },
+    {
+      "title": "Implementing programmatic tool calling on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T15:17:00.000Z",
+      "metaDescription": "In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a managed solution using Amazon Bedrock AgentC",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.9669593646870982,
+      "crawledAt": "2026-05-19T15:37:37.333Z",
+      "id": "7fh170",
+      "entities": [],
+      "summary": "Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:39:50.239Z"
+    },
+    {
+      "title": "This AI Tool Might Be The Most Useful Research Assistant For Literature Reviews",
+      "url": "https://generativeai.pub/this-ai-tool-might-be-the-most-useful-research-assistant-for-literature-reviews-23bff8ccdf46?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T14:54:29.000Z",
+      "metaDescription": "AnswerThis searches across 300 million+ papers, helps spot research gaps, and drafts literature reviews with line-by-line citations.\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6363588028186188,
+      "crawledAt": "2026-05-19T15:37:57.596Z",
+      "id": "tbxz78",
+      "entities": [],
+      "summary": "This searches across 300 million+ papers, helps spot research gaps, and drafts literature reviews with line-by-line citations.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:09.880Z"
+    },
+    {
+      "title": "The Man Who Built the Future Is Warning You About It",
+      "url": "https://python.plainenglish.io/the-man-who-built-the-future-is-warning-you-about-it-c7aaf7deecc6?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T14:31:57.000Z",
+      "metaDescription": "Dario Amodei stood at Davos and said software is going to be essentially free. He wasn’t talking about open source. He was talking about…\nContinue reading on Python in Plain English »",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.9612077981877759,
+      "crawledAt": "2026-05-19T15:37:56.418Z",
+      "id": "e6trvx",
+      "entities": [],
+      "summary": " Dario Amodei stood at Davos and said software is going to be free. He wasn't talking about open source, he was talking about reading on Python in Plain English.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:22.006Z"
+    },
+    {
+      "title": "What Has Claude Done That Made People Go “Holy Sh*t”?",
+      "url": "https://ai.plainenglish.io/what-has-claude-done-that-made-people-go-holy-sh-t-93a807ebb5ea?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T14:27:30.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.2563974801891114,
+      "crawledAt": "2026-05-19T15:37:58.789Z",
+      "id": "wmj9kp",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9024158120155334,
+          "index": 11,
+          "word": "S",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:22.125Z"
+    },
+    {
+      "title": "AI Inference Architecture: The Mixed Heterogeneous Chips May Win",
+      "url": "https://ai.plainenglish.io/ai-inference-architecture-the-mixed-heterogeneous-chips-may-win-33666141cd53?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T14:27:09.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.728172110288213,
+      "crawledAt": "2026-05-19T15:37:58.884Z",
+      "id": "bbhoxc",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9109600782394409,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9698885679244995,
+          "index": 2,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9466463327407837,
+          "index": 3,
+          "word": "##ference",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9706400036811829,
+          "index": 4,
+          "word": "Architecture",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:22.289Z"
+    },
+    {
+      "title": "The Death of Traditional Coding: How AI Is Rewriting the Software Industry",
+      "url": "https://ai.plainenglish.io/the-death-of-traditional-coding-how-ai-is-rewriting-the-software-industry-5e5bf3ac8027?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T14:26:52.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.7651270167116053,
+      "crawledAt": "2026-05-19T15:37:58.960Z",
+      "id": "74vgcv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9724471569061279,
+          "index": 5,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8316032290458679,
+          "index": 6,
+          "word": "##ding",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9908265471458435,
+          "index": 15,
+          "word": "Industry",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:22.492Z"
+    },
+    {
+      "title": "LLM Guardrails in Production: Building Safer AI Systems with Bifrost",
+      "url": "https://pub.towardsai.net/llm-guardrails-in-production-building-safer-ai-systems-with-bifrost-c9b185f40c2a?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T14:01:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.3334685912932672,
+      "crawledAt": "2026-05-19T15:37:47.823Z",
+      "id": "qjrur9",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.996428906917572,
+          "index": 1,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9334635734558105,
+          "index": 2,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9950384497642517,
+          "index": 3,
+          "word": "Guard",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9753657579421997,
+          "index": 4,
+          "word": "##rail",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9211520552635193,
+          "index": 13,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:22.698Z"
+    },
+    {
+      "title": "How to Get the Most Out of Claude Cowork",
+      "url": "https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T14:00:43.000Z",
+      "metaDescription": "Cowork is an autonomous agent that lives inside the Claude Desktop app, which has direct access to a folder on your computer, and can plan, execute, and deliver real work.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4726083573827246,
+      "crawledAt": "2026-05-19T15:38:43.837Z",
+      "id": "rbn5xo",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9986082911491394,
+          "index": 8,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9987553358078003,
+          "index": 9,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8617261648178101,
+          "index": 10,
+          "word": "##work",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Cowork is an autonomous agent that lives inside the Claude Desktop app. It can plan, execute, and deliver real work.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:31.984Z"
+    },
+    {
+      "title": "Tapping Into the Zen of Python",
+      "url": "https://realpython.com/courses/tapping-into-the-zen-of-python/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T14:00:00.000Z",
+      "metaDescription": "The Zen of Python is a collection of 19 aphorisms that capture the guiding principles behind Python’s design. You can display them anytime by running import this in a Python REPL. Tim Peters wrote the",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5869161678256879,
+      "crawledAt": "2026-05-19T15:38:50.421Z",
+      "id": "agubsi",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8235988616943359,
+          "index": 6,
+          "word": "of",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Zen of Python is a collection of 19 aphorisms that capture the guiding principles behind Python’s design. You can display them in a Python REPL.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:40:44.369Z"
+    },
+    {
+      "title": "Understanding the modern cybercrime landscape",
+      "url": "https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T13:00:00.000Z",
+      "metaDescription": "Throughout 2025, HPE observed significant changes in how cybercriminals operate. Analyzing real-world threats, our HPE Threat Labs highlighted an industrialization of the cyber criminals’ methods in i",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5472945222598479,
+      "crawledAt": "2026-05-19T15:37:19.643Z",
+      "id": "v9vl9l",
+      "entities": [],
+      "summary": " HPE observed significant changes in how cybercriminals operate. Throughout 2025, HPE reported significant changes to how cyber criminals operate.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:41:05.137Z"
+    },
+    {
+      "title": "Production-Level LLM Safety and Privacy Guardrails Family: GLiNER Guard",
+      "url": "https://pub.towardsai.net/production-level-llm-safety-and-privacy-guardrails-family-gliner-guard-gliguard-b2a319895abc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T12:01:03.000Z",
+      "metaDescription": "",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.9645034620821576,
+      "crawledAt": "2026-05-19T15:37:47.990Z",
+      "id": "81yjfs",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:41:18.408Z"
+    },
+    {
+      "title": "Prompt Engineering for Agentic AI",
+      "url": "https://machinelearningmastery.com/prompt-engineering-for-agentic-ai/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-05-19T12:00:06.000Z",
+      "metaDescription": "You have probably spent time learning how to prompt AI well.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9569943348493657,
+      "crawledAt": "2026-05-19T15:37:30.542Z",
+      "id": "y6b0zg",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8216953873634338,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You have probably spent time learning how to prompt AI well. You have spent time training your AI well. You have likely spent time teaching your AI skills.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:41:30.364Z"
+    },
+    {
+      "title": "Quiz: Tapping Into the Zen of Python",
+      "url": "https://realpython.com/quizzes/tapping-into-the-zen-of-python/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T12:00:00.000Z",
+      "metaDescription": "In this quiz, you’ll test your understanding of Tapping Into the Zen of Python.\nBy working through this quiz, you’ll revisit the origins of the poem, the meaning of several aphorisms, and the inside j",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8051408176742035,
+      "crawledAt": "2026-05-19T15:38:50.778Z",
+      "id": "c6aik8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8142593502998352,
+          "index": 4,
+          "word": "Ta",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9337518811225891,
+          "index": 9,
+          "word": "of",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You'll test your understanding of the origins of the poem, the meaning of several aphorisms, and the inside j.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:42:26.967Z"
+    },
+    {
+      "title": "Kimi WebBridge: Hands-on Guide to Kimi’s Browser Extension for AI Agents",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/kimi-webbridge/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-05-19T11:57:28.000Z",
+      "metaDescription": "AI agents are evolving from answering questions to taking actions inside browsers. They can now open pages, click buttons, fill forms, extract data, and automate multi step workflows across websites. ",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3285372060550055,
+      "crawledAt": "2026-05-19T15:38:48.591Z",
+      "id": "yzbb5k",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9125548005104065,
+          "index": 12,
+          "word": "Kim",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8246731162071228,
+          "index": 22,
+          "word": "Agents",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI agents are evolving from answering questions to taking actions inside browsers. They can now open pages, click buttons, fill forms, extract data, and automate workflows.",
+      "language": "en",
+      "processed_at": "2026-05-19T15:42:39.806Z"
+    },
     {
       "title": "This Simple CLAUDE.MD File Went Viral with 130K GitHub Stars",
       "url": "https://generativeai.pub/this-simple-claude-md-file-went-viral-with-130k-github-stars-479b9d0bad12?source=rss----440100e76000---4",
@@ -1863,20 +2410,20 @@
       "processed_at": "2026-05-19T11:32:19.437Z"
     }
   ],
-  "processedAt": "2026-05-19T11:32:19.456Z",
+  "processedAt": "2026-05-19T15:43:06.484Z",
   "categories": [
-    "industry-news",
-    "ai-agents",
+    "developer-tool",
+    "infrastructure",
     "creative-ai",
+    "ai-agents",
     "safety-ethics",
+    "industry-news",
     "product-launch",
     "research-paper",
-    "infrastructure",
-    "developer-tool",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 14,
-  "dailyArticlesCount": 62,
+  "newArticlesProcessed": 16,
+  "dailyArticlesCount": 78,
   "filterDate": "2026-05-19"
 }
