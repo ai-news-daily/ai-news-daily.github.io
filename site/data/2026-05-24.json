@@ -1,9 +1,402 @@
 {
-  "crawledAt": "2026-05-24T13:48:13.499Z",
+  "crawledAt": "2026-05-24T17:11:54.776Z",
   "totalSources": 70,
-  "totalArticles": 22,
+  "totalArticles": 33,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "AI agents are quietly generating chaos engineering failures enterprises don’t track yet",
+      "url": "https://venturebeat.com/orchestration/ai-agents-are-quietly-generating-chaos-engineering-failures-enterprises-dont-track-yet",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-24T17:00:17.000Z",
+      "metaDescription": "There is a category of production incident that engineering teams are not tracking yet — because it doesn't fit any existing postmortem template. \nThe agent initiated an action. The action was technic",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.98466119278893,
+      "crawledAt": "2026-05-24T17:10:40.175Z",
+      "id": "upc7bc",
+      "entities": [],
+      "summary": " The action was technic. There is a category of production incident that doesn't fit any existing postmortem template.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:12:05.195Z"
+    },
+    {
+      "title": "The Ultimate Beginners’ Guide to Building an AI Agent in Python",
+      "url": "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T17:00:00.000Z",
+      "metaDescription": "Simple step-by-step tutorial to building an AI agent in Python\nThe post The Ultimate Beginners’ Guide to Building an AI Agent in Python appeared first on Towards Data Science.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.8468628627366579,
+      "crawledAt": "2026-05-24T17:10:36.848Z",
+      "id": "ig1qj3",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8270283341407776,
+          "index": 5,
+          "word": "##ners",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8735446333885193,
+          "index": 7,
+          "word": "Guide",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Ultimate Beginners’ Guide to Building an AI Agent in Python is a guide to building an AI agent.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:12:15.136Z"
+    },
+    {
+      "title": "Stop Watching Python Tutorials. Start Building Real Skills.",
+      "url": "https://python.plainenglish.io/stop-watching-python-tutorials-start-building-real-skills-810e712d3d62?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-24T16:53:40.000Z",
+      "metaDescription": "Every day, thousands of people open YouTube and type the same thing:\nContinue reading on Python in Plain English »",
+      "category": "tutorial-guide",
+      "difficulty": 4,
+      "confidence": 0.3398621781618924,
+      "crawledAt": "2026-05-24T17:11:09.716Z",
+      "id": "5dr6fe",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8614638447761536,
+          "index": 11,
+          "word": "Skills",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Every day, thousands of people open YouTube and type the same thing: read on Python in Plain English. Every day. Every day,. thousands of users open YouTube to type thesame thing: Read on Python.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:12:30.704Z"
+    },
+    {
+      "title": "What Is MCP? Build a Custom MCP Server in Python",
+      "url": "https://pub.towardsai.net/what-is-mcp-build-a-custom-mcp-server-in-python-91ba71830d6a?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T16:31:00.000Z",
+      "metaDescription": "Write one Python server. Plug it into Claude Code, Cursor, and Claude Desktop in an afternoon\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.28926406888394285,
+      "crawledAt": "2026-05-24T17:11:01.401Z",
+      "id": "urowqx",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9364479780197144,
+          "index": 14,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Write one Python server. Plug it into Claude Code, Cursor, and Claude Desktop in a afternoon. Plug it up with Claude Code and Cursor.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:12:43.929Z"
+    },
+    {
+      "title": "Build a Claude Cowork-Like Browser Agent Using Playwright MCP and Claude Desktop",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/build-a-claude-cowork-like-browser-agent-using-playwright-mcp/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-05-24T16:24:37.000Z",
+      "metaDescription": "Claude Cowork shifts AI from chat-based assistance to task delegation. Instead of giving users instructions, it performs actions directly on the user’s computer, files, applications, and browser workf",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.6211858644911635,
+      "crawledAt": "2026-05-24T17:11:47.408Z",
+      "id": "c2kpep",
+      "entities": [
+        {
+          "entity": "I-PER",
+          "score": 0.8125103712081909,
+          "index": 5,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9297104477882385,
+          "index": 20,
+          "word": "Des",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8961777091026306,
+          "index": 21,
+          "word": "##kt",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Claude Cowork shifts AI from chat-based assistance to task delegation. Instead of giving users instructions, it performs actions directly on the user’s computer.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:12:55.162Z"
+    },
+    {
+      "title": "8 Coding Techniques That Improve System Reliability",
+      "url": "https://python.plainenglish.io/8-coding-techniques-that-improve-system-reliability-80d6970a39d6?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-05-24T15:49:53.000Z",
+      "metaDescription": "Stable Applications Users Can Trust\nContinue reading on Python in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.38858025741163216,
+      "crawledAt": "2026-05-24T17:11:09.808Z",
+      "id": "t1tr9d",
+      "entities": [],
+      "summary": " Stable Applications Users can Trust Users Can Trust Users can trust Python in Plain English. Stable applications users can trust users to read Python in plain English.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:14.676Z"
+    },
+    {
+      "title": "We Gave the AI Supervisor Structured Tools So It Couldn’t Hallucinate.",
+      "url": "https://pub.towardsai.net/we-gave-the-ai-supervisor-structured-tools-so-it-couldnt-hallucinate-579de78826ff?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T15:31:00.000Z",
+      "metaDescription": "Where prompts stop working and code has to take over.\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3267478994634524,
+      "crawledAt": "2026-05-24T17:11:01.669Z",
+      "id": "flg06y",
+      "entities": [],
+      "summary": " Where prompts stop working and code has to take over, code has been taken over. Where prompts stops working and codes stop working, code takes over.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:25.370Z"
+    },
+    {
+      "title": "The Death of the Traditional SDLC: How AIDLC is Slashing Time-to-Market and Rewriting the Rules of…",
+      "url": "https://pub.towardsai.net/the-death-of-the-traditional-sdlc-how-aidlc-is-slashing-time-to-market-and-rewriting-the-rules-of-cea0ef70b918?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T15:01:02.000Z",
+      "metaDescription": "Stop building software the hard way.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3025413501290409,
+      "crawledAt": "2026-05-24T17:11:01.811Z",
+      "id": "awg28g",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9879977107048035,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9206846952438354,
+          "index": 11,
+          "word": "##D",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8878095746040344,
+          "index": 12,
+          "word": "##LC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Stop building software the hard way. Stop buildingSoftware. StopBuilding software. Stop Building software. stop building software.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:34.104Z"
+    },
+    {
+      "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T15:00:00.000Z",
+      "metaDescription": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3980341366501254,
+      "crawledAt": "2026-05-24T17:10:23.501Z",
+      "id": "1pkufs",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.955316424369812,
+          "index": 3,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon's Bee offers an odd combination of convenience and privacy anxiety. Like other AI wearables, it offers a combination of comfort and convenience.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:43.571Z"
+    },
+    {
+      "title": "Nemotron 3 Nano Omni, Explained",
+      "url": "https://pub.towardsai.net/nemotron-3-nano-omni-explained-46f898484a8b?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T14:31:00.000Z",
+      "metaDescription": "How NVIDIA built a long-context multi-modal model for documents, video, audio, and agentic workflows\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 8,
+      "confidence": 0.5266799267219282,
+      "crawledAt": "2026-05-24T17:11:01.961Z",
+      "id": "gbjzpk",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9994421005249023,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9938381910324097,
+          "index": 2,
+          "word": "##em",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.998645007610321,
+          "index": 3,
+          "word": "##ot",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9975300431251526,
+          "index": 4,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9963300228118896,
+          "index": 6,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9918177127838135,
+          "index": 7,
+          "word": "##o",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9974418878555298,
+          "index": 8,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9762436151504517,
+          "index": 9,
+          "word": "##m",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9941025376319885,
+          "index": 10,
+          "word": "##ni",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " NVIDIA built a long-context multi-modal model for documents, video, audio, and agentic workflows. How NVIDIA built the long- context multi- modal model.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:58.933Z"
+    },
+    {
+      "title": "The Silicon Protocol: Why Your $200K Healthcare AI Actually Costs $2.3M in Production",
+      "url": "https://pub.towardsai.net/the-silicon-protocol-why-your-200k-healthcare-ai-actually-costs-2-3m-in-production-2026-9fe1f5d6edba?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-24T14:01:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.29734718617846473,
+      "crawledAt": "2026-05-24T17:11:02.051Z",
+      "id": "59g3dm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9940944314002991,
+          "index": 2,
+          "word": "Silicon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9970970153808594,
+          "index": 3,
+          "word": "Protocol",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-24T17:13:59.093Z"
+    },
     {
       "title": "Sam Altman Admitted It: Companies Are Lying About AI Layoffs.",
       "url": "https://generativeai.pub/sam-altman-admitted-it-companies-are-lying-about-ai-layoffs-3ca341422447?source=rss----440100e76000---4",
@@ -706,16 +1099,19 @@
       "processed_at": "2026-05-24T10:01:57.959Z"
     }
   ],
-  "processedAt": "2026-05-24T13:50:54.970Z",
+  "processedAt": "2026-05-24T17:13:59.100Z",
   "categories": [
     "ai-agents",
+    "tutorial-guide",
     "infrastructure",
+    "developer-tool",
+    "safety-ethics",
     "creative-ai",
     "industry-news",
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 17,
-  "dailyArticlesCount": 22,
+  "newArticlesProcessed": 11,
+  "dailyArticlesCount": 33,
   "filterDate": "2026-05-24"
 }
