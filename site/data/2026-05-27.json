@@ -1,9 +1,363 @@
 {
-  "crawledAt": "2026-05-27T04:21:08.860Z",
+  "crawledAt": "2026-05-27T11:44:41.109Z",
   "totalSources": 70,
-  "totalArticles": 50,
+  "totalArticles": 60,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "US law enforcement warns of \"anti-tech extremism\" as AI hatred grows",
+      "url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-27T10:30:28.000Z",
+      "metaDescription": "The feds are raising the alarm about a new category of threat.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9513907945076202,
+      "crawledAt": "2026-05-27T11:43:03.810Z",
+      "id": "m00t4h",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9960494637489319,
+          "index": 1,
+          "word": "US",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9427372217178345,
+          "index": 15,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The feds are raising the alarm about a new category of threat. The feds say the new category is a new threat.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:44:59.979Z"
+    },
+    {
+      "title": "MedTech Meets Pharma: How AI Agents Are Bridging Devices, Data, and Market Access in 2026",
+      "url": "https://pub.towardsai.net/medtech-meets-pharma-how-ai-agents-are-bridging-devices-data-and-market-access-in-2026-361ab14639dc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T06:26:29.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.9709807379451058,
+      "crawledAt": "2026-05-27T11:43:41.260Z",
+      "id": "q68rnd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9918962717056274,
+          "index": 1,
+          "word": "Me",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9853975772857666,
+          "index": 3,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8395081162452698,
+          "index": 4,
+          "word": "##ech",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9538062810897827,
+          "index": 7,
+          "word": "Ph",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9468865394592285,
+          "index": 8,
+          "word": "##arma",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:00.148Z"
+    },
+    {
+      "title": "Building OmniPulse’s Rust Core: FFI Bridges, Optimal Transport, and a Real MCP Server",
+      "url": "https://pub.towardsai.net/building-omnipulses-rust-core-ffi-bridges-optimal-transport-and-a-real-mcp-server-509c3b3ab851?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:57.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.860435040427026,
+      "crawledAt": "2026-05-27T11:43:41.527Z",
+      "id": "wpbown",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9988802671432495,
+          "index": 2,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9623348116874695,
+          "index": 3,
+          "word": "##m",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.909929096698761,
+          "index": 4,
+          "word": "##ni",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9986832737922668,
+          "index": 5,
+          "word": "##P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9892492294311523,
+          "index": 6,
+          "word": "##ulse",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:09.852Z"
+    },
+    {
+      "title": "Together AI's OSCAR Killed KV Cache Memory 8x — The First 2-Bit That Doesn't Collapse at 128K",
+      "url": "https://pub.towardsai.net/together-ais-oscar-killed-kv-cache-memory-8x-the-first-2-bit-that-doesn-t-collapse-at-128k-beb06703d678?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:42.000Z",
+      "metaDescription": "Every 2-bit KV cache method I tried in 2025 collapsed past 32K context. Together AI’s OSCAR, open-sourced on May 25, 2026, kept Qwen3–8B…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.537010356606854,
+      "crawledAt": "2026-05-27T11:43:41.762Z",
+      "id": "7jmiy",
+      "entities": [],
+      "summary": " Each 2-bit KV cache method I tried in 2025 collapsed past 32K context. Together AI’s OSCAR, open-sourced on May 25, 2026, kept Qwen3–8B.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:23.781Z"
+    },
+    {
+      "title": "Agentic AI Systems Enabling Self-Adaptive Data Governance",
+      "url": "https://pub.towardsai.net/agentic-ai-systems-enabling-self-adaptive-data-governance-3875c564f27c?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:13.000Z",
+      "metaDescription": "The tension between automation and accountability defines tomorrow’s data governance — and it’s not a tension that resolves neatly in…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9627141402269983,
+      "crawledAt": "2026-05-27T11:43:41.912Z",
+      "id": "5g23v9",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9854040741920471,
+          "index": 1,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9933739900588989,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.981917679309845,
+          "index": 4,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The tension between automation and accountability defines tomorrow’s data governance. The tension is not a tension that resolves neatly in……Continue reading on Towards AI.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:32.878Z"
+    },
+    {
+      "title": "Who Owns Your Robot’s Brain? The Memory Monopoly Coming in 2027",
+      "url": "https://pub.towardsai.net/who-owns-your-robots-brain-the-memory-monopoly-coming-in-2027-62868fc51d42?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.31294089115123647,
+      "crawledAt": "2026-05-27T11:43:41.991Z",
+      "id": "4hjs0b",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9969912767410278,
+          "index": 12,
+          "word": "Mon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9967078566551208,
+          "index": 13,
+          "word": "##op",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9916791319847107,
+          "index": 14,
+          "word": "##oly",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:33.003Z"
+    },
+    {
+      "title": "I Built a Stateful Research Agent Inside a Sandbox. Here’s What the Numbers Actually Looked Like.",
+      "url": "https://pub.towardsai.net/i-built-a-stateful-research-agent-inside-a-sandbox-heres-what-the-numbers-actually-looked-like-2004aa378683?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:38:34.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.31031284310947466,
+      "crawledAt": "2026-05-27T11:43:42.087Z",
+      "id": "kvd8j9",
+      "entities": [],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:33.193Z"
+    },
+    {
+      "title": "Agentic AI Use Case Consulting in Healthcare: From Domain Discovery to Multi-Agent Architecture",
+      "url": "https://pub.towardsai.net/agentic-ai-use-case-consulting-in-healthcare-from-domain-discovery-to-multi-agent-architecture-ce2ffb32b4cc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:38:09.000Z",
+      "metaDescription": "Which healthcare AI idea is truly worth building — and which one should stay on the whiteboard?\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3090175991141163,
+      "crawledAt": "2026-05-27T11:43:42.236Z",
+      "id": "xeuhhr",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8683272004127502,
+          "index": 17,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Which healthcare AI idea is truly worth building — and which one should stay on the whiteboard? Read on Towards AI.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.503Z"
+    },
+    {
+      "title": "DeepSeek V4 mHC Explained",
+      "url": "https://pub.towardsai.net/deepseek-v4-mhc-explained-3cf9ad8f3fc1?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:37:34.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25083634470041166,
+      "crawledAt": "2026-05-27T11:43:42.295Z",
+      "id": "t0l63i",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9865636825561523,
+          "index": 1,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9889721870422363,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9499807357788086,
+          "index": 3,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.596Z"
+    },
     {
       "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
       "url": "https://arxiv.org/abs/2605.26182",
@@ -1661,20 +2015,64 @@
       "summary": " Chi Xu, the founder and CEO of Xreal, thinks the smart glasses business has finally reached a turning point.",
       "language": "en",
       "processed_at": "2026-05-27T04:38:14.433Z"
+    },
+    {
+      "title": "ElevenLabs 's No-Code Voice Agent Builder",
+      "url": "https://www.youtube.com/watch?v=ZLx88uFDj9Q",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-05-22T16:16:33.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.8606460042098922,
+      "crawledAt": "2026-05-27T11:44:03.726Z",
+      "id": "97o57z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9418498277664185,
+          "index": 1,
+          "word": "Eleven",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9515736699104309,
+          "index": 2,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8004050254821777,
+          "index": 4,
+          "word": "##s",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.753Z"
     }
   ],
-  "processedAt": "2026-05-27T04:38:14.439Z",
+  "processedAt": "2026-05-27T11:45:41.761Z",
   "categories": [
+    "ai-agents",
     "infrastructure",
     "creative-ai",
-    "ai-agents",
     "safety-ethics",
     "tutorial-guide",
     "research-paper",
     "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 50,
-  "dailyArticlesCount": 50,
+  "newArticlesProcessed": 10,
+  "dailyArticlesCount": 60,
   "filterDate": "2026-05-27"
 }

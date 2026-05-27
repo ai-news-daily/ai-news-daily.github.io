@@ -1,9 +1,363 @@
 {
-  "crawledAt": "2026-05-27T04:21:08.860Z",
+  "crawledAt": "2026-05-27T11:44:41.109Z",
   "totalSources": 70,
-  "totalArticles": 1724,
+  "totalArticles": 1713,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "US law enforcement warns of \"anti-tech extremism\" as AI hatred grows",
+      "url": "https://arstechnica.com/ai/2026/05/us-law-enforcement-warns-of-anti-tech-extremism-as-ai-hatred-grows/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-05-27T10:30:28.000Z",
+      "metaDescription": "The feds are raising the alarm about a new category of threat.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9513907945076202,
+      "crawledAt": "2026-05-27T11:43:03.810Z",
+      "id": "m00t4h",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9960494637489319,
+          "index": 1,
+          "word": "US",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9427372217178345,
+          "index": 15,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The feds are raising the alarm about a new category of threat. The feds say the new category is a new threat.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:44:59.979Z"
+    },
+    {
+      "title": "MedTech Meets Pharma: How AI Agents Are Bridging Devices, Data, and Market Access in 2026",
+      "url": "https://pub.towardsai.net/medtech-meets-pharma-how-ai-agents-are-bridging-devices-data-and-market-access-in-2026-361ab14639dc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T06:26:29.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.9709807379451058,
+      "crawledAt": "2026-05-27T11:43:41.260Z",
+      "id": "q68rnd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9918962717056274,
+          "index": 1,
+          "word": "Me",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9853975772857666,
+          "index": 3,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8395081162452698,
+          "index": 4,
+          "word": "##ech",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9538062810897827,
+          "index": 7,
+          "word": "Ph",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9468865394592285,
+          "index": 8,
+          "word": "##arma",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:00.148Z"
+    },
+    {
+      "title": "Building OmniPulse’s Rust Core: FFI Bridges, Optimal Transport, and a Real MCP Server",
+      "url": "https://pub.towardsai.net/building-omnipulses-rust-core-ffi-bridges-optimal-transport-and-a-real-mcp-server-509c3b3ab851?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:57.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.860435040427026,
+      "crawledAt": "2026-05-27T11:43:41.527Z",
+      "id": "wpbown",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9988802671432495,
+          "index": 2,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9623348116874695,
+          "index": 3,
+          "word": "##m",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.909929096698761,
+          "index": 4,
+          "word": "##ni",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9986832737922668,
+          "index": 5,
+          "word": "##P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9892492294311523,
+          "index": 6,
+          "word": "##ulse",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:09.852Z"
+    },
+    {
+      "title": "Together AI's OSCAR Killed KV Cache Memory 8x — The First 2-Bit That Doesn't Collapse at 128K",
+      "url": "https://pub.towardsai.net/together-ais-oscar-killed-kv-cache-memory-8x-the-first-2-bit-that-doesn-t-collapse-at-128k-beb06703d678?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:42.000Z",
+      "metaDescription": "Every 2-bit KV cache method I tried in 2025 collapsed past 32K context. Together AI’s OSCAR, open-sourced on May 25, 2026, kept Qwen3–8B…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.537010356606854,
+      "crawledAt": "2026-05-27T11:43:41.762Z",
+      "id": "7jmiy",
+      "entities": [],
+      "summary": " Each 2-bit KV cache method I tried in 2025 collapsed past 32K context. Together AI’s OSCAR, open-sourced on May 25, 2026, kept Qwen3–8B.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:23.781Z"
+    },
+    {
+      "title": "Agentic AI Systems Enabling Self-Adaptive Data Governance",
+      "url": "https://pub.towardsai.net/agentic-ai-systems-enabling-self-adaptive-data-governance-3875c564f27c?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:13.000Z",
+      "metaDescription": "The tension between automation and accountability defines tomorrow’s data governance — and it’s not a tension that resolves neatly in…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9627141402269983,
+      "crawledAt": "2026-05-27T11:43:41.912Z",
+      "id": "5g23v9",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9854040741920471,
+          "index": 1,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9933739900588989,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.981917679309845,
+          "index": 4,
+          "word": "Systems",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The tension between automation and accountability defines tomorrow’s data governance. The tension is not a tension that resolves neatly in……Continue reading on Towards AI.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:32.878Z"
+    },
+    {
+      "title": "Who Owns Your Robot’s Brain? The Memory Monopoly Coming in 2027",
+      "url": "https://pub.towardsai.net/who-owns-your-robots-brain-the-memory-monopoly-coming-in-2027-62868fc51d42?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:43:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.31294089115123647,
+      "crawledAt": "2026-05-27T11:43:41.991Z",
+      "id": "4hjs0b",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9969912767410278,
+          "index": 12,
+          "word": "Mon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9967078566551208,
+          "index": 13,
+          "word": "##op",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9916791319847107,
+          "index": 14,
+          "word": "##oly",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:33.003Z"
+    },
+    {
+      "title": "I Built a Stateful Research Agent Inside a Sandbox. Here’s What the Numbers Actually Looked Like.",
+      "url": "https://pub.towardsai.net/i-built-a-stateful-research-agent-inside-a-sandbox-heres-what-the-numbers-actually-looked-like-2004aa378683?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:38:34.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.31031284310947466,
+      "crawledAt": "2026-05-27T11:43:42.087Z",
+      "id": "kvd8j9",
+      "entities": [],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:33.193Z"
+    },
+    {
+      "title": "Agentic AI Use Case Consulting in Healthcare: From Domain Discovery to Multi-Agent Architecture",
+      "url": "https://pub.towardsai.net/agentic-ai-use-case-consulting-in-healthcare-from-domain-discovery-to-multi-agent-architecture-ce2ffb32b4cc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:38:09.000Z",
+      "metaDescription": "Which healthcare AI idea is truly worth building — and which one should stay on the whiteboard?\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3090175991141163,
+      "crawledAt": "2026-05-27T11:43:42.236Z",
+      "id": "xeuhhr",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8683272004127502,
+          "index": 17,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Which healthcare AI idea is truly worth building — and which one should stay on the whiteboard? Read on Towards AI.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.503Z"
+    },
+    {
+      "title": "DeepSeek V4 mHC Explained",
+      "url": "https://pub.towardsai.net/deepseek-v4-mhc-explained-3cf9ad8f3fc1?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-05-27T05:37:34.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25083634470041166,
+      "crawledAt": "2026-05-27T11:43:42.295Z",
+      "id": "t0l63i",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9865636825561523,
+          "index": 1,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9889721870422363,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9499807357788086,
+          "index": 3,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.596Z"
+    },
     {
       "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
       "url": "https://arxiv.org/abs/2605.26182",
@@ -12160,6 +12514,50 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-05-26T21:53:46.274Z"
+    },
+    {
+      "title": "ElevenLabs 's No-Code Voice Agent Builder",
+      "url": "https://www.youtube.com/watch?v=ZLx88uFDj9Q",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-05-22T16:16:33.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.8606460042098922,
+      "crawledAt": "2026-05-27T11:44:03.726Z",
+      "id": "97o57z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9418498277664185,
+          "index": 1,
+          "word": "Eleven",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9515736699104309,
+          "index": 2,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8004050254821777,
+          "index": 4,
+          "word": "##s",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-05-27T11:45:41.753Z"
     },
     {
       "title": "Qwen3.7-Max: Alibaba’s New Agent-First LLM for Coding, Reasoning, and Long-Horizon AI Workflows",
@@ -57660,835 +58058,13 @@
       "summary": " The practical systems I wish I had built earlier in my Python journey. The practical system I wish he had built early in his journey.",
       "language": "en",
       "processed_at": "2026-05-12T14:41:01.941Z"
-    },
-    {
-      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
-      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T11:30:00.000Z",
-      "metaDescription": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.7436675350826122,
-      "crawledAt": "2026-05-12T14:36:40.662Z",
-      "id": "j3kx9t",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8732538223266602,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9858496785163879,
-          "index": 5,
-          "word": "V",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9839906096458435,
-          "index": 6,
-          "word": "##ap",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.948293924331665,
-          "index": 7,
-          "word": "##i",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8261376619338989,
-          "index": 17,
-          "word": "Amazon",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Vapi says its enterprise business has grown 10-fold since early 2025. The company says its business has increased by 10-percent.",
-      "language": "en",
-      "processed_at": "2026-05-12T14:41:13.633Z"
-    },
-    {
-      "title": "Once again, SpaceX has set a new record for the tallest rocket ever built",
-      "url": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-05-12T11:00:34.000Z",
-      "metaDescription": "SpaceX cleared an important milestone Monday on the road to launching a new version of Starship.",
-      "category": "product-launch",
-      "difficulty": 4,
-      "confidence": 0.4483189052807613,
-      "crawledAt": "2026-05-12T14:36:46.449Z",
-      "id": "10h93k",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9985729455947876,
-          "index": 4,
-          "word": "Space",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9985990524291992,
-          "index": 5,
-          "word": "##X",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " SpaceX cleared an important milestone Monday on the road to launching a new version of Starship. The new version will be the first of its kind.",
-      "language": "en",
-      "processed_at": "2026-05-12T14:41:23.889Z"
-    },
-    {
-      "title": "Hermes Agent Guide: What is it and How to Use it?",
-      "url": "https://www.analyticsvidhya.com/blog/2026/05/hermes-agent-guide/",
-      "source": "Analytics Vidhya",
-      "source_domain": "analyticsvidhya.com",
-      "source_category": "tutorial",
-      "source_priority": "medium",
-      "pubDate": "2026-05-12T10:00:26.000Z",
-      "metaDescription": "AI agents are moving beyond simple command-line tools into systems that can plan, schedule, call tools, and run automated workflows. Nous Research’s Hermes Agent framework offers a self-hosted runtime",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.4480375116296336,
-      "crawledAt": "2026-05-12T10:39:07.462Z",
-      "id": "2f4w32",
-      "entities": [],
-      "summary": " Nous Research’s Hermes Agent framework offers a self-hosted runtime. Nous research’'s Hermes Agent offers aSelf-hosting runtime.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:39:20.531Z"
-    },
-    {
-      "title": "Laserfiche unveils AI agents for natural language workflows",
-      "url": "https://www.artificialintelligence-news.com/news/laserfiche-ai-agents-act-autonomously-for-the-platforms-users/",
-      "source": "AI News",
-      "source_domain": "artificialintelligence-news.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-05-12T08:57:13.000Z",
-      "metaDescription": "Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts. Intelligent assistants follow Laserfiche’s integrated security rules and compliance requ",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.7686840890607683,
-      "crawledAt": "2026-05-12T10:37:45.828Z",
-      "id": "6dsp39",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9896694421768188,
-          "index": 8,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts. Intelligent assistants follow the company’s integrated security rules and compliance requeses.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:39:48.382Z"
-    },
-    {
-      "title": "Leftists! Govts & AI Companies Are Designing Your Future Without You...",
-      "url": "https://generativeai.pub/leftists-govts-ai-companies-are-designing-your-future-without-you-get-in-the-f-ing-room-f8fe8589073f?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:54:06.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.7259155440429377,
-      "crawledAt": "2026-05-12T10:38:14.146Z",
-      "id": "gzf407",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9810221195220947,
-          "index": 4,
-          "word": "Govt",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9534873366355896,
-          "index": 7,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9226624965667725,
-          "index": 8,
-          "word": "Companies",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:39:48.709Z"
-    },
-    {
-      "title": "How I Use Claude as a Writing Assistant",
-      "url": "https://generativeai.pub/how-i-use-claude-as-a-writing-assistant-medium-hear-me-out-111a3bb93b35?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:49:35.000Z",
-      "metaDescription": "Strategies and practical tips to write more effectively with AI\nContinue reading on Generative AI »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3853837782835656,
-      "crawledAt": "2026-05-12T10:38:14.375Z",
-      "id": "nnpytc",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9931244850158691,
-          "index": 4,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " strategies and practical tips to write more effectively with AI. Strategies and practical advice to write with AI-powered AI.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:40:08.089Z"
-    },
-    {
-      "title": "NVIDIA PhysicsNeMo Explained: The AI Physics Framework That Made Me Rethink Scientific Machine…",
-      "url": "https://generativeai.pub/nvidia-physicsnemo-explained-the-ai-physics-framework-that-made-me-rethink-scientific-machine-255ce2043669?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:46:40.000Z",
-      "metaDescription": "I almost ignored NVIDIA PhysicsNeMo when I first saw the name.\nContinue reading on Generative AI »",
-      "category": "creative-ai",
-      "difficulty": 7,
-      "confidence": 0.40636395559776783,
-      "crawledAt": "2026-05-12T10:38:14.601Z",
-      "id": "haqkm3",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9751513600349426,
-          "index": 1,
-          "word": "N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9879211783409119,
-          "index": 3,
-          "word": "##DI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.930023729801178,
-          "index": 4,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9582780599594116,
-          "index": 5,
-          "word": "Physics",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9774768352508545,
-          "index": 6,
-          "word": "##N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9236608147621155,
-          "index": 8,
-          "word": "##M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9983372688293457,
-          "index": 15,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.995057225227356,
-          "index": 16,
-          "word": "Physics",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "I almost ignored NVIDIA PhysicsNeMo when I first saw the name. I almost ignored the name. I almost ignore NVIDIA Physics NeMo.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:40:16.899Z"
-    },
-    {
-      "title": "The Rails LLM Stack Is Finally Ready for Production. Here Is What I Learned Shipping It.",
-      "url": "https://generativeai.pub/the-rails-llm-stack-is-finally-ready-for-production-here-is-what-i-learned-shipping-it-ff9d20298c5c?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:44:52.000Z",
-      "metaDescription": "Why RubyLLM Finally Changes the Rails Equation\nContinue reading on Generative AI »",
-      "category": "product-launch",
-      "difficulty": 5,
-      "confidence": 0.3780867311674457,
-      "crawledAt": "2026-05-12T10:38:14.720Z",
-      "id": "9uqd6d",
-      "entities": [
-        {
-          "entity": "I-ORG",
-          "score": 0.9355795383453369,
-          "index": 3,
-          "word": "##s",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9505108594894409,
-          "index": 4,
-          "word": "LL",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8685399889945984,
-          "index": 5,
-          "word": "##M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9219099879264832,
-          "index": 6,
-          "word": "St",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The RubyLLM Finally Changes the RubyllM Finally changes the Rails Equation. Why RubyLLm Finally Changes The Rubyllm Finally changes.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:40:28.651Z"
-    },
-    {
-      "title": "The agentic governance crisis",
-      "url": "https://generativeai.pub/the-agentic-governance-crisis-a289ef5b5bea?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:41:55.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.7047791154090601,
-      "crawledAt": "2026-05-12T10:38:14.769Z",
-      "id": "yupucf",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:40:28.722Z"
-    },
-    {
-      "title": "MCP Development with Amazon Elastic Beanstalk",
-      "url": "https://generativeai.pub/mcp-development-with-amazon-elastic-beanstalk-ebs-ad50e5e1c7bf?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:41:32.000Z",
-      "metaDescription": "",
-      "category": "developer-tool",
-      "difficulty": 8,
-      "confidence": 0.4712776660207212,
-      "crawledAt": "2026-05-12T14:37:31.218Z",
-      "id": "quckt",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9970468282699585,
-          "index": 1,
-          "word": "MC",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9854382872581482,
-          "index": 2,
-          "word": "##P",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.919320821762085,
-          "index": 3,
-          "word": "Development",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.997334361076355,
-          "index": 5,
-          "word": "Amazon",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9985880851745605,
-          "index": 6,
-          "word": "El",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9983810782432556,
-          "index": 7,
-          "word": "##astic",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9977269172668457,
-          "index": 8,
-          "word": "Bean",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.992979884147644,
-          "index": 9,
-          "word": "##stal",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9703751802444458,
-          "index": 10,
-          "word": "##k",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T14:41:23.988Z"
-    },
-    {
-      "title": "Is MLOps a safer direction for ML Engineers right now",
-      "url": "https://www.reddit.com/r/mlops/comments/1tav4qs/is_mlops_a_safer_direction_for_ml_engineers_right/",
-      "source": "r/MLOps",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-05-12T08:16:35.000Z",
-      "metaDescription": "I’m currently working as an ML Engineer, and lately I’ve been thinking about shifting more toward MLOps\n My assumption is that companies will still need devops who can deploy / maintain LLLM models bo",
-      "category": "safety-ethics",
-      "difficulty": 6,
-      "confidence": 0.984483001636872,
-      "crawledAt": "2026-05-15T10:32:11.614Z",
-      "id": "utj0v0",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.995044469833374,
-          "index": 2,
-          "word": "M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.984588086605072,
-          "index": 3,
-          "word": "##L",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9889714121818542,
-          "index": 4,
-          "word": "##O",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9981688261032104,
-          "index": 10,
-          "word": "M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9892731308937073,
-          "index": 11,
-          "word": "##L",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9975177645683289,
-          "index": 12,
-          "word": "Engineers",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " MLOps will still need devops who can deploy / maintain LLLM models. MLOps could still need more devops to deploy / maintenance LLLm models.",
-      "language": "en",
-      "processed_at": "2026-05-15T10:55:21.802Z"
-    },
-    {
-      "title": "Stop Just Vibe Coding: The Karpathy Teardown of AI Agents",
-      "url": "https://ai.plainenglish.io/stop-just-vibe-coding-the-karpathy-teardown-of-ai-agents-4168577c3570?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T08:16:31.000Z",
-      "metaDescription": "Code With Clarity\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.9882495846467367,
-      "crawledAt": "2026-05-12T10:38:14.872Z",
-      "id": "f3wk6m",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8538870811462402,
-          "index": 9,
-          "word": "Ka",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8846535086631775,
-          "index": 16,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9237321615219116,
-          "index": 17,
-          "word": "Agents",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Code With Clarity. Code Withclarity is written in Plain English. Code WithClarity is a written version of the code with Clarity.",
-      "language": "en",
-      "processed_at": "2026-05-12T10:40:38.664Z"
-    },
-    {
-      "title": "Is your enterprise adaptive to AI?",
-      "url": "https://venturebeat.com/orchestration/is-your-enterprise-adaptive-to-ai",
-      "source": "VentureBeat",
-      "source_domain": "venturebeat.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-05-12T07:00:00.000Z",
-      "metaDescription": "Presented by EdgeVerve\n\nFor most enterprises, AI adoption began with a straightforward ambition: automate work faster, cheaper, and at scale. Chatbots replaced basic service requests, machine‑learning",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.43697985025659514,
-      "crawledAt": "2026-05-12T14:36:55.576Z",
-      "id": "bimc98",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9559430480003357,
-          "index": 6,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Chatbots replaced basic service requests, machine‑learning. Chatbots replace basic service request, machine-learning. Chatbots were replaced by machine‑ learning, machine learning.",
-      "language": "en",
-      "processed_at": "2026-05-12T14:41:36.021Z"
-    },
-    {
-      "title": "Agentic AI in Action — Part 21 - Where Agents Meet Data Foundations",
-      "url": "https://pub.towardsai.net/where-agents-meet-data-foundations-3219edadbed1?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T05:05:57.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.9909298853793336,
-      "crawledAt": "2026-05-12T06:41:24.772Z",
-      "id": "e5tsus",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9126501679420471,
-          "index": 14,
-          "word": "Foundation",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:42:24.462Z"
-    },
-    {
-      "title": "From Symptoms to the Nearby Care: Building a Multilingual Medical Chatbot with Voice & Geolocation",
-      "url": "https://pub.towardsai.net/from-symptoms-to-the-nearby-care-building-a-multilingual-medical-chatbot-with-voice-geolocation-c6f997bd2695?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T05:02:31.000Z",
-      "metaDescription": "",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.5160176179627317,
-      "crawledAt": "2026-05-12T06:41:24.865Z",
-      "id": "ag5svz",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8274894952774048,
-          "index": 13,
-          "word": "Multi",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9579123854637146,
-          "index": 22,
-          "word": "&",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.957517147064209,
-          "index": 23,
-          "word": "G",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:42:24.662Z"
-    },
-    {
-      "title": "Your JupyterLab Is Hoarding Dead Sessions. Here’s How I Fixed It",
-      "url": "https://pub.towardsai.net/your-jupyterlab-is-hoarding-dead-sessions-heres-how-i-fixed-it-a7543bba6def?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T05:02:17.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.3108609420160493,
-      "crawledAt": "2026-05-12T06:41:24.950Z",
-      "id": "a7b7ql",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:42:24.834Z"
-    },
-    {
-      "title": "8 AI Coding Tools So Good They Feel Illegal in 2026",
-      "url": "https://pub.towardsai.net/8-ai-coding-tools-so-good-they-feel-illegal-in-2026-3ed3a5939353?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T05:01:25.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.26043621628443564,
-      "crawledAt": "2026-05-12T06:41:25.232Z",
-      "id": "w3aae9",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:42:37.556Z"
-    },
-    {
-      "title": "LLM Guardrails in Production and How Bifrost Protects Your AI Agents at the Gateway Level",
-      "url": "https://pub.towardsai.net/llm-guardrails-in-production-and-how-bifrost-protects-your-ai-agents-at-the-gateway-level-b6db13b39850?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T04:54:40.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.7731773982652868,
-      "crawledAt": "2026-05-12T06:41:25.324Z",
-      "id": "hkurgh",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9752559661865234,
-          "index": 1,
-          "word": "LL",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:42:37.739Z"
-    },
-    {
-      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
-      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T04:52:35.000Z",
-      "metaDescription": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input a",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.4880760775027401,
-      "crawledAt": "2026-05-12T06:40:47.856Z",
-      "id": "s13soz",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9899081587791443,
-          "index": 1,
-          "word": "Thinking",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9949395656585693,
-          "index": 2,
-          "word": "Machine",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9930808544158936,
-          "index": 3,
-          "word": "##s",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Thinking Machines is trying to change that by building a model that processes your input. Every AI model you've ever used works the same way.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:43:00.257Z"
-    },
-    {
-      "title": "Are You AI-Ready?",
-      "url": "https://pub.towardsai.net/are-you-ai-ready-06738290c181?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T04:51:23.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.4062846994690142,
-      "crawledAt": "2026-05-12T06:41:25.577Z",
-      "id": "jzgvrd",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:43:00.341Z"
-    },
-    {
-      "title": "Championship Strategy for Agentic AI",
-      "url": "https://pub.towardsai.net/championship-strategy-for-agentic-ai-ff2e37337772?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-12T04:50:17.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.7953440902134435,
-      "crawledAt": "2026-05-12T06:41:25.715Z",
-      "id": "jo9mv8",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-12T06:43:00.643Z"
     }
   ],
-  "processedAt": "2026-05-27T04:38:14.437Z",
+  "processedAt": "2026-05-27T11:45:41.758Z",
   "categories": [
+    "ai-agents",
     "infrastructure",
     "creative-ai",
-    "ai-agents",
     "safety-ethics",
     "tutorial-guide",
     "research-paper",
@@ -58498,9 +58074,9 @@
     "model-release"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 50,
-  "existingArticlesKept": 1731,
+  "newArticlesProcessed": 10,
+  "existingArticlesKept": 1724,
   "cleanupApplied": true,
-  "cleanedUpCount": 57,
+  "cleanedUpCount": 21,
   "rollingWindowDays": 15
 }
