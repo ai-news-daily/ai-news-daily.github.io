@@ -1,9 +1,73 @@
 {
-  "crawledAt": "2026-06-07T04:27:55.406Z",
+  "crawledAt": "2026-06-07T10:33:44.690Z",
   "totalSources": 70,
-  "totalArticles": 1588,
+  "totalArticles": 1584,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Her · हेर — a detective for your Claude Code sessions",
+      "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-06-07T10:13:41.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3101816003885134,
+      "crawledAt": "2026-06-07T10:32:06.960Z",
+      "id": "792m2c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8658798933029175,
+          "index": 11,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9418509006500244,
+          "index": 12,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-06-07T10:33:46.540Z"
+    },
+    {
+      "title": "EDASM Part 1: Why AI Agents Lose Context and Duplicate Actions",
+      "url": "https://levelup.gitconnected.com/part-1-why-ai-agents-lose-context-duplicate-actions-and-break-in-production-the-event-driven-3e105fb9eef5?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-06-07T04:44:56.000Z",
+      "metaDescription": "AI agents lose context, corrupt state, and duplicate actions in production. Fix this with EDA, Kafka, Redis, and Tempora.\nContinue reading on Level Up Coding »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9834305743937485,
+      "crawledAt": "2026-06-07T10:33:02.680Z",
+      "id": "vjwlvm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8159636855125427,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI agents lose context, corrupt state, and duplicate actions in production. Fix this with EDA, Kafka, Redis, and Tempora.",
+      "language": "en",
+      "processed_at": "2026-06-07T10:33:57.492Z"
+    },
     {
       "title": "OpenAI Investor Innovation Day",
       "url": "https://www.youtube.com/watch?v=RwzRm-qCXwA",
@@ -54106,170 +54170,13 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-05-23T13:51:32.346Z"
-    },
-    {
-      "title": "AI Cannot Prove Goldbach’s Conjecture.",
-      "url": "https://pub.towardsai.net/ai-cannot-prove-goldbachs-conjecture-115bca355678?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T05:40:59.000Z",
-      "metaDescription": "LLMs won gold at the IMO. Formal provers verified theorems that stumped humans. And none of this gets us one step closer to the hard…\nContinue reading on Towards AI »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.25499315886312535,
-      "crawledAt": "2026-05-23T06:38:16.372Z",
-      "id": "acqdjm",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9933042526245117,
-          "index": 1,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.89406418800354,
-          "index": 7,
-          "word": "##bach",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " LLMs won gold at the IMO. Formal provers verified theorems that stumped humans. And none of this gets us one step closer to the hard…",
-      "language": "en",
-      "processed_at": "2026-05-23T06:38:53.862Z"
-    },
-    {
-      "title": "9 MCP Security Risks That Can Quietly Compromise Your AI Agent",
-      "url": "https://pub.towardsai.net/9-mcp-security-risks-that-can-quietly-compromise-your-ai-agent-and-how-to-stop-them-6144dd1263e8?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T05:40:40.000Z",
-      "metaDescription": "MCP gives your agent superpowers. It also hands attackers a map of exactly where to push.\nContinue reading on Towards AI »",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.625388359463283,
-      "crawledAt": "2026-05-23T06:38:16.456Z",
-      "id": "p227md",
-      "entities": [],
-      "summary": " MCP gives your agent superpowers. It also hands attackers a map of exactly where to push. MCP also hands attacker a map.",
-      "language": "en",
-      "processed_at": "2026-05-23T06:39:02.215Z"
-    },
-    {
-      "title": "LLM Structured Outputs in Production: How to Stop JSON From Breaking Your AI Workflow",
-      "url": "https://pub.towardsai.net/llm-structured-outputs-in-production-how-to-stop-json-from-breaking-your-ai-workflow-66703754d341?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T05:38:58.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.60165353107192,
-      "crawledAt": "2026-05-23T06:38:16.526Z",
-      "id": "d1glnh",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9926074147224426,
-          "index": 1,
-          "word": "LL",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8697463274002075,
-          "index": 14,
-          "word": "J",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-05-23T06:39:02.296Z"
-    },
-    {
-      "title": "AI Agent Sandbox Architecture: How to Let Agents Run Code Without Letting Them Run Everything",
-      "url": "https://pub.towardsai.net/ai-agent-sandbox-architecture-how-to-let-agents-run-code-without-letting-them-run-everything-63a9293c35fb?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T05:38:34.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.9053241533433636,
-      "crawledAt": "2026-05-23T06:38:16.570Z",
-      "id": "hk86lk",
-      "entities": [],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-05-23T06:39:02.404Z"
-    },
-    {
-      "title": "The Architecture of Claude Design: A 4-Step Teardown To Make It Work The Best",
-      "url": "https://ai.plainenglish.io/the-architecture-of-claude-design-a-4-step-teardown-to-make-it-work-the-best-8d36655ee297?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T05:05:17.000Z",
-      "metaDescription": "Design Your UI, Design Your Life\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.9568789181578057,
-      "crawledAt": "2026-05-23T06:38:22.673Z",
-      "id": "gy8en1",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8448279500007629,
-          "index": 5,
-          "word": "Design",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Design Your UI, Design Your Life, Design your Life, and Design Your life. Read on Artificial Intelligence in Plain English.",
-      "language": "en",
-      "processed_at": "2026-05-23T06:39:10.936Z"
-    },
-    {
-      "title": "Your AI Has a Memory. It Just Doesn’t Know What to Remember.",
-      "url": "https://pub.towardsai.net/your-ai-has-a-memory-it-just-doesnt-know-what-to-remember-7d28ecbbc3d3?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-05-23T04:31:27.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.25864365736624245,
-      "crawledAt": "2026-05-23T06:38:16.625Z",
-      "id": "ihz07a",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-05-23T06:39:11.002Z"
     }
   ],
-  "processedAt": "2026-06-07T04:28:23.066Z",
+  "processedAt": "2026-06-07T10:34:08.510Z",
   "categories": [
     "creative-ai",
-    "research-paper",
     "ai-agents",
+    "research-paper",
     "developer-tool",
     "safety-ethics",
     "infrastructure",
@@ -54279,9 +54186,9 @@
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 3,
-  "existingArticlesKept": 1597,
+  "newArticlesProcessed": 2,
+  "existingArticlesKept": 1588,
   "cleanupApplied": true,
-  "cleanedUpCount": 12,
+  "cleanedUpCount": 6,
   "rollingWindowDays": 15
 }

@@ -1,9 +1,73 @@
 {
-  "crawledAt": "2026-06-07T04:27:55.406Z",
+  "crawledAt": "2026-06-07T10:33:44.690Z",
   "totalSources": 70,
-  "totalArticles": 3,
+  "totalArticles": 5,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Her · हेर — a detective for your Claude Code sessions",
+      "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-06-07T10:13:41.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3101816003885134,
+      "crawledAt": "2026-06-07T10:32:06.960Z",
+      "id": "792m2c",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8658798933029175,
+          "index": 11,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9418509006500244,
+          "index": 12,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-06-07T10:33:46.540Z"
+    },
+    {
+      "title": "EDASM Part 1: Why AI Agents Lose Context and Duplicate Actions",
+      "url": "https://levelup.gitconnected.com/part-1-why-ai-agents-lose-context-duplicate-actions-and-break-in-production-the-event-driven-3e105fb9eef5?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-06-07T04:44:56.000Z",
+      "metaDescription": "AI agents lose context, corrupt state, and duplicate actions in production. Fix this with EDA, Kafka, Redis, and Tempora.\nContinue reading on Level Up Coding »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9834305743937485,
+      "crawledAt": "2026-06-07T10:33:02.680Z",
+      "id": "vjwlvm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8159636855125427,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI agents lose context, corrupt state, and duplicate actions in production. Fix this with EDA, Kafka, Redis, and Tempora.",
+      "language": "en",
+      "processed_at": "2026-06-07T10:33:57.492Z"
+    },
     {
       "title": "OpenAI Investor Innovation Day",
       "url": "https://www.youtube.com/watch?v=RwzRm-qCXwA",
@@ -87,13 +151,14 @@
       "processed_at": "2026-06-07T04:28:09.776Z"
     }
   ],
-  "processedAt": "2026-06-07T04:28:23.068Z",
+  "processedAt": "2026-06-07T10:34:08.512Z",
   "categories": [
     "creative-ai",
+    "ai-agents",
     "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 3,
-  "dailyArticlesCount": 3,
+  "newArticlesProcessed": 2,
+  "dailyArticlesCount": 5,
   "filterDate": "2026-06-07"
 }
