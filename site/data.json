@@ -1,9 +1,548 @@
 {
-  "crawledAt": "2026-06-18T18:30:27.197Z",
+  "crawledAt": "2026-06-18T22:20:37.450Z",
   "totalSources": 70,
-  "totalArticles": 1678,
+  "totalArticles": 1690,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "How the Peter Thiel-Linked Dialog Club Secretly Ranks Its Members",
+      "url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T22:12:45.000Z",
+      "metaDescription": "Leaked files show the invite-only network grades members by their money and fame, shaping who’s in, who’s out, and who pays.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.5134841284988714,
+      "crawledAt": "2026-06-18T22:19:03.879Z",
+      "id": "q1mff0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9793176651000977,
+          "index": 3,
+          "word": "Peter",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9658259153366089,
+          "index": 4,
+          "word": "T",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The invite-only network grades members by their money and fame. The network's members are paid by the network.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:20:49.269Z"
+    },
+    {
+      "title": "Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vLLM/SGLang",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T21:36:14.000Z",
+      "metaDescription": "I maintain cuTile Rust and just posted the paper \"Fearless Concurrency on the GPU.\" \n As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you writ",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.9792099669772607,
+      "crawledAt": "2026-06-18T22:19:44.996Z",
+      "id": "11u3ug",
+      "entities": [],
+      "summary": " cuTile Rust lets you writ. cuTileRust lets you write and trust it. As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:01.395Z"
+    },
+    {
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega round",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T21:20:13.000Z",
+      "metaDescription": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4949650375319357,
+      "crawledAt": "2026-06-18T22:18:57.260Z",
+      "id": "6dn3im",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9916032552719116,
+          "index": 6,
+          "word": "Base",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9868351817131042,
+          "index": 7,
+          "word": "##ten",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:10.906Z"
+    },
+    {
+      "title": "The White House Is Making Up Its Rules for AI in Real Time",
+      "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T21:03:43.000Z",
+      "metaDescription": "Anthropic still can’t distribute Claude Mythos or Fable 5 after running afoul of the Trump administration. But no one can say exactly what the company did wrong.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3205837414007196,
+      "crawledAt": "2026-06-18T22:19:04.038Z",
+      "id": "rduz2i",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9960965514183044,
+          "index": 2,
+          "word": "White",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9965313076972961,
+          "index": 3,
+          "word": "House",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8740643858909607,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8844782114028931,
+          "index": 13,
+          "word": "Time",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Anthropic still can't distribute Claude Mythos or Fable 5 after running afoul of the Trump administration. But no one can say exactly what the company did wrong.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:20.583Z"
+    },
+    {
+      "title": "Designing AI Platforms That Scale: A Practical Blueprint",
+      "url": "https://pub.towardsai.net/designing-ai-platforms-that-scale-a-practical-blueprint-52924716ee16?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T21:01:00.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.39362881851239456,
+      "crawledAt": "2026-06-18T22:19:30.528Z",
+      "id": "4pcl5i",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8127459287643433,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9373877644538879,
+          "index": 4,
+          "word": "Platform",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:20.680Z"
+    },
+    {
+      "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T20:30:00.000Z",
+      "metaDescription": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.3375146239473705,
+      "crawledAt": "2026-06-18T22:18:57.421Z",
+      "id": "u3auk5",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9833785891532898,
+          "index": 12,
+          "word": "Dot",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8683674335479736,
+          "index": 13,
+          "word": "##mo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Snapchat maker is spinning off another internal unit to focus on AI video development. The company will focus on the development of AI video technology.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:40.136Z"
+    },
+    {
+      "title": "How to Run NVIDIA’s Nemotron Locally on Your Laptop or Desktop",
+      "url": "https://pub.towardsai.net/how-to-run-nvidias-nemotron-locally-on-your-laptop-or-desktop-5d5e6c3359aa?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T20:01:01.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.38951233974952965,
+      "crawledAt": "2026-06-18T22:19:30.605Z",
+      "id": "k7o74x",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.839795708656311,
+          "index": 5,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9740771651268005,
+          "index": 6,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9183117747306824,
+          "index": 7,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:40.262Z"
+    },
+    {
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T20:00:27.000Z",
+      "metaDescription": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories,",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.49137010381562896,
+      "crawledAt": "2026-06-18T22:18:45.708Z",
+      "id": "sgf4xn",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9980596899986267,
+          "index": 2,
+          "word": "F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8747162222862244,
+          "index": 3,
+          "word": "##ER",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9824836850166321,
+          "index": 4,
+          "word": "##C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Federal Energy Regulatory Commission (FERC) issued a major milestone on large-load interconnection impacting how those building AI factories are connected.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:21:51.284Z"
+    },
+    {
+      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T19:59:22.000Z",
+      "metaDescription": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.45017286980828664,
+      "crawledAt": "2026-06-18T22:18:57.600Z",
+      "id": "q2mmfd",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9988558888435364,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9984110593795776,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9933114051818848,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9620039463043213,
+          "index": 17,
+          "word": "IP",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " OpenAI is set to launch its first major AI-based company in the next few months. The company is expected to launch a new company in 2015.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:22:03.134Z"
+    },
+    {
+      "title": "Meta’s AI Workers Are Revolting, Peter Thiel’s Secret Society, and SBF’s Plea to Trump",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-meta-ai-workers-revolting-peter-thiel-secret-society-sbf-plea-to-trump/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T19:29:51.000Z",
+      "metaDescription": "On today’s Uncanny Valley, we dive into the dysfunction in Meta’s newly formed AI unit and why it’s been driving already-low employee morale even further into the ground.",
+      "category": "creative-ai",
+      "difficulty": 10,
+      "confidence": 0.5670979090769254,
+      "crawledAt": "2026-06-18T22:19:04.228Z",
+      "id": "he7ouc",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991322159767151,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9954931139945984,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.998803973197937,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9988868236541748,
+          "index": 6,
+          "word": "Workers",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9954346418380737,
+          "index": 7,
+          "word": "Are",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9913298487663269,
+          "index": 8,
+          "word": "Rev",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9645705819129944,
+          "index": 9,
+          "word": "##olt",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9847432374954224,
+          "index": 10,
+          "word": "##ing",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9993119835853577,
+          "index": 12,
+          "word": "Peter",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9992650747299194,
+          "index": 13,
+          "word": "T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9777507781982422,
+          "index": 14,
+          "word": "##hi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9659485816955566,
+          "index": 15,
+          "word": "##el",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9985465407371521,
+          "index": 18,
+          "word": "Secret",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9986815452575684,
+          "index": 19,
+          "word": "Society",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9992512464523315,
+          "index": 22,
+          "word": "S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9982202649116516,
+          "index": 23,
+          "word": "##BF",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8943737149238586,
+          "index": 29,
+          "word": "Trump",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Meta's new AI unit has been driving low employee morale, says CNN's John Sutter. The AI unit is being used to create a new generation of employees.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:22:33.962Z"
+    },
+    {
+      "title": "Record & Replay in Codex",
+      "url": "https://www.youtube.com/watch?v=ZK3JhU73W18",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T18:57:34.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.39640087587253053,
+      "crawledAt": "2026-06-18T22:19:54.056Z",
+      "id": "ndh6x",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8076545000076294,
+          "index": 6,
+          "word": "Codex",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:22:34.177Z"
+    },
     {
       "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
       "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
@@ -490,6 +1029,25 @@
       "processed_at": "2026-06-18T18:32:49.628Z"
     },
     {
+      "title": "Latent space interpretation",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9afup/latent_space_interpretation_r/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-18T16:07:51.000Z",
+      "metaDescription": "Hi all, I have trained a convolutional autoencoder on a set of medical images. Further classified latent feature maps using random forest to find the top scoring feature map. Now my goal is to underst",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25500301631975264,
+      "crawledAt": "2026-06-18T22:19:44.792Z",
+      "id": "xmlobw",
+      "entities": [],
+      "summary": " The goal is to understst the top scoring feature map. The map is based on a set of medical images.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:23:27.911Z"
+    },
+    {
       "title": "I Built My Own Analytics + AB Testing Tool in a Weekend With Claude Code.",
       "url": "https://pub.towardsai.net/i-built-my-own-analytics-ab-testing-tool-in-a-weekend-with-claude-code-c67f411602f7?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -543,6 +1101,25 @@
       "summary": " pull request limits can help manage contribution volume in your repositories. See what's next on the roadmap for next on your repository.",
       "language": "en",
       "processed_at": "2026-06-18T18:33:08.026Z"
+    },
+    {
+      "title": "Computer vision deployments drive retail productivity gains",
+      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T15:57:46.000Z",
+      "metaDescription": "Computer vision deployments are driving retail productivity gains as operators automate physical shelf tracking to protect eroding margins. This hardware deployment directly addresses the persistent i",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.27285250748255185,
+      "crawledAt": "2026-06-18T22:19:12.331Z",
+      "id": "ueh29y",
+      "entities": [],
+      "summary": " i.S. i.C. deployments are driving productivity gains as operators automate physical tracking to protect eroding margins.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:23:39.607Z"
     },
     {
       "title": "General Intuition in talks to raise $300M at around $2B valuation",
@@ -2921,6 +3498,340 @@
       "summary": " AI agents now handle personal data through tool use, function calls, and multi-turns. The new technology can also be used in the future.",
       "language": "en",
       "processed_at": "2026-06-18T04:52:33.664Z"
+    },
+    {
+      "title": "Budget-Aware Adaptive Adversarial Patches for Black-Box Object Detection",
+      "url": "https://arxiv.org/abs/2606.18318",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18318v1 Announce Type: new \nAbstract: Adversarial patches pose a practical threat to modern object detectors. Prior work shows vulnerability, but three gaps limit actionable insight: (i) fe",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.40492576734793195,
+      "crawledAt": "2026-06-18T22:20:21.994Z",
+      "id": "adwu2g",
+      "entities": [],
+      "summary": "Adversarial patches pose a practical threat to modern object detectors. Prior work shows vulnerability, but three gaps limit actionable insight.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:23:48.127Z"
+    },
+    {
+      "title": "CAOA -- Completion-Assisted Object-CAD Alignment",
+      "url": "https://arxiv.org/abs/2606.18429",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18429v1 Announce Type: new \nAbstract: Accurately aligning CAD models to their corresponding objects in indoor RGB-D scans is a central challenge in 3D semantic reconstruction. The task requ",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.26402997479514995,
+      "crawledAt": "2026-06-18T22:20:22.168Z",
+      "id": "tbfrv7",
+      "entities": [],
+      "summary": "Accurately aligning CAD models to their corresponding objects in RGB-D scans is a central challenge in 3D semantic reconstruction.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:23:58.706Z"
+    },
+    {
+      "title": "Reasoning as Intersection: Consensus-Frame Alignment for Visual Focus in Video-MLLMs",
+      "url": "https://arxiv.org/abs/2606.18441",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18441v1 Announce Type: new \nAbstract: Reinforcement learning has improved the reasoning ability of large language models, but applying outcome-only rewards to video multimodal large languag",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3293354772118834,
+      "crawledAt": "2026-06-18T22:20:22.568Z",
+      "id": "6p0dv7",
+      "entities": [],
+      "summary": "The new study has improved the reasoning ability of large language models. The study also improved the ability of video-based learning.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:24:20.383Z"
+    },
+    {
+      "title": "Architectural Bias in Face Presentation Attack Detection: A Comparative Study of Vision Transformers and Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/2606.18510",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18510v1 Announce Type: new \nAbstract: Face Presentation Attack Detection (PAD) systems constitute a critical security layer in biometric authentication; however, existing approaches exhibit",
+      "category": "research-paper",
+      "difficulty": 9,
+      "confidence": 0.31677257221950944,
+      "crawledAt": "2026-06-18T22:20:23.462Z",
+      "id": "n31467",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9303385615348816,
+          "index": 24,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9073516726493835,
+          "index": 25,
+          "word": "##eur",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9638345837593079,
+          "index": 26,
+          "word": "##al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9565417170524597,
+          "index": 27,
+          "word": "Networks",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new security system is a biometric authentication system. The new system is designed to protect the user's identity.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:25:18.461Z"
+    },
+    {
+      "title": "A Prototypical Signature Approach for Writer-Independent Offline Signature Verification",
+      "url": "https://arxiv.org/abs/2606.18528",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18528v1 Announce Type: new \nAbstract: Offline handwritten signature verification aims to distinguish genuine from forged signatures using static images. Since real forgeries are rarely avai",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9291883377393113,
+      "crawledAt": "2026-06-18T22:20:23.632Z",
+      "id": "whcast",
+      "entities": [],
+      "summary": " Offline signature verification aims to distinguish genuine from forged signatures. Since real forgeries are rarely avai, real forgery is rare.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:25:26.939Z"
+    },
+    {
+      "title": "Hierarchical Multi-Modal Retrieval for Knowledge-Grounded News Image Captioning",
+      "url": "https://arxiv.org/abs/2606.18553",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18553v1 Announce Type: new \nAbstract: Traditional image captioning methods often struggle to generate comprehensive, context-rich descriptions, especially for details not directly observabl",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.27140674130199977,
+      "crawledAt": "2026-06-18T22:20:23.809Z",
+      "id": "v9198d",
+      "entities": [],
+      "summary": " Traditional image captioning methods often struggle to generate comprehensive, context-rich descriptions. The new version of this version of the article will be published at the bottom of the page.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:25:37.950Z"
+    },
+    {
+      "title": "Forged Calamity: Benchmark for Cross-Domain Synthetic Disaster Detection in the Age of Diffusion",
+      "url": "https://arxiv.org/abs/2606.18554",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18554v1 Announce Type: new \nAbstract: The rapid advancement of text-to-image diffusion models has enabled the creation of highly photorealistic synthetic images that closely resemble real p",
+      "category": "safety-ethics",
+      "difficulty": 7,
+      "confidence": 0.4300244966983454,
+      "crawledAt": "2026-06-18T22:20:23.999Z",
+      "id": "1lot2e",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9502635598182678,
+          "index": 11,
+          "word": "Cross",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9826155304908752,
+          "index": 13,
+          "word": "Domain",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9451586604118347,
+          "index": 23,
+          "word": "Age",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9982329607009888,
+          "index": 24,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9984234571456909,
+          "index": 25,
+          "word": "Di",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9896425008773804,
+          "index": 26,
+          "word": "##ff",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9967876672744751,
+          "index": 27,
+          "word": "##usion",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The rapid advancement of text-to-image diffusion models has enabled the creation of highly photorealistic images that closely resemble real p.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:25:46.518Z"
+    },
+    {
+      "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
+      "url": "https://arxiv.org/abs/2606.18558",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18558v1 Announce Type: new \nAbstract: Motion forecasting is central to visual intelligence: agents must anticipate how objects will move in order to plan actions, reason about physical inte",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2534367414876585,
+      "crawledAt": "2026-06-18T22:20:24.390Z",
+      "id": "5b81nk",
+      "entities": [],
+      "summary": " Motion forecasting is central to visual intelligence. Agents must anticipate how objects will move in order to plan actions. The world's most important intelligence is the ability to predict movements.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:26:09.248Z"
+    },
+    {
+      "title": "Experimental Analysis of Neural Network-Based Image Classification on the CIFAR-10 Dataset",
+      "url": "https://arxiv.org/abs/2606.18565",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-06-18T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.18565v1 Announce Type: new \nAbstract: An experimental investigation of neural image classification on the CIFAR-10 benchmark is presented through fully connected and convolutional network f",
+      "category": "infrastructure",
+      "difficulty": 10,
+      "confidence": 0.36253764481535916,
+      "crawledAt": "2026-06-18T22:20:24.578Z",
+      "id": "hdmmxk",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9770345091819763,
+          "index": 6,
+          "word": "##al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9904131293296814,
+          "index": 7,
+          "word": "Network",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9852529168128967,
+          "index": 9,
+          "word": "Based",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.869165301322937,
+          "index": 10,
+          "word": "Image",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9063248038291931,
+          "index": 11,
+          "word": "Classification",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9989930391311646,
+          "index": 14,
+          "word": "C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9683770537376404,
+          "index": 16,
+          "word": "##AR",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9277680516242981,
+          "index": 17,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9956598877906799,
+          "index": 18,
+          "word": "10",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "An experimental investigation of neural image classification on the CIFAR-10 benchmark is presented through fully connected and convolutional network f.",
+      "language": "en",
+      "processed_at": "2026-06-18T22:26:18.818Z"
     },
     {
       "title": "How to Automate Business Reports With an AI Agent Instead of Dashboards",
@@ -57530,447 +58441,25 @@
       "summary": " Lovable and Google signed an expanded multiyear deal that involves 5x expansion of Lovable's footprint on Google Cloud. Anthropic Claude also expanded access to AnthropicCla.",
       "language": "en",
       "processed_at": "2026-06-04T04:59:24.476Z"
-    },
-    {
-      "title": "Microsoft, Atom Computing, EeroQ update their quantum computing progress",
-      "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-03T22:09:41.000Z",
-      "metaDescription": "Some quantum computing companies we've covered have done recent progress updates.",
-      "category": "product-launch",
-      "difficulty": 7,
-      "confidence": 0.4104266041156995,
-      "crawledAt": "2026-06-04T04:43:10.176Z",
-      "id": "tru2rq",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9989579319953918,
-          "index": 1,
-          "word": "Microsoft",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9993903040885925,
-          "index": 3,
-          "word": "At",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9959048628807068,
-          "index": 4,
-          "word": "##om",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9981591701507568,
-          "index": 5,
-          "word": "Computing",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9992406368255615,
-          "index": 7,
-          "word": "E",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9948717355728149,
-          "index": 8,
-          "word": "##ero",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9971796870231628,
-          "index": 9,
-          "word": "##Q",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Some quantum computing companies we've covered have done recent progress updates. Some quantum Computing companies have done recently progress updates.",
-      "language": "en",
-      "processed_at": "2026-06-04T04:59:34.171Z"
-    },
-    {
-      "title": "Microsoft, Atom Computing update their quantum computing progress",
-      "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-03T22:09:41.000Z",
-      "metaDescription": "Some quantum computing companies we've covered have done recent progress updates.",
-      "category": "product-launch",
-      "difficulty": 5,
-      "confidence": 0.8978345855024467,
-      "crawledAt": "2026-06-04T21:46:11.250Z",
-      "id": "nybgms",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9985074400901794,
-          "index": 1,
-          "word": "Microsoft",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9994181394577026,
-          "index": 3,
-          "word": "At",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9970929622650146,
-          "index": 4,
-          "word": "##om",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9984679222106934,
-          "index": 5,
-          "word": "Computing",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Some quantum computing companies we've covered have done recent progress updates. Some quantum Computing companies have done recently progress updates.",
-      "language": "en",
-      "processed_at": "2026-06-04T21:49:40.440Z"
-    },
-    {
-      "title": "How Python, Cloud, and AI Became the Ultimate Developer Power Trio.",
-      "url": "https://ai.plainenglish.io/how-python-cloud-and-ai-became-the-ultimate-developer-power-trio-7c0ba72a4e18?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T21:11:50.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.8419094122326716,
-      "crawledAt": "2026-06-03T22:30:35.756Z",
-      "id": "v9xu4o",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-03T22:31:44.118Z"
-    },
-    {
-      "title": "One Command, Hundreds of AI Agents: What Is Claude Opus 4.8’s Dynamic Workflows?",
-      "url": "https://ai.plainenglish.io/one-command-hundreds-of-ai-agents-what-is-claude-opus-4-8s-dynamic-workflows-58a98ecc110d?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T21:11:32.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.9620459427070102,
-      "crawledAt": "2026-06-03T22:30:35.856Z",
-      "id": "70ze6c",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.8619948625564575,
-          "index": 11,
-          "word": "Claude",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-06-03T22:31:44.320Z"
-    },
-    {
-      "title": "The Engineer at the Front Line",
-      "url": "https://ai.plainenglish.io/the-engineer-at-the-front-line-dfcf78fb8de1?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T21:09:48.000Z",
-      "metaDescription": "A term from the military got into the AI business. Now it is on every startups hiring plan. This job is called a Forward Deployed Engineer.\nContinue reading on Artificial Intelligence in Plain English",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3650017239852145,
-      "crawledAt": "2026-06-03T22:30:36.014Z",
-      "id": "1fk6bo",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.949211061000824,
-          "index": 5,
-          "word": "Front",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-LOC",
-          "score": 0.8155054450035095,
-          "index": 6,
-          "word": "Line",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A term from the military got into the AI business. Now it is on every startups hiring plan. This job is called a Forward Deployed Engineer.",
-      "language": "en",
-      "processed_at": "2026-06-03T22:31:54.595Z"
-    },
-    {
-      "title": "How to build self-driving AI operations on Amazon Bedrock at scale",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/",
-      "source": "AWS Machine Learning",
-      "source_domain": "aws.amazon.com",
-      "source_category": "cloud",
-      "source_priority": "medium",
-      "pubDate": "2026-06-03T20:14:16.000Z",
-      "metaDescription": "In this post, we introduce Amazon Bedrock Ops Alert, a three-layer automated monitoring solution that proactively detects operational issues, dynamically adjusts alarm thresholds, classifies alarms by",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.6166260784668987,
-      "crawledAt": "2026-06-03T22:30:17.578Z",
-      "id": "g1sv88",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.9623517394065857,
-          "index": 10,
-          "word": "Amazon",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-LOC",
-          "score": 0.9965075254440308,
-          "index": 11,
-          "word": "Bed",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-LOC",
-          "score": 0.9958838224411011,
-          "index": 12,
-          "word": "##rock",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Amazon Bedrock Ops Alert is a three-layer automated monitoring solution that proactively detects operational issues, dynamically adjusts alarm thresholds.",
-      "language": "en",
-      "processed_at": "2026-06-03T22:32:19.005Z"
-    },
-    {
-      "title": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
-      "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T19:38:32.000Z",
-      "metaDescription": "If Alphabet's record-breaking, $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.33239613054748895,
-      "crawledAt": "2026-06-03T19:52:45.800Z",
-      "id": "wfm7m7",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9972125291824341,
-          "index": 1,
-          "word": "Alpha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9981094598770142,
-          "index": 2,
-          "word": "##bet",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9982098340988159,
-          "index": 13,
-          "word": "Google",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9613273739814758,
-          "index": 16,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Alphabet's record-breaking, $85 billion stock sale signals investor appetite for AI-related offerings. Investors are ready to chow.",
-      "language": "en",
-      "processed_at": "2026-06-03T19:54:49.184Z"
-    },
-    {
-      "title": "It's time to fly | Codex",
-      "url": "https://www.youtube.com/watch?v=bJcA23ckzcY",
-      "source": "OpenAI",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T19:11:26.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.7402295666666042,
-      "crawledAt": "2026-06-03T19:53:43.226Z",
-      "id": "4ep5mc",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-03T19:54:49.270Z"
-    },
-    {
-      "title": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
-      "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T19:07:42.000Z",
-      "metaDescription": "Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.",
-      "category": "developer-tool",
-      "difficulty": 5,
-      "confidence": 0.6405185944682649,
-      "crawledAt": "2026-06-03T19:52:45.968Z",
-      "id": "otn4c2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9984339475631714,
-          "index": 1,
-          "word": "Google",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9860715270042419,
-          "index": 4,
-          "word": "Dream",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9385135173797607,
-          "index": 5,
-          "word": "##be",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9943045973777771,
-          "index": 6,
-          "word": "##ans",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Dreambeans is a curated list of AI-illustrated \"stories\" from your Google account. The list includes a list of \"stories,\" \"stories\", and \"stories.\"",
-      "language": "en",
-      "processed_at": "2026-06-03T19:55:02.948Z"
-    },
-    {
-      "title": "AI Agent Sandboxing for SaaS: How Builders Let Agents Work Without Letting Them Roam",
-      "url": "https://pub.towardsai.net/ai-agent-sandboxing-for-saas-how-builders-let-agents-work-without-letting-them-roam-654edf89e0b6?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-03T19:01:00.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.5010380477892773,
-      "crawledAt": "2026-06-03T19:53:22.508Z",
-      "id": "tpqkyf",
-      "entities": [
-        {
-          "entity": "B-LOC",
-          "score": 0.9975916743278503,
-          "index": 7,
-          "word": "Sa",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-LOC",
-          "score": 0.9810029864311218,
-          "index": 8,
-          "word": "##a",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-LOC",
-          "score": 0.9895131587982178,
-          "index": 9,
-          "word": "##S",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-03T19:55:03.095Z"
     }
   ],
-  "processedAt": "2026-06-18T18:34:06.103Z",
+  "processedAt": "2026-06-18T22:26:18.821Z",
   "categories": [
-    "creative-ai",
-    "industry-news",
-    "research-paper",
-    "product-launch",
     "ai-agents",
     "safety-ethics",
-    "developer-tool",
+    "creative-ai",
     "infrastructure",
+    "product-launch",
+    "industry-news",
+    "research-paper",
+    "developer-tool",
     "model-release",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 20,
-  "existingArticlesKept": 1670,
+  "newArticlesProcessed": 22,
+  "existingArticlesKept": 1678,
   "cleanupApplied": true,
-  "cleanedUpCount": 12,
+  "cleanedUpCount": 10,
   "rollingWindowDays": 15
 }
