@@ -1,9 +1,331 @@
 {
-  "crawledAt": "2026-06-21T04:55:46.010Z",
+  "crawledAt": "2026-06-21T11:21:25.415Z",
   "totalSources": 70,
-  "totalArticles": 9,
+  "totalArticles": 24,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "I released a softmax-free attention model at GPT-2 Medium scale : structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T10:46:36.000Z",
+      "metaDescription": "submitted by    /u/NonGameCatharsis  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.9893078858366077,
+      "crawledAt": "2026-06-21T11:20:45.918Z",
+      "id": "qjn1ne",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9576796889305115,
+          "index": 11,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8911295533180237,
+          "index": 42,
+          "word": "Tri",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:21:27.422Z"
+    },
+    {
+      "title": "Review: Widow's Bay is a boldly original take on comedic horror",
+      "url": "https://arstechnica.com/culture/2026/06/review-widows-bay-is-a-boldly-original-take-on-comedic-horror/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-06-21T10:00:11.000Z",
+      "metaDescription": "An eminently binge-able series that honors classic horror tropes while reinventing them in surprising ways",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.7202816209674833,
+      "crawledAt": "2026-06-21T11:19:57.054Z",
+      "id": "6nahrn",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9682366251945496,
+          "index": 4,
+          "word": "'",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9638851284980774,
+          "index": 5,
+          "word": "s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8657824993133545,
+          "index": 6,
+          "word": "Bay",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " An eminently binge-able series that honors classic horror tropes while reinventing them in surprising ways. The series is an eminently watchable series.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:21:51.205Z"
+    },
+    {
+      "title": "AI Agents Need Git Worktrees. Most Developers Haven’t Realized It Yet.",
+      "url": "https://ai.plainenglish.io/ai-agents-need-git-worktrees-most-developers-havent-realized-it-yet-4da51bf51140?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T08:09:45.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.3826254945291835,
+      "crawledAt": "2026-06-21T11:20:40.487Z",
+      "id": "yxyxie",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8042685985565186,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:21:51.361Z"
+    },
+    {
+      "title": "Stop Prompting Claude. Start Designing Autonomous Loops.",
+      "url": "https://ai.plainenglish.io/stop-prompting-claude-start-designing-autonomous-loops-d00a83497eea?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T07:33:25.000Z",
+      "metaDescription": "The leverage point for software engineering has shifted from crafting the perfect message to architecting self-correcting recursive…\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.26244427262419323,
+      "crawledAt": "2026-06-21T11:20:40.647Z",
+      "id": "t1prpa",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9244090914726257,
+          "index": 11,
+          "word": "Loop",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The leverage point for software engineering has shifted from crafting the perfect message to architecting self-correcting recursive algorithms.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:22:04.273Z"
+    },
+    {
+      "title": "A Startup Says It Cracked AI's Decade-Old Math Limit — Its LLM Read 12M Tokens for $8",
+      "url": "https://pub.towardsai.net/a-startup-says-it-cracked-ais-decade-old-math-limit-its-llm-read-12m-tokens-for-8-2ee108a320b3?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T06:43:41.000Z",
+      "metaDescription": "A Miami startup says it ran a long-context job that costs about $2,600 on Anthropic’s top model for $8 on its own LLM, read 12 million…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2506461958571664,
+      "crawledAt": "2026-06-21T11:20:35.878Z",
+      "id": "agrj9u",
+      "entities": [],
+      "summary": " Miami startup says it ran a long-context job that costs about $2,600 on Anthropic’s top model for $8 on its own LLM.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:22:17.096Z"
+    },
+    {
+      "title": "Building AI Agents Part 3C: Why Your Framework Choice Will Make or Break Your Production System",
+      "url": "https://pub.towardsai.net/building-ai-agents-part-3c-choosing-the-right-framework-for-agentic-ai-systems-94385179e8cb?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T06:43:13.000Z",
+      "metaDescription": "Why the framework that worked in your prototype will stall your production system\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9550672005366396,
+      "crawledAt": "2026-06-21T11:20:36.014Z",
+      "id": "jjbuhi",
+      "entities": [],
+      "summary": " The framework that worked in your prototype will stall your production system. It will stall the production system that worked with your prototype.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:22:25.824Z"
+    },
+    {
+      "title": "Claude Code Design Patterns for AI Agents",
+      "url": "https://pub.towardsai.net/claude-code-design-patterns-for-ai-agents-460e3b6665bc?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:53:37.000Z",
+      "metaDescription": "How to move from “chatting with an AI” to engineering reliable, production-grade agent systems with Claude Code.\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.7616714937198645,
+      "crawledAt": "2026-06-21T11:20:36.300Z",
+      "id": "2prque",
+      "entities": [],
+      "summary": " Claude Code has created a range of production-grade agent systems with Claude Code. The company hopes to move from “chatting with an AI’s AI” to engineering reliable, reliable, production- grade agent systems.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:22:52.023Z"
+    },
+    {
+      "title": "Part 12 -The 80GB Wall: GPU Infrastructure and Scheduling, Worked End to End",
+      "url": "https://pub.towardsai.net/part-12-the-80gb-wall-gpu-infrastructure-and-scheduling-worked-end-to-end-75cf0a345156?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:52:57.000Z",
+      "metaDescription": "Part 11—…\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.9688429159071666,
+      "crawledAt": "2026-06-21T11:20:36.412Z",
+      "id": "9wv59",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8931884765625,
+          "index": 5,
+          "word": "80",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9726946949958801,
+          "index": 9,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9775235652923584,
+          "index": 10,
+          "word": "##U",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:22:52.165Z"
+    },
+    {
+      "title": "Cohere's 30B Coding Agent Beats Models 4x Its Size on One H100 — and It Shouldn't",
+      "url": "https://pub.towardsai.net/coheres-30b-coding-agent-beats-models-4x-its-size-on-one-h100-and-it-shouldn-t-a61b62b4de72?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:52:05.000Z",
+      "metaDescription": "A 30-billion-parameter model with only 3 billion active parameters has no business landing 0.6\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3468259457231988,
+      "crawledAt": "2026-06-21T11:20:36.584Z",
+      "id": "jkryh7",
+      "entities": [],
+      "summary": " A 30-billion-year-old model with only 3 billion active parameters has no business. A 30,000-strong model with 3 billion-plus active parameters can't be used for business.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:06.717Z"
+    },
+    {
+      "title": "Building AI Agents in Rust — part 4",
+      "url": "https://pub.towardsai.net/building-ai-agents-in-rust-part-4-8f9770ec5021?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:51:55.000Z",
+      "metaDescription": "State machines for multi-step tasks\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9357097633081874,
+      "crawledAt": "2026-06-21T11:20:36.679Z",
+      "id": "dsbk95",
+      "entities": [],
+      "summary": " State machines for multi-step tasks. State machines are capable of multi- step tasks. State machines can be used to perform complex tasks.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:17.132Z"
+    },
+    {
+      "title": "At Machine Speed: How AI Has Broken the Cybersecurity Balance",
+      "url": "https://pub.towardsai.net/at-machine-speed-how-ai-has-broken-the-cybersecurity-balance-6badfcb85d6e?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:51:00.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3294741213697824,
+      "crawledAt": "2026-06-21T11:20:36.760Z",
+      "id": "7i546b",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.836531937122345,
+          "index": 3,
+          "word": "Speed",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:17.262Z"
+    },
+    {
+      "title": "Building AI Agents in Rust — part 5",
+      "url": "https://pub.towardsai.net/building-ai-agents-in-rust-part-5-12dff3c667a4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-21T05:50:34.000Z",
+      "metaDescription": "Multi-agent crews\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9337963242323348,
+      "crawledAt": "2026-06-21T11:20:36.846Z",
+      "id": "p8wm3n",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:17.401Z"
+    },
     {
       "title": "SupraLabs started the Any2Any model family!",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubfmnx/new_model_supralabs_started_the_any2any_model/",
@@ -158,6 +480,78 @@
       "processed_at": "2026-06-21T04:57:26.285Z"
     },
     {
+      "title": "Python packages for particle swarms, genetic algorithms. Scikit-opt maybe?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ub81us/python_packages_for_particle_swarms_genetic/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-20T21:28:20.000Z",
+      "metaDescription": "I'm working with a client on a curve-fitting optimization problem. They are currently using a constrained Levenburg-Marquardt optimizer for their task which is complex, slow, and sometimes gets stuck ",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.6547626104022235,
+      "crawledAt": "2026-06-21T11:20:45.724Z",
+      "id": "qx0gmo",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9671165943145752,
+          "index": 1,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A client is using a constrained Levenburg-Marquardt optimizer for their task which is complex, slow and sometimes gets stuck.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:31.171Z"
+    },
+    {
+      "title": "How transparent is DiffusionGemma",
+      "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2026-06-20T20:05:50.000Z",
+      "metaDescription": "Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lop",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.342609494244202,
+      "crawledAt": "2026-06-21T11:20:19.169Z",
+      "id": "k65n2j",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8997851014137268,
+          "index": 4,
+          "word": "Di",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8397705554962158,
+          "index": 6,
+          "word": "##usion",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8903956413269043,
+          "index": 7,
+          "word": "##G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Callum McDougall, Callum McDoughall, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Arthurconmy, Asic Q Chen, Min Ma, MinMa, Brendan O'Donoghue, João Gabriel",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:49.779Z"
+    },
+    {
       "title": "What is the best AI tool for preparing for Spanish Justice civil service exams?",
       "url": "https://www.reddit.com/r/OpenAI/comments/1ub5nx0/what_is_the_best_ai_tool_for_preparing_for/",
       "source": "r/OpenAI",
@@ -282,17 +676,70 @@
       "summary": " The moderat feels like it's getting worse over time. It feels like the moderat has gotten worse over the years.",
       "language": "en",
       "processed_at": "2026-06-21T04:58:15.698Z"
+    },
+    {
+      "title": "Loop Engineering: Why Everyone is Talking About Agentic Loops?",
+      "url": "https://www.youtube.com/watch?v=7BrxIBkX3mg",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-06-09T13:00:12.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2618074697900281,
+      "crawledAt": "2026-06-21T11:21:01.955Z",
+      "id": "29v0x0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8231740593910217,
+          "index": 9,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8880264163017273,
+          "index": 10,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9740551114082336,
+          "index": 11,
+          "word": "Loop",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8370097279548645,
+          "index": 12,
+          "word": "##s",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-21T11:23:49.891Z"
     }
   ],
-  "processedAt": "2026-06-21T04:58:15.704Z",
+  "processedAt": "2026-06-21T11:23:49.898Z",
   "categories": [
-    "creative-ai",
     "model-release",
-    "infrastructure",
-    "ai-agents"
+    "creative-ai",
+    "developer-tool",
+    "ai-agents",
+    "infrastructure"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 9,
-  "dailyArticlesCount": 9,
+  "newArticlesProcessed": 15,
+  "dailyArticlesCount": 24,
   "filterDate": "2026-06-21"
 }
