@@ -1,9 +1,456 @@
 {
-  "crawledAt": "2026-06-23T15:14:50.637Z",
+  "crawledAt": "2026-06-23T18:04:56.778Z",
   "totalSources": 70,
-  "totalArticles": 70,
+  "totalArticles": 86,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Is it possible to run a giant model like GLM5.2 on this cluster ? 16 channel memory should hit 409GB/s per node.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udo429/is_it_possible_to_run_a_giant_model_like_glm52_on/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T17:46:33.000Z",
+      "metaDescription": "Hey all,\n I have a piece of hardware laying around which is pretty fast from a traditional (non-GPU) server viewpoint. The hardware is the following:\n  \nDell C6525 Server with Quad Node (4x server bla",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.273040702996391,
+      "crawledAt": "2026-06-23T18:04:21.514Z",
+      "id": "tt3hdk",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9431827664375305,
+          "index": 10,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The hardware is the following:  Dell C6525 Server with Quad Node (4x server bla)",
+      "language": "en",
+      "processed_at": "2026-06-23T18:05:10.440Z"
+    },
+    {
+      "title": "Unraveling an Async HTTP Request",
+      "url": "https://pub.towardsai.net/unraveling-an-async-http-request-61e7e28dc95e?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T17:31:01.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2527559837384767,
+      "crawledAt": "2026-06-23T18:04:05.587Z",
+      "id": "gp1vpa",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9628679752349854,
+          "index": 5,
+          "word": "As",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:05:10.531Z"
+    },
+    {
+      "title": "The Math Skills Every Aspiring Data Scientist Needs to Master Before Writing a Single Line of Code",
+      "url": "https://www.kdnuggets.com/20206/06/deasilex/the-math-skills-every-aspiring-data-scientist-needs-to-master-before-writing-a-single-line-of-code",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T17:00:14.000Z",
+      "metaDescription": "This article breaks down each essential math discipline, explains its role in data science, and maps out an efficient learning path you can start today.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.886802087785759,
+      "crawledAt": "2026-06-23T18:04:50.087Z",
+      "id": "5kblek",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9079972505569458,
+          "index": 20,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This article breaks down each essential math discipline, explains its role in data science, and maps out an efficient learning path you can start today.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:05:35.380Z"
+    },
+    {
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T17:00:00.000Z",
+      "metaDescription": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5381661107535162,
+      "crawledAt": "2026-06-23T18:03:30.236Z",
+      "id": "uqeyh4",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9995438456535339,
+          "index": 6,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9994776248931885,
+          "index": 7,
+          "word": "Tag",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Slack's new Claude Tag brings an always-on AI teammate to Slack. The feature is a strategic play to capture organizational context, institutional knowledge, and enterprise knowledge.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:05:54.531Z"
+    },
+    {
+      "title": "Anthropic launches Claude Tag, replacing its Slack app with a persistent AI teammate that learns, monitors and works autonomously",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T17:00:00.000Z",
+      "metaDescription": "Anthropic on Tuesday launched Claude Tag, a new product that embeds its most advanced AI model directly inside Slack as a persistent, shared teammate that anyone on a team can delegate work to by simp",
+      "category": "product-launch",
+      "difficulty": 4,
+      "confidence": 0.9779565037329512,
+      "crawledAt": "2026-06-23T18:03:40.512Z",
+      "id": "io5yw1",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8911314010620117,
+          "index": 1,
+          "word": "An",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Anthropic launches Claude Tag, a new product that embeds its most advanced AI model directly inside Slack as a shared teammate. Anyone on a team can delegate work to by simp, and anyone can delegate it to by Simp.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:06:10.003Z"
+    },
+    {
+      "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T16:39:34.000Z",
+      "metaDescription": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.9711669435032193,
+      "crawledAt": "2026-06-23T18:03:52.212Z",
+      "id": "ax1x4w",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8552455306053162,
+          "index": 12,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The assistant combines three capabilities: Natural language query parsing, vector similarity and vector similarity. The assistant can extract structured search parameters, search parameters and vector similarities.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:06:31.850Z"
+    },
+    {
+      "title": "Omio scales travel product development using OpenAI models",
+      "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T16:32:28.000Z",
+      "metaDescription": "Omio integrates OpenAI models across its engineering operations to accelerate travel product development and launch booking interfaces. The multimodal travel platform coordinates operations with over ",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.8268242748819615,
+      "crawledAt": "2026-06-23T18:03:45.761Z",
+      "id": "an91h1",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9908753037452698,
+          "index": 1,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8024885654449463,
+          "index": 2,
+          "word": "##mio",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9623093605041504,
+          "index": 9,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Omio integrates OpenAI models across its engineering operations to accelerate travel product development and launch booking interfaces. The multimodal travel platform coordinates operations with over the world.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:06:57.243Z"
+    },
+    {
+      "title": "Understanding How Coroutines Work Under the Hood",
+      "url": "https://pub.towardsai.net/understanding-how-coroutines-work-under-the-hood-1cf1f356d913?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T16:31:01.000Z",
+      "metaDescription": "",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.29301336554347673,
+      "crawledAt": "2026-06-23T18:04:05.805Z",
+      "id": "4nwtt0",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8305281400680542,
+          "index": 5,
+          "word": "##ines",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:06:57.330Z"
+    },
+    {
+      "title": "Why Word Error Rate Is Not Enough: Semantic Decomposition of ASR Errors",
+      "url": "https://pub.towardsai.net/why-word-error-rate-is-not-enough-semantic-decomposition-of-asr-errors-aefde71c4434?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T16:01:05.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.25342212427210586,
+      "crawledAt": "2026-06-23T18:04:05.874Z",
+      "id": "npn9e8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8369834423065186,
+          "index": 11,
+          "word": "Se",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:07:35.304Z"
+    },
+    {
+      "title": "7 Chinese companies are already shipping H100/H200-class AI chips, most IPO'd in the last 6 months. I mapped all of them.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udkxde/7_chinese_companies_are_already_shipping/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T15:50:53.000Z",
+      "metaDescription": "https://preview.redd.it/8e85oakbz19h1.png?width=3000&format=png&auto=webp&s=258039cb277daa2572d1ba4eec8cc488357c62d0\n I run Chinese open models on a 4×3090 rig every day. The more I watched these mode",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.2673214678876691,
+      "crawledAt": "2026-06-23T18:04:18.248Z",
+      "id": "hszcdd",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9996930956840515,
+          "index": 2,
+          "word": "Chinese",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:07:47.289Z"
+    },
+    {
+      "title": "When millions of AI agents meet",
+      "url": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+      "source": "DeepMind",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T15:48:06.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9750307559429764,
+      "crawledAt": "2026-06-23T18:04:28.583Z",
+      "id": "4p2d5w",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9722779393196106,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:07:47.393Z"
+    },
+    {
+      "title": "Shared infrastructure, isolated tenants: Pool model multi-tenancy with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/shared-infrastructure-isolated-tenants-pool-model-multi-tenancy-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T15:43:59.000Z",
+      "metaDescription": "In this post, you will learn patterns for implementing production-ready multi-tenant systems using Amazon Bedrock AgentCore. You will see these patterns demonstrated through healthcare AI agents that ",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.9686555022379143,
+      "crawledAt": "2026-06-23T18:03:52.372Z",
+      "id": "moo2f0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9140689969062805,
+          "index": 16,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9464282393455505,
+          "index": 17,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8997992277145386,
+          "index": 18,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8364173769950867,
+          "index": 19,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9622402191162109,
+          "index": 20,
+          "word": "##C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " You will learn how to use healthcare AI to create a multi-tenant system. You will be able to use the same technology as your own.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:07:58.223Z"
+    },
+    {
+      "title": "Krea 2 released on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udk2oi/krea_2_released_on_hugging_face/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T15:19:40.000Z",
+      "metaDescription": "+ turbo: https://huggingface.co/krea/Krea-2-Turbo\n    submitted by    /u/paf1138  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.9724028959692734,
+      "crawledAt": "2026-06-23T18:04:18.388Z",
+      "id": "edp793",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9492524862289429,
+          "index": 6,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9673415422439575,
+          "index": 8,
+          "word": "Face",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:07:58.431Z"
+    },
+    {
+      "title": "Fabric IQ Is GA — Mostly.",
+      "url": "https://pub.towardsai.net/fabric-iq-is-ga-mostly-46bedac669d8?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T15:01:02.000Z",
+      "metaDescription": "At Build 2026, Microsoft announced the general availability of Fabric IQ — “the shared context layer for AI agents and real-time…\nContinue reading on Towards AI »",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2896450361792911,
+      "crawledAt": "2026-06-23T18:04:06.147Z",
+      "id": "wm1hyq",
+      "entities": [],
+      "summary": " Microsoft announced the general availability of Fabric IQ — “the shared context layer for AI agents and real-time’s real- time’ At Build 2026, Microsoft announced that Fabric IQ was “The shared context layers for AI Agents and real time”",
+      "language": "en",
+      "processed_at": "2026-06-23T18:08:33.487Z"
+    },
     {
       "title": "Retrieval Is Filtering, Not Search: A Mental Model for Enterprise RAG",
       "url": "https://towardsdatascience.com/retrieval-is-filtering-not-search-a-mental-model-for-enterprise-rag/",
@@ -1782,6 +2229,102 @@
       "processed_at": "2026-06-23T11:31:17.477Z"
     },
     {
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-06-23T00:00:00.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.29882125066479837,
+      "crawledAt": "2026-06-23T18:03:16.988Z",
+      "id": "a3w94s",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9981228709220886,
+          "index": 6,
+          "word": "Cross",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9959492683410645,
+          "index": 7,
+          "word": "-",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.996577262878418,
+          "index": 8,
+          "word": "Origin",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9969009160995483,
+          "index": 9,
+          "word": "St",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9934325814247131,
+          "index": 10,
+          "word": "##orage",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.970863401889801,
+          "index": 11,
+          "word": "API",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:08:44.411Z"
+    },
+    {
+      "title": "ParallelKernelBench: Frontier LLMs can't write fast multi-GPU kernels",
+      "url": "https://www.together.ai/blog/parallelkernelbench",
+      "source": "Together AI Blog",
+      "source_domain": "together.ai",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-06-23T00:00:00.000Z",
+      "metaDescription": "ParallelKernelBench tests whether LLMs can write fast multi-GPU CUDA kernels across 87 real workloads. The best model solves under a third, but a few generated kernels beat any public implementation.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.619921453865698,
+      "crawledAt": "2026-06-23T18:04:00.616Z",
+      "id": "2erpxb",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8878782391548157,
+          "index": 21,
+          "word": "GP",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The best model solves under a third, but a few generated kernels beat any public implementation. The best of the best is the best of a third.",
+      "language": "en",
+      "processed_at": "2026-06-23T18:08:55.277Z"
+    },
+    {
       "title": "Non-deterministic Vulnerability Detection Benchmark System",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
       "source": "r/MachineLearning",
@@ -2084,21 +2627,21 @@
       "processed_at": "2026-06-23T11:31:28.234Z"
     }
   ],
-  "processedAt": "2026-06-23T15:20:16.444Z",
+  "processedAt": "2026-06-23T18:08:55.282Z",
   "categories": [
-    "infrastructure",
     "model-release",
+    "infrastructure",
+    "creative-ai",
+    "product-launch",
+    "developer-tool",
+    "safety-ethics",
     "ai-agents",
     "tutorial-guide",
-    "developer-tool",
-    "creative-ai",
-    "safety-ethics",
     "industry-news",
-    "product-launch",
     "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 27,
-  "dailyArticlesCount": 70,
+  "newArticlesProcessed": 16,
+  "dailyArticlesCount": 86,
   "filterDate": "2026-06-23"
 }
