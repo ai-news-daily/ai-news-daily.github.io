@@ -1,9 +1,635 @@
 {
-  "crawledAt": "2026-07-01T14:49:31.628Z",
+  "crawledAt": "2026-07-01T18:04:04.126Z",
   "totalSources": 70,
-  "totalArticles": 91,
+  "totalArticles": 115,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
+      "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T18:01:32.000Z",
+      "metaDescription": "In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Anal",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.5868173509989153,
+      "crawledAt": "2026-07-01T18:03:07.620Z",
+      "id": "ra03zt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9676220417022705,
+          "index": 6,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9086694121360779,
+          "index": 13,
+          "word": "RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8905811905860901,
+          "index": 16,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9289560317993164,
+          "index": 17,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9506747722625732,
+          "index": 18,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8736438751220703,
+          "index": 20,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9422174096107483,
+          "index": 21,
+          "word": "Neptune",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8332282900810242,
+          "index": 26,
+          "word": "Page",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9503173828125,
+          "index": 27,
+          "word": "##R",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon. Neptune Anal for graph databases, Amazon Neptal Anal.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:04:20.019Z"
+    },
+    {
+      "title": "How Inscribe uses Amazon Bedrock to stop document fraud in seconds",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:53:16.000Z",
+      "metaDescription": "In this post, you will learn how Inscribe developed an agentic AI system using Amazon Bedrock that reasons across documents the way an expert fraud analyst would. With this new agentic AI system, Insc",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2566734147382203,
+      "crawledAt": "2026-07-01T18:03:07.723Z",
+      "id": "fwqyw8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9845213294029236,
+          "index": 2,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9295399188995361,
+          "index": 3,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9493959546089172,
+          "index": 7,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.962352991104126,
+          "index": 8,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Insc. Insc, Insc has developed an agentic AI system using Amazon's Bedrock. Insc is based on a series of documents from the company.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:04:32.578Z"
+    },
+    {
+      "title": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:46:54.000Z",
+      "metaDescription": "The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources into a single, searchable interface. In this post, you’ll learn what",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.25756050660338003,
+      "crawledAt": "2026-07-01T18:03:07.827Z",
+      "id": "9kudyp",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.8794983625411987,
+          "index": 7,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9908689856529236,
+          "index": 8,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9849560260772705,
+          "index": 9,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8868025541305542,
+          "index": 15,
+          "word": "Profile",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:04:56.451Z"
+    },
+    {
+      "title": "Accelerate protein design with BoltzGen on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-protein-design-with-boltzgen-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:44:08.000Z",
+      "metaDescription": "In this post, we demonstrate how to deploy BoltzGen on SageMaker AI and run an end-to-end protein design experiment. By the end of the walkthrough, you have a working setup that scales from quick vali",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.509842650990544,
+      "crawledAt": "2026-07-01T18:03:07.937Z",
+      "id": "7io1iu",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9073589444160461,
+          "index": 8,
+          "word": "Bo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9550535082817078,
+          "index": 10,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.938461422920227,
+          "index": 15,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "We demonstrate how to deploy BoltzGen on SageMaker AI and run an end-to-end protein design experiment. By the end of the walkthrough, you have a working setup that scales from quick vali.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:05:12.150Z"
+    },
+    {
+      "title": "Introducing OpenWiki, an open source agent for repo documentation",
+      "url": "https://www.youtube.com/watch?v=nIVu3zfYprI",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T17:41:32.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2526258587174293,
+      "crawledAt": "2026-07-01T18:03:33.532Z",
+      "id": "f7o03z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9140910506248474,
+          "index": 4,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9460351467132568,
+          "index": 5,
+          "word": "##W",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:05:12.223Z"
+    },
+    {
+      "title": "Making a ‘Stylophone’ Music Synthesizer with Python and MIDI",
+      "url": "https://levelup.gitconnected.com/making-a-stylophone-music-synthesizer-with-python-and-midi-ad6690eebe3d?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:11:14.000Z",
+      "metaDescription": "Let’s Play Some Music With Python\nContinue reading on Level Up Coding »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2505149399311843,
+      "crawledAt": "2026-07-01T18:03:20.580Z",
+      "id": "jfh41q",
+      "entities": [],
+      "summary": " Let’s Play Some Music With Python With Python. Let”s Play some Music WithPython With Python.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:05:29.275Z"
+    },
+    {
+      "title": "Go Error Handling Architecture: Boundaries and Patterns",
+      "url": "https://levelup.gitconnected.com/go-error-handling-architecture-boundaries-and-patterns-29784899aeda?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:10:11.000Z",
+      "metaDescription": "",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.28983483771328994,
+      "crawledAt": "2026-07-01T18:03:20.987Z",
+      "id": "ni9mj8",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:05:59.181Z"
+    },
+    {
+      "title": "One Misplaced Click from Disaster: The Terrible UX of Developer Tools",
+      "url": "https://levelup.gitconnected.com/one-misplaced-click-from-disaster-the-terrible-ux-of-developer-tools-f62c1e08e285?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:09:59.000Z",
+      "metaDescription": "Destructive rollbacks shouldn’t live right next to routine commits. It’s time to talk about the hidden mental tax of enterprise software\nContinue reading on Level Up Coding »",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.9951220870705133,
+      "crawledAt": "2026-07-01T18:03:21.079Z",
+      "id": "x7eqpe",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8692323565483093,
+          "index": 17,
+          "word": "##elo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " It's time to talk about the hidden mental tax of enterprise software. It's a good time to take a break from the routine.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:09.582Z"
+    },
+    {
+      "title": "The Real AI Race Isn’t About Chatbots. It’s About Who Controls the Dirt the Chips Are Made Of.",
+      "url": "https://levelup.gitconnected.com/the-real-ai-race-isnt-about-chatbots-it-s-about-who-controls-the-dirt-the-chips-are-made-of-bcc3537e8fba?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T17:09:52.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.47351216065983126,
+      "crawledAt": "2026-07-01T18:03:21.140Z",
+      "id": "bjh21l",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9489880204200745,
+          "index": 2,
+          "word": "Real",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9793631434440613,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9744651317596436,
+          "index": 4,
+          "word": "Race",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:09.677Z"
+    },
+    {
+      "title": "This Meta Brain-Computer Interface Decodes Typed Sentences From Brain Waves Alone",
+      "url": "https://pub.towardsai.net/this-meta-brain-computer-interface-decodes-typed-sentences-from-brain-waves-alone-d96c018eb0d4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T17:01:05.000Z",
+      "metaDescription": "No Surgery Required\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5419516610574964,
+      "crawledAt": "2026-07-01T18:03:15.704Z",
+      "id": "l73gms",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8876064419746399,
+          "index": 8,
+          "word": "##face",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " No Surgery Required. No Surgery required. No Surgeryrequired. No surgery required. Read on Towards AI. Read more on TowardsAI.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:26.917Z"
+    },
+    {
+      "title": "Your Data Validation Suite Is a Mess.",
+      "url": "https://pub.towardsai.net/your-data-validation-suite-is-a-mess-09540379cf63?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T16:31:02.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.30785725960174887,
+      "crawledAt": "2026-07-01T18:03:15.748Z",
+      "id": "c0cuav",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8896487951278687,
+          "index": 4,
+          "word": "##ida",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:27.048Z"
+    },
+    {
+      "title": "Why Powerful ML Is Deceptively Easy — Part 2",
+      "url": "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy-part-2/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T16:30:00.000Z",
+      "metaDescription": "The next leakage problem is not only temporal. It is spatial, structural, and coverage-related. AI-generated illustration created with DALL·E\nThe post Why Powerful ML Is Deceptively Easy — Part 2 appe",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7009459211095187,
+      "crawledAt": "2026-07-01T18:03:00.261Z",
+      "id": "c2k4gp",
+      "entities": [],
+      "summary": " The next leakage problem is spatial, structural, and coverage-related. The next problem is not only spatial, but also temporal.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:37.154Z"
+    },
+    {
+      "title": "How to \"actually\" network for jobs at ML conferences?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ukq46n/how_to_actually_network_for_jobs_at_ml/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T16:13:27.000Z",
+      "metaDescription": "Attending ICML for the first time (virtually) next week as a 3rd year PhD student in the US. \n I want to get into industry after finishing and have heard a lot about the benefits of networking at conf",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.4902042088547522,
+      "crawledAt": "2026-07-01T18:03:25.167Z",
+      "id": "vx0rjr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9886326193809509,
+          "index": 10,
+          "word": "M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9515045881271362,
+          "index": 11,
+          "word": "##L",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A 3rd year PhD student in the US. Attending ICML for the first time next week as a 3rd PhD student.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:06:49.328Z"
+    },
+    {
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "source": "GitHub Blog",
+      "source_domain": "github.blog",
+      "source_category": "company",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T15:59:29.000Z",
+      "metaDescription": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it wa",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.32573894461173863,
+      "crawledAt": "2026-07-01T18:02:50.966Z",
+      "id": "o892p0",
+      "entities": [],
+      "summary": " These six free settings will not make your project unhackable. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it wa.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:07:35.015Z"
+    },
+    {
+      "title": "How to use RLMs in Deep Agents",
+      "url": "https://www.youtube.com/watch?v=5_LLMZfKI6w",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T15:57:26.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3144849368313849,
+      "crawledAt": "2026-07-01T18:03:33.620Z",
+      "id": "t0lkbl",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8466964960098267,
+          "index": 8,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9755969643592834,
+          "index": 9,
+          "word": "Agents",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:07:35.106Z"
+    },
+    {
+      "title": "VectorDB Chunking and Search: 20 Scenario-Based Questions & Solutions",
+      "url": "https://pub.towardsai.net/vectordb-chunking-and-search-20-scenario-based-questions-solutions-part-2-1032db095731?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T15:31:00.000Z",
+      "metaDescription": "AI Engineer Interview Preparation\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3357559413982257,
+      "crawledAt": "2026-07-01T18:03:15.856Z",
+      "id": "irh4dt",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9842000603675842,
+          "index": 3,
+          "word": "##D",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9364395141601562,
+          "index": 4,
+          "word": "##B",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI Engineer Interview Preparation is part of Towards AI. The AI Engineer is a member of the team of engineers at the University of Cambridge.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:07:55.287Z"
+    },
+    {
+      "title": "P Moth-Retrieval: Graph-Free Multi-Hop Retrieval via Query-Time Orchestration",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T15:26:53.000Z",
+      "metaDescription": "We just open-sourced MOTHRAG, a multi-hop RAG framework that skips the knowledge graph entirely.\n We kept hitting the same wall building multi-hop RAG: the systems with the best accuracy (GraphRAG, Hi",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2602312066998421,
+      "crawledAt": "2026-07-01T18:03:25.279Z",
+      "id": "j0zup5",
+      "entities": [],
+      "summary": " The RAG is a multi-hoped RAG system that skips the knowledge graph entirely. The system is based on the knowledge of people in the world.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:08:07.828Z"
+    },
+    {
+      "title": "Persistent Latent Memory for Multi-Hop LLM Agents: How a 6G Handover Paper Closes the Agent Cold-Start",
+      "url": "https://towardsdatascience.com/persistent-latent-memory-for-multi-hop-llm-agents-how-a-6g-handover-paper-closes-the-agent-cold-start/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T15:00:00.000Z",
+      "metaDescription": "Every hand-off in your multi-agent pipeline is an expensive tokenization round-trip. Discover how Inductive Latent Context Persistence (ILCP) transfers a compressed hidden state so downstream agents n",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.49129455825007334,
+      "crawledAt": "2026-07-01T18:03:00.442Z",
+      "id": "oggrz",
+      "entities": [],
+      "summary": "Every hand-off in your multi-agent pipeline is an expensive tokenization round-trip. The cost of this round-up is $1,000.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:08:29.059Z"
+    },
     {
       "title": "LLMs are stuck in a groupthink rut. This startup is trying to get them out.",
       "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
@@ -22,6 +648,25 @@
       "summary": " The chatbot of choice isClaude, ChatGPT, Gemini and type “Give me a random number between 1 and 10’s’",
       "language": "en",
       "processed_at": "2026-07-01T14:50:00.282Z"
+    },
+    {
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T14:35:16.000Z",
+      "metaDescription": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4520252721003386,
+      "crawledAt": "2026-07-01T18:02:56.368Z",
+      "id": "6mv0fv",
+      "entities": [],
+      "summary": " The chatbot of choice isClaude, ChatGPT, Gemini and type “Give me a random number between 1 and 10’s’",
+      "language": "en",
+      "processed_at": "2026-07-01T18:08:43.572Z"
     },
     {
       "title": "Your AI Has a Memory Problem — and Google Just Found a Brilliant Fix",
@@ -130,6 +775,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-07-01T14:50:13.206Z"
+    },
+    {
+      "title": "ARC-AGI-3 Explained by the Team That's Winning It",
+      "url": "https://www.youtube.com/watch?v=Vg6FBKTlfOw",
+      "source": "Machine Learning Street Talk",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T14:26:52.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.90263554220828,
+      "crawledAt": "2026-07-01T18:03:29.608Z",
+      "id": "y04jxx",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:08:43.647Z"
     },
     {
       "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
@@ -475,6 +1139,74 @@
       "summary": " The acquisition was approved without concessions by the Department of Justice in June. The acquisition of the company was approved in June.",
       "language": "en",
       "processed_at": "2026-07-01T14:52:25.568Z"
+    },
+    {
+      "title": "UK likely to intervene in Paramount takeover of Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T13:24:39.000Z",
+      "metaDescription": "The acquisition was approved without concessions by the Department of Justice in June.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.3002853963754455,
+      "crawledAt": "2026-07-01T18:02:52.072Z",
+      "id": "3oifb4",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9996627569198608,
+          "index": 1,
+          "word": "UK",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9970999360084534,
+          "index": 6,
+          "word": "Paramount",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9982552528381348,
+          "index": 9,
+          "word": "Warner",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9989227056503296,
+          "index": 10,
+          "word": "Bros",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9443179965019226,
+          "index": 11,
+          "word": ".",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9962562918663025,
+          "index": 12,
+          "word": "Discovery",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The acquisition was approved without concessions by the Department of Justice in June. The acquisition of the company was approved in June.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:08:52.547Z"
     },
     {
       "title": "Don’t Choose Between Claude and Antigravity: Use This Hybrid CLI",
@@ -1216,6 +1948,34 @@
       "summary": "Announcement or discussion about new AI model releases and updates.",
       "language": "en",
       "processed_at": "2026-07-01T11:36:19.214Z"
+    },
+    {
+      "title": "AI Just Entered A New Era",
+      "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T05:23:54.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.33393021982944676,
+      "crawledAt": "2026-07-01T18:03:29.127Z",
+      "id": "ely231",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8667818307876587,
+          "index": 7,
+          "word": "Era",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:09:14.079Z"
     },
     {
       "title": "BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation",
@@ -2614,6 +3374,34 @@
       "processed_at": "2026-07-01T04:36:35.988Z"
     },
     {
+      "title": "80TB+ of astronomy for the HDD-poor: crossmatch the Universe from your laptop",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uk7ec6/80tb_of_astronomy_for_the_hddpoor_crossmatch_the/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T01:07:46.000Z",
+      "metaDescription": "Today is the day you (🫵!) get access to 80TB plus of data from over 30 astronomical surveys in one place. 4GB of RAM is enough even at Gaia Scale. Check out our writeup here:\n https://huggingface.co/",
+      "category": "research-paper",
+      "difficulty": 4,
+      "confidence": 0.2998815578215623,
+      "crawledAt": "2026-07-01T18:03:25.824Z",
+      "id": "j6bj8j",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9924659729003906,
+          "index": 9,
+          "word": "HD",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Today is the day you get access to 80TB plus of data from over 30 astronomical surveys in one place. 4GB of RAM is enough even at Gaia Scale.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:09:53.928Z"
+    },
+    {
       "title": "8 Python Features Worth Revisiting in 2026",
       "url": "https://python.plainenglish.io/8-python-features-worth-revisiting-in-2026-77b7c53c7345?source=rss----78073def27b8---4",
       "source": "Python in Plain English",
@@ -2747,6 +3535,25 @@
       "summary": " It trained on the world, then paid $1.5 billion to settle the pirated books. Its terms say you cannot use Claude to build a competitor.",
       "language": "en",
       "processed_at": "2026-07-01T04:37:49.558Z"
+    },
+    {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T00:00:00.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9106256578602435,
+      "crawledAt": "2026-07-01T18:02:48.798Z",
+      "id": "rhdmg2",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T18:09:54.078Z"
     },
     {
       "title": "Vibe Coding / Agentic workflow",
@@ -3057,21 +3864,21 @@
       "processed_at": "2026-07-01T04:39:48.408Z"
     }
   ],
-  "processedAt": "2026-07-01T14:54:42.964Z",
+  "processedAt": "2026-07-01T18:09:54.083Z",
   "categories": [
     "creative-ai",
-    "developer-tool",
     "infrastructure",
+    "safety-ethics",
+    "developer-tool",
+    "research-paper",
     "ai-agents",
     "product-launch",
     "tutorial-guide",
-    "safety-ethics",
     "model-release",
-    "research-paper",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
   "newArticlesProcessed": 24,
-  "dailyArticlesCount": 91,
+  "dailyArticlesCount": 115,
   "filterDate": "2026-07-01"
 }
