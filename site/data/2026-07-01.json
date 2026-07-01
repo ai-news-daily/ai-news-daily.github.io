@@ -1,9 +1,358 @@
 {
-  "crawledAt": "2026-07-01T04:24:27.120Z",
+  "crawledAt": "2026-07-01T11:30:25.812Z",
   "totalSources": 70,
-  "totalArticles": 49,
+  "totalArticles": 67,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Bank of England reviews AI rules for agentic AI in finance",
+      "url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules/",
+      "source": "AI News",
+      "source_domain": "artificialintelligence-news.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-01T10:00:00.000Z",
+      "metaDescription": "The Bank of England is reviewing whether existing rules can cover the use of agentic AI in finance, including payments, trading, cybersecurity, and operations. Deputy Governor Sarah Breeden said exist",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.9827320290199666,
+      "crawledAt": "2026-07-01T11:28:53.693Z",
+      "id": "p5i4mv",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991948008537292,
+          "index": 1,
+          "word": "Bank",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9993435740470886,
+          "index": 2,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9990001320838928,
+          "index": 3,
+          "word": "England",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9976969957351685,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9758745431900024,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Bank of England is reviewing whether existing rules can cover agentic AI in finance. Deputy Governor Sarah Breeden said there exist.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:34:22.365Z"
+    },
+    {
+      "title": "I built a desktop AI that scrubs your PII locally before it hits the cloud — here's every feature with real screenshots",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukfv2e/i_built_a_desktop_ai_that_scrubs_your_pii_locally/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T08:30:33.000Z",
+      "metaDescription": "Been building this for a few months. It's called Primnox.\n The core thing: before ANY message leaves your machine, a local DeBERTa NER model runs on-device, finds names/emails/addresses/phone numbers,",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2518297552115973,
+      "crawledAt": "2026-07-01T11:29:27.938Z",
+      "id": "c8m0e6",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9237297773361206,
+          "index": 10,
+          "word": "P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Before any message leaves your machine, a local DeBERTa NER model runs on-device. It's called Primnox.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:34:59.865Z"
+    },
+    {
+      "title": "The Only Loop Engineering Roadmap You Need to Build Production-Ready AI Agents!",
+      "url": "https://pub.towardsai.net/the-only-loop-engineering-roadmap-you-need-to-build-production-ready-ai-agents-951bda4dcd3d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:19:40.000Z",
+      "metaDescription": "Loop engineering is becoming as fundamental to AI agents as data structures are to software. If you read enough engineering papers from…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.4745421496820782,
+      "crawledAt": "2026-07-01T11:29:14.289Z",
+      "id": "8gbdwu",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.973212480545044,
+          "index": 3,
+          "word": "Loop",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8283773064613342,
+          "index": 4,
+          "word": "Engineering",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Loop engineering is becoming as fundamental to AI agents as data structures are to software. If you read enough engineering papers from the engineering papers, read enough for you to read enough.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:14.067Z"
+    },
+    {
+      "title": "Run the Neo4j MCP Server Locally with Docker",
+      "url": "https://pub.towardsai.net/run-the-neo4j-mcp-server-locally-with-docker-no-codespaces-needed-b9a3792562ef?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:18:40.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.3150563099374794,
+      "crawledAt": "2026-07-01T11:29:14.360Z",
+      "id": "u3td2j",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9934365749359131,
+          "index": 3,
+          "word": "Neo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9879994988441467,
+          "index": 4,
+          "word": "##4",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9799016118049622,
+          "index": 7,
+          "word": "##P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:14.176Z"
+    },
+    {
+      "title": "Building HITL Feedback RAG: Embeddings, Retrieval, and Reranking",
+      "url": "https://pub.towardsai.net/building-hitl-feedback-rag-embeddings-retrieval-and-reranking-501bfe61d83b?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:17:58.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.8791422404095476,
+      "crawledAt": "2026-07-01T11:29:14.641Z",
+      "id": "vf29ms",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:29.413Z"
+    },
+    {
+      "title": "Gradescope Autograder for Python Assignments from Scratch",
+      "url": "https://pub.towardsai.net/gradescope-autograder-for-python-assignments-from-scratch-dbb04d43c576?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:17:48.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.31874670284010365,
+      "crawledAt": "2026-07-01T11:29:14.706Z",
+      "id": "n28k6s",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9357247352600098,
+          "index": 7,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:29.556Z"
+    },
+    {
+      "title": "LangChain Deep Agents: Your Agent’s Filesystem Is a Decision. Most People Make It by Accident.",
+      "url": "https://pub.towardsai.net/langchain-deep-agents-your-agents-filesystem-is-a-decision-most-people-make-it-by-accident-deda52bb7774?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:17:30.000Z",
+      "metaDescription": "Part 4: Deep Agents gives every agent a filesystem, but where that filesystem actually lives is your call: in memory, on disk, in durable…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.32935239217715584,
+      "crawledAt": "2026-07-01T11:29:15.056Z",
+      "id": "wf82az",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9396092295646667,
+          "index": 1,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9483734369277954,
+          "index": 2,
+          "word": "##C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9018165469169617,
+          "index": 3,
+          "word": "##hai",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Part 4: Deep Agents gives every agent a filesystem, but where that filesystem actually lives is your call: in memory, on disk, in durable…Continue reading on Towards AI.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:52.300Z"
+    },
+    {
+      "title": "The Operating Model Was the Upgrade, Not the AI",
+      "url": "https://pub.towardsai.net/the-operating-model-was-the-upgrade-not-the-ai-9352aac95417?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:17:20.000Z",
+      "metaDescription": "",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.9741467654993059,
+      "crawledAt": "2026-07-01T11:29:15.122Z",
+      "id": "t3hq7q",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:35:52.401Z"
+    },
+    {
+      "title": "OpenAI Codex Knowledge Work Expansion: What Changed and When",
+      "url": "https://pub.towardsai.net/openai-codex-knowledge-work-expansion-what-changed-and-when-be22b4d9c94e?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T07:16:42.000Z",
+      "metaDescription": "From Coding Assistant to Knowledge-Work Platform: Codex’s June 2 Expansion Signals OpenAI’s Next AI Agent Bet\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.912880861936148,
+      "crawledAt": "2026-07-01T11:29:15.480Z",
+      "id": "lnx503",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9271158576011658,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9251207709312439,
+          "index": 4,
+          "word": "Codex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9818480610847473,
+          "index": 5,
+          "word": "Knowledge",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9620571732521057,
+          "index": 6,
+          "word": "Work",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " From Coding Assistant to Knowledge-Work Platform: Codex’s June 2 Expansion Signals OpenAI’'s Next AI Agent Bet.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:36:19.133Z"
+    },
+    {
+      "title": "This New AI Model Changes Everything",
+      "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T05:23:54.000Z",
+      "metaDescription": "",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.5378985389246955,
+      "crawledAt": "2026-07-01T11:29:34.196Z",
+      "id": "7af09s",
+      "entities": [],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:36:19.214Z"
+    },
     {
       "title": "BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation",
       "url": "https://arxiv.org/abs/2606.30850",
@@ -958,6 +1307,222 @@
       "processed_at": "2026-07-01T04:35:45.168Z"
     },
     {
+      "title": "From Search to Synthesis: Training LLMs as Zero-Shot Workflow Generators",
+      "url": "https://arxiv.org/abs/2606.30704",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30704v1 Announce Type: new \nAbstract: Large language models (LLMs) excel across a wide range of tasks, yet their instance-specific solutions often lack the structural consistency needed for",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.6840979993151229,
+      "crawledAt": "2026-07-01T11:30:07.953Z",
+      "id": "gtqt0o",
+      "entities": [],
+      "summary": "Large language models often lack the structural consistency needed for a large range of tasks. Large language models excel across a wide range of languages.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:36:59.961Z"
+    },
+    {
+      "title": "Hierarchical Global Attention",
+      "url": "https://arxiv.org/abs/2606.30709",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30709v1 Announce Type: new \nAbstract: Hierarchical Global Attention (HGA) is a drop-in replacement for dense causal attention in pretrained long-context transformers. HGA preserves the orig",
+      "category": "industry-news",
+      "difficulty": 6,
+      "confidence": 0.32478205109931657,
+      "crawledAt": "2026-07-01T11:30:08.373Z",
+      "id": "whoitk",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9452276229858398,
+          "index": 1,
+          "word": "Hi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9578622579574585,
+          "index": 4,
+          "word": "##ical",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9554626941680908,
+          "index": 5,
+          "word": "Global",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9704595804214478,
+          "index": 6,
+          "word": "At",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9159403443336487,
+          "index": 7,
+          "word": "##ten",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8163745999336243,
+          "index": 8,
+          "word": "##tion",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "HGA is a drop-in replacement for dense causal attention in pretrained long-context transformers. HGA preserves the orig.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:37:24.302Z"
+    },
+    {
+      "title": "ReactionAtlas: Ab origine exploration of chemical reaction networks with machine learning",
+      "url": "https://arxiv.org/abs/2606.30778",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30778v1 Announce Type: new \nAbstract: Mapping a chemical reaction network, the graph of minima and transition states (TS) and the elementary reactions connecting them, is the natural langua",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.7787146586251074,
+      "crawledAt": "2026-07-01T11:30:08.577Z",
+      "id": "nrhqat",
+      "entities": [],
+      "summary": " The graph of minima and transition states is the natural langua. arXiv:2606.30778v1.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:37:33.505Z"
+    },
+    {
+      "title": "Revocable Learned State via Process Sidecars",
+      "url": "https://arxiv.org/abs/2606.30788",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30788v1 Announce Type: new \nAbstract: Language models are often adapted in stages: a public skill phase, a private memory phase, and a later safety phase that learns to refuse outputs tied ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3828825936460945,
+      "crawledAt": "2026-07-01T11:30:08.764Z",
+      "id": "lk47np",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9652642011642456,
+          "index": 8,
+          "word": "Process",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8607819080352783,
+          "index": 9,
+          "word": "Side",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9662562012672424,
+          "index": 10,
+          "word": "##cars",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Language models are often adapted in stages: a public skill phase, a private memory phase, and a later safety phase.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:37:43.585Z"
+    },
+    {
+      "title": "Predictable GRPO: A Closed-Form Model of Training Dynamics",
+      "url": "https://arxiv.org/abs/2606.30789",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30789v1 Announce Type: new \nAbstract: Group Relative Policy Optimization (GRPO) has become a standard tool for improving the reasoning ability of large language models, yet its training dyn",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.28222467088090264,
+      "crawledAt": "2026-07-01T11:30:08.956Z",
+      "id": "5qt9yx",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.898133397102356,
+          "index": 16,
+          "word": "Dynamics",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new tool is a standard tool for improving the reasoning ability of large language models. The tool is used to improve the ability of language models.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:37:54.333Z"
+    },
+    {
+      "title": "Partition-Guided Distance Saliency: Bridging Decision and Objective Spaces in Many-Objective Optimization",
+      "url": "https://arxiv.org/abs/2606.30836",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30836v1 Announce Type: new \nAbstract: Explainability in Many-Objective Optimization (MaO) is currently hindered by the escalating complexity of the Pareto front, which renders the relations",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.2715663431966054,
+      "crawledAt": "2026-07-01T11:30:09.553Z",
+      "id": "23gl51",
+      "entities": [],
+      "summary": " The new version of the Pareto front is a new version. The new Pare to front is the first version of this version of a new product.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:38:28.923Z"
+    },
+    {
+      "title": "Behavior Cloning is Not All You Need: The Optimality of On-Policy Distillation for Noisy Expert Feedback",
+      "url": "https://arxiv.org/abs/2606.30923",
+      "source": "arXiv Machine Learning",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T04:00:00.000Z",
+      "metaDescription": "arXiv:2606.30923v1 Announce Type: new \nAbstract: Imitation Learning is a natural framework for learning in sequential decision-making systems and has emerged as the dominant paradigm through which we ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.4767872584730672,
+      "crawledAt": "2026-07-01T11:30:10.161Z",
+      "id": "rtuy7x",
+      "entities": [],
+      "summary": "Imitation Learning is a natural framework for learning in sequential decision-making systems. It has emerged as the dominant paradigm for learning.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:39:00.097Z"
+    },
+    {
       "title": "The “Father of the Internet” is finally retiring",
       "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
       "source": "TechCrunch AI",
@@ -1008,6 +1573,50 @@
       "summary": " Vinton Cerf will step down as Google's chief internet evangelist next week. Cerf is one of the creators of the protocols underlying the internet.",
       "language": "en",
       "processed_at": "2026-07-01T04:35:56.584Z"
+    },
+    {
+      "title": "The ‘Father of the Internet’ is finally retiring",
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-01T03:15:37.000Z",
+      "metaDescription": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3047849224201869,
+      "crawledAt": "2026-07-01T11:28:36.829Z",
+      "id": "ydjbmh",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8854125738143921,
+          "index": 4,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9179526567459106,
+          "index": 5,
+          "word": "the",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9454933404922485,
+          "index": 6,
+          "word": "Internet",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Vinton Cerf will step down as Google's chief internet evangelist next week. Cerf is one of the creators of the protocols underlying the internet.",
+      "language": "en",
+      "processed_at": "2026-07-01T11:39:23.641Z"
     },
     {
       "title": "Safely Releasing Frontier Models to Customers",
@@ -1584,20 +2193,21 @@
       "processed_at": "2026-07-01T04:39:48.408Z"
     }
   ],
-  "processedAt": "2026-07-01T04:39:48.415Z",
+  "processedAt": "2026-07-01T11:39:23.761Z",
   "categories": [
-    "creative-ai",
     "ai-agents",
-    "safety-ethics",
     "infrastructure",
+    "creative-ai",
     "model-release",
+    "safety-ethics",
     "tutorial-guide",
     "research-paper",
     "developer-tool",
+    "industry-news",
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 49,
-  "dailyArticlesCount": 49,
+  "newArticlesProcessed": 18,
+  "dailyArticlesCount": 67,
   "filterDate": "2026-07-01"
 }
