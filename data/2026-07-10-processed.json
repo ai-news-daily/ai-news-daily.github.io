@@ -1,9 +1,1448 @@
 {
-  "crawledAt": "2026-07-10T03:52:16.448Z",
+  "crawledAt": "2026-07-10T07:42:59.511Z",
   "totalSources": 70,
-  "totalArticles": 18,
+  "totalArticles": 71,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Someone tweeted after 3 years. About his model release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4ox/someone_tweeted_after_3_years_about_his_model/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T07:01:09.000Z",
+      "metaDescription": "Tweet\n Lets see this is gonna happen soon/later or not\n    submitted by    /u/pmttyji  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.9561835930870803,
+      "crawledAt": "2026-07-10T07:42:08.685Z",
+      "id": "h7a5hk",
+      "entities": [],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:43:01.544Z"
+    },
+    {
+      "title": "I built barebrowse: give a local-model agent a browser without Playwright — pruned ARIA snapshots instead of raw HTML",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4cq/i_built_barebrowse_give_a_localmodel_agent_a/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T07:00:43.000Z",
+      "metaDescription": "Author here, sharing something I built. If you run agents on a local model, feeding a whole page as raw HTML burns your context fast. barebrowse turns a URL into a pruned ARIA snapshot — the semantic ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2535213481665154,
+      "crawledAt": "2026-07-10T07:42:09.476Z",
+      "id": "fbn74o",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9439801573753357,
+          "index": 23,
+          "word": "ARIA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9547098875045776,
+          "index": 30,
+          "word": "H",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The URL turns a URL into a pruned ARIA snapshot. The semantic value of the URL is important to the user.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:43:12.187Z"
+    },
+    {
+      "title": "How AI Changes Solopreneurship",
+      "url": "https://pub.towardsai.net/how-ai-changes-solopreneurship-b4fa7c6cccd9?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T05:31:47.000Z",
+      "metaDescription": "How AI Is Changing Solopreneurship: Examples, Uses, Pros, Cons, and What’s Next\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.950391732613228,
+      "crawledAt": "2026-07-10T07:41:54.517Z",
+      "id": "kqw3m6",
+      "entities": [],
+      "summary": " How AI Is Changing Solopreneurship: Examples, Uses, Uses and Uses, Pros, Cons, and What’s Next.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:43:47.416Z"
+    },
+    {
+      "title": "Building an AI-Native Knowledge Base with Apache Jena",
+      "url": "https://pub.towardsai.net/building-an-ai-native-knowledge-base-with-apache-jena-77fbefe206f1?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T05:27:18.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.569943492413788,
+      "crawledAt": "2026-07-10T07:41:54.785Z",
+      "id": "26r68o",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8321019411087036,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9332907199859619,
+          "index": 9,
+          "word": "Apache",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9821879267692566,
+          "index": 10,
+          "word": "Jen",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:43:58.821Z"
+    },
+    {
+      "title": "How LLM Tool Calling Actually Works: Build an Agent From Scratch in 160 Lines of Python",
+      "url": "https://pub.towardsai.net/how-llm-tool-calling-actually-works-build-an-agent-from-scratch-in-160-lines-of-python-8df10d0e1109?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T05:27:05.000Z",
+      "metaDescription": "No LangChain. No CrewAI. Just the loop that every agent framework is hiding from you.\nContinue reading on Towards AI »",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.5684570470483784,
+      "crawledAt": "2026-07-10T07:41:54.936Z",
+      "id": "cu8m0a",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9610518217086792,
+          "index": 2,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8932700157165527,
+          "index": 21,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8142491579055786,
+          "index": 22,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " No LangChain. No CrewAI. Just the loop that every agent framework is hiding from you. No Langchain. No Lang Chain. No crewAI.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:44:09.873Z"
+    },
+    {
+      "title": "I Ran 5 AI Agents in Parallel on Tensorlake. The Isolation Held. Here Is How I Built It.",
+      "url": "https://pub.towardsai.net/i-ran-5-ai-agents-in-parallel-on-tensorlake-the-isolation-held-here-is-how-i-built-it-769384e046cf?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T05:25:58.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9414190966524586,
+      "crawledAt": "2026-07-10T07:41:55.093Z",
+      "id": "8cv7t8",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.8133841156959534,
+          "index": 12,
+          "word": "Ten",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:44:10.176Z"
+    },
+    {
+      "title": "Beyond Chatbots: The Ultimate Guide to Understanding Agentic AI From Scratch",
+      "url": "https://pub.towardsai.net/beyond-chatbots-the-ultimate-guide-to-understanding-agentic-ai-from-scratch-108c795dbf09?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T05:25:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9399078532673151,
+      "crawledAt": "2026-07-10T07:41:55.471Z",
+      "id": "4l9oku",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:44:26.241Z"
+    },
+    {
+      "title": "CEO: “token efficiency needs to drop 90%” Dude… just write “\\no_think” before you ‘summarize this email’ prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uscsin/ceo_token_efficiency_needs_to_drop_90_dude_just/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:02:22.000Z",
+      "metaDescription": "“token efficiency needs to drop to as much as 20% over the next 12 months, and 90% by the following year”\n    submitted by    /u/JLeonsarmiento  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2975895364326298,
+      "crawledAt": "2026-07-10T07:42:07.457Z",
+      "id": "qxvcno",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:44:57.428Z"
+    },
+    {
+      "title": "Context Graphs for Proactive Enterprise Agents",
+      "url": "https://arxiv.org/abs/2607.07721",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07721v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wa",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3660269881916043,
+      "crawledAt": "2026-07-10T07:42:30.611Z",
+      "id": "vayssk",
+      "entities": [],
+      "summary": " The new generation of agents will be able to make the most of the world's new technology. The next generation of AI will be more advanced than ever.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:45:07.710Z"
+    },
+    {
+      "title": "AI-integrated models for assessing agricultural resilience",
+      "url": "https://arxiv.org/abs/2607.07759",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07759v1 Announce Type: new \nAbstract: Agricultural supply chains are vulnerable to disruptions through linked biophysical and economic systems. We develop an AI-powered tool that integrates",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9921892984841099,
+      "crawledAt": "2026-07-10T07:42:30.783Z",
+      "id": "n3ekt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9971126914024353,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We develop an AI-powered tool that integrates AI- powered tools. We develop a tool that allows us to monitor and control our supply chains.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:45:18.274Z"
+    },
+    {
+      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "url": "https://arxiv.org/abs/2607.07761",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07761v1 Announce Type: new \nAbstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This sur",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.27910636912050146,
+      "crawledAt": "2026-07-10T07:42:31.188Z",
+      "id": "usv0kv",
+      "entities": [],
+      "summary": " Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:45:44.394Z"
+    },
+    {
+      "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+      "url": "https://arxiv.org/abs/2607.07766",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07766v1 Announce Type: new \nAbstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operati",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.37583850668384833,
+      "crawledAt": "2026-07-10T07:42:31.372Z",
+      "id": "6vu1up",
+      "entities": [],
+      "summary": " The new language models are designed to help people with mental health issues. They are also designed to make people feel better.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:45:53.627Z"
+    },
+    {
+      "title": "Infinity-Parser2 Technical Report",
+      "url": "https://arxiv.org/abs/2607.07836",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07836v1 Announce Type: new \nAbstract: We present Infinity-Parser2, a large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for en",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.46800728432416017,
+      "crawledAt": "2026-07-10T07:42:31.740Z",
+      "id": "3r6jxn",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8684285879135132,
+          "index": 1,
+          "word": "Infinity",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new model is called Infinity-Parser2. The model is based on a model that couples a series of events.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:46:13.560Z"
+    },
+    {
+      "title": "VectorizationLLM: Smart Vectorization Based AI Assistant",
+      "url": "https://arxiv.org/abs/2607.07846",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07846v1 Announce Type: new \nAbstract: VectorizationLLM is a specialized Large Language Model based on Google open-weight LLMs. The model is designed to assist students to learn smart vector",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.5813329753194644,
+      "crawledAt": "2026-07-10T07:42:31.928Z",
+      "id": "e6662k",
+      "entities": [],
+      "summary": " The model is designed to assist students to learn smart vector. The model was designed to help students learn smart vectors.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:46:21.128Z"
+    },
+    {
+      "title": "A Graph Neural Network Model for Real-Time Gesture Recognition Based on sEMG Signals",
+      "url": "https://arxiv.org/abs/2607.07850",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07850v1 Announce Type: new \nAbstract: For seemless control of advanced hand prostheses and augmented reality, accurate and immediate hand gestures recognition is essential. Surface electrom",
+      "category": "infrastructure",
+      "difficulty": 8,
+      "confidence": 0.7024036287939545,
+      "crawledAt": "2026-07-10T07:42:32.117Z",
+      "id": "rly8k1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9785585999488831,
+          "index": 2,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9717142581939697,
+          "index": 4,
+          "word": "##h",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9911808967590332,
+          "index": 5,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9859870672225952,
+          "index": 7,
+          "word": "##al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9914799928665161,
+          "index": 8,
+          "word": "Network",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8128473162651062,
+          "index": 13,
+          "word": "Time",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "For seemless control of advanced hand prostheses and augmented reality, accurate and immediate hand gestures recognition is essential. For seemless use of advanced prostheses, accurate hand gestures are essential.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:46:32.987Z"
+    },
+    {
+      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "url": "https://arxiv.org/abs/2607.07858",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07858v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, he",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9906686860157303,
+      "crawledAt": "2026-07-10T07:42:32.308Z",
+      "id": "zzlie",
+      "entities": [],
+      "summary": " Artificial Intelligence (AI) is beginning to reshape actuarial practice. The new technology is being developed to help people understand what is needed.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:46:42.642Z"
+    },
+    {
+      "title": "Nigeria Machinery: A Low-Resource Industrial Dataset with a Domain-Grounded Reasoning Layer",
+      "url": "https://arxiv.org/abs/2607.07883",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07883v1 Announce Type: new \nAbstract: There is relatively little, public, and model-ready data on industrial machinery for African economies. This makes it hard to do quantitative analysis ",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3154203588169983,
+      "crawledAt": "2026-07-10T07:42:32.681Z",
+      "id": "vrilsp",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9938201904296875,
+          "index": 1,
+          "word": "Nigeria",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " There is relatively little, public, and model-ready data on industrial machinery for African economies. This makes it hard to do quantitative analysis.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:47:04.446Z"
+    },
+    {
+      "title": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
+      "url": "https://arxiv.org/abs/2607.07916",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07916v1 Announce Type: new \nAbstract: Large language models exhibit recurring behavioural patterns -- personas -- that shape generalisation and safety, but we lack reliable tools for decomp",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3453007373613154,
+      "crawledAt": "2026-07-10T07:42:32.866Z",
+      "id": "8omdok",
+      "entities": [],
+      "summary": "Large language models exhibit recurring behavioural patterns, but we lack reliable tools for decomp. We lack reliable tool for decompression.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:47:14.641Z"
+    },
+    {
+      "title": "Agentic Neural Architecture Search",
+      "url": "https://arxiv.org/abs/2607.07984",
+      "source": "arXiv AI",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07984v1 Announce Type: new \nAbstract: Neural architecture search (NAS) methods have grown increasingly efficient, yet they remain bounded by manually engineered search spaces that require s",
+      "category": "infrastructure",
+      "difficulty": 8,
+      "confidence": 0.8301542595261979,
+      "crawledAt": "2026-07-10T07:42:33.235Z",
+      "id": "r03h0x",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9757553339004517,
+          "index": 1,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9503968358039856,
+          "index": 2,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9912611842155457,
+          "index": 3,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.976963460445404,
+          "index": 4,
+          "word": "##eur",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9837669134140015,
+          "index": 5,
+          "word": "##al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9760671854019165,
+          "index": 6,
+          "word": "Architecture",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9622745513916016,
+          "index": 7,
+          "word": "Search",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Neural architecture search is a form of search for a new type of search. It is a new form of searching for a form.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:47:34.361Z"
+    },
+    {
+      "title": "Adversarial Decoys: Misdirecting Attention-Based Defenses in ViT",
+      "url": "https://arxiv.org/abs/2607.07922",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07922v1 Announce Type: new \nAbstract: Vision Transformers (ViTs) remain vulnerable to localized adversarial attacks, e.g., adversarial patches, while recent test-time defenses mitigate them",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28857237482917814,
+      "crawledAt": "2026-07-10T07:42:41.130Z",
+      "id": "f9m2eu",
+      "entities": [],
+      "summary": "Vulnerable to adversarial attacks, e.g., adversarial patches, while recent test-time defenses mitigate them.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:48:16.231Z"
+    },
+    {
+      "title": "LOGOS: Language-guided Oriented Object Detection in Aerial Scenes",
+      "url": "https://arxiv.org/abs/2607.08004",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08004v1 Announce Type: new \nAbstract: Object detection in geospatial scenes, such as satellite and aerial imagery, poses significant challenges due to the varying orientations and densities",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3301856512979549,
+      "crawledAt": "2026-07-10T07:42:41.510Z",
+      "id": "i2aibz",
+      "entities": [],
+      "summary": " Object detection in geospatial scenes poses significant challenges, such as satellite and aerial imagery. The challenge is to find out where the objects are located.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:48:36.878Z"
+    },
+    {
+      "title": "FedTR: Federated Learning Framework with Transfer Learning for Industrial Visual Inspection",
+      "url": "https://arxiv.org/abs/2607.08014",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08014v1 Announce Type: new \nAbstract: Federated learning (FL) is a collaborative learning scheme to train deep learning models, where collaborating parties can consolidate their models with",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.4161454371820195,
+      "crawledAt": "2026-07-10T07:42:41.690Z",
+      "id": "6tnx23",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.834510862827301,
+          "index": 1,
+          "word": "Fed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9221206903457642,
+          "index": 4,
+          "word": "Fed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9900261759757996,
+          "index": 5,
+          "word": "##erated",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9918447136878967,
+          "index": 6,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9823340177536011,
+          "index": 7,
+          "word": "Framework",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9671164155006409,
+          "index": 13,
+          "word": "Visual",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9359985589981079,
+          "index": 14,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8577843308448792,
+          "index": 16,
+          "word": "##ion",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new project is called \"Federated learning\" and is a collaborative learning scheme. The project is based on the work of the University of Florida.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:48:47.945Z"
+    },
+    {
+      "title": "LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting",
+      "url": "https://arxiv.org/abs/2607.08016",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08016v1 Announce Type: new \nAbstract: Video relighting requires balancing long-form temporal consistency with a physically grounded understanding of light transport, which depends on accura",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2585320481961046,
+      "crawledAt": "2026-07-10T07:42:41.890Z",
+      "id": "kftr98",
+      "entities": [],
+      "summary": " Video relighting requires balancing long-form temporal consistency with a physically grounded understanding of light transport. Video relaying requires balancing short-term and long-term consistency.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:48:59.469Z"
+    },
+    {
+      "title": "APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts",
+      "url": "https://arxiv.org/abs/2607.08024",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08024v1 Announce Type: new \nAbstract: Long-horizon robot planning requires jointly reasoning over semantic task structure and geometric feasibility. To successfully execute a task, a robot ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.444507621070927,
+      "crawledAt": "2026-07-10T07:42:42.258Z",
+      "id": "vy7x5m",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8053009510040283,
+          "index": 11,
+          "word": "##lea",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A robot can successfully execute a task. To successfully execute the task, a robot must be able to do a task.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:49:20.663Z"
+    },
+    {
+      "title": "GRE-Diff: Gaussian Room Embeddings for Structured Layout Diffusion",
+      "url": "https://arxiv.org/abs/2607.08086",
+      "source": "arXiv Computer Vision",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08086v1 Announce Type: new \nAbstract: Designing functional and aesthetically coherent floor plans requires exploring a vast space of possible room arrangements, a task that quickly becomes ",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.2697767403565697,
+      "crawledAt": "2026-07-10T07:42:43.231Z",
+      "id": "kk51vv",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9748448133468628,
+          "index": 7,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8810042142868042,
+          "index": 8,
+          "word": "##aus",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.928902804851532,
+          "index": 9,
+          "word": "##sian",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Designing functional and aesthetically coherent floor plans requires exploring a vast space of possible room arrangements. Designing functional floor plans is a task that quickly becomes a task.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:50:12.950Z"
+    },
+    {
+      "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models",
+      "url": "https://arxiv.org/abs/2607.07772",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07772v1 Announce Type: new \nAbstract: In this age of social media, sites like Twitter have become meeting places for people to share their views and feelings on a wide range of issues and c",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.29052227846260614,
+      "crawledAt": "2026-07-10T07:42:46.256Z",
+      "id": "mpezf5",
+      "entities": [],
+      "summary": " Twitter has become a social media site for people to share their views on social media. Twitter is a popular place for people who share their opinions on social issues.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:50:23.372Z"
+    },
+    {
+      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+      "url": "https://arxiv.org/abs/2607.07820",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07820v1 Announce Type: new \nAbstract: Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajecto",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.5778065236955323,
+      "crawledAt": "2026-07-10T07:42:46.679Z",
+      "id": "544nb2",
+      "entities": [],
+      "summary": "Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajecto.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:50:46.148Z"
+    },
+    {
+      "title": "When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation",
+      "url": "https://arxiv.org/abs/2607.07937",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07937v1 Announce Type: new \nAbstract: Preprocessing-based methods for stereotype mitigation, such as pre-/post-training on debiased corpora, are widely used in NLP. While these approaches r",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2619514634729231,
+      "crawledAt": "2026-07-10T07:42:47.352Z",
+      "id": "7lnguk",
+      "entities": [],
+      "summary": " Preprocessing-based methods for stereotype mitigation, such as pre-/post-training on debiased corpora, are widely used in NLP.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:51:16.397Z"
+    },
+    {
+      "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.07976",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07976v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely us",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.2822350014740913,
+      "crawledAt": "2026-07-10T07:42:47.766Z",
+      "id": "vpyapm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8532177209854126,
+          "index": 25,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new language model is based on the language of large language models. The new model is designed to improve the understanding of large languages.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:51:34.160Z"
+    },
+    {
+      "title": "Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator",
+      "url": "https://arxiv.org/abs/2607.07993",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07993v1 Announce Type: new \nAbstract: Identifying faithfulness hallucinations in LLM-generated outputs remains challenging due to the scarcity of high-quality annotated data. Recent work re",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28089200537138515,
+      "crawledAt": "2026-07-10T07:42:48.153Z",
+      "id": "3vzh4j",
+      "entities": [],
+      "summary": " The scarcity of high-quality annotated data is challenging due to the scarcity of the high- quality annotated information.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:51:52.997Z"
+    },
+    {
+      "title": "Structured Pruning of Large Language Models via Power Transformation and Sign-Preserving Score Aggregation with Adaptive Feature Retention",
+      "url": "https://arxiv.org/abs/2607.08027",
+      "source": "arXiv Computation and Language",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08027v1 Announce Type: new \nAbstract: This paper proposes an improved structured pruning method for large language models (LLMs) that addresses key challenges in adapting Adaptive Feature R",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5529115362729277,
+      "crawledAt": "2026-07-10T07:42:49.019Z",
+      "id": "47jk8j",
+      "entities": [],
+      "summary": " The paper proposes an improved pruning method for large language models. It addresses key challenges in adapting Adaptive Feature R.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:52:33.920Z"
+    },
+    {
+      "title": "fog: Expressing Motion and Emotion through Function Composition of AI-Generated Code",
+      "url": "https://arxiv.org/abs/2607.07952",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07952v1 Announce Type: new \nAbstract: Motion and emotion are core parts of intelligent, expressive behavior. In this paper, we introduce fog, a function composition framework for implementi",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.29552325190508505,
+      "crawledAt": "2026-07-10T07:42:37.586Z",
+      "id": "v62iz8",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9853942394256592,
+          "index": 14,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "In this paper, we introduce fog, a function composition framework for implementi. In this paper we introduce a framework for implementingi.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:52:51.124Z"
+    },
+    {
+      "title": "How Analysts Use AI in High-Stakes Crime Linkage: An Industrial Study",
+      "url": "https://arxiv.org/abs/2607.08274",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08274v1 Announce Type: new \nAbstract: Crime linkage analysis is used in many countries to identify series of offences that may have been committed by the same individual. In practice, speci",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.3977141457019174,
+      "crawledAt": "2026-07-10T07:42:38.166Z",
+      "id": "9kfnqc",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9223666191101074,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9315336346626282,
+          "index": 10,
+          "word": "Stakes",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Crime linkage analysis is used in many countries to identify series of offences that may have been committed by the same person.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:53:17.641Z"
+    },
+    {
+      "title": "ImputeViz: A Visual Analytics Dashboard for Diagnosing Missing Data and Comparing Imputation Methods",
+      "url": "https://arxiv.org/abs/2607.08579",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08579v1 Announce Type: new \nAbstract: Missing data is a persistent obstacle in scientific, social science, and public health research, often biasing analyses and placing accountability on a",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.37174671362818384,
+      "crawledAt": "2026-07-10T07:42:38.363Z",
+      "id": "bt2jlu",
+      "entities": [],
+      "summary": "Missing data is a persistent obstacle in scientific, social science, and public health research, often biasing analyses and placing accountability on a person.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:53:26.767Z"
+    },
+    {
+      "title": "Sculptable Mesh Structures for Room-Scale Form-Finding",
+      "url": "https://arxiv.org/abs/2607.08736",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08736v1 Announce Type: new \nAbstract: It can be hard to design a physical structure entirely within the confines of a computer monitor. To better capture the interplay between real-world ob",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.7641633403970313,
+      "crawledAt": "2026-07-10T07:42:38.763Z",
+      "id": "8gbgkp",
+      "entities": [],
+      "summary": " The structure is designed to be within the confines of a computer monitor. The structure can be hard to design. To better capture the interplay between real-world and real-life.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:53:47.828Z"
+    },
+    {
+      "title": "LEXIC: Lightweight Eye-tracking eXtension via Injected Complexity",
+      "url": "https://arxiv.org/abs/2607.08152",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08152v1 Announce Type: cross \nAbstract: On the recent EyeBench benchmark, predicting reading comprehension from eye movements exposes a stark gap: text-aware models using pretrained languag",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3094516626183958,
+      "crawledAt": "2026-07-10T07:42:39.319Z",
+      "id": "fus4r1",
+      "entities": [],
+      "summary": "On the Eyebench, the eye-reading tool is used to predict reading comprehension from eye movements. The Eyebench is based on a study of eye movements.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:53:58.862Z"
+    },
+    {
+      "title": "Simulating the Resident: Generating Executable Smart Home Schedules via LLM Personas",
+      "url": "https://arxiv.org/abs/2607.08231",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08231v1 Announce Type: cross \nAbstract: Smart homes have emerged as an important domain for HCI research, including work on usable security and privacy. Ideally, studies in these areas draw",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.36483854404403226,
+      "crawledAt": "2026-07-10T07:42:39.513Z",
+      "id": "7461dw",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9692403078079224,
+          "index": 17,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9150443077087402,
+          "index": 19,
+          "word": "Person",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "HCI has emerged as an important domain for HCI research, including work on usable security and privacy. These areas draw attention to work on security and security.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:54:08.568Z"
+    },
+    {
+      "title": "AutoPersonas: A Multi-Timescale Loop Engine for Open-Ended Persona Evolution",
+      "url": "https://arxiv.org/abs/2607.08252",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08252v1 Announce Type: cross \nAbstract: Long-term persona agents must remain identifiable while adapting to new events, relationships, evidence, and social conditions. We identify self-lock",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3828467663232922,
+      "crawledAt": "2026-07-10T07:42:39.707Z",
+      "id": "tyiwyq",
+      "entities": [],
+      "summary": " Long-term persona agents must remain identifiable while adapting to new events, relationships, evidence, and social conditions. We identify self-lock.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:54:17.895Z"
+    },
+    {
+      "title": "VEGAS: Human-Aligned Video Caption Evaluation via Gaze",
+      "url": "https://arxiv.org/abs/2607.08489",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08489v1 Announce Type: cross \nAbstract: Vision-language models excel at video captioning, yet typically generate descriptions that fail to capture individual viewers' attention. We propose ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.30011321701761895,
+      "crawledAt": "2026-07-10T07:42:40.089Z",
+      "id": "8flgmj",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8491129875183105,
+          "index": 5,
+          "word": "Human",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8186978101730347,
+          "index": 7,
+          "word": "Ali",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9222883582115173,
+          "index": 8,
+          "word": "##gned",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8832786083221436,
+          "index": 14,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We propose a new way to use video captioning. We propose the new way of using video captioners. We also propose a way to capture individual viewers' attention.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:54:37.071Z"
+    },
+    {
+      "title": "Federated Deep Learning for Privacy-Preserving Cardiovascular Disease Risk Prediction",
+      "url": "https://arxiv.org/abs/2607.08595",
+      "source": "arXiv Human-Computer Interaction",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08595v1 Announce Type: cross \nAbstract: Cardiovascular disease risk prediction models often rely on data from a single institution or centrally pooled datasets. Extending these models acros",
+      "category": "tutorial-guide",
+      "difficulty": 8,
+      "confidence": 0.40977889269451245,
+      "crawledAt": "2026-07-10T07:42:40.269Z",
+      "id": "71dr8j",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9543547630310059,
+          "index": 1,
+          "word": "Fed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9769174456596375,
+          "index": 2,
+          "word": "##erated",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9188520908355713,
+          "index": 3,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9771221876144409,
+          "index": 4,
+          "word": "Learning",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9714736938476562,
+          "index": 14,
+          "word": "Card",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9499855041503906,
+          "index": 15,
+          "word": "##iovascular",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9797816872596741,
+          "index": 16,
+          "word": "Disease",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Cardiovascular disease risk prediction models often rely on data from a single institution or centrally pooled datasets. Extending these models acros. arXiv:2607.08595v1 Announce Type: cross-cancer risk prediction model.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:54:52.975Z"
+    },
+    {
+      "title": "PERFOPT-Bench: Evaluating Coding Agents on Software Performance Optimization",
+      "url": "https://arxiv.org/abs/2607.07744",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07744v1 Announce Type: new \nAbstract: Coding-agent benchmarks have largely measured whether agents can produce functionally correct patches, but production software also demands measurable ",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.8854997092938997,
+      "crawledAt": "2026-07-10T07:42:43.637Z",
+      "id": "sdh2oq",
+      "entities": [],
+      "summary": " Coding-agent benchmarks have largely measured whether agents can produce functionally correct patches. Production software also demands measurable results.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:55:08.726Z"
+    },
+    {
+      "title": "Functional and Secure Code Generation with Task Vectors",
+      "url": "https://arxiv.org/abs/2607.07881",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07881v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for code generation, but they struggle to generate functional code free of security vulnerabilities.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.27419629398653045,
+      "crawledAt": "2026-07-10T07:42:43.814Z",
+      "id": "x4tnfz",
+      "entities": [],
+      "summary": " Large language models (LLMs) are increasingly used for code generation. They struggle to generate functional code free of security vulnerabilities.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:55:18.508Z"
+    },
+    {
+      "title": "The Memory Wall of Green Software: Empirical Energy Evaluation of Memento Design Pattern",
+      "url": "https://arxiv.org/abs/2607.07944",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07944v1 Announce Type: new \nAbstract: As Green Software Engineering matures, energy efficiency has transitioned into a mission-critical non-functional requirement. While software design pat",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.4362853873273709,
+      "crawledAt": "2026-07-10T07:42:44.177Z",
+      "id": "6ulm5h",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9150128960609436,
+          "index": 3,
+          "word": "Wall",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9645910263061523,
+          "index": 4,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9129011034965515,
+          "index": 5,
+          "word": "Green",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8583984971046448,
+          "index": 6,
+          "word": "Software",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "As Green Software Engineering matures, energy efficiency has transitioned into a mission-critical non-functional requirement. While software design pat pat pat- pat pat, software design is still a requirement.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:55:38.358Z"
+    },
+    {
+      "title": "DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks",
+      "url": "https://arxiv.org/abs/2607.07946",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07946v1 Announce Type: new \nAbstract: DeepSWE is a benchmark of 113 original, long-horizon software engineering tasks for evaluating coding agents. Most public agentic coding benchmarks fol",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2684272228662356,
+      "crawledAt": "2026-07-10T07:42:44.375Z",
+      "id": "2llvus",
+      "entities": [],
+      "summary": " The new version of DeepSWE is a benchmark of 113 original, long-horizon software engineering tasks for evaluating coding agents.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:55:48.662Z"
+    },
+    {
+      "title": "3100 Opinions on Code Review in an AI World: Building Causal Theory from Practitioner Discourse",
+      "url": "https://arxiv.org/abs/2607.07980",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.07980v1 Announce Type: new \nAbstract: Coding agents now author entire pull requests, and practitioners sharply disagree about what this does to code review: whether it becomes the bottlenec",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.32587063002578115,
+      "crawledAt": "2026-07-10T07:42:44.565Z",
+      "id": "5k8ows",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9460723400115967,
+          "index": 7,
+          "word": "Code",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9847353100776672,
+          "index": 8,
+          "word": "Review",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9789854288101196,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9226952195167542,
+          "index": 12,
+          "word": "World",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9369034171104431,
+          "index": 15,
+          "word": "C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9731612205505371,
+          "index": 18,
+          "word": "Theory",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Coding agents now author entire pull requests for pull requests. Coding agents are now responsible for all pull requests.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:55:57.826Z"
+    },
+    {
+      "title": "Aleena: Alignment Agent for Research Software Engineering Collaborations",
+      "url": "https://arxiv.org/abs/2607.08043",
+      "source": "arXiv Software Engineering",
+      "source_domain": "arxiv.org",
+      "source_category": "research",
+      "source_priority": "low",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "metaDescription": "arXiv:2607.08043v1 Announce Type: new \nAbstract: Research software collaborations span meetings, informal chats, pull requests, and GitHub issues. A decision surfaced in a Slack thread, refined in a m",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.32642296341702765,
+      "crawledAt": "2026-07-10T07:42:44.917Z",
+      "id": "st2srb",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9513893127441406,
+          "index": 1,
+          "word": "Al",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8893799781799316,
+          "index": 10,
+          "word": "Research",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9035916328430176,
+          "index": 11,
+          "word": "Software",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9129509329795837,
+          "index": 12,
+          "word": "Engineering",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A decision surfaced in a Slack thread, refined in a m.m. arXiv:2607.08043v1.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:56:19.456Z"
+    },
     {
       "title": "I Wish Someone Had Told Me This Before I Learned Python",
       "url": "https://python.plainenglish.io/i-wish-someone-had-told-me-this-before-i-learned-python-f65406dc2cb2?source=rss----78073def27b8---4",
@@ -69,6 +1508,66 @@
       "processed_at": "2026-07-10T03:52:41.729Z"
     },
     {
+      "title": "Meta are apparently working on an open source variant of Muse Spark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usbfz3/meta_are_apparently_working_on_an_open_source/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-10T02:56:53.000Z",
+      "metaDescription": "No real details or timescales yet, but this article has confirmation from Alexandr Wang that Meta are working on an open source variant of Muse Spark. One to keep an eye on.\n https://www.cnbc.com/2026",
+      "category": "developer-tool",
+      "difficulty": 6,
+      "confidence": 0.32591444662271246,
+      "crawledAt": "2026-07-10T07:42:07.655Z",
+      "id": "vy7hed",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9983099699020386,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.980749249458313,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9191663861274719,
+          "index": 12,
+          "word": "Muse",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9908065795898438,
+          "index": 13,
+          "word": "Spa",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.970395028591156,
+          "index": 14,
+          "word": "##rk",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Alexandr Wang says Meta are working on an open source variant of Muse Spark. No real details or timescales yet, but this article has confirmation from Alexandr. Wang.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:57:26.962Z"
+    },
+    {
       "title": "I HAVE NO WORDS",
       "url": "https://www.reddit.com/r/ChatGPT/comments/1usayay/i_have_no_words/",
       "source": "r/ChatGPT",
@@ -124,6 +1623,126 @@
       "summary": " A no-framework tour of the loop, the protocol, and the production gap hiding underneath every ‘agentic’ product you’ve used this year.",
       "language": "en",
       "processed_at": "2026-07-10T03:53:29.201Z"
+    },
+    {
+      "title": "ChatGPT Work | How NVIDIA Scales GTM with AI",
+      "url": "https://www.youtube.com/watch?v=xYVfknDQHU4",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-09T22:30:40.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6909629122900943,
+      "crawledAt": "2026-07-10T07:42:17.243Z",
+      "id": "m52vyi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8453179597854614,
+          "index": 8,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8535980582237244,
+          "index": 10,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8271535038948059,
+          "index": 11,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:24.523Z"
+    },
+    {
+      "title": "ChatGPT Work | NVIDIA’s GTM Team Uses AI to Scale Faster",
+      "url": "https://www.youtube.com/shorts/Cb0N8Pnja30",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-09T22:30:35.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.4560701626700885,
+      "crawledAt": "2026-07-10T07:42:17.326Z",
+      "id": "k86uwa",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9964871406555176,
+          "index": 7,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.840985119342804,
+          "index": 8,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.993407666683197,
+          "index": 9,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9703329205513,
+          "index": 10,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.987917423248291,
+          "index": 13,
+          "word": "GT",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9222243428230286,
+          "index": 14,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9538334012031555,
+          "index": 15,
+          "word": "Team",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:24.694Z"
     },
     {
       "title": "OpenAI launches its new family of models with GPT-5.6",
@@ -293,6 +1912,34 @@
       "processed_at": "2026-07-10T03:54:45.689Z"
     },
     {
+      "title": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-09T21:26:10.000Z",
+      "metaDescription": "https://preview.redd.it/v0xtn3jdu9ch1.png?width=2047&format=png&auto=webp&s=628a6a541fe5f097d0f771ae0ba3b7f44126198f\n https://preview.redd.it/vjxiucsdu9ch1.png?width=2047&format=png&auto=webp&s=74f7a1",
+      "category": "infrastructure",
+      "difficulty": 7,
+      "confidence": 0.3696464325615206,
+      "crawledAt": "2026-07-10T07:42:08.356Z",
+      "id": "ox786h",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9001045823097229,
+          "index": 7,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:25.061Z"
+    },
+    {
       "title": "OpenAI wants its new tool to do your work for you and with you",
       "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
       "source": "Ars Technica",
@@ -373,6 +2020,34 @@
       "summary": " There is literally no practical difference between codex and codex. Christ almighty, this is so bad! What is even the difference?",
       "language": "en",
       "processed_at": "2026-07-10T03:55:28.319Z"
+    },
+    {
+      "title": "6x MI50's vs 6 P40's running MiniMax M2.7 REAP 139B Q3_K_L",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urymln/6x_mi50s_96gb_vs_6_p40s_144gb_running_minimax_m27/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-09T18:25:31.000Z",
+      "metaDescription": "Hey Guys,\n As promised here are the results from running MiniMax M2.7 REAP 139B Q3_K_L on llama-bench on 6x MI50's.\n Memory Load:\n https://preview.redd.it/7tp1nhrl79ch1.png?width=1628&format=png&auto=",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.32708319075508835,
+      "crawledAt": "2026-07-10T07:42:10.996Z",
+      "id": "rwq1ta",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8387337923049927,
+          "index": 15,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:25.265Z"
     },
     {
       "title": "Soooo what does this one say about me?",
@@ -495,6 +2170,25 @@
       "processed_at": "2026-07-10T03:55:57.745Z"
     },
     {
+      "title": "Modular Pretraining Enables Access Control",
+      "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2026-07-09T00:03:25.000Z",
+      "metaDescription": "Full author list: Ethan Roland*, Murat Cubuktepe*, Erick Martinez*, Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; *Equal contr",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5552033628654125,
+      "crawledAt": "2026-07-10T07:41:41.589Z",
+      "id": "ykmgl6",
+      "entities": [],
+      "summary": "Equal contr. Full author list: Ethan Roland, Murat Cubuktepe, Erick Martinez, Stijn Serves, Keenan Pepper, Keena Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote,",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:55.016Z"
+    },
+    {
       "title": "UST is bringing Claude to physical AI",
       "url": "https://www.anthropic.com/news/ust-claude",
       "source": "Anthropic News",
@@ -537,18 +2231,75 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-07-10T03:55:57.861Z"
+    },
+    {
+      "title": "DeepSeek's Absolutely Insane AI Speed Hack",
+      "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-07T16:33:29.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5087572271034136,
+      "crawledAt": "2026-07-10T07:42:14.621Z",
+      "id": "28eh12",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9968968033790588,
+          "index": 1,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9960564374923706,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.99427729845047,
+          "index": 3,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9755857586860657,
+          "index": 12,
+          "word": "Ha",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-10T07:58:55.111Z"
     }
   ],
-  "processedAt": "2026-07-10T03:56:12.058Z",
+  "processedAt": "2026-07-10T07:58:55.119Z",
   "categories": [
-    "creative-ai",
-    "ai-agents",
     "model-release",
+    "infrastructure",
+    "creative-ai",
+    "developer-tool",
+    "ai-agents",
+    "safety-ethics",
     "industry-news",
+    "research-paper",
+    "tutorial-guide",
     "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 18,
-  "dailyArticlesCount": 18,
+  "newArticlesProcessed": 53,
+  "dailyArticlesCount": 71,
   "filterDate": "2026-07-10"
 }
