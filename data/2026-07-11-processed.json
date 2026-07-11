@@ -1,9 +1,139 @@
 {
-  "crawledAt": "2026-07-11T17:04:41.072Z",
+  "crawledAt": "2026-07-11T20:58:49.742Z",
   "totalSources": 70,
-  "totalArticles": 44,
+  "totalArticles": 61,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Junior independent researcher in the field of artificial intelligence",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1uttwx2/junior_independent_researcher_in_the_field_of/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T19:53:58.000Z",
+      "metaDescription": "I am from an Arab country, and I want to publish my first research paper in the field of artificial intelligence, specifically in reinforcement learning, on arXiv. What advice do you have for me?\n    ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2716811840281325,
+      "crawledAt": "2026-07-11T20:58:08.354Z",
+      "id": "9zkyf1",
+      "entities": [],
+      "summary": " Arab-born author wants to publish first research paper in the field of artificial intelligence. He says he is from an Arab country.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:14.992Z"
+    },
+    {
+      "title": "Is it possible to run Qwen 122B in 64GB ram + 24gb vram ? If so, how ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uts3ly/is_it_possible_to_run_qwen_122b_in_64gb_ram_24gb/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:42:03.000Z",
+      "metaDescription": "Which settings would suffice to work with it ?\n    submitted by    /u/soyalemujica  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2584933354694166,
+      "crawledAt": "2026-07-11T20:58:02.812Z",
+      "id": "ojcc0u",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9798352718353271,
+          "index": 6,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8986873626708984,
+          "index": 7,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:15.150Z"
+    },
+    {
+      "title": "actual advice about SLM fine tuning?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utrwtk/actual_advice_about_slm_fine_tuning/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:34:47.000Z",
+      "metaDescription": "hello real people and less-real bots, i'd appreciate if any of you people who have fine-tuned (either full or peft) more than half a model could share your wisdom about fine-tuning. i know i can ask t",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.5402099629304027,
+      "crawledAt": "2026-07-11T20:58:04.622Z",
+      "id": "6mrs7x",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9732552170753479,
+          "index": 4,
+          "word": "SL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " i can ask you if you have a fine-tuned mind. i can't tell you what to do with your fine- Tuning.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:26.203Z"
+    },
+    {
+      "title": "Upgrading from 2x 3090 - what should I add?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utrk7f/upgrading_from_2x_3090_what_should_i_add_2x/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:21:18.000Z",
+      "metaDescription": "I'm in a position to upgrade from the classic dual 3090 setup to something that can run the next step up, eg 100-110GB+ model files.\n I've got an asus x299 ws pro and a 1600w PSU, with 128GB ram, and ",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.3389933417506574,
+      "crawledAt": "2026-07-11T20:58:05.043Z",
+      "id": "vm1cr9",
+      "entities": [],
+      "summary": " I've got an asus x299 ws pro and a 1600w PSU, with 128GB ram, and 128GB RAM. I'm in a position to upgrade from the classic dual 3090 setup to something that can run 100-110GB+ model files.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:52.685Z"
+    },
+    {
+      "title": "E2AM — measure energy, carbon, and accuracy-per-joule of PyTorch/Hugging Face training with two lines of code",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1utpl30/e2am_measure_energy_carbon_and_accuracyperjoule/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T17:06:34.000Z",
+      "metaDescription": "Hi all — I'm a PhD researcher working on Green AI, and I kept hitting the same wall: measuring what training actually costs (energy, carbon, joules per sample) meant stitching together CodeCarbon + nv",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.2644801154794796,
+      "crawledAt": "2026-07-11T20:58:08.193Z",
+      "id": "lt0tmx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8157400488853455,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The training actually costs (energy, carbon, joules per sample) meant stitching together CodeCarbon + nv.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:01.315Z"
+    },
     {
       "title": "7 Python Libraries That Make Development Surprisingly Enjoyable",
       "url": "https://python.plainenglish.io/7-python-libraries-that-make-development-surprisingly-enjoyable-6cae30abc537?source=rss----78073def27b8---4",
@@ -71,6 +201,34 @@
       "processed_at": "2026-07-11T17:05:39.220Z"
     },
     {
+      "title": "Forget typosquatting; slopsquatting is the software supply chain threat created by AI coding tools",
+      "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T16:00:00.000Z",
+      "metaDescription": "Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations. As developers increasingly rely on AI coding assistants, they unknowingly grant cybercriminals access to th",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.2849586709306264,
+      "crawledAt": "2026-07-11T20:57:26.314Z",
+      "id": "nklrjp",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9963155388832092,
+          "index": 21,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Developers increasingly rely on AI assistants, they unknowingly grant cybercriminals access to thinks. Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:12.827Z"
+    },
+    {
       "title": "The Numbers That Never Sleep: Building a $10,000/Month Solo Bookkeeping Business with Claude",
       "url": "https://pub.towardsai.net/the-numbers-that-never-sleep-building-a-10-000-month-solo-bookkeeping-business-with-claude-e90e319d2938?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -97,6 +255,34 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-07-11T17:05:39.387Z"
+    },
+    {
+      "title": "VultronRetriever family of models released on HuggingFace!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1utmxzg/vultronretriever_family_of_models_released_on/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T15:22:51.000Z",
+      "metaDescription": "submitted by    /u/madkimchi  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.5891559731763131,
+      "crawledAt": "2026-07-11T20:58:08.462Z",
+      "id": "i0moz1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9549722075462341,
+          "index": 13,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:12.949Z"
     },
     {
       "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
@@ -1369,6 +1555,25 @@
       "processed_at": "2026-07-11T03:20:18.724Z"
     },
     {
+      "title": "I'm an undergraduate studying ai, should I commit sewer slide?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usxu0g/im_an_undergraduate_studying_ai_should_i_commit/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T19:36:48.000Z",
+      "metaDescription": "I cant do this, im going to have to work a service job and get fat\n    submitted by    /u/AdValuable7835  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25661089084460365,
+      "crawledAt": "2026-07-11T20:58:09.638Z",
+      "id": "bcqrvw",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:24.202Z"
+    },
+    {
       "title": "Looking for Dual GPU Tips and tricks.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usxpog/looking_for_dual_gpu_tips_and_tricks/",
       "source": "r/LocalLLaMA",
@@ -1411,6 +1616,77 @@
       "summary": " Just added a second 5060 16gb to my server for 32gb VRAM. I get around 3200 tok/s prompt.",
       "language": "en",
       "processed_at": "2026-07-11T03:20:30.146Z"
+    },
+    {
+      "title": "I made a live visualizer for Anthropic's new \"Jacobian lens\" paper!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usxay0/i_made_a_live_visualizer_for_anthropics_new/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T19:16:46.000Z",
+      "metaDescription": "To preface: I know that this is not the only J-lens visualizer tool, but I have not found any for Deepseek. I'm still pretty new to the research world so I thought it'd be a cool project to tackle!\n L",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.7766389437729997,
+      "crawledAt": "2026-07-11T20:58:08.866Z",
+      "id": "989xus",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9415437579154968,
+          "index": 8,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8985404968261719,
+          "index": 10,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9884710907936096,
+          "index": 15,
+          "word": "Jacob",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8280162215232849,
+          "index": 16,
+          "word": "##ian",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Deepseek is a new J-lens visualizer tool. Deepseek will be a new project to tackle the research world.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:35.316Z"
+    },
+    {
+      "title": "Self taught, how to advance?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usu9sj/self_taught_how_to_advance/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T17:29:10.000Z",
+      "metaDescription": "https://github.com/neelbhattacharya80-creator?tab=repositories\n Hi first a little bit about me, I have been learning ML and Deep learning for the past 6 months. Initially I started with the math funda",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5991838927242418,
+      "crawledAt": "2026-07-11T20:58:09.060Z",
+      "id": "10n168",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:46.871Z"
     },
     {
       "title": "According to DataBricks, pi-coding-agent is ~2x cheaper than CC/Codex, GLM 5.2 on par with Opus 4.8 high",
@@ -1466,22 +1742,264 @@
       "summary": " HiLS-Attention is a chunk-wise attention mechanism that learns chunk selection end-to-end. It can be used to train people in the language of their language.",
       "language": "en",
       "processed_at": "2026-07-11T03:21:16.355Z"
+    },
+    {
+      "title": "I built a variational AE with pytorch/PIL! Here is the model framework.",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usj6dq/i_built_a_variational_ae_with_pytorchpil_here_is/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T09:57:42.000Z",
+      "metaDescription": "What do you think?\n    submitted by    /u/eLin22314341  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4768775093428757,
+      "crawledAt": "2026-07-11T20:58:09.307Z",
+      "id": "hwmzg7",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.057Z"
+    },
+    {
+      "title": "The Compiler Pioneer: The Brilliant Rear Admiral Who Taught Computers to Understand Human Language",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1uscxmb/the_compiler_pioneer_the_brilliant_rear_admiral/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:09:29.000Z",
+      "metaDescription": "Did you know?\n    submitted by    /u/ifysalabas  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.28426059630120815,
+      "crawledAt": "2026-07-11T20:58:10.287Z",
+      "id": "xn9mgl",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.869301438331604,
+          "index": 5,
+          "word": "Pioneer",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.323Z"
+    },
+    {
+      "title": "Where do you actually rent GPUs these days?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usbezt/where_do_you_actually_rent_gpus_these_days_h100/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T02:55:33.000Z",
+      "metaDescription": "submitted by    /u/Helios_dev  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3333384255103048,
+      "crawledAt": "2026-07-11T20:58:09.957Z",
+      "id": "1ro2lr",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.805939793586731,
+          "index": 6,
+          "word": "GP",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.464Z"
+    },
+    {
+      "title": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usa3l9/cognitive_thermodynamics_as_a_design_vehicle_a/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T01:54:54.000Z",
+      "metaDescription": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation\n [Richmond Quansah](mailto:richmondquansah03@gmail.com)\n Abstract\n \"Th",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2838175215707109,
+      "crawledAt": "2026-07-11T20:58:10.514Z",
+      "id": "v5hrw4",
+      "entities": [],
+      "summary": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:58.833Z"
+    },
+    {
+      "title": "Fine-Tuning PaliGemma 2 for Object Detection",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1us8iet/tutorial_finetuning_paligemma_2_for_object/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T00:42:31.000Z",
+      "metaDescription": "Fine-Tuning PaliGemma 2 for Object Detection\n https://debuggercafe.com/fine-tuning-paligemma-2-for-object-detection/\n In this article, we will be fine-tuning the PaliGemma 2 VLM for object detection. ",
+      "category": "safety-ethics",
+      "difficulty": 7,
+      "confidence": 0.4094869583249163,
+      "crawledAt": "2026-07-11T20:58:10.166Z",
+      "id": "4gljjp",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9760743379592896,
+          "index": 7,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9760549068450928,
+          "index": 9,
+          "word": "##ma",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Fine-Tuning PaliGemma 2 for Object Detection. In this article, we will be fine-tuning the Pali Gemma for object detection.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:10.800Z"
+    },
+    {
+      "title": "Skynet's greatest disappointment",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1ursj5w/skynets_greatest_disappointment/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-09T14:51:34.000Z",
+      "metaDescription": "submitted by    /u/KeanuRave100  \n [link]   [comments]",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.28310612812181735,
+      "crawledAt": "2026-07-11T20:58:10.603Z",
+      "id": "gboytv",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9965423345565796,
+          "index": 1,
+          "word": "Sky",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9931564927101135,
+          "index": 2,
+          "word": "##net",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:10.877Z"
+    },
+    {
+      "title": "Show r/deeplearning: I built Nanograd — an educational, PyTorch-like autograd engine from scratch",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1ursixa/show_rdeeplearning_i_built_nanograd_an/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-09T14:51:18.000Z",
+      "metaDescription": "Hey r/deeplearning!\n I wanted to share an open-source project I’ve been working on called Nanograd.\n If you’ve ever wanted to demystify how frameworks like PyTorch actually work under the hood—specifi",
+      "category": "developer-tool",
+      "difficulty": 7,
+      "confidence": 0.631366003384514,
+      "crawledAt": "2026-07-11T20:58:10.844Z",
+      "id": "xdm5yr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9225179553031921,
+          "index": 11,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8286592364311218,
+          "index": 12,
+          "word": "##og",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9659245014190674,
+          "index": 18,
+          "word": "P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8090899586677551,
+          "index": 19,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9548301696777344,
+          "index": 20,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9211813807487488,
+          "index": 21,
+          "word": "##or",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9190906882286072,
+          "index": 22,
+          "word": "##ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The open-source project is called Nanograd. The project is based on a project called PyTorch.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:19.970Z"
     }
   ],
-  "processedAt": "2026-07-11T17:08:06.381Z",
+  "processedAt": "2026-07-11T21:02:39.232Z",
   "categories": [
     "creative-ai",
     "infrastructure",
-    "developer-tool",
     "safety-ethics",
-    "ai-agents",
-    "industry-news",
-    "research-paper",
     "product-launch",
-    "model-release"
+    "developer-tool",
+    "ai-agents",
+    "model-release",
+    "industry-news",
+    "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 11,
-  "dailyArticlesCount": 44,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 61,
   "filterDate": "2026-07-11"
 }

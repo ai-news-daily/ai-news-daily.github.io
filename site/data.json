@@ -1,9 +1,139 @@
 {
-  "crawledAt": "2026-07-11T17:04:41.072Z",
+  "crawledAt": "2026-07-11T20:58:49.742Z",
   "totalSources": 70,
-  "totalArticles": 1586,
+  "totalArticles": 1589,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Junior independent researcher in the field of artificial intelligence",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1uttwx2/junior_independent_researcher_in_the_field_of/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T19:53:58.000Z",
+      "metaDescription": "I am from an Arab country, and I want to publish my first research paper in the field of artificial intelligence, specifically in reinforcement learning, on arXiv. What advice do you have for me?\n    ",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2716811840281325,
+      "crawledAt": "2026-07-11T20:58:08.354Z",
+      "id": "9zkyf1",
+      "entities": [],
+      "summary": " Arab-born author wants to publish first research paper in the field of artificial intelligence. He says he is from an Arab country.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:14.992Z"
+    },
+    {
+      "title": "Is it possible to run Qwen 122B in 64GB ram + 24gb vram ? If so, how ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uts3ly/is_it_possible_to_run_qwen_122b_in_64gb_ram_24gb/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:42:03.000Z",
+      "metaDescription": "Which settings would suffice to work with it ?\n    submitted by    /u/soyalemujica  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2584933354694166,
+      "crawledAt": "2026-07-11T20:58:02.812Z",
+      "id": "ojcc0u",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9798352718353271,
+          "index": 6,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8986873626708984,
+          "index": 7,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:15.150Z"
+    },
+    {
+      "title": "actual advice about SLM fine tuning?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utrwtk/actual_advice_about_slm_fine_tuning/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:34:47.000Z",
+      "metaDescription": "hello real people and less-real bots, i'd appreciate if any of you people who have fine-tuned (either full or peft) more than half a model could share your wisdom about fine-tuning. i know i can ask t",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.5402099629304027,
+      "crawledAt": "2026-07-11T20:58:04.622Z",
+      "id": "6mrs7x",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9732552170753479,
+          "index": 4,
+          "word": "SL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " i can ask you if you have a fine-tuned mind. i can't tell you what to do with your fine- Tuning.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:26.203Z"
+    },
+    {
+      "title": "Upgrading from 2x 3090 - what should I add?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utrk7f/upgrading_from_2x_3090_what_should_i_add_2x/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-11T18:21:18.000Z",
+      "metaDescription": "I'm in a position to upgrade from the classic dual 3090 setup to something that can run the next step up, eg 100-110GB+ model files.\n I've got an asus x299 ws pro and a 1600w PSU, with 128GB ram, and ",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.3389933417506574,
+      "crawledAt": "2026-07-11T20:58:05.043Z",
+      "id": "vm1cr9",
+      "entities": [],
+      "summary": " I've got an asus x299 ws pro and a 1600w PSU, with 128GB ram, and 128GB RAM. I'm in a position to upgrade from the classic dual 3090 setup to something that can run 100-110GB+ model files.",
+      "language": "en",
+      "processed_at": "2026-07-11T20:59:52.685Z"
+    },
+    {
+      "title": "E2AM — measure energy, carbon, and accuracy-per-joule of PyTorch/Hugging Face training with two lines of code",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1utpl30/e2am_measure_energy_carbon_and_accuracyperjoule/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T17:06:34.000Z",
+      "metaDescription": "Hi all — I'm a PhD researcher working on Green AI, and I kept hitting the same wall: measuring what training actually costs (energy, carbon, joules per sample) meant stitching together CodeCarbon + nv",
+      "category": "safety-ethics",
+      "difficulty": 5,
+      "confidence": 0.2644801154794796,
+      "crawledAt": "2026-07-11T20:58:08.193Z",
+      "id": "lt0tmx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8157400488853455,
+          "index": 1,
+          "word": "E",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The training actually costs (energy, carbon, joules per sample) meant stitching together CodeCarbon + nv.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:01.315Z"
+    },
     {
       "title": "7 Python Libraries That Make Development Surprisingly Enjoyable",
       "url": "https://python.plainenglish.io/7-python-libraries-that-make-development-surprisingly-enjoyable-6cae30abc537?source=rss----78073def27b8---4",
@@ -71,6 +201,34 @@
       "processed_at": "2026-07-11T17:05:39.220Z"
     },
     {
+      "title": "Forget typosquatting; slopsquatting is the software supply chain threat created by AI coding tools",
+      "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T16:00:00.000Z",
+      "metaDescription": "Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations. As developers increasingly rely on AI coding assistants, they unknowingly grant cybercriminals access to th",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.2849586709306264,
+      "crawledAt": "2026-07-11T20:57:26.314Z",
+      "id": "nklrjp",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9963155388832092,
+          "index": 21,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Developers increasingly rely on AI assistants, they unknowingly grant cybercriminals access to thinks. Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:12.827Z"
+    },
+    {
       "title": "The Numbers That Never Sleep: Building a $10,000/Month Solo Bookkeeping Business with Claude",
       "url": "https://pub.towardsai.net/the-numbers-that-never-sleep-building-a-10-000-month-solo-bookkeeping-business-with-claude-e90e319d2938?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -97,6 +255,34 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-07-11T17:05:39.387Z"
+    },
+    {
+      "title": "VultronRetriever family of models released on HuggingFace!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1utmxzg/vultronretriever_family_of_models_released_on/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-11T15:22:51.000Z",
+      "metaDescription": "submitted by    /u/madkimchi  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.5891559731763131,
+      "crawledAt": "2026-07-11T20:58:08.462Z",
+      "id": "i0moz1",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9549722075462341,
+          "index": 13,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:12.949Z"
     },
     {
       "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
@@ -1585,6 +1771,25 @@
       "processed_at": "2026-07-10T21:13:30.203Z"
     },
     {
+      "title": "I'm an undergraduate studying ai, should I commit sewer slide?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usxu0g/im_an_undergraduate_studying_ai_should_i_commit/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T19:36:48.000Z",
+      "metaDescription": "I cant do this, im going to have to work a service job and get fat\n    submitted by    /u/AdValuable7835  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25661089084460365,
+      "crawledAt": "2026-07-11T20:58:09.638Z",
+      "id": "bcqrvw",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:24.202Z"
+    },
+    {
       "title": "Looking for Dual GPU Tips and tricks.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usxpog/looking_for_dual_gpu_tips_and_tricks/",
       "source": "r/LocalLLaMA",
@@ -1679,6 +1884,58 @@
       "summary": " The children who get a combination shot are some of the most vulnerable. Some of the children who receive a combination shots are vulnerable.",
       "language": "en",
       "processed_at": "2026-07-10T21:13:58.445Z"
+    },
+    {
+      "title": "I made a live visualizer for Anthropic's new \"Jacobian lens\" paper!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usxay0/i_made_a_live_visualizer_for_anthropics_new/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T19:16:46.000Z",
+      "metaDescription": "To preface: I know that this is not the only J-lens visualizer tool, but I have not found any for Deepseek. I'm still pretty new to the research world so I thought it'd be a cool project to tackle!\n L",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.7766389437729997,
+      "crawledAt": "2026-07-11T20:58:08.866Z",
+      "id": "989xus",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9415437579154968,
+          "index": 8,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8985404968261719,
+          "index": 10,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9884710907936096,
+          "index": 15,
+          "word": "Jacob",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8280162215232849,
+          "index": 16,
+          "word": "##ian",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Deepseek is a new J-lens visualizer tool. Deepseek will be a new project to tackle the research world.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:35.316Z"
     },
     {
       "title": "Running OpenWiki for Real: Why the Model You Pick Decides Everything",
@@ -1821,6 +2078,25 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-07-10T21:14:31.468Z"
+    },
+    {
+      "title": "Self taught, how to advance?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usu9sj/self_taught_how_to_advance/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T17:29:10.000Z",
+      "metaDescription": "https://github.com/neelbhattacharya80-creator?tab=repositories\n Hi first a little bit about me, I have been learning ML and Deep learning for the past 6 months. Initially I started with the math funda",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5991838927242418,
+      "crawledAt": "2026-07-11T20:58:09.060Z",
+      "id": "10n168",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:46.871Z"
     },
     {
       "title": "Any thoughts on this robot picking objects off a moving conveyor belt at 1x?",
@@ -3647,6 +3923,25 @@
       "processed_at": "2026-07-10T14:45:36.599Z"
     },
     {
+      "title": "I built a variational AE with pytorch/PIL! Here is the model framework.",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usj6dq/i_built_a_variational_ae_with_pytorchpil_here_is/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T09:57:42.000Z",
+      "metaDescription": "What do you think?\n    submitted by    /u/eLin22314341  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4768775093428757,
+      "crawledAt": "2026-07-11T20:58:09.307Z",
+      "id": "hwmzg7",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.057Z"
+    },
+    {
       "title": "How fast can I get a voice assistant to respond without a GPU? Qwen3-ASR and Kokoro-TTS ONNX on CPU.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usiino/how_fast_can_i_get_a_voice_assistant_to_respond/",
       "source": "r/LocalLLaMA",
@@ -4271,6 +4566,34 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-07-10T07:44:26.241Z"
+    },
+    {
+      "title": "The Compiler Pioneer: The Brilliant Rear Admiral Who Taught Computers to Understand Human Language",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1uscxmb/the_compiler_pioneer_the_brilliant_rear_admiral/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T04:09:29.000Z",
+      "metaDescription": "Did you know?\n    submitted by    /u/ifysalabas  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.28426059630120815,
+      "crawledAt": "2026-07-11T20:58:10.287Z",
+      "id": "xn9mgl",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.869301438331604,
+          "index": 5,
+          "word": "Pioneer",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.323Z"
     },
     {
       "title": "CEO: “token efficiency needs to drop 90%” Dude… just write “\\no_think” before you ‘summarize this email’ prompts",
@@ -5955,6 +6278,34 @@
       "processed_at": "2026-07-10T07:57:26.962Z"
     },
     {
+      "title": "Where do you actually rent GPUs these days?",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usbezt/where_do_you_actually_rent_gpus_these_days_h100/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T02:55:33.000Z",
+      "metaDescription": "submitted by    /u/Helios_dev  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3333384255103048,
+      "crawledAt": "2026-07-11T20:58:09.957Z",
+      "id": "1ro2lr",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.805939793586731,
+          "index": 6,
+          "word": "GP",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:47.464Z"
+    },
+    {
       "title": "I HAVE NO WORDS",
       "url": "https://www.reddit.com/r/ChatGPT/comments/1usayay/i_have_no_words/",
       "source": "r/ChatGPT",
@@ -5993,6 +6344,25 @@
       "processed_at": "2026-07-10T17:56:57.345Z"
     },
     {
+      "title": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1usa3l9/cognitive_thermodynamics_as_a_design_vehicle_a/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T01:54:54.000Z",
+      "metaDescription": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation\n [Richmond Quansah](mailto:richmondquansah03@gmail.com)\n Abstract\n \"Th",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2838175215707109,
+      "crawledAt": "2026-07-11T20:58:10.514Z",
+      "id": "v5hrw4",
+      "entities": [],
+      "summary": "Cognitive Thermodynamics as a Design Vehicle: A Validated Thermodynamic Sequence Architecture for Conditioned Dialogue Generation.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:01:58.833Z"
+    },
+    {
       "title": "GPT-Joes... so much fun to create",
       "url": "https://www.reddit.com/r/ChatGPT/comments/1us9yc7/gptjoes_so_much_fun_to_create/",
       "source": "r/ChatGPT",
@@ -6010,6 +6380,42 @@
       "summary": "Discussion about AI models and tools mentioned in the title.",
       "language": "en",
       "processed_at": "2026-07-10T03:52:41.953Z"
+    },
+    {
+      "title": "Fine-Tuning PaliGemma 2 for Object Detection",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1us8iet/tutorial_finetuning_paligemma_2_for_object/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-10T00:42:31.000Z",
+      "metaDescription": "Fine-Tuning PaliGemma 2 for Object Detection\n https://debuggercafe.com/fine-tuning-paligemma-2-for-object-detection/\n In this article, we will be fine-tuning the PaliGemma 2 VLM for object detection. ",
+      "category": "safety-ethics",
+      "difficulty": 7,
+      "confidence": 0.4094869583249163,
+      "crawledAt": "2026-07-11T20:58:10.166Z",
+      "id": "4gljjp",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9760743379592896,
+          "index": 7,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9760549068450928,
+          "index": 9,
+          "word": "##ma",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Fine-Tuning PaliGemma 2 for Object Detection. In this article, we will be fine-tuning the Pali Gemma for object detection.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:10.800Z"
     },
     {
       "title": "What Actually Makes an AI Agent an Agent: Building One From Zero to See the Machinery",
@@ -7487,6 +7893,118 @@
       "summary": " Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also reinforces how much of your daily work now depends on Anthropic’'s chatbot.",
       "language": "en",
       "processed_at": "2026-07-09T15:23:40.351Z"
+    },
+    {
+      "title": "Skynet's greatest disappointment",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1ursj5w/skynets_greatest_disappointment/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-09T14:51:34.000Z",
+      "metaDescription": "submitted by    /u/KeanuRave100  \n [link]   [comments]",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.28310612812181735,
+      "crawledAt": "2026-07-11T20:58:10.603Z",
+      "id": "gboytv",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9965423345565796,
+          "index": 1,
+          "word": "Sky",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9931564927101135,
+          "index": 2,
+          "word": "##net",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:10.877Z"
+    },
+    {
+      "title": "Show r/deeplearning: I built Nanograd — an educational, PyTorch-like autograd engine from scratch",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1ursixa/show_rdeeplearning_i_built_nanograd_an/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-09T14:51:18.000Z",
+      "metaDescription": "Hey r/deeplearning!\n I wanted to share an open-source project I’ve been working on called Nanograd.\n If you’ve ever wanted to demystify how frameworks like PyTorch actually work under the hood—specifi",
+      "category": "developer-tool",
+      "difficulty": 7,
+      "confidence": 0.631366003384514,
+      "crawledAt": "2026-07-11T20:58:10.844Z",
+      "id": "xdm5yr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9225179553031921,
+          "index": 11,
+          "word": "Nan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8286592364311218,
+          "index": 12,
+          "word": "##og",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9659245014190674,
+          "index": 18,
+          "word": "P",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8090899586677551,
+          "index": 19,
+          "word": "##y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9548301696777344,
+          "index": 20,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9211813807487488,
+          "index": 21,
+          "word": "##or",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9190906882286072,
+          "index": 22,
+          "word": "##ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The open-source project is called Nanograd. The project is based on a project called PyTorch.",
+      "language": "en",
+      "processed_at": "2026-07-11T21:02:19.970Z"
     },
     {
       "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
@@ -53285,547 +53803,25 @@
       "summary": " The iReporter's new iReporters will be able to search for a new cache in the next few weeks. The new iReport will be available in the coming weeks.",
       "language": "en",
       "processed_at": "2026-06-27T07:28:50.744Z"
-    },
-    {
-      "title": "vulkan: make TP viable by pwilkin · Pull Request #25051 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugitcr/vulkan_make_tp_viable_by_pwilkin_pull_request/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T20:57:10.000Z",
-      "metaDescription": "The legend Piotr has taken a pass at making Vulkan Tensor Parallel somewhat usable, really looking forward to seeing this evolve\n    submitted by    /u/TKGaming_11  \n [link]   [comments]",
-      "category": "product-launch",
-      "difficulty": 3,
-      "confidence": 0.2818993670159339,
-      "crawledAt": "2026-06-27T07:24:05.740Z",
-      "id": "6ljj4y",
-      "entities": [],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-06-27T07:28:50.851Z"
-    },
-    {
-      "title": "How Neural Networks Learned to Focus",
-      "url": "https://levelup.gitconnected.com/attention-mechanism-explained-7e1cac6add9b?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T20:26:31.000Z",
-      "metaDescription": "",
-      "category": "infrastructure",
-      "difficulty": 6,
-      "confidence": 0.4818464690721662,
-      "crawledAt": "2026-06-26T21:24:22.623Z",
-      "id": "8oeio",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9734640121459961,
-          "index": 2,
-          "word": "N",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8981216549873352,
-          "index": 3,
-          "word": "##eur",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9799540042877197,
-          "index": 4,
-          "word": "##al",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8673695921897888,
-          "index": 5,
-          "word": "Networks",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:25:45.886Z"
-    },
-    {
-      "title": "How to build a blazing fast Data Visualization app in 2026",
-      "url": "https://levelup.gitconnected.com/how-to-build-a-blazing-fast-data-visualization-app-in-2026-020d72d697bd?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T20:26:21.000Z",
-      "metaDescription": "The stack, architecture, data structures, and algorithms you need to build a modern experience\nContinue reading on Level Up Coding »",
-      "category": "infrastructure",
-      "difficulty": 5,
-      "confidence": 0.27131860590791534,
-      "crawledAt": "2026-06-26T21:24:22.998Z",
-      "id": "36xf6o",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9624173045158386,
-          "index": 7,
-          "word": "Data",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9855365753173828,
-          "index": 8,
-          "word": "Visual",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9842400550842285,
-          "index": 9,
-          "word": "##ization",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The stack, architecture, data structures, and algorithms you need to build a modern experience. Read more on Level Up Coding.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:26:16.332Z"
-    },
-    {
-      "title": "Prompt Injection: I Hid One Sentence in a Web Page and the AI Agent Obeyed",
-      "url": "https://levelup.gitconnected.com/prompt-injection-i-hid-one-sentence-in-a-web-page-and-the-ai-agent-obeyed-c9a2045f1c33?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T20:26:12.000Z",
-      "metaDescription": "Everyone is wiring language models into things that matter now. Email clients that summarize your inbox, coding assistants that read your…\nContinue reading on Level Up Coding »",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.9693165206973987,
-      "crawledAt": "2026-06-26T21:24:23.160Z",
-      "id": "89rjsz",
-      "entities": [],
-      "summary": " Email clients that read your inbox, read your messages and write your messages. Email clients can read your emails and write their own messages.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:26:26.644Z"
-    },
-    {
-      "title": "Stop Writing Messy Pandas Code: A Deep Dive Into .Pipe",
-      "url": "https://levelup.gitconnected.com/stop-writing-messy-pandas-code-a-deep-dive-into-pipe-82ea408d7001?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T20:25:58.000Z",
-      "metaDescription": "Level up your ETL (Extract, Transform, Load) skill\nContinue reading on Level Up Coding »",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.3027527085592475,
-      "crawledAt": "2026-06-26T21:24:23.631Z",
-      "id": "1bdmom",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9217552542686462,
-          "index": 5,
-          "word": "Pan",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9809926152229309,
-          "index": 6,
-          "word": "##das",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8446509838104248,
-          "index": 7,
-          "word": "Code",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Level up your ETL (Extract, Transform, Load) skill. Level upyour ETL. Level Up Coding is a way to learn a new skill.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:00.320Z"
-    },
-    {
-      "title": "Skills and MCP: How to Build Agent Capabilities That Actually Scale",
-      "url": "https://levelup.gitconnected.com/skills-and-mcp-how-to-build-agent-capabilities-that-actually-scale-1eafff1de5e4?source=rss----5517fd7b58a6---4",
-      "source": "Level Up Coding",
-      "source_domain": "levelup.gitconnected.com",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T20:25:50.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.32674433359595506,
-      "crawledAt": "2026-06-26T21:24:23.803Z",
-      "id": "ncfj3y",
-      "entities": [],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:09.193Z"
-    },
-    {
-      "title": "GOSIM Paris: This Is What Open Source AI Looks Like in 2026",
-      "url": "https://pub.towardsai.net/gosim-paris-this-is-what-open-source-ai-looks-like-in-2026-91b6d0bd702a?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T20:01:01.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.4375996762930905,
-      "crawledAt": "2026-06-26T21:24:14.869Z",
-      "id": "fl11j9",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9400031566619873,
-          "index": 10,
-          "word": "Source",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:20.148Z"
-    },
-    {
-      "title": "Builders Unscripted: Ep. 4 - Pietro Schirano",
-      "url": "https://www.youtube.com/watch?v=SPC_yCe1cUw",
-      "source": "OpenAI",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T19:40:00.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.57017655852327,
-      "crawledAt": "2026-06-26T21:24:42.252Z",
-      "id": "ho03jl",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9993384480476379,
-          "index": 14,
-          "word": "Pietro",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.998701810836792,
-          "index": 15,
-          "word": "Sc",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9923845529556274,
-          "index": 16,
-          "word": "##hir",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.8501917123794556,
-          "index": 17,
-          "word": "##ano",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:20.297Z"
-    },
-    {
-      "title": "FCC accused of hiding Chairman Carr's messages with DOGE and Musk",
-      "url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T18:51:04.000Z",
-      "metaDescription": "FCC refuses to provide messages, has \"wasted a year\" of court's time, filing says.",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.3720432173820169,
-      "crawledAt": "2026-06-26T21:23:44.099Z",
-      "id": "ez4am2",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9991785883903503,
-          "index": 1,
-          "word": "FCC",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9961655139923096,
-          "index": 6,
-          "word": "Carr",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9962196350097656,
-          "index": 11,
-          "word": "D",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8200579881668091,
-          "index": 13,
-          "word": "##GE",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9531883597373962,
-          "index": 15,
-          "word": "Mu",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " FCC refuses to provide messages, has \"wasted a year\" of court's time, filing says. FCC refuses.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:30.120Z"
-    },
-    {
-      "title": "GPT 5.6 Mythos Level Intelligence",
-      "url": "https://www.youtube.com/watch?v=9WvFVAqtB5Y",
-      "source": "Prompt Engineering",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T18:46:06.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.7420694296706681,
-      "crawledAt": "2026-06-26T21:24:45.159Z",
-      "id": "c31iwb",
-      "entities": [],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:27:30.207Z"
-    },
-    {
-      "title": "Antibiotic \"megacluster\" discovery provides new strategy to fight superbugs",
-      "url": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T17:46:07.000Z",
-      "metaDescription": "It's \"an exciting advance in efforts to restock the antibiotic arsenal.\"",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.4020573666359294,
-      "crawledAt": "2026-06-26T21:23:44.331Z",
-      "id": "wshg0g",
-      "entities": [],
-      "summary": " It's \"an exciting advance in efforts to restock the antibiotic arsenal\" It's an \"exciting advance\" in efforts \"to restock\" the antibiotic arsenals.",
-      "language": "en",
-      "processed_at": "2026-06-26T21:28:32.219Z"
-    },
-    {
-      "title": "Why everyone from OpenAI to SpaceX is building their own chips",
-      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T17:43:22.000Z",
-      "metaDescription": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.   OpenAI just shared its plans to spice things up with Jalapeño, its custom inference chip built wit",
-      "category": "infrastructure",
-      "difficulty": 6,
-      "confidence": 0.500375241397858,
-      "crawledAt": "2026-06-26T17:55:06.495Z",
-      "id": "2be5bw",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9984807968139648,
-          "index": 4,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9975484013557434,
-          "index": 5,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9797727465629578,
-          "index": 6,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.999049723148346,
-          "index": 8,
-          "word": "Space",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9981343746185303,
-          "index": 9,
-          "word": "##X",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Nvidia has dominated the AI chip market for years. But the company has just shared its plans to spice up its plans with Jalapeño.",
-      "language": "en",
-      "processed_at": "2026-06-26T17:56:29.649Z"
-    },
-    {
-      "title": "Book Review: Domain-Specific Small Language Models by Guglielmo Iozzia",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugdj86/book_review_domainspecific_small_language_models/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-06-26T17:38:07.000Z",
-      "metaDescription": "Domain-Specific Small Language Models\n Guglielmo Iozzia\n Review by u/skiata\n I came across Domain-Specific Small Language Models (https://www.manning.com/books/domain-specific-small-language-models) b",
-      "category": "research-paper",
-      "difficulty": 7,
-      "confidence": 0.28459499082169504,
-      "crawledAt": "2026-06-26T17:55:42.278Z",
-      "id": "rbg01q",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8795605301856995,
-          "index": 4,
-          "word": "Domain",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.9991704225540161,
-          "index": 12,
-          "word": "G",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.8203347325325012,
-          "index": 15,
-          "word": "##lm",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-PER",
-          "score": 0.8541290760040283,
-          "index": 16,
-          "word": "##o",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9992240071296692,
-          "index": 17,
-          "word": "I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9965939521789551,
-          "index": 18,
-          "word": "##oz",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Domain-Specific Small Language Models. Guglielmo Iozzia Review by u/skiata Review by U/skiATA.",
-      "language": "en",
-      "processed_at": "2026-06-26T17:56:50.845Z"
-    },
-    {
-      "title": "Autonomous security agents need complete data. Here's how to check if yours is ready.",
-      "url": "https://venturebeat.com/security/autonomous-security-agents-need-complete-data-heres-how-to-check-if-yours-is-ready",
-      "source": "VentureBeat",
-      "source_domain": "venturebeat.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-26T17:32:42.000Z",
-      "metaDescription": "An endpoint agent cannot report its own absence. The 2026 Axonius Actionability Report, conducted with the Ponemon Institute and surveying 662 IT and security professionals, put a number on a gap SOC ",
-      "category": "safety-ethics",
-      "difficulty": 3,
-      "confidence": 0.9428883689993566,
-      "crawledAt": "2026-06-26T17:55:15.232Z",
-      "id": "sf2c0f",
-      "entities": [],
-      "summary": " The 2026 Axonius Actionability Report was conducted with the Ponemon Institute and surveying 662 IT and security professionals. An endpoint agent cannot report its own absence.",
-      "language": "en",
-      "processed_at": "2026-06-26T17:57:03.888Z"
     }
   ],
-  "processedAt": "2026-07-11T17:08:06.379Z",
+  "processedAt": "2026-07-11T21:02:39.230Z",
   "categories": [
     "creative-ai",
     "infrastructure",
-    "developer-tool",
     "safety-ethics",
+    "product-launch",
+    "developer-tool",
     "ai-agents",
+    "model-release",
     "industry-news",
     "research-paper",
-    "product-launch",
-    "model-release",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 11,
-  "existingArticlesKept": 1599,
+  "newArticlesProcessed": 17,
+  "existingArticlesKept": 1586,
   "cleanupApplied": true,
-  "cleanedUpCount": 24,
+  "cleanedUpCount": 14,
   "rollingWindowDays": 15
 }
