@@ -1,9 +1,171 @@
 {
-  "crawledAt": "2026-07-13T18:00:09.760Z",
+  "crawledAt": "2026-07-13T21:03:36.177Z",
   "totalSources": 70,
-  "totalArticles": 1676,
+  "totalArticles": 1680,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "What's your take on continual learning?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvm2p4/whats_your_take_on_continual_learning_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T19:47:12.000Z",
+      "metaDescription": "Everyone suddenly seems to be an expert in continual learning. Dario Amodei claimed on the Dwarkesh Patel podcast that continual learning will be achieved by 2026, and Demis Hassabis has called it the",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4321452853947228,
+      "crawledAt": "2026-07-13T21:02:44.637Z",
+      "id": "3bky0p",
+      "entities": [],
+      "summary": " Dario Amodei claimed on the Dwarkesh Patel podcast that continual learning will be achieved by 2026. Demis Hassabis has called it the 'continual learning'",
+      "language": "en",
+      "processed_at": "2026-07-13T21:04:33.093Z"
+    },
+    {
+      "title": "GPUHedge: Hedging serverless GPU providers improves cold start p95 latency from 117s to 30s",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T19:20:07.000Z",
+      "metaDescription": "Disclosure: I built it, it is open source, Apache-2.0 licensed, and currently alpha. Repository: https://github.com/mireklzicar/gpuhedge\n I started working on it after benchmarking a 17 GB AI model ac",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.5159520137496296,
+      "crawledAt": "2026-07-13T21:02:45.045Z",
+      "id": "kb1ib8",
+      "entities": [],
+      "summary": " I started working on it after benchmarking a 17 GB AI model ac ac ac. It is open source, Apache-2.0 licensed, and currently alpha.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:04:43.829Z"
+    },
+    {
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T18:22:10.000Z",
+      "metaDescription": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple ",
+      "category": "industry-news",
+      "difficulty": 5,
+      "confidence": 0.36516277666658226,
+      "crawledAt": "2026-07-13T21:01:56.654Z",
+      "id": "wceapp",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9988206028938293,
+          "index": 6,
+          "word": "Apple",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9985692501068115,
+          "index": 13,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.986091673374176,
+          "index": 14,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Apple's trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:05:28.140Z"
+    },
+    {
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T18:00:00.000Z",
+      "metaDescription": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6028745183893004,
+      "crawledAt": "2026-07-13T21:02:03.055Z",
+      "id": "ulyncs",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.810431957244873,
+          "index": 2,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9768933057785034,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Algorithm is the world's most valuable AI company. Anthropic is currently the world’s most valuableAI company.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:05:39.241Z"
+    },
+    {
+      "title": "Chain of Thought is a scaling trap. the next wave is latent reasoning ... but then we hit the black box wall. Where does BDH fit?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T17:50:49.000Z",
+      "metaDescription": "Read a long piece on the future of LLM reasoning that makes a provocative claim: Chain of Thought is a useful hack but we've started to confuse a readable trace with the actual computation. All in all",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.4126352565877892,
+      "crawledAt": "2026-07-13T21:02:44.469Z",
+      "id": "69gin0",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8433229923248291,
+          "index": 2,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8301247358322144,
+          "index": 3,
+          "word": "Thought",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9770759344100952,
+          "index": 32,
+          "word": "B",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The future of LLM is in the hands of the world's most powerful computer scientists. The future is in question for the future of the system.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:05:50.124Z"
+    },
     {
       "title": "When your brain works differently, AI isn’t a luxury—it’s accessibility",
       "url": "https://aws.amazon.com/blogs/machine-learning/when-your-brain-works-differently-ai-isnt-a-luxury-its-accessibility/",
@@ -22,6 +184,50 @@
       "summary": " The system is built on Amazon Quick on your desktop, an AI-powered desktop and web assistant that compens for a web assistant.",
       "language": "en",
       "processed_at": "2026-07-13T18:00:24.531Z"
+    },
+    {
+      "title": "Tom Cruise is utterly transformed in Digger trailer",
+      "url": "https://arstechnica.com/culture/2026/07/digger-trailer-is-giving-big-dr-strangelove-vibes/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-13T17:49:56.000Z",
+      "metaDescription": "\"If we can't control the force of nature, at least we can control the narrative.\"",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.5808966928662221,
+      "crawledAt": "2026-07-13T21:02:00.191Z",
+      "id": "7uka3t",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9996492266654968,
+          "index": 1,
+          "word": "Tom",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9996957182884216,
+          "index": 2,
+          "word": "Cruise",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.964508593082428,
+          "index": 7,
+          "word": "Di",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"If we can't control the force of nature, at least we can control the narrative,\" says the author.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:06:00.384Z"
     },
     {
       "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
@@ -74,6 +280,50 @@
       "summary": " Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution.",
       "language": "en",
       "processed_at": "2026-07-13T18:00:34.792Z"
+    },
+    {
+      "title": "Fast track through a CS PhD using LLM's for paper writing",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvhr7a/fast_track_through_a_cs_phd_using_llms_for_paper/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T17:15:17.000Z",
+      "metaDescription": "LLM's seem to make it so much easier to run experiments, write papers, etc. As a result, are we seeing phd students finish their phds sooner than ever before specifically in CS? If not, why not?\n    s",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.9681074183402988,
+      "crawledAt": "2026-07-13T21:02:46.678Z",
+      "id": "u4pi76",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9895227551460266,
+          "index": 5,
+          "word": "CS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9299707412719727,
+          "index": 6,
+          "word": "PhD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8796933889389038,
+          "index": 8,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " LLM's seem to make it so much easier to run experiments, write papers, etc. As a result, are we seeing phd students finish their phds sooner than ever before? If not, why not? Why not?",
+      "language": "en",
+      "processed_at": "2026-07-13T21:06:15.300Z"
     },
     {
       "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
@@ -170,6 +420,25 @@
       "summary": " Clever coding and graphical compromises get a classic game on more classic hardware. The game is a classic classic game with a classic graphics and graphics.",
       "language": "en",
       "processed_at": "2026-07-13T18:01:41.460Z"
+    },
+    {
+      "title": "Prism: Automating Science-of-Evals Research",
+      "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T16:30:21.000Z",
+      "metaDescription": "tl;dr – we present [Prism], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resou",
+      "category": "research-paper",
+      "difficulty": 5,
+      "confidence": 0.5475026626721146,
+      "crawledAt": "2026-07-13T21:02:23.266Z",
+      "id": "qn6gwc",
+      "entities": [],
+      "summary": " The scaffold provides Claude Code with sub-agents and sub-agent. The scaffolding is designed to make it easier for scientists to work on their work.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:06:25.305Z"
     },
     {
       "title": "Agentic RAG: Let the Agent Search",
@@ -794,6 +1063,25 @@
       "summary": " LangGraph is a versatile Python framework designed for stateful, cyclic, and multi-actor Large Language Model. LangGraph builds upon its parent library, LangChain, and allows you to use LangChain.",
       "language": "en",
       "processed_at": "2026-07-13T14:50:37.353Z"
+    },
+    {
+      "title": "Hundreds of papers hit arXiv every day and maybe 3 matter to my research, so I built an open-source tool that finds them",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvcdf7/hundreds_of_papers_hit_arxiv_every_day_and_maybe/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-13T13:59:17.000Z",
+      "metaDescription": "Left: Telegram digest (optional); Right: detailed digest on HTML\n Like probably everyone here, my to-read list only grows. Skimming arXiv listings or my feeds takes 30-60 minutes a day, 95% of it is i",
+      "category": "research-paper",
+      "difficulty": 9,
+      "confidence": 0.49389912742115305,
+      "crawledAt": "2026-07-13T21:02:45.273Z",
+      "id": "ffanoj",
+      "entities": [],
+      "summary": " 95% of my feeds take 30-60 minutes a day, 95% is i. Skimming arXiv listings or my feeds takes 30- 60 minutes a Day.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:06:36.433Z"
     },
     {
       "title": "Zhipu founder backs open-source AI as global security debate intensifies",
@@ -1750,6 +2038,42 @@
       "summary": " Kasm Technologies has spent the better part of a decade pushing workloads into Kubernetes. Applications, APIs, APIs and batch jobs, data pipelines — if it runs in.",
       "language": "en",
       "processed_at": "2026-07-13T14:52:28.164Z"
+    },
+    {
+      "title": "The desktop infrastructure problem that Kubernetes finally solves",
+      "url": "https://venturebeat.com/infrastructure/the-desktop-infrastructure-problem-that-kubernetes-finally-solves",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-13T07:00:00.000Z",
+      "metaDescription": "Presented by Kasm Technologies\n\nEnterprise infrastructure teams have spent the better part of a decade pushing workloads into Kubernetes. Applications, APIs, batch jobs, data pipelines — if it runs in",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9749059322427888,
+      "crawledAt": "2026-07-13T21:02:06.778Z",
+      "id": "jmzjrx",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8533334136009216,
+          "index": 6,
+          "word": "Ku",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8409730792045593,
+          "index": 8,
+          "word": "##net",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Kasm Technologies has spent the better part of a decade pushing workloads into Kubernetes. Applications, APIs, APIs and batch jobs, data pipelines — if it runs in.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:07:17.177Z"
     },
     {
       "title": "Experiment: autonomous NPCs powered by Gemma 4 E2B in the browser",
@@ -3755,6 +4079,25 @@
       "summary": " I built a hotel booking demo to show how a LLM can discover website tools, call application actions, and update the interface through the interface.",
       "language": "en",
       "processed_at": "2026-07-13T03:33:40.569Z"
+    },
+    {
+      "title": "How to Expose Your Website as Tools for AI Agents",
+      "url": "https://pub.towardsai.net/how-to-make-your-website-usable-by-ai-agents-with-webmcp-af8d1d621939?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-12T23:01:01.000Z",
+      "metaDescription": "A practical guide to making your website usable by AI agents, so they can discover actions, navigate flows, place orders, and complete…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9711306820143373,
+      "crawledAt": "2026-07-13T21:02:34.584Z",
+      "id": "5uy67",
+      "entities": [],
+      "summary": " A practical guide to making your website usable by AI agents, so they can discover actions, navigate flows, place orders, and complete.",
+      "language": "en",
+      "processed_at": "2026-07-13T21:07:28.104Z"
     },
     {
       "title": "One Line, Any Model: Multi-Provider Agents in Google ADK via LiteLLM",
@@ -56047,308 +56390,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-06-29T04:44:58.283Z"
-    },
-    {
-      "title": "Trying to understand why so many trash fine-tuned models on HuggingFace ...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui7xoj/trying_to_understand_why_so_many_trash_finetuned/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-06-28T20:31:23.000Z",
-      "metaDescription": "The majority of these models do not perform even as well as the base model, not even worth wasting the disk space on HuggingFace server, Qwhoppass-27B-Mother-Ultimate-Lord, whatever...\n Seeing their p",
-      "category": "safety-ethics",
-      "difficulty": 5,
-      "confidence": 0.2635057749015562,
-      "crawledAt": "2026-06-29T12:39:28.599Z",
-      "id": "z6z37v",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.933225691318512,
-          "index": 13,
-          "word": "Hu",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8343448042869568,
-          "index": 15,
-          "word": "##F",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The majority of these models do not perform even as well as the base model, not even worth wasting the disk space on HuggingFace server.",
-      "language": "en",
-      "processed_at": "2026-06-29T12:45:46.908Z"
-    },
-    {
-      "title": "From Bell Curves to Rare Events: Mastering Probability Distributions Like a Pro",
-      "url": "https://python.plainenglish.io/from-bell-curves-to-rare-events-mastering-probability-distributions-like-a-pro-33b25ce8cc4b?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-28T19:37:48.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.4423278288077333,
-      "crawledAt": "2026-06-28T21:09:15.481Z",
-      "id": "ccq64k",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9409310817718506,
-          "index": 2,
-          "word": "Bell",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.949835479259491,
-          "index": 3,
-          "word": "C",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9592108130455017,
-          "index": 4,
-          "word": "##ur",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9693901538848877,
-          "index": 5,
-          "word": "##ves",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-28T21:09:52.468Z"
-    },
-    {
-      "title": "Why Your R-Squared is High but Your Model Still Sucks",
-      "url": "https://python.plainenglish.io/why-your-r-squared-is-high-but-your-model-still-sucks-b2f1c1652541?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-28T19:37:32.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.35595584449820544,
-      "crawledAt": "2026-06-28T21:09:15.526Z",
-      "id": "vgdfi9",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-28T21:09:52.604Z"
-    },
-    {
-      "title": "The Python Tools I Use to Keep Code Quality Under Control",
-      "url": "https://python.plainenglish.io/the-python-tools-i-use-to-keep-code-quality-under-control-95445a5aa9f9?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-28T19:34:52.000Z",
-      "metaDescription": "",
-      "category": "safety-ethics",
-      "difficulty": 4,
-      "confidence": 0.3263985780291796,
-      "crawledAt": "2026-06-28T21:09:15.570Z",
-      "id": "sr74kj",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9783132076263428,
-          "index": 2,
-          "word": "Python",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9683361649513245,
-          "index": 3,
-          "word": "Too",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-28T21:09:52.735Z"
-    },
-    {
-      "title": "Dead Code: The Silent Bottleneck in Software Performance",
-      "url": "https://python.plainenglish.io/dead-code-the-silent-bottleneck-in-software-performance-f6d39b3dcac5?source=rss----78073def27b8---4",
-      "source": "Python in Plain English",
-      "source_domain": "python.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "medium",
-      "pubDate": "2026-06-28T19:34:05.000Z",
-      "metaDescription": "Continue reading on Python in Plain English »",
-      "category": "safety-ethics",
-      "difficulty": 5,
-      "confidence": 0.3213204135748491,
-      "crawledAt": "2026-06-28T21:09:15.622Z",
-      "id": "dd4138",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.9841575622558594,
-          "index": 6,
-          "word": "Bo",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9770605564117432,
-          "index": 7,
-          "word": "##ttle",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9812756180763245,
-          "index": 8,
-          "word": "##neck",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8921867609024048,
-          "index": 11,
-          "word": "Performance",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-28T21:09:52.803Z"
-    },
-    {
-      "title": "Why did this journal retract two 1940s papers by Max Planck?",
-      "url": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-06-28T18:49:21.000Z",
-      "metaDescription": "Clicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.”",
-      "category": "research-paper",
-      "difficulty": 6,
-      "confidence": 0.35162369066456756,
-      "crawledAt": "2026-06-28T21:08:49.505Z",
-      "id": "s67lnv",
-      "entities": [
-        {
-          "entity": "B-PER",
-          "score": 0.9991300106048584,
-          "index": 11,
-          "word": "Max",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-PER",
-          "score": 0.9973146915435791,
-          "index": 12,
-          "word": "Plan",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Clicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.’",
-      "language": "en",
-      "processed_at": "2026-06-28T21:10:15.169Z"
-    },
-    {
-      "title": "The Age of AI Authenticity: Why the Most Valuable Thing You Can Produce in 2026 Is Writing That…",
-      "url": "https://ai.plainenglish.io/the-age-of-ai-authenticity-why-the-most-valuable-thing-you-can-produce-in-2026-is-writing-that-b95023f18516?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-06-28T18:18:54.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.9671786841009763,
-      "crawledAt": "2026-06-28T21:09:14.694Z",
-      "id": "n0tbq2",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.985904335975647,
-          "index": 3,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9847014546394348,
-          "index": 4,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9343982934951782,
-          "index": 5,
-          "word": "Au",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9824190139770508,
-          "index": 8,
-          "word": "##city",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-06-28T21:10:15.257Z"
     }
   ],
-  "processedAt": "2026-07-13T18:04:43.736Z",
+  "processedAt": "2026-07-13T21:07:28.108Z",
   "categories": [
+    "creative-ai",
+    "infrastructure",
+    "industry-news",
     "ai-agents",
     "product-launch",
-    "creative-ai",
-    "industry-news",
-    "infrastructure",
+    "research-paper",
     "safety-ethics",
     "model-release",
     "developer-tool",
-    "research-paper",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 13,
-  "existingArticlesKept": 1672,
+  "newArticlesProcessed": 11,
+  "existingArticlesKept": 1676,
   "cleanupApplied": true,
-  "cleanedUpCount": 9,
+  "cleanedUpCount": 7,
   "rollingWindowDays": 15
 }
