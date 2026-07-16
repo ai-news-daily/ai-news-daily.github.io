@@ -1,9 +1,1460 @@
 {
-  "crawledAt": "2026-07-16T14:07:05.758Z",
+  "crawledAt": "2026-07-16T17:25:56.756Z",
   "totalSources": 70,
-  "totalArticles": 84,
+  "totalArticles": 118,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Storing agent state in production: where has everyone actually landed?",
+      "url": "https://www.reddit.com/r/mlops/comments/1uy937x/storing_agent_state_in_production_where_has/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T17:16:27.000Z",
+      "metaDescription": "Something I keep revisiting myself, and would love to know/learn from good folks here, is that once an agent gets past a demo, \"state\" stops being a single isolated thing. It splits into at least thre",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5928131196820984,
+      "crawledAt": "2026-07-16T17:25:04.756Z",
+      "id": "utr02l",
+      "entities": [],
+      "summary": " Once an agent gets past a demo, \"state\" stops being a single isolated thing. It splits into at least thre threThre three thre.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:26:13.086Z"
+    },
+    {
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T17:06:08.000Z",
+      "metaDescription": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context sourc",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.25770117500410394,
+      "crawledAt": "2026-07-16T17:24:20.853Z",
+      "id": "89vzci",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9731096029281616,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Across 101 enterprises, the infrastructure that feed AI agents is being build faster than they can be trust.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:26:38.437Z"
+    },
+    {
+      "title": "Synthetic Databases as Audit Logs: How to Make Your AI Models Explainable to Regulators Before They…",
+      "url": "https://pub.towardsai.net/synthetic-databases-as-audit-logs-how-to-make-your-ai-models-explainable-to-regulators-before-they-45ba52e4043f?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T17:01:04.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.27587315121514555,
+      "crawledAt": "2026-07-16T17:24:42.337Z",
+      "id": "7wugpw",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:26:38.599Z"
+    },
+    {
+      "title": "What racing reveals about working with AI — the OpenAI Podcast Ep. 22",
+      "url": "https://www.youtube.com/watch?v=KNPjRpNtQ7s",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T17:00:16.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.77841752867366,
+      "crawledAt": "2026-07-16T17:25:09.898Z",
+      "id": "mvh4au",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8797258138656616,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9944154024124146,
+          "index": 10,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9972537755966187,
+          "index": 11,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9744954109191895,
+          "index": 12,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9808402061462402,
+          "index": 13,
+          "word": "Po",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:26:38.777Z"
+    },
+    {
+      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T16:40:48.000Z",
+      "metaDescription": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their interna",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9289103309898185,
+      "crawledAt": "2026-07-16T17:24:21.052Z",
+      "id": "h3ef1y",
+      "entities": [],
+      "summary": " Across 157 enterprises, organizations are granting AI agents more autonomy. Half have already shipped an agent that passed their interna.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:27:18.007Z"
+    },
+    {
+      "title": "Prepare These 5 Assets Before Your AI Agents Take On More Work",
+      "url": "https://towardsdatascience.com/prepare-these-5-assets-before-your-ai-agents-take-on-more-work/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:30:00.000Z",
+      "metaDescription": "How to define recurring work, give AI the right context, explain what high-quality work looks like, and decide where human judgment is still needed.\nThe post Prepare These 5 Assets Before Your AI Agen",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9773192539461002,
+      "crawledAt": "2026-07-16T17:24:16.928Z",
+      "id": "53mn2x",
+      "entities": [],
+      "summary": " How to define recurring work, give AI the right context, explain what high-quality work looks like, and decide where human judgment is still needed.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:27:32.748Z"
+    },
+    {
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T16:19:28.000Z",
+      "metaDescription": "\"We will likely have similar concerns and discussions when China fields its Starlink-like constellation.\"",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.41687346214357457,
+      "crawledAt": "2026-07-16T17:24:09.368Z",
+      "id": "2jjhtu",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9998466372489929,
+          "index": 2,
+          "word": "China",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.999837338924408,
+          "index": 4,
+          "word": "Russia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9448215961456299,
+          "index": 7,
+          "word": "Star",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9562035202980042,
+          "index": 8,
+          "word": "##link",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " China will likely have similar concerns and discussions when China fields its Starlink-like constellation. \"We will likely be similar concerns,\" says China's top official.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:27:52.979Z"
+    },
+    {
+      "title": "MLOps - Repo Template + skills to adapt it to your use-case",
+      "url": "https://www.reddit.com/r/mlops/comments/1uy7fep/mlops_repo_template_skills_to_adapt_it_to_your/",
+      "source": "r/MLOps",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T16:16:29.000Z",
+      "metaDescription": "Hey team! If you're interested in developing MLOps projects, but come from a background of Statistics, Data Science, and don't really know a lot about the operational aspects of CI/CD, inferencing, ve",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.33012015572575293,
+      "crawledAt": "2026-07-16T17:25:04.388Z",
+      "id": "pi5unt",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9074215292930603,
+          "index": 8,
+          "word": "Te",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Don't really know a lot about operational aspects of CI/CD, inferencing, ve- ve. Hey team!",
+      "language": "en",
+      "processed_at": "2026-07-16T17:28:06.372Z"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:01:21.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.2553307375793361,
+      "crawledAt": "2026-07-16T17:23:49.738Z",
+      "id": "2eloo2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.994354784488678,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9879306554794312,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9464932084083557,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9952844977378845,
+          "index": 5,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9951658248901367,
+          "index": 6,
+          "word": "##em",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9978134632110596,
+          "index": 7,
+          "word": "##ot",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9947176575660706,
+          "index": 8,
+          "word": "##ron",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9010840654373169,
+          "index": 18,
+          "word": "R",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:28:21.011Z"
+    },
+    {
+      "title": "Agent Skills vs MCP: Which One Does Your AI Agent Actually Need?",
+      "url": "https://pub.towardsai.net/agent-skills-vs-mcp-which-one-does-your-ai-agent-actually-need-667e076f54fb?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:01:03.000Z",
+      "metaDescription": "Every team building agents in 2026 eventually hits the same fork in the road.\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9694279040481318,
+      "crawledAt": "2026-07-16T17:24:42.491Z",
+      "id": "n1i6ec",
+      "entities": [],
+      "summary": " Every team building agents in 2026 eventually hit the same fork in the road. Every team in 2020s hit the road with the same road as each other.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:28:32.495Z"
+    },
+    {
+      "title": "Why teens deserve access to safe AI",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "metaDescription": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.582322909863762,
+      "crawledAt": "2026-07-16T17:23:54.225Z",
+      "id": "99f042",
+      "entities": [],
+      "summary": " OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and parental controls.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:28:41.116Z"
+    },
+    {
+      "title": "Connect more of your apps to Search",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "source": "Google AI Blog",
+      "source_domain": "blog.google",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "metaDescription": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2872436897420688,
+      "crawledAt": "2026-07-16T17:23:51.192Z",
+      "id": "42zhc",
+      "entities": [],
+      "summary": " You'll be able to securely link and interact with your go-to services directly in AI Mode. You'll also be able.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:28:52.935Z"
+    },
+    {
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "metaDescription": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.28400286662678115,
+      "crawledAt": "2026-07-16T17:24:06.185Z",
+      "id": "3m89xi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9984742403030396,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google is expanding AI Mode beyond answering questions and completing tasks. The new update will be available to all users in the next few months.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:12.450Z"
+    },
+    {
+      "title": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T15:50:52.000Z",
+      "metaDescription": "In this post, we show you how to build a voice ordering system that answers a phone number and takes the order from greeting to confirmation. The system uses Amazon Bedrock AgentCore to host and run t",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.9006351554413411,
+      "crawledAt": "2026-07-16T17:24:32.101Z",
+      "id": "clwkko",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8297837972640991,
+          "index": 10,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.968128502368927,
+          "index": 11,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9796406030654907,
+          "index": 12,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8953143358230591,
+          "index": 13,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9903953075408936,
+          "index": 17,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9974257349967957,
+          "index": 18,
+          "word": "Nova",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9945200681686401,
+          "index": 19,
+          "word": "2",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9107707142829895,
+          "index": 20,
+          "word": "Sonic",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The system uses Amazon Bedrock AgentCore to host and run t t t.com. The system takes the order from greeting to confirmation.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:32.855Z"
+    },
+    {
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T15:48:21.000Z",
+      "metaDescription": "Companies coming to market are raising money at fastest pace this century.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4507224055808367,
+      "crawledAt": "2026-07-16T17:24:09.475Z",
+      "id": "pxcb6p",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9702835083007812,
+          "index": 12,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Companies coming to market are raising money at fastest pace this century. Companies are raising cash at fastest rate this century.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:41.102Z"
+    },
+    {
+      "title": "The Dangerous Illusion of AI Coding Skills",
+      "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:39:17.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.6850889258946654,
+      "crawledAt": "2026-07-16T17:25:00.966Z",
+      "id": "6u18hc",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8541399836540222,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9705016016960144,
+          "index": 7,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8950402140617371,
+          "index": 9,
+          "word": "Skills",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:41.190Z"
+    },
+    {
+      "title": "The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=Xk-X1TI2pQ4",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:36.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.868897981953993,
+      "crawledAt": "2026-07-16T17:25:09.981Z",
+      "id": "moe9bl",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9955762028694153,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9905699491500854,
+          "index": 3,
+          "word": "Era",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9997043609619141,
+          "index": 12,
+          "word": "Peter",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9996296167373657,
+          "index": 13,
+          "word": "Stein",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9964998364448547,
+          "index": 14,
+          "word": "##berger",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.985353946685791,
+          "index": 16,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9823079705238342,
+          "index": 17,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9587609767913818,
+          "index": 18,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9803296327590942,
+          "index": 19,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:55.553Z"
+    },
+    {
+      "title": "Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=Fu3WWi-pAv4",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:30.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.49780909062669465,
+      "crawledAt": "2026-07-16T17:25:10.066Z",
+      "id": "oq7thu",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9994665384292603,
+          "index": 6,
+          "word": "Emmanuel",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9994269609451294,
+          "index": 7,
+          "word": "Mari",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9943553805351257,
+          "index": 8,
+          "word": "##ll",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8488646149635315,
+          "index": 13,
+          "word": "Native",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8501600027084351,
+          "index": 14,
+          "word": "Companies",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9650306701660156,
+          "index": 16,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9620932936668396,
+          "index": 17,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9575623869895935,
+          "index": 18,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9755833148956299,
+          "index": 19,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:55.761Z"
+    },
+    {
+      "title": "Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=1fL_lwsdMd4",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:20.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 8,
+      "confidence": 0.32221379983236464,
+      "crawledAt": "2026-07-16T17:25:10.149Z",
+      "id": "9rbfjk",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9991165399551392,
+          "index": 12,
+          "word": "Kat",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9341736435890198,
+          "index": 13,
+          "word": "##ia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9993623495101929,
+          "index": 14,
+          "word": "Gil",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9993013739585876,
+          "index": 15,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.966792106628418,
+          "index": 16,
+          "word": "##uz",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9911849498748779,
+          "index": 19,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9933374524116516,
+          "index": 20,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9697256088256836,
+          "index": 21,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9912757873535156,
+          "index": 22,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:55.932Z"
+    },
+    {
+      "title": "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=W0mU8zgop60",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:16.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 10,
+      "confidence": 0.3195088265339249,
+      "crawledAt": "2026-07-16T17:25:10.231Z",
+      "id": "884xo0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9457480311393738,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9907796382904053,
+          "index": 3,
+          "word": "Pilot",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9838292002677917,
+          "index": 4,
+          "word": "##s",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9996922016143799,
+          "index": 8,
+          "word": "François",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9996857643127441,
+          "index": 9,
+          "word": "Wei",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9983468055725098,
+          "index": 10,
+          "word": "##der",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9608435034751892,
+          "index": 12,
+          "word": "Enterprise",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8907535672187805,
+          "index": 13,
+          "word": "Ad",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9350996613502502,
+          "index": 14,
+          "word": "##op",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8960340619087219,
+          "index": 15,
+          "word": "##tion",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9932281970977783,
+          "index": 17,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9939931631088257,
+          "index": 18,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.991320788860321,
+          "index": 19,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9946165084838867,
+          "index": 20,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:56.119Z"
+    },
+    {
+      "title": "What Great AI Founders Do Differently | Laura Modiano | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=K9_G-v8AE_s",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:12.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.5216625034680022,
+      "crawledAt": "2026-07-16T17:25:10.308Z",
+      "id": "dmnj64",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9994832873344421,
+          "index": 10,
+          "word": "Laura",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999384343624115,
+          "index": 11,
+          "word": "Mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.995319128036499,
+          "index": 12,
+          "word": "##dian",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9890062212944031,
+          "index": 15,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9922099709510803,
+          "index": 16,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9831628799438477,
+          "index": 17,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9879304766654968,
+          "index": 18,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:56.285Z"
+    },
+    {
+      "title": "Have a Crazy Idea? Build It with Codex | Romain Huet | OpenAI France",
+      "url": "https://www.youtube.com/watch?v=jaYDbeQTUR0",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:37:08.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.2805641289769769,
+      "crawledAt": "2026-07-16T17:25:10.393Z",
+      "id": "vvprig",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9970753788948059,
+          "index": 13,
+          "word": "Roma",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.988103985786438,
+          "index": 14,
+          "word": "##in",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9989294409751892,
+          "index": 15,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8742384314537048,
+          "index": 16,
+          "word": "##et",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9866536259651184,
+          "index": 18,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9943301677703857,
+          "index": 19,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9835727214813232,
+          "index": 20,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.991081178188324,
+          "index": 21,
+          "word": "France",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:29:56.481Z"
+    },
+    {
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:02:00.000Z",
+      "metaDescription": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believe",
+      "category": "product-launch",
+      "difficulty": 6,
+      "confidence": 0.3023981269634958,
+      "crawledAt": "2026-07-16T17:24:06.703Z",
+      "id": "if3iqm",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8808112144470215,
+          "index": 5,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9461714625358582,
+          "index": 6,
+          "word": "##ind",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " drawing on more than a decade spent helping build some of the world's most influential AI systems. Andrew Dai explains why he believes he believe he believes that he believes the world is the world of the most influentialAI systems.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:30:33.489Z"
+    },
+    {
+      "title": "What Is Inference Engineering? The Layer Doing 80% of Your LLM Bill.",
+      "url": "https://pub.towardsai.net/what-is-inference-engineering-the-layer-doing-80-of-your-llm-bill-9bb536ecc31d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T15:01:04.000Z",
+      "metaDescription": "FP8 KV cache, prompt caching, quantization, speculative decoding, MoE routing. The five 2026 levers between your model and your invoice…\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.4412880081695392,
+      "crawledAt": "2026-07-16T17:24:42.681Z",
+      "id": "vw2yfb",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9896511435508728,
+          "index": 15,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " FP8 KV cache, prompt caching, quantization, quantification, and MoE routing. The 2026 levers between your model and your invoice.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:30:45.438Z"
+    },
+    {
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T14:26:29.000Z",
+      "metaDescription": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.38102016758164375,
+      "crawledAt": "2026-07-16T17:24:07.094Z",
+      "id": "rs97to",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.8208686709403992,
+          "index": 1,
+          "word": "Moon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9946518540382385,
+          "index": 6,
+          "word": "Kim",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9929522275924683,
+          "index": 7,
+          "word": "##i",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9976397752761841,
+          "index": 8,
+          "word": "3",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9419957399368286,
+          "index": 16,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8399303555488586,
+          "index": 18,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9895713329315186,
+          "index": 22,
+          "word": "4",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The FT reports Kimi K3 will be the largest open AI model in China. The model will have a parameter count between 2 trillion and 3 trillion.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:31:47.439Z"
+    },
+    {
+      "title": "This Model Fixed Object Detection's Biggest Weakness!",
+      "url": "https://www.youtube.com/watch?v=MvNv-UaGtTs",
+      "source": "Code Emporium",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T14:00:20.000Z",
+      "metaDescription": "",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.26129096656654444,
+      "crawledAt": "2026-07-16T17:25:14.516Z",
+      "id": "9gozug",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:31:47.554Z"
+    },
+    {
+      "title": "Working with Pi Coding Agents",
+      "url": "https://www.kdnuggets.com/working-with-pi-coding-agents",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-07-16T14:00:16.000Z",
+      "metaDescription": "The most interesting thing about Pi isn't any single feature; it's that the project treats \"what we didn't build\" as documentation worth writing, which is rare enough on its own to take seriously.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.36193306548041865,
+      "crawledAt": "2026-07-16T17:25:49.561Z",
+      "id": "trsuw2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.984777569770813,
+          "index": 3,
+          "word": "Pi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9881592988967896,
+          "index": 4,
+          "word": "Co",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.981095552444458,
+          "index": 5,
+          "word": "##ding",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8868762254714966,
+          "index": 6,
+          "word": "Agents",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Pi project treats \"what we didn't build\" as documentation worth writing. Pi is rare enough on its own to take seriously.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:31:56.010Z"
+    },
+    {
+      "title": "The best AI agents need more humans than you think",
+      "url": "https://www.youtube.com/watch?v=HbUznYhKFOc",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T14:00:12.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.98725854695828,
+      "crawledAt": "2026-07-16T17:25:11.363Z",
+      "id": "h56d2l",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:31:56.105Z"
+    },
+    {
+      "title": "Mozilla’s State of Open Source AI Report",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy35n6/mozillas_state_of_open_source_ai_report/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T13:38:22.000Z",
+      "metaDescription": "Link to the report itself is at the bottom of the page.\n    submitted by    /u/pegasus912  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.3790136190369543,
+      "crawledAt": "2026-07-16T17:24:56.439Z",
+      "id": "6kk8dp",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9947487115859985,
+          "index": 1,
+          "word": "Mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9596408605575562,
+          "index": 2,
+          "word": "##zilla",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9896665215492249,
+          "index": 5,
+          "word": "State",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9981685280799866,
+          "index": 6,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9982073307037354,
+          "index": 7,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9986557364463806,
+          "index": 8,
+          "word": "Source",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8944237232208252,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9929669499397278,
+          "index": 10,
+          "word": "Report",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:31:56.371Z"
+    },
     {
       "title": "How to Get the Most Out of Claude Fable 5",
       "url": "https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/",
@@ -123,6 +1574,25 @@
       "summary": " The deal marks an important step for Apple's AI ambitions in the market. The deal was rumored to be in the works last year.",
       "language": "en",
       "processed_at": "2026-07-16T14:07:38.503Z"
+    },
+    {
+      "title": "i tried ternary decomposition instead of quantization. it works as good at q4km but takes slightly more vram. while being completly ternary. and completly PTQ",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy2dzx/i_tried_ternary_decomposition_instead_of/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T13:07:13.000Z",
+      "metaDescription": "https://arxiv.org/pdf/2607.13511\n    submitted by    /u/LMTLS5  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.28328416981395016,
+      "crawledAt": "2026-07-16T17:24:57.970Z",
+      "id": "r5hey7",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:32:14.911Z"
     },
     {
       "title": "Your AI Agent Says “Done!” — Here’s How to Know If It’s Lying",
@@ -270,6 +1740,25 @@
       "summary": "Community discussion about AI developments and related topics.",
       "language": "en",
       "processed_at": "2026-07-16T14:08:36.423Z"
+    },
+    {
+      "title": "Inkling: Why Thinky's Open Model May Change \"Everything\"",
+      "url": "https://www.youtube.com/watch?v=IB53DUrnYgI",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T12:45:05.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5321568588306262,
+      "crawledAt": "2026-07-16T17:25:16.872Z",
+      "id": "5u06tj",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:32:31.497Z"
     },
     {
       "title": "HTTP's 402 Error Sat Dead for 29 Years — It Just Became a Cash Register for AI Agents",
@@ -512,6 +2001,134 @@
       "summary": " Your MCP server is about to give you access to your company's most sensitive data. Your server will be able to access your company’s most sensitive information.",
       "language": "en",
       "processed_at": "2026-07-16T14:09:56.307Z"
+    },
+    {
+      "title": "NVIDIA H200 Disassembly & Liquid-Cooling Installation with EK-Pro H200 NVL Water Block",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy0k62/nvidia_h200_disassembly_liquidcooling/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T11:48:36.000Z",
+      "metaDescription": "This is a full teardown video of the NVIDIA H200 NVL and installation of an EK-Pro H200 NVL Water Block, covering the disassembly, prep and mount process, including:\n  \nPCB separation from the stock c",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.5228153733772423,
+      "crawledAt": "2026-07-16T17:24:56.846Z",
+      "id": "dnuymz",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9786424040794373,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.814611554145813,
+          "index": 2,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9841588735580444,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9169414639472961,
+          "index": 4,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " This is a full teardown video of the NVIDIA H200 NVL and installation of an EK-Pro H200NVL Water Block. This is the full video of a full video.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:32:46.816Z"
+    },
+    {
+      "title": "Filings: Dario Amodei gave $1M in May to Public First, a super PAC advocating for AI safety regulations, seemingly his first seven-figure political donation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy06cd/filings_dario_amodei_gave_1m_in_may_to_public/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-16T11:30:13.000Z",
+      "metaDescription": "submitted by    /u/pscoutou  \n [link]   [comments]",
+      "category": "safety-ethics",
+      "difficulty": 7,
+      "confidence": 0.2626507679885894,
+      "crawledAt": "2026-07-16T17:24:55.532Z",
+      "id": "9g8hez",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9994229078292847,
+          "index": 4,
+          "word": "Dar",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.999607264995575,
+          "index": 6,
+          "word": "Am",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9963493943214417,
+          "index": 7,
+          "word": "##ode",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9435202479362488,
+          "index": 8,
+          "word": "##i",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.997590959072113,
+          "index": 16,
+          "word": "Public",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9974021911621094,
+          "index": 17,
+          "word": "First",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9948087930679321,
+          "index": 25,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:32:47.025Z"
     },
     {
       "title": "Move over, GPS: Navigation satellites in low-Earth orbit are making a comeback",
@@ -2498,6 +4115,90 @@
       "processed_at": "2026-07-16T03:18:02.270Z"
     },
     {
+      "title": "Amazon AGI director says AI agent reliability, not capability, is blocking enterprise deployment at VB Transform 2026",
+      "url": "https://venturebeat.com/orchestration/amazon-agi-director-says-ai-agent-reliability-not-capability-is-blocking-enterprise-deployment-at-vb-transform-2026",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-15T20:00:00.000Z",
+      "metaDescription": "The enterprise AI industry has a math problem. Cisco data shows 85% of enterprises are piloting AI agents, but only 5% have shipped them to production. At VB Transform 2026 on Tuesday, Bryan Silvertho",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.9650250784502568,
+      "crawledAt": "2026-07-16T17:24:21.698Z",
+      "id": "g5q5by",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9932999610900879,
+          "index": 1,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9945415258407593,
+          "index": 2,
+          "word": "AG",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9868689775466919,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.965856671333313,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9484784007072449,
+          "index": 18,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8455814719200134,
+          "index": 19,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.931462824344635,
+          "index": 20,
+          "word": "Trans",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9201974272727966,
+          "index": 21,
+          "word": "##form",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Cisco data shows 85% of enterprises are piloting AI agents, but only 5% have shipped them to production.",
+      "language": "en",
+      "processed_at": "2026-07-16T17:33:14.398Z"
+    },
+    {
       "title": "Looking for JEPA devil advocates",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/",
       "source": "r/MachineLearning",
@@ -2944,19 +4645,19 @@
       "processed_at": "2026-07-16T03:19:49.349Z"
     }
   ],
-  "processedAt": "2026-07-16T14:11:29.885Z",
+  "processedAt": "2026-07-16T17:33:14.403Z",
   "categories": [
     "creative-ai",
-    "product-launch",
     "ai-agents",
+    "product-launch",
+    "safety-ethics",
     "infrastructure",
     "model-release",
     "research-paper",
-    "developer-tool",
-    "safety-ethics"
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 18,
-  "dailyArticlesCount": 84,
+  "newArticlesProcessed": 34,
+  "dailyArticlesCount": 118,
   "filterDate": "2026-07-16"
 }
