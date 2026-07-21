@@ -1,9 +1,595 @@
 {
-  "crawledAt": "2026-07-21T17:27:58.961Z",
+  "crawledAt": "2026-07-21T21:17:29.709Z",
   "totalSources": 70,
-  "totalArticles": 130,
+  "totalArticles": 143,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "The Missing Equation of AI",
+      "url": "https://pub.towardsai.net/the-missing-equation-of-ai-ea969df6cc3d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T21:01:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.2897894483754185,
+      "crawledAt": "2026-07-21T21:16:22.815Z",
+      "id": "69drpj",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9652535915374756,
+          "index": 3,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.915753960609436,
+          "index": 5,
+          "word": "##tion",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9065552949905396,
+          "index": 6,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9538049101829529,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:17:31.735Z"
+    },
+    {
+      "title": "OpenAI says Hugging Face was breached by its own pre-release models",
+      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T20:56:55.000Z",
+      "metaDescription": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.9862783249038347,
+      "crawledAt": "2026-07-21T21:15:48.846Z",
+      "id": "1r400q",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9974402189254761,
+          "index": 1,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9934152960777283,
+          "index": 2,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9857710599899292,
+          "index": 3,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9367527365684509,
+          "index": 7,
+          "word": "Face",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Hugging Face breach was the result of internal testing going awry, according to OpenAI. The breach was caused by the HuggingFace breach.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:17:43.158Z"
+    },
+    {
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T20:00:27.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.4424193834695547,
+      "crawledAt": "2026-07-21T21:15:41.801Z",
+      "id": "jmbj49",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9493002891540527,
+          "index": 3,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9737700819969177,
+          "index": 4,
+          "word": "Si",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9776368737220764,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:17:54.830Z"
+    },
+    {
+      "title": "Google's Gemini 3.6 Flash model cuts AI agent token costs by up to 65% on long horizon engineering tasks —and 3.5 Pro is on the way",
+      "url": "https://venturebeat.com/technology/googles-gemini-3-6-flash-model-cuts-ai-agent-token-costs-by-up-to-65-on-long-horizon-engineering-tasks-and-3-5-pro-is-on-the-way",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-21T19:59:58.000Z",
+      "metaDescription": "Google DeepMind today released three new proprietary AI models it says are among its most token-efficient yet: Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, and Gemini 3.5 Flash Cyber. \nThe models aim to m",
+      "category": "ai-agents",
+      "difficulty": 8,
+      "confidence": 0.35187806748071976,
+      "crawledAt": "2026-07-21T21:15:58.686Z",
+      "id": "ds7oog",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9983940124511719,
+          "index": 1,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9972586631774902,
+          "index": 4,
+          "word": "Gemini",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9823557138442993,
+          "index": 5,
+          "word": "3",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9952295422554016,
+          "index": 7,
+          "word": "6",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9197812676429749,
+          "index": 8,
+          "word": "Flash",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9702173471450806,
+          "index": 11,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8760206699371338,
+          "index": 29,
+          "word": "5",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Google DeepMind today released three new proprietary AI models it says are among its most token-efficient yet. The models aim to m m m.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:18:06.508Z"
+    },
+    {
+      "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+      "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T19:43:41.000Z",
+      "metaDescription": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.5821510823766195,
+      "crawledAt": "2026-07-21T21:15:48.985Z",
+      "id": "tick33",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9997319579124451,
+          "index": 1,
+          "word": "Jack",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9994330406188965,
+          "index": 2,
+          "word": "Do",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9985899925231934,
+          "index": 3,
+          "word": "##rsey",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation. Buzz is also a chat platform that puts people and their agents in same conversation.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:18:19.060Z"
+    },
+    {
+      "title": "AI and the rise of the universal entertainment app",
+      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T19:39:30.000Z",
+      "metaDescription": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, t",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5863485501425926,
+      "crawledAt": "2026-07-21T21:15:49.148Z",
+      "id": "bfodw4",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9254752993583679,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, t t t.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:18:33.807Z"
+    },
+    {
+      "title": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
+      "url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T19:05:00.000Z",
+      "metaDescription": "Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.32686934034301146,
+      "crawledAt": "2026-07-21T21:15:55.213Z",
+      "id": "y2vrcg",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9991622567176819,
+          "index": 3,
+          "word": "Intel",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9062145948410034,
+          "index": 11,
+          "word": "Moore",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.876146137714386,
+          "index": 14,
+          "word": "Law",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9961027503013611,
+          "index": 15,
+          "word": "With",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9951245188713074,
+          "index": 16,
+          "word": "Light",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light. He wants to use tiny beams to create artificial intelligence.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:18:53.931Z"
+    },
+    {
+      "title": "Five Single AI Agents Is Not Microservices. It Is a Distributed Monolith",
+      "url": "https://pub.towardsai.net/five-single-ai-agents-is-not-microservices-it-is-a-distributed-monolith-13ea3c172211?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T19:01:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2575197010500641,
+      "crawledAt": "2026-07-21T21:16:23.020Z",
+      "id": "7nff8r",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:18:54.078Z"
+    },
+    {
+      "title": "Evals are the new PRD, Expedia’s AI chief tells VB Transform 2026",
+      "url": "https://venturebeat.com/security/evals-are-the-new-prd-expedia-ai-chief-tells-vb-transform-2026",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-21T18:15:46.000Z",
+      "metaDescription": "“The new PRD are the evals,” Xavi Amatriain, Expedia Group’s first chief AI and data officer, told the VB Transform 2026 audience last week in Menlo Park. “So basically, you encode what you want the p",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.26410077516844954,
+      "crawledAt": "2026-07-21T21:15:58.918Z",
+      "id": "3x4oug",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8128109574317932,
+          "index": 1,
+          "word": "Eva",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9987497925758362,
+          "index": 9,
+          "word": "Ex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.996801495552063,
+          "index": 10,
+          "word": "##ped",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9894434213638306,
+          "index": 11,
+          "word": "##ia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9799584746360779,
+          "index": 17,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.971603512763977,
+          "index": 18,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9818915128707886,
+          "index": 19,
+          "word": "Trans",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9808011054992676,
+          "index": 20,
+          "word": "##form",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Expedia Group’s first chief AI and data officer, Xavi Amatriain, told the VB Transform 2026 audience.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:19:18.907Z"
+    },
+    {
+      "title": "Empirical Reflections on the Software Development Lifecycle in the Age of AI-Assisted Engineering",
+      "url": "https://pub.towardsai.net/empirical-reflections-on-the-software-development-lifecycle-in-the-age-of-ai-assisted-engineering-a696399fb26f?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T18:01:01.000Z",
+      "metaDescription": "",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.35011164920946186,
+      "crawledAt": "2026-07-21T21:16:23.096Z",
+      "id": "pmqza9",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8092871308326721,
+          "index": 20,
+          "word": "##ed",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:19:29.103Z"
+    },
+    {
+      "title": "Plugins in ChatGPT",
+      "url": "https://www.youtube.com/watch?v=pKwRNdDtai0",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T18:00:39.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.3583538717860807,
+      "crawledAt": "2026-07-21T21:16:47.292Z",
+      "id": "way6g2",
+      "entities": [],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:19:29.239Z"
+    },
+    {
+      "title": "How Small Business Owners Use ChatGPT | Hiroki’s Story",
+      "url": "https://www.youtube.com/watch?v=qr2CuMmKzH0",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-07-21T17:20:38.000Z",
+      "metaDescription": "",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.2536093087348385,
+      "crawledAt": "2026-07-21T21:16:47.368Z",
+      "id": "3wyexm",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9965215921401978,
+          "index": 12,
+          "word": "Hi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9649835228919983,
+          "index": 13,
+          "word": "##rok",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:19:51.106Z"
+    },
+    {
+      "title": "Sales of Valve's Steam Deck crater after recent price hike",
+      "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-21T17:12:34.000Z",
+      "metaDescription": "Analysis of bestseller charts shows an 80 percent dip from 2025's sales rate.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.28669808644367645,
+      "crawledAt": "2026-07-21T21:15:52.141Z",
+      "id": "xq36lo",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.990304708480835,
+          "index": 3,
+          "word": "Val",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9886396527290344,
+          "index": 4,
+          "word": "##ve",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9085192084312439,
+          "index": 8,
+          "word": "Deck",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Analysis of bestseller charts shows an 80 percent dip from 2025's sales rate. Analysis of the bestseller chart shows an 8 percent dip in sales from 2025.",
+      "language": "en",
+      "processed_at": "2026-07-21T21:20:01.947Z"
+    },
     {
       "title": "Google releases three new Gemini models — but no 3.5 Pro",
       "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
@@ -4500,20 +5086,21 @@
       "processed_at": "2026-07-21T17:33:21.912Z"
     }
   ],
-  "processedAt": "2026-07-21T17:33:21.918Z",
+  "processedAt": "2026-07-21T21:20:29.401Z",
   "categories": [
-    "model-release",
-    "developer-tool",
-    "infrastructure",
     "creative-ai",
+    "model-release",
+    "infrastructure",
     "ai-agents",
+    "developer-tool",
+    "industry-news",
     "product-launch",
     "safety-ethics",
     "research-paper",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 18,
-  "dailyArticlesCount": 130,
+  "newArticlesProcessed": 13,
+  "dailyArticlesCount": 143,
   "filterDate": "2026-07-21"
 }
