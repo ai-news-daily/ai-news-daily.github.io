@@ -1,9 +1,148 @@
 {
-  "crawledAt": "2026-07-22T21:16:04.842Z",
+  "crawledAt": "2026-07-23T03:25:50.022Z",
   "totalSources": 70,
-  "totalArticles": 1811,
+  "totalArticles": 1803,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-07-23T02:00:46.000Z",
+      "metaDescription": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platfor",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.30581633378181167,
+      "crawledAt": "2026-07-23T03:23:56.218Z",
+      "id": "sffynj",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8929405808448792,
+          "index": 1,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9466097950935364,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8964449763298035,
+          "index": 13,
+          "word": "Naval",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.956493079662323,
+          "index": 14,
+          "word": "Post",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9014252424240112,
+          "index": 15,
+          "word": "##graduate",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9058965444564819,
+          "index": 16,
+          "word": "School",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Jensen Huang visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system. NVIDIA founder and CEO Jensen Huang today visited the naval Postgraduate school.",
+      "language": "en",
+      "processed_at": "2026-07-23T03:26:06.627Z"
+    },
+    {
+      "title": "One encoder, seven heads: what we learned training a unified security classifier with masked losses",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v3vuj9/one_encoder_seven_heads_what_we_learned_training/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-22T22:48:22.000Z",
+      "metaDescription": "We spent the last months consolidating seven separate sequence classifiers into one multi-head model, our apex model, so to speak, and since the weights are now public, I wanted to share what worked a",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.2951306772843289,
+      "crawledAt": "2026-07-23T03:24:53.938Z",
+      "id": "m8n5mn",
+      "entities": [],
+      "summary": " We spent the last months consolidating seven separate sequence classifiers into one multi-head model, our apex model, so to speak. We spent last months consolidate seven separate sequences into oneMulti-head models.",
+      "language": "en",
+      "processed_at": "2026-07-23T03:26:36.028Z"
+    },
+    {
+      "title": "The credential that let OpenAI's agents into Hugging Face exists in most enterprises right now",
+      "url": "https://venturebeat.com/security/the-credential-that-let-openais-agents-into-hugging-face-exists-in-most-enterprises-right-now",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-22T22:12:14.000Z",
+      "metaDescription": "When Hugging Face got hit last week, co-founder Clement Delangue suspected a frontier lab, given the agent's sophistication. He was right. Delangue said on X that after a day working with OpenAI he st",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.29587222500166616,
+      "crawledAt": "2026-07-23T03:24:20.475Z",
+      "id": "v16pys",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9984249472618103,
+          "index": 7,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9971535801887512,
+          "index": 8,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9929446578025818,
+          "index": 9,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8852765560150146,
+          "index": 14,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "When Hugging Face got hit last week, co-founder Clement Delangue suspected a frontier lab. He said on X that after a day working with OpenAI he was right.",
+      "language": "en",
+      "processed_at": "2026-07-23T03:26:51.296Z"
+    },
     {
       "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
       "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
@@ -71,6 +210,80 @@
       "summary": " U.S. officials accused Moonshot of distilling Anthropic's Fable model to develop Kimi K3.",
       "language": "en",
       "processed_at": "2026-07-22T21:16:45.203Z"
+    },
+    {
+      "title": "Microsoft brings original Xbox backward compatibility to Windows PCs",
+      "url": "https://arstechnica.com/gaming/2026/07/microsoft-brings-original-xbox-backward-compatibility-to-windows-pcs/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-22T20:36:19.000Z",
+      "metaDescription": "First four compatible titles can be run with an 11-year-old graphics card.",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.3033207731660251,
+      "crawledAt": "2026-07-23T03:24:09.014Z",
+      "id": "iyzlea",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.995429515838623,
+          "index": 1,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9923312664031982,
+          "index": 8,
+          "word": "Windows",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " First four compatible titles can be run with an 11-year-old graphics card. First four titles can also be run using an 11 year-old card.",
+      "language": "en",
+      "processed_at": "2026-07-23T03:27:11.790Z"
+    },
+    {
+      "title": "ISPs' long nightmare of having to list all the fees they charge is finally over",
+      "url": "https://arstechnica.com/tech-policy/2026/07/isps-long-nightmare-of-having-to-list-all-the-fees-they-charge-is-finally-over/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-22T20:17:18.000Z",
+      "metaDescription": "FCC lets ISPs stop listing all fees after companies complained it was too hard.",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.27057198482082606,
+      "crawledAt": "2026-07-23T03:24:09.142Z",
+      "id": "oa4muj",
+      "entities": [],
+      "summary": " FCC lets ISPs stop listing all fees after companies complained it was too hard. FCC lets ISP stop listing fees after firms complain it was 'too hard'",
+      "language": "en",
+      "processed_at": "2026-07-23T03:27:21.762Z"
+    },
+    {
+      "title": "Clayface trailer leans into the body horror",
+      "url": "https://arstechnica.com/culture/2026/07/clayface-trailer-leans-into-the-body-horror/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-07-22T19:18:17.000Z",
+      "metaDescription": "\"The people I trusted betrayed me. The justice system failed me.\"",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5350755436480756,
+      "crawledAt": "2026-07-23T03:24:09.242Z",
+      "id": "3h84tn",
+      "entities": [],
+      "summary": " \"The people I trusted betrayed me,\" says \"The justice system failed me\" \"ThePeople I trusted betrayal betrayed me\"",
+      "language": "en",
+      "processed_at": "2026-07-23T03:27:31.539Z"
     },
     {
       "title": "AI agents aren't confidently wrong because of bad context — they're wrong because of bad data engineering",
@@ -9796,6 +10009,58 @@
       "summary": " Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Agent Toolkit to build a supply-chain risk example.",
       "language": "en",
       "processed_at": "2026-07-20T18:10:49.216Z"
+    },
+    {
+      "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Relay",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-07-20T17:01:32.000Z",
+      "metaDescription": "In this post, we show how Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Relay to build a supply-chain risk example that helps a planner",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.34687558682358316,
+      "crawledAt": "2026-07-23T03:24:29.469Z",
+      "id": "7nszq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9833237528800964,
+          "index": 12,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9899215698242188,
+          "index": 13,
+          "word": "Quick",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.8187031745910645,
+          "index": 16,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8036098480224609,
+          "index": 17,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Relay to build a supply-chain risk example that helps a planner.",
+      "language": "en",
+      "processed_at": "2026-07-23T03:27:43.907Z"
     },
     {
       "title": "Evolving from legacy BI to agentic AI at Tradeshift with Amazon Quick",
@@ -61693,510 +61958,25 @@
       "summary": "Every chemical language model reading SMILES begins with a tokenizer. The field has inherited byte-pair encoding from natural language.",
       "language": "en",
       "processed_at": "2026-07-08T10:30:54.411Z"
-    },
-    {
-      "title": "Snowflake CoWork: What Architects Need to Know Before Their Teams Start Using It",
-      "url": "https://pub.towardsai.net/snowflake-cowork-what-architects-need-to-know-before-their-teams-start-using-it-6b355e52e4f0?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T02:28:05.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.26418129847627103,
-      "crawledAt": "2026-07-08T03:22:34.069Z",
-      "id": "3t0xks",
-      "entities": [
-        {
-          "entity": "I-ORG",
-          "score": 0.8830550909042358,
-          "index": 5,
-          "word": "##W",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8718783855438232,
-          "index": 7,
-          "word": "##k",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:23:27.858Z"
-    },
-    {
-      "title": "Claude Agent SDK Plugins: You Built a Test Tool, a Reviewer, and an Audit Hook.",
-      "url": "https://pub.towardsai.net/claude-agent-sdk-plugins-you-built-a-test-tool-a-reviewer-and-an-audit-hook-0fd08307b768?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T02:26:56.000Z",
-      "metaDescription": "Part 11: How Claude Agent SDK plugins bundle the custom tools, subagents, hooks, and MCP servers you have scattered across your code into…\nContinue reading on Towards AI »",
-      "category": "developer-tool",
-      "difficulty": 4,
-      "confidence": 0.2869788944300262,
-      "crawledAt": "2026-07-08T03:22:34.275Z",
-      "id": "xkscrr",
-      "entities": [],
-      "summary": " Part 11: How Claude Agent SDK plugins bundle the custom tools, subagents, hooks, and MCP servers you have scattered across your code into…Continue reading on Towards AI.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:23:51.893Z"
-    },
-    {
-      "title": "4 Types of AI Agent Loops, and the One Mistake That Breaks Most of Them",
-      "url": "https://pub.towardsai.net/4-types-of-ai-agent-loops-and-the-one-mistake-that-breaks-most-of-them-1dc9f44ad71b?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T02:25:34.000Z",
-      "metaDescription": "A practical framework for designing loops that know when to run, when to stop, and what to hand off, without burning your token budget or…\nContinue reading on Towards AI »",
-      "category": "ai-agents",
-      "difficulty": 4,
-      "confidence": 0.8360764708768974,
-      "crawledAt": "2026-07-08T03:22:34.412Z",
-      "id": "x65keu",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8066849112510681,
-          "index": 5,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A practical framework for designing loops that know when to run, when to stop, and what to hand off, without burning your token budget.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:24:05.843Z"
-    },
-    {
-      "title": "Cognitive Debt: Staying Sharp When AI Writes Most of Your Code",
-      "url": "https://pub.towardsai.net/cognitive-debt-4c8dddd696c8?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T02:24:20.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3506683086246741,
-      "crawledAt": "2026-07-08T03:22:34.457Z",
-      "id": "gk8473",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9296767711639404,
-          "index": 11,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9840279221534729,
-          "index": 17,
-          "word": "Code",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:24:05.908Z"
-    },
-    {
-      "title": "Developing AI Agents on Databricks with Databricks Apps and MLFlow",
-      "url": "https://pub.towardsai.net/developing-ai-agents-on-databricks-with-databricks-apps-and-mlflow-3b935d8496b7?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T02:00:26.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 6,
-      "confidence": 0.9586157392381918,
-      "crawledAt": "2026-07-08T03:22:34.504Z",
-      "id": "eu89wj",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.887349545955658,
-          "index": 11,
-          "word": "Data",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8403714895248413,
-          "index": 12,
-          "word": "##bri",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8022366762161255,
-          "index": 13,
-          "word": "##cks",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8264907598495483,
-          "index": 17,
-          "word": "M",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8595404028892517,
-          "index": 18,
-          "word": "##LF",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:24:05.981Z"
-    },
-    {
-      "title": "Agentic Testing with QA.tech",
-      "url": "https://generativeai.pub/agentic-testing-with-qa-tech-64102b863590?source=rss----440100e76000---4",
-      "source": "Generative AI",
-      "source_domain": "generativeai.pub",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T01:06:12.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.32830104993308723,
-      "crawledAt": "2026-07-08T03:22:41.119Z",
-      "id": "dz82pr",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:24:33.942Z"
-    },
-    {
-      "title": "Homelab",
-      "url": "https://www.reddit.com/r/mlops/comments/1uqdtr7/homelab/",
-      "source": "r/MLOps",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-07-08T00:56:00.000Z",
-      "metaDescription": "What is an in expensive way to gain mops experience? Homelab with a few gpu and Kubernetes? A cloud provider?\n EDIT: looking for a lab to get my hands dirty on the various frameworks used on Kubernete",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.6608120181110336,
-      "crawledAt": "2026-07-09T07:43:05.349Z",
-      "id": "rr4yh2",
-      "entities": [],
-      "summary": " What is an in expensive way to gain mops experience? Homelab with a few gpu and Kubernetes? A cloud provider? Looking for a lab to get my hands dirty on the various frameworks used on Kubernetse.",
-      "language": "en",
-      "processed_at": "2026-07-09T08:01:48.268Z"
-    },
-    {
-      "title": "ACL ARR May 2026",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uqdpdb/acl_arr_may_2026d/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T00:50:27.000Z",
-      "metaDescription": "Lets Discuss your experience in reviews in the threads (as a reviewer and an author)....also any ACs, how was the avg score this cycle in your lot? \n    submitted by    /u/Historical_Pause247  \n [link",
-      "category": "industry-news",
-      "difficulty": 4,
-      "confidence": 0.2603795172323717,
-      "crawledAt": "2026-07-08T03:22:44.426Z",
-      "id": "frmwps",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8736381530761719,
-          "index": 1,
-          "word": "AC",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8770167827606201,
-          "index": 2,
-          "word": "##L",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Lets Discuss your experience in reviews in the threads in the thread. How was the avg score this cycle in your lot?",
-      "language": "en",
-      "processed_at": "2026-07-08T03:24:44.741Z"
-    },
-    {
-      "title": "I need an adult: J-Space-Aware Pruning/Merging/Distillation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T00:29:49.000Z",
-      "metaDescription": "Warning: I am an accountant and not an ML engineer of any kind, and I'm potentially missing some important points. I wrote all this by hand, but I'll link my gemini chat where I was trying to understa",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.35749396332802014,
-      "crawledAt": "2026-07-08T10:24:39.728Z",
-      "id": "g10tz0",
-      "entities": [],
-      "summary": " I'll link my gemini chat where I was trying to understa. Warning: I'm potentially missing some important points.",
-      "language": "en",
-      "processed_at": "2026-07-08T10:31:13.120Z"
-    },
-    {
-      "title": "Introducing GPT-Live",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "source": "OpenAI Blog",
-      "source_domain": "openai.com",
-      "source_category": "company",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T00:00:00.000Z",
-      "metaDescription": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.6167676019727304,
-      "crawledAt": "2026-07-08T17:42:52.139Z",
-      "id": "m8woyt",
-      "entities": [],
-      "summary": " A new generation of voice models for natural human-AI interaction is being developed. The new generation will be powered by ChatGPT Voice.",
-      "language": "en",
-      "processed_at": "2026-07-08T17:49:22.186Z"
-    },
-    {
-      "title": "Native-speed vLLM transformers modeling backend",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog",
-      "source_domain": "huggingface.co",
-      "source_category": "company",
-      "source_priority": "high",
-      "pubDate": "2026-07-08T00:00:00.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.32370954488130793,
-      "crawledAt": "2026-07-08T17:42:41.943Z",
-      "id": "1ni5tj",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T17:49:22.276Z"
-    },
-    {
-      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
-      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-07-07T22:18:10.000Z",
-      "metaDescription": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
-      "category": "product-launch",
-      "difficulty": 5,
-      "confidence": 0.9948951531730931,
-      "crawledAt": "2026-07-08T03:22:13.802Z",
-      "id": "9sm2x5",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9978333711624146,
-          "index": 1,
-          "word": "Met",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9881867170333862,
-          "index": 2,
-          "word": "##a",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9948418736457825,
-          "index": 10,
-          "word": "Muse",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9774132370948792,
-          "index": 11,
-          "word": "Image",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:25:03.315Z"
-    },
-    {
-      "title": "SpaceXAI planning to launch 1.5 Trillion parameter Grok 4.5 on Wednesday",
-      "url": "https://www.reddit.com/r/singularity/comments/1uq9qjq/spacexai_planning_to_launch_15_trillion_parameter/",
-      "source": "r/singularity",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-07-07T22:08:38.000Z",
-      "metaDescription": "Source: https://archive.is/REsCd\n    submitted by    /u/WhyLifeIs4  \n [link]   [comments]",
-      "category": "product-launch",
-      "difficulty": 6,
-      "confidence": 0.968172647647281,
-      "crawledAt": "2026-07-08T21:14:51.020Z",
-      "id": "yb1f1z",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9987269639968872,
-          "index": 1,
-          "word": "Space",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9989253282546997,
-          "index": 2,
-          "word": "##X",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.998635470867157,
-          "index": 3,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9874986410140991,
-          "index": 4,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9774936437606812,
-          "index": 11,
-          "word": "Tri",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-07-08T21:19:44.837Z"
-    },
-    {
-      "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
-      "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
-      "source": "Wired AI",
-      "source_domain": "wired.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-07-07T21:59:29.000Z",
-      "metaDescription": "As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.31095939488870805,
-      "crawledAt": "2026-07-08T03:22:19.075Z",
-      "id": "3hnfo8",
-      "entities": [],
-      "summary": " Instagram users with public accounts need to opt out to block AI generations of their content. As part of Meta’s Muse Image model rollout, Instagram users must opt out.",
-      "language": "en",
-      "processed_at": "2026-07-08T03:25:15.353Z"
-    },
-    {
-      "title": "OpenAI’s Chief Futurist Is Leaving the Company",
-      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
-      "source": "Wired AI",
-      "source_domain": "wired.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-07-07T21:30:00.000Z",
-      "metaDescription": "Joshua Achiam spent nearly nine years at OpenAI researching AI safety and made a memorable appearance in the Musk v. Altman trial.",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.3793587721216844,
-      "crawledAt": "2026-07-07T21:34:58.366Z",
-      "id": "2zyf0h",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9977085590362549,
-          "index": 1,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9965794086456299,
-          "index": 2,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9870699048042297,
-          "index": 3,
-          "word": "##I",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Joshua Achiam spent nearly nine years at OpenAI researching AI safety. He made a memorable appearance in the Musk v. Altman trial.",
-      "language": "en",
-      "processed_at": "2026-07-07T21:36:42.579Z"
     }
   ],
-  "processedAt": "2026-07-22T21:19:49.291Z",
+  "processedAt": "2026-07-23T03:27:43.911Z",
   "categories": [
     "creative-ai",
-    "ai-agents",
-    "model-release",
     "safety-ethics",
-    "product-launch",
+    "model-release",
     "industry-news",
+    "ai-agents",
+    "product-launch",
     "infrastructure",
     "developer-tool",
     "research-paper",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 12,
+  "newArticlesProcessed": 7,
   "existingArticlesKept": 1811,
   "cleanupApplied": true,
-  "cleanedUpCount": 12,
+  "cleanedUpCount": 15,
   "rollingWindowDays": 15
 }
