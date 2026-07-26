@@ -1,9 +1,45 @@
 {
-  "crawledAt": "2026-07-26T03:32:09.488Z",
+  "crawledAt": "2026-07-26T06:42:00.388Z",
   "totalSources": 70,
-  "totalArticles": 3,
+  "totalArticles": 5,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Understanding GPU Inference Workloads",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-26T03:37:48.000Z",
+      "metaDescription": "Hey everyone,\n I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here.\n If you've used online services",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5228323048882255,
+      "crawledAt": "2026-07-26T06:41:35.646Z",
+      "id": "7sy4da",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9844228625297546,
+          "index": 2,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.938584566116333,
+          "index": 3,
+          "word": "##U",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " I wanted to understand some specific pain points here. If you've used online services, I wanted you to understand how to use them.",
+      "language": "en",
+      "processed_at": "2026-07-26T06:42:10.623Z"
+    },
     {
       "title": "Llama.cpp now has full MCP support!",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
@@ -93,15 +129,45 @@
       "summary": " One Ring in Rings of Power S3 teaser. New Lanterns trailer also features new Lanterns and Spaceballs.",
       "language": "en",
       "processed_at": "2026-07-26T03:34:02.044Z"
+    },
+    {
+      "title": "Paper lengths, and reasonable assumptions in ML conferences.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-25T18:48:18.000Z",
+      "metaDescription": "I've usually been commenting on threads on conference reviews. I'm now expressing my observations here.\n To the best of my knowledge, paper lengths have been held constant at many conferences, and som",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.4724100926464114,
+      "crawledAt": "2026-07-26T06:41:35.559Z",
+      "id": "f8xmvu",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9542323350906372,
+          "index": 8,
+          "word": "M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "I've usually been commenting on conference reviews, but now I'm expressing my observations. To the best of my knowledge, paper lengths have been held constant at many conferences.",
+      "language": "en",
+      "processed_at": "2026-07-26T06:42:32.228Z"
     }
   ],
-  "processedAt": "2026-07-26T03:34:17.617Z",
+  "processedAt": "2026-07-26T06:42:32.232Z",
   "categories": [
+    "creative-ai",
     "infrastructure",
-    "product-launch"
+    "product-launch",
+    "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 3,
-  "dailyArticlesCount": 3,
+  "newArticlesProcessed": 2,
+  "dailyArticlesCount": 5,
   "filterDate": "2026-07-26"
 }
