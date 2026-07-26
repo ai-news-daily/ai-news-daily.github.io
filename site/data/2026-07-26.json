@@ -1,9 +1,119 @@
 {
-  "crawledAt": "2026-07-26T06:42:00.388Z",
+  "crawledAt": "2026-07-26T10:06:05.709Z",
   "totalSources": 70,
-  "totalArticles": 5,
+  "totalArticles": 9,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "ai-sage/GigaChat3.1-Audio-10B-A1.8B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6zksb/aisagegigachat31audio10ba18b_hugging_face/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-07-26T09:59:03.000Z",
+      "metaDescription": "GigaChat Audio 10B is an audio-native LLM built on top of the GigaChat 3.1 Lightning text model. A Conformer speech encoder and a modality adapter feed audio embeddings directly into a Mixture-of-Expe",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.5621257381110629,
+      "crawledAt": "2026-07-26T10:05:45.683Z",
+      "id": "32p1ho",
+      "entities": [],
+      "summary": " GigaChat Audio 10B is an audio-native LLM built on top of the Giga Chat 3.1 Lightning text model.",
+      "language": "en",
+      "processed_at": "2026-07-26T10:06:21.979Z"
+    },
+    {
+      "title": "Cracking the Data Science Case Study Interview",
+      "url": "https://www.analyticsvidhya.com/blog/2026/07/data-science-case-study/",
+      "source": "Analytics Vidhya",
+      "source_domain": "analyticsvidhya.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-07-26T07:28:00.000Z",
+      "metaDescription": "Data science case study interviews are not just about writing code. They test how you think through a problem, analyze data, make decisions, and explain your approach in a way that solves a real busin",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.6282747732494648,
+      "crawledAt": "2026-07-26T10:06:05.040Z",
+      "id": "y8bcwz",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9756750464439392,
+          "index": 5,
+          "word": "Data",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9895709753036499,
+          "index": 6,
+          "word": "Science",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9842349886894226,
+          "index": 8,
+          "word": "Study",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Data science case study interviews are not just about writing code. They test how you think through a problem, analyze data, make decisions, and explain your approach.",
+      "language": "en",
+      "processed_at": "2026-07-26T10:06:31.727Z"
+    },
+    {
+      "title": "A discussion, to understand AI at its core",
+      "url": "https://ai.plainenglish.io/a-discussion-to-understand-ai-at-its-core-22786457d99d?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-26T07:18:42.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.37537224609417036,
+      "crawledAt": "2026-07-26T10:05:40.644Z",
+      "id": "hia60f",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9866252541542053,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-07-26T10:06:31.772Z"
+    },
+    {
+      "title": "In a Pressure Cooker World, New Value Can be the Hero.",
+      "url": "https://ai.plainenglish.io/in-a-pressure-cooker-world-new-value-can-be-the-hero-cae41f436114?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-07-26T06:37:04.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3794380282348235,
+      "crawledAt": "2026-07-26T10:05:40.674Z",
+      "id": "dai4s8",
+      "entities": [],
+      "summary": "Announcement or discussion about new AI model releases and updates.",
+      "language": "en",
+      "processed_at": "2026-07-26T10:06:31.827Z"
+    },
     {
       "title": "Understanding GPU Inference Workloads",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
@@ -159,15 +269,16 @@
       "processed_at": "2026-07-26T06:42:32.228Z"
     }
   ],
-  "processedAt": "2026-07-26T06:42:32.232Z",
+  "processedAt": "2026-07-26T10:07:28.458Z",
   "categories": [
+    "ai-agents",
+    "research-paper",
     "creative-ai",
     "infrastructure",
-    "product-launch",
-    "research-paper"
+    "product-launch"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 2,
-  "dailyArticlesCount": 5,
+  "newArticlesProcessed": 4,
+  "dailyArticlesCount": 9,
   "filterDate": "2026-07-26"
 }
