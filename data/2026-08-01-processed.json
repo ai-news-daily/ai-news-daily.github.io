@@ -1,9 +1,134 @@
 {
-  "crawledAt": "2026-08-01T03:30:35.718Z",
+  "crawledAt": "2026-08-01T10:04:15.377Z",
   "totalSources": 70,
-  "totalArticles": 14,
+  "totalArticles": 18,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Nobody Knows if OpenAI’s and Anthropic’s AI Hacking Sprees Are Illegal",
+      "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-08-01T09:30:00.000Z",
+      "metaDescription": "Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot?",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.2691258221648831,
+      "crawledAt": "2026-08-01T10:03:33.206Z",
+      "id": "uhblj4",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9962635040283203,
+          "index": 5,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9830721616744995,
+          "index": 6,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9849530458450317,
+          "index": 7,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8128777742385864,
+          "index": 11,
+          "word": "An",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9390179514884949,
+          "index": 17,
+          "word": "Ha",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9442408084869385,
+          "index": 18,
+          "word": "##cking",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot? But a robot?",
+      "language": "en",
+      "processed_at": "2026-08-01T10:04:30.518Z"
+    },
+    {
+      "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-01T08:27:40.000Z",
+      "metaDescription": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models avail",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.36874884470672653,
+      "crawledAt": "2026-08-01T10:03:54.082Z",
+      "id": "svka8w",
+      "entities": [],
+      "summary": " The highest intelligence index score was 51 for frontier models. If these benchmarks are accurate, models avail, models available.",
+      "language": "en",
+      "processed_at": "2026-08-01T10:04:37.996Z"
+    },
+    {
+      "title": "Qwen 3.6 27B Q5 on 3x2080ti: 55tps with llama.cpp. Can I squeeze out more?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vch2vl/qwen_36_27b_q5_on_3x2080ti_55tps_with_llamacpp/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-01T07:52:10.000Z",
+      "metaDescription": "CPU: Threadripper 3970X\n RAM: 128GB DDR4\n GPUs: 3x2080ti 11GB\n The current best parameters to run it:\n llama-server \\ --model Qwen3.6-27B-Q5_K_S.gguf \\ --n-gpu-layers 999 \\ --split-mode tensor \\ --fla",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.26871114288812015,
+      "crawledAt": "2026-08-01T10:03:55.704Z",
+      "id": "2norrw",
+      "entities": [],
+      "summary": " The current best model is Qwen3.6-27-27B-Q5-K_K_S.gguf.",
+      "language": "en",
+      "processed_at": "2026-08-01T10:04:50.600Z"
+    },
+    {
+      "title": "What speeds are everyone getting with deepseek v4 flash 0731?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcaztx/what_speeds_are_everyone_getting_with_deepseek_v4/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-01T02:35:54.000Z",
+      "metaDescription": "What speeds are everyone getting with deepseek v4 flash 0731?\n I’m getting~200 tps prompt processing / ~11 tps token gen, on 4x5060ti16gb with ddr4 3200 ram at 4-channel, via llamacpp, with context wi",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.33789052234037803,
+      "crawledAt": "2026-08-01T10:03:54.663Z",
+      "id": "b49c5n",
+      "entities": [],
+      "summary": "Deepseek v4 flash 0731? I’m getting~200 tps prompt processing / ~11 tps token gen, on 4x5060ti16gb with ddr4 3200 ram at 4-channel.",
+      "language": "en",
+      "processed_at": "2026-08-01T10:05:05.907Z"
+    },
     {
       "title": "Me: Worn out from all the new model drops this week, but still hyped for all the great new releases.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcav6l/me_worn_out_from_all_the_new_model_drops_this/",
@@ -673,16 +798,16 @@
       "processed_at": "2026-08-01T03:34:45.160Z"
     }
   ],
-  "processedAt": "2026-08-01T03:35:04.382Z",
+  "processedAt": "2026-08-01T10:05:14.121Z",
   "categories": [
-    "model-release",
     "creative-ai",
+    "model-release",
+    "infrastructure",
     "ai-agents",
-    "industry-news",
-    "infrastructure"
+    "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 14,
-  "dailyArticlesCount": 14,
+  "newArticlesProcessed": 4,
+  "dailyArticlesCount": 18,
   "filterDate": "2026-08-01"
 }
