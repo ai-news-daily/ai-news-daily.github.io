@@ -1,7 +1,7 @@
 {
-  "crawledAt": "2026-08-09T02:07:46.890Z",
+  "crawledAt": "2026-08-09T05:11:38.029Z",
   "totalSources": 70,
-  "totalArticles": 1621,
+  "totalArticles": 1625,
   "aiFilterUsed": true,
   "articles": [
     {
@@ -276,6 +276,53 @@
       "summary": "I am currently tes. I could use some advice on setting up speculative decoding correctly with llama-server.",
       "language": "en",
       "processed_at": "2026-08-09T02:08:58.579Z"
+    },
+    {
+      "title": "Inside GLM5.2: Architecture, Benchmarks, Real Inference Costs",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1vj5b31/inside_glm52_architecture_benchmarks_real/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-08T19:50:23.000Z",
+      "metaDescription": "submitted by    /u/RelevantEmergency707  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9040066922789773,
+      "crawledAt": "2026-08-09T05:11:05.703Z",
+      "id": "bqcfvc",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-09T05:11:53.218Z"
+    },
+    {
+      "title": "Key Point Detection - Basketball court",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1vj59lt/key_point_detection_basketball_court/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-08T19:48:34.000Z",
+      "metaDescription": "Hello everyone, I'm trying to explore methods to detect keypoints on a basketball court in a 15 to 20 second basketball video clip. I've seen one solution by roboflow but am not quite convinced by it.",
+      "category": "safety-ethics",
+      "difficulty": 4,
+      "confidence": 0.4133907564181701,
+      "crawledAt": "2026-08-09T05:11:05.859Z",
+      "id": "7lz6v9",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9556214809417725,
+          "index": 2,
+          "word": "Point",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A video clip has been posted online by roboflow. The clip shows a 15 to 20 second video clip of a basketball court.",
+      "language": "en",
+      "processed_at": "2026-08-09T05:12:03.034Z"
     },
     {
       "title": "OpenAI acquires presentation startup NextSlide",
@@ -1402,6 +1449,34 @@
       "processed_at": "2026-08-07T20:50:38.088Z"
     },
     {
+      "title": "Small GPT Transformer-decoder from Scratch",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1vi80ee/small_gpt_transformerdecoder_from_scratch/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-07T18:04:54.000Z",
+      "metaDescription": "200M model trained on 4B tokens from fineweb-edu, achieves a final mean loss of ~3.3\n and perplexity 28.\n The model is made almost entirely from scratch and includes\n  \nMulti-head self-attention\n Rota",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.5170981896385611,
+      "crawledAt": "2026-08-09T05:11:06.456Z",
+      "id": "vh6hi6",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8395888805389404,
+          "index": 2,
+          "word": "GP",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " 200M model trained on 4B tokens from fineweb-edu, achieves a final mean loss of ~3.3. 3.3.",
+      "language": "en",
+      "processed_at": "2026-08-09T05:12:16.332Z"
+    },
+    {
       "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "url": "https://huggingface.co/blog/allenai/tutormoments",
       "source": "Hugging Face Blog",
@@ -2308,6 +2383,50 @@
       "processed_at": "2026-08-07T17:04:44.136Z"
     },
     {
+      "title": "Day 11 of my CS189 self-study run: Convolutional Neural Networks",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1vi1qch/day_11_of_my_cs189_selfstudy_run_convolutional/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-07T14:11:22.000Z",
+      "metaDescription": "Starts from why fully connected layers don't scale for images, then local connectivity + weight sharing, the 1D/2D convolution definition, output size and cost, padding, pooling, and how the whole thi",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.34226917534277357,
+      "crawledAt": "2026-08-09T05:11:06.279Z",
+      "id": "spgsjk",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.993229329586029,
+          "index": 5,
+          "word": "CS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8457714915275574,
+          "index": 6,
+          "word": "##18",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9617879986763,
+          "index": 17,
+          "word": "N",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The 1D/2D convolution definition, output size and cost and cost, padding, pooling, and how the whole thi are shown.",
+      "language": "en",
+      "processed_at": "2026-08-09T05:13:02.528Z"
+    },
+    {
       "title": "An AI Agent Is Not a Chatbot: The Small Loop That Turns Language Into Work",
       "url": "https://pub.towardsai.net/an-ai-agent-is-not-a-chatbot-the-small-loop-that-turns-language-into-work-120fdc0af03f?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -2819,6 +2938,34 @@
       "summary": " This week on the show, Brett Kennedy returns to discuss his new book \"Building LLM Applicat\" This week, Kennedy returns on his new \"BuildingLLM Applicats\"",
       "language": "en",
       "processed_at": "2026-08-07T13:18:26.395Z"
+    },
+    {
+      "title": "Innovation in AI dieting: lighter and smarter through frequency analysis!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1vhyiil/innovation_in_ai_dieting_lighter_and_smarter/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-07T11:54:03.000Z",
+      "metaDescription": "Innovation in AI dieting: lighter and smarter through frequency analysis!\n Description: Introducing frequency pruning, a technique that utilizes Discrete Cosine Transform (DCT) to remove unnecessary f",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.971965598672443,
+      "crawledAt": "2026-08-09T05:11:06.990Z",
+      "id": "a1bmxn",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9838079810142517,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Discrete Cosine Transform (DCT) is a technique that utilizes DiscreteCosine Transform to remove unnecessary f f f.",
+      "language": "en",
+      "processed_at": "2026-08-09T05:13:13.086Z"
     },
     {
       "title": "Enterprise Architecture Review Board AI Agent : Human Decides. AI Prepares the Evidence.",
@@ -53429,44 +53576,25 @@
       "summary": " Opus 5 comes with five effort settings: low, medium, medium and high. Most people seem to be reaching straight for max, and at least on coding work that looks like the wrong move.",
       "language": "en",
       "processed_at": "2026-07-26T17:16:02.218Z"
-    },
-    {
-      "title": "I released Inflect v2: two ultra-tiny complete TTS models under 4M and 10M parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5ve6v/i_released_inflect_v2_two_ultratiny_complete_tts/",
-      "source": "r/LocalLLaMA",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-07-25T02:17:28.000Z",
-      "metaDescription": "I’ve spent the past month trying to find the point where an extremely small TTS model stops feeling like a size experiment and starts feeling genuinely useful.\n Today I’m releasing Inflect v2, with tw",
-      "category": "model-release",
-      "difficulty": 4,
-      "confidence": 0.9841917697195682,
-      "crawledAt": "2026-07-25T03:17:43.750Z",
-      "id": "wlw1zc",
-      "entities": [],
-      "summary": " Inflect v2, with tw tw tw, is released today. It's the first time a small TTS model has felt genuinely useful.",
-      "language": "en",
-      "processed_at": "2026-07-25T03:18:50.271Z"
     }
   ],
-  "processedAt": "2026-08-09T02:11:07.395Z",
+  "processedAt": "2026-08-09T05:13:13.090Z",
   "categories": [
     "creative-ai",
     "ai-agents",
     "model-release",
+    "infrastructure",
+    "safety-ethics",
     "product-launch",
     "tutorial-guide",
-    "safety-ethics",
     "developer-tool",
     "research-paper",
-    "infrastructure",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 11,
-  "existingArticlesKept": 1620,
+  "newArticlesProcessed": 5,
+  "existingArticlesKept": 1621,
   "cleanupApplied": true,
-  "cleanedUpCount": 10,
+  "cleanedUpCount": 1,
   "rollingWindowDays": 15
 }
