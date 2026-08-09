@@ -1,9 +1,92 @@
 {
-  "crawledAt": "2026-08-09T16:43:17.419Z",
+  "crawledAt": "2026-08-09T20:39:21.802Z",
   "totalSources": 70,
-  "totalArticles": 39,
+  "totalArticles": 43,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-08-09T19:20:32.000Z",
+      "metaDescription": "Programming with Claude Code will soon require even less human oversight.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2715782396366274,
+      "crawledAt": "2026-08-09T20:38:32.736Z",
+      "id": "dtigxj",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9777473211288452,
+          "index": 6,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.995665967464447,
+          "index": 7,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Programming with Claude Code will soon require even less human oversight. Programming with Code will require even more human oversight, says Claude Code.",
+      "language": "en",
+      "processed_at": "2026-08-09T20:41:08.816Z"
+    },
+    {
+      "title": "I Trained a One-shot Prototypical Network with just 984 learnable parameters on MNIST, here's how it went.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjyf8m/i_trained_a_oneshot_prototypical_network_with/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-09T19:10:19.000Z",
+      "metaDescription": "I've been experimenting with trying to make a \"good\" MNIST model by using just 10 images (1/class) and also keeping the model really small (under 1K parameters), overall this specific model achieves a",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9673096977234095,
+      "crawledAt": "2026-08-09T20:39:01.435Z",
+      "id": "ako3q0",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9071551561355591,
+          "index": 9,
+          "word": "##ty",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Using just 10 images (1/class) and keeping the model really small (under 1K parameters) Overall this specific model achieves a \"good\" MNIST model.",
+      "language": "en",
+      "processed_at": "2026-08-09T20:41:19.180Z"
+    },
+    {
+      "title": "A Mechanistic Explanation of Prompt Injection",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-09T17:36:22.000Z",
+      "metaDescription": "submitted by    /u/katxwoods  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3689649702882311,
+      "crawledAt": "2026-08-09T20:39:01.133Z",
+      "id": "ru92ep",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-09T20:41:19.222Z"
+    },
     {
       "title": "Lophius: A workbench for language model research, from the creator of Heretic",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjt4vi/lophius_a_workbench_for_language_model_research/",
@@ -148,6 +231,34 @@
       "summary": " Claude can write an ad or email from a prompt. This is usually done manually, but hardly a coherent system. The work still needs research, positioning, positioning and channel planning.",
       "language": "en",
       "processed_at": "2026-08-09T16:44:52.315Z"
+    },
+    {
+      "title": "ECCV workshop, camera ready instructions?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjrsdi/eccv_workshop_camera_ready_instructions_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-09T14:49:10.000Z",
+      "metaDescription": "Does anyone have any idea about the instructions for the camera ready at workshops? The deadline is August 15, but there are no indications and workshop organizers know nothing about that.. Some works",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2765891851443828,
+      "crawledAt": "2026-08-09T20:39:01.312Z",
+      "id": "my1m6z",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9906673431396484,
+          "index": 1,
+          "word": "EC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The deadline for the camera ready at workshops is August 15, but there are no indications and workshop organizers know nothing about that.",
+      "language": "en",
+      "processed_at": "2026-08-09T20:41:38.437Z"
     },
     {
       "title": "The AI safety test is becoming a safety risk",
@@ -1094,10 +1205,10 @@
       "processed_at": "2026-08-09T05:13:13.086Z"
     }
   ],
-  "processedAt": "2026-08-09T16:46:42.806Z",
+  "processedAt": "2026-08-09T20:41:38.441Z",
   "categories": [
-    "creative-ai",
     "infrastructure",
+    "creative-ai",
     "safety-ethics",
     "product-launch",
     "research-paper",
@@ -1106,7 +1217,7 @@
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 12,
-  "dailyArticlesCount": 39,
+  "newArticlesProcessed": 4,
+  "dailyArticlesCount": 43,
   "filterDate": "2026-08-09"
 }
