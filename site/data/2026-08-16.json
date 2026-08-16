@@ -1,9 +1,430 @@
 {
-  "crawledAt": "2026-08-16T12:50:46.190Z",
+  "crawledAt": "2026-08-16T16:32:58.771Z",
   "totalSources": 70,
-  "totalArticles": 20,
+  "totalArticles": 39,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Koboldcpp v1.119 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpztfu/koboldcpp_v1119_released/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T15:22:03.000Z",
+      "metaDescription": "submitted by    /u/Fcking_Chuck  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.9003720853600281,
+      "crawledAt": "2026-08-16T16:32:21.441Z",
+      "id": "emz1mf",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9985429644584656,
+          "index": 1,
+          "word": "Ko",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9977410435676575,
+          "index": 2,
+          "word": "##bol",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.990049421787262,
+          "index": 3,
+          "word": "##d",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9956686496734619,
+          "index": 4,
+          "word": "##c",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9904604554176331,
+          "index": 5,
+          "word": "##pp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:33:24.576Z"
+    },
+    {
+      "title": "I Gave an AI One Goal. It Made My Code 62 Times Faster",
+      "url": "https://pub.towardsai.net/i-gave-an-ai-one-goal-it-made-my-code-62-times-faster-3551749bc453?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T15:01:04.000Z",
+      "metaDescription": "The biggest improvement came from one structural insight. The most important failure came from trusting the benchmark too long.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2673663772245346,
+      "crawledAt": "2026-08-16T16:32:09.924Z",
+      "id": "ynx2xv",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9767860174179077,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The biggest improvement came from one structural insight. The most important failure came from trusting the benchmark too long. The biggest problem came from a structural insight.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:33:34.973Z"
+    },
+    {
+      "title": "Designing a Persistent Knowledge Layer That Refuses to Guess",
+      "url": "https://towardsdatascience.com/designing-a-persistent-knowledge-layer-that-refuses-to-guess/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T15:00:00.000Z",
+      "metaDescription": "RAG Retrieves, It Never Remembers. A vendor-neutral blueprint for applications that accumulate understanding. Includes a complete Azure-native implementation (Microsoft Foundry, Azure AI Search, Cosmo",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.7100303881345095,
+      "crawledAt": "2026-08-16T16:31:41.799Z",
+      "id": "80k7ds",
+      "entities": [],
+      "summary": " The RAG Retrieves, It Never Remembers, is a vendor-neutral blueprint for applications that accumulate understanding. Includes a complete Azure-native implementation.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:33:47.673Z"
+    },
+    {
+      "title": "Your Model Advertises 1M Tokens. It Breaks at 130K",
+      "url": "https://pub.towardsai.net/your-model-advertises-1m-tokens-it-breaks-at-130k-66c0ddecf885?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T14:31:01.000Z",
+      "metaDescription": "Every frontier lab now claims a million-token context window. Independent testing shows most models degrade 30–40% before their stated…\nContinue reading on Towards AI »",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.3719357262448316,
+      "crawledAt": "2026-08-16T16:32:10.080Z",
+      "id": "njtq1e",
+      "entities": [],
+      "summary": "Every frontier lab now claims a million-token context window. Most models degrade 30-40% before their stated stated levels.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:33:56.158Z"
+    },
+    {
+      "title": "Why “Working” Multi-Agent Workflows Silently Degrade in Production (And the Architecture to Stop…",
+      "url": "https://pub.towardsai.net/why-working-multi-agent-workflows-silently-degrade-in-production-and-the-architecture-to-stop-7ae117d24b53?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T14:01:05.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28669316293051067,
+      "crawledAt": "2026-08-16T16:32:10.172Z",
+      "id": "p7e32f",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:33:56.317Z"
+    },
+    {
+      "title": "From AI Coding Agents to Safe Autonomy: Building Guardrails with Amazon Bedrock AgentCore on AWS",
+      "url": "https://pub.towardsai.net/from-ai-coding-agents-to-safe-autonomy-building-guardrails-with-amazon-bedrock-agentcore-on-aws-7e089f10b89d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T13:31:01.000Z",
+      "metaDescription": "How Amazon Bedrock AgentCore, IAM, policy, verification, and observability can help coding agents work autonomously without giving them…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.8797867597032212,
+      "crawledAt": "2026-08-16T16:32:10.345Z",
+      "id": "hh33y7",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9069876074790955,
+          "index": 8,
+          "word": "Auto",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.8892461061477661,
+          "index": 17,
+          "word": "Amazon",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.971065104007721,
+          "index": 18,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9561575055122375,
+          "index": 19,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8566446900367737,
+          "index": 20,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9626295566558838,
+          "index": 24,
+          "word": "A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " How Amazon Bedrock AgentCore, IAM, policy, verification, and observability can help coding agents work autonomously without giving them. How Amazon's Bedrock agent, Iam, policy and verification, can help help coding agent work autonomly without giving to them.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:34:25.178Z"
+    },
+    {
+      "title": "Your Multi-Agent System Needs a Manager, Not More Agents",
+      "url": "https://pub.towardsai.net/your-multi-agent-system-needs-a-manager-not-more-agents-3695def61287?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T13:01:03.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2761323772905927,
+      "crawledAt": "2026-08-16T16:32:10.416Z",
+      "id": "vuvfxy",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:34:25.283Z"
+    },
+    {
+      "title": "DeepSeek's top-ranked V4 Flash stumbles on real agent tasks as its prices surge",
+      "url": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-08-16T13:00:00.000Z",
+      "metaDescription": "DeepSeek's V4 Flash has topped model leaderboards and been hailed by developers as a \"total monster\" since its rollout. But in real-world testing, it completed just 53.8% of a batch of complex agent t",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.3452392664091209,
+      "crawledAt": "2026-08-16T16:31:45.268Z",
+      "id": "f6iiqr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9982548356056213,
+          "index": 1,
+          "word": "Deep",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9980810284614563,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.997728705406189,
+          "index": 3,
+          "word": "##eek",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9442915320396423,
+          "index": 9,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9711522459983826,
+          "index": 10,
+          "word": "##4",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8869134187698364,
+          "index": 11,
+          "word": "Flash",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "DeepSeek's V4 Flash has been hailed as a \"total monster\" by developers. But in real-world testing, it completed just 53.8% of a batch of complex agent t. t.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:34:42.512Z"
+    },
+    {
+      "title": "Running SQL Concurrently Across Three Remote DuckDB Servers with Quack",
+      "url": "https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T13:00:00.000Z",
+      "metaDescription": "A small experiment in remote SQL execution\nThe post Running SQL Concurrently Across Three Remote DuckDB Servers with Quack appeared first on Towards Data Science.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2832489464969057,
+      "crawledAt": "2026-08-16T16:31:41.934Z",
+      "id": "kbcv2x",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8557866811752319,
+          "index": 2,
+          "word": "S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8687146306037903,
+          "index": 12,
+          "word": "##D",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A small experiment in remote SQL execution. The post Running Concurrency  Concurrently Across Three Remote DuckDB Servers with Quack appeared.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:34:54.027Z"
+    },
+    {
+      "title": "The dream is to reach 200GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpwcnf/the_dream_is_to_reach_200gb_vram/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:55:30.000Z",
+      "metaDescription": "Step 1) Find 16k ASAP before it goes up to 20k after a few months\n Step 2) Buy RTX PRO 6000 (MAXQ)\n Step 3) Remove RTX PRO 5000 in pcie_1 slot. Replace w/ RTX PRO 6000\n Step 4) Buy a NVME to PCIE conv",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.2608916410353608,
+      "crawledAt": "2026-08-16T16:32:20.123Z",
+      "id": "fwofco",
+      "entities": [],
+      "summary": " Find 16k ASAP before it goes up to 20k before it go up to20k after a few months. Buy a NVME to PCIE conv. Buy aNVME toPCIE conv.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:26.887Z"
+    },
+    {
+      "title": "Huihui-ai Qwen 3.8 Ablit Available",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpw006/huihuiai_qwen_38_ablit_available/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:38:59.000Z",
+      "metaDescription": "At hugging face, this is the model I use for most of my analysis that most of my services have to not be refused. previous versions are quite good. It seems this might have dropped today and pulling r",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.39911200416083337,
+      "crawledAt": "2026-08-16T16:32:22.910Z",
+      "id": "8v2e7q",
+      "entities": [],
+      "summary": "At hugging face, this is the model I use for most of my analysis that most of our services have to be refused. It seems this might have dropped today and pulling r.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:39.273Z"
+    },
+    {
+      "title": "Qwen3.8-27B-int4-AutoRound - with working MTP spec decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpvwqh/qwen3827bint4autoround_18gb_with_working_mtp_spec/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:34:37.000Z",
+      "metaDescription": "submitted by    /u/BusinessMud9586  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.271920260976136,
+      "crawledAt": "2026-08-16T16:32:22.656Z",
+      "id": "dyrmf7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.972130298614502,
+          "index": 21,
+          "word": "M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:39.421Z"
+    },
+    {
+      "title": "Your KV Cache Is Bigger Than Your Model",
+      "url": "https://pub.towardsai.net/your-kv-cache-is-bigger-than-your-model-59cdf28c1e6b?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:31:01.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2803032689358929,
+      "crawledAt": "2026-08-16T16:32:10.475Z",
+      "id": "kfd7cn",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:39.565Z"
+    },
     {
       "title": "ICDM 2026 Results Waiting Place",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vpv9ct/icdm_2026_results_waiting_place_d/",
@@ -49,6 +470,89 @@
       "processed_at": "2026-08-16T12:50:56.600Z"
     },
     {
+      "title": "Qwen 3.8 27b with DSH is Amazing!! Experiences so far and perfomance.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T11:50:57.000Z",
+      "metaDescription": "https://preview.redd.it/wkg27e152qjh1.png?width=853&format=png&auto=webp&s=2e3f8b11ea6393041f501e95c5835f9bea0245dd\n So ive been trying different harnesses and coding agents with the new qwen 3.8 , an",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7837885431057174,
+      "crawledAt": "2026-08-16T16:32:21.012Z",
+      "id": "k4r6sb",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8424925208091736,
+          "index": 1,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9187443852424622,
+          "index": 9,
+          "word": "DS",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:50.073Z"
+    },
+    {
+      "title": "Genie-style playable world model running 720p at 16 FPS on a single 5090 in 19GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpujkc/geniestyle_playable_world_model_running_720p_at/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T11:24:36.000Z",
+      "metaDescription": "submitted by    /u/juanviera23  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.9893416204978177,
+      "crawledAt": "2026-08-16T16:32:21.340Z",
+      "id": "3t5ydy",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:50.266Z"
+    },
+    {
+      "title": "Paper claims RL for reasoning only changes 1-3% of tokens, and they replicate the gains without RL at ~1000x less compute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T11:21:24.000Z",
+      "metaDescription": "submitted by    /u/juanviera23  \n [link]   [comments]",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.382926271706993,
+      "crawledAt": "2026-08-16T16:32:19.897Z",
+      "id": "spe44x",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9313480854034424,
+          "index": 3,
+          "word": "R",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:35:50.486Z"
+    },
+    {
       "title": "Revisiting the Efficient Channel Attention paper - the central hypothesis isn't quite right",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
       "source": "r/MachineLearning",
@@ -91,6 +595,25 @@
       "summary": " ECA was positioned as a successor to SE which reduces the channel into a smaller hidden layer. ECA uses a 1d convolution kernel on the ch. ch.",
       "language": "en",
       "processed_at": "2026-08-16T12:51:10.498Z"
+    },
+    {
+      "title": "If you are at the lowest budget, which you can think of.Which hardware would you recommend to run? qwen 3.8 27b oWith like 50 tokens per second. I currently have a RTX 5070 Ti.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vprm64/if_you_are_at_the_lowest_budget_which_you_can/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T08:29:20.000Z",
+      "metaDescription": "submitted by    /u/InternationalGap3698  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.46293557130360724,
+      "crawledAt": "2026-08-16T16:32:21.860Z",
+      "id": "kfskmh",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:36:20.510Z"
     },
     {
       "title": "Supply Chain Attacks in AI: Pickle Exploits, Safetensors, and Malicious Weights",
@@ -243,6 +766,34 @@
       "processed_at": "2026-08-16T04:42:45.102Z"
     },
     {
+      "title": "Show-off Saturday: Intel Arc B140 build.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpkomt/showoff_saturday_intel_arc_b140_build/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T02:10:38.000Z",
+      "metaDescription": "My local inference build, with:\n ASUS WS C422 PRO/SE\n 10-core Xeon W-2255\n 64GB ECC RAM\n 64GB VRAM\n Pimped case with TurboLEDz indicating the frequencies of the 10 xeon cores.\n Running llama.cpp with ",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.5780550622780086,
+      "crawledAt": "2026-08-16T16:32:22.293Z",
+      "id": "gddj0t",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9062154293060303,
+          "index": 6,
+          "word": "Intel",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The 10-core Xeon W-2255 is a 10- core Xeon W. W-1, 2, 2-2, 2.5-core W-3, 4-4, 5-2-2. The Xeon W/2, 4.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:36:54.108Z"
+    },
+    {
       "title": "GPT-5.6-Cyber Didn’t Democratize Hacking",
       "url": "https://pub.towardsai.net/gpt-5-6-cyber-didnt-democratize-hacking-28ce6e8312ed?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -260,6 +811,58 @@
       "summary": " The compliance burden lands on your balance sheet. 95.0% completion rate. 2.5x API premium.",
       "language": "en",
       "processed_at": "2026-08-16T01:43:28.746Z"
+    },
+    {
+      "title": "The perfect way for Google to screw over OAI and Anthropic is by releasing a 120B dense multimodal Gemma model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpf8j1/the_perfect_way_for_google_to_screw_over_oai_and/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-15T21:53:02.000Z",
+      "metaDescription": "The two leading labs are already feeling extremely threatened by Qwen & friends, however I think there are tons of enterprises and organizations in the West that don't feel comfortable using Chinese m",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.9288970251807727,
+      "crawledAt": "2026-08-16T16:32:21.639Z",
+      "id": "3qy5ew",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9982335567474365,
+          "index": 5,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9974366426467896,
+          "index": 9,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9759050011634827,
+          "index": 10,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8793907165527344,
+          "index": 11,
+          "word": "##I",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The two leading labs are already feeling threatened by Qwen & friends. The two labs are feeling extremely threatened byQwen & friend. I think there are tons of enterprises and organizations in the West that don't feel comfortable using Chinese m. m.",
+      "language": "en",
+      "processed_at": "2026-08-16T16:37:24.170Z"
     },
     {
       "title": "Why Does Adding More Workers Make Your Python Script Slower?",
@@ -601,18 +1204,18 @@
       "processed_at": "2026-08-16T08:41:16.853Z"
     }
   ],
-  "processedAt": "2026-08-16T12:51:32.616Z",
+  "processedAt": "2026-08-16T16:37:24.315Z",
   "categories": [
     "model-release",
-    "research-paper",
     "creative-ai",
+    "ai-agents",
     "infrastructure",
-    "safety-ethics",
     "product-launch",
-    "ai-agents"
+    "research-paper",
+    "safety-ethics"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 2,
-  "dailyArticlesCount": 20,
+  "newArticlesProcessed": 19,
+  "dailyArticlesCount": 39,
   "filterDate": "2026-08-16"
 }
