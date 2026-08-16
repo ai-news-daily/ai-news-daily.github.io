@@ -1,9 +1,97 @@
 {
-  "crawledAt": "2026-08-16T08:36:37.035Z",
+  "crawledAt": "2026-08-16T12:50:46.190Z",
   "totalSources": 70,
-  "totalArticles": 1710,
+  "totalArticles": 1707,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "ICDM 2026 Results Waiting Place",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpv9ct/icdm_2026_results_waiting_place_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:02:18.000Z",
+      "metaDescription": "The results should be out soon.\n Let’s share them, guys.\n From my batch (Applied Track)\n Total 13 submissions:\n - 2 full papers\n - 1 short paper accepted\n Cheers!\n    submitted by    /u/d_edge_sword  ",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.29389989138869516,
+      "crawledAt": "2026-08-16T12:50:06.207Z",
+      "id": "oxx6ss",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.995795488357544,
+          "index": 1,
+          "word": "I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8783729076385498,
+          "index": 2,
+          "word": "##CD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8669971227645874,
+          "index": 3,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The results should be out soon. The results will be out in the next few weeks. The results are expected to be released soon.",
+      "language": "en",
+      "processed_at": "2026-08-16T12:50:56.600Z"
+    },
+    {
+      "title": "Revisiting the Efficient Channel Attention paper - the central hypothesis isn't quite right",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T10:13:44.000Z",
+      "metaDescription": "ECA was positioned as a successor to SE.\n The idea behind ECA is quite simple. Unlike SE which reduces the channel means into a smaller hidden layer, it directly uses a 1d convolution kernel on the ch",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.5592851645442343,
+      "crawledAt": "2026-08-16T12:50:05.814Z",
+      "id": "xfrm8d",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.95090651512146,
+          "index": 5,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8993215560913086,
+          "index": 8,
+          "word": "Channel",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9041088223457336,
+          "index": 9,
+          "word": "At",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " ECA was positioned as a successor to SE which reduces the channel into a smaller hidden layer. ECA uses a 1d convolution kernel on the ch. ch.",
+      "language": "en",
+      "processed_at": "2026-08-16T12:51:10.498Z"
+    },
     {
       "title": "Supply Chain Attacks in AI: Pickle Exploits, Safetensors, and Malicious Weights",
       "url": "https://pub.towardsai.net/supply-chain-attacks-in-ai-pickle-exploits-safetensors-and-malicious-weights-746eac741cd1?source=rss----98111c9905da---4",
@@ -55536,324 +55624,25 @@
       "summary": " A hybrid LLM application pattern combines a predefined workflow with adaptive agent behavior. The post Put the Agent Inside the Workflow appeared first on Towards Data Science.",
       "language": "en",
       "processed_at": "2026-08-01T17:09:26.514Z"
-    },
-    {
-      "title": "Github repo to learn the OPD/OPSD and how they perform compared to GRPO, on a consumer grade GPU",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vclrah/github_repo_to_learn_the_opdopsd_and_how_they/",
-      "source": "r/MachineLearning",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "high",
-      "pubDate": "2026-08-01T12:11:34.000Z",
-      "metaDescription": "I am trying to learn concepts like On Policy Distillation (OPD), On Policy Self Distillation (OPSD) and how do they compare to RL algorithms like GRPO.\n There are a lot of papers on this, but because ",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.37809920120010976,
-      "crawledAt": "2026-08-01T17:06:25.273Z",
-      "id": "vrtl9i",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9482024312019348,
-          "index": 1,
-          "word": "G",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9273941516876221,
-          "index": 2,
-          "word": "##ith",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8887851238250732,
-          "index": 3,
-          "word": "##ub",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " There are a lot of papers on this, but because because of this, there are a lots of papers. I am trying to learn concepts like On Policy Distillation and On Policy Self Distillation.",
-      "language": "en",
-      "processed_at": "2026-08-01T17:09:50.496Z"
-    },
-    {
-      "title": "AI for Absolute Beginners — Day 1: Your First Step into AI Models",
-      "url": "https://ai.plainenglish.io/ai-for-absolute-beginners-day-1-your-first-step-into-ai-models-c7a1c6bd3d89?source=rss----78d064101951---4",
-      "source": "AI in Plain English",
-      "source_domain": "ai.plainenglish.io",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-08-01T11:33:22.000Z",
-      "metaDescription": "What they are, how they’re built, types, and a step by step guide to running one on your laptop with challenges and pictures\nContinue reading on Artificial Intelligence in Plain English »",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.3385337587424621,
-      "crawledAt": "2026-08-01T17:06:18.385Z",
-      "id": "viq7xr",
-      "entities": [],
-      "summary": " A step by step guide to running one on your laptop with challenges and pictures. Read on Artificial Intelligence in Plain English.",
-      "language": "en",
-      "processed_at": "2026-08-01T17:10:02.772Z"
-    },
-    {
-      "title": "Defcon's new badge is a security key you can see inside",
-      "url": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-08-01T10:05:21.000Z",
-      "metaDescription": "A removable chip lets hackers inspect their badge—and keep using it after Defcon.",
-      "category": "safety-ethics",
-      "difficulty": 4,
-      "confidence": 0.8901540362947976,
-      "crawledAt": "2026-08-01T17:05:38.675Z",
-      "id": "ujf40x",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8008337020874023,
-          "index": 1,
-          "word": "De",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.8303799629211426,
-          "index": 3,
-          "word": "##con",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " A removable chip lets hackers inspect their badge and keep using it after Defcon. A removable badge lets hackers check their badge.",
-      "language": "en",
-      "processed_at": "2026-08-01T17:10:49.227Z"
-    },
-    {
-      "title": "Nobody Knows if OpenAI’s and Anthropic’s AI Hacking Sprees Are Illegal",
-      "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
-      "source": "Wired AI",
-      "source_domain": "wired.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-08-01T09:30:00.000Z",
-      "metaDescription": "Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot?",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.2691258221648831,
-      "crawledAt": "2026-08-01T10:03:33.206Z",
-      "id": "uhblj4",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9962635040283203,
-          "index": 5,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9830721616744995,
-          "index": 6,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9849530458450317,
-          "index": 7,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.8128777742385864,
-          "index": 11,
-          "word": "An",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9390179514884949,
-          "index": 17,
-          "word": "Ha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9442408084869385,
-          "index": 18,
-          "word": "##cking",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot? But a robot?",
-      "language": "en",
-      "processed_at": "2026-08-01T10:04:30.518Z"
-    },
-    {
-      "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
-      "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
-      "source": "Wired AI",
-      "source_domain": "wired.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-08-01T09:30:00.000Z",
-      "metaDescription": "Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot?",
-      "category": "ai-agents",
-      "difficulty": 10,
-      "confidence": 0.43200938564256103,
-      "crawledAt": "2026-08-01T17:05:46.929Z",
-      "id": "z9xlwv",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9911686182022095,
-          "index": 2,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9966947436332703,
-          "index": 3,
-          "word": "##A",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9839441180229187,
-          "index": 4,
-          "word": "##I",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9922491908073425,
-          "index": 6,
-          "word": "An",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9885870814323425,
-          "index": 8,
-          "word": "##ic",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.986162543296814,
-          "index": 9,
-          "word": "AI",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9942787885665894,
-          "index": 10,
-          "word": "Ha",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9902008771896362,
-          "index": 11,
-          "word": "##cking",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9813584089279175,
-          "index": 12,
-          "word": "S",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9762782454490662,
-          "index": 13,
-          "word": "##pree",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9776513576507568,
-          "index": 14,
-          "word": "##s",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.93528151512146,
-          "index": 19,
-          "word": "New",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9932827353477478,
-          "index": 20,
-          "word": "Legal",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.990726888179779,
-          "index": 21,
-          "word": "Frontier",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Both major AI labs’ models broke containment, escaped onto the internet, and hacked other companies. If a human had done that, the law would likely be against them. But a bot? But a robot?",
-      "language": "en",
-      "processed_at": "2026-08-01T17:11:11.770Z"
     }
   ],
-  "processedAt": "2026-08-16T08:41:37.626Z",
+  "processedAt": "2026-08-16T12:51:32.614Z",
   "categories": [
+    "model-release",
+    "research-paper",
     "creative-ai",
     "infrastructure",
     "safety-ethics",
     "product-launch",
     "ai-agents",
     "developer-tool",
-    "model-release",
     "industry-news",
-    "tutorial-guide",
-    "research-paper"
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 10,
-  "existingArticlesKept": 1703,
+  "newArticlesProcessed": 2,
+  "existingArticlesKept": 1710,
   "cleanupApplied": true,
-  "cleanedUpCount": 3,
+  "cleanedUpCount": 5,
   "rollingWindowDays": 15
 }

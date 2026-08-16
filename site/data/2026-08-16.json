@@ -1,9 +1,97 @@
 {
-  "crawledAt": "2026-08-16T08:36:37.035Z",
+  "crawledAt": "2026-08-16T12:50:46.190Z",
   "totalSources": 70,
-  "totalArticles": 18,
+  "totalArticles": 20,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "ICDM 2026 Results Waiting Place",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpv9ct/icdm_2026_results_waiting_place_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T12:02:18.000Z",
+      "metaDescription": "The results should be out soon.\n Let’s share them, guys.\n From my batch (Applied Track)\n Total 13 submissions:\n - 2 full papers\n - 1 short paper accepted\n Cheers!\n    submitted by    /u/d_edge_sword  ",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.29389989138869516,
+      "crawledAt": "2026-08-16T12:50:06.207Z",
+      "id": "oxx6ss",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.995795488357544,
+          "index": 1,
+          "word": "I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8783729076385498,
+          "index": 2,
+          "word": "##CD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8669971227645874,
+          "index": 3,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The results should be out soon. The results will be out in the next few weeks. The results are expected to be released soon.",
+      "language": "en",
+      "processed_at": "2026-08-16T12:50:56.600Z"
+    },
+    {
+      "title": "Revisiting the Efficient Channel Attention paper - the central hypothesis isn't quite right",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-16T10:13:44.000Z",
+      "metaDescription": "ECA was positioned as a successor to SE.\n The idea behind ECA is quite simple. Unlike SE which reduces the channel means into a smaller hidden layer, it directly uses a 1d convolution kernel on the ch",
+      "category": "research-paper",
+      "difficulty": 7,
+      "confidence": 0.5592851645442343,
+      "crawledAt": "2026-08-16T12:50:05.814Z",
+      "id": "xfrm8d",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.95090651512146,
+          "index": 5,
+          "word": "E",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8993215560913086,
+          "index": 8,
+          "word": "Channel",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9041088223457336,
+          "index": 9,
+          "word": "At",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " ECA was positioned as a successor to SE which reduces the channel into a smaller hidden layer. ECA uses a 1d convolution kernel on the ch. ch.",
+      "language": "en",
+      "processed_at": "2026-08-16T12:51:10.498Z"
+    },
     {
       "title": "Supply Chain Attacks in AI: Pickle Exploits, Safetensors, and Malicious Weights",
       "url": "https://pub.towardsai.net/supply-chain-attacks-in-ai-pickle-exploits-safetensors-and-malicious-weights-746eac741cd1?source=rss----98111c9905da---4",
@@ -513,8 +601,10 @@
       "processed_at": "2026-08-16T08:41:16.853Z"
     }
   ],
-  "processedAt": "2026-08-16T08:41:37.628Z",
+  "processedAt": "2026-08-16T12:51:32.616Z",
   "categories": [
+    "model-release",
+    "research-paper",
     "creative-ai",
     "infrastructure",
     "safety-ethics",
@@ -522,7 +612,7 @@
     "ai-agents"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 10,
-  "dailyArticlesCount": 18,
+  "newArticlesProcessed": 2,
+  "dailyArticlesCount": 20,
   "filterDate": "2026-08-16"
 }
