@@ -1,9 +1,506 @@
 {
-  "crawledAt": "2026-08-20T12:59:36.755Z",
+  "crawledAt": "2026-08-20T16:41:49.148Z",
   "totalSources": 70,
-  "totalArticles": 107,
+  "totalArticles": 124,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "The LLM Judge That Kept Agreeing With Itself",
+      "url": "https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T16:30:00.000Z",
+      "metaDescription": "What a production incident taught me about trusting a model to judge another model's work\nThe post The LLM Judge That Kept Agreeing With Itself appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3812944849575142,
+      "crawledAt": "2026-08-20T16:40:16.086Z",
+      "id": "bxk213",
+      "entities": [],
+      "summary": " The LLM Judge That Kept Agreeing With Itself. What a production incident taught me about trusting a model to judge a model's work?",
+      "language": "en",
+      "processed_at": "2026-08-20T16:42:10.602Z"
+    },
+    {
+      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T16:24:12.000Z",
+      "metaDescription": "Scaling agentic AI across an enterprise requires patterns that preserve flexibility while avoiding vendor lock-in. In this second post of our multi-agent series, we examine how ML teams operate many a",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9161480037993838,
+      "crawledAt": "2026-08-20T16:40:28.104Z",
+      "id": "g5hx51",
+      "entities": [],
+      "summary": "In the second post of our multi-agent series, we look at how ML teams operate. We look at the use of AI in the workplace.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:42:22.675Z"
+    },
+    {
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T16:11:18.000Z",
+      "metaDescription": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrast",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.956564460144083,
+      "crawledAt": "2026-08-20T16:40:28.268Z",
+      "id": "h4p79z",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8826096653938293,
+          "index": 13,
+          "word": "##rock",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8435165882110596,
+          "index": 14,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:42:33.877Z"
+    },
+    {
+      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T16:07:26.000Z",
+      "metaDescription": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.25344006784238476,
+      "crawledAt": "2026-08-20T16:40:02.865Z",
+      "id": "iw0bxs",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9920178055763245,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.897526741027832,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9753340482711792,
+          "index": 20,
+          "word": "US",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Meta is bringing Pocket, its experimental AI-powered app, to users across the U.S. after quietly testing it in Brazil.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:42:43.489Z"
+    },
+    {
+      "title": "AWS vector solutions: Build agentic AI where your data lives",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-vector-solutions-build-agentic-ai-where-your-data-lives/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T16:06:06.000Z",
+      "metaDescription": "AWS offers a broad portfolio of vector search built directly into the databases and storage services you already use, with no standalone vector database or data migration required. This post covers si",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.3759987106950762,
+      "crawledAt": "2026-08-20T16:40:28.419Z",
+      "id": "5g4a9p",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8562905192375183,
+          "index": 1,
+          "word": "A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AWS offers a broad portfolio of vector search built directly into the databases and storage services you already use. No standalone vector database or data migration required.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:42:53.791Z"
+    },
+    {
+      "title": "LangSmith Preview Builds: Test agent changes before production",
+      "url": "https://www.youtube.com/watch?v=xEnUDGZ3_HE",
+      "source": "LangChain",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T16:00:10.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.37805311953164195,
+      "crawledAt": "2026-08-20T16:41:04.453Z",
+      "id": "lh0vv0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9814767837524414,
+          "index": 1,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9665710926055908,
+          "index": 2,
+          "word": "##S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9698848128318787,
+          "index": 3,
+          "word": "##mith",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:03.661Z"
+    },
+    {
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T16:00:00.000Z",
+      "metaDescription": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.665285699446215,
+      "crawledAt": "2026-08-20T16:40:03.083Z",
+      "id": "pp3co2",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9990206360816956,
+          "index": 1,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9835937023162842,
+          "index": 2,
+          "word": "##ert",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9987252354621887,
+          "index": 3,
+          "word": "##ia",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9991603493690491,
+          "index": 4,
+          "word": "Enterprises",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Inertia Enterprises reduced the fuel filling process from a week to a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:13.944Z"
+    },
+    {
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T15:42:39.000Z",
+      "metaDescription": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.41293631670638065,
+      "crawledAt": "2026-08-20T16:40:11.343Z",
+      "id": "l9snir",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9929108619689941,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " “Runaway” AI, “rogue” agents, and “autonomous” actors, the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:27.007Z"
+    },
+    {
+      "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "source_domain": "aws.amazon.com",
+      "source_category": "cloud",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T15:20:03.000Z",
+      "metaDescription": "Learn how to add context-aware security monitoring to FHIR APIs using Amazon Bedrock. This post shows how to detect anomalous access patterns, classify data sensitivity automatically, and generate com",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.42768553966143497,
+      "crawledAt": "2026-08-20T16:40:28.570Z",
+      "id": "8soor2",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.8078814744949341,
+          "index": 11,
+          "word": "Bed",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Learn how to add context-aware security monitoring to FHIR APIs using Amazon Bedrock. This post shows how to detect anomalous access patterns, classify data sensitivity automatically, and generate com.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:38.412Z"
+    },
+    {
+      "title": "Your Agent Is Working. So Why Can’t You Explain What It Did?",
+      "url": "https://pub.towardsai.net/your-agent-is-working-so-why-cant-you-explain-what-it-did-5981c692c98d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T15:01:03.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3977240070219645,
+      "crawledAt": "2026-08-20T16:40:39.833Z",
+      "id": "kvi9m0",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:38.527Z"
+    },
+    {
+      "title": "Serval’s super agent Catalyst creates roving background agents to identify and fix IT issues before they’re ticketed",
+      "url": "https://venturebeat.com/infrastructure/servals-super-agent-catalyst-creates-roving-background-agents-to-identify-and-fix-it-issues-before-theyre-ticketed",
+      "source": "VentureBeat",
+      "source_domain": "venturebeat.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T14:42:07.000Z",
+      "metaDescription": "Serval is making Catalyst, its AI agent for building enterprise automations, generally available Thursday and enabling it by default for customers — allowing teams of AI agents to decide what should b",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.8955134682399534,
+      "crawledAt": "2026-08-20T16:40:14.759Z",
+      "id": "ijopfy",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8753093481063843,
+          "index": 1,
+          "word": "Ser",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9573732018470764,
+          "index": 7,
+          "word": "Cat",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9255110025405884,
+          "index": 8,
+          "word": "##aly",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Serval is making Catalyst, its AI agent for building enterprise automations, generally available Thursday and enabling it by default for customers.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:43:58.655Z"
+    },
+    {
+      "title": "How to Maximize Codex Exec Command",
+      "url": "https://pub.towardsai.net/how-to-maximize-codex-exec-command-e7a9dd35c743?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T14:01:05.000Z",
+      "metaDescription": "Codex exec is a command you can use to run Codex separately from the terminal to complete a very specific task, where the agent triggering…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5924487879271173,
+      "crawledAt": "2026-08-20T16:40:39.971Z",
+      "id": "qjxijq",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9441465139389038,
+          "index": 6,
+          "word": "Ex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.904716432094574,
+          "index": 7,
+          "word": "##ec",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Codex exec is a command you can use to run Codex separately from the terminal to complete a very specific task. Codex exec can be a command that you can run Codex from the terminals.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:44:33.208Z"
+    },
+    {
+      "title": "How to Build a Career in AI: 3 Distinct Pathways",
+      "url": "https://www.kdnuggets.com/how-to-build-a-career-in-ai-3-distinct-pathways",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-08-20T14:00:59.000Z",
+      "metaDescription": "Three orientations, three different skill maps, and how to find the one that fits where you actually stand.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5259808933347815,
+      "crawledAt": "2026-08-20T16:41:42.483Z",
+      "id": "2tsrz7",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.950823962688446,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Three orientations, three different skill maps, and three different orientations. How to find the one that fits where you actually stand?",
+      "language": "en",
+      "processed_at": "2026-08-20T16:44:42.251Z"
+    },
+    {
+      "title": "How to Fine-Tune an LLM: An End-to-End Guide",
+      "url": "https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T13:30:00.000Z",
+      "metaDescription": "A hands-on guide to fine-tuning LLMs for the real world\nThe post How to Fine-Tune an LLM: An End-to-End Guide appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4857660646990411,
+      "crawledAt": "2026-08-20T16:40:16.496Z",
+      "id": "o1p08t",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.833432137966156,
+          "index": 8,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A hands-on guide to fine-tuning LLMs for the real world. The guide is a guide to how to get the best LLM.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:45:10.818Z"
+    },
+    {
+      "title": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
+      "source": "NVIDIA Blog",
+      "source_domain": "blogs.nvidia.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T13:00:24.000Z",
+      "metaDescription": "It’s a new way into the cloud.  GeForce NOW welcomes Firefox support to the cloud, opening up another way to jump into high-performance PC gaming straight from the browser, starting today. Whether on ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.29966341390124623,
+      "crawledAt": "2026-08-20T16:39:51.411Z",
+      "id": "swjqdk",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9888283610343933,
+          "index": 10,
+          "word": "##F",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9439427256584167,
+          "index": 12,
+          "word": "##ce",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8833255767822266,
+          "index": 18,
+          "word": "##fo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " GeForce NOW welcomes Firefox support to the cloud. It's a new way to get into high-performance PC gaming.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:45:47.850Z"
+    },
     {
       "title": "What a sales pitch!",
       "url": "https://www.reddit.com/r/OpenAI/comments/1vtibvw/what_a_sales_pitch/",
@@ -156,6 +653,25 @@
       "summary": " SWE-bench, Terminal-bench and SlopCodeBench are the top 10 open-source benchmarks for evaluating AI coding agents.",
       "language": "en",
       "processed_at": "2026-08-20T13:00:02.120Z"
+    },
+    {
+      "title": "How to Build a Robust RAG System with Minimal Resources",
+      "url": "https://machinelearningmastery.com/how-to-build-a-robust-rag-system-with-minimal-resources/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T12:00:21.000Z",
+      "metaDescription": "In this article, you will learn how to design, assemble, and tune a retrieval-augmented generation system that runs entirely on a standard laptop, without cloud...",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.7683539214094518,
+      "crawledAt": "2026-08-20T16:40:22.697Z",
+      "id": "k77z0h",
+      "entities": [],
+      "summary": " A retrieval-augmented generation system that runs entirely on a standard laptop, without cloud. In this article, you will learn how to design, assemble, and tune a retrieval-based generation system.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:46:01.276Z"
     },
     {
       "title": "Making the Knowledge Layer a Graph You Actually Traverse",
@@ -2447,6 +2963,42 @@
       "processed_at": "2026-08-20T01:36:44.521Z"
     },
     {
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "url": "https://openai.com/index/stampli",
+      "source": "OpenAI Blog",
+      "source_domain": "openai.com",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-08-20T00:00:00.000Z",
+      "metaDescription": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.4629650231880131,
+      "crawledAt": "2026-08-20T16:39:56.448Z",
+      "id": "8a5386",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9199841618537903,
+          "index": 8,
+          "word": "St",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.8693690299987793,
+          "index": 9,
+          "word": "##amp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Stampli used Codex and ChatGPT Work to compress weeks of launch production into days. With a fixed deadline and design resources committed elsewhere, Stamplis used a fixed deadlines and resources.",
+      "language": "en",
+      "processed_at": "2026-08-20T16:46:13.735Z"
+    },
+    {
       "title": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
       "url": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
       "source": "VentureBeat",
@@ -3435,21 +3987,21 @@
       "processed_at": "2026-08-20T08:47:59.971Z"
     }
   ],
-  "processedAt": "2026-08-20T13:04:58.488Z",
+  "processedAt": "2026-08-20T16:46:13.741Z",
   "categories": [
-    "industry-news",
     "creative-ai",
-    "infrastructure",
     "ai-agents",
+    "infrastructure",
+    "developer-tool",
+    "industry-news",
     "product-launch",
     "model-release",
     "research-paper",
     "safety-ethics",
-    "developer-tool",
     "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 23,
-  "dailyArticlesCount": 107,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 124,
   "filterDate": "2026-08-20"
 }
