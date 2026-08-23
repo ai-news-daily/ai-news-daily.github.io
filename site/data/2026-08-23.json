@@ -1,7 +1,7 @@
 {
-  "crawledAt": "2026-08-23T04:43:42.966Z",
+  "crawledAt": "2026-08-23T08:37:23.954Z",
   "totalSources": 70,
-  "totalArticles": 8,
+  "totalArticles": 11,
   "aiFilterUsed": true,
   "articles": [
     {
@@ -179,6 +179,25 @@
       "processed_at": "2026-08-23T04:45:35.455Z"
     },
     {
+      "title": "How to grow a project?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-23T00:31:31.000Z",
+      "metaDescription": "I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components.",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.25091438339318206,
+      "crawledAt": "2026-08-23T08:36:46.064Z",
+      "id": "3sn49e",
+      "entities": [],
+      "summary": " The core idea is fundamental change, so I’ve been expanding it into a larger system. I recently got my first paper accepted at EMNLP and open-sourced the code.",
+      "language": "en",
+      "processed_at": "2026-08-23T08:38:01.971Z"
+    },
+    {
       "title": "Enterprises winning with AI agents are limiting how much the agents can do alone",
       "url": "https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone",
       "source": "VentureBeat",
@@ -224,17 +243,153 @@
       "summary": "In short, I want to create voices for my real chickens that I'm creating generated videos of. Ultimately, I would like to create Voices to be used in a tts application that are based on their real \"voi\"",
       "language": "en",
       "processed_at": "2026-08-23T04:46:52.458Z"
+    },
+    {
+      "title": "Why Frontier AI Labs Fight to Hide Chain of Thought — Ilia Shumailov & Alexander Panfilov",
+      "url": "https://www.youtube.com/watch?v=gasgivVCl2U",
+      "source": "Machine Learning Street Talk",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "medium",
+      "pubDate": "2026-08-22T20:22:07.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 9,
+      "confidence": 0.5829013323063039,
+      "crawledAt": "2026-08-23T08:36:52.830Z",
+      "id": "1cwdsq",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8125976920127869,
+          "index": 1,
+          "word": "Why",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.979988694190979,
+          "index": 2,
+          "word": "Frontier",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9897212386131287,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9981732964515686,
+          "index": 4,
+          "word": "Labs",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8758720755577087,
+          "index": 10,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8172901272773743,
+          "index": 11,
+          "word": "Thought",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8682809472084045,
+          "index": 13,
+          "word": "Il",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9903075695037842,
+          "index": 15,
+          "word": "Shu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9963895082473755,
+          "index": 16,
+          "word": "##mail",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9930892586708069,
+          "index": 19,
+          "word": "Alexander",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.993756890296936,
+          "index": 20,
+          "word": "Pan",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9630191326141357,
+          "index": 21,
+          "word": "##fi",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-23T08:38:02.111Z"
+    },
+    {
+      "title": "I built an open-source roguelike specifically for training game-playing agents",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvii1j/i_built_an_opensource_roguelike_specifically_for/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-22T17:32:17.000Z",
+      "metaDescription": "Hey everyone! I wanted to share something I’ve been working on.\n I was inspired by projects from DeepMind and OpenAI, but noticed that most games are prohibitively difficult to integrate with an agent",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.5070515541685595,
+      "crawledAt": "2026-08-23T08:36:45.744Z",
+      "id": "7thhze",
+      "entities": [],
+      "summary": " I was inspired by projects from DeepMind and OpenAI, but noticed that most games are difficult to integrate with an agent.",
+      "language": "en",
+      "processed_at": "2026-08-23T08:38:14.460Z"
     }
   ],
-  "processedAt": "2026-08-23T04:47:11.137Z",
+  "processedAt": "2026-08-23T08:38:14.465Z",
   "categories": [
     "infrastructure",
     "creative-ai",
     "ai-agents",
-    "tutorial-guide"
+    "tutorial-guide",
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 8,
-  "dailyArticlesCount": 8,
+  "newArticlesProcessed": 3,
+  "dailyArticlesCount": 11,
   "filterDate": "2026-08-23"
 }
