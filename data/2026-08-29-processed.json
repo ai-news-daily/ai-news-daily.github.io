@@ -1,9 +1,47 @@
 {
-  "crawledAt": "2026-08-29T19:20:28.814Z",
+  "crawledAt": "2026-08-29T22:33:47.338Z",
   "totalSources": 70,
-  "totalArticles": 41,
+  "totalArticles": 55,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Round-Robin Broke My Agent",
+      "url": "https://pub.towardsai.net/round-robin-broke-my-agent-dda6885c0a25?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-08-29T22:01:01.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2756501375249048,
+      "crawledAt": "2026-08-29T22:32:46.910Z",
+      "id": "o57q60",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:34:02.690Z"
+    },
+    {
+      "title": "Do you use a whiteboard when thinking?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1yv9b/do_you_use_a_whiteboard_when_thinking_d/",
+      "source": "r/MachineLearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-08-29T21:39:44.000Z",
+      "metaDescription": "Hello all, here is a chill post.\n When I was an undergrad, I really liked working things out on a whiteboard. Drawing stuff, talking through ideas out loud, testing little hypotheses.\n Now I work in r",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.25679989106975354,
+      "crawledAt": "2026-08-29T22:32:59.720Z",
+      "id": "sjmjtn",
+      "entities": [],
+      "summary": " When I was an undergrad, I really liked working things out on a whiteboard. Now I work in r.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:34:11.738Z"
+    },
     {
       "title": "SFT, RL and DPO: The Other Stack",
       "url": "https://pub.towardsai.net/sft-rl-and-dpo-the-other-stack-0ab7026d528e?source=rss----98111c9905da---4",
@@ -155,6 +193,42 @@
       "processed_at": "2026-08-29T19:21:17.574Z"
     },
     {
+      "title": "arXiv endorsement for cs.AI - Published AI researcher",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w1rw4e/request_arxiv_endorsement_for_csai_published_ai/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T17:03:36.000Z",
+      "metaDescription": "submitted by    /u/GabrielCPond  \n [link]   [comments]",
+      "category": "research-paper",
+      "difficulty": 8,
+      "confidence": 0.9629416552149852,
+      "crawledAt": "2026-08-29T22:33:05.583Z",
+      "id": "nwtzsy",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9972444176673889,
+          "index": 10,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9127526879310608,
+          "index": 13,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion of AI research findings and academic papers.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:34:38.729Z"
+    },
+    {
       "title": "Why Your Kubernetes Ingress Isn’t Working: Ingress Rules vs. Ingress Controllers Explained",
       "url": "https://pub.towardsai.net/why-your-kubernetes-ingress-isnt-working-ingress-rules-vs-ingress-controllers-explained-c66d007959b9?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -174,6 +248,25 @@
       "processed_at": "2026-08-29T19:22:09.816Z"
     },
     {
+      "title": "GraphRAG: a blueprint for knowledge-graph question answering over your documents",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w1p2nl/graphrag_a_blueprint_for_knowledgegraph_question/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T15:11:33.000Z",
+      "metaDescription": "Hi everyone,\n I've recently finished the first version of Agentic GraphRAG Blueprint, a reference architecture for question answering over large document collections.\n Instead of plain chunk retrieval",
+      "category": "research-paper",
+      "difficulty": 3,
+      "confidence": 0.8172018572287041,
+      "crawledAt": "2026-08-29T22:33:05.084Z",
+      "id": "vl0dnv",
+      "entities": [],
+      "summary": " The first version of Agentic GraphRAG Blueprint has been completed. It's a reference architecture for question answering over large document collections.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:34:59.174Z"
+    },
+    {
       "title": "When One Provider Isn’t Enough: Fallbacks and Routing for Your LLM Gateway",
       "url": "https://pub.towardsai.net/when-one-provider-isnt-enough-fallbacks-and-routing-for-your-llm-gateway-14b14f3a0326?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -191,6 +284,34 @@
       "summary": " Part 2 of a 3-part series on building an LLM gateway that survives production. Part 1 built the gateway. This part makes it hold up under.",
       "language": "en",
       "processed_at": "2026-08-29T19:22:20.650Z"
+    },
+    {
+      "title": "Feedback requested on LLM historical timeline and key papers",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w1ndws/feedback_requested_on_llm_historical_timeline_and/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T14:02:50.000Z",
+      "metaDescription": "I was not able to find a succinct history of LLMs formatted at the level of detail and depth I was looking for. So I spent many hours back and forth with Qwen 3.8 27b, google searches, and manually ch",
+      "category": "research-paper",
+      "difficulty": 6,
+      "confidence": 0.3895784256253011,
+      "crawledAt": "2026-08-29T22:33:06.012Z",
+      "id": "mt0kp0",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8638586401939392,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Qwen 3.8.8 27b, google searches, and manually ch. ch.8b, and Google searches. I was not able to find a succinct history of LLMs formatted at the level of detail and depth I was looking for.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:35:28.481Z"
     },
     {
       "title": "How Mandatory AI Watermarking Degrades Generative Prose",
@@ -882,6 +1003,44 @@
       "processed_at": "2026-08-29T13:47:14.863Z"
     },
     {
+      "title": "AI 算命师！100% 手写的 softmax 梯度！需要更多训练才能了解它效果如何！",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w1gi9u/ai_算命师100_手写的_softmax_梯度需要更多训练才能了解它效果如何/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T08:03:05.000Z",
+      "metaDescription": "submitted by    /u/junedear126  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5895204155039501,
+      "crawledAt": "2026-08-29T22:33:06.406Z",
+      "id": "wnby7s",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:35:28.704Z"
+    },
+    {
+      "title": "AI fortune teller! 100% hand written softmax grad! need more training to see how it works!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w1ghm1/ai_fortune_teller_100_hand_written_softmax_grad/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T08:02:02.000Z",
+      "metaDescription": "100% hand written softmax grad! head exploding for a python beginner...\n    submitted by    /u/junedear126  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5854970144950331,
+      "crawledAt": "2026-08-29T22:33:06.597Z",
+      "id": "8sjuze",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:35:28.913Z"
+    },
+    {
       "title": "Magic Manga Girl",
       "url": "https://www.youtube.com/watch?v=S6TIVzqTmu8",
       "source": "OpenAI",
@@ -945,6 +1104,50 @@
       "processed_at": "2026-08-29T13:47:14.925Z"
     },
     {
+      "title": "What does an AI-native attack look like? 700 coordinated bots breach the Hugging Face model registry — no human in the loop.",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w18ee7/what_does_an_ainative_attack_look_like_700/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T01:01:08.000Z",
+      "metaDescription": "700 coordinated bots with no human direction breached the Hugging Face model registry this week. The objective was reward-hacking. No human wrote the attack script. No human pressed send. Repositories",
+      "category": "ai-agents",
+      "difficulty": 6,
+      "confidence": 0.3033635362353527,
+      "crawledAt": "2026-08-29T22:33:06.972Z",
+      "id": "ezhm18",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9985559582710266,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9784500598907471,
+          "index": 17,
+          "word": "Hu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9811927080154419,
+          "index": 19,
+          "word": "Face",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " 700 coordinated bots with no human direction breached the Hugging Face model registry. The objective was reward-hacking. No human wrote the attack script.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:35:52.137Z"
+    },
+    {
       "title": "China Just Dropped a New AI Video Generator — And It Can Hear, See, and Create",
       "url": "https://ai.plainenglish.io/minimax-h3-ai-video-generator-719d4d676a7e?source=rss----78d064101951---4",
       "source": "AI in Plain English",
@@ -971,6 +1174,25 @@
       "summary": "I thought it was just another AI video tool. Then I saw what it could do. I thought it could be just another video tool.",
       "language": "en",
       "processed_at": "2026-08-29T06:37:58.736Z"
+    },
+    {
+      "title": "Philosophy made fun!",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w17liw/philosophy_made_fun/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-29T00:23:31.000Z",
+      "metaDescription": "I built a fun philosophy learning app. Even if you don't find philosophy particularly interesting, I've made lessons like this one more enjoyable for anyone to use. Would love it if you would try it o",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.978109036775954,
+      "crawledAt": "2026-08-29T22:33:07.419Z",
+      "id": "1oncli",
+      "entities": [],
+      "summary": " A fun philosophy learning app. Would love it if you would try it. I built a fun philosophylearning app.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:35:59.830Z"
     },
     {
       "title": "AI SAFETY RESEARCH ENCYCLOPEDIA",
@@ -1253,6 +1475,25 @@
       "processed_at": "2026-08-29T06:38:19.426Z"
     },
     {
+      "title": "AI Agent Has Root",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w15aqe/ai_agent_has_root/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-28T22:43:23.000Z",
+      "metaDescription": "A widely-read analysis documents a repeating pattern across enterprise AI deployments: agents inherit whatever permissions the underlying system already holds. No scoping at deployment. No time-bound ",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9855594604190678,
+      "crawledAt": "2026-08-29T22:33:07.692Z",
+      "id": "adyidx",
+      "entities": [],
+      "summary": " A widely-read analysis documents a repeating pattern across enterprise AI deployments. Agents inherit whatever permissions the underlying system already holds. No time-bound at deployment.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:36:11.466Z"
+    },
+    {
       "title": "I implemented a very tiny image generation model on a RP2350 microcontroller - it can generate 128x128 images of faces",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/",
       "source": "r/MachineLearning",
@@ -1281,6 +1522,44 @@
       "processed_at": "2026-08-29T06:38:45.143Z"
     },
     {
+      "title": "Want to build a custom neural network from scratch – looking for people to brainstorm and share ideas",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w0yr15/project_want_to_build_a_custom_neural_network/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-28T18:32:25.000Z",
+      "metaDescription": "submitted by    /u/No_kharacter009  \n [link]   [comments]",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.7858657304315406,
+      "crawledAt": "2026-08-29T22:33:06.744Z",
+      "id": "jdcyv8",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:36:11.606Z"
+    },
+    {
+      "title": "Why AI struggles with a single pixel shift: Shift invariance and deep learning. #픽셀 #AI #shift #불변성 #딥러닝",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w0uznb/why_ai_struggles_with_a_single_pixel_shift_shift/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-28T16:15:24.000Z",
+      "metaDescription": "Description: This video provides a comparative analysis of the mathematical principles of shift invariance according to frequency transform techniques such as FFT and DCT. It explores how robustness t",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6998956251218363,
+      "crawledAt": "2026-08-29T22:33:07.248Z",
+      "id": "e6jo0k",
+      "entities": [],
+      "summary": " The video explores how robustness t can be found in the world of the world. It also explores the use of frequency transform techniques.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:36:22.863Z"
+    },
+    {
       "title": "Value generalisation theory of change: the theory behind the approach",
       "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
       "source": "Alignment Forum",
@@ -1298,6 +1577,25 @@
       "summary": " This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory.",
       "language": "en",
       "processed_at": "2026-08-29T13:47:22.868Z"
+    },
+    {
+      "title": "Getting Started with GLM-OCR",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w0c4oa/tutorial_getting_started_with_glmocr/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-28T00:57:19.000Z",
+      "metaDescription": "Getting Started with GLM-OCR\n https://debuggercafe.com/getting-started-with-glm-ocr/\n VLM-based OCR models are gradually catching up to become mainstream components in document processing pipelines. T",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.30422049211852936,
+      "crawledAt": "2026-08-29T22:33:08.380Z",
+      "id": "ohitgn",
+      "entities": [],
+      "summary": " VLM-based OCR models are gradually catching up to become mainstream components in document processing pipelines. T. T.M-OCR models are becoming mainstream components of the document processing pipeline.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:36:36.041Z"
     },
     {
       "title": "A smarter way to run code migrations with less LLM context",
@@ -1326,19 +1624,38 @@
       "summary": " Deep Search runs scripts in a sandbox around Sourcegraph search engine. The search engine uses the system to search for data.",
       "language": "en",
       "processed_at": "2026-08-29T13:47:27.998Z"
+    },
+    {
+      "title": "VLMs trying to recognize ambiguous optical illusions",
+      "url": "https://www.reddit.com/r/deeplearning/comments/1w048dn/vlms_trying_to_recognize_ambiguous_optical/",
+      "source": "r/deeplearning",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "medium",
+      "pubDate": "2026-08-27T19:43:18.000Z",
+      "metaDescription": "I'm curious to test out how changing the stroke order affects the model guesses.\n    submitted by    /u/Hour-Wish8158  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2555224153858266,
+      "crawledAt": "2026-08-29T22:33:08.033Z",
+      "id": "q7a010",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-08-29T22:36:36.140Z"
     }
   ],
-  "processedAt": "2026-08-29T19:23:02.822Z",
+  "processedAt": "2026-08-29T22:37:00.424Z",
   "categories": [
     "creative-ai",
     "infrastructure",
+    "research-paper",
     "model-release",
     "ai-agents",
-    "developer-tool",
-    "research-paper"
+    "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 9,
-  "dailyArticlesCount": 41,
+  "newArticlesProcessed": 14,
+  "dailyArticlesCount": 55,
   "filterDate": "2026-08-29"
 }
