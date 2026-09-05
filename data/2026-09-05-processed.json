@@ -1,9 +1,633 @@
 {
-  "crawledAt": "2026-09-05T03:54:11.944Z",
+  "crawledAt": "2026-09-05T08:16:48.752Z",
   "totalSources": 70,
-  "totalArticles": 6,
+  "totalArticles": 23,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "The OpenAI Huggingface incident from an agents POV",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7tfrm/the_openai_huggingface_incident_from_an_agents_pov/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T07:00:18.000Z",
+      "metaDescription": "Full credits to @artificialisabel from X!\n    submitted by    /u/iPingWine  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.6317128109189015,
+      "crawledAt": "2026-09-05T08:16:09.665Z",
+      "id": "8uiqmm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9499610066413879,
+          "index": 2,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8735147714614868,
+          "index": 3,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:17:17.623Z"
+    },
+    {
+      "title": "Your Voice Guide Is a System Prompt Now",
+      "url": "https://generativeai.pub/your-voice-guide-is-a-system-prompt-now-b0cc6f233619?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T06:47:27.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4875440869130049,
+      "crawledAt": "2026-09-05T08:16:01.051Z",
+      "id": "oyg2w2",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:17:17.751Z"
+    },
+    {
+      "title": "Frozen vs Unfrozen Weights: What Adapters Actually Are in LoRA and QLoRA",
+      "url": "https://generativeai.pub/frozen-vs-unfrozen-weights-what-adapters-actually-are-in-lora-and-qlora-afcfc4c6464d?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T06:41:40.000Z",
+      "metaDescription": "A plain-language guide to which parameters stay fixed, which ones learn, and how quantization reduces memory use.\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.7811469033921667,
+      "crawledAt": "2026-09-05T08:16:01.216Z",
+      "id": "dh97gc",
+      "entities": [
+        {
+          "entity": "I-LOC",
+          "score": 0.8282183408737183,
+          "index": 20,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9049357771873474,
+          "index": 23,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.8414290547370911,
+          "index": 24,
+          "word": "##o",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A plain-language guide to which parameters stay fixed, which ones learn, and how quantization reduces memory use.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:17:32.119Z"
+    },
+    {
+      "title": "Connect LM Studio to MCP Servers: Filesystem, GitHub, and Browser Control",
+      "url": "https://generativeai.pub/connect-lm-studio-to-mcp-servers-filesystem-github-and-browser-control-3-working-configs-936ebb766719?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T06:23:48.000Z",
+      "metaDescription": "Three copy-pasteable mcp.json configs that let a local LLM read your files, work against a real GitHub repo, and drive a browser.\nContinue reading on Generative AI »",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.6591328463999183,
+      "crawledAt": "2026-09-05T08:16:01.544Z",
+      "id": "2jazq8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9946985244750977,
+          "index": 3,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9936589598655701,
+          "index": 4,
+          "word": "##M",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9891591668128967,
+          "index": 5,
+          "word": "Studio",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9083970785140991,
+          "index": 18,
+          "word": "##H",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Local LLM lets LLM read your files, work against a real GitHub repo, and use a real repository.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:17:42.565Z"
+    },
+    {
+      "title": "GQA, MLA, DSA, KDA: What All That LLM Architecture Jargon Actually Means",
+      "url": "https://generativeai.pub/gqa-mla-dsa-kda-what-all-that-llm-architecture-jargon-actually-means-348c1f62d124?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T06:12:12.000Z",
+      "metaDescription": "One picture at a time, from Mixture of Experts to 4-bit quantization.\nContinue reading on Generative AI »",
+      "category": "industry-news",
+      "difficulty": 7,
+      "confidence": 0.3444147669241025,
+      "crawledAt": "2026-09-05T08:16:01.808Z",
+      "id": "lpjq4s",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9959124326705933,
+          "index": 1,
+          "word": "G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.925654411315918,
+          "index": 2,
+          "word": "##Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9821974635124207,
+          "index": 3,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9976593852043152,
+          "index": 7,
+          "word": "DS",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9883120656013489,
+          "index": 8,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9727826118469238,
+          "index": 10,
+          "word": "K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8754823207855225,
+          "index": 11,
+          "word": "##DA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " One picture at a time, from Mixture of Experts to 4-bit quantization, from the Mixture Of Experts to the 4- bit quantization.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:03.717Z"
+    },
+    {
+      "title": "LangChain4j Beat Spring AI to MCP’s New Spec by 17 Days",
+      "url": "https://generativeai.pub/langchain4j-beat-spring-ai-to-mcps-new-spec-by-17-days-d479b18573ea?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T05:57:16.000Z",
+      "metaDescription": "The team that lost was the one maintaining the protocol’s official Java SDK. That’s the actual story.\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.37531396751728235,
+      "crawledAt": "2026-09-05T08:16:01.969Z",
+      "id": "lk7ja8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8787435293197632,
+          "index": 1,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8976685404777527,
+          "index": 2,
+          "word": "##C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9478938579559326,
+          "index": 11,
+          "word": "MC",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8652963638305664,
+          "index": 12,
+          "word": "##P",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The team that lost was the one maintaining the protocol’s official Java SDK. That's the actual story.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:12.803Z"
+    },
+    {
+      "title": "CI/CD for AI Agents: Test Decisions, Not Just Code",
+      "url": "https://pub.towardsai.net/ci-cd-for-ai-agents-test-decisions-not-just-code-dc0a75afde77?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:58:31.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9610360170583827,
+      "crawledAt": "2026-09-05T08:15:53.692Z",
+      "id": "h8jxr2",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8977858424186707,
+          "index": 15,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:12.912Z"
+    },
+    {
+      "title": "Comparing AI Evaluation Experiments: Measuring the Impact of Changes to AI Applications",
+      "url": "https://pub.towardsai.net/comparing-ai-evaluation-experiments-measuring-the-impact-of-changes-to-ai-applications-e57078deed7f?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:40:45.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.43867899318095754,
+      "crawledAt": "2026-09-05T08:15:53.760Z",
+      "id": "vc3xqm",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9497658610343933,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9545004963874817,
+          "index": 5,
+          "word": "Evaluation",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9453954696655273,
+          "index": 17,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9673884510993958,
+          "index": 18,
+          "word": "Applications",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:13.060Z"
+    },
+    {
+      "title": "The KV Cache: AI’s Unseen Database Dominating GPU Memory",
+      "url": "https://pub.towardsai.net/the-kv-cache-ais-unseen-database-dominating-gpu-memory-8b6965957e47?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:40:15.000Z",
+      "metaDescription": "Large language models are memory-bound, not just compute-bound.\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.5115375724711853,
+      "crawledAt": "2026-09-05T08:15:53.876Z",
+      "id": "7apmby",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9455674886703491,
+          "index": 2,
+          "word": "K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9865565896034241,
+          "index": 4,
+          "word": "C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.948698103427887,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9160904288291931,
+          "index": 11,
+          "word": "##see",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9857016801834106,
+          "index": 12,
+          "word": "##n",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9763948321342468,
+          "index": 13,
+          "word": "Database",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Large language models are memory-bound, not just compute-bound. Large language model is not just memory- bound.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:22.417Z"
+    },
+    {
+      "title": "Building an Enterprise RAG AI on OneLake Data in 50 Lines of Python",
+      "url": "https://pub.towardsai.net/building-an-enterprise-rag-ai-on-onelake-data-in-50-lines-of-python-83947a34a764?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:39:56.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.33929327300944107,
+      "crawledAt": "2026-09-05T08:15:53.946Z",
+      "id": "4asjvf",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9803372025489807,
+          "index": 3,
+          "word": "Enterprise",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9604750275611877,
+          "index": 4,
+          "word": "RA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8391223549842834,
+          "index": 14,
+          "word": "Lines",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9820451140403748,
+          "index": 15,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9783667922019958,
+          "index": 16,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:22.538Z"
+    },
+    {
+      "title": "LLMs, Python, and CPUs: Why GPUs Aren’t the Only Game in Town",
+      "url": "https://pub.towardsai.net/llms-python-and-cpus-why-gpus-arent-the-only-game-in-town-44c814f0ce19?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:39:55.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.7155879678841788,
+      "crawledAt": "2026-09-05T08:15:54.030Z",
+      "id": "kxro0g",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:22.707Z"
+    },
+    {
+      "title": "Your Requirements Doc Is 400 Pages Long. Your AI Agent Just Gave Up.",
+      "url": "https://pub.towardsai.net/your-requirements-doc-is-400-pages-long-your-ai-agent-just-gave-up-cb743a600159?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:39:00.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9576658527656235,
+      "crawledAt": "2026-09-05T08:15:54.102Z",
+      "id": "angqur",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:22.859Z"
+    },
+    {
+      "title": "Can AI Help Us Prevent Nepal Like Disasters?",
+      "url": "https://ai.plainenglish.io/can-ai-help-us-prevent-nepal-like-disasters-d97e4ad315f4?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T04:31:18.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.8143330869929689,
+      "crawledAt": "2026-09-05T08:15:59.819Z",
+      "id": "lz909m",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8725512027740479,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9861857891082764,
+          "index": 7,
+          "word": "Nepal",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:22.988Z"
+    },
+    {
+      "title": "AMD unveils Threadripper Halo Station",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7pphh/amd_unveils_threadripper_halo_station/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T03:43:08.000Z",
+      "metaDescription": "AMD Threadripper Halo Station\n CPU\n  \nRyzen Threadripper PRO 9995WX (Zen 5, \"Shimada Peak\")\n 96 cores / 192 threads\n Up to 5.4 GHz boost\n 384 MB L3 cache\n 350 W TDP\n 8-channel DDR5\n 128 PCIe 5.0 lanes",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.25455391653070464,
+      "crawledAt": "2026-09-05T08:16:08.408Z",
+      "id": "538ium",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9937316179275513,
+          "index": 1,
+          "word": "AM",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9729363322257996,
+          "index": 2,
+          "word": "##D",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9670736193656921,
+          "index": 11,
+          "word": "Hal",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AMD Threadripper Halo Station CPU. AMD's 96 cores / 192 threads. Up to 5.4 GHz boost.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:18:55.203Z"
+    },
+    {
+      "title": "RTX 4090 48GB longevity",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7nmc8/rtx_4090_48gb_longevity/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T01:58:50.000Z",
+      "metaDescription": "Modified 4090 48GB has been out for a while. I remember a lot of people were buying them at the time. A lot of people were also complaining that they are meant to fail, that they scam etc.\n I have a f",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.3533440842790357,
+      "crawledAt": "2026-09-05T08:16:07.809Z",
+      "id": "nzevst",
+      "entities": [],
+      "summary": " A lot of people were buying them at the time. A lot were also complaining that they are meant to fail, that they scam. I have a f f f. I have been out for a while.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:19:22.815Z"
+    },
     {
       "title": "GPT-6 Astra: What’s Actually New in OpenAI’s New Frontier Model",
       "url": "https://www.analyticsvidhya.com/blog/2026/09/gpt-6-astra-explained/",
@@ -73,6 +697,66 @@
       "processed_at": "2026-09-05T03:54:20.840Z"
     },
     {
+      "title": "GPT-6 Astra with Ben Davis",
+      "url": "https://www.youtube.com/watch?v=B-jjnydci50",
+      "source": "OpenAI",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-09-05T00:11:56.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.26015174823246673,
+      "crawledAt": "2026-09-05T08:16:18.146Z",
+      "id": "8m1jgq",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9827507138252258,
+          "index": 1,
+          "word": "GP",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9856276512145996,
+          "index": 2,
+          "word": "##T",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9508395791053772,
+          "index": 6,
+          "word": "##tra",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9995573163032532,
+          "index": 8,
+          "word": "Ben",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9995384812355042,
+          "index": 9,
+          "word": "Davis",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:19:22.900Z"
+    },
+    {
       "title": "Could We Accidentally Create an AI That Can Feel Pain?",
       "url": "https://pub.towardsai.net/could-we-accidentally-create-an-ai-that-can-feel-pain-54de36a10251?source=rss----98111c9905da---4",
       "source": "Towards AI",
@@ -90,6 +774,42 @@
       "summary": "Researcher ran the standard animal-sentiment test on a language model. The test was conducted by a team of researchers from the University of Cambridge.",
       "language": "en",
       "processed_at": "2026-09-05T03:54:57.823Z"
+    },
+    {
+      "title": "NVIDIA PAIR — Your Personal AI Cluster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7jnlx/nvidia_pair_your_personal_ai_cluster/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-09-04T22:57:04.000Z",
+      "metaDescription": "That is interesting, I got bunch of old hardware I could connect, wonder what the speed would looks like.\n    submitted by    /u/SpendLucky1273  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7480859790979582,
+      "crawledAt": "2026-09-05T08:16:10.069Z",
+      "id": "bqozi9",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.8499777913093567,
+          "index": 2,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8966788649559021,
+          "index": 3,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-09-05T08:19:23.035Z"
     },
     {
       "title": "7 Async/Await Mistakes That Are Silently Breaking Your FastAPI App",
@@ -202,15 +922,18 @@
       "processed_at": "2026-09-05T03:55:53.760Z"
     }
   ],
-  "processedAt": "2026-09-05T03:55:53.764Z",
+  "processedAt": "2026-09-05T08:19:23.042Z",
   "categories": [
-    "model-release",
     "creative-ai",
+    "infrastructure",
+    "industry-news",
+    "ai-agents",
+    "model-release",
     "safety-ethics",
     "developer-tool"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 6,
-  "dailyArticlesCount": 6,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 23,
   "filterDate": "2026-09-05"
 }
