@@ -1,9 +1,498 @@
 {
-  "crawledAt": "2026-10-03T13:13:29.425Z",
+  "crawledAt": "2026-10-03T19:08:59.407Z",
   "totalSources": 70,
-  "totalArticles": 43,
+  "totalArticles": 60,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "The Rise of Overfit Inference Engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T18:24:42.000Z",
+      "metaDescription": "There seems to be a whole category of extremely narrow inference runtimes appearing: Strata, ninfer, DwarfStar, Splash, llamAmpere, gufo, etc. They deliberately give up the thing llama.cpp/vLLM are gr",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.2813141698849487,
+      "crawledAt": "2026-10-03T19:08:16.790Z",
+      "id": "qjh43c",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8307617902755737,
+          "index": 4,
+          "word": "Over",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9399318099021912,
+          "index": 5,
+          "word": "##fit",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8003695011138916,
+          "index": 7,
+          "word": "##ference",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " There seems to be a whole category of extremely narrow inference runtimes appearing. Strata, ninfer, DwarfStar, Splash, llamAmpere, gufo, etc. They deliberately give up the thing llama.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:09:40.108Z"
+    },
+    {
+      "title": "Flash next rig born from mining parts.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwt19n/flash_next_rig_born_from_mining_parts/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T17:36:49.000Z",
+      "metaDescription": "Been testing 3x 3060 12gb for flash next in an open air frame. Honestly, with strata it's kicking ass. 38-40 t/s while llama.cpp can only get 13.2 t/s. This is on IQ3 through strata. \n Anybody else ru",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8986780019144395,
+      "crawledAt": "2026-10-03T19:08:20.374Z",
+      "id": "tlg22g",
+      "entities": [],
+      "summary": " 38-40 t/s while llama.cpp can only get 13.2 t/S. This is on IQ3 through strata. This has been tested 3x 3060 12gb for flash next in an open air frame.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:10:31.192Z"
+    },
+    {
+      "title": "I built a code knowledge graph tool that's actually MIT licensed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wws6o6/i_built_a_code_knowledge_graph_tool_thats/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T17:01:14.000Z",
+      "metaDescription": "So this is maybe a niche problem, but at my job I work on a huge Python codebase and every time I change some shared function I'm basically playing roulette. grep tells who mentions it in the code bas",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.6954024041382041,
+      "crawledAt": "2026-10-03T19:08:18.482Z",
+      "id": "5dipxa",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9976100921630859,
+          "index": 12,
+          "word": "MIT",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Python codebase is a huge part of the Python codebase. The codebase has a huge number of functions.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:10:56.440Z"
+    },
+    {
+      "title": "Sopro V2 Turbo 2610: cleaner cloned voices, same 120M model, same CPU speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwrw0v/sopro_v2_turbo_2610_cleaner_cloned_voices_same/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T16:48:36.000Z",
+      "metaDescription": "Follow-up to last month's post. One of the main issues people ran into was roughness or break-up on some cloned voices. 2610 is an interim update focused mostly on improving that.\n  \nReduced roughness",
+      "category": "model-release",
+      "difficulty": 6,
+      "confidence": 0.3133736365127481,
+      "crawledAt": "2026-10-03T19:08:18.875Z",
+      "id": "176i04",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8342567682266235,
+          "index": 1,
+          "word": "So",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9724461436271667,
+          "index": 4,
+          "word": "V",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9813120365142822,
+          "index": 5,
+          "word": "##2",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8687263131141663,
+          "index": 6,
+          "word": "Turbo",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " 2610 is an interim update focused mostly on improving that. One of the main issues people ran into was roughness or break-up on some cloned voices.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:11:17.140Z"
+    },
+    {
+      "title": "Meet Jev: The AI Model That Doesn’t Write a Single Word",
+      "url": "https://pub.towardsai.net/meet-jev-the-ai-model-that-doesnt-write-a-single-word-14bc9762066e?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T16:01:02.000Z",
+      "metaDescription": "How “System 1” AI makes fast, calibrated decisions that LLMs can’t\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.5811734111514594,
+      "crawledAt": "2026-10-03T19:08:01.486Z",
+      "id": "ltw4t0",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9686403870582581,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " How “System 1’s’ AI makes fast, calibrated decisions that LLMs can’t make. How � “ system 1” AI makesfast, calibrated decision that LLM can�’m can‘t’",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:00.648Z"
+    },
+    {
+      "title": "Come let your LLMs play World of Warcraft",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwqclz/come_let_your_llms_play_world_of_warcraft/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T15:42:52.000Z",
+      "metaDescription": "I hosted my own world of warcraft private server then built a client that you can play in the browser on PC or mobile at https://jankcraft.xyz/ for free.\n Afterwards, I created a custom MCP and agent ",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.3541449704799486,
+      "crawledAt": "2026-10-03T19:08:18.294Z",
+      "id": "7ogs29",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8897660374641418,
+          "index": 4,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9966936111450195,
+          "index": 7,
+          "word": "World",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9985405206680298,
+          "index": 8,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9983986616134644,
+          "index": 9,
+          "word": "War",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9986270070075989,
+          "index": 10,
+          "word": "##craft",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The client can be used to play in the browser on PC or mobile devices. The client is free to use for free.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:10.141Z"
+    },
+    {
+      "title": "How to Stop an AI Agent From Giving Away Your Money in a Negotiation",
+      "url": "https://pub.towardsai.net/how-to-stop-an-ai-agent-from-giving-away-your-money-in-a-negotiation-58fddcba461a?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T15:31:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9897795249483381,
+      "crawledAt": "2026-10-03T19:08:01.557Z",
+      "id": "r0vvvi",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:10.266Z"
+    },
+    {
+      "title": "Make Your AI Agent Ask Before It Answers",
+      "url": "https://pub.towardsai.net/make-your-ai-agent-ask-before-it-answers-a7590e0b6e5d?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T15:01:04.000Z",
+      "metaDescription": "AI agents guess when a question is vague. Two things help: write down your rules first, then add a separate check that asks.\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9849910765604365,
+      "crawledAt": "2026-10-03T19:08:01.695Z",
+      "id": "spjb7u",
+      "entities": [],
+      "summary": " AI agents guess when a question is vague. Write down your rules first, then add a separate check that asks.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:18.499Z"
+    },
+    {
+      "title": "The Paranoid Agent: Unleashing Chaos Monkey on a LangGraph4j State Graph",
+      "url": "https://pub.towardsai.net/the-paranoid-agent-unleashing-chaos-monkey-on-a-langgraph4j-state-graph-26c9c8e0aa96?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:31:01.000Z",
+      "metaDescription": "Every agent looks great when the mock API responds in 100 milliseconds and the demo run is scripted.\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.42714961907284243,
+      "crawledAt": "2026-10-03T19:08:01.845Z",
+      "id": "izlzch",
+      "entities": [],
+      "summary": " Every agent looks great when the mock API responds in 100 milliseconds. The demo run is scripted and the demo run was scripted.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:29.215Z"
+    },
+    {
+      "title": "Two ~300B MoE models, each on ONE 128 GB mini PC : GLM-5.3-Flash at ~580 tok/s prefill, MiMo-V2.6-Flash up to 44 tok/s decode. EXL3 weights + open ROCm engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:16:38.000Z",
+      "metaDescription": "We built an engine, Kyojin, on top of ExLlamaV3 for Strix Halo (gfx1151, ROCm), and packed two 300B-class MoE models so each fits one 128 GB machine. First release, all measured on Ryzen AI Max+ 395.\n",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.35750325590216275,
+      "crawledAt": "2026-10-03T19:08:17.615Z",
+      "id": "k5r4rn",
+      "entities": [],
+      "summary": "Kyojin's engine is on top of ExLlamaV3 for Strix Halo (gfx1151) and packed two 300B-class MoE models so each fits one 128 GB machine. First release, all measured on Ryzen AI Max+",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:46.759Z"
+    },
+    {
+      "title": "Yes bots we get it, Strata is good now please stop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwobfg/yes_bots_we_get_it_strata_is_good_now_please_stop/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:15:21.000Z",
+      "metaDescription": "It's like the entire sub has become that scene from Konosuba where the cult keeps making up fake scenarios saying the only solution is to join their religion\n    submitted by    /u/Mayion  \n [link]   ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.38148644580836705,
+      "crawledAt": "2026-10-03T19:08:16.291Z",
+      "id": "hescfi",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9510686993598938,
+          "index": 8,
+          "word": "St",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9439776539802551,
+          "index": 9,
+          "word": "##rata",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:12:46.865Z"
+    },
+    {
+      "title": "Transparent AI UX: 7 Rules for Designing AI People Actually Trust",
+      "url": "https://pub.towardsai.net/transparent-ai-ux-7-rules-for-designing-ai-people-actually-trust-85de21d85ac5?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:01:03.000Z",
+      "metaDescription": "Most people use AI answers without checking them, yet less than half say they trust AI. That gap is a design problem. Here is how to close…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.9498888243618716,
+      "crawledAt": "2026-10-03T19:08:02.003Z",
+      "id": "7ixqu3",
+      "entities": [],
+      "summary": " Most people use AI answers without checking them, yet less than half say they trust it. The gap is a design problem.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:13:04.566Z"
+    },
+    {
+      "title": "All the AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:00:00.000Z",
+      "metaDescription": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9923261405502585,
+      "crawledAt": "2026-10-03T19:07:32.492Z",
+      "id": "1yi8c2",
+      "entities": [],
+      "summary": " We created a list of the most notable AI agents that can live in text messages. They include general assistants to agents designed for families, travel, and work.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:13:14.795Z"
+    },
+    {
+      "title": "Measuring the Creativity Potential of LLM Agents",
+      "url": "https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T14:00:00.000Z",
+      "metaDescription": "Trying to answer the question of \"Can LLM agents discover?\" through the lens of creativity\nThe post Measuring the Creativity Potential of LLM Agents appeared first on Towards Data Science.",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.858223288681665,
+      "crawledAt": "2026-10-03T19:07:42.347Z",
+      "id": "7c332y",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9141137599945068,
+          "index": 13,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "The post Measuring the Creativity Potential of LLM Agents appeared on Towards Data Science. The post is a look at the creativity of the LLM agents.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:13:25.600Z"
+    },
+    {
+      "title": "11 Beginner Tips for Learning Python Programming",
+      "url": "https://realpython.com/python-beginner-tips/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-10-03T14:00:00.000Z",
+      "metaDescription": "We are so excited that you have decided to embark on the journey of learning Python! One of the most common questions we receive from our readers is “What’s the best way to learn Python?”\nI believe th",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.36904094462060627,
+      "crawledAt": "2026-10-03T19:08:56.236Z",
+      "id": "tsvhsw",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.965658962726593,
+          "index": 10,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " We are so excited that you have decided to embark on the journey of learning Python. One of the most common questions we receive from our readers is ‘What’s the best way to learn Python?’",
+      "language": "en",
+      "processed_at": "2026-10-03T19:13:55.197Z"
+    },
+    {
+      "title": "Claude Mods - The Biggest Claude Code Upgrade!",
+      "url": "https://www.youtube.com/watch?v=XaYubuLtW8M",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-10-03T13:15:06.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3813201502316766,
+      "crawledAt": "2026-10-03T19:08:34.480Z",
+      "id": "1p80og",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9962749481201172,
+          "index": 1,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9955124258995056,
+          "index": 2,
+          "word": "Mo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9195107221603394,
+          "index": 9,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9776945114135742,
+          "index": 10,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:14:17.282Z"
+    },
     {
       "title": "LSTM Explained: How Neural Networks Remember Long-Term Information",
       "url": "https://pub.towardsai.net/lstm-explained-how-neural-networks-remember-long-term-information-ee210d10f0cf?source=rss----98111c9905da---4",
@@ -1289,6 +1778,34 @@
       "processed_at": "2026-10-03T04:52:26.146Z"
     },
     {
+      "title": "This startup pays NYC residents to run air conditioners on free batteries",
+      "url": "https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-10-02T17:20:21.000Z",
+      "metaDescription": "Bonus: Every Electric’s batteries are beloved by household cats.",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.347805155865498,
+      "crawledAt": "2026-10-03T19:07:36.587Z",
+      "id": "ivvwfs",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9977636933326721,
+          "index": 5,
+          "word": "NYC",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Every Electric’s batteries are beloved by household cats. The batteries are a favorite of household cats. The batteries can be used to power a household appliance.",
+      "language": "en",
+      "processed_at": "2026-10-03T19:14:28.004Z"
+    },
+    {
       "title": "New 64GB DGX Spark. Significantly higher price for the original 128GB model $6,950 USD",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyxzg/new_64gb_dgx_spark_significantly_higher_price_for/",
       "source": "r/LocalLLaMA",
@@ -1392,20 +1909,21 @@
       "processed_at": "2026-10-03T04:53:00.826Z"
     }
   ],
-  "processedAt": "2026-10-03T13:17:14.866Z",
+  "processedAt": "2026-10-03T19:14:28.010Z",
   "categories": [
     "infrastructure",
-    "tutorial-guide",
     "creative-ai",
-    "product-launch",
+    "developer-tool",
+    "model-release",
     "ai-agents",
+    "tutorial-guide",
+    "product-launch",
     "research-paper",
     "safety-ethics",
-    "model-release",
     "industry-news"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 21,
-  "dailyArticlesCount": 43,
+  "newArticlesProcessed": 17,
+  "dailyArticlesCount": 60,
   "filterDate": "2026-10-03"
 }
