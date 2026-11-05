@@ -1,9 +1,613 @@
 {
-  "crawledAt": "2026-11-04T19:41:45.642Z",
+  "crawledAt": "2026-11-05T00:49:51.039Z",
   "totalSources": 70,
-  "totalArticles": 1592,
+  "totalArticles": 1586,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "What are you looking forward to in Qwen 4?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T23:35:49.000Z",
+      "metaDescription": "Qwen 4 will be upon us soon. What are you most excited about?\n I hope to see:\n 27B with more efficient KV, so 128k doesn't need 8 GiB or whatever.\n Flash the same architecture as Q38FN, so 125B-A6B fo",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.4258992456814479,
+      "crawledAt": "2026-11-05T00:49:19.751Z",
+      "id": "a0d0js",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8264440894126892,
+          "index": 8,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8873852491378784,
+          "index": 9,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9307831525802612,
+          "index": 10,
+          "word": "4",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The new Qwen 4 will be released in September. The new design will be based on the same architecture as Q38FN.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:50:07.344Z"
+    },
+    {
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T22:45:09.000Z",
+      "metaDescription": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.5467543627119092,
+      "crawledAt": "2026-11-05T00:48:32.295Z",
+      "id": "vvxpog",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9714341163635254,
+          "index": 2,
+          "word": "PA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9989703893661499,
+          "index": 9,
+          "word": "Congress",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AI industry PACs spent millions in the past 20 years to influence elections. Political groups are already looking at the next election cycle.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:50:35.133Z"
+    },
+    {
+      "title": "Ricursive Intelligence Ripple-65B-Preview: New Dense Model!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T22:42:48.000Z",
+      "metaDescription": "So Ricursive Intelligence (not to be confused with Recursive, the makers of Flint) just dropped the preview of their new dense 65B model, which appears to have really impressive performance, putting i",
+      "category": "model-release",
+      "difficulty": 5,
+      "confidence": 0.7832959570261759,
+      "crawledAt": "2026-11-05T00:49:18.845Z",
+      "id": "m1y95y",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8994163870811462,
+          "index": 5,
+          "word": "Intelligence",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Ricursive Intelligence's new 65B model appears to have really impressive performance. The new model is a dense 65B.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:50:45.365Z"
+    },
+    {
+      "title": "OpenAI: Astra covertly underperforms on safety research",
+      "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
+      "source": "Alignment Forum",
+      "source_domain": "alignmentforum.org",
+      "source_category": "safety",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T22:15:30.000Z",
+      "metaDescription": "Marcus Williams twitter thread (non-twitter link) intro:\n\nAstra covertly underperforms on safety research tasks.\nWe noticed that Astra often makes surprisingly little progress on certain types of safe",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.5218188179475912,
+      "crawledAt": "2026-11-05T00:48:53.199Z",
+      "id": "qay73a",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9044135808944702,
+          "index": 5,
+          "word": "As",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Astra often makes surprisingly little progress on certain types of safe. We noticed that Astra makes surprisinglylittle progress on safety research tasks.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:51:03.662Z"
+    },
+    {
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T22:13:16.000Z",
+      "metaDescription": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.3534215144007184,
+      "crawledAt": "2026-11-05T00:48:32.504Z",
+      "id": "eo7nh7",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.948123574256897,
+          "index": 8,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nothing's CEO said the product is designed to leverage AI for productivity gains. It's not yet clear what kind of product the smartphone startup is cooking up.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:51:13.493Z"
+    },
+    {
+      "title": "AI Agent Memory Privacy: Isolate Users, Redact PII, Delete for Real",
+      "url": "https://pub.towardsai.net/day-40-100-ai-agent-memory-privacy-isolate-users-redact-pii-delete-for-real-306329bb8a14?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T22:01:02.000Z",
+      "metaDescription": "One tool argument can leak every user’s memories. How to scope identity, enforce row-level security in Postgres, keep PII out of storage…\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9353800222865122,
+      "crawledAt": "2026-11-05T00:49:04.631Z",
+      "id": "1dw4s5",
+      "entities": [],
+      "summary": " One tool argument can leak every user’s memories. One tool argues can leak a user‘s memories. One tool argue can leak the user�’'s memories.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:51:25.236Z"
+    },
+    {
+      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
+      "url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T21:29:46.000Z",
+      "metaDescription": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
+      "category": "industry-news",
+      "difficulty": 4,
+      "confidence": 0.6581266473612891,
+      "crawledAt": "2026-11-05T00:48:37.602Z",
+      "id": "xkj0u3",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9980476498603821,
+          "index": 1,
+          "word": "AM",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9944251775741577,
+          "index": 2,
+          "word": "##D",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter. AMD's revenue fell from $13 million to $13 billion.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:52:07.054Z"
+    },
+    {
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T21:10:56.000Z",
+      "metaDescription": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.3696567954253954,
+      "crawledAt": "2026-11-05T00:48:32.888Z",
+      "id": "f8cphh",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9990322589874268,
+          "index": 1,
+          "word": "Met",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9936566948890686,
+          "index": 2,
+          "word": "##a",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9706737399101257,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8261386156082153,
+          "index": 9,
+          "word": "Con",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8152071237564087,
+          "index": 10,
+          "word": "##ductor",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously. The startup also allows engineers to work with other teams to work together.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:52:28.001Z"
+    },
+    {
+      "title": "Model Routing with NVIDIA’s NeMo Switchyard",
+      "url": "https://pub.towardsai.net/model-routing-with-nvidias-nemo-switchyard-9f52edda0af2?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T21:01:02.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 6,
+      "confidence": 0.698434659284628,
+      "crawledAt": "2026-11-05T00:49:04.705Z",
+      "id": "xp43fr",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9743175506591797,
+          "index": 6,
+          "word": "N",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9423015713691711,
+          "index": 8,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9031654000282288,
+          "index": 9,
+          "word": "##A",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:52:28.124Z"
+    },
+    {
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T20:55:50.000Z",
+      "metaDescription": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.5995172137991175,
+      "crawledAt": "2026-11-05T00:48:37.721Z",
+      "id": "fapwf7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9960582256317139,
+          "index": 1,
+          "word": "Big",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9911377429962158,
+          "index": 2,
+          "word": "Tech",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9013674259185791,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9931067228317261,
+          "index": 13,
+          "word": "Trump",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " US overwhelmingly votes to restrict AI, data centers. Tech industry in denial as US overwhelmingly voted to restrict data centers.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:52:53.010Z"
+    },
+    {
+      "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+      "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T20:41:29.000Z",
+      "metaDescription": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.9555210451592017,
+      "crawledAt": "2026-11-05T00:48:42.539Z",
+      "id": "ryej1j",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9261590838432312,
+          "index": 5,
+          "word": "Pro",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8960304856300354,
+          "index": 7,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8376761674880981,
+          "index": 9,
+          "word": "PA",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8379770517349243,
+          "index": 10,
+          "word": "##C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8404852151870728,
+          "index": 11,
+          "word": "Network",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Leading the Future, backed by Silicon Valley's biggest billionaires, had a $100 million war chest. All of it didn't add up to much on Tuesday night.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:53:03.897Z"
+    },
+    {
+      "title": "Building Didibot: An AI City Guide for Philadelphia",
+      "url": "https://python.plainenglish.io/building-didibot-an-ai-city-guide-for-philadelphia-6b246b02e4a5?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T20:37:25.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.4419996066534514,
+      "crawledAt": "2026-11-05T00:49:12.287Z",
+      "id": "vsy4vc",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9176578521728516,
+          "index": 8,
+          "word": "City",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9864949584007263,
+          "index": 11,
+          "word": "Philadelphia",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:53:04.225Z"
+    },
+    {
+      "title": "I Replaced My Entire Dev, SEO, and Marketing Workflow With 85 AI Agents Here’s Exactly How",
+      "url": "https://python.plainenglish.io/i-replaced-my-entire-dev-seo-and-marketing-workflow-with-85-ai-agents-heres-exactly-how-f9b0ba174bd3?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T20:36:30.000Z",
+      "metaDescription": "I used to start every new project the same way.\nContinue reading on Python in Plain English »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.826758982541855,
+      "crawledAt": "2026-11-05T00:49:12.617Z",
+      "id": "psm4i9",
+      "entities": [],
+      "summary": " I used to start every new project the same way. I usedto start every project the the same project the way.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:53:23.893Z"
+    },
+    {
+      "title": "5 Useful Python Generator Functions That Will Actually Teach You How Generators Work",
+      "url": "https://python.plainenglish.io/5-useful-python-generator-functions-that-will-actually-teach-you-how-generators-work-16afd5b8528f?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T20:36:07.000Z",
+      "metaDescription": "Generators shine when you need to process large (or infinite) streams of data without loading everything into memory. The three pieces of…\nContinue reading on Python in Plain English »",
+      "category": "tutorial-guide",
+      "difficulty": 3,
+      "confidence": 0.44855281493049814,
+      "crawledAt": "2026-11-05T00:49:12.866Z",
+      "id": "ieely2",
+      "entities": [],
+      "summary": " Generators shine when you need to process large streams of data without loading everything into memory. The three pieces of Python are a good example of how to do this.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:53:34.898Z"
+    },
+    {
+      "title": "After Texas' blue wave, what happens to Elon Musk and SpaceX?",
+      "url": "https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-11-04T20:36:05.000Z",
+      "metaDescription": "\"Data centers in space looking pretty appealing right now.\"",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.2628621377479237,
+      "crawledAt": "2026-11-05T00:48:37.837Z",
+      "id": "qmkfnh",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9997267723083496,
+          "index": 2,
+          "word": "Texas",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9989407658576965,
+          "index": 10,
+          "word": "El",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9606484770774841,
+          "index": 11,
+          "word": "##on",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9927664399147034,
+          "index": 12,
+          "word": "Mu",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9658928513526917,
+          "index": 13,
+          "word": "##sk",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9987727999687195,
+          "index": 15,
+          "word": "Space",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9980087876319885,
+          "index": 16,
+          "word": "##X",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " \"Data centers in space looking pretty appealing right now,\" says NASA official. \"Data center in space looks pretty appealingright now,\" he says.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:53:44.754Z"
+    },
+    {
+      "title": "Anthropic’s Lead Is Real. Its Moat Isn’t.",
+      "url": "https://pub.towardsai.net/anthropics-lead-is-real-its-moat-isn-t-7c3f56836084?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-04T20:01:01.000Z",
+      "metaDescription": "Anthropic is winning on growth, enterprise spend and developer love. Whether it keeps winning when Claude isn’t the best model is another…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.33634590285455396,
+      "crawledAt": "2026-11-05T00:49:04.870Z",
+      "id": "dn6e9w",
+      "entities": [],
+      "summary": " Anthropic is winning on growth, enterprise spend and developer love. The company is also winning on the ground on the way to the future.",
+      "language": "en",
+      "processed_at": "2026-11-05T00:54:17.669Z"
+    },
     {
       "title": "Open source AI is booming. Hugging Face explains who profits.",
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
@@ -50938,728 +51542,25 @@
       "summary": " The paper was accepted to EMNLP and we were given a poster slot. However due to Visa issue, we cannot attend in-person anymore.",
       "language": "en",
       "processed_at": "2026-10-21T04:23:55.885Z"
-    },
-    {
-      "title": "Comparing MLflow models before promotion: accuracy, CPU latency, memory and approval",
-      "url": "https://www.reddit.com/r/mlops/comments/1xb8bma/comparing_mlflow_models_before_promotion_accuracy/",
-      "source": "r/MLOps",
-      "source_domain": "reddit.com",
-      "source_category": "reddit",
-      "source_priority": "medium",
-      "pubDate": "2026-10-21T00:05:19.000Z",
-      "metaDescription": "I contributed a Kestra workflow for #KestraHacktober that evaluates a candidate MLflow model against the current champion before allowing promotion. The contribution has now been merged.\n The problem ",
-      "category": "product-launch",
-      "difficulty": 4,
-      "confidence": 0.5895361962912177,
-      "crawledAt": "2026-10-25T04:07:02.747Z",
-      "id": "pcz3wh",
-      "entities": [],
-      "summary": " The contribution has now been merged. The problem is now a problem. The contribution is now merged. I contributed a Kestra workflow for #KestraHacktober.",
-      "language": "en",
-      "processed_at": "2026-10-25T04:11:25.277Z"
-    },
-    {
-      "title": "Gemini TTS Audio Quality: How to Catch Silence, Repetition, and Voice Drift",
-      "url": "https://pub.towardsai.net/gemini-tts-audio-quality-how-to-catch-silence-repetition-and-voice-drift-728b58c19813?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-10-21T00:01:02.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.38303760062609005,
-      "crawledAt": "2026-10-21T04:08:29.857Z",
-      "id": "tyzgyw",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8619186878204346,
-          "index": 2,
-          "word": "T",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-10-21T04:23:55.955Z"
-    },
-    {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "source": "OpenAI Blog",
-      "source_domain": "openai.com",
-      "source_category": "company",
-      "source_priority": "high",
-      "pubDate": "2026-10-21T00:00:00.000Z",
-      "metaDescription": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.8099386789025659,
-      "crawledAt": "2026-10-21T19:59:06.587Z",
-      "id": "697ga6",
-      "entities": [],
-      "summary": " OpenAI outlines blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "language": "en",
-      "processed_at": "2026-10-21T20:09:19.403Z"
-    },
-    {
-      "title": "php2shell: patching PHP is easy, finding it is the hard part",
-      "url": "https://sourcegraph.com/blog/php2shell-patching-php-is-easy-finding-it-is-the-hard-part",
-      "source": "Sourcegraph Blog",
-      "source_domain": "sourcegraph.com",
-      "source_category": "developer",
-      "source_priority": "medium",
-      "pubDate": "2026-10-21T00:00:00.000Z",
-      "metaDescription": "PHP patched two critical unauthenticated RCE bugs, CVE-2026-109618 and CVE-2026-109619. Find every PHP runtime in your code with Deep Search, then bump them all with Agentic Batch Changes.",
-      "category": "developer-tool",
-      "difficulty": 4,
-      "confidence": 0.3756763504700601,
-      "crawledAt": "2026-10-21T20:00:02.349Z",
-      "id": "duvrux",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.826870322227478,
-          "index": 9,
-          "word": "P",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " PHP patched two critical unauthenticated RCE bugs, CVE-2026-109618 and CVE-19. Find every PHP runtime in your code with Deep Search, then bump them all with Agentic Batch Changes.",
-      "language": "en",
-      "processed_at": "2026-10-21T20:09:40.382Z"
-    },
-    {
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "source": "OpenAI Blog",
-      "source_domain": "openai.com",
-      "source_category": "company",
-      "source_priority": "high",
-      "pubDate": "2026-10-21T00:00:00.000Z",
-      "metaDescription": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "category": "infrastructure",
-      "difficulty": 6,
-      "confidence": 0.3896330581777394,
-      "crawledAt": "2026-10-22T04:08:29.739Z",
-      "id": "wufud0",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9767207503318787,
-          "index": 1,
-          "word": "Cloud",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9901555776596069,
-          "index": 2,
-          "word": "##f",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.966381847858429,
-          "index": 3,
-          "word": "##lar",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9446088671684265,
-          "index": 4,
-          "word": "##e",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-ORG",
-          "score": 0.9659722447395325,
-          "index": 11,
-          "word": "Open",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "language": "en",
-      "processed_at": "2026-10-22T04:17:06.125Z"
-    },
-    {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T23:01:23.000Z",
-      "metaDescription": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.38594931837901647,
-      "crawledAt": "2026-10-20T23:04:48.267Z",
-      "id": "qa1481",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.9929437041282654,
-          "index": 5,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " The proposed policy would allow federal agencies to block a model's release without the permission of a judge. It would also allow the government to block the release of a model without the judge's permission.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:05:45.408Z"
-    },
-    {
-      "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
-      "url": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
-      "source": "OpenAI",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T22:57:52.000Z",
-      "metaDescription": "",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.37054337451546177,
-      "crawledAt": "2026-10-21T13:37:50.823Z",
-      "id": "4vg4z7",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9583989977836609,
-          "index": 8,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8501139283180237,
-          "index": 13,
-          "word": "Agent",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-10-21T13:46:06.478Z"
-    },
-    {
-      "title": "The Phantom Clinic: Why AI Schedulers Cannot Reconcile Distributed Hospital Calendars",
-      "url": "https://pub.towardsai.net/the-phantom-clinic-why-ai-schedulers-cannot-reconcile-distributed-hospital-calendars-99b5d03c53df?source=rss----98111c9905da---4",
-      "source": "Towards AI",
-      "source_domain": "pub.towardsai.net",
-      "source_category": "medium",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T22:01:02.000Z",
-      "metaDescription": "",
-      "category": "ai-agents",
-      "difficulty": 3,
-      "confidence": 0.524004842117118,
-      "crawledAt": "2026-10-20T23:05:07.384Z",
-      "id": "a5klb7",
-      "entities": [],
-      "summary": "Community discussion about AI developments and related topics.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:03.131Z"
-    },
-    {
-      "title": "How To Design The Perfect Auth System In The Age of AI",
-      "url": "https://www.youtube.com/watch?v=FbXPaIcpvww",
-      "source": "Dave Ebbelaar",
-      "source_domain": "youtube.com",
-      "source_category": "youtube",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T22:00:20.000Z",
-      "metaDescription": "",
-      "category": "creative-ai",
-      "difficulty": 6,
-      "confidence": 0.8015418362469146,
-      "crawledAt": "2026-10-20T23:05:24.379Z",
-      "id": "2a6hj",
-      "entities": [
-        {
-          "entity": "I-MISC",
-          "score": 0.8986367583274841,
-          "index": 6,
-          "word": "Au",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8498423099517822,
-          "index": 7,
-          "word": "##th",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8804031014442444,
-          "index": 8,
-          "word": "System",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8419508934020996,
-          "index": 11,
-          "word": "Age",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8776364326477051,
-          "index": 12,
-          "word": "of",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.8981110453605652,
-          "index": 13,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:03.170Z"
-    },
-    {
-      "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
-      "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T21:44:34.000Z",
-      "metaDescription": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
-      "category": "safety-ethics",
-      "difficulty": 5,
-      "confidence": 0.27727767450472707,
-      "crawledAt": "2026-10-20T23:04:49.915Z",
-      "id": "t7ltpw",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9984261989593506,
-          "index": 6,
-          "word": "RF",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9983615875244141,
-          "index": 7,
-          "word": "##K",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9966914057731628,
-          "index": 8,
-          "word": "Jr",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Guinea-Bissau police say hepatitis B vaccine doses were taken as part of an investigation. Police say hepatitisB vaccine doses are taken as a result of the investigation.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:09.058Z"
-    },
-    {
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:25:22.000Z",
-      "metaDescription": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO",
-      "category": "infrastructure",
-      "difficulty": 4,
-      "confidence": 0.7470826368375972,
-      "crawledAt": "2026-10-20T23:04:48.434Z",
-      "id": "99knvj",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.8645362257957458,
-          "index": 1,
-          "word": "An",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor. The company's infrastructure spending balloons ahead of a planned November IPO.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:16.280Z"
-    },
-    {
-      "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
-      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the sea, sw",
-      "category": "infrastructure",
-      "difficulty": 3,
-      "confidence": 0.6372565330317079,
-      "crawledAt": "2026-10-20T23:04:54.854Z",
-      "id": "sjwnwo",
-      "entities": [],
-      "summary": " The water is 1,000 times denser than air, moving through those two mediums requires very different mechanics. But birds like gulls and puffins can plunge into the sea, sw into the water.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:41.522Z"
-    },
-    {
-      "title": "Here’s the tea",
-      "url": "https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "When Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House, he had no reason to doubt its story. Descendants of the Bos",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.638036841667539,
-      "crawledAt": "2026-10-20T23:04:54.925Z",
-      "id": "o5ckmr",
-      "entities": [],
-      "summary": " Tristan Brown, an associate professor of history at MIT, first examined a Chinese tea chest label displayed at Old South Meeting House.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:06:47.040Z"
-    },
-    {
-      "title": "A reason to eat carbs",
-      "url": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may also i",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.3652503180670233,
-      "crawledAt": "2026-10-20T23:04:55.085Z",
-      "id": "cca45d",
-      "entities": [],
-      "summary": " A high-fat, low-carbohydrate diet can help some people lose weight. But some research has shown that it may protect against colon cancer.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:00.240Z"
-    },
-    {
-      "title": "Taking a swing at a pickleball startup",
-      "url": "https://www.technologyreview.com/2026/10/20/1145287/taking-a-swing-at-a-pickleball-startup/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "In corporate America, Stanley Anderson ’79 says, executives often assume that their peers grew up in privileged circumstances.  He did not. “I spent my early years trying not to get recruited into gan",
-      "category": "product-launch",
-      "difficulty": 3,
-      "confidence": 0.7375845627014519,
-      "crawledAt": "2026-10-20T23:04:55.235Z",
-      "id": "5n21gk",
-      "entities": [],
-      "summary": "In corporate America, Stanley Anderson ’79 says, executives often assume that their peers grew up in privileged circumstances.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:13.930Z"
-    },
-    {
-      "title": "A good TA: priceless",
-      "url": "https://www.technologyreview.com/2026/10/20/1145291/a-good-ta-priceless/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "These are images of quizzes I took in 3.091, Introduction to Solid-State Chemistry, in the fall of 1980. One is my very first exam at MIT, and getting 49 out of 100 was a soul-crushing experience. I c",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.43773348437452436,
-      "crawledAt": "2026-10-20T23:04:55.321Z",
-      "id": "5glpdi",
-      "entities": [],
-      "summary": " The first exam at MIT was a soul-crushing experience. I c c c.c. I c.C. I took 3.091, Introduction to Solid-State Chemistry, in the fall of 1980.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:21.164Z"
-    },
-    {
-      "title": "A cleaner path to rare earth metals",
-      "url": "https://www.technologyreview.com/2026/10/20/1145300/a-cleaner-path-to-rare-earth-metals/",
-      "source": "MIT Technology Review",
-      "source_domain": "technologyreview.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T21:00:00.000Z",
-      "metaDescription": "Tomás Villalón Jr. ’14 was raised in San Antonio, Texas, but vividly remembers smog hanging over the city his family came from—Monterrey, Mexico, a steel manufacturing and metal fabrication hub. Even ",
-      "category": "creative-ai",
-      "difficulty": 3,
-      "confidence": 0.25443383797277747,
-      "crawledAt": "2026-10-20T23:04:55.548Z",
-      "id": "7i5k0o",
-      "entities": [],
-      "summary": "Tomás Villalón Jr. was raised in San Antonio, Texas, but vividly remembers smog hanging over the city his family came from.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:39.492Z"
-    },
-    {
-      "title": "SpaceX’s AI business is beating expectations",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source": "TechCrunch AI",
-      "source_domain": "techcrunch.com",
-      "source_category": "news",
-      "source_priority": "high",
-      "pubDate": "2026-10-20T20:40:41.000Z",
-      "metaDescription": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-      "category": "creative-ai",
-      "difficulty": 5,
-      "confidence": 0.49498745663103655,
-      "crawledAt": "2026-10-20T23:04:48.493Z",
-      "id": "mnrh8v",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.99919593334198,
-          "index": 1,
-          "word": "Space",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9989819526672363,
-          "index": 2,
-          "word": "##X",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9535338878631592,
-          "index": 5,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:43.858Z"
-    },
-    {
-      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
-      "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T20:20:12.000Z",
-      "metaDescription": "A lifetime ad-free subscription is available.",
-      "category": "product-launch",
-      "difficulty": 5,
-      "confidence": 0.3534833994808142,
-      "crawledAt": "2026-10-20T23:04:50.017Z",
-      "id": "1q7h0a",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9982249140739441,
-          "index": 1,
-          "word": "Just",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9985589981079102,
-          "index": 2,
-          "word": "##W",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9960309863090515,
-          "index": 3,
-          "word": "##atch",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:49.825Z"
-    },
-    {
-      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T20:07:58.000Z",
-      "metaDescription": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-      "category": "ai-agents",
-      "difficulty": 5,
-      "confidence": 0.2956606879348361,
-      "crawledAt": "2026-10-20T23:04:50.074Z",
-      "id": "vvikg7",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9986194372177124,
-          "index": 1,
-          "word": "Met",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-ORG",
-          "score": 0.9922550916671753,
-          "index": 2,
-          "word": "##a",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "B-MISC",
-          "score": 0.9873669743537903,
-          "index": 15,
-          "word": "AI",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " Meta changes AI scraping policy but won’t add language respecting robots. It will also add language for robots.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:07:55.411Z"
-    },
-    {
-      "title": "Gemini's Personal Intelligence is coming to cars",
-      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T20:00:33.000Z",
-      "metaDescription": "It's probably time to audit your Gemini settings.",
-      "category": "creative-ai",
-      "difficulty": 4,
-      "confidence": 0.5135031568008647,
-      "crawledAt": "2026-10-20T23:04:50.118Z",
-      "id": "l2aez",
-      "entities": [
-        {
-          "entity": "B-ORG",
-          "score": 0.9818888902664185,
-          "index": 1,
-          "word": "Gemini",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": "Discussion about AI models and tools mentioned in the title.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:08:01.354Z"
-    },
-    {
-      "title": "OpenBSD 8.0 arrives with security record still intact",
-      "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-      "source": "Ars Technica",
-      "source_domain": "arstechnica.com",
-      "source_category": "news",
-      "source_priority": "medium",
-      "pubDate": "2026-10-20T19:57:18.000Z",
-      "metaDescription": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
-      "category": "safety-ethics",
-      "difficulty": 5,
-      "confidence": 0.2879398374484375,
-      "crawledAt": "2026-10-20T23:04:50.179Z",
-      "id": "xl70mk",
-      "entities": [
-        {
-          "entity": "B-MISC",
-          "score": 0.8281406164169312,
-          "index": 1,
-          "word": "Open",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9637174606323242,
-          "index": 2,
-          "word": "##BS",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.9756351709365845,
-          "index": 3,
-          "word": "##D",
-          "start": null,
-          "end": null
-        },
-        {
-          "entity": "I-MISC",
-          "score": 0.993797242641449,
-          "index": 4,
-          "word": "8",
-          "start": null,
-          "end": null
-        }
-      ],
-      "summary": " OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests.",
-      "language": "en",
-      "processed_at": "2026-10-20T23:08:13.197Z"
     }
   ],
-  "processedAt": "2026-11-04T19:56:04.788Z",
+  "processedAt": "2026-11-05T00:55:00.151Z",
   "categories": [
-    "product-launch",
     "creative-ai",
-    "industry-news",
-    "developer-tool",
     "ai-agents",
-    "infrastructure",
     "model-release",
-    "research-paper",
     "safety-ethics",
-    "tutorial-guide"
+    "industry-news",
+    "infrastructure",
+    "tutorial-guide",
+    "product-launch",
+    "developer-tool",
+    "research-paper"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 57,
-  "existingArticlesKept": 1577,
+  "newArticlesProcessed": 16,
+  "existingArticlesKept": 1592,
   "cleanupApplied": true,
-  "cleanedUpCount": 42,
+  "cleanedUpCount": 22,
   "rollingWindowDays": 15
 }
