@@ -1,9 +1,1486 @@
 {
-  "crawledAt": "2026-11-06T05:57:58.160Z",
+  "crawledAt": "2026-11-06T15:50:28.460Z",
   "totalSources": 70,
-  "totalArticles": 62,
+  "totalArticles": 111,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "moe-cache : LRFU/MQ-like hybrid cache, ClassLRU by sanmai · Pull Request #31233 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpfvfz/moecache_lrfumqlike_hybrid_cache_classlru_by/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T15:39:09.000Z",
+      "metaDescription": "Replace SLRU with a cache that prioritizes frequently used experts in classes, ranked using decaying usage history.\n With a warm cache, I measured +6% decode on QFN and +7% on GLM versus SLRU, with 8%",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.29036062045063,
+      "crawledAt": "2026-11-06T15:49:30.637Z",
+      "id": "ql6z1j",
+      "entities": [],
+      "summary": "With a warm cache, I measured +6% decode on QFN and +7% on GLM versus SLRU, with 8% on SLRu, with8% onSLRU. With a warm Cache, I measure +6%, with a warmCache, with",
+      "language": "en",
+      "processed_at": "2026-11-06T15:50:50.863Z"
+    },
+    {
+      "title": "AI Will Change What Companies Hire Software Engineers For",
+      "url": "https://levelup.gitconnected.com/ai-will-change-what-companies-hire-software-engineers-for-d3a97c0b692b?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:23:27.000Z",
+      "metaDescription": "We’ve spent years getting better tools to build software. Now we have to think about what happens when a team needs fewer people to do the…\nContinue reading on Level Up Coding »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9836153517788261,
+      "crawledAt": "2026-11-06T15:49:19.297Z",
+      "id": "9yyfvb",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9610705971717834,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8440843820571899,
+          "index": 8,
+          "word": "Software",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.985826313495636,
+          "index": 9,
+          "word": "Engineers",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Level Up Coding is a team that needs fewer people to do the software. We’ve spent years getting better tools to build software. Now we have to think about what happens when a team needs fewerPeople to do it.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:51:35.847Z"
+    },
+    {
+      "title": "Google Open-Sourced TorchTPU. NVIDIA’s CUDA Advantage Faces Another Test.",
+      "url": "https://levelup.gitconnected.com/google-open-sourced-torchtpu-nvidias-cuda-advantage-faces-another-test-ce015e43e33e?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:23:08.000Z",
+      "metaDescription": "A developer who wants to run a PyTorch model on an NVIDIA GPU usually knows where to begin. Install the right software, move the model to…\nContinue reading on Level Up Coding »",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.4209327672670869,
+      "crawledAt": "2026-11-06T15:49:19.502Z",
+      "id": "9vdcxe",
+      "entities": [
+        {
+          "entity": "I-ORG",
+          "score": 0.9558340311050415,
+          "index": 12,
+          "word": "##VI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9510860443115234,
+          "index": 13,
+          "word": "##DI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9405425786972046,
+          "index": 14,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9502642750740051,
+          "index": 17,
+          "word": "C",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A developer who wants to run a PyTorch model on an NVIDIA GPU usually knows where to begin. Install the right software, move the right model to the right version.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:51:48.861Z"
+    },
+    {
+      "title": "Prompt Is Basically Compressed Experience",
+      "url": "https://levelup.gitconnected.com/prompt-is-just-compressed-experience-cf90de86a9d8?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:22:51.000Z",
+      "metaDescription": "Anyone can write a prompt\nContinue reading on Level Up Coding »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3364068819483026,
+      "crawledAt": "2026-11-06T15:49:19.589Z",
+      "id": "3ng7o4",
+      "entities": [],
+      "summary": " Anyone can write a prompt. Anyone canwrite a prompt. Anyone can also write a Prompt or write a prompts.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:51:58.108Z"
+    },
+    {
+      "title": "Agentic AI 2.2 Context Window Management",
+      "url": "https://levelup.gitconnected.com/agentic-ai-2-2-context-window-management-2a9b39bcf70a?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:22:32.000Z",
+      "metaDescription": "Context Window Management\nContinue reading on Level Up Coding »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.962603680766586,
+      "crawledAt": "2026-11-06T15:49:19.682Z",
+      "id": "hvdnl6",
+      "entities": [],
+      "summary": "Read on Level Up Coding. Read on Level up Coding. Read on Levels Up Coded. Read more on Levelup Coding at Level UpCoding.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:10.832Z"
+    },
+    {
+      "title": "The Payment System Design Interview That Exposes Weak Staff Engineers",
+      "url": "https://levelup.gitconnected.com/the-payment-system-design-interview-that-exposes-weak-staff-engineers-9d7ce929ab44?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:22:14.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3592496665959851,
+      "crawledAt": "2026-11-06T15:49:19.755Z",
+      "id": "vwdd2v",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9718137383460999,
+          "index": 4,
+          "word": "System",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8154460191726685,
+          "index": 5,
+          "word": "Design",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:10.944Z"
+    },
+    {
+      "title": "How I would fill the bronze layer",
+      "url": "https://levelup.gitconnected.com/how-i-would-fill-the-bronze-layer-b3a8b74b49af?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:21:54.000Z",
+      "metaDescription": "CDC when the log can see deletes. A cheaper pattern for every other source. One envelope for silver.\nContinue reading on Level Up Coding »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.43239143373583666,
+      "crawledAt": "2026-11-06T15:49:19.893Z",
+      "id": "afeoas",
+      "entities": [],
+      "summary": " CDC when the log can see deletes. CDC when a log can be seen deletes. A cheaper pattern for every other source. One envelope for silver. One envelop for silver.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:23.689Z"
+    },
+    {
+      "title": "Qdrant’s free tier can be your whole database, not just your vector index",
+      "url": "https://levelup.gitconnected.com/qdrants-free-tier-can-be-your-whole-database-not-just-your-vector-index-494b0bf80e24?source=rss----5517fd7b58a6---4",
+      "source": "Level Up Coding",
+      "source_domain": "levelup.gitconnected.com",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:21:37.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.3744694857625953,
+      "crawledAt": "2026-11-06T15:49:19.982Z",
+      "id": "tnh00k",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9488338828086853,
+          "index": 1,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8130106329917908,
+          "index": 2,
+          "word": "##dra",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:23.853Z"
+    },
+    {
+      "title": "Qwen Developers on X: \"Qwhen? Qsoon! For our friends outside China, the Chinese text in the poster comes from",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpf8qy/qwen_developers_on_x_qwhen_qsoon_for_our_friends/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T15:13:47.000Z",
+      "metaDescription": "Qwhen? Qsoon!\n    submitted by    /u/Nota_ReAlperson  \n [link]   [comments]",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.3277563703082336,
+      "crawledAt": "2026-11-06T15:49:27.698Z",
+      "id": "upaqs3",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9048713445663452,
+          "index": 1,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-LOC",
+          "score": 0.9997439980506897,
+          "index": 22,
+          "word": "China",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9997426271438599,
+          "index": 25,
+          "word": "Chinese",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:52.079Z"
+    },
+    {
+      "title": "Trustworthy AI Agents: The Design Pillar",
+      "url": "https://pub.towardsai.net/trustworthy-ai-agents-the-design-pillar-bed3ed44b921?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T15:01:04.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9192533269141401,
+      "crawledAt": "2026-11-06T15:49:10.631Z",
+      "id": "ckykcc",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9384295344352722,
+          "index": 8,
+          "word": "Pi",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9376509189605713,
+          "index": 9,
+          "word": "##llar",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:52:52.216Z"
+    },
+    {
+      "title": "How to Give Your AI Agent Memory",
+      "url": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
+      "source": "KDnuggets",
+      "source_domain": "kdnuggets.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T15:00:00.000Z",
+      "metaDescription": "Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9536392180189637,
+      "crawledAt": "2026-11-06T15:50:20.977Z",
+      "id": "76g5ba",
+      "entities": [],
+      "summary": " Learn how to give AI agents long-term memory using the OpenAI SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:53:25.044Z"
+    },
+    {
+      "title": "First paper on how to train actual SOTA Decision Models ever: full playbook - architecture, datasets, training, evaluation, inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpeevv/r_first_paper_on_how_to_train_actual_sota/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T14:39:24.000Z",
+      "metaDescription": "Nace AI Research Lab has just published a principled 50-page technical report detailing how their Drex decision models are built, trained, and evaluated. Their report is the first meaningful contribut",
+      "category": "research-paper",
+      "difficulty": 9,
+      "confidence": 0.9816953736022698,
+      "crawledAt": "2026-11-06T15:49:28.337Z",
+      "id": "12mibw",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8764820098876953,
+          "index": 8,
+          "word": "S",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.849237322807312,
+          "index": 12,
+          "word": "Models",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nace AI Research Lab has just published a technical report detailing how their Drex decision models are built, trained, and evaluated. The report is the first meaningful contributory report by NaceAI Research Lab.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:53:38.729Z"
+    },
+    {
+      "title": "Harness Adapters: LoRA adapter for your model per task per harness",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpeee1/harness_adapters_lora_adapter_for_your_model_per/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T14:38:46.000Z",
+      "metaDescription": "Hey folks!\n Aritra from Hugging Face here 🤗.\n We welcome \"harness adapters\". This means you can adapt (train LoRA) for your model for the specific harness that you would use (hermes, pi, opencode) on",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.3521107167865361,
+      "crawledAt": "2026-11-06T15:49:29.285Z",
+      "id": "notdid",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9933398365974426,
+          "index": 8,
+          "word": "Lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.948149561882019,
+          "index": 9,
+          "word": "##RA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The harnesses can be adapted to suit your needs. You can use the harness to make your own. The harness can be fitted with a custom-made version of the harness.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:53:51.039Z"
+    },
+    {
+      "title": "Build a Dual-Mode Voice Agent in Microsoft Foundry with Native Subagents",
+      "url": "https://pub.towardsai.net/build-a-dual-mode-voice-agent-in-microsoft-foundry-with-native-subagents-75b984780bdf?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T14:31:01.000Z",
+      "metaDescription": "Free full article for non-Medium members — here\nContinue reading on Towards AI »",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.4788583653940273,
+      "crawledAt": "2026-11-06T15:49:10.757Z",
+      "id": "9puhe",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8691846132278442,
+          "index": 10,
+          "word": "Microsoft",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9826922416687012,
+          "index": 11,
+          "word": "Found",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.935723066329956,
+          "index": 12,
+          "word": "##ry",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The full article for non-Medium members — here is the full article. Free full article by non-medium members.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:54:01.621Z"
+    },
+    {
+      "title": "The Python Packages That Feel Like Developer Secrets",
+      "url": "https://python.plainenglish.io/the-python-packages-that-feel-like-developer-secrets-a744de1231b4?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T14:22:35.000Z",
+      "metaDescription": "Discover unusual tools for introspection, inspection, parsing, and system access\nContinue reading on Python in Plain English »",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.38092257764859294,
+      "crawledAt": "2026-11-06T15:49:22.038Z",
+      "id": "1zo1w3",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9814448952674866,
+          "index": 2,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Discover unusual tools for introspection, inspection, parsing, and system access. Discover unusual tool for introspective, inspection and parsing.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:54:14.191Z"
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face Blog",
+      "source_domain": "huggingface.co",
+      "source_category": "company",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T14:00:48.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.3646728811650402,
+      "crawledAt": "2026-11-06T15:48:24.556Z",
+      "id": "oucy0h",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9112884998321533,
+          "index": 2,
+          "word": "##B",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:54:53.879Z"
+    },
+    {
+      "title": "What Are AI Evals? And How to Build Your First One",
+      "url": "https://www.youtube.com/watch?v=AyzLIRBuUN8",
+      "source": "Prompt Engineering",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T14:00:21.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.2519757553659159,
+      "crawledAt": "2026-11-06T15:49:44.296Z",
+      "id": "9zqf24",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.8092019557952881,
+          "index": 14,
+          "word": "One",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:54:54.035Z"
+    },
+    {
+      "title": "No more Cybertrucks; Musk moves on from the angular metallic flop",
+      "url": "https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T13:50:20.000Z",
+      "metaDescription": "Tesla wanted to unseat the Ford F-150, instead it made the Edsel look successful.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.27681935514026057,
+      "crawledAt": "2026-11-06T15:48:40.254Z",
+      "id": "5t0wlg",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8092144727706909,
+          "index": 3,
+          "word": "Cy",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.882412314414978,
+          "index": 4,
+          "word": "##bert",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9753003716468811,
+          "index": 8,
+          "word": "Mu",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Tesla wanted to unseat the Ford F-150, instead it made the Edsel look successful. Tesla wanted tounseat the F- 150, instead of unseat it.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:55:17.088Z"
+    },
+    {
+      "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
+      "source": "Ars Technica",
+      "source_domain": "arstechnica.com",
+      "source_category": "news",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T13:33:20.000Z",
+      "metaDescription": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
+      "category": "product-launch",
+      "difficulty": 5,
+      "confidence": 0.25659454353557304,
+      "crawledAt": "2026-11-06T15:48:40.366Z",
+      "id": "oaopqk",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.81974196434021,
+          "index": 5,
+          "word": "II",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9709417819976807,
+          "index": 12,
+          "word": "New",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9421173334121704,
+          "index": 13,
+          "word": "Glenn",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Interstellar Technologies announces more government funding for Japanese Zero rocket. Interstellar Technologies announced more government funds for the Japanese Zero Rocket.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:55:27.689Z"
+    },
+    {
+      "title": "The Substrate Trap: Why Enterprise AI Use Outruns Its EBIT Impact",
+      "url": "https://pub.towardsai.net/the-substrate-trap-why-enterprise-ai-use-outruns-its-ebit-impact-6de1f29e6606?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:31:01.000Z",
+      "metaDescription": "Nearly nine in ten McKinsey respondents use AI regularly; 37% report any EBIT impact. Before funding more pilots, check the systems…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2901077744330549,
+      "crawledAt": "2026-11-06T15:49:11.017Z",
+      "id": "wosofw",
+      "entities": [],
+      "summary": " Nearly nine in ten McKinsey respondents use AI regularly. 37% report any EBIT impact on the company's business.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:55:37.550Z"
+    },
+    {
+      "title": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+      "url": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:30:00.000Z",
+      "metaDescription": "AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck.\nThe post Build You",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.502170929919667,
+      "crawledAt": "2026-11-06T15:48:49.861Z",
+      "id": "891wnt",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9431642293930054,
+          "index": 12,
+          "word": "O",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8300237655639648,
+          "index": 14,
+          "word": "##ma",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9205381870269775,
+          "index": 16,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The agent picks between three database tools, uses each result to choose its next call. The agent stops at an eight-turn circuit-breaker if it gets stuck.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:55:50.997Z"
+    },
+    {
+      "title": "Linum-AI/pjit-21k · Hugging Face - A Text-to-Image Model Trained for $21K",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcpws/linumaipjit21k_hugging_face_a_texttoimage_model/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:24:58.000Z",
+      "metaDescription": "P-JiT 21K is the P-JiT architecture trained for longer (610M samples at 512px, 50M at 1024px), then post-trained with a variant of FDFO.\n  \nGitHub : https://github.com/Linum-AI/pjit-21k\n Blog Post : h",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.9797330951974818,
+      "crawledAt": "2026-11-06T15:49:29.593Z",
+      "id": "vw8luv",
+      "entities": [],
+      "summary": " P-JiT architecture trained for longer (610M samples) then post-trained with a variant of FDFO.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:02.033Z"
+    },
+    {
+      "title": "Good news bad news…",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:18:37.000Z",
+      "metaDescription": "In the future, we will continue to push toward even larger scales, in the Qwen 4.5 and Qwen 5…\n Screen capture from the announcement that gave us the Qwen 4 sizes, shows we can expect more releases, b",
+      "category": "industry-news",
+      "difficulty": 3,
+      "confidence": 0.30955120920378343,
+      "crawledAt": "2026-11-06T15:49:27.185Z",
+      "id": "bgndlt",
+      "entities": [],
+      "summary": " Qwen 4.5 and Qwen 5.5 are the latest Qwen 3.5 sizes. The Qwen 2.5 is the latest in a long line of Qwen releases.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:18.537Z"
+    },
+    {
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "source": "MIT Technology Review",
+      "source_domain": "technologyreview.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:10:00.000Z",
+      "metaDescription": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a ",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7530538004438981,
+      "crawledAt": "2026-11-06T15:48:45.803Z",
+      "id": "6q398",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9992293119430542,
+          "index": 12,
+          "word": "Samsung",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9669138789176941,
+          "index": 16,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The Download is a daily dose of what's going on in the world of technology. This week's edition includes the weekly Newsquiz.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:30.169Z"
+    },
+    {
+      "title": "FastAPI for Beginners: A Practical Introduction",
+      "url": "https://pub.towardsai.net/fastapi-for-beginners-a-practical-introduction-part-1-4adfc894dccb?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:01:04.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.28453824168508607,
+      "crawledAt": "2026-11-06T15:49:11.085Z",
+      "id": "rcfzbs",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:40.347Z"
+    },
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T13:00:00.000Z",
+      "metaDescription": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.27432541755661743,
+      "crawledAt": "2026-11-06T15:48:37.029Z",
+      "id": "whl9b7",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9867722988128662,
+          "index": 1,
+          "word": "Ph",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8589614033699036,
+          "index": 2,
+          "word": "##ys",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9614945650100708,
+          "index": 3,
+          "word": "##ic",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9224386215209961,
+          "index": 4,
+          "word": "##l",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:49.754Z"
+    },
+    {
+      "title": "AI Hardware Design Review: Build a Verification-First Workflow Before You Fabricate",
+      "url": "https://pub.towardsai.net/ai-hardware-design-review-build-a-verification-first-workflow-before-you-fabricate-4319d0d65e88?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:31:03.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.8998430341139171,
+      "crawledAt": "2026-11-06T15:49:11.170Z",
+      "id": "vs997j",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9743841886520386,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9795153141021729,
+          "index": 2,
+          "word": "Hard",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8404303789138794,
+          "index": 3,
+          "word": "##ware",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:59.476Z"
+    },
+    {
+      "title": "Why Jev AI makes the future of AI a little less dystopian #JevAI",
+      "url": "https://www.youtube.com/shorts/jBd1kIDo1dA",
+      "source": "James Briggs",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:30:15.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8820406232134975,
+      "crawledAt": "2026-11-06T15:49:42.267Z",
+      "id": "z87el1",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:59.672Z"
+    },
+    {
+      "title": "Qwen - the becoming begins",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjzi/qwen_the_becoming_begins/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:26:54.000Z",
+      "metaDescription": "https://x.com/Alibaba_Qwen/status/2118674834632978755\n    submitted by    /u/jacek2023  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.9180168174606065,
+      "crawledAt": "2026-11-06T15:49:26.800Z",
+      "id": "em5ffl",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:59.799Z"
+    },
+    {
+      "title": "Qwen 4 is stealth announced",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:26:17.000Z",
+      "metaDescription": "https://x.com/Alibaba_Qwen/status/2118674834632978755?a=nkzlqosWXNqruaMWsVI&s=20\n    submitted by    /u/Bestlife73  \n [link]   [comments]",
+      "category": "model-release",
+      "difficulty": 4,
+      "confidence": 0.6462040345928667,
+      "crawledAt": "2026-11-06T15:49:26.627Z",
+      "id": "cz3ykc",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8389735221862793,
+          "index": 1,
+          "word": "Q",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.915431022644043,
+          "index": 2,
+          "word": "##wen",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:56:59.927Z"
+    },
+    {
+      "title": "Meet Google Gemini 4 Carbon: AI Model with Cybersecurity Focus",
+      "url": "https://pub.towardsai.net/meet-google-gemini-4-carbon-ai-model-with-cybersecurity-focus-84a01868352f?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:01:05.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.33087803023716295,
+      "crawledAt": "2026-11-06T15:49:11.249Z",
+      "id": "5kl1md",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9718340635299683,
+          "index": 3,
+          "word": "Gemini",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8096209764480591,
+          "index": 12,
+          "word": "##ec",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:57:00.092Z"
+    },
+    {
+      "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
+      "url": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
+      "source": "Towards Data Science",
+      "source_domain": "towardsdatascience.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T12:00:00.000Z",
+      "metaDescription": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts.\nThe post Give Your Python AI Agent Persistent ",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9849347533351838,
+      "crawledAt": "2026-11-06T15:48:50.063Z",
+      "id": "ccm4dc",
+      "entities": [],
+      "summary": "The post Give Your Python AI Agent Persistent. The post includes three Python classes and an OpenRouter key.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:57:11.696Z"
+    },
+    {
+      "title": "Quiz: LBYL vs EAFP: Preventing or Handling Errors in Python",
+      "url": "https://realpython.com/quizzes/python-lbyl-vs-eafp/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T12:00:00.000Z",
+      "metaDescription": "In this quiz, you’ll test your understanding of\nLBYL vs EAFP: Preventing or Handling Errors in Python.\nBy working through this quiz, you’ll revisit the look before you leap (LBYL) and easier\nto ask fo",
+      "category": "safety-ethics",
+      "difficulty": 6,
+      "confidence": 0.5443779933845759,
+      "crawledAt": "2026-11-06T15:50:25.262Z",
+      "id": "la5bfc",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9974659085273743,
+          "index": 4,
+          "word": "L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9807385206222534,
+          "index": 5,
+          "word": "##B",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9512398838996887,
+          "index": 6,
+          "word": "##Y",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9445754885673523,
+          "index": 7,
+          "word": "##L",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9887514710426331,
+          "index": 9,
+          "word": "EA",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " In this quiz, you’ll test your understanding of the look before you leap (LBYL) and easier to ask fo ask fo.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:57:39.383Z"
+    },
+    {
+      "title": "DiffusionGemma: Hands-On with Google’s Text Model That Writes All at Once",
+      "url": "https://machinelearningmastery.com/diffusiongemma-hands-on-with-googles-text-model-that-writes-all-at-once/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T11:00:00.000Z",
+      "metaDescription": "In this article, you will learn what DiffusionGemma is, how its diffusion-based text generation differs from standard autoregressive language models, and how to run it...",
+      "category": "developer-tool",
+      "difficulty": 5,
+      "confidence": 0.5037406193746271,
+      "crawledAt": "2026-11-06T15:48:54.971Z",
+      "id": "allh63",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9957536458969116,
+          "index": 12,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8280693888664246,
+          "index": 16,
+          "word": "Model",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " DiffusionGemma is, how its diffusion-based text generation differs from standard autoregressive language models.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:57:52.602Z"
+    },
+    {
+      "title": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T10:28:37.000Z",
+      "metaDescription": "Kimi K3.1 and Tencent’s Hy4 are both gutting out cybersecurity, reverse engineering, and vulnerability-patching capabilities from their open-source models.\n This is becoming a really bad pattern acros",
+      "category": "developer-tool",
+      "difficulty": 4,
+      "confidence": 0.254805820582173,
+      "crawledAt": "2026-11-06T15:49:27.403Z",
+      "id": "j3idfm",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8825189471244812,
+          "index": 3,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9692761898040771,
+          "index": 5,
+          "word": "Source",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Kimi K3.1 and Tencent's Hy4 are gutting out cybersecurity, reverse engineering, and vulnerability-patching capabilities. This is becoming a really bad pattern acros, says Kimi.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:17.029Z"
+    },
+    {
+      "title": "Your AI Model Has an Expiration Date. Your Architecture Shouldn’t.",
+      "url": "https://generativeai.pub/your-ai-model-has-an-expiration-date-your-architecture-shouldnt-89d95e4d2630?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T10:24:09.000Z",
+      "metaDescription": "",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.4596189707756279,
+      "crawledAt": "2026-11-06T15:49:23.470Z",
+      "id": "311kgc",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9232302904129028,
+          "index": 2,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:17.153Z"
+    },
+    {
+      "title": "pi + strata + qwen 3.8 flash next q4 k xl --> funny stuff in logs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8ys0/pi_strata_qwen_38_flash_next_q4_k_xl_funny_stuff/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T09:51:55.000Z",
+      "metaDescription": "Whilst the agent was hammering away at an audio engine task, i suddenly saw it daydreaming \n https://preview.redd.it/0ukxpj8fryzh1.png?width=1936&format=png&auto=webp&s=6973debd75375aff37eba0cddd5bba8",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.3980051107430697,
+      "crawledAt": "2026-11-06T15:49:29.077Z",
+      "id": "a1xw96",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:34.701Z"
+    },
+    {
+      "title": "CyberTiel35BA3B working on Blender Rigging via MCP. 8GB VRAM, 16GB RAM. llama.cpp.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8sjd/cybertiel35ba3b_working_on_blender_rigging_via/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T09:40:31.000Z",
+      "metaDescription": "Not a native English speaker. Written with my own ten fingers, one finger is broken btw. Plz bare with me. I still love to write text myself.\n My PC is suck for AI works. That's all I have as a third ",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.9103031725465276,
+      "crawledAt": "2026-11-06T15:49:30.118Z",
+      "id": "wby3a3",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.808556854724884,
+          "index": 15,
+          "word": "##ig",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " One finger is broken btw. Not a native English speaker. I still love to write text myself. My PC is suck for AI works.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:48.531Z"
+    },
+    {
+      "title": "Use an LLM as a Judge Inside Your Python Agent — Here’s How to Measure If It’s Actually Working",
+      "url": "https://pub.towardsai.net/use-an-llm-as-a-judge-inside-your-python-agent-heres-how-to-measure-if-it-s-actually-working-05468a1b5ed1?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T07:51:06.000Z",
+      "metaDescription": "57% of organisations now have agents in production and quality is the #1 barrier to deployment. The LLM-as-judge pattern has matured from…\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.5660578592374392,
+      "crawledAt": "2026-11-06T15:49:11.637Z",
+      "id": "gsyfww",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9203965663909912,
+          "index": 3,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The LLM-as-judge pattern has matured. 57% of organisations have agents in production and quality.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:58.371Z"
+    },
+    {
+      "title": "The Future of AI Is Absolutely Incredible",
+      "url": "https://www.youtube.com/watch?v=XgC1QTs6A2U",
+      "source": "Two Minute Papers",
+      "source_domain": "youtube.com",
+      "source_category": "youtube",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T07:27:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.7376062392634198,
+      "crawledAt": "2026-11-06T15:49:35.601Z",
+      "id": "ggpshv",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9826545715332031,
+          "index": 3,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9963372945785522,
+          "index": 4,
+          "word": "AI",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:58:58.461Z"
+    },
+    {
+      "title": "Pandas Is Not Slow — Your Data Workflow May Be",
+      "url": "https://python.plainenglish.io/pandas-is-not-slow-your-data-workflow-may-be-6c02749bca0d?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T07:14:34.000Z",
+      "metaDescription": "Find the real performance bottlenecks, replace expensive Python loops, and process larger datasets without rewriting everything.\nContinue reading on Python in Plain English »",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2631909261228659,
+      "crawledAt": "2026-11-06T15:49:22.371Z",
+      "id": "eggzbz",
+      "entities": [],
+      "summary": "Find the real performance bottlenecks, replace expensive Python loops, and process larger datasets without rewriting everything. Find the realperformance bottlenECks, replacing expensive Python loop loops, replaceexpensive Python loops and process large datasets.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:59:14.764Z"
+    },
+    {
+      "title": "Ditch $20/Month Subscriptions: Build a Completely Free, Private AI Agent in 10 Lines of Python",
+      "url": "https://python.plainenglish.io/ditch-20-month-subscriptions-build-a-completely-free-private-ai-agent-in-10-lines-of-python-1ead973972c6?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T06:58:00.000Z",
+      "metaDescription": "A local model, a small Python loop, and zero monthly fees. Here is what that setup can and can’t replace.\nContinue reading on Python in Plain English »",
+      "category": "ai-agents",
+      "difficulty": 4,
+      "confidence": 0.9840440127304615,
+      "crawledAt": "2026-11-06T15:49:22.557Z",
+      "id": "mqk8yh",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9743938446044922,
+          "index": 24,
+          "word": "of",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9306004047393799,
+          "index": 25,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " A local model, a small Python loop, and zero monthly fees can and can’t replace. A local version, a local model and a smallPython loop, can and cannot be replaced.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:59:27.289Z"
+    },
+    {
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "source": "TechCrunch AI",
+      "source_domain": "techcrunch.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T06:28:32.000Z",
+      "metaDescription": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "category": "ai-agents",
+      "difficulty": 7,
+      "confidence": 0.5157210912642008,
+      "crawledAt": "2026-11-06T15:48:37.173Z",
+      "id": "b7c2a8",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9994646310806274,
+          "index": 1,
+          "word": "Pa",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9963626265525818,
+          "index": 2,
+          "word": "##lo",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9993482828140259,
+          "index": 3,
+          "word": "Alto",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9994733929634094,
+          "index": 4,
+          "word": "Networks",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9462422728538513,
+          "index": 9,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9914162158966064,
+          "index": 14,
+          "word": "C",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9794781804084778,
+          "index": 15,
+          "word": "##lut",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9554739594459534,
+          "index": 16,
+          "word": "##ch",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:59:37.674Z"
+    },
+    {
+      "title": "$2.5 Trillion Wiped Out as Wall Street Panics Over AI Slowdown Fears",
+      "url": "https://generativeai.pub/2-5-trillion-wiped-out-as-wall-street-panics-over-ai-slowdown-fears-145dcc2ba0d8?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T06:20:58.000Z",
+      "metaDescription": "Nasdaq suffers its worst crash since April 2025.\nContinue reading on Generative AI »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.2623640088823798,
+      "crawledAt": "2026-11-06T15:49:23.606Z",
+      "id": "388o0u",
+      "entities": [
+        {
+          "entity": "B-LOC",
+          "score": 0.9916253089904785,
+          "index": 13,
+          "word": "Wall",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-LOC",
+          "score": 0.9949766397476196,
+          "index": 14,
+          "word": "Street",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Nasdaq suffers its worst crash since April 2025. Nasdaq has been hit by a series of bad news stories.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:59:45.450Z"
+    },
+    {
+      "title": "Build a Recommendation Engine from Scratch with Python",
+      "url": "https://python.plainenglish.io/build-a-recommendation-engine-from-scratch-with-python-d0b5846d1389?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-06T05:58:48.000Z",
+      "metaDescription": "Turn user behavior and item features into useful recommendations with feature engineering, similarity scoring, and a lightweight API.\nContinue reading on Python in Plain English »",
+      "category": "developer-tool",
+      "difficulty": 3,
+      "confidence": 0.30005724939761147,
+      "crawledAt": "2026-11-06T15:49:22.700Z",
+      "id": "78nn3x",
+      "entities": [],
+      "summary": "Python has a lightweight API. Turn user behavior and item features into useful recommendations with feature engineering, similarity scoring, and a lightweightAPI.",
+      "language": "en",
+      "processed_at": "2026-11-06T15:59:54.347Z"
+    },
     {
       "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
       "url": "https://arxiv.org/abs/2611.06962",
@@ -1604,6 +3081,25 @@
       "processed_at": "2026-11-06T06:14:54.839Z"
     },
     {
+      "title": "Maybe we'll get cheap RAM for Christmas after all!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-05T22:00:25.000Z",
+      "metaDescription": "submitted by    /u/keepthepace  \n [link]   [comments]",
+      "category": "product-launch",
+      "difficulty": 3,
+      "confidence": 0.4093718161441204,
+      "crawledAt": "2026-11-06T15:49:27.515Z",
+      "id": "4pusy5",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-06T16:00:19.508Z"
+    },
+    {
       "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
       "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
       "source": "Ars Technica",
@@ -1799,6 +3295,53 @@
       "processed_at": "2026-11-06T06:16:11.674Z"
     },
     {
+      "title": "Polars vs pandas: What's the Difference?",
+      "url": "https://realpython.com/polars-vs-pandas/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-05T14:00:00.000Z",
+      "metaDescription": "Polars and pandas both provide DataFrame-based data analysis in Python, but they differ in syntax, performance, and features. In this tutorial on Polars vs pandas, you’ll compare their method chaining",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.2601427163461627,
+      "crawledAt": "2026-11-06T15:50:25.454Z",
+      "id": "ddrlfp",
+      "entities": [],
+      "summary": " Polars and pandas both provide DataFrame-based data analysis in Python. But they differ in syntax, performance, and features.",
+      "language": "en",
+      "processed_at": "2026-11-06T16:00:30.152Z"
+    },
+    {
+      "title": "Beautiful Soup: Build a Web Scraper With Python",
+      "url": "https://realpython.com/beautiful-soup-web-scraper-python/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-05T14:00:00.000Z",
+      "metaDescription": "Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.456647194812067,
+      "crawledAt": "2026-11-06T15:50:25.800Z",
+      "id": "4uglc7",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9365388751029968,
+          "index": 13,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Beautiful Soup is a Python library designed for parsing HTML and XML documents. It's a simple way to extract data from documents you've scraped from the internet.",
+      "language": "en",
+      "processed_at": "2026-11-06T16:00:39.893Z"
+    },
+    {
       "title": "A logged AI prompt and a prompt tied to your name are two different problems",
       "url": "https://www.reddit.com/r/artificial/comments/1xoj0n6/a_logged_ai_prompt_and_a_prompt_tied_to_your_name/",
       "source": "r/artificial",
@@ -1960,22 +3503,42 @@
       "summary": " Flipsnack focused on getting people to sign up for its ChatGPT ad campaign. The company says it is trying to get people to try its product.",
       "language": "en",
       "processed_at": "2026-11-06T06:17:30.750Z"
+    },
+    {
+      "title": "Why My Agentic Test Pipeline Is Not Exploratory Testing",
+      "url": "https://ai.plainenglish.io/why-my-agentic-test-pipeline-is-not-exploratory-testing-b5e78e11f8bc?source=rss----78d064101951---4",
+      "source": "AI in Plain English",
+      "source_domain": "ai.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-03T14:58:21.000Z",
+      "metaDescription": "I could have built an agent that explores like a human tester, but I chose determinism and lower token cost instead.\nContinue reading on Artificial Intelligence in Plain English »",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.33012624903494114,
+      "crawledAt": "2026-11-06T15:49:21.746Z",
+      "id": "ft5d86",
+      "entities": [],
+      "summary": " I could have built an agent that explores like a human tester, but I chose determinism and lower token cost instead.",
+      "language": "en",
+      "processed_at": "2026-11-06T16:00:53.871Z"
     }
   ],
-  "processedAt": "2026-11-06T06:17:40.802Z",
+  "processedAt": "2026-11-06T16:00:53.877Z",
   "categories": [
-    "creative-ai",
-    "ai-agents",
-    "safety-ethics",
     "infrastructure",
-    "research-paper",
-    "industry-news",
-    "tutorial-guide",
+    "ai-agents",
     "developer-tool",
-    "product-launch"
+    "creative-ai",
+    "research-paper",
+    "product-launch",
+    "industry-news",
+    "model-release",
+    "safety-ethics",
+    "tutorial-guide"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 62,
-  "dailyArticlesCount": 62,
+  "newArticlesProcessed": 49,
+  "dailyArticlesCount": 111,
   "filterDate": "2026-11-06"
 }
