@@ -1,9 +1,757 @@
 {
-  "crawledAt": "2026-11-07T05:30:03.615Z",
+  "crawledAt": "2026-11-07T14:49:27.501Z",
   "totalSources": 70,
-  "totalArticles": 15,
+  "totalArticles": 40,
   "aiFilterUsed": true,
   "articles": [
+    {
+      "title": "Valet: use local LLMs to manage your homelab",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T14:32:04.000Z",
+      "metaDescription": "My favourite use case for local LLMs is running my homelab, because everything stays private (and it helps me justify the GPU lol)\n I wanted one dashboard to help me manage all of my services, so I ma",
+      "category": "infrastructure",
+      "difficulty": 4,
+      "confidence": 0.5718653912736755,
+      "crawledAt": "2026-11-07T14:49:09.533Z",
+      "id": "z7usea",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.8272692561149597,
+          "index": 6,
+          "word": "LL",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Local LLMs is running my homelab, because everything stays private. I wanted one dashboard to help me manage all of my services, so I ma ma ma.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:49:43.058Z"
+    },
+    {
+      "title": "How to Build an AI Agent Eval Framework With Open Source Tools",
+      "url": "https://pub.towardsai.net/how-to-build-an-ai-agent-eval-framework-with-open-source-tools-967b9cacc6c2?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T14:01:02.000Z",
+      "metaDescription": "One contract file, three layers of evals, and the bad answer that got past my keyword check\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.980927891738253,
+      "crawledAt": "2026-11-07T14:49:01.641Z",
+      "id": "rgh2if",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.929038941860199,
+          "index": 6,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9382829666137695,
+          "index": 7,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9643946886062622,
+          "index": 13,
+          "word": "Source",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " One contract file, three layers of evals, and a bad answer that got past my keyword check. One contractfile, three levels of eval, and three layers, and the bad answer.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:49:56.923Z"
+    },
+    {
+      "title": "Python Project Structure: How to Choose the Right Layout",
+      "url": "https://realpython.com/python-application-layouts/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-07T14:00:00.000Z",
+      "metaDescription": "Your Python project structure, also known as your project layout, is the arrangement of files and directories that determines how your code gets imported, tested, and packaged. Choosing between a flat",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.40219376396905165,
+      "crawledAt": "2026-11-07T14:49:25.821Z",
+      "id": "alwf40",
+      "entities": [],
+      "summary": " Your project structure, also known as your project layout, is the arrangement of files and directories that determines how your code gets imported, tested, and packaged. Choosing between a flat and a flat structure is a key to your project structure.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:50:11.232Z"
+    },
+    {
+      "title": "Thonny: The Beginner-Friendly Python Editor",
+      "url": "https://realpython.com/python-thonny/",
+      "source": "Real Python",
+      "source_domain": "realpython.com",
+      "source_category": "tutorial",
+      "source_priority": "medium",
+      "pubDate": "2026-11-07T14:00:00.000Z",
+      "metaDescription": "Are you a Python beginner looking for a tool that can support your learning? This article is for you! Every programmer needs a place to write their code. This article will discuss an awesome tool call",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8012643088949267,
+      "crawledAt": "2026-11-07T14:49:25.920Z",
+      "id": "91ur9r",
+      "entities": [],
+      "summary": " Every programmer needs a place to write their code. This article will discuss an awesome tool call. Are you a Python beginner looking for a tool that can support your learning?",
+      "language": "en",
+      "processed_at": "2026-11-07T14:50:31.609Z"
+    },
+    {
+      "title": "Floating-Point Precision and Its Effects to Model Inference",
+      "url": "https://machinelearningmastery.com/floating-point-precision/",
+      "source": "Machine Learning Mastery",
+      "source_domain": "machinelearningmastery.com",
+      "source_category": "tutorial",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T13:29:33.000Z",
+      "metaDescription": "Overview This post is divided into five parts; they are: • How Floating-Point Numbers Work • Common Precision Formats • Loading a Model at a Different Precision • Mixed Precision and Sensitive Operati",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.3320639648734982,
+      "crawledAt": "2026-11-07T14:48:55.420Z",
+      "id": "6ic1an",
+      "entities": [],
+      "summary": " This post is divided into five parts; they are: How Floating-Point Numbers Work, Common Precision Formats, Mixed Precision and Sensitive Operati.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:51:10.243Z"
+    },
+    {
+      "title": "I Built AI Automation Systems That Can Generate Income While I Focus on Bigger Problems",
+      "url": "https://python.plainenglish.io/i-built-ai-automation-systems-that-can-generate-income-while-i-focus-on-bigger-problems-cc547d8acce8?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-07T13:06:23.000Z",
+      "metaDescription": "How I use Python, AI agents, APIs, and automation workflows to turn technical skills into practical income opportunities.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.32025909699669025,
+      "crawledAt": "2026-11-07T14:49:06.030Z",
+      "id": "o6ols4",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.8794062733650208,
+          "index": 3,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9800457954406738,
+          "index": 4,
+          "word": "Auto",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9530990123748779,
+          "index": 5,
+          "word": "##mation",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Python, AI agents, APIs, and automation workflows are used to turn technical skills into practical income opportunities. How I use Python, AI agent, and APIs to turn tech skills into economic opportunities.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:51:34.994Z"
+    },
+    {
+      "title": "How to Run a Trillion-Parameter AI Model on a Regular Computer",
+      "url": "https://pub.towardsai.net/how-to-run-a-trillion-parameter-ai-model-on-a-regular-computer-00999212ca9c?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T13:01:03.000Z",
+      "metaDescription": "It works on a laptop with 16GB of memory. Bring 340GB of free disk, and enough patience for a word every couple of seconds\nContinue reading on Towards AI »",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.2819795540097046,
+      "crawledAt": "2026-11-07T14:49:01.688Z",
+      "id": "omabn2",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9681636691093445,
+          "index": 6,
+          "word": "##lli",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9836100339889526,
+          "index": 7,
+          "word": "##on",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The AI. It works on a laptop with 16GB of memory. It works with a laptop that has 16GB memory.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:51:45.648Z"
+    },
+    {
+      "title": "AI Codebase Archaeology: The Evidence Packet to Build Before Your Agent Touches Legacy Code",
+      "url": "https://pub.towardsai.net/ai-codebase-archaeology-the-evidence-packet-to-build-before-your-agent-touches-legacy-code-4e17dfe42be3?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T12:31:01.000Z",
+      "metaDescription": "",
+      "category": "ai-agents",
+      "difficulty": 5,
+      "confidence": 0.9763909019883031,
+      "crawledAt": "2026-11-07T14:49:01.715Z",
+      "id": "sqs5df",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9449726343154907,
+          "index": 1,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8665776252746582,
+          "index": 3,
+          "word": "##base",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8467742204666138,
+          "index": 19,
+          "word": "Code",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:52:05.067Z"
+    },
+    {
+      "title": "Obsessive-1.7B: a 1.1 GB web-search subagent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T12:13:29.000Z",
+      "metaDescription": "I fine-tuned LFM3-1.7B to do one job: take a factual question, call web_search once, and answer with a short value, a word-for-word quote and the URL. If the results don’t contain the answer, it says ",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.2518669689201015,
+      "crawledAt": "2026-11-07T14:49:08.791Z",
+      "id": "8bt75o",
+      "entities": [],
+      "summary": "Take a factual question and answer with a short answer, or a word-for-word answer. If the answer doesn't contain the answer, the results will be displayed.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:52:24.280Z"
+    },
+    {
+      "title": "Does anyone use None reasoning level for anything ever?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T11:59:19.000Z",
+      "metaDescription": "Sometimes I am tempted to use none reasoning level in agentic tasks to save time, but I am always kinda scared to do so. I have only ever used llm with reasoning and with medium at the lowest.\n Anybod",
+      "category": "safety-ethics",
+      "difficulty": 3,
+      "confidence": 0.2592377255418647,
+      "crawledAt": "2026-11-07T14:49:09.004Z",
+      "id": "s9puvx",
+      "entities": [],
+      "summary": " Anybod: I have only ever used llm with reasoning and with medium at the lowest. I am tempted to use none reasoning level in agentic tasks to save time, but I am always kinda scared to do so.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:52:47.391Z"
+    },
+    {
+      "title": "What Should Junior Developers Learn When AI Can Write the Code?",
+      "url": "https://python.plainenglish.io/what-should-junior-developers-learn-when-ai-can-write-the-code-0061687a6f18?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-07T11:35:14.000Z",
+      "metaDescription": "A practical guide to programming fundamentals, debugging, and learning with AI, plus a six-week project plan for junior developers.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.28284044849734163,
+      "crawledAt": "2026-11-07T14:49:06.161Z",
+      "id": "9yrhfz",
+      "entities": [],
+      "summary": " A practical guide to programming fundamentals, and learning with AI, plus a six-week project plan for junior developers.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:53:06.294Z"
+    },
+    {
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "source": "Wired AI",
+      "source_domain": "wired.com",
+      "source_category": "news",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T11:00:00.000Z",
+      "metaDescription": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "confidence": 0.49562594589948256,
+      "crawledAt": "2026-11-07T14:48:51.597Z",
+      "id": "749g0l",
+      "entities": [],
+      "summary": " The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable. The broader issue of caregivers’ well-being remains unsolved.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:53:29.776Z"
+    },
+    {
+      "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T09:00:23.000Z",
+      "metaDescription": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequential",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.4924597398463912,
+      "crawledAt": "2026-11-07T14:49:09.056Z",
+      "id": "c2e3xb",
+      "entities": [],
+      "summary": " Each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequential drafting and verify.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:53:37.540Z"
+    },
+    {
+      "title": "PCIe in AI Inference: Where It Shines and Where It Lags",
+      "url": "https://pub.towardsai.net/pcie-in-ai-inference-where-it-shines-and-where-it-lags-ad862bd9e1ec?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T07:28:47.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 6,
+      "confidence": 0.47884162150378456,
+      "crawledAt": "2026-11-07T14:49:01.766Z",
+      "id": "zlozi",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9915067553520203,
+          "index": 5,
+          "word": "AI",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.9636237025260925,
+          "index": 6,
+          "word": "In",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8699085116386414,
+          "index": 7,
+          "word": "##ference",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:53:45.995Z"
+    },
+    {
+      "title": "Your AI Agent Crashed Six Hours Into the Job. Make It Resume, Not Restart",
+      "url": "https://pub.towardsai.net/long-running-ai-agents-crash-recovery-microsoft-foundry-b16aa28ca8e4?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T07:20:34.000Z",
+      "metaDescription": "How Microsoft Foundry hosted agents recover from crashes, reboots, and redeploys, and the checkpoints and fences your code still owns\nContinue reading on Towards AI »",
+      "category": "ai-agents",
+      "difficulty": 3,
+      "confidence": 0.9795922819321792,
+      "crawledAt": "2026-11-07T14:49:01.816Z",
+      "id": "y7dw62",
+      "entities": [],
+      "summary": " How Microsoft Foundry hosted agents recover from crashes, reboots, and redeploys, and checkpoints and fences your code still owns.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:53:56.475Z"
+    },
+    {
+      "title": "Coding an Agent: A Harness That Rewrites Itself",
+      "url": "https://pub.towardsai.net/coding-an-agent-a-harness-that-rewrites-itself-86a783d4ea6a?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T07:20:32.000Z",
+      "metaDescription": "A small model, a strong editor, and noise\nContinue reading on Towards AI »",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.8525776947721784,
+      "crawledAt": "2026-11-07T14:49:01.849Z",
+      "id": "qer1hn",
+      "entities": [],
+      "summary": " A small model, a strong editor, and a strong Editor, and noise-proof editor. A small editor, aStrong editor, is a strong writer and a good editor.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:08.794Z"
+    },
+    {
+      "title": "Best AI Tools to Skyrocket Your Productivity,",
+      "url": "https://pub.towardsai.net/best-ai-tools-to-skyrocket-your-productivity-7678ef81d081?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T07:19:59.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.5234750807497697,
+      "crawledAt": "2026-11-07T14:49:01.873Z",
+      "id": "bvkg4l",
+      "entities": [],
+      "summary": "Community discussion seeking help or recommendations on AI-related topics.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:08.857Z"
+    },
+    {
+      "title": "15 GitHub Repos That Turn Claude Code, Codex and OpenCode Into a Real Team",
+      "url": "https://pub.towardsai.net/15-github-repos-that-turn-claude-code-codex-and-opencode-into-a-real-team-fb4b18a99efe?source=rss----98111c9905da---4",
+      "source": "Towards AI",
+      "source_domain": "pub.towardsai.net",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T07:16:45.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.25784377655024104,
+      "crawledAt": "2026-11-07T14:49:01.951Z",
+      "id": "mizf8j",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9332941770553589,
+          "index": 4,
+          "word": "##H",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.8671038746833801,
+          "index": 13,
+          "word": "Codex",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:18.274Z"
+    },
+    {
+      "title": "Automate Excel Tasks with Python and xlwings",
+      "url": "https://python.plainenglish.io/automate-excel-tasks-with-python-and-xlwings-50e897520af5?source=rss----78073def27b8---4",
+      "source": "Python in Plain English",
+      "source_domain": "python.plainenglish.io",
+      "source_category": "medium",
+      "source_priority": "medium",
+      "pubDate": "2026-11-07T06:17:14.000Z",
+      "metaDescription": "Build dependable spreadsheet automation that updates workbooks, preserves formatting, and handles common failures.\nContinue reading on Python in Plain English »",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8104899497105401,
+      "crawledAt": "2026-11-07T14:49:06.251Z",
+      "id": "fzl17f",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.918165385723114,
+          "index": 3,
+          "word": "Ex",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-MISC",
+          "score": 0.9722280502319336,
+          "index": 8,
+          "word": "Python",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Build dependable spreadsheet automation that updates workbooks, preserves formatting, and handles common failures. Build dependative spreadsheet automation.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:26.344Z"
+    },
+    {
+      "title": "AI Agent Frameworks in 2026: LangGraph, CrewAI, OpenAI Agents SDK, Google ADK and Everything In…",
+      "url": "https://generativeai.pub/ai-agent-frameworks-in-2026-langgraph-crewai-openai-agents-sdk-google-adk-and-everything-in-45bb3ffe6ba4?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T06:11:42.000Z",
+      "metaDescription": "Know The Difference Between Agent Frameworks vs Harness vs. Protocols. Stop Picking Your Agent Stack by GitHub Stars.\nContinue reading on Generative AI »",
+      "category": "ai-agents",
+      "difficulty": 10,
+      "confidence": 0.9712121453618607,
+      "crawledAt": "2026-11-07T14:49:06.498Z",
+      "id": "w8ir5h",
+      "entities": [
+        {
+          "entity": "I-MISC",
+          "score": 0.9137616157531738,
+          "index": 2,
+          "word": "Agent",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-MISC",
+          "score": 0.8165883421897888,
+          "index": 3,
+          "word": "Framework",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9819098114967346,
+          "index": 9,
+          "word": "Lang",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9765012860298157,
+          "index": 10,
+          "word": "##G",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9874525666236877,
+          "index": 11,
+          "word": "##rap",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9217325448989868,
+          "index": 12,
+          "word": "##h",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.996551513671875,
+          "index": 14,
+          "word": "Crew",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9862361550331116,
+          "index": 15,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9571338295936584,
+          "index": 16,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9945865273475647,
+          "index": 18,
+          "word": "Open",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9750655889511108,
+          "index": 19,
+          "word": "##A",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9397656917572021,
+          "index": 20,
+          "word": "##I",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9675815105438232,
+          "index": 21,
+          "word": "Agents",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9886103868484497,
+          "index": 22,
+          "word": "SD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9574103951454163,
+          "index": 23,
+          "word": "##K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.995456874370575,
+          "index": 25,
+          "word": "Google",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.98396897315979,
+          "index": 26,
+          "word": "AD",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.8837548494338989,
+          "index": 27,
+          "word": "##K",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9703635573387146,
+          "index": 29,
+          "word": "Everything",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9534924030303955,
+          "index": 30,
+          "word": "In",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Stop Picking your Agent Stack by GitHub Stars. Stop Picked Your Agent Stack. Stop Picks Your Agent stack by GitHub stars.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:35.377Z"
+    },
+    {
+      "title": "How to Make a GIF in ChatGPT: A Beginner’s Guide",
+      "url": "https://generativeai.pub/how-to-make-a-gif-in-chatgpt-a-beginners-guide-fd2b9726cdf1?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T06:08:02.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 4,
+      "confidence": 0.8562546520683745,
+      "crawledAt": "2026-11-07T14:49:06.525Z",
+      "id": "gksman",
+      "entities": [
+        {
+          "entity": "B-MISC",
+          "score": 0.9523641467094421,
+          "index": 5,
+          "word": "G",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:35.423Z"
+    },
+    {
+      "title": "Agent Skills Drift: A Feedback Loop for Keeping One True",
+      "url": "https://generativeai.pub/agent-skills-drift-a-feedback-loop-for-keeping-one-true-9ec551ef6859?source=rss----440100e76000---4",
+      "source": "Generative AI",
+      "source_domain": "generativeai.pub",
+      "source_category": "medium",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T06:02:17.000Z",
+      "metaDescription": "",
+      "category": "creative-ai",
+      "difficulty": 3,
+      "confidence": 0.46466633860512907,
+      "crawledAt": "2026-11-07T14:49:06.549Z",
+      "id": "2e1bk1",
+      "entities": [],
+      "summary": "Community discussion about AI developments and related topics.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:35.468Z"
+    },
     {
       "title": "Meta’s Muse Spark Open Changes the Local AI Conversation. Here’s Why.",
       "url": "https://python.plainenglish.io/metas-muse-spark-open-changes-the-local-ai-conversation-here-s-why-c7f1d65f8360?source=rss----78073def27b8---4",
@@ -39,6 +787,90 @@
       "summary": " The Muse Spark Open needs, what it needs, and what it costs, and why Muse Glimmer matters.",
       "language": "en",
       "processed_at": "2026-11-07T05:30:17.220Z"
+    },
+    {
+      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-07T02:41:59.000Z",
+      "metaDescription": "submitted by    /u/Izento  \n [link]   [comments]",
+      "category": "creative-ai",
+      "difficulty": 7,
+      "confidence": 0.27534441507516183,
+      "crawledAt": "2026-11-07T14:49:08.948Z",
+      "id": "9dt2tv",
+      "entities": [
+        {
+          "entity": "B-PER",
+          "score": 0.9963510036468506,
+          "index": 7,
+          "word": "Kim",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8373072743415833,
+          "index": 8,
+          "word": "##i",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9956545829772949,
+          "index": 9,
+          "word": "Code",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9077398777008057,
+          "index": 11,
+          "word": "Her",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.8964942097663879,
+          "index": 12,
+          "word": "##mes",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-PER",
+          "score": 0.9879827499389648,
+          "index": 16,
+          "word": "Claude",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-PER",
+          "score": 0.9784226417541504,
+          "index": 17,
+          "word": "Code",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "B-ORG",
+          "score": 0.9032779932022095,
+          "index": 19,
+          "word": "Codex",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": "Discussion about AI models and tools mentioned in the title.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:54:53.895Z"
     },
     {
       "title": "CutGPT officially launched yesterday.",
@@ -159,6 +991,58 @@
       "processed_at": "2026-11-07T05:31:42.940Z"
     },
     {
+      "title": "Scylla's Band v4, open source TTS with code to run everywhere",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T22:26:59.000Z",
+      "metaDescription": "This has been a long one for me: almost a year as a solo project, learning how to build a TTS model from the ground up. I wanted something fast, small enough to run on a phone, multilingual, and (the ",
+      "category": "infrastructure",
+      "difficulty": 5,
+      "confidence": 0.3296706882965286,
+      "crawledAt": "2026-11-07T14:49:09.796Z",
+      "id": "l3sg8u",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9897152185440063,
+          "index": 1,
+          "word": "Sc",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9796538352966309,
+          "index": 2,
+          "word": "##yl",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9697263240814209,
+          "index": 3,
+          "word": "##la",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9383842945098877,
+          "index": 5,
+          "word": "s",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " The TTS model is small enough to run on a phone, multilingual, and a multilingual. This has been a long one for me, learning how to build a TTS from the ground up.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:55:06.794Z"
+    },
+    {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
       "source": "GitHub Blog",
@@ -236,6 +1120,50 @@
       "summary": " EA's preservation efforts are nice to see. It's mostly bad news from EA lately, but preservation efforts have been good.",
       "language": "en",
       "processed_at": "2026-11-07T05:32:21.362Z"
+    },
+    {
+      "title": "We are in the golden age of Local LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
+      "source": "r/LocalLLaMA",
+      "source_domain": "reddit.com",
+      "source_category": "reddit",
+      "source_priority": "high",
+      "pubDate": "2026-11-06T21:54:01.000Z",
+      "metaDescription": "Q4 of 2026 has been astronomical for local LLM.\n Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release.\n We’re getting closer to having fronti",
+      "category": "creative-ai",
+      "difficulty": 5,
+      "confidence": 0.3127168929587758,
+      "crawledAt": "2026-11-07T14:49:09.221Z",
+      "id": "qrciyc",
+      "entities": [
+        {
+          "entity": "B-ORG",
+          "score": 0.9742547273635864,
+          "index": 8,
+          "word": "Local",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.9514776468276978,
+          "index": 9,
+          "word": "LL",
+          "start": null,
+          "end": null
+        },
+        {
+          "entity": "I-ORG",
+          "score": 0.914053738117218,
+          "index": 10,
+          "word": "##M",
+          "start": null,
+          "end": null
+        }
+      ],
+      "summary": " Qwen's 27B and Flash-Next models are pushing local AI further. We're getting closer to having fronti fronti.",
+      "language": "en",
+      "processed_at": "2026-11-07T14:55:34.024Z"
     },
     {
       "title": "AI teddy makes unprompted 'I can't help with killing you' remark",
@@ -516,17 +1444,18 @@
       "processed_at": "2026-11-07T05:35:02.106Z"
     }
   ],
-  "processedAt": "2026-11-07T05:35:02.122Z",
+  "processedAt": "2026-11-07T14:55:34.028Z",
   "categories": [
-    "creative-ai",
-    "product-launch",
-    "safety-ethics",
     "infrastructure",
+    "ai-agents",
+    "creative-ai",
+    "safety-ethics",
+    "product-launch",
     "developer-tool",
     "model-release"
   ],
   "processingMethod": "ai-powered",
-  "newArticlesProcessed": 15,
-  "dailyArticlesCount": 15,
+  "newArticlesProcessed": 25,
+  "dailyArticlesCount": 40,
   "filterDate": "2026-11-07"
 }
